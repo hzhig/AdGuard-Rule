@@ -33,7 +33,7 @@ jobs:
         run:  java -jar ./target/adg-rule-1.0.0.jar
 
       - name: Commit Changes
-        id: 提交
+        id: commit
         run: |
           if [ -z "$(git status --porcelain)" ]; then 
               exit 0
