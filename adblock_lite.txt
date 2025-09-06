@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2025-09-05 20:36:08(GMT+8) 
-! Total count: 31202
+! ! Version: 2025-09-06 09:18:18(GMT+8) 
+! Total count: 31210
  
 ###ADtip
 ###Ad_windows
@@ -748,7 +748,7 @@
 ##.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##.right > .content > .ads
-##.rm-two > a[href*=".umtrack.com"]
+##.rm-twoa > a[href*=".umtrack.com"]
 ##.room-ad-bottom
 ##.room-ad-top
 ##.room-ad-video-down
@@ -1568,7 +1568,7 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 $script,third-party,denyallow=unpkg.zhihu.com,domain=52niuyan.cc
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
-$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
 $script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net
 $script,third-party,websocket,domain=52codes.net
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
@@ -4317,7 +4317,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@/adjs_pic_$domain=168gamer.net|slit.cn
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
-@@/adpro.js$domain=tingfm.com
 @@/adriver.js$script,domain=habrahabr.ru|megamozg.ru|geektimes.ru
 @@/ads-api.$domain=moneysave.info|zxmee.com
 @@/ads.js$domain=iyf.tv
@@ -4362,6 +4361,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
+@@/ggjs/*$domain=tingfm.com
 @@/google-ad-block-test-googleadservices-gpt-pubads.js$script,domain=viki.mx|viki.com
 @@/gtm.js$domain=amd.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
@@ -8612,7 +8612,7 @@ elecinfo.com##div[class$="-advert"]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##.doc-s-content
+element-plus.org##.doc-content-zosdsoycx
 elle.com.hk##.tpc-container
 elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
 embedrise.com#%#//scriptlet('prevent-window-open')
@@ -14115,7 +14115,7 @@ tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
 tmall.com##.mui-mbarp-qrcode-tip
 tmall.com##.sn-mobile
 tmall.com##div[style*="z-index: 99999; display: block;"]
-tmioe.com##.gorand
+tmioe.com##.dsawss
 tmioe.com##.widget_image_img
 tmioe.com##a[href*=".zps.im"]
 tmtpost.com##.open-app
@@ -19693,6 +19693,7 @@ zzzyk.com###Tinfo
 ||d6.mobaders.com^
 ||d67p.com/love/
 ||d6hvvn5jvc.com^
+||d7fl3a3vwh.com^
 ||d8962a.xyz^
 ||d9q4aa05g4.com^
 ||da-fan-shu.cn/images/kuaijie.jpg
@@ -22680,6 +22681,7 @@ zzzyk.com###Tinfo
 ||ilade.xyz^
 ||ilcq.cn^
 ||ildopxge.com^
+||ilgt04vkw4.com^
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||ilyf4amifh.com^
 ||ilzies.com^
@@ -23363,6 +23365,7 @@ zzzyk.com###Tinfo
 ||joi09041pt.com^
 ||joi09050pt.com^
 ||joi09051pt.com^
+||joi09060pt.com^
 ||joiwnq2.cn^
 ||jojog.com^
 ||jokerlu.com/upload/addon/
@@ -24512,6 +24515,7 @@ zzzyk.com###Tinfo
 ||lycjsix.cn^
 ||lyd.com.cn^*950-90.
 ||lyewe.xyz^
+||lyfdrh.icu^
 ||lygjgzc.com^
 ||lyretul.top^
 ||lysq.com/data/attachment/portal/
@@ -26988,6 +26992,7 @@ zzzyk.com###Tinfo
 ||riym.cn^
 ||rizihao.top^
 ||rjdmhl.icu^
+||rjif.cn^
 ||rjpvnl.icu^
 ||rjsos.com/channel/laomo_dibu.png
 ||rjsq7ljyp.com^
@@ -27762,6 +27767,7 @@ zzzyk.com###Tinfo
 ||sq59.cn^
 ||sqevnrb.com^
 ||sqif.cn^
+||squarewave.top^
 ||sravga.xyz^
 ||srbzw.cn^
 ||srmdz.vip^
@@ -28890,6 +28896,7 @@ zzzyk.com###Tinfo
 ||uoublit.top^
 ||uouvxlit.top^
 ||uowr.cn^
+||uoxm.cn^
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upaiyun.com/wp-content/uploads/2016/12/wenzhangyouce
@@ -29848,6 +29855,7 @@ zzzyk.com###Tinfo
 ||wxl0gfw.icu^
 ||wxmhau.xyz^
 ||wxsicu.xyz^
+||wxynyij.icu^
 ||wy12cewh4.com^
 ||wy213.com^$popup,third-party
 ||wyjqa6pbuc.com^
