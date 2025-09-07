@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-09-07 09:26:02(GMT+8) 
-! Total count: 170892
+! ! Version: 2025-09-07 20:33:04(GMT+8) 
+! Total count: 170908
  
 ###ADtip
 ###Ad_windows
@@ -4353,6 +4353,7 @@ $websocket,domain=wap.yushuwu.cloud
 /fe_logger?
 /feature/metrics$xmlhttprequest
 /figanalytics-short-ttl.js
+/fingerprint-3.4.1.js
 /fingerprint.js
 /fingerprint.js$domain=~github.com
 /fingerprint.min.js
@@ -6044,6 +6045,7 @@ $websocket,domain=wap.yushuwu.cloud
 /sentry/bundle.min.js
 /seo.taCo.min.js
 /seo/pageStat/*
+/seon/agent.js
 /seostats.php
 /seotracking-v3.js
 /server.php?request=track&output=
@@ -15886,6 +15888,7 @@ baidu.com##.container:has( > .bottom-section > .item_voice_room[data-yysid])
 baidu.com##.container_frs:has( > .voice_room_card_frs[data-url*="yylive"])
 baidu.com##.content-adv
 baidu.com##.corneradv
+baidu.com##.cos-rich-video-player-video
 baidu.com##.cpc-adv-container
 baidu.com##.desktop-guide
 baidu.com##.download-app-parent
@@ -16024,6 +16027,7 @@ baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
 baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
+baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 baidu.com#@#.share-line
 baidu.com#@#div[class*="ads"]
 baidu.com,bdimg.com,tieba.com###aside-ad
@@ -46431,7 +46435,6 @@ m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 m.baidu.com##a[href*="m.lecai.com"]
-m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 m.bilibili.com##.m-home-float-openapp
 m.bilibili.com##.m-nav-openapp.m-open-app
 m.bilibili.com##.m-video2-awaken-btn
@@ -57111,6 +57114,7 @@ zzzyk.com###Tinfo
 ||1l1.cc^
 ||1l27pkxp5w.com^
 ||1lqw75ogo.com^
+||1nrlydgrr.com^
 ||1p-data.com^$third-party
 ||1p3293dngsv.dodofacile.fr^
 ||1password.co.jp/js/analytics.bundle.
@@ -57575,6 +57579,7 @@ zzzyk.com###Tinfo
 ||3vp.icu^
 ||3wk.cc/images/*.gif
 ||3wn3w3skxpym.round.t3.gg^
+||3x5h6x434.com^
 ||3xl.icu^
 ||3yej.xyz^
 ||3yq51wjim.com^
@@ -66510,6 +66515,7 @@ zzzyk.com###Tinfo
 ||analytics.dsaseatfactory.com^
 ||analytics.dsyqt.com^
 ||analytics.dugun.com^
+||analytics.dv.socure.io^
 ||analytics.dvidshub.net^
 ||analytics.dx.ohio.gov^
 ||analytics.e1.ru^
@@ -91789,6 +91795,7 @@ zzzyk.com###Tinfo
 ||fstats.xyz^$third-party
 ||fstrk.net/api/tracker/
 ||fstrk.net^$third-party
+||fsu1cg19c.com^
 ||fsugco.rcn.nl^
 ||fsz1.francoisesaget.be^
 ||fsz1.francoisesaget.com^
@@ -92392,6 +92399,7 @@ zzzyk.com###Tinfo
 ||gateway.melia.com/tracking
 ||gateway.rennovalife.com^
 ||gateway.shein.com/events/
+||gateway.us.zip.co/analytics
 ||gateway.us.zip.co/analytics^
 ||gateway.yvonthelabel.com^
 ||gateway1.ashleyshaw.ca^
@@ -97840,6 +97848,7 @@ zzzyk.com###Tinfo
 ||gzjnc.kewlioo.com^
 ||gzjndc.fumiiro.jp^
 ||gzjroa.bradsdeals.com^
+||gzk72wa1f.com^
 ||gzlsz.simmonsfirm.com^
 ||gzlxvg.papy.co.jp^
 ||gzoyotth.goldentime.dk^
@@ -103680,6 +103689,7 @@ zzzyk.com###Tinfo
 ||jb51.net/imgby/logo_
 ||jbazhaheia.top^
 ||jbbljg.autoscout24.bg^
+||jbbydz.icu^
 ||jbdch1.appmobile.cn^
 ||jbejv.katieloxton.com^
 ||jbeof.tableclothsfactory.com^
@@ -104208,6 +104218,8 @@ zzzyk.com###Tinfo
 ||joi09051pt.com^
 ||joi09060pt.com^
 ||joi09061pt.com^
+||joi09070pt.com^
+||joi09071pt.com^
 ||joias.baglione.com.br^
 ||joias.dibalijoias.com^
 ||join-staging.kloaked.app^
@@ -115078,6 +115090,7 @@ zzzyk.com###Tinfo
 ||mc.yandex.ru/metrika/watch.js$script,redirect=metrika-yandex-watch
 ||mc.yandex.ru^
 ||mc.yandex.ru^$cookie=yabs-sid
+||mc.yango.com^
 ||mc2o133jkwu19fv9.net.fidor.de^
 ||mc5e9p8qx.com^
 ||mcacry.trendhim.it^
@@ -120710,6 +120723,7 @@ zzzyk.com###Tinfo
 ||nio09031lt.com^
 ||nio09051lt.com^
 ||nio09061lt.com^
+||nio09070lt.com^
 ||nioks.carowinds.com^
 ||niphi.nuudcare.com^
 ||nirdjz.revolveclothing.com.au^
@@ -121164,6 +121178,7 @@ zzzyk.com###Tinfo
 ||nrjqps.teufelaudio.be^
 ||nrjzkj.cn^
 ||nrk.no^*/stats/
+||nrki.cn^
 ||nrlupu.top^
 ||nrnrj.shopcrystalflush.com^
 ||nroeoxk.icu^
@@ -155326,6 +155341,7 @@ zzzyk.com###Tinfo
 ||thsnvv.hollywoodschaukel-paradies.de^
 ||thtel.phlur.com^
 ||thtk.temu.com^
+||thumbb86.com^
 ||thumbs.net.anwalt.de^
 ||thunderbird.net^$removeparam=src
 ||thunderingtendency.com^
