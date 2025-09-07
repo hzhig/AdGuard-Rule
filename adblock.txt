@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-09-06 20:32:03(GMT+8) 
-! Total count: 170891
+! ! Version: 2025-09-07 09:26:02(GMT+8) 
+! Total count: 170892
  
 ###ADtip
 ###Ad_windows
@@ -106510,6 +106510,7 @@ zzzyk.com###Tinfo
 ||leadpages.net/*/tracking.js
 ||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
+||leadpipe.com^$third-party
 ||leadplan.ru/api/pageview/
 ||leadplan.ru/api/session/
 ||leadplan.ru/api/visitor/
@@ -118969,8 +118970,6 @@ zzzyk.com###Tinfo
 ||mre6.destinia.ma^
 ||mreulz.imobiliare.ro^
 ||mrevolss.yopagomenos.co^
-||mrf.io/statics/marfeel-sdk.js
-||mrf.io/statics/marfeel/chunks/metrics-
 ||mrgecm.xyz^
 ||mrgr.me^
 ||mrhboe.xyz^
@@ -137070,6 +137069,7 @@ zzzyk.com###Tinfo
 ||sitejabber.com/set-fingerprint/
 ||sitel.actonservice.com^
 ||sitelabweb.com^$third-party
+||sitelytics.tech^$third-party
 ||sitemaji.com/nownews.php?
 ||sitemeter.com^$third-party
 ||siteperformancetest.net^
@@ -161425,6 +161425,7 @@ zzzyk.com###Tinfo
 ||truckstomatoes.com^
 ||truconversion.com^$third-party
 ||truculentrate.com^
+||trueachievements.com/tgn/ana?*page_view
 ||trueanthem.com^$third-party
 ||truebackpack.com^
 ||truefaced.actonservice.com^
