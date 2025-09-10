@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-09-09 20:39:27(GMT+8) 
-! Total count: 177433
+! ! Version: 2025-09-10 09:19:19(GMT+8) 
+! Total count: 177443
  
 ###ADtip
 ###Ad_windows
@@ -1241,6 +1241,7 @@
 ##a[href*=".fdgsnnvfsdv2df1bf3fdb1.cc"]
 ##a[href*=".gaimin.gg/cn"]
 ##a[href*=".kaiyunty.live"]
+##a[href*=".labsda.com"] > img[src^="/game/20"]
 ##a[href*=".lui8426.xyz"]
 ##a[href*=".moo8923.net"]
 ##a[href*=".nhjhu25hd.com"]
@@ -2135,6 +2136,7 @@ $websocket,domain=wap.yushuwu.cloud
 &sst.sw_exp=
 &t=pageview&
 &xhtml?$script,third-party
+*$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=efuxs.com,domain=efuxs.com,script,subdocument,xmlhttprequest
 *$denyallow=qiexs.cc|ququge.cc,domain=qiexs.cc|ququge.cc,xmlhttprequest,image,script
 *$denyallow=tszw.org,subdocument,script,xmlhttprequest,domain=tszw.org
@@ -60485,9 +60487,6 @@ wmzhe.com##.downloader
 wn01.uk##IMG[alt][style='width: 100%; height: 100%;']
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
-wnacg.com##a[href^="http"]:not([href*="wnacg."]) img
-wnacg.com##img[width="399"][height*="6"]
-wnacg.com##script + div > a > img
 wnacg.com#@##adsbox
 wnacg.com#@#.Flagrow-Ads-under-header
 wnacg.com#@#.RMss1
@@ -70818,6 +70817,7 @@ zzzyk.com###Tinfo
 ||amunx.de^$third-party
 ||amusedbucket.com^
 ||amusementmorning.com^
+||amusementt3.top^
 ||amvecurt.cn^
 ||amvtwk.thebottleclub.com^
 ||amvyzr.nostalux.be^
@@ -78147,6 +78147,7 @@ zzzyk.com###Tinfo
 ||bptih.thecookingguild.com^
 ||bptnzp.top^
 ||bpuf.cn^
+||bpuvuun0xg.com^
 ||bpxxgkoj.icu^
 ||bpztsxx.com^
 ||bqacmp.vidaxl.no^
@@ -80269,9 +80270,12 @@ zzzyk.com###Tinfo
 ||cdn.daenischesbettenlager.de/analytics.js
 ||cdn.dashenya.com^
 ||cdn.ddmanager.ru^$third-party
+||cdn.debugbear.com^
 ||cdn.debugbear.com^$third-party
 ||cdn.defractal.com^
 ||cdn.deporvillage.com/tracking-library/
+||cdn.deviceinf.com^
+||cdn.dfsdk.com^
 ||cdn.dingxiang-inc.com/ctu-group/constid-js/index.js$replace=/(^\/\*!.*?\*\/)/\$1try{const t=document.head\,e=document.createElement("style");e.type="text\/css"\,e.textContent=".wp > .a_t:has(> table > tbody > tr > td > .adsbygoogle) { display: none !important; }"\,t.appendChild(e)}catch(t){};/,domain=right.com.cn
 ||cdn.dminorschool.com^
 ||cdn.dopc.cz/gen/detect.png
@@ -80380,6 +80384,7 @@ zzzyk.com###Tinfo
 ||cdn.search.brave.com/serp/*/static/serp-js/telemetry/
 ||cdn.segment.com/analytics.js
 ||cdn.segmentify.com/*/segmentify.js$script,important,redirect=noopjs,domain=gratis.com
+||cdn.seonintelligence.com^
 ||cdn.sgmntfy.com^
 ||cdn.shdsp.net/ad
 ||cdn.shopify.com/*/assets/ba_pop_tracking.js
@@ -81500,6 +81505,7 @@ zzzyk.com###Tinfo
 ||client.botchk.net^
 ||client.fastaff.com^
 ||client.perimeterx.net^
+||client.px-cloud.net/*/main.min.js?ver=
 ||client.rum.*.amazonaws.com^
 ||client.smartpushedm.com/eclytics/n.gif
 ||client.talefy.ai^
@@ -94981,6 +94987,7 @@ zzzyk.com###Tinfo
 ||exyxni.bicyclebluebook.com^
 ||eybstar.com^
 ||eyc-marketing.eyc.com^
+||eydvg8.com^
 ||eye.harohealth.com^
 ||eye.rd.services^
 ||eye.staffly.pl^
@@ -99653,6 +99660,7 @@ zzzyk.com###Tinfo
 ||google.com/apis/gpf_metrics?
 ||google.com/async/ddllog
 ||google.com/ccm/
+||google.com/ccm/collect?
 ||google.com/dssw.js
 ||google.com/gen_204?
 ||google.com/gmp/
@@ -103249,6 +103257,7 @@ zzzyk.com###Tinfo
 ||gx.idg.se^
 ||gxbnp.cn^
 ||gxcaxz.cresus.fr^
+||gxcqay.icu^
 ||gxgbvmg.cn^
 ||gxhzv.cn^
 ||gximqn.lojamundi.com.br^
@@ -103593,6 +103602,7 @@ zzzyk.com###Tinfo
 ||havjz.accessorize.com^
 ||hawk.makroskop.eu^
 ||hawk.mjsarfatti.com^
+||hawk.techradar.com/js/*/analytics-library-entry-getCustomTrackingId.js
 ||hawky.pcgamer.com/js/*/analytics-library-entry-getCustomTrackingId.js
 ||hawthorng66.top^
 ||hax.co.id/dist/js/ajax.js
@@ -104465,6 +104475,7 @@ zzzyk.com###Tinfo
 ||hnnuange.com^
 ||hnotf.ecsportsusa.com^
 ||hnpgjp.cyclemarket.jp^
+||hnsgpw.com^
 ||hntezhi.com^
 ||hntnca.petpetgo.com^
 ||hntxyc.schadeautos.nl^
@@ -109736,6 +109747,7 @@ zzzyk.com###Tinfo
 ||joi09081pt.com^
 ||joi09090pt.com^
 ||joi09091pt.com^
+||joi09100pt.com^
 ||joias.baglione.com.br^
 ||joias.dibalijoias.com^
 ||join-staging.kloaked.app^
@@ -112229,6 +112241,7 @@ zzzyk.com###Tinfo
 ||lenta.ru^$cookie=lids
 ||lentainform.com^$third-party
 ||leo.goplay.be^
+||leo.hepsiburada.com^
 ||leo1.leon-de-bruxelles.fr^
 ||leopard.davidlindahlphoto.com^
 ||leopard.joytotheworld.info^
@@ -116886,6 +116899,7 @@ zzzyk.com###Tinfo
 ||localytics.com^
 ||localytics.com^$third-party
 ||locate.findfashionevents.com^
+||locateskill.com^
 ||location.cyou^$all
 ||location.imsmetals.com^
 ||location3.com/analytics/
@@ -117958,6 +117972,7 @@ zzzyk.com###Tinfo
 ||lxoemc.siviaggia.it^
 ||lxoemc.tuttocitta.it^
 ||lxpbdp.xyz^
+||lxpgll.icu^
 ||lxsway.alltforforaldrar.se^
 ||lxsway.blogg.se^
 ||lxsway.brollopstorget.se^
@@ -126665,6 +126680,7 @@ zzzyk.com###Tinfo
 ||nmtkbv.icu^
 ||nmtracking.netflix.com^
 ||nmu3.destinia.be^
+||nmulwz.cn^
 ||nmzbrd.icu^
 ||nndzsw.com^
 ||nndzsw1.com^
@@ -128926,6 +128942,7 @@ zzzyk.com###Tinfo
 ||oykrja.intersena.com.br^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
+||oylblokar.com^
 ||oylyaz.mrkoll.se^
 ||oyotii.sportokay.com^
 ||oyoxyc.josefsteiner.at^
@@ -158010,6 +158027,7 @@ zzzyk.com###Tinfo
 ||subcapi.ownbazarbd.com^
 ||subdomein.stoneybracelets.nl^
 ||subfsqno.emano.flowox.com^
+||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subito.openapp.link^
 ||subjectivepoint.com^
@@ -161175,6 +161193,7 @@ zzzyk.com###Tinfo
 ||teho.visma.fi^
 ||teigwaren.silikonbackform.com^
 ||teijgy.herveleger.com^
+||tejr.cn^
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare*.js
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
 ||tekproxy.com/$popup,domain=turkdown.com
@@ -173124,19 +173143,8 @@ zzzyk.com###Tinfo
 ||wn68din.cn^
 ||wn6y.cn^
 ||wn80drk.shop^
-||wnacg.*/1605524662751.gif
-||wnacg.*/1sdfdc1/
-||wnacg.*/58s/
-||wnacg.*/5eg/
 ||wnacg.*/data/ds/
-||wnacg.*/data/game/
 ||wnacg.*/data/game/*/wap.gif
-||wnacg.*/sd
-||wnacg.*/themes/mo/images/*.gif
-||wnacg.*/themes/weitu/images/0
-||wnacg.*/w7z/
-||wnacg.*/w8z/
-||wnacg.*/zec/
 ||wnacg.com/1sdfdc1/500_60-1.gif
 ||wnd2.destinia.cat^
 ||wnegmu.timberland.nl^
@@ -176425,6 +176433,7 @@ zzzyk.com###Tinfo
 ||z.zousz.com^
 ||z0a1b2c3d4.com^
 ||z0ha6abmi.com^
+||z0u6tmmudb.com^
 ||z1.chezhuzhinan.com^
 ||z1.cwbaike.com^
 ||z1.o8h7d.cn^
@@ -177300,6 +177309,7 @@ zzzyk.com###Tinfo
 ||zvbsqp.jionmeditech.com^
 ||zvdc9y.icu^
 ||zvfzqw.cotta.jp^
+||zvgvenibe.com^
 ||zvhct.zorrata.com^
 ||zvhjk.petite-plume.com^
 ||zvhkzb.ambiendo.de^

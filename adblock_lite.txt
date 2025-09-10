@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2025-09-09 20:39:27(GMT+8) 
-! Total count: 30722
+! ! Version: 2025-09-10 09:19:19(GMT+8) 
+! Total count: 30723
  
 ###ADtip
 ###Ad_windows
@@ -1234,6 +1234,7 @@
 ##a[href*=".fdgsnnvfsdv2df1bf3fdb1.cc"]
 ##a[href*=".gaimin.gg/cn"]
 ##a[href*=".kaiyunty.live"]
+##a[href*=".labsda.com"] > img[src^="/game/20"]
 ##a[href*=".lui8426.xyz"]
 ##a[href*=".moo8923.net"]
 ##a[href*=".nhjhu25hd.com"]
@@ -1566,6 +1567,7 @@ $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zzzzz688.com
 $websocket,domain=wap.yushuwu.cloud
 &xhtml?$script,third-party
+*$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=efuxs.com,domain=efuxs.com,script,subdocument,xmlhttprequest
 *$denyallow=qiexs.cc|ququge.cc,domain=qiexs.cc|ququge.cc,xmlhttprequest,image,script
 *$denyallow=tszw.org,subdocument,script,xmlhttprequest,domain=tszw.org
@@ -14803,9 +14805,6 @@ wmzhe.com##.downloader
 wn01.uk##IMG[alt][style='width: 100%; height: 100%;']
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
-wnacg.com##a[href^="http"]:not([href*="wnacg."]) img
-wnacg.com##img[width="399"][height*="6"]
-wnacg.com##script + div > a > img
 wnacg.com#@##adsbox
 wnacg.com#@#.Flagrow-Ads-under-header
 wnacg.com#@#.RMss1
@@ -17631,6 +17630,7 @@ zzzyk.com###Tinfo
 ||amradmin.5173.com^
 ||ams.fx678.com^
 ||amung.us^
+||amusementt3.top^
 ||amvecurt.cn^
 ||amxwqv.com^
 ||amy.gs/Webservices/jsParseLinks.aspx$script,third-party
@@ -18607,6 +18607,7 @@ zzzyk.com###Tinfo
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bptnzp.top^
 ||bpuf.cn^
+||bpuvuun0xg.com^
 ||bpxxgkoj.icu^
 ||bpztsxx.com^
 ||bqdhrr.top^
@@ -20662,6 +20663,7 @@ zzzyk.com###Tinfo
 ||extmaps-api.yandex.net^
 ||extopae.icu^
 ||eybstar.com^
+||eydvg8.com^
 ||eyhv.cn^
 ||eyny.com/data/cache/js_show_ads.js
 ||eyq3nog.icu^
@@ -21583,6 +21585,7 @@ zzzyk.com###Tinfo
 ||gwogrgq.icu^
 ||gwrpceo.cn^
 ||gxbnp.cn^
+||gxcqay.icu^
 ||gxgbvmg.cn^
 ||gxhzv.cn^
 ||gxjajt.com^
@@ -22001,6 +22004,7 @@ zzzyk.com###Tinfo
 ||hnlphr.cn^
 ||hnltcw.com^
 ||hnnuange.com^
+||hnsgpw.com^
 ||hntezhi.com^
 ||hnwuamu.top^
 ||hnwucnu.top^
@@ -23136,6 +23140,7 @@ zzzyk.com###Tinfo
 ||joi09081pt.com^
 ||joi09090pt.com^
 ||joi09091pt.com^
+||joi09100pt.com^
 ||joiwnq2.cn^
 ||jojog.com^
 ||jokerlu.com/upload/addon/
@@ -24229,6 +24234,7 @@ zzzyk.com###Tinfo
 ||lxg8s.xyz^
 ||lxksalary.com^
 ||lxpbdp.xyz^
+||lxpgll.icu^
 ||lxsz0w0aw.com^
 ||lxting.com^
 ||lycc72.com/resources/js/content.js
@@ -25135,6 +25141,7 @@ zzzyk.com###Tinfo
 ||nmrdnqn.cn^
 ||nmssdbgmf.xyz^
 ||nmtkbv.icu^
+||nmulwz.cn^
 ||nmzbrd.icu^
 ||nndzsw.com^
 ||nndzsw1.com^
@@ -25538,6 +25545,7 @@ zzzyk.com###Tinfo
 ||oyil.cn^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
+||oylblokar.com^
 ||oyxp.xyz^
 ||oyysbc.xyz^
 ||ozkbdxdu.icu^
@@ -27548,6 +27556,7 @@ zzzyk.com###Tinfo
 ||stunthedge.com^
 ||su.bdimg.com/static/dspui/js/
 ||sub.powerapple.com^
+||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||sucloud.xyz/js/tou.js
 ||sucnwtb.top^
@@ -27770,6 +27779,7 @@ zzzyk.com###Tinfo
 ||techug.com/aatb/
 ||teddync.net^
 ||teeniaole.com^
+||tejr.cn^
 ||tekproxy.com/$popup,domain=turkdown.com
 ||telecome.cn^
 ||templates_pc/default/scripts/chapter_bottom.js
@@ -29142,19 +29152,8 @@ zzzyk.com###Tinfo
 ||wn68din.cn^
 ||wn6y.cn^
 ||wn80drk.shop^
-||wnacg.*/1605524662751.gif
-||wnacg.*/1sdfdc1/
-||wnacg.*/58s/
-||wnacg.*/5eg/
 ||wnacg.*/data/ds/
-||wnacg.*/data/game/
 ||wnacg.*/data/game/*/wap.gif
-||wnacg.*/sd
-||wnacg.*/themes/mo/images/*.gif
-||wnacg.*/themes/weitu/images/0
-||wnacg.*/w7z/
-||wnacg.*/w8z/
-||wnacg.*/zec/
 ||wnacg.com/1sdfdc1/500_60-1.gif
 ||wneia.iaskhot.com^
 ||wnojded.icu^
@@ -30264,6 +30263,7 @@ zzzyk.com###Tinfo
 ||z.tudouxy01.com^
 ||z0a1b2c3d4.com^
 ||z0ha6abmi.com^
+||z0u6tmmudb.com^
 ||z1.chezhuzhinan.com^
 ||z1.cwbaike.com^
 ||z1.o8h7d.cn^
@@ -30650,6 +30650,7 @@ zzzyk.com###Tinfo
 ||zupulu.com/scripts/app/app.js
 ||zvasuzb.icu^
 ||zvdc9y.icu^
+||zvgvenibe.com^
 ||zvvg678.xyz^
 ||zvvsjz.top^
 ||zwdrjdyf.icu^
