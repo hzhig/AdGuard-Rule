@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-09-14 20:32:21(GMT+8) 
-! Total count: 177599
+! ! Version: 2025-09-15 09:25:29(GMT+8) 
+! Total count: 177606
  
 ###ADtip
 ###Ad_windows
@@ -52554,6 +52554,7 @@ notifications.hickorytraining.com$image
 notifications.mail.inframationnews.com$image
 notifications.mergermarket.com$image
 notifications.rxtro.com$image
+notion.so#%#//scriptlet('prevent-fetch', 'http-inputs-notion.splunkcloud.com')
 notonthehighstreet.com#%#//scriptlet('set-constant', 'window.DD_RUM.init', 'noopFunc')
 notre-planete.info###abp1
 novate.ru#?##right > div.bordered:has(> script:contains(relap))
@@ -55871,6 +55872,8 @@ sex8.cc##.fnwehjnc12
 sex8.cc##.gd-list
 sex8.cc##.j-oscar
 sex8.cc##a[onclick^="window.open('/dasp.php?"]
+sg1.wizrocketmail.net%2Fr%3Fe%3D$image
+sg1.wizrocketmail.net/r?e=$image
 sg169.com##.Mappdiv
 sg169.com##.jy-pos-3
 sgamer.com##.plc > div > a[href*=".vgcool.com"]
@@ -93519,6 +93522,7 @@ zzzyk.com###Tinfo
 ||ems.youku.com^
 ||emsexam.quantresear.ch^
 ||emsfn.clutchcharger.com^
+||emslgm.icu^
 ||emsq.cn^
 ||emu.blitzpower.com^
 ||emu.cortexfutura.com^
@@ -94917,6 +94921,7 @@ zzzyk.com###Tinfo
 ||exhibitsneeze.com^
 ||eximius.epoise.com^
 ||exinariuminix.info^
+||existences2.top^
 ||exitachieve.myre.io^
 ||exitbee.com^$third-party
 ||exitintel.com/log/$third-party
@@ -96225,6 +96230,7 @@ zzzyk.com###Tinfo
 ||flowing.fkplus.com^
 ||flpfl.sokolovelaw.com^
 ||flpwto.lohaco.jp^
+||flqa83yic.com^
 ||fls-na.amazon.com^
 ||fls.doubleclick.net/activityi
 ||flsfzr.cn^
@@ -104969,8 +104975,6 @@ zzzyk.com###Tinfo
 ||httdev.it/e/c?
 ||httjs.davidscookies.com^
 ||http-inputs-itv.splunkcloud.com/services/collector
-||http-inputs-notion.splunkcloud.com^
-||http-inputs-notion.splunkcloud.com^$xmlhttprequest,redirect=nooptext
 ||httpcn.com/Images/banner
 ||httpcn.com/m/tg/
 ||httpcn.com^*-120
@@ -135276,6 +135280,7 @@ zzzyk.com###Tinfo
 ||rmc-cx.api.rakuten.co.jp/*/web/events|
 ||rmcje.remedymeds.com^
 ||rmdvca.belvilla.de^
+||rmfbrz.icu^
 ||rmgdapfnccsharpprd.azurewebsites.net^
 ||rmguf.joesjeans.com^
 ||rmhfrtnd.com^$third-party
@@ -148289,6 +148294,7 @@ zzzyk.com###Tinfo
 ||sowlettuce.com^
 ||soxnwz.lg.com^
 ||soxofo.concursosnobrasil.com.br^
+||soy5c00zc.com^
 ||sozcu.com.tr/aip/aip2Analytics.js
 ||sozi.cn/images/tj/downad
 ||sozi.cn/images/tj/hukead.gif
@@ -176396,6 +176402,7 @@ zzzyk.com###Tinfo
 ||yur09131og.com^
 ||yur09140og.com^
 ||yur09141og.com^
+||yur09150og.com^
 ||yurobl.rw-co.com^
 ||yushuwen.com/astyle/wap.js
 ||yuske2.xyz^
