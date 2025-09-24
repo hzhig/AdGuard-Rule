@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2025-09-24 09:20:25(GMT+8) 
-! Total count: 30928
+! ! Version: 2025-09-24 20:37:50(GMT+8) 
+! Total count: 30934
  
 ###ADtip
 ###Ad_windows
@@ -4392,6 +4392,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@/plugins/blockalyzer-adblock-counter/js/advert.js$script
 @@/plugins/noadblock-nice-message/assets/js/ads.js?$script,~third-party
 @@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
+@@/prebid.$script,domain=mingpao.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
 @@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
@@ -5267,9 +5268,9 @@ $websocket,domain=wap.yushuwu.cloud
 @@||imasdk.googleapis.com/flash/*.swf$domain=syndication.vmma.be,object-subrequest
 @@||imasdk.googleapis.com/js/sdkloader/*$script,domain=mindgames.com|htmlgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|ha365.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|ulifestyle.com.hk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mingpao.com|4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|ha365.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|ulifestyle.com.hk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=news.tvb.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nowplayer.now.com,important
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.udn.com
@@ -19670,6 +19671,7 @@ zzzyk.com###Tinfo
 ||d67p.com/love/
 ||d6hvvn5jvc.com^
 ||d7fl3a3vwh.com^
+||d7ytrv7yxa.com^
 ||d8962a.xyz^
 ||d9q4aa05g4.com^
 ||da-fan-shu.cn/images/kuaijie.jpg
@@ -19896,6 +19898,7 @@ zzzyk.com###Tinfo
 ||dfi09230kq.com^
 ||dfi09231kq.com^
 ||dfi09240kq.com^
+||dfi09241kq.com^
 ||dfjd.xyz^
 ||dfkd.xyz^
 ||dfqzah.xyz^
@@ -23539,6 +23542,7 @@ zzzyk.com###Tinfo
 ||kaoyan.com/school/final_class.html
 ||kaoyan.com/school/js/yz.school.packed.js
 ||kaoyan1v1.com/IAA/
+||kapkh.cn^
 ||kart2ks.icu^
 ||kasdwergv.com^
 ||kasgge.icu^
@@ -24261,6 +24265,7 @@ zzzyk.com###Tinfo
 ||lqweqk61qlih.click^
 ||lqxzx.com^
 ||lrlsrz.xyz^
+||lrphk.cn^
 ||lrqpyhn.icu^
 ||lrta.cn^
 ||lsancil.top^
@@ -29366,6 +29371,7 @@ zzzyk.com###Tinfo
 ||wpcihg.com^
 ||wpdaxue.com/img/*/txy-
 ||wpeo.cn^
+||wph2zu9rlb.com^
 ||wpizqi.icu^
 ||wples.com/pc/common.js
 ||wpoarjokzgi.com^
