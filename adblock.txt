@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-09-24 20:37:50(GMT+8) 
-! Total count: 182161
+! ! Version: 2025-09-25 09:21:11(GMT+8) 
+! Total count: 182178
  
 ###ADtip
 ###Ad_windows
@@ -11130,9 +11130,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||aqy103.com/js/aqy/main.js
 @@||arstechnica.com/services/incr.php?*=interactions.adblock-annoy.click$xmlhttprequest
 @@||arte.tv^*/xtcore.js
-@@||asadcdn.com/adlib/$domain=computerbild.de
 @@||asadcdn.com/adlib/pages/sport1.js$domain=sport1.de
-@@||asadcdn.com/assets/video/$domain=computerbild.de
 @@||aseanlegacy.net/adsense/ads.png
 @@||aseanlegacy.net/assets/*/*/advertisement.php$script
 @@||aseanlegacy.net/modules/adblock/controller.php
@@ -63446,6 +63444,7 @@ zzzyk.com###Tinfo
 ||5mc92su06suu.www.abhijith.page^
 ||5mgrgsc.cn^
 ||5mm.zxfw5.cn^
+||5mn041cdz.com^
 ||5nj.com/js/cnzz22.js
 ||5nj.com/js/cnzz33.js
 ||5odd5zsn.xyz^
@@ -71771,6 +71770,7 @@ zzzyk.com###Tinfo
 ||analytics-cdiscount.com^$third-party
 ||analytics-cdn.levante-emv.com^
 ||analytics-cdn.prensaiberica.es^
+||analytics-cdn.sport.es^
 ||analytics-cf.bigcrunch.com^
 ||analytics-cms.whitebeard.me/js/
 ||analytics-cms.whitebeard.me^
@@ -72664,6 +72664,7 @@ zzzyk.com###Tinfo
 ||analytics.posttv.com^
 ||analytics.praetor.im^$third-party
 ||analytics.pravovyilider.com.ua^
+||analytics.prensaiberica.es^
 ||analytics.prestonhardware.com^
 ||analytics.prezly.com^
 ||analytics.primadog.com^
@@ -73998,6 +73999,7 @@ zzzyk.com###Tinfo
 ||api.leadpages.io/analytics/$domain=~my.leadpages.net
 ||api.leandrojesusbbf.com.br^
 ||api.leandrotilvikas.com.br^
+||api.learnings.ai^
 ||api.legostore.com.br^
 ||api.leveplanosdesaude.com.br^
 ||api.lfautomacao.com.br^
@@ -75955,7 +75957,6 @@ zzzyk.com###Tinfo
 ||asacdn.com/prod/redirect.html
 ||asadcdn.com/bt^
 ||asadcdn.com/flairfire/
-||asadcdn.com^$third-party
 ||asahibeer.co.jp/tracking.js
 ||asamgd.rossmann.de^
 ||asanalytics.booking.com^
@@ -76083,7 +76084,7 @@ zzzyk.com###Tinfo
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 ||assets.adobedtm.com^$app=com.aa.android|uk.co.thetimes|de.spiegel.android.app.spon|com.hilton.android.hhonors
-||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr
+||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/*/affiliate-tracker.js$domain=aliexpress.com|aliexpress.us
@@ -76529,6 +76530,7 @@ zzzyk.com###Tinfo
 ||authentic3d.actonservice.com^
 ||authorinsights.com^$third-party
 ||authsmtp.happ.social^
+||autivnay.com^
 ||auto-bild.de/*/gaEvents
 ||auto-motor-und-sport.de/js/sophus3/logging.js
 ||auto-online.com.tw/vendor_data/
@@ -78958,6 +78960,8 @@ zzzyk.com###Tinfo
 ||bob-recs.com^$third-party
 ||bob.gitclear.com^
 ||bobawb.pomellato.com^
+||bobbibrown.com.tr/js-repo/elc-service-analytics/
+||bobbibrown.com.tr/sites/all/libraries/analytics/
 ||bobcad.actonservice.com^
 ||bobcat.pronounce.technology^
 ||bobcat.snapshooter.io^
@@ -91206,6 +91210,7 @@ zzzyk.com###Tinfo
 ||dfi09231kq.com^
 ||dfi09240kq.com^
 ||dfi09241kq.com^
+||dfi09250kq.com^
 ||dfigxb.underarmour.com.mx^
 ||dfiles.eu/stats.php
 ||dfitgc.yamamay.com^
@@ -92740,6 +92745,7 @@ zzzyk.com###Tinfo
 ||dtc-v6t.com^$third-party
 ||dtch.brunel.nl^
 ||dtckvpc.cn^
+||dtcollect.newsbang.com^
 ||dtdqpc.top^
 ||dtestpromo.fiat.it^
 ||dtesv.fpro.com^
@@ -95924,6 +95930,7 @@ zzzyk.com###Tinfo
 ||event-dot-procolor-backend.appspot.com^
 ||event-listener.air.tv^
 ||event-logger.tagboard.com^
+||event-portal.dailyinnovation.biz^
 ||event-reporting-dot-webylytics.appspot.com^
 ||event-router.chime.com^
 ||event-router.olympics.com^
@@ -107307,6 +107314,7 @@ zzzyk.com###Tinfo
 ||idnes.cz^$cookie=lastPianoSyncDate
 ||idnqg.dermaclara.com^
 ||idntfy.ru^$third-party
+||idobqo.icu^
 ||idomsio.top^
 ||idot.cz^$third-party
 ||idowa.de/build/js/snowplow-tracker.tatest.js
@@ -122805,6 +122813,7 @@ zzzyk.com###Tinfo
 ||marketspiders.com^
 ||markkinointi.igopost.fi^
 ||markkinointi.kespro.com^
+||markonlive.github.io/analytics/
 ||marktest.pt^$third-party
 ||marktjagd.de/proxy/trackings/
 ||marktmen.best-solution.ae^
@@ -123106,6 +123115,7 @@ zzzyk.com###Tinfo
 ||mdpgd.oasis-land.com^
 ||mdqhyxe.cn^
 ||mdqpkdne.xyz^
+||mdrihnok.com^
 ||mds.ricoh-europe.com^
 ||mds.ricoh.ch^
 ||mds.ricoh.co.uk^
@@ -129809,6 +129819,7 @@ zzzyk.com###Tinfo
 ||nzbusiness.vodafone.co.nz^
 ||nzfcvv.xyz^
 ||nzherald.co.nz/pf/resources/scripts/tracking/data-ref.js
+||nzl09250oa.com^
 ||nzlelmarw.com^
 ||nzmkzl.mytheresa.com^
 ||nzoj.cn^
@@ -139413,6 +139424,7 @@ zzzyk.com###Tinfo
 ||s615419487.sc.origins.en25.com^
 ||s65m.win^
 ||s6in.cc^
+||s72h7io4o.com^
 ||s73cloud.com/metrics/
 ||s762.pressenterprise.com^
 ||s7fpxh6fz.com^
@@ -140774,6 +140786,7 @@ zzzyk.com###Tinfo
 ||sdk.optimove.net^
 ||sdk.sipujia.cn^
 ||sdk.stats-locations.com^
+||sdkapi-prod.dfinery.ai^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
 ||sdkconfig.ad.intl.xiaomi.com^
@@ -152129,6 +152142,7 @@ zzzyk.com###Tinfo
 ||sqvnf.sneakerpolitics.com^
 ||sqwgwm.infocasas.com.uy^
 ||sqzfj.landmarkathletics.com^
+||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||sr-client-cfg.amplitude.com^
 ||sr-mmi.srglobal.com^
 ||sr.de/sr/static/js/optout-tracking.js
@@ -159882,6 +159896,7 @@ zzzyk.com###Tinfo
 ||static-cf.sooplive.co.kr/asset/service/common/common_analysis.js
 ||static-cl.xhcdn.com/js/track.min.js
 ||static-cn.plista.com^
+||static-dc.autodesk.net/etc.clientlibs/*/testandtarget/clientlibs/testandtarget/atjs-integration.min.js
 ||static-fra.de^*/targeting.js
 ||static-fra.de^*/tracking.js
 ||static-img.threatbook.cn/zhugeio/zhuge.js
@@ -175250,6 +175265,7 @@ zzzyk.com###Tinfo
 ||viroffyy.com^
 ||virool.com^$third-party
 ||virtual.vict.pro^
+||virtual2.top^
 ||virtualcarshop.jp/js/ga.js
 ||virtualearth.net/webservices/v*/LoggingService/LoggingService.svc/Log?entry=
 ||virtualnet.co.uk^$third-party
@@ -175691,6 +175707,7 @@ zzzyk.com###Tinfo
 ||vqaj6smlmtpym.top^
 ||vqbidy.benetton.com^
 ||vqbod.modgents.com^
+||vqbrbb.icu^
 ||vqjacf.mauriziocollectionstore.com^
 ||vqle.cn^
 ||vqnh.cn^
