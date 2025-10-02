@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-10-01 20:39:41(GMT+8) 
-! Total count: 174252
+! ! Version: 2025-10-02 09:19:14(GMT+8) 
+! Total count: 174262
  
 ###ADtip
 ###Ad_windows
@@ -1563,6 +1563,7 @@
 #@#.has-ad
 #@#.uk-container.uk-container-expand
 #@#div[itemtype="http://schema.org/WPAdBlock"]
+$$div[style="display: none !important; width: 1px"]:contains(ed2k://)
 $$script:contains(?is_not=1&target=1&ty=2)
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -86126,6 +86127,7 @@ zzzyk.com###Tinfo
 ||dis.*.criteo.com/dis/
 ||dis.criteo.com/dis/
 ||disagreeabledrop.com^
+||discards55.com^
 ||discord.com/api/track
 ||discord.com/api/v*/science
 ||discord.com/api/v*/users/@me?with_analytics_token=true$domain=~discord.com
@@ -99831,6 +99833,7 @@ zzzyk.com###Tinfo
 ||hlhyzh.fann.cz^
 ||hlj10010ip.com^
 ||hlj10011ip.com^
+||hlj10020ip.com^
 ||hljgz.phxhomeremodeling.com^
 ||hlkhxw.ashampoo.com^
 ||hllu.cn^
@@ -100827,6 +100830,7 @@ zzzyk.com###Tinfo
 ||iatspayments.actonservice.com^
 ||iaudienc.com^$third-party
 ||iaumyc.icu^
+||iauw.cn^
 ||iavebq.desart.co.kr^
 ||iaw-events.polarbyte.com^
 ||iaxmmw9fbx.com^
@@ -107538,6 +107542,7 @@ zzzyk.com###Tinfo
 ||layeredinsight.actonservice.com^
 ||laypi.odontolyds.com.br^
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
+||layuion.com/get/showcase/
 ||laz-g-cdn.alicdn.com/lazada/dynamic-static-nopolyfill/*/daraz-marketing-tracker.js
 ||lazada.(com|co.th|co.id|com.my|com.ph|sg|vn)^$removeparam=abid
 ||lazada.(com|co.th|co.id|com.my|com.ph|sg|vn)^$removeparam=ad_src
@@ -119865,6 +119870,7 @@ zzzyk.com###Tinfo
 ||mnihnl.ku.edu^
 ||mnjvh.tipperarycrystal.ie^
 ||mnks.cn/jk/appAD_
+||mnkusi.icu^
 ||mnnmnn.com^
 ||mno.hkshop.com.bd^
 ||mno.link^$third-party
@@ -131107,6 +131113,7 @@ zzzyk.com###Tinfo
 ||rnrxer.wsp.ne.jp^
 ||rnwenpn.icu^
 ||rnweus.arvelle.de^
+||rnxhdv.icu^
 ||rnybul.gismeteo.kz^
 ||rnybul.gismeteo.lt^
 ||rnybul.gismeteo.lv^
@@ -133150,6 +133157,7 @@ zzzyk.com###Tinfo
 ||sapphire.api.microsoftapp.net^$app=com.microsoft.bing
 ||sappmetrics.sprint.com^
 ||saptorge.com^
+||saptuqse29.com^
 ||sar.techplugsolutions.com^
 ||sara.buenospa.com^
 ||sara.wellisparts.com^
@@ -155025,6 +155033,7 @@ zzzyk.com###Tinfo
 ||syycwa.barcelo.com^
 ||syzjxz2018.cn^
 ||sz.met.vgwort.de^
+||sz2xlvu6jq.com^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
 ||szaction.cc/public/*/assets/js/custom/tt.
 ||szaction.cc/public/*/plugins/
@@ -164277,6 +164286,7 @@ zzzyk.com###Tinfo
 ||trugaze.io^$third-party
 ||truliantfcu.fmservice.com^
 ||trumba.com/et.aspx?
+||trundrak.com^
 ||truoptik.com^$third-party
 ||trust-provider.com^*/trustlogo.js$third-party
 ||trust.flexpay.io^
