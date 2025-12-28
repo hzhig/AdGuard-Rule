@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-12-27 20:38:49(GMT+8) 
-! Total count: 144986
+! ! Version: 2025-12-28 09:50:53(GMT+8) 
+! Total count: 145002
  
 ###ADtip
 ###Ad_windows
@@ -6857,6 +6857,7 @@ $websocket,domain=wap.yushuwu.cloud
 /u/_sponsor/*
 /uc123_no/*/index/js/activity.
 /ucount.php?
+/udp-analytics.js
 /uds/stats?
 /uecomscore_cmp_event_mundo.js
 /uedata?
@@ -42200,6 +42201,7 @@ zzzyk.com###Tinfo
 ||7tc.fun^
 ||7tv.de/service/log/
 ||7u4b8l1zt.com^
+||7usgqu07mk.com^
 ||7w.ro/js/trk.js
 ||7wrxo2xh.iriscreative.co^
 ||7wzx9.com/tbad.
@@ -49323,6 +49325,7 @@ zzzyk.com###Tinfo
 ||ainb12261zh.com^
 ||ainb12270zh.com^
 ||ainb12271zh.com^
+||ainb12280zh.com^
 ||aincrd.champstudy.com^
 ||ainqe.tonaactive.com^
 ||ainu.intel.cn^
@@ -49736,6 +49739,7 @@ zzzyk.com###Tinfo
 ||alcotestspro-ss.checkoutera.com^
 ||alcotestspro-ss.offeroshop.com^
 ||ald.aldautomotive.be^
+||aldehyde06.com^
 ||aldkfsd.cn^
 ||aldtop.com/scrtips/
 ||aldusmiskals.com^
@@ -84286,6 +84290,7 @@ zzzyk.com###Tinfo
 ||information.skillsoft.com^
 ||information.specialoccasionlinen.com^
 ||information.teamonenetwork.com^
+||information43.com^
 ||informazione.it/detroitchicago/cmb.js
 ||informer.com/ajax/article_log.php
 ||informer.yandex.ru^
@@ -85125,6 +85130,7 @@ zzzyk.com###Tinfo
 ||isjoui.cainz.com^
 ||isky.ltd/skin/js/ad.js
 ||isl.caminos.click^
+||islandssouth.com^
 ||islandwebhelp.com^
 ||islbaho.top^
 ||ismail.natureenergybd.com^
@@ -85291,6 +85297,7 @@ zzzyk.com###Tinfo
 ||ivdguf.elephorm.com^
 ||ivdsxn.atimes.co.jp^
 ||ivdtc.lgbeauty.com^
+||ivdtruneda.com^
 ||ivegg.nuudcare.es^
 ||ivegss.autotrack.nl^
 ||ivencq.nike.com.hk^
@@ -88208,6 +88215,7 @@ zzzyk.com###Tinfo
 ||lazada.(com|co.th|co.id|com.my|com.ph|sg|vn)^$removeparam=spm
 ||lazada.(com|co.th|co.id|com.my|com.ph|sg|vn)^$removeparam=src
 ||lazychord.com^
+||lazyexplore.com^
 ||lazzrv.icu^
 ||lb.billing01.email-allstate.com^
 ||lb.marketing01.email-allstate.com^
@@ -107157,6 +107165,8 @@ zzzyk.com###Tinfo
 ||quartic.pl/api/event^
 ||quartic.pl/t.php^
 ||quartic.pl^$third-party
+||qub.ca/api/log
+||qub.ca/collector-service/event
 ||qubaa.tnuck.com^
 ||qubcn.fancypantsthestore.com^
 ||qubdjkqwl.com^
@@ -107470,6 +107480,7 @@ zzzyk.com###Tinfo
 ||r4nds.absorba.com^
 ||r4u.icu^
 ||r4uj20yt2u.com^
+||r4uws5iu3g.com^
 ||r528e.cn^$third-party
 ||r541.houstonchronicle.com^
 ||r566.timescall.com^
@@ -133761,6 +133772,7 @@ zzzyk.com###Tinfo
 ||tradingview.com/ping
 ||trafex.net^$third-party
 ||traffic.acwebconnecting.com^
+||traffic.askrella.de^
 ||traffic.calldorado.com^
 ||traffic.hostedstatus.page^
 ||traffic.outbrain.com/network/trackpxl?
@@ -136221,7 +136233,6 @@ zzzyk.com###Tinfo
 ||um5xcgngmart.xyz^
 ||umami.*/script.js|$script
 ||umami.aigenerations.net^
-||umami.askrella.de^
 ||umami.flixer.su^
 ||umami.is^$third-party
 ||umami.spencerdevs.xyz^
@@ -142427,6 +142438,7 @@ zzzyk.com###Tinfo
 ||xnxx.tv/picserror/
 ||xnzetb.xyz^
 ||xnzxeu.com^
+||xo60kab7yv.com^
 ||xobytn.vvsochbad.se^
 ||xoceonsl.com^
 ||xocvxh.sakuratravel.jp^
@@ -142474,6 +142486,7 @@ zzzyk.com###Tinfo
 ||xpya.cn^
 ||xpyccf.jdsports.fi^
 ||xpygen.unger-fashion.com^
+||xpzodh.icu^
 ||xpzswr.shasa.com^
 ||xqblnei.cn^
 ||xqcjfcb.cn^
@@ -142801,6 +142814,7 @@ zzzyk.com###Tinfo
 ||y3600.cc/js/jquery.min.js
 ||y494.wdsu.com^
 ||y4e04gql5o1b.www.nookgaming.com^
+||y4g8fgj6ra.com^
 ||y4l.icu^
 ||y4re1yokqv.com^
 ||y5qhzz3q.designdetails.fm^
@@ -143116,6 +143130,7 @@ zzzyk.com###Tinfo
 ||yhbdzh.farmasiint.com^
 ||yhbsk.cn^
 ||yhcca8h69o.com^
+||yhcu.cn^
 ||yhdcdo.crazy-factory.com^
 ||yhdd1.com^$third-party
 ||yhdm.tv/bar/yfyh.js
@@ -143987,6 +144002,7 @@ zzzyk.com###Tinfo
 ||zbmre.pitbarrelcooker.com^
 ||zbphp.sqairz.com^
 ||zbrfde.ozmall.co.jp^
+||zbrtnv.icu^
 ||zbseb.underdoggames.com^
 ||zbv7kxrteclub.xyz^
 ||zbvchabjbcj.com^
