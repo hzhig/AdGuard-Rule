@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-01-01 09:51:51(GMT+8) 
-! Total count: 146104
+! ! Version: 2026-01-01 20:41:42(GMT+8) 
+! Total count: 146116
  
 ###ADtip
 ###Ad_windows
@@ -4507,6 +4507,7 @@ $websocket,domain=wap.yushuwu.cloud
 /fuckadblock.js$script
 /fuckadblock.min.js$script
 /fuliba/js/n1.js
+/funnel-builder/assets/live/js/tracks.min.js
 /fusion/lucid/data/*
 /fx168_ad
 /g.jsp?uid=$script,third-party
@@ -11357,7 +11358,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
@@ -12977,6 +12978,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
 @@||qhres2.com^$domain=baike.so.com
+@@||qhres2.com^$domain=www.n.cn
 @@||qianpanso.cn/other/*.js$domain=cilimao.co|cilimao.one
 @@||qiantucdn.com/static/images/adsbygoogle.js
 @@||qimingdao.com/Index/loadmore?tag_id=
@@ -42528,6 +42530,7 @@ zzzyk.com###Tinfo
 ||7j4tpio.com^
 ||7jf3kxi6bq.com^
 ||7jkzmbd.cn^
+||7jqi6um1g.com^
 ||7junshi.com/con/ad
 ||7junshi.com/static/red-envelopes.js
 ||7k7k.com/api/position/
@@ -49679,6 +49682,7 @@ zzzyk.com###Tinfo
 ||aimtell.com^$third-party
 ||aimvaa.gulet.at^
 ||ainb01010zh.com^
+||ainb01011zh.com^
 ||ainb12241zh.com^
 ||ainb12250zh.com^
 ||ainb12251zh.com^
@@ -60739,6 +60743,7 @@ zzzyk.com###Tinfo
 ||cgajb.gardinerfamilyapothecary.hk^
 ||cgcag.timemission.com^
 ||cgcg01010ht.com^
+||cgcg01011ht.com^
 ||cgctsw.mytour.vn^
 ||cgdyw.net/xx/
 ||cgeimage.commutil.kr/jscomm/*/logger.js
@@ -80112,6 +80117,7 @@ zzzyk.com###Tinfo
 ||gtm.www.lepetsante.com.br^
 ||gtm.x1med.com.br^
 ||gtm.xs.com^
+||gtm.xtb.com^
 ||gtm.yalahan.com.br^
 ||gtm.yogaschool.com.br^
 ||gtm.youduka.com^
@@ -81128,6 +81134,7 @@ zzzyk.com###Tinfo
 ||hfoghh.inter.it^
 ||hfolmr.office-com.jp^
 ||hfpwcx.supermercadosmas.com^
+||hfqarnolmm.com^
 ||hfqdipw.cn^
 ||hfrjo.blacklabbrands.com^
 ||hfttufu4jo.top^
@@ -109416,6 +109423,7 @@ zzzyk.com###Tinfo
 ||reverb.digitalviscosity.com^
 ||reverbnation.com/api/user/app_events
 ||reverbnation.com/widgets/trk/
+||reversible68.com^
 ||revgroup.actonservice.com^
 ||revhunter.tech^$third-party
 ||revi.rcs.it^
@@ -120591,6 +120599,7 @@ zzzyk.com###Tinfo
 ||sr.mistermenuiserie.com^
 ||sr.studiostack.com^
 ||sr59t7wbx5.claricelin.com^
+||sr8jcp5fp.com^
 ||sra-px.cdn-fileserver.com^
 ||sravni.ru^$cookie=_FP_
 ||srbnxr.blair.com^
@@ -136756,6 +136765,7 @@ zzzyk.com###Tinfo
 ||u066.ocregister.com^
 ||u082.wapt.com^
 ||u0crsrah75fy.camberlion.com^
+||u0h2psmoz.com^
 ||u1.2048sj.com^
 ||u1.idongde.com^
 ||u1.qyxxpd.com^
@@ -144778,6 +144788,7 @@ zzzyk.com###Tinfo
 ||yvbird.sonitech.jp^
 ||yvcjyi.beymen.com^
 ||yvdaeg.on-running.com^
+||yvdb.cn^
 ||yvdxij.applevacations.com^
 ||yvesrocher.com.tr/images/__utm.gif^
 ||yvesrocher.com.tr/images/avenseo/tr_TR/avenseo-uniq.min.js
@@ -144900,6 +144911,7 @@ zzzyk.com###Tinfo
 ||yylqlk.agatinsvet.cz^
 ||yynncbn.cn^
 ||yyqlpi.danmusikk.no^
+||yyqozaldwa.com^
 ||yyrtip.mujkoberec.cz^
 ||yyselrqpyu.com^
 ||yysjea.stepstone.nl^
