@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-01-10 20:39:05(GMT+8) 
-! Total count: 146451
+! ! Version: 2026-01-11 09:52:08(GMT+8) 
+! Total count: 146467
  
 ###ADtip
 ###Ad_windows
@@ -2259,6 +2259,7 @@ $websocket,domain=wap.yushuwu.cloud
 .adingo.jp^$cookie
 .alcmpn.com/
 .amazonaws.com/thbeacon
+.animatebookstore.com/c/$image
 .aozorabank.co.jp/r/*/open/$image
 .apk0*oo.xyz/$script,xmlhttprequest,third-party
 .app.returnpath.net/
@@ -2704,6 +2705,7 @@ $websocket,domain=wap.yushuwu.cloud
 .qpqp0*oki.com/$script,xmlhttprequest,third-party
 .qqo*llo.com/$script,xmlhttprequest,third-party
 .qsko0*mas.com/$script,xmlhttprequest,third-party
+.qualtrics.com/subscription/watermark.gif?
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
 .redsift.com/e/o/$image
@@ -12703,7 +12705,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=quebeccoupongratuit.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
@@ -12718,6 +12719,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thehomestyle.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=theplace2.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tsviewer.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vide-greniers.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=voyageforum.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=al.ly
@@ -40909,6 +40911,7 @@ zzzyk.com###Tinfo
 ||0bb8jytek.com^
 ||0ddf.pandasuite.io^
 ||0e1y8x7ft.com^
+||0e9knynfb.com^
 ||0emm.com^$third-party
 ||0er7pc8.xyz^
 ||0h9yewgei.com^
@@ -42822,6 +42825,7 @@ zzzyk.com###Tinfo
 ||9ihome.com/info/ADTopvnet/
 ||9ist.com/others/ad/
 ||9j9gc694o4.com^
+||9jk7puqza.com^
 ||9js6.icu^
 ||9jsp.com/pay.png
 ||9k9k.com/jscode/js/
@@ -51648,6 +51652,7 @@ zzzyk.com###Tinfo
 ||analytics.neruzksa.com^
 ||analytics.net.dz.jumia.com^
 ||analytics.netkeiba.com^
+||analytics.netronline.dev^
 ||analytics.newdirectionsaromatics.ca^
 ||analytics.newdirectionsaromatics.com^
 ||analytics.newscred.com^
@@ -58961,6 +58966,7 @@ zzzyk.com###Tinfo
 ||bugs01091ko.com^
 ||bugs01100ko.com^
 ||bugs01101ko.com^
+||bugs01110ko.com^
 ||bugsnag.com^$third-party
 ||bugsnag.shopbop.amazon.dev^
 ||buhdv.rizebotanicals.com^
@@ -80775,6 +80781,7 @@ zzzyk.com###Tinfo
 ||harmonywing.com^
 ||harpra-companion-test.harvinar.com^
 ||harpra-companion.harvinar.com^
+||harpsichord34.com^
 ||harrier.haircation.com^
 ||harrier.progress.fyi^
 ||harrier.scdamerica.com.au^
@@ -81320,6 +81327,7 @@ zzzyk.com###Tinfo
 ||hi.xiunm.com^
 ||hi.xn--europenne-tests-de-produits-foc.fr^
 ||hi.zaufanarecenzja.pl^
+||hi2pv3e9pr.com^
 ||hi407ezyz.com^
 ||hi4c61mi8d.com^
 ||hiad.myweb.hinet.net^
@@ -88272,6 +88280,7 @@ zzzyk.com###Tinfo
 ||krcfi.ste-michelle.com^
 ||krcurxzl.soundboks.com^
 ||kre.wes.org^
+||kreirkaer.com^
 ||krevn0cq4.com^
 ||krfxvi.iconbydesign.com.au^
 ||krgoad.mauboussin.fr^
@@ -96314,6 +96323,7 @@ zzzyk.com###Tinfo
 ||media.licdn.com/cdo/rum/id?
 ||media.miamiherald.com/miamiherald/ng.gif?
 ||media.myguide-cdn.com/common/analytics.js
+||media.net^$third-party
 ||media.pirtek.co.uk^
 ||media.pirtek.de^
 ||media.pirtek.nl^
@@ -109984,6 +109994,7 @@ zzzyk.com###Tinfo
 ||royalcams.com/tools/track.php?
 ||royalcount.de^$third-party
 ||royalfamily.royalchaga.sk^
+||royalsbagels.com^
 ||royalsweeper.com^
 ||royzgi.giftishow.com^
 ||rp-online.de/cre*/tracking^
@@ -110474,6 +110485,7 @@ zzzyk.com###Tinfo
 ||russian.rt.com/nbc/|
 ||russianfood.com/js/informb_stat.core.js
 ||rusticaula.com^
+||rusticfrench.com^
 ||rusticprice.com^
 ||rusty-heartbeat.services.ps.axelspringer.de^
 ||rutarget.ru^$third-party
@@ -139220,6 +139232,7 @@ zzzyk.com###Tinfo
 ||vfljt.coffeeandmotivation.com^
 ||vfmahn.slevomat.cz^
 ||vfnab.vegamour.com^
+||vfnq.cn^
 ||vfo.voyage-prive.co.uk^
 ||vfo4.carrefour-banque.fr^
 ||vfoycy.nhk-ep.com^
@@ -139898,6 +139911,7 @@ zzzyk.com###Tinfo
 ||voiply.actonservice.com^
 ||voiqe.nursinghomeabusecenter.com^
 ||vois.vodafone.com^
+||vojolj.icu^
 ||vokmhydy.xyz^
 ||vokwlch.xyz^
 ||volantix.com^$third-party
@@ -144692,6 +144706,7 @@ zzzyk.com###Tinfo
 ||yizlda.crocs.co.uk^
 ||yjcf360.com/ad.
 ||yjfyhw.petscientific.co^
+||yjigiv1ic.com^
 ||yjkeqx.jobat.be^
 ||yjlbvd.pcfactory.cl^
 ||yjlhep.skechers.co.nz^
@@ -145724,6 +145739,7 @@ zzzyk.com###Tinfo
 ||zgodf.peluva.com^
 ||zgpon.heydude.uk^
 ||zgqgig.skillbox.ru^
+||zgqsc3shr.com^
 ||zgsdk.zhugeio.com^
 ||zgsid.spaderma.com^
 ||zgtcp.hotelcollectionofficial.uk^
