@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-01-11 20:40:07(GMT+8) 
-! Total count: 32379
+! ! Version: 2026-01-12 09:48:52(GMT+8) 
+! Total count: 32392
  
 ###ADtip
 ###Ad_windows
@@ -3908,10 +3908,10 @@ $websocket,domain=wap.yushuwu.cloud
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn513.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
-52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52niuyan.cc##.top_fixed
 52niuyan.cc##a[onclick][rel][style*="toutiaoimg.com"]
@@ -6033,7 +6033,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||sudupan.com^*/*.gif
 @@||sumeronline.com^$generichide
 @@||suning.cn/project/msIndex/js/??
-@@||supercloudsms.com/js/ad
+@@||supercloudsms.com^*/ad
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
 @@||swagbucks.com^$generichide
 @@||sweclockers.com/js/ad.js$script
@@ -10128,9 +10128,6 @@ icourse163.org##.promotion-banner-wrapper
 icourse163.org#@#.sns-link
 icu##.banner-layout-box
 id97.cc##.fed-part-case > a
-idanmu.ee##.entry-body > div[class]:first-child
-idanmu.ee##aside > div[class="widget "]
-idanmu.ee##div[class^="g "]
 idreamx.com#?##threadlisttableid > tbody:not([id]):has(> tr > td > a[target="_blank"])
 idreamx.com#?##threadlisttableid > tbody:not([id]):has(> tr > td > ins.adsbygoogle)
 iduba.com,newduba.cn##.m_nav_top
@@ -14004,6 +14001,7 @@ sunofbeach.net##div[id$="-ad"]
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 super.sina.cn##.call_up_banner
+supercloudsms.com##.container > img
 supercloudsms.com##a[href^="/redirect?"]
 superlife.ca##.sidebar-ad-zone
 supertaste.tvbs.com.tw###ad_m_bottom
@@ -15657,8 +15655,8 @@ zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 zjhlcp.com##.middle_list
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
-zn513.cc###klp_hdp
-zn513.cc#?##portal_block_69_content > li:has(a[href^="http"])
+zn524.cc###klp_hdp
+zn524.cc#?##portal_block_69_content > li:has(a[href^="http"])
 znds.com###diy_mobanbus_view_right2
 zol.com.cn###Article_Top_Banner
 zol.com.cn###btmLoginLayer
@@ -17005,6 +17003,7 @@ zzzyk.com###Tinfo
 ||7mmtv.tv/js/ad_js/
 ||7mmtv.tv/u_banner/
 ||7moor.com^$third-party
+||7mx63ygcti.com^
 ||7mxn77h4vr.com^
 ||7nb71ub2xi.com^
 ||7o2l520r0a.com^
@@ -18495,6 +18494,7 @@ zzzyk.com###Tinfo
 ||awyyzx.com^
 ||ax.*.ifeng.com^
 ||ax.ifeng.com^
+||ax07in8xkr.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
 ||axbdlox.cn^
@@ -19274,6 +19274,7 @@ zzzyk.com###Tinfo
 ||bugs01101ko.com^
 ||bugs01110ko.com^
 ||bugs01111ko.com^
+||bugs01120ko.com^
 ||buhvjv.icu^
 ||bujiangjiu123.com^
 ||bulisite.top^
@@ -23045,6 +23046,7 @@ zzzyk.com###Tinfo
 ||hupu.com/_dace.gif?
 ||hupu.com^*/interfaceAd/
 ||hupu.com^*/stream.js
+||huqraedu.com^
 ||hur.cn/AhurD/*.gif
 ||hur05071kns.com^
 ||hur05101kns.com^
@@ -24033,6 +24035,7 @@ zzzyk.com###Tinfo
 ||jomwihn.cn^
 ||jothvz.xyz^
 ||jovcbp.top^
+||joyacg.top/wp-content/uploads/*-640
 ||jp1357.com/addon/
 ||jp2468.com/addon/
 ||jp2468.com/api/vip/vipshow.php
@@ -27100,6 +27103,7 @@ zzzyk.com###Tinfo
 ||programmer-club.com.tw/images/uuu/
 ||progress12.com^
 ||prokyrn.icu^
+||prologue23.com^
 ||promotion-partner.kuaishou.com^
 ||pronpic.org/52mp/index.php/adhandler/
 ||propeller-tracking.com^
@@ -27274,6 +27278,7 @@ zzzyk.com###Tinfo
 ||qfnoyix.cn^
 ||qfwhko.icu^
 ||qgaxkkv.top^
+||qgreedreau.com^
 ||qguwoq.cn^$third-party
 ||qhaarkie.com^
 ||qhaazaduez.com^
@@ -28489,6 +28494,7 @@ zzzyk.com###Tinfo
 ||sneakersq5.com^
 ||sngmta.qq.com^
 ||snickers44.com^
+||snlyplsoli.com^
 ||snmi.cn^$third-party
 ||snowflake.qq.com^
 ||snwuamb.top^
@@ -29961,8 +29967,10 @@ zzzyk.com###Tinfo
 ||uxbd4id.xyz^
 ||uxcnhsf.cn^
 ||uxfa.cn^
+||uxfe.cn^
 ||uxlqwra.cn^
 ||uxmwh0f.xyz^
+||uxtlrah.com^
 ||uxtruz.xyz^
 ||uxx1sawfwm.com^
 ||uxxux.com/js/zd.js
@@ -30164,6 +30172,7 @@ zzzyk.com###Tinfo
 ||vinoinqih.com^
 ||vinsgcs.com^
 ||violetop33.top^
+||violoncello21.top^
 ||vip.luanren.com/data/*.gif
 ||vip.ludu319.com^$third-party
 ||vip.min1319.com^$third-party
@@ -30388,6 +30397,7 @@ zzzyk.com###Tinfo
 ||w537a7.cc^
 ||w58547.cc^
 ||w58ce6.cc^
+||w5ba5b.cc^
 ||w5bi16f3co.com^
 ||w5ftl8bhu3.com^
 ||w6xbr7hc.xyz^
@@ -30534,6 +30544,7 @@ zzzyk.com###Tinfo
 ||wfvs.cn^
 ||wgceetonr.com^
 ||wgoeisdnlk.com^
+||wh2mu9uj5f.com^
 ||whackyvidz.com/Webservices/jsParseLinks.aspx$script,third-party
 ||whackyvidz.com/visitScript/$script,third-party
 ||whazrm9wa.com^
@@ -31210,6 +31221,7 @@ zzzyk.com###Tinfo
 ||xoiz.cn^
 ||xokcaxw.cn^
 ||xolerkr.cn^
+||xommzrn.com^
 ||xonlines.com/upload/gg/
 ||xonlines.com/yyh_qp_200_200.png
 ||xopxptn.cn^
@@ -32186,6 +32198,7 @@ zzzyk.com###Tinfo
 ||zmdttx.icu^
 ||zmhqhuq.cn^
 ||zmk.pw/zfb.png
+||zmk852tp7.com^
 ||zmkp6jvq4.com^
 ||zmpgln.icu^
 ||zmrkxz.icu^

@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-01-11 20:40:07(GMT+8) 
-! Total count: 146481
+! ! Version: 2026-01-12 09:48:52(GMT+8) 
+! Total count: 146497
  
 ###ADtip
 ###Ad_windows
@@ -8629,10 +8629,10 @@ $websocket,domain=wap.yushuwu.cloud
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn513.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
-52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52niuyan.cc##.top_fixed
 52niuyan.cc##a[onclick][rel][style*="toutiaoimg.com"]
@@ -13563,7 +13563,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||sundaysky.com/sundaysky.js?$domain=lenovo.com
 @@||sundaysky.com^*/default/sundaysky.js$domain=lenovo.com
 @@||suning.cn/project/msIndex/js/??
-@@||supercloudsms.com/js/ad
+@@||supercloudsms.com^*/ad
 @@||support.steampowered.com^$removeparam
 @@||support.thesslstore.com/visitor/index.php
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
@@ -28993,9 +28993,6 @@ icu##.banner-layout-box
 id.condenast.com#%#//scriptlet('set-constant', 'appInfo.snowplow.trackSelfDescribingEvent', 'noopFunc')
 id97.cc##.fed-part-case > a
 idahofallspoc.townsquaremedia.info$image
-idanmu.ee##.entry-body > div[class]:first-child
-idanmu.ee##aside > div[class="widget "]
-idanmu.ee##div[class^="g "]
 idle-girl.com###custom_html-74
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_atfr', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_cons', '$remove$')
@@ -36277,6 +36274,7 @@ sunofbeach.net##div[id$="-ad"]
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 super.sina.cn##.call_up_banner
+supercloudsms.com##.container > img
 supercloudsms.com##a[href^="/redirect?"]
 superlife.ca##.sidebar-ad-zone
 supertaste.tvbs.com.tw###ad_m_bottom
@@ -40680,8 +40678,8 @@ zjhlcp.com##.middle_list
 zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
-zn513.cc###klp_hdp
-zn513.cc#?##portal_block_69_content > li:has(a[href^="http"])
+zn524.cc###klp_hdp
+zn524.cc#?##portal_block_69_content > li:has(a[href^="http"])
 znak.com##.relap
 znds.com###diy_mobanbus_view_right2
 zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
@@ -42520,6 +42518,7 @@ zzzyk.com###Tinfo
 ||7moor.com^$third-party
 ||7mx.eider.com^
 ||7mx.eidershop.com^
+||7mx63ygcti.com^
 ||7mxn77h4vr.com^
 ||7nb71ub2xi.com^
 ||7o2l520r0a.com^
@@ -56102,6 +56101,7 @@ zzzyk.com###Tinfo
 ||ax.idg.se/st01^
 ||ax.idg.se^
 ||ax.ifeng.com^
+||ax07in8xkr.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
 ||axacqy.henderson.ru^
@@ -58973,6 +58973,7 @@ zzzyk.com###Tinfo
 ||bugs01101ko.com^
 ||bugs01110ko.com^
 ||bugs01111ko.com^
+||bugs01120ko.com^
 ||bugsnag.com^$third-party
 ||bugsnag.shopbop.amazon.dev^
 ||buhdv.rizebotanicals.com^
@@ -82281,6 +82282,7 @@ zzzyk.com###Tinfo
 ||hupu.com^*/interfaceAd/
 ||hupu.com^*/stream.js
 ||huqkbq.misterrunning.com^
+||huqraedu.com^
 ||hur.cn/AhurD/*.gif
 ||hur05071kns.com^
 ||hur05101kns.com^
@@ -86911,6 +86913,7 @@ zzzyk.com###Tinfo
 ||jovslw.gardenmarkt.de^
 ||jowtkv.vertbaudet.de^
 ||joy.ochronus.online^
+||joyacg.top/wp-content/uploads/*-640
 ||joyfulharbor.com^
 ||joyfulkeen.com^
 ||joymaxtr.net/jc/gtm.js
@@ -106287,6 +106290,7 @@ zzzyk.com###Tinfo
 ||potensic.com/npublic/libs/widget/sensors/
 ||potsdamer-stadtplan.com/t.gif
 ||povtbi.automovilesalhambra.es^
+||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||powedw.com^
 ||power.adhacker.online^$third-party
 ||power.dj.studio^
@@ -106727,6 +106731,7 @@ zzzyk.com###Tinfo
 ||projectsunblock.com^$third-party
 ||prokazan.ru/components/analytics/stat.js
 ||prokyrn.icu^
+||prologue23.com^
 ||promclickapp.biz^$third-party
 ||prometeo-media-service.com/assets/pixel.gif
 ||promiseair.com^
@@ -107528,6 +107533,7 @@ zzzyk.com###Tinfo
 ||qgpsz.armedforcesgear.com^
 ||qgraph.io/dist/aiqua-wp.js
 ||qgraph.io/v3/r/aiqua.js
+||qgreedreau.com^
 ||qgumjp.asiae.co.kr^
 ||qgumjp.idol-chart.com^
 ||qgumjp.joins.com^
@@ -111684,6 +111690,7 @@ zzzyk.com###Tinfo
 ||sapi.start.bet.br^
 ||sapi.tremendous.com^
 ||sapi.worbit.io^
+||sapnest.com^
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
 ||sapot.1000bulbs.com^
@@ -111930,6 +111937,7 @@ zzzyk.com###Tinfo
 ||scenicapparel.com^
 ||scenicchicago.com^
 ||scenicdrops.com^
+||scentedkindly.com^
 ||scesqoikq.com^
 ||scfhwp.ski-express.com^
 ||scfql.marleylilly.com^
@@ -119638,6 +119646,7 @@ zzzyk.com###Tinfo
 ||snljxd.tdarsenal.ru^
 ||snlpt.carnivoresnax.com^
 ||snltte.promod.fr^
+||snlyplsoli.com^
 ||snmi.cn^$third-party
 ||snmzj.blade-city.com^
 ||sno1.snowrental.com^
@@ -138826,6 +138835,7 @@ zzzyk.com###Tinfo
 ||uxcnhsf.cn^
 ||uxdse.sugarshape.de^
 ||uxfa.cn^
+||uxfe.cn^
 ||uxkurx.sportsmansguide.com^
 ||uxkxoi.pflege.de^
 ||uxlog-api.danawa.com^
@@ -138834,6 +138844,7 @@ zzzyk.com###Tinfo
 ||uxmwh0f.xyz^
 ||uxplora.davivienda.com^
 ||uxqzcu.raunt.com^
+||uxtlrah.com^
 ||uxtqtg.quattroruote.it^
 ||uxtruz.xyz^
 ||uxx1sawfwm.com^
@@ -139539,6 +139550,7 @@ zzzyk.com###Tinfo
 ||vinted.nl/relay/events
 ||vinub.com^$third-party
 ||violetop33.top^
+||violoncello21.top^
 ||viously.com/*/mt?
 ||viously.com^*/mt?
 ||vip.agentteam.com.au^
@@ -140344,6 +140356,7 @@ zzzyk.com###Tinfo
 ||w55c.net^
 ||w58547.cc^
 ||w58ce6.cc^
+||w5ba5b.cc^
 ||w5bi16f3co.com^
 ||w5ftl8bhu3.com^
 ||w6.chabad.org^
@@ -141539,6 +141552,7 @@ zzzyk.com###Tinfo
 ||wgztae.audials.com^
 ||wh.giftd.tech^
 ||wh.ipaddress.com^
+||wh2mu9uj5f.com^
 ||whackyvidz.com/Webservices/jsParseLinks.aspx$script,third-party
 ||whackyvidz.com/visitScript/$script,third-party
 ||whahmy.timberland.es^
@@ -143925,6 +143939,7 @@ zzzyk.com###Tinfo
 ||xokcaxw.cn^
 ||xolebe.footway.se^
 ||xolerkr.cn^
+||xommzrn.com^
 ||xonlines.com/upload/gg/
 ||xonlines.com/yyh_qp_200_200.png
 ||xopnqk.wconcept.co.kr^
@@ -146033,6 +146048,7 @@ zzzyk.com###Tinfo
 ||zmhsxr.hometogo.com^
 ||zmiqg.eccouncil.org^
 ||zmk.pw/zfb.png
+||zmk852tp7.com^
 ||zmkp6jvq4.com^
 ||zml-apm-prd.dbv4.noncd.db.de^
 ||zmlntc.green-acres.es^
