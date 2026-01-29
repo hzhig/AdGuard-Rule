@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-01-28 20:50:30(GMT+8) 
-! Total count: 191343
+! ! Version: 2026-01-29 09:59:27(GMT+8) 
+! Total count: 191361
  
 ###ADtip
 ###Ad_windows
@@ -1334,6 +1334,7 @@
 ##a[href^="http://yunbofangbt."]
 ##a[href^="https://91keep.tv"]
 ##a[href^="https://adm.beimg.com/"]
+##a[href^="https://l.erodalabs.com"]
 ##a[href^="https://top.mail.ru/jump"]
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
@@ -60218,6 +60219,7 @@ hanime1.me##.search-rows-wrapper > .content-padding-new > .row > .multiple-link-
 hanime1.me##.video-show-width > .single-show-list > .hidden-xs[style*="text-align:"]
 hanime1.me##div[style*="width: 310px; height: 282px;"]
 hanime1.me#%#//scriptlet("trusted-replace-node-text", "script", "popunder", "/window\.open\('(.*?)',.*?\);\n.*location.href = '.*';/", "location.assign('$1');")
+hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
 hanime1.me#@#[class*="juicyads"]
 hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
@@ -67281,7 +67283,7 @@ pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping.mg.apexpay.org$image
-ping0.cc##.adeles
+ping0.cc##.myeles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -74189,6 +74191,7 @@ zzzyk.com###Tinfo
 ||16m.cc^$third-party
 ||16sucai.com/ads/
 ||16sucai.com/images/*0
+||16xxq8lb4g.com^
 ||17.huanqiu.com^
 ||1708t.com/js/jquery.js
 ||17173.com/actapi/qiyu/
@@ -75472,6 +75475,7 @@ zzzyk.com###Tinfo
 ||79181531227.com^
 ||797sun.com/include/js/common_footer.
 ||79zxcv.com^
+||7asx1bxaw.com^
 ||7awf4fi9k7.com^
 ||7bet.sevenbets.com.br^
 ||7bfst8xxtc.com^
@@ -75861,6 +75865,7 @@ zzzyk.com###Tinfo
 ||9tour.cn/x2/images/czmf.jpg
 ||9txnu9rlmd.com^
 ||9uim1pc4ej4n.ru.themoneytizer.com^
+||9vmbje748.com^
 ||9vviyje1s.top^
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||9wcn.com/gcld/500.gif
@@ -81285,6 +81290,7 @@ zzzyk.com###Tinfo
 ||addfreestats.com^$third-party
 ||addictedattention.com^
 ||addictedwonder.com^
+||addressfriend.com^
 ||addthis.com/at/
 ||addthis.com/live/
 ||addthis.com/red/$script,third-party
@@ -88905,6 +88911,8 @@ zzzyk.com###Tinfo
 ||aviite.freaksstore.com^
 ||aviko.actonservice.com^
 ||avito.ru/stat/
+||avito.st/mstatic/build/legacy/*/fingerprint.*.js
+||avito.st/s/pixel/script.js
 ||avitop.com/aviation/hitlist.asp
 ||avitya.ru^$domain=pronpic.org
 ||avivid.likr.tw/api/ring_only_tracking.min.js
@@ -91035,6 +91043,7 @@ zzzyk.com###Tinfo
 ||bluekai.com^
 ||bluekai.com^$third-party
 ||blueknow.com^$third-party
+||bluelionlabs.net^
 ||bluelp.2ask.blue.com.hk^
 ||bluemarblepayroll.actonservice.com^
 ||bluemountains.actonservice.com^
@@ -97227,6 +97236,7 @@ zzzyk.com###Tinfo
 ||cs.37see.com^$third-party
 ||cs.adgtrk.com^
 ||cs.analytics.lego.com^
+||cs.avito.ru^
 ||cs.bankmillennium.pl^
 ||cs.chaussea.com^
 ||cs.coopeservidores.fi.cr^
@@ -113155,6 +113165,7 @@ zzzyk.com###Tinfo
 ||gsk801271hh.com^
 ||gsk801280hh.com^
 ||gsk801281hh.com^
+||gsk801290hh.com^
 ||gslb.hpplay.cn^
 ||gslclvw.lackorecouture.com^
 ||gslive.edm.globalsources.com^
@@ -131415,6 +131426,7 @@ zzzyk.com###Tinfo
 ||lqtbe.whitneyhouston.com^
 ||lqvfkk.sosyopix.com^
 ||lqvmm.bellefit.com^
+||lqvz7e4xa.com^
 ||lqweqk61qlih.click^
 ||lqxjrk.fbs.com^
 ||lqxzx.com^
@@ -142515,6 +142527,7 @@ zzzyk.com###Tinfo
 ||othvwz.thelittlegreenbag.be^
 ||otienlk.top^
 ||otik.de^$third-party
+||otiladgyo.com^
 ||otisxx.sullyn.com^
 ||otkhyc.bueromarkt-ag.de^
 ||otkwcg.icu^
@@ -144495,7 +144508,6 @@ zzzyk.com###Tinfo
 ||ping.pdst.fm^
 ||ping.resoluteoil.com^
 ||ping.typekit.net/p.gif
-||ping0.cc/static/images/ad/
 ||pingback.giphy.com^
 ||pingback.issuu.com/ping
 ||pingback.issuu.com^
@@ -171476,6 +171488,7 @@ zzzyk.com###Tinfo
 ||summerobject.com^
 ||summerwm1.com^
 ||summit.edm.globalsources.com^
+||summit87.com^
 ||sumo.com/api/event/
 ||sumo.com/apps/heatmaps/
 ||sumo.com^$third-party
@@ -178503,6 +178516,7 @@ zzzyk.com###Tinfo
 ||track.oleificiovieste.com^
 ||track.olx.com.br^
 ||track.onahole.com^
+||track.onef.pro^
 ||track.opentable.com^
 ||track.organicbazar.net^
 ||track.orisee.ro^
@@ -178790,6 +178804,7 @@ zzzyk.com###Tinfo
 ||tracker-dot-optimeeze.appspot.com^
 ||tracker-rec.smart-bdash.com^
 ||tracker-remp.active.radio^
+||tracker-remp.premiumtimesng.com^
 ||tracker-server.high-cdn.com^
 ||tracker-v4.gamedock.io^
 ||tracker.3dissue.com^
@@ -181081,6 +181096,7 @@ zzzyk.com###Tinfo
 ||truthfulsensor.com^
 ||truthsocial.com/instance/innovid.js
 ||truuhmoen.com^
+||truunnoi.com^
 ||truvidplayer.com^$domain=technews.tw
 ||truxalsl.com^
 ||trv.upperbooking.com^$third-party
@@ -182418,6 +182434,7 @@ zzzyk.com###Tinfo
 ||understanding.mojohomes.com.au^
 ||understoodocean.com^
 ||underthesnow.ru/engine/modules/counter-
+||undertow52.top^
 ||undm.qibulo.com^
 ||undom.net^$third-party
 ||undurs.1md.org^
@@ -191245,6 +191262,7 @@ zzzyk.com###Tinfo
 ||zxuafe.fashionette.nl^
 ||zxvklz.icu^
 ||zxw51.com^$third-party
+||zxwfcwm.icu^
 ||zxwows.tucanourbano.com^
 ||zxwstong.com^
 ||zxxvns.f64.ro^

@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-01-28 20:50:30(GMT+8) 
-! Total count: 32701
+! ! Version: 2026-01-29 09:59:27(GMT+8) 
+! Total count: 32712
  
 ###ADtip
 ###Ad_windows
@@ -1323,6 +1323,7 @@
 ##a[href^="http://yunbofangbt."]
 ##a[href^="https://91keep.tv"]
 ##a[href^="https://adm.beimg.com/"]
+##a[href^="https://l.erodalabs.com"]
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
@@ -9566,6 +9567,7 @@ hanime1.me##.search-rows-wrapper > .content-padding-new > .row > .multiple-link-
 hanime1.me##.video-show-width > .single-show-list > .hidden-xs[style*="text-align:"]
 hanime1.me##div[style*="width: 310px; height: 282px;"]
 hanime1.me#%#//scriptlet("trusted-replace-node-text", "script", "popunder", "/window\.open\('(.*?)',.*?\);\n.*location.href = '.*';/", "location.assign('$1');")
+hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
 hanime1.me#@#[class*="juicyads"]
 hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
@@ -12763,7 +12765,7 @@ pincong.rocks##.aw-mod > a[target="_blank"]
 pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
-ping0.cc##.adeles
+ping0.cc##.myeles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -16088,6 +16090,7 @@ zzzyk.com###Tinfo
 ||16m.cc^$third-party
 ||16sucai.com/ads/
 ||16sucai.com/images/*0
+||16xxq8lb4g.com^
 ||17.huanqiu.com^
 ||1708t.com/js/jquery.js
 ||17173.com/actapi/qiyu/
@@ -17020,6 +17023,7 @@ zzzyk.com###Tinfo
 ||79181531227.com^
 ||797sun.com/include/js/common_footer.
 ||79zxcv.com^
+||7asx1bxaw.com^
 ||7awf4fi9k7.com^
 ||7bfst8xxtc.com^
 ||7c96k2gysn.com^
@@ -17341,6 +17345,7 @@ zzzyk.com###Tinfo
 ||9tata.com/js/www.js
 ||9tour.cn/x2/images/czmf.jpg
 ||9txnu9rlmd.com^
+||9vmbje748.com^
 ||9vviyje1s.top^
 ||9wcn.com/gcld/500.gif
 ||9xf9qkz5.com^
@@ -22431,6 +22436,7 @@ zzzyk.com###Tinfo
 ||gsk801271hh.com^
 ||gsk801280hh.com^
 ||gsk801281hh.com^
+||gsk801290hh.com^
 ||gslb.hpplay.cn^
 ||gsnlc.cn^
 ||gsp0.kj-gov.cn^
@@ -25283,6 +25289,7 @@ zzzyk.com###Tinfo
 ||lqftuugziloa.com^
 ||lqfvredung.com^
 ||lqjinx.xyz^
+||lqvz7e4xa.com^
 ||lqweqk61qlih.click^
 ||lqxzx.com^
 ||lrlsrz.xyz^
@@ -26795,6 +26802,7 @@ zzzyk.com###Tinfo
 ||otheve.beacon.qq.com^
 ||otheve.play.aiseet.atianqi.com^
 ||otienlk.top^
+||otiladgyo.com^
 ||otkwcg.icu^
 ||otlj.cn^
 ||otme.cn^
@@ -27153,7 +27161,6 @@ zzzyk.com###Tinfo
 ||pin6d37stu.com^
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
-||ping0.cc/static/images/ad/
 ||pinggu.org/api/bbsgg.
 ||pinglun11223.xyz^
 ||pingma.qq.com^
@@ -29062,6 +29069,7 @@ zzzyk.com###Tinfo
 ||suitcase890.top^
 ||suiyishop.cn/zhuangxiu_
 ||summerwm1.com^
+||summit87.com^
 ||sump4.cc/js/wcount.js
 ||sums.suning.com^$third-party
 ||sun66387567606.online^
@@ -29697,6 +29705,7 @@ zzzyk.com###Tinfo
 ||trustedcpmrevenue.com^
 ||truthfulsensor.com^
 ||truuhmoen.com^
+||truunnoi.com^
 ||truvidplayer.com^$domain=technews.tw
 ||truxalsl.com^
 ||trvsdlckg.icu^
@@ -30081,6 +30090,7 @@ zzzyk.com###Tinfo
 ||un.ubaike.cn^
 ||un1.lawyernet.cn^
 ||undergoon.com^
+||undertow52.top^
 ||undm.qibulo.com^
 ||unecne.com/wp-content/uploads/*ad-
 ||unetall.com^
@@ -32638,6 +32648,7 @@ zzzyk.com###Tinfo
 ||zxsnllo.cn^
 ||zxvklz.icu^
 ||zxw51.com^$third-party
+||zxwfcwm.icu^
 ||zxwstong.com^
 ||zxzj.me/slade2.js
 ||zyauopr.icu^
