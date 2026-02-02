@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-02-01 20:49:20(GMT+8) 
-! Total count: 190772
+! ! Version: 2026-02-02 10:07:37(GMT+8) 
+! Total count: 190785
  
 ###ADtip
 ###Ad_windows
@@ -3065,6 +3065,7 @@ $websocket,domain=wap.yushuwu.cloud
 /PageTracker?
 /PhoenixGoogleAnalytics.min.js
 /Php/Home/kakaxiaikakaxi.php
+/PixelPageView?
 /PixelTracking.
 /PixelTracking.js
 /Public/wap/zymk/js/guanggao.js
@@ -73198,6 +73199,7 @@ xiuren.org###menur
 xiushuang.com##.fix_app
 xiuting.cc#$##chaptercontent { filter: unset !important; }
 xixik.com###news_contents_left > .left_gg
+xjwiki.github.io#@##pub_head
 xkeba.com###diy90
 xkyn.com#%#//scriptlet("set-constant", "conone_lmg", "noopFunc")
 xmfish.com###pw_content > .forum_panel:nth-child(4)
@@ -84611,6 +84613,7 @@ zzzyk.com###Tinfo
 ||analytics.mondotv.jp^
 ||analytics.monetha.io^
 ||analytics.monobloc.de^
+||analytics.morphe.software^
 ||analytics.motoemotostore.it^
 ||analytics.mouthshut.com^
 ||analytics.move.ru^
@@ -85831,6 +85834,7 @@ zzzyk.com###Tinfo
 ||api.compramais.com.br^
 ||api.compramosagora.pt^
 ||api.config-security.com/event
+||api.config-security.com/first
 ||api.constructionconnectionusa.com^
 ||api.construtoradinamica.com.br^
 ||api.consumer.pt.mcclatchy.com/mia-mh/meter
@@ -85846,6 +85850,7 @@ zzzyk.com###Tinfo
 ||api.country.is^$third-party
 ||api.creditfinder.app^
 ||api.criancasmodoturbo.com^
+||api.croct.io^
 ||api.crossengage.io/api/*/track^
 ||api.cupid.qiyi.com/etx?
 ||api.cupid.qiyi.com/track2
@@ -92315,6 +92320,7 @@ zzzyk.com###Tinfo
 ||c783.fastcompany.com^
 ||c7o9xp4e4.com^
 ||c81.ipanocloud.com^
+||c8q27tqnaw.com^
 ||c917.pandasuite.io^
 ||c950.chronicle.com^
 ||c9nyrr.puurfiguur.nl^
@@ -112915,6 +112921,7 @@ zzzyk.com###Tinfo
 ||gsk801311hh.com^
 ||gsk802010hh.com^
 ||gsk802011hh.com^
+||gsk802020hh.com^
 ||gslclvw.lackorecouture.com^
 ||gslive.edm.globalsources.com^
 ||gsmatch.edm.globalsources.com^
@@ -115991,6 +115998,7 @@ zzzyk.com###Tinfo
 ||guszm.theshade.com.au^
 ||gutefrage.net/px.js
 ||guterrat.gaius.app^
+||guu0bfmpf5.com^
 ||guufxr.sdbullion.com^
 ||guurniuvgo.com^
 ||guwuym.barneys.co.jp^
@@ -134762,6 +134770,7 @@ zzzyk.com###Tinfo
 ||member-app.rightwayhealthcare.com^
 ||member.oewa.at^
 ||member.usenix.org^
+||membernook.com^
 ||members.atomcomplete.com^
 ||members.simplicity.coop^
 ||membership.mortonarb.org^
@@ -137926,6 +137935,7 @@ zzzyk.com###Tinfo
 ||moth.jkundp.at^
 ||moth.underscoretw.com^
 ||motion.kollmorgen.com^
+||motionarray.net^
 ||motionflowers.com^
 ||motionlessbelief.com^
 ||motionlessmeeting.com^
@@ -141143,6 +141153,7 @@ zzzyk.com###Tinfo
 ||ojm4.palladiumhotelgroup.com^
 ||ojmv.cn^
 ||ojmxro.yatsan.com^
+||ojn1zxz0ni.com^
 ||ojnpn.dorasti.com^
 ||ojpvyv.corail.co^
 ||ojqfn.apricoat.com^
@@ -146542,6 +146553,7 @@ zzzyk.com###Tinfo
 ||qiyukf.com^$third-party
 ||qiyun.org/images/js/*.htm
 ||qizhihaotian.com^*.js
+||qizq4hn7pr.com^
 ||qizut.furniturefair.net^
 ||qj9m4nou8t.com^
 ||qjapso.r.pl^
@@ -156201,6 +156213,7 @@ zzzyk.com###Tinfo
 ||simi.sleekflame.com^
 ||simi1234.com^
 ||simi2345.com^
+||similarity98.com^
 ||similarweb.com/scripts/lite-app/client/dist/tracking.min.js
 ||similarweb.com^$cookie=.DEVICETOKEN.SIMILARWEB.COM
 ||similarweb.com^$cookie=cb_anonymous_id
