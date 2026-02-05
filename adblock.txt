@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-02-05 10:02:36(GMT+8) 
-! Total count: 198210
+! ! Version: 2026-02-05 21:01:19(GMT+8) 
+! Total count: 198222
  
 ###ADtip
 ###Ad_windows
@@ -13831,6 +13831,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||optimized-by.rubiconproject.com/a/10926/26000/$subdocument,domain=onemanga.me
 @@||optimizely.com/js/geo2.js$domain=cbs.com
 @@||optimizely.com^$domain=sonos.com
+@@||optimizely.com^$image,domain=marinco.navico.com
 @@||optimost.com/counter/*/event.js?$domain=bebo.com
 @@||optimost.com^*/FT_live.js$domain=ft.com
 @@||optimost.com^*/content.js?$domain=bebo.com
@@ -64676,6 +64677,7 @@ hibox.hinet.net#@#.adarea
 hifidiy.net###part_left2
 hifidiy.net###part_right_gg7
 hinatasoku.blog.jp#?#.right-container > div.sidewrapper:has(> div.side > a[href="http://www.ziyu.net/"])
+hindustantimes.com##.middleTaboola
 hindustantimes.com#%#!function(){window.pSUPERFLY={virtualPage:function(){}};}();
 hindustantimes.com#%#//scriptlet('set-local-storage-item', '/^_c(b|hartbeat)/', '$remove$')
 hindustantimes.com#%#//scriptlet('set-local-storage-item', 'ht_cdp', '$remove$')
@@ -68196,6 +68198,7 @@ m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'Math.random', 'pare
 m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'return a.split')
 m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'navigator', 'location.href')
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
+m.smzdm.com##.damo-footer-open-app__fixed-logo
 m.so.com##.e_idea_list
 m.sogou.com##.recommend-pop.vr-recommend
 m.sohu.com###artLifeService
@@ -96501,6 +96504,8 @@ zzzyk.com###Tinfo
 ||btfclfeqc9.com^
 ||btg360.com.br^$third-party
 ||btgoo.cc^
+||bthaber.com/js/ads-tracker.js
+||bthaber.com/js/news-tracker.js
 ||btime.com/api/weblog?
 ||btjsvl.icu^
 ||btkat.com/style/l.js
@@ -96644,6 +96649,7 @@ zzzyk.com###Tinfo
 ||bundle.app/js/PushAnalyticsEvent.js
 ||bundle.dyn-rev.app^
 ||bundle.ppas.monster^
+||bundles-stats.kachingappz.app/impressions
 ||bungeesleeves.com^
 ||bunkr.*/js/last_visit.js
 ||bunkr.*/js/lv.js
@@ -111406,6 +111412,7 @@ zzzyk.com###Tinfo
 ||emberwhisper.com^
 ||embknh.perriconemd.com^
 ||embnvut.com^
+||embofjpks.com^
 ||embut.hoki-11.com^
 ||emc.dr-stick.shop^
 ||emcalliance.vmware.com^
@@ -122751,6 +122758,7 @@ zzzyk.com###Tinfo
 ||himum.trymagicbox.com^
 ||hinata.me^*/pageview|
 ||hindsight.significanceapps.com^
+||hindustantimes.com/cdp/user/ht
 ||hindustantimes.com/res/images/one-pixel.png
 ||hindustantimes.com^$cookie=_ht_fp
 ||hindustantimes.com^$cookie=ppid
@@ -125411,6 +125419,7 @@ zzzyk.com###Tinfo
 ||in.vertaz.com.br^
 ||inaftracker.com^$third-party
 ||inapps.appsflyer.com^
+||inapps.appsflyersdk.com^
 ||inbdut.marinbrasil.com.br^
 ||inbound-analytics.pixlee.co^
 ||inbound-analytics.pixlee.com^
@@ -145691,6 +145700,7 @@ zzzyk.com###Tinfo
 ||newsource-cdn-static.ns.cnn.com/prd/analytics/1.0.1/cnnvan-omniture.min.js
 ||newspage.xilu.com/model/visitlog.js
 ||newspicks.com/logs/
+||newspicks.com^$cookie=np_uuid
 ||newsradar.ro/collect.js
 ||newsres.cn/temp/tempad
 ||newsstat.dallasnews.com^
@@ -146645,6 +146655,7 @@ zzzyk.com###Tinfo
 ||nuyujp.barstoolsports.com^
 ||nv.inhaabit.com^
 ||nv.ua^$cookie=browser_id
+||nv0cl4nnq.com^
 ||nvapi.nicovideo.jp/*/bandit-machine/
 ||nvapi.nicovideo.jp/v1/bandit-machine/
 ||nvbflc.pinkpanda.bg^
@@ -186884,7 +186895,7 @@ zzzyk.com###Tinfo
 ||trackvoluum.com^$third-party
 ||trackword.biz^$third-party
 ||trackyourstats.com^$third-party
-||traction.technologyadvice.com^
+||traction.technologyadvice.com^$third-party
 ||tractorsupply.com^$cookie=/WC_USERACTIVITY_/
 ||tractorsupply.com^$cookie=WC_ACTIVEPOINTER
 ||tractorsupply.com^$cookie=WC_GENERIC_ACTIVITYDATA
@@ -189213,6 +189224,7 @@ zzzyk.com###Tinfo
 ||ulyuom.xyz^
 ||um-public-panel-prod.s3.amazonaws.com^
 ||um.contentstudio.io^
+||um.merinfo.se^
 ||um.viuapi.io/loggingservice/
 ||um5xcgngmart.xyz^
 ||umami.*/script.js|$script
