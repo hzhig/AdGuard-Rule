@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-02-09 21:08:23(GMT+8) 
-! Total count: 198322
+! ! Version: 2026-02-10 10:25:44(GMT+8) 
+! Total count: 198335
  
 ###ADtip
 ###Ad_windows
@@ -2494,7 +2494,7 @@ $websocket,domain=wap.yushuwu.cloud
 .everestengagement.com/$image
 .everestengagement.com/ea/$image
 .eviq.org.au/CMSModules/$image
-.exponea.com%2F%2A%2Fopen$image
+.exponea.com%2F*%2Fopen$image
 .exponea.com/*/open$image
 .facebook.com/tr/$image
 .facebook.com/tr?$image
@@ -86882,6 +86882,7 @@ zzzyk.com###Tinfo
 ||affiliate.hanibal.cz^
 ||affiliate.herbadent.cz^
 ||affiliate.hokr.eu^
+||affiliate.hrkgame.com^
 ||affiliate.htb-energy.co.jp^
 ||affiliate.ihrelinsen.at^
 ||affiliate.inkytattoo.cz^
@@ -91303,6 +91304,7 @@ zzzyk.com###Tinfo
 ||apm.tnet.nl^
 ||apm.yahoo.co.jp^
 ||apmplus.ap-southeast-1.volces.com^
+||apmplus.volces.com/monitor_web/
 ||apnews.com/blaize/datalayer
 ||apnews.com/newrelic/newrelic.browser.prod.js
 ||apollo.miniclip.com^
@@ -115826,6 +115828,7 @@ zzzyk.com###Tinfo
 ||gatag.uplus.co.kr^
 ||gatan.actonservice.com^
 ||gate.adgtrk.com^
+||gate.com/api/web/v*/marketing-tools/growth-placement/record-view
 ||gate.datacaciques.com^
 ||gate.mykite.com.ua^
 ||gate.rvc.cl^
@@ -117001,6 +117004,7 @@ zzzyk.com###Tinfo
 ||gnla02071qp.com^
 ||gnla02080qp.com^
 ||gnla02081qp.com^
+||gnla02091qp.com^
 ||gnnes.mintrx.com^
 ||gnnkrz.josbank.com^
 ||gnozmx.locasun.fr^
@@ -123453,6 +123457,7 @@ zzzyk.com###Tinfo
 ||hridoy.niyeci.com^
 ||hriy.cn^
 ||hrjg.com.cn^$third-party
+||hrkgame.com/allstaticfiles/js/cookie.min.js
 ||hrlmn.lorex.com^
 ||hrm.healthgrades.com^
 ||hrngmf.com^
@@ -129190,11 +129195,13 @@ zzzyk.com###Tinfo
 ||k99.cc^$third-party
 ||k9egtgh8v.com^
 ||k9w4m.xyz^
+||k9zxbudgix.com^
 ||ka.ilius.net^
 ||kaacsi.belvilla.nl^
 ||kaan.kakao.com^
 ||kabbo.kabbocollectionbd.com^
 ||kabokc.webuy.com^
+||kaboodle49.com^
 ||kabu-sokuhou.com/js/cpv/
 ||kacq.cn^
 ||kaden.netoff.co.jp^
@@ -131259,6 +131266,7 @@ zzzyk.com###Tinfo
 ||lgohse.fun^
 ||lgoseh.fun^
 ||lgqpf.raybuck.com^
+||lgrckt-in.com^
 ||lgrckt-in.com^$third-party
 ||lgskr.lolaandtheboys.com^
 ||lgtm.littlejuels.com^
@@ -150526,6 +150534,7 @@ zzzyk.com###Tinfo
 ||pixel.thoughtmetric.io^
 ||pixel.trackverify.com^
 ||pixel.tuko.co.ke^
+||pixel.udpauto.ru^
 ||pixel.underzstore.com^
 ||pixel.veritone-ce.com^
 ||pixel.videohub.tv^
@@ -167305,6 +167314,7 @@ zzzyk.com###Tinfo
 ||snrbox.com/tck/
 ||sns.cuckoonestartstudio.com^
 ||sns2.secureforms.mcafee.com^
+||snssdk.gatedata.org^
 ||snuea.coopsleepgoods.com^
 ||snva.jp/api/bcon/$image
 ||snva.jp/api/bcon/basic?
@@ -180060,6 +180070,7 @@ zzzyk.com###Tinfo
 ||tag.octopusenergy.fr^
 ||tag.panorama.ai^
 ||tag.pearldiver.io^
+||tag.perx.ru^
 ||tag.phantomscreens.com.au^
 ||tag.pluripharma.com.br^
 ||tag.poomang.com^
@@ -181031,6 +181042,7 @@ zzzyk.com###Tinfo
 ||target.zinia.com^
 ||target.zinia.de^
 ||targetab.metrobyt-mobile.com^
+||targetads.io^
 ||targetads.io^$third-party
 ||targetemsecure.blob.core.windows.net^
 ||targetfuel.com^$third-party
@@ -197186,6 +197198,7 @@ zzzyk.com###Tinfo
 ||z8alw.eddy-s.nl^
 ||z929.fuelfix.com^
 ||z953.marinij.com^
+||z9dy1kq9wv.com^
 ||za-go.experian.com^
 ||za.baomoi.com^
 ||za.qeeq.com^
