@@ -6,7 +6,7 @@
             "name": "DNS List",
             "source": "dns.txt",
             "type": "adblock",
-            "transformations": ["RemoveComments", "Compress","RemoveModifiers","Deduplicate","Validate"]
+            "transformations": ["RemoveComments", "Compress","RemoveModifiers","Deduplicate"]
         },
         {
             "name": "DNS Filters",
