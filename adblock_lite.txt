@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-04-06 21:09:14(GMT+8) 
-! Total count: 32507
+! ! Version: 2026-04-07 10:24:56(GMT+8) 
+! Total count: 32519
  
 ###ADtip
 ###Ad_windows
@@ -10000,6 +10000,8 @@ huanqiu.com##.right-box > article-other-template
 huanqiu.com#%#//scriptlet('set-constant', 'AD_SURVEY_Add_AdPos', 'noopFunc')
 huanqiu.com#%#//scriptlet('set-constant', 'AD_SURVEY_Add_AdPos_Simple', 'noopFunc')
 huaren.live##.action-ad
+huaren.live,huavod.com#%#//scriptlet('prevent-setTimeout', 'bait.offsetHeight===0')
+huaren.live,huavod.com#@#.ad_unit
 huaren.live,umbooks.com#%#//scriptlet('prevent-window-open')
 huaren.tv##.live-client_left
 huaren.tv##.live-client_right
@@ -19101,6 +19103,7 @@ zzzyk.com###Tinfo
 ||bitcoin25.com/js/scroll1.js$script
 ||bitcoin25.com/libs/check.js$script
 ||bitscn.com/js/a2
+||biuisz9ss.com^
 ||bixingjia.com/js/hf.
 ||biz.gexing.com^
 ||biz.weibo.com^
@@ -22210,6 +22213,7 @@ zzzyk.com###Tinfo
 ||gkhergik.com^
 ||gkjmev3.com^
 ||gknybkl.cn^
+||gkryjuqq3.com^
 ||gkuresx.com^
 ||gkvrdf.com^
 ||gl.ali213.net/images/jsq_gl.jpg
@@ -24482,6 +24486,7 @@ zzzyk.com###Tinfo
 ||kcglsiv.icu^
 ||kcnwe.xyz^
 ||kcqstn35as.com^
+||kd5anwumy.com^
 ||kdcl.pchome.com.tw^
 ||kdcxhr.cn^
 ||kdewa111.familydoctor.com.cn^
@@ -24784,6 +24789,7 @@ zzzyk.com###Tinfo
 ||l.qq.com/lview?
 ||l.ykimg.com^
 ||l0vij7q78.com^
+||l1bj5pxqzk.com^
 ||l235cj20z.com^
 ||l23jhjfasd.xyz^
 ||l2qdfaq62o.com^
@@ -26411,6 +26417,7 @@ zzzyk.com###Tinfo
 ||nuwurorwbr.com^
 ||nv0cl4nnq.com^
 ||nvbrfj.icu^
+||nvgst8gvjy.com^
 ||nvielkaa.com^
 ||nvsheng.com/js/gg.js
 ||nvxq.cn^
@@ -26934,6 +26941,7 @@ zzzyk.com###Tinfo
 ||pdxubxc.cn^
 ||pdzzjz.icu^
 ||pealefe.com^
+||pebfvv.icu^
 ||pebrihmethwa.com^
 ||peculiar93.top^
 ||pedestrian94.top^
@@ -28659,6 +28667,7 @@ zzzyk.com###Tinfo
 ||sojson.com/ps/list.
 ||sojson.com/ui/images/upyun
 ||solaron.top^
+||solicitor44.com^
 ||solitaire47.com^
 ||solitaire50.top^
 ||somaliainc.com^
@@ -29161,6 +29170,7 @@ zzzyk.com###Tinfo
 ||tgdlqeqpbh.com^
 ||tgdopodk.com^
 ||tgfyq.cn^
+||tggrurcutf.com^
 ||tggsd07.com^
 ||tghigvud.com^
 ||tgjxzf.top^
@@ -29246,6 +29256,7 @@ zzzyk.com###Tinfo
 ||tiexue.net/zgg/
 ||tifphl.icu^
 ||tifyeldi.top^
+||tigfvdr.com^
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
@@ -30319,6 +30330,7 @@ zzzyk.com###Tinfo
 ||vrzuhj.icu^
 ||vs1.exo01.xyz^$image,third-party
 ||vsct.cn^
+||vsjalz.icu^
 ||vsjavu.top^
 ||vsping-*.myqcloud.com/ggw/
 ||vsping.com/website/adLinks?

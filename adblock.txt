@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-06 21:09:14(GMT+8) 
-! Total count: 240478
+! ! Version: 2026-04-07 10:24:56(GMT+8) 
+! Total count: 240496
  
 ###ADtip
 ###Ad_windows
@@ -12571,6 +12571,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js?$domain=vseinstrumenti.ru
 @@||googletagmanager.com/gtm.js?id=GTM$domain=bglab.briangavindiamonds.com
 @@||googletagmanager.com/gtm.js?id=GTM$domain=spiegel.de
+@@||googletagmanager.com/gtm.js?id=GTM$script,domain=braun.de
 @@||googletagmanager.com/gtm.js?id=GTM-56WSR2$domain=victorinox.com
 @@||googletagmanager.com/gtm.js?id=GTM-TSHZLHD$domain=cyclingnews.com
 @@||googletagmanager.com/gtm.js?id=GTM-WMQ82P6$domain=excite.co.jp
@@ -94840,6 +94841,8 @@ huanqiu.com##.right-box > article-other-template
 huanqiu.com#%#//scriptlet('set-constant', 'AD_SURVEY_Add_AdPos', 'noopFunc')
 huanqiu.com#%#//scriptlet('set-constant', 'AD_SURVEY_Add_AdPos_Simple', 'noopFunc')
 huaren.live##.action-ad
+huaren.live,huavod.com#%#//scriptlet('prevent-setTimeout', 'bait.offsetHeight===0')
+huaren.live,huavod.com#@#.ad_unit
 huaren.live,umbooks.com#%#//scriptlet('prevent-window-open')
 huaren.tv##.live-client_left
 huaren.tv##.live-client_right
@@ -123134,8 +123137,10 @@ zzzyk.com###Tinfo
 ||aplus.gmarket.co.kr^
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
+||apm-fe.rnote.com^
 ||apm-fe.xiaohongshu.com^
 ||apm-log-upload-os.hoyoverse.com^
+||apm-native.redbascket.com^
 ||apm-native.xiaohongshu.com^
 ||apm-track.xiaohongshu.com^
 ||apm.infoldgames.com/v1/log/sendtlog
@@ -127409,6 +127414,7 @@ zzzyk.com###Tinfo
 ||bitrix.info/bx_stat
 ||bitscn.com/js/a2
 ||bitwarden.com/plsbl/
+||biuisz9ss.com^
 ||biv.gazeta.pl^
 ||biworldwide.actonservice.com^
 ||bixingjia.com/js/hf.
@@ -150340,6 +150346,7 @@ zzzyk.com###Tinfo
 ||gkm.eriklopez.com.br^
 ||gknybkl.cn^
 ||gkopqp.coccodrillo.eu^
+||gkryjuqq3.com^
 ||gksqdt.reitmans.com^
 ||gktrlv.oryany.co.kr^
 ||gkupv.theconsumerdigest.org^
@@ -163982,6 +163989,7 @@ zzzyk.com###Tinfo
 ||kcxvzc.debalets.com.tw^
 ||kcykhs.mrblue.com^
 ||kd.eland.kr^
+||kd5anwumy.com^
 ||kdarje.garten-und-freizeit.de^
 ||kdata.fr^$third-party
 ||kdcl.pchome.com.tw^
@@ -165184,6 +165192,7 @@ zzzyk.com###Tinfo
 ||l.zdnet.fr^
 ||l029.recordpatriot.com^
 ||l0vij7q78.com^
+||l1bj5pxqzk.com^
 ||l2.io/ip.js
 ||l2.io^$third-party
 ||l235cj20z.com^
@@ -167399,6 +167408,7 @@ zzzyk.com###Tinfo
 ||lnezkw.iturbo.fr^
 ||lnfmhl.icu^
 ||lnfqk.showerenvy.com^
+||lng.xiaohongshu.com^
 ||lngtd.com^$third-party
 ||lnhsjob.com^$third-party
 ||lnjiwo.manzara.sk^
@@ -182795,6 +182805,7 @@ zzzyk.com###Tinfo
 ||nvbrfj.icu^
 ||nvcfa.grillyourassoff.com^
 ||nvfja.vipertecknives.com^
+||nvgst8gvjy.com^
 ||nvidia.partners/telemetry/
 ||nvielkaa.com^
 ||nvinab.cartegriseminute.fr^
@@ -186053,6 +186064,7 @@ zzzyk.com###Tinfo
 ||pearson.com/assets/*/collect
 ||peasy.so^$third-party
 ||pebed.dm-event.net^
+||pebfvv.icu^
 ||pebrihmethwa.com^
 ||pecukirom.com^$third-party
 ||peculiar93.top^
@@ -206091,6 +206103,7 @@ zzzyk.com###Tinfo
 ||sole.pretto.fr^
 ||sole.riverwalkdental.com.au^
 ||soleblinds.com^
+||solicitor44.com^
 ||solicitud.pacifico.com.pe^
 ||solidcams.com/api/metrics
 ||solidscape.actonservice.com^
@@ -216944,6 +216957,7 @@ zzzyk.com###Tinfo
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
 ||stat.tiara.tistory.com^
+||stat.tildaapi.com/event/
 ||stat.tildacdn.com^
 ||stat.tildacdn.com^$third-party
 ||stat.timedg.com^
@@ -221139,6 +221153,7 @@ zzzyk.com###Tinfo
 ||t2.t2b.click^
 ||t2.ton.org^
 ||t2.tonmemerepublic.com^
+||t2.xiaohongshu.com^
 ||t21.press/counter.php
 ||t23o.cn^
 ||t24.com.tr/api/json/activity.php
@@ -223265,6 +223280,7 @@ zzzyk.com###Tinfo
 ||tgfkhk.tire-hood.com^
 ||tgfnm.maisonbondny.com^
 ||tgfyq.cn^
+||tggrurcutf.com^
 ||tggsd07.com^
 ||tghigvud.com^
 ||tghqq.trywellbe.pl^
@@ -223623,6 +223639,7 @@ zzzyk.com###Tinfo
 ||tigershark.integratecolumbus.org^
 ||tigershark.paavanmagic.com^
 ||tigershark.samwaymire.com^
+||tigfvdr.com^
 ||tightpowder.com^
 ||tiglck.technopolis.bg^
 ||tiglon.beyondco.de^
@@ -233637,6 +233654,7 @@ zzzyk.com###Tinfo
 ||vsfius.aranzulla.it^
 ||vsgwsk.bergzeit.at^
 ||vsima.chattanoogabeard.co^
+||vsjalz.icu^
 ||vsjavu.top^
 ||vsjvq.headstrongltd.com^
 ||vsl-track.com^
