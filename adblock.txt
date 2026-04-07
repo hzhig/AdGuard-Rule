@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-07 10:24:56(GMT+8) 
-! Total count: 240496
+! ! Version: 2026-04-07 21:18:05(GMT+8) 
+! Total count: 240513
  
 ###ADtip
 ###Ad_windows
@@ -10334,6 +10334,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||a-fds.youborafds01.com/data?$xmlhttprequest,domain=pluto.tv
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||a.f1g.fr/*/adsense.js$script,domain=lefigaro.fr
+@@||a.klaviyo.com/client/back-in-stock-subscriptions/?company_id=$xmlhttprequest,domain=bodylab24.de
 @@||a.klaviyo.com/client/subscriptions/
 @@||a.klaviyo.com/client/subscriptions/$xmlhttprequest,domain=ahead-nutrition.com
 @@||a.klaviyo.com/consent-pages/client/$xmlhttprequest
@@ -106022,8 +106023,8 @@ tw.news.yahoo.com##div[id^="defaultLDRB"]
 tw.news.yahoo.com##li[id^="ad-"]
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
-tw.stock.yahoo.com###nonStickyHeader-0-AdWrapper-Proxy
 tw.stock.yahoo.com###ysmcm
+tw.stock.yahoo.com##div[id*="AdWrapper"]
 tw.stock.yahoo.com##td > div.ysm
 tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
 tw.stock.yahoo.com#?#.news > div[class="bd quote"]:has(ul > li > .geminiAd)
@@ -121209,6 +121210,7 @@ zzzyk.com###Tinfo
 ||analytics.sanoma.fi^
 ||analytics.santanselmo.it^
 ||analytics.sayprimer.com^
+||analytics.sberhealth.ru^
 ||analytics.schoolwires.com^
 ||analytics.schubert.group^
 ||analytics.scorpion.co^
@@ -129074,6 +129076,7 @@ zzzyk.com###Tinfo
 ||c-ctrip.com/ResUnionOnline/R3/float/floating_normal.min.js
 ||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
+||c-date.*/customerm/
 ||c-date.at/sites/c-date.ch/modules/tracking
 ||c-date.com/pixel/
 ||c-date.it/tracking?
@@ -130190,7 +130193,6 @@ zzzyk.com###Tinfo
 ||cast-imp.jtbc.co.kr/trac?event=
 ||cast.imp.joins.com/persona.js
 ||cast.net.anwalt.de^
-||castatic.fengkongcloud.cn/pr/
 ||castify-trk.playitviral.com^
 ||casualphysics.com^
 ||casualstat.com^$third-party
@@ -130819,6 +130821,7 @@ zzzyk.com###Tinfo
 ||cdns.brsrvr.com^
 ||cdns.gigya.com/js/gigyaGAIntegration.js
 ||cdns.mbxt.net^
+||cdns.ozon.ru/v*/mc|
 ||cdns.redskapsbolaget.se^
 ||cdnst.zaycev.net/static/*/countersm.js
 ||cdnstats-a.akamaihd.net^
@@ -140653,6 +140656,7 @@ zzzyk.com###Tinfo
 ||dev.msadvocate.net^
 ||dev.mycoathangers.com.au^
 ||dev.onepiecemerchandise.com^
+||dev.ozon.ru/p-api/tracker/
 ||dev.pacebeer.com^
 ||dev.pancernik.eu^
 ||dev.peanut.pt^
@@ -143589,6 +143593,7 @@ zzzyk.com###Tinfo
 ||edgeadx.net^$third-party
 ||edgedc.falabella.com^
 ||edgedc.ibm.com^
+||edgelib.net^
 ||edgetrksvc.ebay.
 ||edgrmtracking.com^$third-party
 ||ediemidnightzombies.com^
@@ -145487,6 +145492,7 @@ zzzyk.com###Tinfo
 ||etzqwj.canevas.com^
 ||eu-1-id5-sync.com^
 ||eu-cdn.kgm-motors.co.uk^
+||eu-data.kameleoon.io^$third-party
 ||eu-mobile.events.data.microsoft.com^
 ||eu-south-2.alb.pulse.perfmetrics.netflix.com^
 ||eu-survey.com^$third-party
@@ -173081,6 +173087,9 @@ zzzyk.com###Tinfo
 ||m.luckym.ca^
 ||m.m216j.cn^$third-party
 ||m.manhua123.net/js/com1.js
+||m.media-amazon.com/images/G/*/msa/vowels/metrics
+||m.media-amazon.com/images/I/*.js?AUIClients/GWMMetricsJS
+||m.media-amazon.com/images/S/sash/*.js?csm_attribution=
 ||m.mediazilla.com^
 ||m.mentavi.com^
 ||m.mianbao99.com/js/detail.js
@@ -173551,6 +173560,7 @@ zzzyk.com###Tinfo
 ||manhuabei.com/assets/xiwang.js
 ||manhuapi.com/style/js/common.js
 ||manifest97.com^
+||maniteka.com^
 ||manlungkey.com^
 ||manmanju.com/mg/show*.js
 ||manomano.*/api/v1/sp-tracking/
@@ -175659,6 +175669,7 @@ zzzyk.com###Tinfo
 ||mbsvr.net/js/tracker/
 ||mbsy.co^$third-party
 ||mbuht.presscription.co.uk^
+||mbuuceth.com^
 ||mbveryu.top^
 ||mbvhbv.yumeyado.jp^
 ||mbvqq.rmsbeauty.com^
@@ -186632,6 +186643,7 @@ zzzyk.com###Tinfo
 ||pixel-*.convertagain.net^
 ||pixel-*.rubiconproject.com^
 ||pixel-a.basis.net^
+||pixel-cdp.sberhealth.ru^
 ||pixel-config.reddit.com^
 ||pixel-conversion.apps.seabroadnet.com^
 ||pixel-img.com^
@@ -206812,6 +206824,8 @@ zzzyk.com###Tinfo
 ||sparrow.workingincontent.com^
 ||sparteo.com^$third-party
 ||spaziogames.it/ajax/player_impression.ashx?
+||spb.docdoc.ru^$cookie=/^_sp_id\./
+||spb.docdoc.ru^$cookie=deviceId
 ||spbvedomosti.ru^$cookie=/^BITRIX_/
 ||spc.personalcreations.com^
 ||spcfl.belongdesigns.com^
@@ -231580,6 +231594,7 @@ zzzyk.com###Tinfo
 ||users-api.com^$third-party
 ||users.51.la^$third-party
 ||users.rentbabe.com^
+||users.videasy.net/api/track
 ||usersegment.wpdigital.net^
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
@@ -232641,6 +232656,7 @@ zzzyk.com###Tinfo
 ||vejrp6iq25.com^
 ||vekekc.nissanblainville.com^
 ||vel7.xyz^
+||velarium.cc^
 ||velaro.com^$third-party
 ||velocity30.com^
 ||velocitypartners.actonservice.com^
@@ -234384,6 +234400,7 @@ zzzyk.com###Tinfo
 ||weatherzone.*/*/scripts/gtmHead.js
 ||weatherzone.*/*/scripts/hotjar.js
 ||web-analytics.lastpass.com^
+||web-api.napopravku.ru/api-internal/analytics/
 ||web-beacon.starii-rover.com^
 ||web-boosting.net^$third-party
 ||web-counter.net^$third-party

@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-04-07 10:24:56(GMT+8) 
-! Total count: 32519
+! ! Version: 2026-04-07 21:18:05(GMT+8) 
+! Total count: 32520
  
 ###ADtip
 ###Ad_windows
@@ -14538,8 +14538,8 @@ tw.news.yahoo.com##div[id^="defaultLDRB"]
 tw.news.yahoo.com##li[id^="ad-"]
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
-tw.stock.yahoo.com###nonStickyHeader-0-AdWrapper-Proxy
 tw.stock.yahoo.com###ysmcm
+tw.stock.yahoo.com##div[id*="AdWrapper"]
 tw.stock.yahoo.com##td > div.ysm
 tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
 tw.stock.yahoo.com#?#.news > div[class="bd quote"]:has(ul > li > .geminiAd)
@@ -19551,7 +19551,6 @@ zzzyk.com###Tinfo
 ||cash4links.co/visitScript/$script,third-party
 ||casisi118.vip^
 ||casserole59.top^
-||castatic.fengkongcloud.cn/pr/
 ||cat.da.us.criteo.com^
 ||catalysis39.top^
 ||cataract40.com^
@@ -21177,6 +21176,7 @@ zzzyk.com###Tinfo
 ||ed.gumoda.top^
 ||ed2000k.com/ad/
 ||edethrelhf.com^
+||edgelib.net^
 ||edmfizohztab.com^
 ||edmontonchina.*/pic/
 ||edong.link^
@@ -25524,6 +25524,7 @@ zzzyk.com###Tinfo
 ||mbg06271pg.com^
 ||mbjaob.cn^
 ||mbn6duism5.com^
+||mbuuceth.com^
 ||mbveryu.top^
 ||mbxsku.cn^
 ||mbxw.xyz^
