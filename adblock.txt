@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-07 21:18:05(GMT+8) 
-! Total count: 240513
+! ! Version: 2026-04-08 10:25:55(GMT+8) 
+! Total count: 240536
  
 ###ADtip
 ###Ad_windows
@@ -2226,6 +2226,7 @@ $websocket,domain=wap.yushuwu.cloud
 *$script,third-party,domain=m.roushuwu.vip
 *$script,third-party,xmlhttprequest,domain=m.biquge700.com|biquge001.com
 *$script,xmlhttprequest,third-party,domain=m.1024txt.com
+*$script,xmlhttprequest,third-party,domain=m.niupizhi.net
 *$third-party,domain=440012.xyz
 *$xmlhttprequest,denyallow=ddxsmf.com|apps.bdimg.com|cdnsrc.asp.net,domain=ddxsmf.com
 *.lijie.*/*_*?$third-party
@@ -2519,7 +2520,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cuenote.jp/c/*.gif$image
 .cyou/redbaiduct.com
 .cyou/xling_*_$third-party
-.de/bi/d*$domain=merkur.de|hna.de|serienjunkies.de|fr.de|ovb-online.de|mangfall24.de|wasserburg24.de|bgland24.de|innsalzach24.de|rosenheim24.de|chiemgau24.de
+.de/bi/d*$domain=come-on.de|merkur.de|hna.de|serienjunkies.de|fr.de|ovb-online.de|mangfall24.de|wasserburg24.de|bgland24.de|innsalzach24.de|rosenheim24.de|chiemgau24.de
 .de/l.gif?
 .de/pt.gif?type=
 .delivery-status.com/open?
@@ -5541,6 +5542,7 @@ $websocket,domain=wap.yushuwu.cloud
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
+/network-analytics.js
 /neustar.beacon.js
 /new-client/trackers.
 /new-relic.js
@@ -111500,6 +111502,7 @@ zzzyk.com###Tinfo
 ||6mh8.com^
 ||6n528aywi9.com^
 ||6nwp0r33a71m.app.dev.cardahealth.com^
+||6o2k80jf8w.com^
 ||6o719vq4x.com^
 ||6ogiuks905.com^
 ||6p2g1kk03.com^
@@ -111794,6 +111797,7 @@ zzzyk.com###Tinfo
 ||8gp4wjq3.com^
 ||8gptk28oag.com^
 ||8h93.com^*.gif
+||8hx7k0211.com^
 ||8inhjmd.usefathom.com^
 ||8j7tu8vtxx.com^
 ||8jkx.com^
@@ -122923,6 +122927,7 @@ zzzyk.com###Tinfo
 ||api.teslatreinamentos.com^
 ||api.testbook.com/api/*/popup
 ||api.teste.auditiv.pt^
+||api.tezfiles.com/*/analytics/
 ||api.thefantazy.com/web-vitals
 ||api.thequietandco.com^
 ||api.thetamovement.com.br^
@@ -124485,6 +124490,7 @@ zzzyk.com###Tinfo
 ||aralego.net^$third-party
 ||aramuz.net/frontapi/*/analyticsEvent?
 ||araskargo.com.tr/tr/jv_google_analytics.js
+||arbitrarydecisions.com/fingerprint-sw.js
 ||arc.io^$third-party
 ||arc.msn.com/*/Impression?PID=
 ||arc.nexx.cloud/static/structure/pixel_transparent.png
@@ -126328,6 +126334,7 @@ zzzyk.com###Tinfo
 ||barracuda.carte-gr.total.fr^
 ||barracuda.civicdatalibrary.org^
 ||barracuda.verto.exchange^
+||barrister85.top^
 ||barrons.com/cookies/pixel.gif
 ||barry-callebaut.com/pd.js
 ||barscreative1.com^
@@ -129009,6 +129016,7 @@ zzzyk.com###Tinfo
 ||byqdtp.interpark.com^
 ||bysbpc.teufelaudio.nl^
 ||byscy.cn^$third-party
+||bysefujedu.com/fingerprint-sw.js
 ||bysfnu.bodeboca.com^
 ||byt73g6rrr.com^
 ||bytecdn.cn/ta/resource/v0/analytics.js
@@ -139931,6 +139939,7 @@ zzzyk.com###Tinfo
 ||datas3ntinel.com^
 ||dataserver.bagypack.com^
 ||datasign.co/js/opn.js
+||datasink.sensorsjourney.com^
 ||datasphere-sbsvc.sharethis.com^
 ||datastape.hometexbd.com^
 ||datastat.me^
@@ -140703,6 +140712,7 @@ zzzyk.com###Tinfo
 ||devlink.sprive.com^
 ||devlink.thebpr.com^
 ||devlinks.slicepay.in^
+||devll8j4n.com^
 ||devlog-upload-os.hoyoverse.com^
 ||devotionalclicks.amazingfacts.org^
 ||devphp.org.ua^$third-party
@@ -163395,6 +163405,7 @@ zzzyk.com###Tinfo
 ||json.cn/d/dt/
 ||json.cn/js/aliWindow.js
 ||json.inf.mtml.ru/?*&count=
+||jspcdn.cn^
 ||jspqms.bellevue-ferienhaus.de^
 ||jspzv.supergut.com^
 ||jsqng.covesmart.com^
@@ -172019,6 +172030,7 @@ zzzyk.com###Tinfo
 ||log.zingnews.vn^
 ||log.znews.vn^
 ||log.zongheng.com^
+||log0-misc-hl.amemv.com^
 ||log000.goo.ne.jp^
 ||log002.commutil.kr^
 ||log1.apkomega.com^
@@ -173105,6 +173117,7 @@ zzzyk.com###Tinfo
 ||m.natural.ai^
 ||m.navi.com^
 ||m.nereus.live^
+||m.niupizhi.net/lokedpgdjs
 ||m.nxtgn.us^
 ||m.olympia.it^
 ||m.oneleet.com^
@@ -188598,6 +188611,7 @@ zzzyk.com###Tinfo
 ||pussy.org^*/track.php
 ||pusti.svc.litv.tv/puid
 ||putaoys.com/static/js/acb1.js
+||putmtmkfjbitxzlhijfc.top^
 ||putonghua520.com/skins/10ym/3jin.gif
 ||putonghua520.com/skins/10ym/baicai.gif
 ||putphc.zuhre.com.tr^
@@ -192267,6 +192281,7 @@ zzzyk.com###Tinfo
 ||rxzefz.icu^
 ||rxzz.metcalfehotel.com^
 ||ry0.rythmefm.com^
+||ry7icaih0p.com^
 ||rybbit.sg-app.com^
 ||rybfjx.sportscheck.com^
 ||rychlost.cz/_pub/jquery/scripts.js$script
@@ -192825,6 +192840,7 @@ zzzyk.com###Tinfo
 ||s.yorkregion.com^
 ||s.yovite.com^
 ||s.zixuntop.com^
+||s00hv1jp8.com^
 ||s010.net.jumia.sn^
 ||s02.bestsecret.com^
 ||s06g9qvr5.com^
@@ -222862,6 +222878,7 @@ zzzyk.com###Tinfo
 ||teejubilee.com^
 ||teen.zubie.com^
 ||teenage.engineering/_api/mw/track/
+||teenager365.to/player/stats.php?event=$image,redirect=1x1-transparent.gif,domain=teenager365.to
 ||teeniaole.com^
 ||teenporn.ws/zaq/cron.php
 ||teenytinycellar.com^
@@ -223234,6 +223251,7 @@ zzzyk.com###Tinfo
 ||teyourmarketing.trungaleegan.com^
 ||teyvmb.moniquelhuillier.com^
 ||tezeoddo.com^
+||tezfiles.com/log|
 ||tezlpl.icu^
 ||tf.360.cn^
 ||tf1.fr^$cookie=ABTasty
@@ -228920,6 +228938,7 @@ zzzyk.com###Tinfo
 ||triggertag.gorillanation.com^$third-party
 ||triggit.com^$third-party
 ||trigminp.com^
+||trikahrta.com^
 ||trilogyed.com^$third-party
 ||tringrod.com^
 ||trinityconsultants.actonservice.com^
@@ -230169,6 +230188,7 @@ zzzyk.com###Tinfo
 ||tvfli.stripeandstare.com^
 ||tvfree2.me/ads_*.js$script
 ||tvfree2.me/pub/
+||tvfvxr.icu^
 ||tvgc.thevintagearcade.com^
 ||tvgids.nl/collect
 ||tvgkatu.icu^
@@ -232878,6 +232898,7 @@ zzzyk.com###Tinfo
 ||vhulan.com^
 ||vhutitpu.icu^
 ||vhvlwi.superdrycol.com^
+||vhxahf.icu^
 ||vhxzfz.icu^
 ||vi.adviso.ca^
 ||via.ssl.holdmybeerconsulting.com^
@@ -238038,6 +238059,7 @@ zzzyk.com###Tinfo
 ||xxsmtz7.com^
 ||xxsmtz8.com^
 ||xxsmtz9.com^
+||xxss6677.com^
 ||xxsywxj.com^
 ||xxtalp.xyz^
 ||xxts11130zs.com^
@@ -238689,6 +238711,7 @@ zzzyk.com###Tinfo
 ||ylmqwj.sumikominavi.com^
 ||ylog.huya.com^
 ||ylog.nimo.tv^
+||ylr1xn2b4i.com^
 ||ylsjdq.jegs.com^
 ||ylsjka.conranshop.jp^
 ||yltkil.e-hoi.ch^
