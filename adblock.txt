@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-08 10:25:55(GMT+8) 
-! Total count: 240536
+! ! Version: 2026-04-08 21:19:11(GMT+8) 
+! Total count: 240551
  
 ###ADtip
 ###Ad_windows
@@ -908,6 +908,7 @@
 ##A[href*="googleme.eu"]
 ##A[href*='-fghgdf.com']
 ##A[href*='-fghhjj.com']
+##A[href*='.life/8888'][style='display: inline-block;']
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='aducx.com']
@@ -12311,6 +12312,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=computerhoy.com
 @@||googletagmanager.com/gtm.js$domain=coolermaster.com
 @@||googletagmanager.com/gtm.js$domain=cotizadorsalud.mapfre.com.mx
+@@||googletagmanager.com/gtm.js$domain=creator.fronius.com
 @@||googletagmanager.com/gtm.js$domain=cuisineactuelle.fr
 @@||googletagmanager.com/gtm.js$domain=cuk.pl
 @@||googletagmanager.com/gtm.js$domain=cwtv.com
@@ -94082,6 +94084,7 @@ gogloszeniabalid3.click.s11.sfmc-osl.com$image
 gohome.com.hk##div[id^="div-gpt-ad"][style]
 gohome.com.hk,idv.st#@##adFrame
 gokano.com#@#.adsbygoogle
+gol.ru#%#//scriptlet('set-local-storage-item', 'uniqueClientId', '$remove$')
 golinksworld.com###btn_download
 gome.com.cn###gome-aside-app
 gome.com.cn###gome-aside-app-code
@@ -119142,6 +119145,7 @@ zzzyk.com###Tinfo
 ||akavita.com^$third-party
 ||akbar.aktechnologybd.com^
 ||akcnkancklankl.com^
+||akcuqkr.com^
 ||akcze.dysoncanada.ca^
 ||akdie.xyz^
 ||akgnwd.tocris.com^
@@ -137928,6 +137932,7 @@ zzzyk.com###Tinfo
 ||data-ff95894520.apps.iocnt.de^
 ||data-ingest.xtralife.com^
 ||data-ingestion.flowgpt.com^
+||data-lake-api.internet.apps.samsung.com^
 ||data-logdelivery.wconcept.co.kr^
 ||data-nl.computer-automation.de^
 ||data-nl.connect-professional.de^
@@ -147679,6 +147684,7 @@ zzzyk.com###Tinfo
 ||fl0hg5wlr.com^
 ||fl5dpe.oui.sncf^
 ||fl6n.com/adtop/
+||fl7i15bxzr.com^
 ||flag.lab.amplitude.com^$third-party
 ||flagcounter.com^$third-party
 ||flaghit.com^$third-party
@@ -156915,6 +156921,7 @@ zzzyk.com###Tinfo
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaicounter.com^$third-party
 ||hentaistream.com^$popup
+||hentaitoon.tv/api/track
 ||henwilkson.com^
 ||heoddikvdm.com^
 ||hepsiads-gw.hepsiburada.com^
@@ -158283,6 +158290,7 @@ zzzyk.com###Tinfo
 ||hypebeast.com/firebase-messaging-sw.js
 ||hypemarketing.pl/cdn/fhmm-tracker.js
 ||hyperactivate.com^$third-party
+||hypercarart.com^
 ||hypercomments.com/widget/*/analytics.html
 ||hypercounter.com^$third-party
 ||hyperdisk.actonservice.com^
@@ -180346,6 +180354,7 @@ zzzyk.com###Tinfo
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
 ||mtime.cn/tg/
 ||mtizl.ugg.com^
+||mtjaiko.com^
 ||mtjmg.blade-city.com^
 ||mtkrf.wrangler.com^
 ||mtkure.gazin.com.br^
@@ -182895,6 +182904,7 @@ zzzyk.com###Tinfo
 ||nxwniq.aboutyou.ie^
 ||nxxyjn.com^
 ||ny.frontpush.com.br^
+||ny2oqsu7et.com^
 ||ny70zesy5v.com^
 ||ny77jj.washingtonpost.com^
 ||nyaa.*/static/js/ccheck.js
@@ -191333,6 +191343,8 @@ zzzyk.com###Tinfo
 ||ridestore.com^$cookie=/^google-analytics_v4__/
 ||ridge.com/cdn/shopifycloud/media-analytics/
 ||ridgemerino.com/api/collect
+||ridibooks.com$cookie=/^AMP/
+||ridibooks.com$cookie=ruid
 ||ridmvd.dazzystore.com^
 ||ridve.simmsfishing.com^
 ||ridzf.ispeedtolead.com^
@@ -235540,6 +235552,7 @@ zzzyk.com###Tinfo
 ||wizaly.com^$third-party
 ||wizard.clickdrive.nl^
 ||wizardbuck.com^
+||wizardstrategy.com^
 ||wizcase.com/jssdk//track/
 ||wizoevljj.com^
 ||wiztube.xyz/cdn-cgi/trace
@@ -237385,6 +237398,7 @@ zzzyk.com###Tinfo
 ||xfdlfj.icu^
 ||xfgctg.com^
 ||xficbl.my-auction.co.jp^
+||xfidfuxidr.in^
 ||xfinity.com/event/
 ||xflsj.com^
 ||xfobuc.serenaandlily.com^
@@ -239955,6 +239969,7 @@ zzzyk.com###Tinfo
 ||zjikqm.europcar.ie^
 ||zjixiy.tectake.ch^
 ||zjjbtl.com^
+||zjjfmf9m3q.com^
 ||zjjhfc.com/js/zt.js
 ||zjklt4ei4.com^
 ||zjkpxw.tesco.hu^
