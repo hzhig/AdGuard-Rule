@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-09 10:12:08(GMT+8) 
-! Total count: 240567
+! ! Version: 2026-04-09 21:26:50(GMT+8) 
+! Total count: 240577
  
 ###ADtip
 ###Ad_windows
@@ -10445,7 +10445,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
@@ -15375,6 +15375,7 @@ aff.idcsn.email$image
 affyun.com##.text
 affyun.com##.text ~ a
 afisha.alalikexpress.com$image
+afisha.ru#%#//scriptlet('set-local-storage-item', '/adtech_uid/', '$remove$')
 africa.click.s11.sfmc-osl.com$image
 afteryou.mg.afteryou.pt$image
 afzhan.com##.bannerAdv
@@ -98462,6 +98463,7 @@ m.mi.com##.download-app-go
 m.mobile01.com##.u-gapNextV--lg.u-height280
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
+m.mydrivers.com##.news_content + div > a:first-child
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
 m.nivod2.com,m.nivod2.tv,m.nivod4.com,m.nivod4.tv,m.nivod5.tv,m.nivod7.tv,m.nivod8.tv,m.nivod9.tv###hellBoy > li:not([track-by]) > img
 m.nivod2.com,m.nivod2.tv,m.nivod4.com,m.nivod4.tv,m.nivod5.tv,m.nivod7.tv,m.nivod8.tv,m.nivod9.tv###video-container + ul[style^="width:"] > li > img
@@ -111356,6 +111358,7 @@ zzzyk.com###Tinfo
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
 ||5vkyqkc.cn^
+||5vszw5ab2.com^
 ||5vuk.xyz^
 ||5w31xv1a2.com^
 ||5wl8x.xyz^
@@ -117122,6 +117125,7 @@ zzzyk.com###Tinfo
 ||actuallysnake.com^
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
+||acustomizedgift.com^
 ||acv.au-hikari-kddi.com^
 ||acv.auhikari-norikae.com^
 ||acv.aun-air-wifi.com^
@@ -118623,6 +118627,7 @@ zzzyk.com###Tinfo
 ||afisha.ru^$cookie=_afuid
 ||afisha.ru^$cookie=_eggDeviceUUID
 ||afisha.ru^$cookie=_egguid
+||afisha.ru^$cookie=adtech_uid
 ||afizah.eprice.it^
 ||afk3rs.xyz^
 ||afkgaming.com/scooby/api/v1/log/event|
@@ -122010,6 +122015,7 @@ zzzyk.com###Tinfo
 ||api.aagigastronomia.com.br^
 ||api.abcsinsights.com^
 ||api.abicicletaporto.pt^
+||api.about.me/user/performance/record/views|
 ||api.academiadomosaico.com.br^
 ||api.academie-marsaud.com^
 ||api.achavedoemagrecimento.com.br^
@@ -127764,7 +127770,7 @@ zzzyk.com###Tinfo
 ||bluepanda.sensithaptics.com^
 ||bluevinebooks.com^
 ||blushingbeast.com^
-||blushingbread.com^
+||blushingbread.com^$~script
 ||bluvue.actonservice.com^
 ||blvdstatus.com^$third-party
 ||blvhq.com^
@@ -141867,6 +141873,7 @@ zzzyk.com###Tinfo
 ||dojomojo.ninja^$third-party
 ||dojq4kt8ws9iq.cloudfront.net/js/analytics.js
 ||dojyiu8.com^
+||dokkandb.com/analytics/
 ||dokkga.osakichair.com^
 ||doko.moe^$domain=pantsu.cat
 ||dokxpl.wwbw.com^
@@ -152064,6 +152071,7 @@ zzzyk.com###Tinfo
 ||gspwicky.watery.dk^
 ||gspwicky.watery.ie^
 ||gspwicky.watery.se^
+||gspwpr0ox.com^
 ||gsqrl.boathouseauctions.com^
 ||gss.ogdmve.com^
 ||gss.skatepro.at^
@@ -188851,6 +188859,7 @@ zzzyk.com###Tinfo
 ||q511.wpbf.com^
 ||q58nf16jd3.com^
 ||q5sn40kmp2.com^
+||q6iw41lkk.com^
 ||q770.whittierdailynews.com^
 ||q777.sfchronicle.com^
 ||q7qhlnyfx.com^
@@ -216853,6 +216862,7 @@ zzzyk.com###Tinfo
 ||stat.altalex.com^
 ||stat.apfgexfusion.com^
 ||stat.api.2gis.ru^
+||stat.aporntv.com^
 ||stat.aranzadilaley.es^
 ||stat.arzamas.academy^
 ||stat.baike.com^
