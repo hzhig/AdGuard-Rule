@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-08 21:19:11(GMT+8) 
-! Total count: 240551
+! ! Version: 2026-04-09 10:12:08(GMT+8) 
+! Total count: 240567
  
 ###ADtip
 ###Ad_windows
@@ -6987,6 +6987,7 @@ $websocket,domain=wap.yushuwu.cloud
 /urchin.js
 /usage/Clickstream?
 /usage/ReportEvent?
+/use1-track.atlassian.com/*
 /user-context?referrer=
 /user-data-minified.$script
 /userdata_n?
@@ -103154,6 +103155,7 @@ qq.com##.player_bg_ad
 qq.com##.public-banner
 qq.com##.qGirl-wrap
 qq.com##.qiye-Article-QQ
+qq.com##.qzone-carousel-ad
 qq.com##.seeking-gg
 qq.com##.sider_ad
 qq.com##.site_words
@@ -116856,6 +116858,7 @@ zzzyk.com###Tinfo
 ||account.protonvpn.com/api/data/v1/metrics
 ||account.y8.com/api/v*/json/tracking/
 ||accountancy.bppeloqua.com^
+||accountgram.com^
 ||accounting.frbservices.org^
 ||accounts-meta-events.outsideonline.com^
 ||accounts.ad.nl/gscounters.sendReport
@@ -119920,6 +119923,7 @@ zzzyk.com###Tinfo
 ||amftsawknf.com^
 ||ami.coppermakersquare.com^
 ||amica.met.vgwort.de^
+||amidsttruly.com^
 ||amige.seasidefuneral.com^
 ||amigraphics.actonservice.com^
 ||amikay.com^$third-party
@@ -122393,6 +122397,7 @@ zzzyk.com###Tinfo
 ||api.farmarte.com^
 ||api.farmflix.com.br^
 ||api.fasfoficial.com.br^
+||api.fboom.me/*/analytics/
 ||api.federalsteel.ca^
 ||api.felipestefanoni.com^
 ||api.fenixtwo.com^
@@ -146954,6 +146959,7 @@ zzzyk.com###Tinfo
 ||fbjpji.europcar.es^
 ||fbo-statistics-collector-tc.is.flippingbook.com^
 ||fbolloiwd.com^
+||fboom.me/log|
 ||fbot.me/error
 ||fbot.me/events/
 ||fbraaphra.com^
@@ -157948,6 +157954,7 @@ zzzyk.com###Tinfo
 ||hsvwvr.icu^
 ||hswfj.cn^
 ||hswgqa.jmsc.co.jp^
+||hswxsatk7x.com^
 ||hsyfcenter.com^
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 ||hsztc.beaugen.com^
@@ -163616,6 +163623,7 @@ zzzyk.com###Tinfo
 ||jwplatform.com/ping.gif?
 ||jwpltx.com/*/ping.gif
 ||jwpltx.com^$third-party
+||jwt18trhq.com^
 ||jwtnmo.promovacances.com^
 ||jwvazl.mansurgavriel.com^
 ||jwvlli.porta.de^
@@ -184628,6 +184636,7 @@ zzzyk.com###Tinfo
 ||overboard27.com^
 ||overcoat55.top^
 ||overconfidentfood.com^
+||overflow33.com^
 ||overkick.com^
 ||overratedchalk.com^
 ||overseauspider.yuanshen.com:8888/log^
@@ -186401,6 +186410,7 @@ zzzyk.com###Tinfo
 ||phsmobile.actonservice.com^
 ||phtkc.patagoniaprovisions.com^
 ||phue.cn^
+||phulkuhf.com^
 ||phuolhogmxin.com^
 ||phves.unikclothing.co.uk^
 ||phvylw.beurer-shop.de^
@@ -191185,6 +191195,7 @@ zzzyk.com###Tinfo
 ||rf.rafeonbd.com^
 ||rf.reussir-franchise.com^
 ||rf10b9mq8.com^
+||rf23ecvf4.com^
 ||rfaen.sugoimart.com^
 ||rfajl.teppermans.com^
 ||rfcpqf.luvlit.jp^
@@ -230387,6 +230398,7 @@ zzzyk.com###Tinfo
 ||txt.showings.com^
 ||txt.styr.com^
 ||txt9999.cc/m*.js
+||txtvrp.icu^
 ||txtyuzhaiwu.com/astyle/wap.js
 ||txupuq.unyleya.edu.br^
 ||txutayo.com^
@@ -230972,6 +230984,7 @@ zzzyk.com###Tinfo
 ||uiqatnpooq.com/0f8b73d477b554394e23077935e1fff4.js$script,domain=extratorrent.cc
 ||uiqca.swimoutlet.com^
 ||uiqouw.icu^
+||uiqyuydt9t.com^
 ||uisxua.benettonmall.com^
 ||uitdz.biomel.life^
 ||uiteligularly.fun^
@@ -233755,6 +233768,7 @@ zzzyk.com###Tinfo
 ||vtqhelleano.com^
 ||vtracker.net^$third-party
 ||vtracy.de^$third-party
+||vtrelphail.com^
 ||vtrhs.epicbowling.com^
 ||vtrk.dv.tech^
 ||vtrlr.marinesgear.com^
@@ -240023,6 +240037,7 @@ zzzyk.com###Tinfo
 ||zkvxgc.nissui-kenko.com^
 ||zkzfa.47brand.com^
 ||zlbcxr.xyz^
+||zlbnjb.icu^
 ||zlclgzs.cn^
 ||zldqcc.dodenhof.de^
 ||zlgame.top^
@@ -240405,6 +240420,7 @@ zzzyk.com###Tinfo
 ||zvxpea.lunettesdesoleil.com^
 ||zvzjvx.shophorne.com^
 ||zwatgf.megaknihy.cz^
+||zwbngpnpa.com^
 ||zwdrjdyf.icu^
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
