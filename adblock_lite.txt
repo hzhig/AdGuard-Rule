@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-04-10 10:31:39(GMT+8) 
-! Total count: 32570
+! ! Version: 2026-04-10 21:09:07(GMT+8) 
+! Total count: 32586
  
 ###ADtip
 ###Ad_windows
@@ -2261,6 +2261,7 @@ $websocket,domain=wap.yushuwu.cloud
 /common/cf/*$image,object,domain=~ztgame.com
 /conch/asset/js/atop.js
 /conch/asset/js/open-vb.
+/config/tj.js
 /content.php?id=148&type=g|$xmlhttprequest
 /content/clyscontent.js
 /cp2.gif?*=qc_
@@ -2502,6 +2503,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/htmlkc.js
 /js/huath_2.js
 /js/index_adfloat.js
+/js/j*s*r*u*n*n*e*r.js$~third-party
 /js/js4.js
 /js/jsstyle-$third-party
 /js/kaixin.js
@@ -15854,10 +15856,12 @@ zzzyk.com###Tinfo
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.kameleoon.eu^$domain=20minutes.fr|20min.fr
 ||*.mp4$redirect=noopmp3-0.1s,domain=huavod.com
+||*.org/config/v7.js
 ||*/ad/$redirect=noopmp3-0.1s,domain=huaren.tv
 ||*/vhot2.qqvideo.tc.qq.com^
 ||*xav.*/guang/*.gif
 ||*xav.*/guang/*.jpg
+||/js/0x1a2b3c4d.js
 ||000123456789.online^
 ||000123456789.site^
 ||002777.xyz^
@@ -17081,6 +17085,7 @@ zzzyk.com###Tinfo
 ||6hejing.cn^
 ||6iiz8ni96v.com^
 ||6iwoif.com^
+||6iyq4atled.com^
 ||6jei0t6xp.com^
 ||6jtqdplfz7.com^
 ||6jyi7mzae.com^
@@ -17093,6 +17098,7 @@ zzzyk.com###Tinfo
 ||6mdf9teiz.com^
 ||6mh8.com^
 ||6n528aywi9.com^
+||6o04ylee62.com^
 ||6o2k80jf8w.com^
 ||6o719vq4x.com^
 ||6ogiuks905.com^
@@ -17632,6 +17638,7 @@ zzzyk.com###Tinfo
 ||a4xvv2g18l.com^
 ||a5xiazai.com/z/
 ||a6.hujiang.com^$domain=~class.hujiang.com
+||a65vocvbfe.com^
 ||a6cfvavw1.xyz^
 ||a6o69f9ky0.com^
 ||a7wiuh3she.com^
@@ -18773,6 +18780,7 @@ zzzyk.com###Tinfo
 ||baizhan.net/js/136/jingyun_righttop.
 ||baizhu.cc^$third-party
 ||baj.fanwenzhan.com^
+||bajielm.com^
 ||bakrathtfa.com^
 ||balerdoits.com^
 ||ballive.*/addm/
@@ -22025,6 +22033,7 @@ zzzyk.com###Tinfo
 ||gavbus*.com/assets/common/js/admenu.js
 ||gavm.cn^
 ||gawnaze.com^
+||gb0143odqh.com^
 ||gb3scpejq.com^
 ||gbcnvip15.com^
 ||gbiathrilzik.com^
@@ -23602,6 +23611,7 @@ zzzyk.com###Tinfo
 ||imgs.cc/img/8Pl6FJY.gif
 ||imgs.cc^$domain=fun1shot.com
 ||imgs.itxueyuan.com/advPicture/
+||imgsdy8iyf8723y97g.top^
 ||imgsicily.it/dist/sweetalert
 ||imgsrc.baidu.com/*/pic/*.jpg$domain=/87[0-9]{2}ck\.cc/
 ||imgsrc.baidu.com/*/pic/*.jpg$domain=8727ck.cc|8726ck.cc
@@ -24112,6 +24122,7 @@ zzzyk.com###Tinfo
 ||jjjcyjj.cn^
 ||jjjgame.com/images/ad11.jpg
 ||jjjxsw.com/js/common.
+||jjjxsw.com/js/common.*
 ||jjkiahh.icu^
 ||jjklrcw.com^
 ||jjnyzeck.icu^
@@ -25148,6 +25159,7 @@ zzzyk.com###Tinfo
 ||lmldxd.icu^
 ||lmlmvip.com^
 ||lmnpd.xyz^
+||lmtjapi.com^
 ||lmtruueagl.com^
 ||lmwwbrgjj.com^
 ||lmx7.com^
@@ -26390,6 +26402,7 @@ zzzyk.com###Tinfo
 ||nphqw.cn^
 ||nplvdodbja.com^
 ||npvcfn.icu^
+||npzc1yzag7.com^
 ||nq49x3m8g.com^
 ||nqbcf.cn/html/top
 ||nqdufv.xyz^
@@ -27515,6 +27528,7 @@ zzzyk.com###Tinfo
 ||qingsedhh.com/images/gg.gif
 ||qingxinwx.*/static/xbiquge/js/wap.
 ||qinxue100.com/qinxue/pc/js/add_js.js
+||qiqiuges.com/mk.
 ||qirloith.com^
 ||qirqritp.com^
 ||qishula.com/css/ding.js
@@ -27904,6 +27918,7 @@ zzzyk.com###Tinfo
 ||repian.com/a/
 ||replays.net/j/dazui
 ||replays.net/j/pinglunshang.png
+||report123.help^
 ||reportlog.dftoutiao.com^
 ||republicworld.com/_app/immutable/assets/FloatAd.*.css$redirect-rule=nooptext
 ||requirejs.cn/ts.png
@@ -31323,6 +31338,7 @@ zzzyk.com###Tinfo
 ||xn--521-x72fh66s.cn^
 ||xn--54q23ckxiyx0e.com^
 ||xn--6kr65fctg2t4e.com^
+||xn--9krv3x413bbyb.com^
 ||xn--bqro42frpg5up.cn^
 ||xn--gov-x68dy61b.shop^
 ||xn--jor0b302fdhgwnccw8g.com^
