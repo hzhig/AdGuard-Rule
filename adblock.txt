@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-10 21:09:07(GMT+8) 
-! Total count: 240632
+! ! Version: 2026-04-11 10:10:49(GMT+8) 
+! Total count: 240640
  
 ###ADtip
 ###Ad_windows
@@ -4256,6 +4256,7 @@ $websocket,domain=wap.yushuwu.cloud
 /dcjs/prod/*
 /dcs.gif?
 /dcs_tag.js
+/dead-clicks-autocapture.js
 /default/pAnalytics
 /delivery/afr.
 /demo_l.php?id=$script,third-party
@@ -109953,6 +109954,7 @@ zzzyk.com###Tinfo
 ||096iokj.com^
 ||09jsufg.com^
 ||0a0atz2sh.top^
+||0a66kw9r8.com^
 ||0b4qu3nxa.com^
 ||0b6rvr210q.com^
 ||0bb8jytek.com^
@@ -176257,6 +176259,7 @@ zzzyk.com###Tinfo
 ||mediagauge.com^$third-party
 ||mediaglacier.com^$third-party
 ||mediago.io^$third-party
+||mediagroupnetwork.com/js/ua.js
 ||mediahub.ekopark.pl^
 ||mediahub.mondi.pl^
 ||mediahuis.be/cxense/
@@ -188469,6 +188472,7 @@ zzzyk.com###Tinfo
 ||ptztvpremium.com^$third-party
 ||ptzxed507.com^
 ||pu.pretunique.fr^
+||pu3xxlqjr.com^
 ||puadf.spanx.ca^
 ||puata.info^
 ||pub-cfg.secu100.net.iberostar.com^
@@ -214198,6 +214202,7 @@ zzzyk.com###Tinfo
 ||stahhx.inversapub.com^
 ||stahl.actonservice.com^
 ||stainlesssteel.ru/counter.php?
+||staircase59.com^
 ||staitcfile.org^
 ||stakedances.com^
 ||stakeschips.com^
@@ -233759,6 +233764,7 @@ zzzyk.com###Tinfo
 ||vrskf.clockcanvas.com^
 ||vrsri.widefitshoes.co.uk^
 ||vrsyapga.getpetermd.com^
+||vrtafd.icu^
 ||vruzexzl.com^
 ||vrvjwr.mobelaris.com^
 ||vry9.destinia.com^
@@ -237423,6 +237429,7 @@ zzzyk.com###Tinfo
 ||xdh0808.com^$popup
 ||xdisctracking.pw^$third-party
 ||xdkwsh.farmacialoreto.it^
+||xdlipr.icu^
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
 ||xdns.asia^
@@ -237430,6 +237437,7 @@ zzzyk.com###Tinfo
 ||xdsblm.ullapopken.de^
 ||xdvdrg.globalindustrial.com^
 ||xdxcre.dentiluv.com^
+||xdxqw9nnr.com^
 ||xdyitg.globalindustrial.ca^
 ||xdyjt.com^
 ||xdyn0*jy.com^$script,xmlhttprequest,third-party
