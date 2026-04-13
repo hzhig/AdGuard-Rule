@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-13 10:38:13(GMT+8) 
-! Total count: 240670
+! ! Version: 2026-04-13 21:25:03(GMT+8) 
+! Total count: 240683
  
 ###ADtip
 ###Ad_windows
@@ -4150,6 +4150,7 @@ $websocket,domain=wap.yushuwu.cloud
 /contentiq.js
 /conversion_async.js
 /convertro.js
+/convivaAppTracker.js
 /cookie.gif?
 /cookieAnalytics.js
 /cookieId.htm
@@ -10450,7 +10451,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
@@ -99764,7 +99765,7 @@ moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
 mongo.alalikexpress.com$image
 mongoing.com#?#.widget_custom_html:has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
 monitor.mail.y-con.nl$image
-mooc1.chaoxing.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"])
+mooc1.chaoxing.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"], [src*="player-widget.mixcloud.com"])
 moonbbs.com##.dm-header-ad
 mop.com##.post-content[href*=".taobao.com"]
 mop.com##.rel-item-gg
@@ -109983,6 +109984,7 @@ zzzyk.com###Tinfo
 ||0oi1ej7mo.com^
 ||0ouq6.climaxchange.com^
 ||0p7w.cn^
+||0qxfxqif0.com^
 ||0rvv7l6k7g.com^
 ||0s1wclct6.com^
 ||0sbm.consobaby.co.uk^
@@ -111534,6 +111536,7 @@ zzzyk.com###Tinfo
 ||6o719vq4x.com^
 ||6ogiuks905.com^
 ||6p2g1kk03.com^
+||6p6vcukqz.com^
 ||6pal.consobaby.com^
 ||6pan.cc/ps/vip.jpg
 ||6park.com/img/*0.gif
@@ -111876,6 +111879,7 @@ zzzyk.com###Tinfo
 ||90oo.com/tp/msn.jpg
 ||90q0tq3bwo.com^
 ||90qxskdmn9.com^
+||9112rj8wo.com^
 ||91160.com/nykj/f=static/v4/common/tj.js
 ||9129666tp.com^$domain=9xav.cc
 ||918000.xyz^
@@ -163621,6 +163625,7 @@ zzzyk.com###Tinfo
 ||justpickaname.com^
 ||justsayyes.infor.com^
 ||justswallows.com/lib/ajax/track.php
+||justtrack.io^
 ||justuno.com^$third-party
 ||justwatch.com/appassets/js/sp-*.lite.min.js
 ||justwebcards.com^
@@ -165993,6 +165998,7 @@ zzzyk.com###Tinfo
 ||lg-release-tracking-8080.gcld-line.com^
 ||lg0lh2qfj4.com^
 ||lg3.media.net^
+||lgaekait.com^
 ||lgaicreal.com^
 ||lganilgll.cyou^
 ||lgbdxo.azazie.com^
@@ -171865,6 +171871,7 @@ zzzyk.com###Tinfo
 ||log*-normal-*.tiktokv.us^
 ||log*-normal-useast1a.lemon8-app.com^
 ||log*.aliyuncs.com^
+||log*.boomplaymusic.com^
 ||log*.byteoversea.com^
 ||log*.vietnamplus.vn^
 ||log*.zijieapi.com^
@@ -184812,6 +184819,7 @@ zzzyk.com###Tinfo
 ||oyyqan.hejoscar.dk^
 ||oyysbc.xyz^
 ||oyz61nhz8.com^
+||oz6q1drif.com^
 ||ozcid.kolkatachai.co^
 ||ozcuxo.disturb.fi^
 ||ozdoir.meundies.com^
@@ -186177,6 +186185,7 @@ zzzyk.com###Tinfo
 ||pear.youzful-by-ca.fr^
 ||peards.zevvle.com^
 ||pearldiver.io^$third-party
+||pearpouch.com^
 ||pears.contractorcalculator.co.uk^
 ||pearson.com/assets/*/collect
 ||peasy.so^$third-party
@@ -217243,6 +217252,7 @@ zzzyk.com###Tinfo
 ||static.myshlf.us/Affiliates/sms_aff_clicktrack-deciem.js
 ||static.narrativ.com/tags/narrativ-pub.
 ||static.nrk.no/*/Serum.ExperimentTracking.js
+||static.okokserver.com/js/anti/adblocker.js
 ||static.okokserver.com/uploads/lesi/$image,domain=huaren.live|huavod.com
 ||static.okokserver.com/uploads/lesi/lesi.mp4$media
 ||static.okokserver.com^$media,domain=huaren.live
@@ -217262,6 +217272,7 @@ zzzyk.com###Tinfo
 ||static.quiq-cdn.com/chat-ui/plugin-google-analytics-*.js
 ||static.read.tools/stats.min.js
 ||static.rendeljkinait.hu/plugins/rendeljkinait-base-setup/widgets/package-tracking-widget/
+||static.republika.co.id/js/tracker.js
 ||static.rongkao.com^
 ||static.rtrp.jp/static/js/googletagmanager.*.js
 ||static.runconverge.com^
@@ -239625,6 +239636,7 @@ zzzyk.com###Tinfo
 ||zbvchabjbcj.com^
 ||zbx01.com^
 ||zbxctp.automarket.pl^
+||zbyfef74e.com^
 ||zbzbzb.xyz^
 ||zc.adswizz.com^
 ||zc13uyyok7.com^
@@ -240137,6 +240149,7 @@ zzzyk.com###Tinfo
 ||zkthg.spoutwater.com^
 ||zkttr.vestibularpt.com^
 ||zktxan.unitrailer.fr^
+||zkvqdf.icu^
 ||zkvxgc.nissui-kenko.com^
 ||zkzfa.47brand.com^
 ||zlbcxr.xyz^
