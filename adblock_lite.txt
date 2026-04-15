@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-04-15 10:30:24(GMT+8) 
-! Total count: 32658
+! ! Version: 2026-04-15 21:24:01(GMT+8) 
+! Total count: 32664
  
 ###ADtip
 ###Ad_windows
@@ -1406,6 +1406,7 @@
 ##body#read.read DIV[style$=' width: 100vw; position: relative;']
 ##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
 ##body#wrapper A[ontouchstart='this.click();']
+##body.__amp.amp-mode-touch > #interstitial_fade
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
@@ -7901,7 +7902,6 @@ cnubis.com#@#.text_ad
 cnubis.com#@#.text_ads
 cnx-software.com##img[src="/pic/support_cnx-software.png"]
 cnx-software.com##img[src="/pic/support_cnxsoft.png"]
-cnxgct.com###interstitial_fade
 cnxz.cn###js_focusimg3
 cnxz.cn##.showad
 cnxz.cn##[class*="-ad"]
@@ -17356,6 +17356,7 @@ zzzyk.com###Tinfo
 ||8jkx.com^
 ||8k69vb6421.com^
 ||8k9ynfczfd.com^
+||8khgnlxk6.com^
 ||8lmggang9.com^
 ||8lz3swf01q.com^
 ||8maple.ru/dzcm$redirect=1x1-transparent.gif,domain=8maple.ru
@@ -26391,6 +26392,7 @@ zzzyk.com###Tinfo
 ||nl1d8gzi5.com^
 ||nl2cq0jr.xyz^
 ||nl2v1uw9e.com^
+||nlkylpo.com^
 ||nlnlrn.top^
 ||nlvgxr.xyz^
 ||nly9u12pi.com^
@@ -27200,6 +27202,7 @@ zzzyk.com###Tinfo
 ||pktfla.top^
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
+||pkwnpgsex.com^
 ||pl520.com^$third-party
 ||pl53l7tyw.com^
 ||plateau77.com^
@@ -27328,6 +27331,7 @@ zzzyk.com###Tinfo
 ||ps557.com/link/
 ||ps886.us/js/*.js
 ||psa1xoeve.com^
+||psgpllf.com^
 ||psrfbr.icu^
 ||pstatp.com/growth/fe_sdk/bannersdk
 ||pstatp.com/growth/mobile_list/image/bonus_
@@ -28233,6 +28237,7 @@ zzzyk.com###Tinfo
 ||s00hv1jp8.com^
 ||s06g9qvr5.com^
 ||s0drxaq4v7.com^
+||s0khf11i8.com^
 ||s0p6s02x28.com^
 ||s1-a1.dnvodcdn.me^*.mp4
 ||s1-a1.dnvodcdn.me^*.svg
@@ -29994,6 +29999,7 @@ zzzyk.com###Tinfo
 ||universe7.top^
 ||uniway.cn.com^
 ||unjld.com^
+||unjrkrxme.com^
 ||unjs.jingyanben.com^
 ||unpkg.com/hjadu/
 ||unpkg.com/sejie

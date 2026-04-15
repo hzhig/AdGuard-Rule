@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-15 10:30:24(GMT+8) 
-! Total count: 253983
+! ! Version: 2026-04-15 21:24:01(GMT+8) 
+! Total count: 253996
  
 ###ADtip
 ###Ad_windows
@@ -1419,6 +1419,7 @@
 ##body#read.read DIV[style$=' width: 100vw; position: relative;']
 ##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
 ##body#wrapper A[ontouchstart='this.click();']
+##body.__amp.amp-mode-touch > #interstitial_fade
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
@@ -17076,6 +17077,7 @@ btvsports.com###ai_tapar
 bukaivip.com##img[onclick]
 bulletin.sntba.com#%#//scriptlet("set-constant", "returnCitySN", "emptyObj")
 bunshun.jp##.recommend-articles:has(> div[class^="taboola"])
+burger-king.by#%#//scriptlet('set-local-storage-item', 'mindboxDeviceUUID', '$remove$')
 burze.dzis.net#@#.adsbygoogle
 business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
@@ -20780,7 +20782,6 @@ cnubis.com#@#.text_ad
 cnubis.com#@#.text_ads
 cnx-software.com##img[src="/pic/support_cnx-software.png"]
 cnx-software.com##img[src="/pic/support_cnxsoft.png"]
-cnxgct.com###interstitial_fade
 cnxz.cn###js_focusimg3
 cnxz.cn##.showad
 cnxz.cn##[class*="-ad"]
@@ -125251,6 +125252,7 @@ zzzyk.com###Tinfo
 ||8jkx.com^
 ||8k69vb6421.com^
 ||8k9ynfczfd.com^
+||8khgnlxk6.com^
 ||8lmggang9.com^
 ||8lz3swf01q.com^
 ||8maple.ru/dzcm$redirect=1x1-transparent.gif,domain=8maple.ru
@@ -146616,6 +146618,7 @@ zzzyk.com###Tinfo
 ||content.palram.com^
 ||content.pix.style^
 ||content.pollardwater.com^
+||content.powerapps.com/resource/powerappsportal/dist/client-telemetry*.js$domain=sante.quebec
 ||content.powerdms.com^
 ||content.prophet.com^
 ||content.qumulo.com^
@@ -162675,6 +162678,7 @@ zzzyk.com###Tinfo
 ||getstatistics.se^$third-party
 ||getstats.org^$third-party
 ||gettapeads.com/stat/
+||getter.fun^
 ||gettoknow.skookum.com^
 ||gettunable.affinityblue.com^
 ||gettyimages.*/pulse$ping
@@ -173586,6 +173590,7 @@ zzzyk.com###Tinfo
 ||ingredients.firmenich.com^
 ||ingress.linktr.ee^
 ||ingress.pressreader.com/services/track
+||ingress.rebelboost.com/_ingest-rbst-stats?
 ||ingress.trendii.com^
 ||ingwb.com/*/ingwb-webtrekk
 ||inhe.*/Uploadfiles/adpublish
@@ -194985,6 +194990,7 @@ zzzyk.com###Tinfo
 ||nlhmnj.travelking.sk^
 ||nlika.mantrabrand.com^
 ||nljjem.honeys-onlineshop.com^
+||nlkylpo.com^
 ||nlmjg.thelooplair.com^
 ||nlnlrn.top^
 ||nlobp.champssports.ca^
@@ -199734,6 +199740,7 @@ zzzyk.com###Tinfo
 ||pktytp.membershop.lv^
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
+||pkwnpgsex.com^
 ||pl-go.experian.com^
 ||pl-topgal.m-shop.me^
 ||pl.1feed.app^
@@ -201136,6 +201143,7 @@ zzzyk.com###Tinfo
 ||pse.gabor.com^
 ||psetu.citybonfires.com^
 ||psfcnf.ochsnersport.ch^
+||psgpllf.com^
 ||psh.one^$third-party
 ||psi.lbesecapi.com^
 ||psidbv.cms-constructeur.fr^
@@ -205753,6 +205761,7 @@ zzzyk.com###Tinfo
 ||s02.bestsecret.com^
 ||s06g9qvr5.com^
 ||s0drxaq4v7.com^
+||s0khf11i8.com^
 ||s0p6s02x28.com^
 ||s1-a1.dnvodcdn.me^*.mp4
 ||s1-a1.dnvodcdn.me^*.svg
@@ -206664,6 +206673,7 @@ zzzyk.com###Tinfo
 ||sanoma.nl/pixel/
 ||santander-open-academy.cip.test.ajo.adobe.com^
 ||santarem.ondec.com.br^
+||sante.quebec/dist/client-telemetry*.js
 ||santo.neelchuri.com^
 ||santosepedra.anunciojuridico.com.br^
 ||sanyo-railway.co.jp/*/analytics.js
@@ -231745,6 +231755,7 @@ zzzyk.com###Tinfo
 ||stats.zgo.at^
 ||stats.zh.tiffany.com^
 ||stats.zimri.net^
+||stats.zincdrive.com^
 ||stats.zl2edh.com^
 ||stats.zmags.com^
 ||stats.zone-annuaire.
@@ -243988,6 +243999,7 @@ zzzyk.com###Tinfo
 ||ubiquitoussea.com^
 ||ubiquitousyard.com^
 ||ubiquitousyard.com^$third-party
+||ubisoft.com/*/global/tracking/
 ||ublfkm.trendhim.no^
 ||ubm.docu.info^
 ||ubmcvideo.baidustatic.com^
@@ -244608,6 +244620,7 @@ zzzyk.com###Tinfo
 ||universe7.top^
 ||uniway.cn.com^
 ||unjld.com^
+||unjrkrxme.com^
 ||unjs.jingyanben.com^
 ||unjzcu.vita-mart.co.kr^
 ||unknowncrate.com^
