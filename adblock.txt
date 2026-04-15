@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-14 21:25:01(GMT+8) 
-! Total count: 253964
+! ! Version: 2026-04-15 10:30:24(GMT+8) 
+! Total count: 253983
  
 ###ADtip
 ###Ad_windows
@@ -20780,6 +20780,7 @@ cnubis.com#@#.text_ad
 cnubis.com#@#.text_ads
 cnx-software.com##img[src="/pic/support_cnx-software.png"]
 cnx-software.com##img[src="/pic/support_cnxsoft.png"]
+cnxgct.com###interstitial_fade
 cnxz.cn###js_focusimg3
 cnxz.cn##.showad
 cnxz.cn##[class*="-ad"]
@@ -122378,7 +122379,7 @@ wpworld.pl,windowsowo.pl#@##adBanner
 ws://*/api/wss/GetNotReadCount$third-party
 wss://*.*.top/$third-party
 wss://*.com:29*/$third-party
-wss://*.com:800*/$third-party
+wss://*.com:800*/$third-party,domain=~survev.io
 wss://*.top/|
 wss://*.xyz:*?e=$third-party
 wss://*.xyz:*?x=$third-party
@@ -124440,6 +124441,7 @@ zzzyk.com###Tinfo
 ||470kk.com/js/config.js
 ||470kk.com/js/indextop.js
 ||477zw.com/js/nzm
+||47c7zhqak.com^
 ||484r.com/images/flash/gallery_
 ||48dswtxkw.com^
 ||48z7wyjdsywu.www.revistaferramental.com.br^
@@ -130274,6 +130276,7 @@ zzzyk.com###Tinfo
 ||academic96.top^
 ||academics.academicsuperstore.com^
 ||acadian-asset.actonservice.com^
+||acapi.aol.com/v1/events
 ||acast.com/api/stats
 ||acbd.holylandprayer.com^
 ||acc-hd.de^$third-party
@@ -130930,6 +130933,7 @@ zzzyk.com###Tinfo
 ||addfreestats.com^$third-party
 ||addictedattention.com^
 ||addictedwonder.com^
+||additional59.top^
 ||addressfriend.com^
 ||addthis.com/at/
 ||addthis.com/live/
@@ -138127,6 +138131,7 @@ zzzyk.com###Tinfo
 ||assets.rndtech.de/web-vitals/
 ||assets.rpglogs.com/js/global/googleAnalytics.*.js
 ||assets.s-bol.com/AppMeasurement-
+||assets.sb-cd.com/static/dist/ab_test_click_tracker*.js$domain=spankbang.com
 ||assets.shop.hisense.com/ta.js
 ||assets.sidroga.at^
 ||assets.sidroga.ch^
@@ -145009,6 +145014,7 @@ zzzyk.com###Tinfo
 ||clientservice.alphasimplex.com^
 ||clientservices.grassrootsunwired.com^
 ||cliffed.top^
+||clik.by^$third-party
 ||climbingright.com^
 ||clinch.co/a_js/client_pixels/
 ||clinical.questdiagnostics.com^
@@ -153808,6 +153814,7 @@ zzzyk.com###Tinfo
 ||diagmon-serviceapi.samsungdm.com^
 ||diagnose.igstatic.com^
 ||diagnosis.ad.xiaomi.com^
+||diagnostics.rakam.io^
 ||diagnostics.thermo.com^
 ||dialer.leads360.com^
 ||dialer.velocify.com^
@@ -156394,6 +156401,7 @@ zzzyk.com###Tinfo
 ||edge.regionalacceptance.com^
 ||edge.ricoh-europe.com^
 ||edge.rock101.com^
+||edge.sdk.awswaf.com/*/telemetry
 ||edge.secure-24.com^
 ||edge.seriesplus.com^
 ||edge.sheffieldfinancial.com^
@@ -157928,6 +157936,7 @@ zzzyk.com###Tinfo
 ||epoisejobs.epoise.com^
 ||epoisepreptest.epoise.com^
 ||epoq.de/inbound-servletapi/event?
+||eporner.com/beacon.php
 ||epoun.top^
 ||eprice.com.tw/img/tw_m/ad/
 ||epromote.co.za/track/
@@ -174011,7 +174020,7 @@ zzzyk.com###Tinfo
 ||inven.co.kr/api/banner_tracking/banner_view.php
 ||invenio_tracking_*.sgnapps.com^
 ||invention66.com^
-||inventorycache.com^
+||inventorycache.com^$badfilter
 ||inventtango.com^
 ||invest.provincia.co.nz^
 ||invest.rubicoin.com^
@@ -189562,7 +189571,6 @@ zzzyk.com###Tinfo
 ||metricas.wbeduca.com.br^
 ||metricas.zionerp.com.br^
 ||metricode.com^$third-party
-||metricool.com^$third-party
 ||metricreceiver.cellrebel.com^
 ||metrics*.fitanalytics.com^$third-party
 ||metrics-a.wbx2.com^
@@ -191945,6 +191953,7 @@ zzzyk.com###Tinfo
 ||minuteburst.com^
 ||minutemediacdn.com/campaign-manager-client/
 ||minutes20.com^
+||mip37c9nf.com^
 ||mipcdn.com/c/s/by.manhuachi.com
 ||mipcdn.com^*/mip-*ad-
 ||mipcdn.com^*/mip-*ad.
@@ -195009,6 +195018,7 @@ zzzyk.com###Tinfo
 ||nlvmu.korres.com^
 ||nlvnht.miror.jp^
 ||nlvuh.longtermdenial.com^
+||nly9u12pi.com^
 ||nlytcs.idfnet.net^
 ||nlyuuy.cn^
 ||nlzyp.cn^
@@ -198694,6 +198704,7 @@ zzzyk.com###Tinfo
 ||pbcs.nypost.com^
 ||pbcs.pagesix.com^
 ||pbd.yahoo.com/data/analytics
+||pbd.yahoo.com/data/logs/benji
 ||pbecrm.aquanet.ru^
 ||pbepj.gkelite.com^
 ||pbfefd.icu^
@@ -202887,6 +202898,7 @@ zzzyk.com###Tinfo
 ||rajshop.rajshop.com.bd^
 ||raju.halalebazaar.com^
 ||rajyiv.kimyoung.co.kr^
+||rakam-api.aptoide.com^
 ||rakanto.com/cx_collector/
 ||rake.11st.co.kr^
 ||rake.tmap.co.kr^
@@ -203686,6 +203698,7 @@ zzzyk.com###Tinfo
 ||repo.rakanto.com^
 ||report*.appmetrica.webvisor.com^
 ||report-edge.agora.io^
+||report-edge.rtesvc.com^
 ||report-ps.meettech.net^
 ||report-stats.ad.jiguang.cn^
 ||report-uri.com^$third-party
@@ -205720,6 +205733,7 @@ zzzyk.com###Tinfo
 ||s.yimg.com/cv/apiv2/tw/bwchou25/
 ||s.yimg.com/cx/pv/perf-vitals_
 ||s.yimg.com/dy/readmo-pixel.js
+||s.yimg.com/eh/prebid-config/$domain=aol.com
 ||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/jk/aabd/prod/adblockerdetector.umd.js
@@ -219779,6 +219793,8 @@ zzzyk.com###Tinfo
 ||spanishdict.com/page-view-metadata
 ||spankbang.com/api/*/events
 ||spankbang.com/api/*/track-impression
+||spankbang.com/api/ab-test/tracking
+||spankbang.com/static/dist/ab_test_click_tracker
 ||spankbang.com^$cookie=ana_sid
 ||spankbang.com^$cookie=ana_vid
 ||spanking.wiki/morning-bread-
@@ -240393,6 +240409,7 @@ zzzyk.com###Tinfo
 ||tracker-v4.gamedock.io^
 ||tracker.3dissue.com^
 ||tracker.520call.me^
+||tracker.a11.vega.aurion11.io^
 ||tracker.adbinead.com^
 ||tracker.adcluster.com.tr^
 ||tracker.adotmob.com^
@@ -240466,6 +240483,7 @@ zzzyk.com###Tinfo
 ||tracker.marcomp.com.br^
 ||tracker.marinsoftware.com^
 ||tracker.mattel.com^
+||tracker.metricool.com^
 ||tracker.metricool.com^$third-party
 ||tracker.mrpfd.com^
 ||tracker.mspy.com^
@@ -251826,6 +251844,7 @@ zzzyk.com###Tinfo
 ||yefu365.com/rebo/function.js
 ||yegziyf.cn^
 ||yehaobo5.com/js/
+||yehrrtjop.com^
 ||yehyqc.hugoboss.com^
 ||yektanet.com^$third-party
 ||yellow.ai/api/plugin/analytics?
