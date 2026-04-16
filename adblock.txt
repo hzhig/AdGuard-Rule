@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-16 10:36:58(GMT+8) 
-! Total count: 254009
+! ! Version: 2026-04-16 21:42:56(GMT+8) 
+! Total count: 254021
  
 ###ADtip
 ###Ad_windows
@@ -6132,6 +6132,7 @@ $websocket,domain=wap.yushuwu.cloud
 /rpc/log/*
 /rpc/log?
 /rpc/preccount?
+/rptracker.js$domain=rshb.ru
 /rr/t?step=
 /rrweb-record-pack.js
 /rrweb-record.min.js
@@ -13936,6 +13937,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=huavod.com|huaren.live|tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=miuipro.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onperiscope.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=robotcoingame.com|monstercoingame.com|wonderlandco.in
@@ -13944,7 +13946,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thehomestyle.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=theplace2.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tsviewer.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vide-greniers.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=voyageforum.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=al.ly
@@ -107873,6 +107874,7 @@ huaren.live##.action-ad
 huaren.live##.pause-love
 huaren.live,huavod.com#%#//scriptlet('prevent-setTimeout', 'bait.offsetHeight===0')
 huaren.live,huavod.com#@#.ad_unit
+huaren.live,huavod.com,huavod.net##a[href="/go/baba/1"]
 huaren.live,umbooks.com#%#//scriptlet('prevent-window-open')
 huaren.tv##.live-client_left
 huaren.tv##.live-client_right
@@ -107883,7 +107885,9 @@ huarenjie.com###RightAd2
 huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
 huavod.com##a[href^="https://lesi198.com"]
-huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.config.ads', 'emptyObj')
+huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
+huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showModal')
+huavod.net,huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.config.ads', 'emptyObj')
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -123245,7 +123249,7 @@ zzzyk.com###Tinfo
 ||*.amazonaws.com/js/adblock.min.js$script,domain=motorsport-total.com
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.kameleoon.eu^$domain=20minutes.fr|20min.fr
-||*.mp4$redirect=noopmp3-0.1s,domain=huavod.com
+||*.mp4$redirect=noopmp3-0.1s,domain=huavod.com|huaren.live
 ||*.org/config/v7.js
 ||*/ad/$redirect=noopmp3-0.1s,domain=huaren.tv
 ||*/vhot2.qqvideo.tc.qq.com^
@@ -140300,6 +140304,7 @@ zzzyk.com###Tinfo
 ||bggtxv.propac.it^
 ||bgiamericas.actonservice.com^
 ||bgjesr.topvyrobky.sk^
+||bgjylr.icu^
 ||bgmuvv.softbankselection.jp^
 ||bgnrz.splashblanket.us^
 ||bgpis.unikclothing.co.uk^
@@ -144624,6 +144629,7 @@ zzzyk.com###Tinfo
 ||cj81gcvm2.com^
 ||cj99fbulb4.com^
 ||cja0m4iew.com^
+||cjb6nr5csu.com^
 ||cjbdme.conquer.org^
 ||cjbjj.femforceshoots.com^
 ||cjcku.eskiin.com^
@@ -158981,6 +158987,7 @@ zzzyk.com###Tinfo
 ||ewdk.cn^
 ||ewe.loudcrowd.com^
 ||ewebanalytics.com^$third-party
+||ewekeoqn.com^
 ||ewfarp.kappa.com^
 ||ewfrnd.stockmann.ru^
 ||ewfsef.com^
@@ -163136,6 +163143,7 @@ zzzyk.com###Tinfo
 ||global-guardians.actonservice.com^
 ||global-media.de^*/track/ai.img
 ||global-mktg.transunion.com^
+||global-receiver-ta.thinkingdata.cn^
 ||global-report.ml.youngjoygame.com^
 ||global-sis.engagelab.com^
 ||global.accadis-education.com^
@@ -170482,6 +170490,7 @@ zzzyk.com###Tinfo
 ||huarenjie.com/attachment/myfiles/
 ||huatuo.qq.com^
 ||huavod.com/player/$replace=/let ConFig/var ConFig/,document,subdocument
+||huavod.net/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huawei.com/*/hwautocomplete/
 ||huaweinnd.top^
 ||huaxia.name^
@@ -174029,11 +174038,12 @@ zzzyk.com###Tinfo
 ||inv.mksp.io^
 ||inv3te.oui.sncf^
 ||invata.actonservice.com^
+||invb.ru^$cookie=/^pa_/
 ||invdm.moonjuice.com^
 ||inven.co.kr/api/banner_tracking/banner_view.php
 ||invenio_tracking_*.sgnapps.com^
 ||invention66.com^
-||inventorycache.com^$badfilter
+||inventorycache.com^$xmlhttprequest,redirect=noopjson
 ||inventtango.com^
 ||invest.provincia.co.nz^
 ||invest.rubicoin.com^
@@ -176742,7 +176752,7 @@ zzzyk.com###Tinfo
 ||kimonix.com/analytics/
 ||kindasingle.com^
 ||kindernetz.de/static/tracking/xtclicks.js
-||kindhush.com^
+||kindhush.com^$~xmlhttprequest
 ||kindlaundry.rdtrke.com^
 ||kindlereunion.com^
 ||kinesis.eu-west-1.amazonaws.com^
@@ -196270,7 +196280,6 @@ zzzyk.com###Tinfo
 ||okn57l1h.top^
 ||oknjv.nucific.com^
 ||okokserver.com/js/anti/pop*.js$domain=huaren.live
-||okokserver.com/uploads/haigou.
 ||okokserver.com/uploads/lesi/
 ||okomp.rubbertree.co.nz^
 ||okooo.com/I/?method=system.data.ad&
@@ -200028,6 +200037,7 @@ zzzyk.com###Tinfo
 ||player-metrics.instaread.co^
 ||player-telemetry.vimeo.com^
 ||player.hdgay.net/cdn-cgi/trace
+||player.instaread.co/js/inarticle-metrics.js
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
 ||player.javboys.cam/cdn-cgi/trace
 ||player.kwikmotion.com/packages/videojs-stat/
@@ -204365,6 +204375,7 @@ zzzyk.com###Tinfo
 ||rlcdn.com^$third-party
 ||rlcoou.reskin.co.kr^
 ||rldcr.madeincookware.com^
+||rlduhmakdm.com^
 ||rlebg.ugears.us^
 ||rlets.com^$third-party
 ||rlftd.staples.com^
@@ -236798,7 +236809,6 @@ zzzyk.com###Tinfo
 ||thingstaste.com^
 ||think.ing.com/ajax/ajax_cookie_consent$~third-party,xmlhttprequest
 ||think.phdinc.com^
-||thinkingdata.cn^
 ||thinkitten.com^
 ||thinkitwice.com^
 ||thinkmd.cn^
@@ -246354,6 +246364,7 @@ zzzyk.com###Tinfo
 ||vid12110hl.com^
 ||vidads.gr/imp/
 ||vidapi.expepp.de^$third-party
+||vidazoo.com/aggregate
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
 ||vidazoo.com/report/?
@@ -247092,6 +247103,7 @@ zzzyk.com###Tinfo
 ||vs1.exo01.xyz^$image,third-party
 ||vs4.com/impr.php
 ||vs4.com/impr.php?
+||vsbdvf.icu^
 ||vsco.co/api/cantor/track
 ||vscoh.sokolovelaw.com^
 ||vsct.cn^
