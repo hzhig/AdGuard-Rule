@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-15 21:24:01(GMT+8) 
-! Total count: 253996
+! ! Version: 2026-04-16 10:36:58(GMT+8) 
+! Total count: 254009
  
 ###ADtip
 ###Ad_windows
@@ -1290,6 +1290,7 @@
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
+##a[href*="/137.220.194.123:"]
 ##a[href*="/2e9c9aa9.com/"]
 ##a[href*="/33hth.cn"]
 ##a[href*="/445.ee/"]
@@ -111656,7 +111657,7 @@ m.lianjia.com##.download_fixed
 m.lianjia.com##.download_full_box
 m.lianjia.com##.fadeDown.download_topfixed.mod_download
 m.lianjia.com##.mod_app.mod_sub_tit.mod_tit
-m.lianjia.com##div.mod_download:nth-of-type(1) 
+m.lianjia.com##div.mod_download:nth-of-type(1)
 m.loxi.io$image
 m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'document.write', '_0x')
 m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
@@ -122505,6 +122506,9 @@ www.staging-db3.cloud.s11.sfmc-osl.com$image
 www.stat.cloud.s11.sfmc-osl.com$image
 www.streaming.view.s11.sfmc-osl.com$image
 www.sys-14.cloud.s11.sfmc-osl.com$image
+www.toutiao.com##.download-app-banner
+www.toutiao.com##.download.tool-item
+www.toutiao.com##.ttp-portal-anime-show
 www.trumpwinneroffice.com$image
 www.wangjing.cn##.content > div[style*="980px;"]
 www.wdbay.com##[class][classname]
@@ -124448,6 +124452,7 @@ zzzyk.com###Tinfo
 ||48z7wyjdsywu.www.revistaferramental.com.br^
 ||492733704185584515.academyforconsciousculture.com^
 ||49ioqq6kt.com^
+||49o4m4a5eo.com^
 ||4aqoxkesav.com^
 ||4asfgyx.com^
 ||4b.oktium.com^
@@ -124984,6 +124989,7 @@ zzzyk.com###Tinfo
 ||6x59axt21.com^
 ||6yfcuuw.com^
 ||6ynyejkv0j1s.app.tapmyback.com^
+||6zc7gvmavf.com^
 ||6zmcb1x9fn.top^
 ||7.jwclay.com^
 ||7.seventhings.com^
@@ -125130,6 +125136,7 @@ zzzyk.com###Tinfo
 ||7tv.de/service/log/
 ||7u4b8l1zt.com^
 ||7u7jwonbf.com^
+||7ue931y0gn.com^
 ||7usgqu07mk.com^
 ||7w.ro/js/trk.js
 ||7wrxo2xh.iriscreative.co^
@@ -155744,6 +155751,7 @@ zzzyk.com###Tinfo
 ||e246.pandasuite.io^
 ||e26fr9qb4m.com^
 ||e2e.mashable.com^
+||e2fpulacx.com^
 ||e2icbtrs1g.com^
 ||e2jda3h01.com^
 ||e2ma.net/track/
@@ -201809,6 +201817,7 @@ zzzyk.com###Tinfo
 ||qczcxe.cn^
 ||qczgr.keyless-city.com^
 ||qd.x4399.com^
+||qd38xgoin9.com^
 ||qdaily.com/mount_details/pc/
 ||qdasflqe.top^
 ||qdczx66.com^
@@ -205003,6 +205012,7 @@ zzzyk.com###Tinfo
 ||rubiconredirect.com^$third-party
 ||rubmdu.top^
 ||rubrafoz.com^
+||rucksack85.top^
 ||rucounter.ru^$third-party
 ||rudder-server-prd.arena.im/v1/track
 ||rudder-server-prd.arena.im^
@@ -237526,6 +237536,7 @@ zzzyk.com###Tinfo
 ||tmi.mno.link^
 ||tmi.vodafone.de^
 ||tmk.moebel-koehler.de^
+||tmkfjbitxzlhijfcenxe.top^
 ||tmkhirkrol.com^
 ||tmlt.actonservice.com^
 ||tmlyhh.icu^
@@ -244874,6 +244885,7 @@ zzzyk.com###Tinfo
 ||urlbrief.com^$third-party
 ||urldefense.com/*/webmon.js
 ||urldefense.com^$image,third-party
+||urldefense.com^$third-party
 ||urldefense.proofpoint.com^*analytics_insight.min.js
 ||urlir.sophiawebster.com^
 ||urlkwqi.cn^
@@ -250681,6 +250693,7 @@ zzzyk.com###Tinfo
 ||x822.mrt.com^
 ||x88s.pandasuite.io^
 ||x8kwcr3l.xyz^
+||x8wyxfxul.com^
 ||x9.shinobi.jp^
 ||x9flqeptn.com^
 ||xaas3.jp/tracking/$third-party
