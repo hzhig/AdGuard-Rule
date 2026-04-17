@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-17 10:32:50(GMT+8) 
-! Total count: 254038
+! ! Version: 2026-04-17 21:18:57(GMT+8) 
+! Total count: 254057
  
 ###ADtip
 ###Ad_windows
@@ -11767,6 +11767,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||contentlockingnetworks.com/gLoader.php?GID=$script,third-party
 @@||contentlockingnetworks.com/gTemplate.php?GID=$subdocument,third-party
 @@||conversion.im/images/icons/google-analytics.png
+@@||conversions.appsflyersdk.com^$app=com.wishabi.flipp
 @@||convertexperiments.com^$domain=skratchlabs.com
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
 @@||coolinet.com^$generichide
@@ -14674,6 +14675,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||srnet.eu/ads2.js$script
 @@||srnk.co/js/ads.js$xmlhttprequest
 @@||srs.blastingnews.com/js/adv/_compiled.js$script
+@@||srv024.service.canada.ca/assets/adobe-analytics-route-helpers-$script,~third-party
 @@||srvr.dmvs-apac.com/dm-story/*.js$domain=eldeber.com.bo|reduno.com.bo
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||ssl.geoplugin.net/javascript.gp$domain=imalentstore.com
@@ -108743,6 +108745,10 @@ jandan.net##.post[style="padding-left:150px;width:336px;height:280px;"]
 jandan.net##a[href*="/money.php?"]
 jandan.net#?##sidebar > ul:has(> h3:contains(广告))
 jandan.net#?#.commentlist > li.row:has(> div > font:contains(广告))
+jav224.shop,ttp229.shop,clp126.shop,hsq233.shop###AFOO
+jav224.shop,ttp229.shop,clp126.shop,hsq233.shop#%#//scriptlet('abort-current-inline-script', 'document.write', '/<script src=.*Math\.floor\(Date\.now\(\)/')
+jav224.shop,ttp229.shop,clp126.shop,hsq233.shop#%#//scriptlet('prevent-setTimeout', '](getComputedStyle,')
+jav224.shop,ttp229.shop,clp126.shop,hsq233.shop#@#.ad-unit:not(.textads)
 jav777.cc,jav777.xyz###playertopads
 jav777.cc,jav777.xyz##.myad_alert_82
 jav777.cc,jav777.xyz##.myad_alert_82_box
@@ -117906,6 +117912,7 @@ supportersindex.fun$image
 surirt.com#%#//scriptlet('set-constant', 'ad_id_for_555', '')
 surirt.com#%#//scriptlet('set-constant', 'all520dddaaa2022ccc', 'true')
 surirt.com,520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
+surumi.shop###container > .art-video-player + div[id][style^="position: absolute;"][style*="z-index: 999"]
 surveys.zendesk.com%2Fsubscription%2Fwatermark.gif$image
 surveys.zendesk.com/subscription/watermark.gif$image
 susongbbs.com#@#.ad_banner
@@ -122328,6 +122335,7 @@ wmzhe.com##.downloader
 wn01.uk##IMG[alt][style='width: 100%; height: 100%;']
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
+wnacg.com##a[href*="erodatalabs.com"]
 wnacg.com##a[href^="https://ent.ystwfucb.shop/"]
 wnacg.com##a[href^="https://l.labsda.com/"]
 wnacg.com#@##adsbox
@@ -124533,6 +124541,7 @@ zzzyk.com###Tinfo
 ||4v6a7i3dkz.com^
 ||4vgyjja.cn^
 ||4w3ol467n.com^
+||4w54d7rjg.com^
 ||4wbvq8yl2.com^
 ||4wg67b9vb.com^
 ||4wmiuiyd70.com^
@@ -138712,6 +138721,7 @@ zzzyk.com###Tinfo
 ||avid.actonservice.com^
 ||aviite.freaksstore.com^
 ||aviko.actonservice.com^
+||avito.ru/clickstream/events/
 ||avito.ru/stat/
 ||avito.st/mstatic/build/legacy/*/fingerprint.*.js
 ||avito.st/s/pixel/script.js
@@ -143594,6 +143604,7 @@ zzzyk.com###Tinfo
 ||cdn.adt567.net^
 ||cdn.aimtell.com^$third-party
 ||cdn.almamedia.tech/esm/geo-client/
+||cdn.amplitude.com/engagement-browser/
 ||cdn.amplitude.com/libs/analytics-browser-*-min.js
 ||cdn.amplitude.com/libs/plugin-session-replay-browser-$third-party
 ||cdn.ampproject.org/*/amp-analytics-
@@ -169263,6 +169274,7 @@ zzzyk.com###Tinfo
 ||hearob.klix.ba^
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||hearstnp.com/log?
+||heartbeat-pearl.vercel.app^
 ||heartbeat.crackle.com^
 ||heartbeat.pmd.444.hu^
 ||heartbeats.prd.data.s.joyn.de^
@@ -192567,6 +192579,7 @@ zzzyk.com###Tinfo
 ||mon-va*.capcutapi.com^
 ||mon-va.byteoversea.com^$third-party
 ||mon-va.capcutapi.com^
+||mon.avito.ru^
 ||mon.byteoversea.com^
 ||mon.capcutapi.us^
 ||mon.domdog.io^
@@ -197312,6 +197325,7 @@ zzzyk.com###Tinfo
 ||otclick-adv.ru^$third-party
 ||otekt.rocautomobile.ro^
 ||otel-collector.lenta.tech^
+||otel-collector.reliability.smartnews.net^
 ||otel-mobile.doordash.com^
 ||otfim.gurunanda.com^
 ||otfur.craneandcanopy.com^
@@ -205071,6 +205085,7 @@ zzzyk.com###Tinfo
 ||rum.api.intuit.com^
 ||rum.azion.com^
 ||rum.azioncdn.net^
+||rum.battle.net^
 ||rum.cdnpure.com^
 ||rum.conde.io^
 ||rum.condenastdigital.com^
@@ -230358,6 +230373,7 @@ zzzyk.com###Tinfo
 ||static.nrk.no/*/Serum.ExperimentTracking.js
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.okokserver.com/uploads/lesi/$image,domain=huaren.live|huavod.com
+||static.okokserver.com/uploads/lesi/$xmlhttprequest,redirect=nooptext,domain=huaren.live|huavod.net|huavod.com
 ||static.okokserver.com/uploads/lesi/lesi.mp4$media
 ||static.okokserver.com^$media,domain=huaren.live
 ||static.olelive.com/upload/site/*/*.gif
@@ -249928,6 +249944,7 @@ zzzyk.com###Tinfo
 ||www.hey.lt^$third-party
 ||www.hims1nice.com^
 ||www.hiss3lark.com^
+||www.history.com/editorial/vendor/
 ||www.hiweha.com^
 ||www.hlgglm.com^
 ||www.hook6vein.com^
@@ -250597,6 +250614,7 @@ zzzyk.com###Tinfo
 ||wxuorj.parfumswinkel.nl^
 ||wxwsmt.matsmart.fi^
 ||wxx776sxqk.com^
+||wxy9b202h.com^
 ||wxynyij.icu^
 ||wxztfkiga.com^
 ||wy12cewh4.com^
@@ -253271,6 +253289,7 @@ zzzyk.com###Tinfo
 ||zgzqz.muckbootcompany.com^
 ||zgzxm.weathercn.com^
 ||zh-tw.siemensplmevents.com^
+||zh4qnnf63.com^
 ||zhagp.baddworldwide.com^
 ||zhainanba.org/ac/
 ||zhan.com^*/middle_ad_modal.js
