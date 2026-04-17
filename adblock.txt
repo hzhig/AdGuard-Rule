@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-16 21:42:56(GMT+8) 
-! Total count: 254021
+! ! Version: 2026-04-17 10:32:50(GMT+8) 
+! Total count: 254038
  
 ###ADtip
 ###Ad_windows
@@ -9543,7 +9543,7 @@ $websocket,domain=wap.yushuwu.cloud
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
-52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52niuyan.cc##.top_fixed
 52niuyan.cc##a[onclick][rel][style*="toutiaoimg.com"]
@@ -14764,6 +14764,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||static.vvvvid.it/img/ad$domain=vvvvid.it
 @@||staticfiles.rtl.nl/lib/rtl.jsapi/pubads_impl_70r.js$script,domain=rtlxl.nl
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
+@@||staticsns.cdn.bcebos.com/amis/$image,domain=pan.baidu.com
 @@||stats.britishbaseball.org.uk^
 @@||stats.e-go.gr/rx.asp?$domain=megatv.com
 @@||stats.g.doubleclick.net/dc.js$domain=dubizzle.com
@@ -106223,6 +106224,7 @@ franchiseemail.scooterscoffee.com$image
 frdic.com,godic.net##a[onclick*="/ads/"]
 free.com.tw###custom_html-11
 free.com.tw###custom_html-5
+free.com.tw##.advads-entity-placement
 freebitco.in,freedoge.co.in#@##box_ad_middle
 freebitco.in,freedoge.co.in#@##main_content_ad_left
 freebitco.in,freedoge.co.in#@#.ad-img
@@ -129822,6 +129824,7 @@ zzzyk.com###Tinfo
 ||aamt.today.com^
 ||aamulehti.fi^$cookie=sa1pid
 ||aan.amazon.com^$third-party
+||aan8bq.ru^
 ||aanalytics.adelaide.edu.au^
 ||aanalytics.panduit.com^
 ||aans.athome.com^
@@ -130595,6 +130598,7 @@ zzzyk.com###Tinfo
 ||actuallysnake.com^
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
+||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
 ||acustomizedgift.com^$~xmlhttprequest
 ||acv.au-hikari-kddi.com^
 ||acv.auhikari-norikae.com^
@@ -140947,7 +140951,7 @@ zzzyk.com###Tinfo
 ||bluepanda.platzangst.com^
 ||bluevinebooks.com^
 ||blushingbeast.com^
-||blushingbread.com^$~script
+||blushingbread.com^
 ||bluvue.actonservice.com^
 ||blvdstatus.com^$third-party
 ||blvhq.com^
@@ -141175,6 +141179,7 @@ zzzyk.com###Tinfo
 ||bonprix.*/ajax/landmarks/
 ||bonprix.*/ajax/marketing-parameters/
 ||bonuscake.ru^
+||bonuscake.ru^$third-party
 ||bonuscomplex.com^
 ||bonuscounter.de^$third-party
 ||boodper.com^
@@ -159702,6 +159707,7 @@ zzzyk.com###Tinfo
 ||fauzxn.hairlavie.com^
 ||favbt.theweeklyedition.com^
 ||favor1.fractal.jp^
+||favourite74.com^
 ||fawb62hh9.com^
 ||faxffjo.com^
 ||faxingw.cn/js/*0
@@ -162241,6 +162247,7 @@ zzzyk.com###Tinfo
 ||gd.ct10000.com^*/push/$popup,third-party
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
+||gdbegok47.com^
 ||gdbei.oakessentials.com^
 ||gdbyhtl.net^*adfix/
 ||gdcytv.cn^*.gif
@@ -163080,6 +163087,7 @@ zzzyk.com###Tinfo
 ||gktrlv.oryany.co.kr^
 ||gkupv.theconsumerdigest.org^
 ||gkuresx.com^
+||gkvjmx3xf.com^
 ||gkvrdf.com^
 ||gkxkvp.tumi.co.jp^
 ||gl-product-analytics.com^
@@ -170317,6 +170325,7 @@ zzzyk.com###Tinfo
 ||hqq.tv/js/gcounter.js
 ||hqrixc.dorocy.co.kr^
 ||hqvkbn.icu^
+||hqvrvageaf.com^
 ||hqwtqa.intelligence-artificielle-school.com^
 ||hqxbuy.rugs-direct.com^
 ||hqzcths.cn^
@@ -174622,6 +174631,7 @@ zzzyk.com###Tinfo
 ||itrjf.heydude.com^
 ||itrustzone.site^$third-party
 ||its.ricoh.fr^
+||its1zeqni.com^
 ||itservices.ricoh.ch^
 ||itservices.ricoh.co.uk^
 ||itservices.ricoh.co.za^
@@ -176752,6 +176762,7 @@ zzzyk.com###Tinfo
 ||kimonix.com/analytics/
 ||kindasingle.com^
 ||kindernetz.de/static/tracking/xtclicks.js
+||kindhush.com^$redirect=noopjson,xmlhttprequest
 ||kindhush.com^$~xmlhttprequest
 ||kindlaundry.rdtrke.com^
 ||kindlereunion.com^
@@ -195947,7 +195958,8 @@ zzzyk.com###Tinfo
 ||oceanair.actonservice.com^
 ||oceanautomotive.actonservice.com^
 ||oceanbot-steam.com^
-||oceancloudhosts.com^
+||oceancloudhosts.com^$redirect=noopjson,xmlhttprequest! url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+||oceancloudhosts.com^$~xmlhttprequest
 ||ocelot.anthroquiches.fr^
 ||ocelot.goinpaces.com^
 ||ocelot.pixlwebs.nl^
@@ -230363,6 +230375,7 @@ zzzyk.com###Tinfo
 ||static.qiyi.com/js/pingback/
 ||static.quiq-cdn.com/chat-ui/plugin-google-analytics-*.js
 ||static.read.tools/stats.min.js
+||static.rebelboost.com/tracking/
 ||static.rendeljkinait.hu/plugins/rendeljkinait-base-setup/widgets/package-tracking-widget/
 ||static.republika.co.id/js/tracker.js
 ||static.rongkao.com^
@@ -233270,6 +233283,7 @@ zzzyk.com###Tinfo
 ||swordtail.hnh.digital^
 ||swordtail.rockface.io^
 ||swp.de^$removeparam=source
+||swqerog.com^
 ||swqleb.adidas.ru^
 ||swqmuo.icu^
 ||swwcyk.ahaber.com.tr^
@@ -243613,6 +243627,7 @@ zzzyk.com###Tinfo
 ||tvuaeb.taqi.com.br^
 ||tvutso.menbur.com^
 ||tvwsfx.carlynmall.com^
+||tvxvhx.icu^
 ||tvyan.com/images/jscss/tv-
 ||tvyja.caps-plus.de^
 ||tvyun07.com/template/mytheme/statics/js/layer/
@@ -248689,6 +248704,7 @@ zzzyk.com###Tinfo
 ||wfndponfd.com^
 ||wftihvn.xyz^
 ||wfvs.cn^
+||wfwadedzk.com^
 ||wfwrbo.fascar.com.br^
 ||wfznj.jillmartin.com^
 ||wga.vitalipartners.com^
@@ -253613,7 +253629,7 @@ zzzyk.com###Tinfo
 ||zonastat.com/installer.html?param=
 ||zone-telechargement.al/analytics/
 ||zoneadsl.com/api/get-ip
-||zonewedgeshaft.com^! url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+||zonewedgeshaft.com^
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
 ||zongheng.com^*/logger.min.js
@@ -253877,6 +253893,7 @@ zzzyk.com###Tinfo
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
 ||zwfnfd.icu^
+||zwfqxj.icu^
 ||zwgoeg.zakcret.gr^
 ||zwgqzgo.icu^
 ||zwinqi.spartoo.pt^
