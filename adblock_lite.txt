@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-04-17 21:18:57(GMT+8) 
-! Total count: 32705
+! ! Version: 2026-04-18 10:23:51(GMT+8) 
+! Total count: 32718
  
 ###ADtip
 ###Ad_windows
@@ -3486,6 +3486,7 @@ $websocket,domain=wap.yushuwu.cloud
 2345.com##.mod-txtred
 2345.com##.mzdh_bottom
 2345.com##.newsArea
+2345.com##.part-banner
 2345.com##.part-banner > .part-ppt
 2345.com##.s11-fixNav
 2345.com##.s11-logowall
@@ -4698,7 +4699,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||ads.google.com/adserver/adlogger_tracker.php$domain=chrissmoove.com
 @@||ads.lingxing.com^$~third-party
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
-@@||ads.reddit.com^$domain=myqqjd.com
 @@||ads.rubiconproject.com/ad/$script,domain=doupe.zive.cz
 @@||ads.rubiconproject.com/ad/$script,domain=onemanga.me
 @@||ads.stickyadstv.com/crossdomain.xml$object-subrequest,domain=play.tv|playtv.fr
@@ -5569,7 +5569,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||muzlan.top^$generichide
 @@||mvcat.com^$generichide
 @@||mymanga.io/css/ads.css$stylesheet
-@@||myqqjd.com^$generichide
 @@||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest
 @@||myspass.de/myspass/includes/apps/video/getvideometadataxml.php?$object-subrequest
 @@||myssl.com/scripts/analyze.js
@@ -5660,7 +5659,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=huavod.com|huaren.live|tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=huavod.com|huaren.live|tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=miuipro.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onperiscope.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=robotcoingame.com|monstercoingame.com|wonderlandco.in
@@ -10018,7 +10017,6 @@ huaren.live##.action-ad
 huaren.live##.pause-love
 huaren.live,huavod.com#%#//scriptlet('prevent-setTimeout', 'bait.offsetHeight===0')
 huaren.live,huavod.com#@#.ad_unit
-huaren.live,huavod.com,huavod.net##a[href="/go/baba/1"]
 huaren.live,umbooks.com#%#//scriptlet('prevent-window-open')
 huaren.tv##.live-client_left
 huaren.tv##.live-client_right
@@ -10029,9 +10027,10 @@ huarenjie.com###RightAd2
 huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
 huavod.com##a[href^="https://lesi198.com"]
-huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
-huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showModal')
-huavod.net,huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.config.ads', 'emptyObj')
+huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
+huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
+huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showModal')
+huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -12050,6 +12049,7 @@ miushuo.com###leftDiv1
 mix.dj###maskads
 mix.dj##.classAds
 mjzj.com##div[id^="sidebar-top-carouse"]
+mkfjbitxzlhijf*.top/$script,xmlhttprequest,third-party
 mm-cg.com###ArticlesEx_box
 mm-cg.com###ioshowAD
 mm-cg.com##.TW_UTtoy
@@ -14839,6 +14839,9 @@ vmlib.com##.wp-caption
 vmvps.com###long_image
 vmvps.com##.spbox
 voachinese.com##.slide-in-wg
+vocus.cc##.SimpleDialogOverlay
+vocus.cc##.editor-content-block > div[style="position: relative; z-index: 1;"]
+vocus.cc##.editor-content-block > div[style]:has(> div#vocus_pc_reading_content_middle)
 vocus.cc##article > div[style^="min-height:"]:empty
 vocus.cc##article > div[style^="min-height:"]:has(> div[class^="sc-"] > div[class^="sc-"] > ins[data-rmax-space-id])
 vod1769.com##.banner_img
@@ -17050,6 +17053,7 @@ zzzyk.com###Tinfo
 ||61.10.2.86/dev/xopen.php
 ||6109.org^
 ||614514.com^
+||61fjluqray.com^
 ||61hhdp.com^
 ||62422.cn/ggimg/
 ||627txt.com/da/*js
@@ -19782,6 +19786,7 @@ zzzyk.com###Tinfo
 ||cfdns.vip^
 ||cfepws.com^
 ||cfoxpgfzxl.com^
+||cfssi03yg3.com^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgcg01010ht.com^
 ||cgcg01011ht.com^
@@ -19851,6 +19856,7 @@ zzzyk.com###Tinfo
 ||chienzul.com^
 ||chiese.site^
 ||chihuoguo.me^
+||childbirth44.top^
 ||chiluyingxiao.com^
 ||china.chemnet.com/cnbanner/
 ||china.cn/js/common/daniel_pop/
@@ -23226,6 +23232,7 @@ zzzyk.com###Tinfo
 ||huatuo.qq.com^
 ||huavod.com/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huavod.net/player/$replace=/let ConFig/var ConFig/,document,subdocument
+||huavod.top/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huaweinnd.top^
 ||huaxia.name^
 ||hubcloud.com.cn^
@@ -23381,6 +23388,7 @@ zzzyk.com###Tinfo
 ||i7xkqmhjw.com^
 ||i8tq.com/adImg/
 ||i90ptshd.top^
+||i96wgz4nmy.com^
 ||i97wqa881u.com^
 ||i9i3ko2o70.com^
 ||iabao.com/sladewap.js
@@ -25844,6 +25852,7 @@ zzzyk.com###Tinfo
 ||mk10ow7zoi.com^
 ||mkd88.cc/16.32.jpg
 ||mkff.cn^
+||mkfjbitxzlhijfcenxej.top^
 ||mkjnba.com^
 ||mkjnbg.com^
 ||mkjnha.com^
@@ -26900,6 +26909,7 @@ zzzyk.com###Tinfo
 ||oyz61nhz8.com^
 ||oz6q1drif.com^
 ||ozkbdxdu.icu^
+||ozsvnlo.com^
 ||oztg6i0ass.com^
 ||p*-ad-sign.byteimg.com^
 ||p.7060.la^
@@ -28965,7 +28975,7 @@ zzzyk.com###Tinfo
 ||static.missav.com/js/plyr.js
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.okokserver.com/uploads/lesi/$image,domain=huaren.live|huavod.com
-||static.okokserver.com/uploads/lesi/$xmlhttprequest,redirect=nooptext,domain=huaren.live|huavod.net|huavod.com
+||static.okokserver.com/uploads/lesi/$xmlhttprequest,redirect=nooptext,domain=huaren.live|huavod.net|huavod.com|huavod.top
 ||static.okokserver.com/uploads/lesi/lesi.mp4$media
 ||static.okokserver.com^$media,domain=huaren.live
 ||static.olelive.com/upload/site/*/*.gif
@@ -29978,6 +29988,7 @@ zzzyk.com###Tinfo
 ||ujhu.cn^
 ||ujnkn.com^
 ||ujof.cn^
+||uk3eymh64c.com^
 ||uk529u0.cn^
 ||ukew6uo7u1.com^
 ||ukfp.cn^
@@ -30269,6 +30280,7 @@ zzzyk.com###Tinfo
 ||vdxu.cn^
 ||vedhalmin.com^
 ||vegetation67.com^
+||vegmiedd.com^
 ||vehohx.icu^
 ||veirkaey.com^
 ||vejrp6iq25.com^
@@ -32493,6 +32505,7 @@ zzzyk.com###Tinfo
 ||zlnitethia.com^
 ||zlnmzc.top^
 ||zlongad.com^$third-party
+||zltqrh.icu^
 ||zlyhslx.icu^
 ||zlyk.com/Runtime/Js/footer.js
 ||zlyk.com/Runtime/Js/m_footer_top.js
