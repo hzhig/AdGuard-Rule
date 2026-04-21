@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-21 10:33:55(GMT+8) 
-! Total count: 253926
+! ! Version: 2026-04-21 21:25:45(GMT+8) 
+! Total count: 253943
  
 ###ADtip
 ###Ad_windows
@@ -1277,6 +1277,7 @@
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com?intr="]
 ##a[href*=".com?s="]
+##a[href*=".erodatalabs.com/"]
 ##a[href*=".fdgsnnvfsdv2df1bf3fdb1.cc"]
 ##a[href*=".gaimin.gg/cn"]
 ##a[href*=".jmtybc.com"]
@@ -124449,6 +124450,7 @@ zzzyk.com###Tinfo
 ||412dyo1ef.com^
 ||4199tv.com^
 ||41grk.icu^
+||41vtzzt0s.com^
 ||4251.tech^
 ||4275.com/css/91kf.
 ||42vaywaovr.com^
@@ -130635,7 +130637,6 @@ zzzyk.com###Tinfo
 ||actuallysnake.com^
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
-||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
 ||acustomizedgift.com^$~xmlhttprequest
 ||acv.au-hikari-kddi.com^
 ||acv.auhikari-norikae.com^
@@ -134574,6 +134575,7 @@ zzzyk.com###Tinfo
 ||analytics.plex.tv^
 ||analytics.plumbworld.co.uk^
 ||analytics.pnc.com^
+||analytics.pocketfm.com^
 ||analytics.poferries.com^
 ||analytics.pointdrive.linkedin.com^
 ||analytics.polaris.com^
@@ -144276,6 +144278,8 @@ zzzyk.com###Tinfo
 ||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/backend-api/beacons/
+||chatgpt.com/backend-api/sentinel/ping
 ||chatgpt.com/ces/*/b|$xmlhttprequest
 ||chatgpt.com/ces/statsc/
 ||chatgpt.com/ces/statsc/$xmlhttprequest,redirect=noopjson
@@ -147962,6 +147966,10 @@ zzzyk.com###Tinfo
 ||cv-adebis.my-studies.net^
 ||cv-adebis.nlp-coaching.co.jp^
 ||cv-adebis.nlpjapan.co.jp^
+||cv-library.co.uk/assets/js/clickstream
+||cv-library.co.uk/assets/js/experiments-amplitude-
+||cv-library.co.uk/assets/js/ext/amplitude-
+||cv-library.co.uk/assets/js/ext/clickstream.
 ||cv-match.sharebase.jp^
 ||cv-tracker.stanby.com^
 ||cv.2jikaikun.com^
@@ -154379,6 +154387,7 @@ zzzyk.com###Tinfo
 ||djuf7jb483wz1.cloudfront.net/p/l.jpg
 ||djv99sxoqpv11.cloudfront.net^
 ||djwyp.aritzia.com^
+||djx3um1my.com^
 ||djxjti.oil-stores.gr^
 ||djxyhp.ashtondrake.com^
 ||dk-go.experian.com^
@@ -164092,7 +164101,10 @@ zzzyk.com###Tinfo
 ||goatstats.fiesta.plus^
 ||goazlf.mytoys.de^
 ||gobankingrates.com/analytics/latest/ct.bundle.js
+||gobankingrates.com/et/
 ||gobankingrates.com/fp/
+||gobankingrates.com/wp-content/themes/rockefeller-lite/assets/build/event-tracking.js
+||gobankingrates.com^$cookie=visitor_id
 ||gobeyond.superiorgroup.com^
 ||goblin.hupu.com^
 ||gocertiport.pearsonvue.com^
@@ -174061,6 +174073,7 @@ zzzyk.com###Tinfo
 ||invenio_tracking_*.sgnapps.com^
 ||invention66.com^
 ||inventorycache.com^$xmlhttprequest,redirect=noopjson
+||inventorycache.com^$~xmlhttprequest
 ||inventtango.com^
 ||invest.provincia.co.nz^
 ||invest.rubicoin.com^
@@ -176756,7 +176769,6 @@ zzzyk.com###Tinfo
 ||kimonix.com/analytics/
 ||kindasingle.com^
 ||kindernetz.de/static/tracking/xtclicks.js
-||kindhush.com^$redirect=noopjson,xmlhttprequest
 ||kindhush.com^$redirect=noopjson,xmlhttprequest,badfilter
 ||kindhush.com^$~xmlhttprequest
 ||kindhush.com^$~xmlhttprequest,badfilter
@@ -178420,6 +178432,7 @@ zzzyk.com###Tinfo
 ||lfyqsi.erborian.com^
 ||lfzk2cp.icu^
 ||lfzlb.levasleep.com^
+||lg-chatbot.com/chatbot/v*/api/client_logger
 ||lg-release-tracking-8080.gcld-line.com^
 ||lg0lh2qfj4.com^
 ||lg3.media.net^
@@ -195938,7 +195951,6 @@ zzzyk.com###Tinfo
 ||oceanair.actonservice.com^
 ||oceanautomotive.actonservice.com^
 ||oceanbot-steam.com^
-||oceancloudhosts.com^$redirect=noopjson,xmlhttprequest! url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
 ||oceancloudhosts.com^$~xmlhttprequest
 ||ocelot.anthroquiches.fr^
 ||ocelot.goinpaces.com^
@@ -197035,6 +197047,7 @@ zzzyk.com###Tinfo
 ||oqbimz.aviasales.ru^
 ||oqbpqf.syretski-sady.com.ua^
 ||oqcw1f9yw.com^
+||oqfy4va7a.com^
 ||oqgelc.samuelhubbard.com^
 ||oqgrax.sissy-boy.com^
 ||oqidne.itaka.pl^
@@ -203071,6 +203084,7 @@ zzzyk.com###Tinfo
 ||rcodc.drdennisgross.com^
 ||rcounter.rambler.ru^
 ||rcp.evolok.net^$third-party
+||rcpwryza5.com^
 ||rcqiho.emp.de^
 ||rcqmvmq.cn^
 ||rcqqlwb.cn^
@@ -206598,6 +206612,7 @@ zzzyk.com###Tinfo
 ||sanalytics.yorkstatebank.com^
 ||sanalytics.yourbankcard.com^
 ||sanalytics.zuerinet.ch^
+||sanatorium73.top^
 ||sancmi.bookspot.nl^
 ||sandbank56.com^
 ||sandbank68.com^
@@ -244777,6 +244792,7 @@ zzzyk.com###Tinfo
 ||uqnnvhk.ericjavits.com^
 ||uqocjf.campingred.es^
 ||uqpvd.nakie.co^
+||uqtwyajmw.com^
 ||uqzns.lovisa.com^
 ||uqztj.umbrellasource.com^
 ||ur.b.inhaabit.com^
@@ -247241,6 +247257,7 @@ zzzyk.com###Tinfo
 ||vzpma.ultimatetattoosupply.com^
 ||vzpua.emango.bg^
 ||vzpxm.cypressmountain.com^
+||vzrhwmsj.icu^
 ||vzszcxov.amicoblu.it^
 ||vzszcxov.maggiore.it^
 ||vzttq.brfvyrrp.com^
@@ -253520,7 +253537,7 @@ zzzyk.com###Tinfo
 ||zonastat.com/installer.html?param=
 ||zone-telechargement.al/analytics/
 ||zoneadsl.com/api/get-ip
-||zonewedgeshaft.com^
+||zonewedgeshaft.com^! url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
 ||zongheng.com^*/logger.min.js
