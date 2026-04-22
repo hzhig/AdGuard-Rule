@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-22 10:32:21(GMT+8) 
-! Total count: 253958
+! ! Version: 2026-04-22 21:26:22(GMT+8) 
+! Total count: 253980
  
 ###ADtip
 ###Ad_windows
@@ -5034,6 +5034,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/ad_insight/*
 /js/adbuddy.min.js$script
 /js/admiral-
+/js/adobe-analytics.js$domain=moneywise.com|money.ca
 /js/ads
 /js/ads/*0.js
 /js/ads/*2.js
@@ -6192,6 +6193,7 @@ $websocket,domain=wap.yushuwu.cloud
 /sayac|$subdocument
 /sc_ifeng/*
 /scmetrics.*/b/ss/*
+/scottie/api/cdp/v1/event|$domain=moneywise.com|money.ca
 /scr/wtixyd.js
 /screencount?vcid=
 /scribd_events?
@@ -14392,6 +14394,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
 @@||safe.zhanhuo.com^$domain=safe.zhanhuo.com
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
+@@||salesforce.com/beacon/$script,domain=safeway.ca
 @@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||samsclub.com/px/*/captcha/captcha.js$domain=samsclub.com
@@ -124129,6 +124132,7 @@ zzzyk.com###Tinfo
 ||2ememain.be/c3650cdf-
 ||2ememain.be/px/
 ||2euqnxt25.com^
+||2f4a93wskk.com^
 ||2fjxw3dyip.com^
 ||2g1lbrr0qv.com^
 ||2g9x9uf.cn^
@@ -125278,6 +125282,7 @@ zzzyk.com###Tinfo
 ||88lmfff666.com^
 ||88p2p.com^$popup
 ||88r6s1hecp.com^
+||88s2t1w3w9.com^
 ||88ys.cc/js/abcd.js
 ||8961.jianbihua.com^
 ||89feh34qwo1.bootsschule1.de^
@@ -130639,6 +130644,7 @@ zzzyk.com###Tinfo
 ||actuallysnake.com^
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
+||acustomizedgift.com^$script,redirect=noopjs
 ||acustomizedgift.com^$~xmlhttprequest
 ||acustomizedgift.com^$~xmlhttprequest,badfilter
 ||acv.au-hikari-kddi.com^
@@ -148772,6 +148778,7 @@ zzzyk.com###Tinfo
 ||d761erxl2qywg.cloudfront.net^
 ||d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com^
 ||d7fl3a3vwh.com^
+||d7w6tvhhww.com^
 ||d7ynwsj5l.com^
 ||d7ytrv7yxa.com^
 ||d810.mysanantonio.com^
@@ -154857,6 +154864,7 @@ zzzyk.com###Tinfo
 ||donreach.com^$third-party
 ||dontbeevils.de^$third-party
 ||donut.thebakeacademy.com^
+||doofinder.com/api/v*/stats/
 ||doofinder.com/api/v2/stats/
 ||doomhedge.com^
 ||doomna.com^$third-party
@@ -163218,6 +163226,7 @@ zzzyk.com###Tinfo
 ||globalmed.actonservice.com^
 ||globalservices.conde.digital/p77xzrbz9z.js
 ||globalservices.conde.digital^
+||globalsiteanalytics.com^
 ||globalsiteanalytics.com^$third-party
 ||globalsolutions.risk.lexisnexis.com^
 ||globalwebindex.net^$third-party
@@ -164466,6 +164475,7 @@ zzzyk.com###Tinfo
 ||goto.nearlist.com^
 ||goto.newmarklearning.com^
 ||goto.rosegal.com^
+||goto.simplywall.st^
 ||goto.startracking.ru/api/v1/impression?aff_id=
 ||goto.suno.com^
 ||goto.www.iciba.com^
@@ -192595,6 +192605,7 @@ zzzyk.com###Tinfo
 ||moneroocean.stream^$third-party
 ||monetarygoldgroup.com/_ub/
 ||monetate.net^$third-party
+||money.ca^$cookie=suid
 ||money.clerkie.io^
 ||money.hu^$cookie=UserUuid
 ||money.mioweb.cz^
@@ -192602,7 +192613,7 @@ zzzyk.com###Tinfo
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
 ||moneyweekly.com.tw/Uploads/AD/*970x
-||moneywise.com/scottie/api/cdp/v1/event|
+||moneywise.com^$cookie=suid
 ||monfzx.pioro.co^
 ||mongoose.cse-algolia.fr^
 ||mongoose.scrumgenius.com^
@@ -204356,6 +204367,7 @@ zzzyk.com###Tinfo
 ||rl.finalprice.com^
 ||rl0.ru/*/dist/post.js$domain=www.rambler.ru
 ||rl1vypwyd2.com^
+||rl6b3zvtsk.com^
 ||rlavvoeo.com^
 ||rlcar.thrivemarket.com^
 ||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
@@ -205015,6 +205027,9 @@ zzzyk.com###Tinfo
 ||rudder-server-prd.arena.im^
 ||rudder-tracking.rudderstack.com^
 ||rudderlabs.com^$third-party
+||rudderstack.com/v1/batch?writeKey=
+||rudderstack.com/v1/identify|
+||rudderstack.com/v1/track|
 ||rudhjah.top^
 ||rudr-events.joybird.com^
 ||ruehg.dotcompliancegroup.com^
@@ -214011,6 +214026,7 @@ zzzyk.com###Tinfo
 ||simplify.razorsync.com^
 ||simplycast.us^$third-party
 ||simplymeasured.com^$third-party
+||simplywall.st/backend/flags/proxy/client/metrics
 ||simscale.actonservice.com^
 ||simulateswing.com^
 ||simule.ademiconbr.com^
@@ -214522,6 +214538,7 @@ zzzyk.com###Tinfo
 ||smart-widget-assets.ekomiapps.de^$third-party
 ||smart.boxtone.com^
 ||smart.idmnet.pl^$third-party
+||smart.link/imp/
 ||smart.newniche.com^
 ||smart1019.lplnow.com^
 ||smart1064.lplnow.com^
@@ -222785,6 +222802,7 @@ zzzyk.com###Tinfo
 ||ssc.winz.io^
 ||ssc.winz2.me^
 ||ssc.zeriamerikes.com^
+||ssc9v54oew.com^
 ||sscapi.absolute-adventure-mexico.com^
 ||sscapi.barns.seaycreek.com^
 ||sscapi.carnivoro.eu^
@@ -233247,10 +233265,13 @@ zzzyk.com###Tinfo
 ||swordgoose.com^
 ||swordtail.hnh.digital^
 ||swordtail.rockface.io^
+||swovtny444.com^
 ||swp.de^$removeparam=source
 ||swqerog.com^
 ||swqleb.adidas.ru^
 ||swqmuo.icu^
+||swsdd.simplywall.st^
+||swssp.simplywall.st^
 ||swwcyk.ahaber.com.tr^
 ||swwcyk.aspor.com.tr^
 ||swwcyk.atv.com.tr^
@@ -244566,6 +244587,7 @@ zzzyk.com###Tinfo
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||uniconsent.com^$third-party
 ||unicontainers.com^
+||unicreditgroup.eu/content/dam/unicreditgroup-eu/common/analytics/
 ||unid.go.com^$third-party
 ||unidays.world^$third-party,domain=~myunidays.com
 ||unidentifiedanalytics.web.app^
