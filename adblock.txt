@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-21 21:25:45(GMT+8) 
-! Total count: 253943
+! ! Version: 2026-04-22 10:32:21(GMT+8) 
+! Total count: 253958
  
 ###ADtip
 ###Ad_windows
@@ -13732,7 +13732,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||mybuys.com/webrec/wr.do?
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||mycleverpush.com/iframe?$domain=bsdex.de
-@@||mycokerewards.com^*/webtrends/mcr3-webtrends_POST_$script
 @@||mycommunitynow.com/includes/JI_trafficTracking.js$domain=mycommunitynow.com
 @@||myfamilycominc.tt.omtrdc.net^$domain=ancestry.com|ancestry.co.uk|ancestry.ca|ancestry.de|ancestry.it|ancestry.fr|ancestry.se|ancestry.mx
 @@||mymanga.io/css/ads.css$stylesheet
@@ -15206,7 +15205,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||webtrack.dhlglobalmail.com^
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||webtrends.com/ots/$domain=moneysupermarket.com
-@@||webtrends.com^*/events.svc$subdocument,domain=mycokerewards.com
 @@||webtrendslive.com^*/wtid.js?$domain=att.yahoo.com
 @@||weibo.com/api/weipan/getAds
 @@||weibo.com/share/share.php$generichide
@@ -107135,6 +107133,7 @@ goodcome.com.tw###jad-right
 goodcome.com.tw###jad-top
 goodcome.com.tw##.Phase2_BigAdbox
 goodcome.com.tw,sporttery.cn###mask
+goodinfo.tw,myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 goodnovel.com#%#//scriptlet('set-local-storage-item', 'UUID', '$remove$')
 goodsign.email$image
 goodwillfinds.com#%#//scriptlet("set-constant", "_etmc", "emptyArr")
@@ -113310,7 +113309,6 @@ myqqjd.com##.adsbygoogl
 myqqjd.com##.cms-news-normal-box > article:has(span.merge-cat > a[href$="/activity/"])
 myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
-myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 mysites.click.s11.sfmc-osl.com$image
 mysteel.com###float-adv
 mysteel.com##[class*="-adv"]
@@ -113839,6 +113837,8 @@ off-soft.net#@#.adsbygoogle
 offcn.com###offcn_yx
 offcn.com##.jlstc
 office.click.s11.sfmc-osl.com$image
+ofiii.com##.nonlinear_ad
+ofiii.com#%#//scriptlet('json-prune-fetch-response', 'prerolls midrolls postrolls comm_ad house_ad pause_ad block_ad end_ad exit_ad pin_ad content_pool vertical_ad elements', '', 'api/v1/detail')
 ofiii.com#%#//scriptlet('set-constant', 'COMSCORE', 'emptyObj')
 ofiii.com#%#//scriptlet('set-constant', 'COMSCORE.beacon', 'noopFunc')
 ofiii.com#%#//scriptlet('trusted-replace-fetch-response', '"play_ads":true', '"play_ads":false')
@@ -123925,6 +123925,7 @@ zzzyk.com###Tinfo
 ||1to1dialogue.thunderhead.com^
 ||1tvg524vih.com^
 ||1u5gy.xyz^
+||1ub29e88i.com^
 ||1und1.met.vgwort.de^
 ||1uo9djbnsr.com^
 ||1vd2esrss.com^
@@ -124056,6 +124057,7 @@ zzzyk.com###Tinfo
 ||24log.fr^$third-party
 ||24log.it^$third-party
 ||24log.ru^$third-party
+||24nf8sxd9p.com^
 ||24rpe6zlfi5.app.aporia.com^
 ||24sata.hr/static/scripts/utils/tracking.min.js
 ||24smi.info^$third-party
@@ -130638,6 +130640,7 @@ zzzyk.com###Tinfo
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
 ||acustomizedgift.com^$~xmlhttprequest
+||acustomizedgift.com^$~xmlhttprequest,badfilter
 ||acv.au-hikari-kddi.com^
 ||acv.auhikari-norikae.com^
 ||acv.aun-air-wifi.com^
@@ -135062,6 +135065,7 @@ zzzyk.com###Tinfo
 ||andmlb.kshwtj.com^
 ||andre.clpfacil.com.br^
 ||andreas.taffmachwerk.de^
+||android-beacons.xumo.com^
 ||android-stat.acestream.net^
 ||android-tv-beacons.xumo.com^
 ||android.bugly.qq.com^
@@ -144615,6 +144619,7 @@ zzzyk.com###Tinfo
 ||circle.pandasuite.io^
 ||circlelevel.com^
 ||circonus.com/hit?
+||cirrus-full-snapshots-track-csv-v1-0-na-prod.s3.amazonaws.com^
 ||cis.harris.com^
 ||cis.schibsted.com^
 ||ciscenje.net.jumia.com.ng^
@@ -154366,6 +154371,7 @@ zzzyk.com###Tinfo
 ||diyijjj.com/data/content
 ||diypxh.tillys.com^
 ||diziler.com/ajax/item/hitImage
+||dizziness47.com^
 ||dj09j5u.cn^
 ||dj155.com/gg/
 ||dj97.com/api.php?mod=ad&
@@ -157643,6 +157649,7 @@ zzzyk.com###Tinfo
 ||energeticladybug.com^
 ||energie.biogena.com^
 ||energy.eneco.be^
+||energyfools.com^
 ||enet.com.cn/counter.php
 ||enetres.net/StatisticsV1/
 ||enews.alfaromeo.it^
@@ -158132,6 +158139,7 @@ zzzyk.com###Tinfo
 ||esgher.fun^
 ||esgher.site^
 ||esgqye.trendhim.ca^
+||eshm72fwql.com^
 ||eshop.alebdaa.ae^
 ||eshop.templedayspa.com.au^
 ||eshsm.amazethreads.com^
@@ -161757,6 +161765,7 @@ zzzyk.com###Tinfo
 ||fzgsu.trueclassictees.com^
 ||fzhga.softpullsolutions.com^
 ||fzikz.topwellnessreviews.com^
+||fziydh0npy.com^
 ||fzlbvs.schuhe24.de^
 ||fzlnk.com^
 ||fzlol.com/images/$script
@@ -174072,7 +174081,6 @@ zzzyk.com###Tinfo
 ||inven.co.kr/api/banner_tracking/banner_view.php
 ||invenio_tracking_*.sgnapps.com^
 ||invention66.com^
-||inventorycache.com^$xmlhttprequest,redirect=noopjson
 ||inventorycache.com^$~xmlhttprequest
 ||inventtango.com^
 ||invest.provincia.co.nz^
@@ -192465,6 +192473,7 @@ zzzyk.com###Tinfo
 ||mobile01.com^$cookie=HobbyCatuuid
 ||mobileanalytics.*.amazonaws.com^
 ||mobileapptracking.com^
+||mobileconfig.sascdn.com^
 ||mobilelog.upqzfile.com^
 ||mobilelog.ws.pho.to^
 ||mobiletelemetry.ebay.com^
@@ -204505,6 +204514,7 @@ zzzyk.com###Tinfo
 ||roj7ah16d.com^
 ||rokt.com/v1/events^
 ||rokt.com/v2/metrics^
+||roku-beacons.xumo.com^
 ||roku.com/api/v*/logger$xmlhttprequest
 ||roku.com/api/v1/addressability/heartbeat
 ||rollbar.actonservice.com^
@@ -206388,6 +206398,7 @@ zzzyk.com###Tinfo
 ||sams.spiegel.de^
 ||samsclub.com/px/
 ||samsclub.com/px/PXsLC3j22K/init.js
+||samsung-beacons.xumo.com^
 ||samsung-com.112.2o7.net^
 ||samsung.com/*/peppermint_buy_tracking.js
 ||samsung.com/us/web/internal/logger
@@ -243604,6 +243615,7 @@ zzzyk.com###Tinfo
 ||twcouponcenter.com^$third-party
 ||twdhec.marioeletro.com^
 ||twdjn.cn^
+||tweaahmal.com^
 ||tweakers.net/*/event-tracking/
 ||tweakers.net/ajax/clicks/
 ||tweakers.net/ajax/clicks/log^$xmlhttprequest
@@ -248934,6 +248946,7 @@ zzzyk.com###Tinfo
 ||wjzjfj.clickandboat.com^
 ||wjzvkmmu.anhaengershop.de^
 ||wjzyrk.magiclife.com^
+||wk70ccjk1a.com^
 ||wkclick.baidu.com^
 ||wkctj.baidu.com^
 ||wkd.red-mag.ro^
@@ -251506,6 +251519,7 @@ zzzyk.com###Tinfo
 ||xyj321.com/static/zx/js/zx-con-jsq_
 ||xyjivl.collectorbd.com^
 ||xyjvly.apteczka24.pl^
+||xyllbx.icu^
 ||xylophone37.com^
 ||xymddt.clubeextra.com.br^
 ||xymhzq.klingel.de^
@@ -253393,6 +253407,7 @@ zzzyk.com###Tinfo
 ||zkmhhr1fr79z.dictionary.basabali.org^
 ||zkmll.thh-org.com^
 ||zkmnpnt4xg.com^
+||zknqll.icu^
 ||zknrhv.sebago.com^
 ||zkntjk.hikaku-cardloan.news.mynavi.jp^
 ||zkobp.armacura.de^
