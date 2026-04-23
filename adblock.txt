@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-22 21:26:22(GMT+8) 
-! Total count: 253980
+! ! Version: 2026-04-23 10:35:36(GMT+8) 
+! Total count: 254011
  
 ###ADtip
 ###Ad_windows
@@ -14992,6 +14992,8 @@ $websocket,domain=wap.yushuwu.cloud
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
+@@||trackdesk.com/api/node/settings/$domain=dashboard.naughtyaffiliates.com
+@@||trackdesk.com/sign-in$domain=dashboard.naughtyaffiliates.com
 @@||tracker.mattel.com/tracker.aspx?site=$script
 @@||tracker.mattel.com^$domain=barbie.com
 @@||tracking.immobilienscout24.de/tr.js?customCounterName=is24.de.meinkonto.merkzettel.myscout
@@ -125342,6 +125344,7 @@ zzzyk.com###Tinfo
 ||8xbook.org/scripts/ad/
 ||8yd2rtikkz.com^
 ||8yuwd5lpj.com^
+||8z1eg6o2j.com^
 ||8ziyuan.com/images/infolinksad.jpg
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
@@ -128175,6 +128178,7 @@ zzzyk.com###Tinfo
 ||a4bbltm3u2.com^
 ||a4sz.xyz^
 ||a4xvv2g18l.com^
+||a51wzxssu.com^
 ||a5xiazai.com/z/
 ||a6.hujiang.com^$domain=~class.hujiang.com
 ||a613.redbluffdailynews.com^
@@ -160672,6 +160676,7 @@ zzzyk.com###Tinfo
 ||flux.com/geo.html?
 ||flux.gameboost.com^
 ||fluxo.drluizsegundo.com^
+||fluxor-wrapper.api.emerios.com/api/v1/tracking/event/track
 ||flvpzm.pexo.cz^
 ||flwgx.gethommey.com.au^
 ||flx1.com^$third-party
@@ -160838,6 +160843,7 @@ zzzyk.com###Tinfo
 ||forbes.com^$removeparam=sh
 ||forbes.realclearpolitics.com^
 ||forbidden.actonservice.com^
+||forbiddenbodyjewelry.com/wp-json/pys-*/event
 ||forbin.actonservice.com^
 ||forcapi.naturesnestgoa.com^
 ||force24.co.uk^$third-party
@@ -162409,6 +162415,7 @@ zzzyk.com###Tinfo
 ||genieesspv.jp^$third-party
 ||geniuslinkcdn.com^$third-party
 ||geniusplus.ai/v1/lre-events?
+||genmobile.com/api/log
 ||genova.gas-up.it^
 ||gentags.net^
 ||gentian-frd.hjapi.com^
@@ -171144,6 +171151,7 @@ zzzyk.com###Tinfo
 ||id.verticalhealth.net/script.js?partnerid=
 ||id.x5.ru^$referrerpolicy=origin
 ||id5-sync.com^$third-party
+||id6.me^
 ||idalia.assariaburdine.com/happiness.js$script,domain=lequipe.fr
 ||idat.production.ippen.space^
 ||idavmk1276.com^
@@ -172432,6 +172440,7 @@ zzzyk.com###Tinfo
 ||impactradius-event.com^
 ||impala.vnv.nl^
 ||impdesk.com/smartpix/
+||impdsp.meituan.com^
 ||impel.io/releases/analytics/
 ||implantes.nucleodrpablomelo.com^
 ||imponestvional.com^
@@ -175007,6 +175016,7 @@ zzzyk.com###Tinfo
 ||jc001.cn/img/yhj.gif
 ||jc001.cn/indexnew/js/yuyue.js
 ||jc1.dayfund.com.cn^
+||jc7t7it24.com^
 ||jc917x3.adaptive.marketing^
 ||jca.claimlane.com^
 ||jcaqvl.twinset.com^
@@ -199035,7 +199045,7 @@ zzzyk.com###Tinfo
 ||performance-logger.minted.com^
 ||performance.athleticgym.com.co^
 ||performance.inncollectiongroup.com^
-||performance.radar.cloudflare.com/beacon.js
+||performance.radar.cloudflare.com/beacon.js$domain=~cloudflare.com
 ||performance89.com^
 ||performancefirst.jp^$third-party
 ||performanceplay.co.kr^
@@ -204840,6 +204850,7 @@ zzzyk.com###Tinfo
 ||rtax.criteo.com^
 ||rtb-trk4.linkedin.com^
 ||rtb-us-east.linkedin.com^
+||rtb.julang.taobao.com^
 ||rtb.loopa.net.au^$domain=junkmail.co.za
 ||rtb.prod.carbonatixaudio.com^
 ||rtb.videonow.ru^
@@ -206727,9 +206738,18 @@ zzzyk.com###Tinfo
 ||sarver.etouchbd.com^
 ||sarver.khatirajbd.com^
 ||sarver.shobjibazar.com^
+||sas.a.int-nft.peacocktv.com^
+||sas.a.peacocktv.com^
+||sas.a.stable-int.peacocktv.com^
 ||sas.adamasjeans.com^
 ||sas.com^$third-party
+||sas.f.int-nft.peacocktv.com^
+||sas.f.peacocktv.com^
+||sas.f.stable-int.peacocktv.com^
+||sas.int-nft.peacocktv.com^
 ||sas.nsm-corp.com^
+||sas.peacocktv.com^
+||sas.stable-int.peacocktv.com^
 ||sas15k01.com^$third-party
 ||sasadown.cn/ad/
 ||sasadown.cn/source/plugin/drk_ledadv/
@@ -230328,6 +230348,7 @@ zzzyk.com###Tinfo
 ||static.jfrft.com/js/main_list.js^$script,redirect=noopjs,domain=dilidili.wang,important
 ||static.jfrft.com/js/main_video.js^$script,redirect=noopjs,domain=dilidili.wang,important
 ||static.jobrapido.com/public/tracking/
+||static.journify.io^
 ||static.kbdmp.com/ma/kb_
 ||static.kbs.co.kr/recommend/rcmd_track.js
 ||static.klaviyo.com/onsite/js/event_adapter.
@@ -234010,6 +234031,7 @@ zzzyk.com###Tinfo
 ||t.johannus.com^
 ||t.josephnguyen.org^
 ||t.jossandmain.com^
+||t.journify.io^
 ||t.juneau.ca^
 ||t.juskys.de^
 ||t.juskys.fr^
@@ -240561,6 +240583,7 @@ zzzyk.com###Tinfo
 ||tracker.thinkermail.com^
 ||tracker.thinkermail.com^$third-party
 ||tracker.thinkindot.com^
+||tracker.tianmu.mobi^
 ||tracker.timesgroup.com^
 ||tracker.tolvnow.com^
 ||tracker.tubecj.com^
@@ -244501,6 +244524,7 @@ zzzyk.com###Tinfo
 ||umami.syg.ma^
 ||umami.vidfast.pro^
 ||umami.wakarimasen.moe^
+||umamix.fadunews.in^
 ||umazvs.raybiotech.com^
 ||umbel.com^$third-party
 ||umbrella6.top^
@@ -244730,6 +244754,7 @@ zzzyk.com###Tinfo
 ||upaiyun.com/wp-content/uploads/2016/12/wenzhangyouce
 ||upalytics.com^
 ||upapi.net^$third-party
+||upc.zztfly.com^
 ||upcgu.untamedego.com^
 ||update.net.jumia.ug^
 ||update.purina.com^
@@ -246147,6 +246172,7 @@ zzzyk.com###Tinfo
 ||verticalnetwork.de/scripts/*/immer_oben.js
 ||verticalscope.com^$third-party
 ||verticalsearchworks.com^$third-party
+||vertigo52.top^
 ||vertster.com^$third-party
 ||verypopularwebsite.com^$third-party
 ||verysadfun.com/assets/publish/jquery.*.js
@@ -246418,6 +246444,7 @@ zzzyk.com###Tinfo
 ||vidtech.cbsinteractive.com/*/lib/tracking/adobe/VideoHeartbeat-
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/adobe/
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
+||viduro.top/api/heartbeat
 ||vidwkd.com^
 ||vidyard.com/api/metrics
 ||viedtelevizija.lv/js/analytics.smartlib.js
@@ -250558,6 +250585,7 @@ zzzyk.com###Tinfo
 ||wyb.protocolovidaleve.site^
 ||wyb.vidawhite.site^
 ||wyb.vitafarmahonduras.com^
+||wydk6zdk2.com^
 ||wyelmp.vidaxl.si^
 ||wyfbm.cos.com^
 ||wyfjagda.top^
@@ -250679,6 +250707,7 @@ zzzyk.com###Tinfo
 ||xaguwy.thomas-muenz.ru^
 ||xahycw.com^
 ||xait.actonservice.com^
+||xajlxv.icu^
 ||xalkkk.drunensruiterhuis.nl^
 ||xanalytics.vip^
 ||xaogi.com^$domain=pronpic.org
@@ -252336,6 +252365,7 @@ zzzyk.com###Tinfo
 ||youy14.com/js/zz/xf.js
 ||youzhan.org/img/aliyun-
 ||yoxeha.afloral.com^
+||yozenpmo.com^
 ||yp0loy5lcl.com^
 ||yp868.com/js/54h/
 ||ypbfjo.paulsmith.co.jp^
@@ -252838,6 +252868,7 @@ zzzyk.com###Tinfo
 ||zampda.net^$third-party
 ||zamxcn.dmall.co.kr^
 ||zanghaihua.org/js/
+||zangraikri.com^
 ||zangtankqq.com^
 ||zannv.wearfigs.com^
 ||zanox-affiliate.de^$third-party
