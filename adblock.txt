@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-24 10:36:05(GMT+8) 
-! Total count: 254092
+! ! Version: 2026-04-24 21:22:50(GMT+8) 
+! Total count: 254102
  
 ###ADtip
 ###Ad_windows
@@ -1369,6 +1369,7 @@
 ##a[href^="https://adm.beimg.com/"]
 ##a[href^="https://l.erodalabs.com"]
 ##a[href^="https://top.mail.ru/jump"]
+##a[href^="java"][onclick^="gogogoto"]
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
@@ -5419,6 +5420,7 @@ $websocket,domain=wap.yushuwu.cloud
 /mati.gif?v=
 /matomo-tracking.js
 /matomo.js$domain=~github.com
+/matomo.js$third-party
 /matomo.php
 /matomo.php$ping
 /matomo.php?action_name=
@@ -11482,6 +11484,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.cxense.com/cx.js$domain=wsj.com
 @@||cdn.cxense.com/sp*.html$domain=onetz.de
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
+@@||cdn.deviceinf.com^$domain=etail.market
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
 @@||cdn.dimml.io/static/*.js$domain=consumentenbond.nl
 @@||cdn.dynamicyield.com^$domain=dafiti.com.co
@@ -11629,6 +11632,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 @@||cgmodel.com/plugin/share/
 @@||chaintv.xyz/homestatic/js/adjs.js
+@@||chajianmi.com^$generichide
 @@||chanel.com/js/chanel-tracking.js$script
 @@||changyan.sohu.com/debug/cookie?
 @@||changyou.com^$generichide
@@ -13948,12 +13952,12 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chajianmi.com|huavod.com|huaren.live|tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=huavod.com|huaren.live|tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=miuipro.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onperiscope.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=robotcoingame.com|monstercoingame.com|wonderlandco.in
@@ -16042,7 +16046,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,dpreview.com,hollywoodreporter.com,sidereel.com,superherohype.com,torontosun.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,goldderby.com,hollywoodreporter.com,indiewire.com,robbreport.com,rollingstone.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -113628,7 +113632,7 @@ nivod2.com,nivod2.tv,nivod4.com,nivod5.com#%#//scriptlet('set-constant', 'pageDa
 nivod2.com,nivod2.tv,nivod4.com,nivod5.com#%#//scriptlet('set-constant', 'pageData.__banners.1.commercial.mediaUrl', '')
 nivod2.com,nivod2.tv,nivod4.com,nivod5.com#%#//scriptlet('set-constant', 'pageData.__banners.1.commercial.title', '')
 nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
-nj.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+nj.com,syracuse.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 nl.reckon.news$image
 nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
 nlc.gov.cn###lovexin12xx
@@ -130686,7 +130690,6 @@ zzzyk.com###Tinfo
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
 ||acustomizedgift.com^$redirect=noopjs,script
-||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
 ||acustomizedgift.com^$script,redirect=noopjs
 ||acustomizedgift.com^$~xmlhttprequest
 ||acv.au-hikari-kddi.com^
@@ -152930,6 +152933,7 @@ zzzyk.com###Tinfo
 ||datadog-log.clovergames.io
 ||datadog-service.mvfglobal.com^
 ||datadoghq-browser-agent.com^$third-party
+||datadoghq.com/api/v2/rum
 ||datadoghq.com/assets/dd-browser-logs-rum.js
 ||datadoghq.eu^$third-party
 ||datadome.co^$third-party
@@ -159611,6 +159615,7 @@ zzzyk.com###Tinfo
 ||faiwax.golfhouse.de^
 ||fajdhuhdh.com^
 ||fakedisguise.com^
+||fakeschool.com^
 ||fakexa-post.mno.link^
 ||fakexa.mno.link^
 ||fakjkwp.cn^
@@ -176507,6 +176512,7 @@ zzzyk.com###Tinfo
 ||kasiklz.cc^
 ||kaspersky-labs.com/cld_track?
 ||kataribe.kataribecms.com^
+||kataweb.it^
 ||katelin.top^
 ||kattepush.com^$third-party
 ||kattoremontti.ruukki.com^
@@ -195972,7 +195978,6 @@ zzzyk.com###Tinfo
 ||oas.monster.com/Scripts/oas_analytics.js
 ||oasisadvantage.actonservice.com^
 ||oasismarketing.oasisadvantage.com^
-||oasjs.kataweb.it^
 ||oavgoe.irs.jp^
 ||oazzl.powderhound.london^
 ||ob.cheqzone.com^
@@ -204369,6 +204374,7 @@ zzzyk.com###Tinfo
 ||rising.cn/rxbox/
 ||rising.cn^*/pic-ad/
 ||rising.com.cn/weblog/
+||riskbird.com/riskbird-api/guest/unionGoods
 ||riskid.security^$third-party
 ||riskpoc.trip.com^
 ||ritzyrepresentative.com^
@@ -213510,6 +213516,7 @@ zzzyk.com###Tinfo
 ||share-test.travelloapp.com^
 ||share-test.usehamper.com^
 ||share.1stphorm.app^
+||share.9cdn.net/share/*/js/tracking/
 ||share.9cdn.net/share/long_cache/js/tracking/
 ||share.appdater.mobi^
 ||share.appsaround.net^
@@ -236441,6 +236448,7 @@ zzzyk.com###Tinfo
 ||tercept.com^$third-party
 ||terdzl.ohmyglasses.jp^
 ||terik.site^
+||terminaltrove.com/_t/
 ||termite.queerburners.org^
 ||termsfeed.com/track/
 ||termvb.xyz^
@@ -243745,6 +243753,7 @@ zzzyk.com###Tinfo
 ||tweakers.net^$removeparam=u
 ||tweakers.net^*&p=$image
 ||tweakers.nl/track/
+||tweaktown.com/cms/mp3_track.php
 ||tweetdeck.net.anwalt.de^
 ||twelvedawn.com^
 ||tweurx.baltic.se^
@@ -244343,6 +244352,7 @@ zzzyk.com###Tinfo
 ||ufxs.cn^
 ||ufzvgx.stylepit.se^
 ||ug-sg.byteoversea.com^
+||ug.baidu.com^
 ||ug.snssdk.com^
 ||ug.urban-goddess.com^
 ||ug4x1tagz.com^
