@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-24 21:22:50(GMT+8) 
-! Total count: 254102
+! ! Version: 2026-04-25 10:26:04(GMT+8) 
+! Total count: 254122
  
 ###ADtip
 ###Ad_windows
@@ -15006,7 +15006,8 @@ $websocket,domain=wap.yushuwu.cloud
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
-@@||trackdesk.com/api/node/settings/$domain=dashboard.naughtyaffiliates.com
+@@||trackdesk.com/api/node$domain=dashboard.naughtyaffiliates.com
+@@||trackdesk.com/api/reports$domain=dashboard.naughtyaffiliates.com
 @@||trackdesk.com/sign-in$domain=dashboard.naughtyaffiliates.com
 @@||tracker.mattel.com/tracker.aspx?site=$script
 @@||tracker.mattel.com^$domain=barbie.com
@@ -16046,7 +16047,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,goldderby.com,hollywoodreporter.com,indiewire.com,robbreport.com,rollingstone.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,goldderby.com,hollywoodreporter.com,indiewire.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -21440,6 +21441,7 @@ douban.com##IFRAME[width='315']
 douban.com##div.center [style*='padding: 4px;']
 douban.com#?#.rec_topics:has(>.rec_topics_name[href^="https://erebor.douban."])
 douban.com#@#.download-ad
+doubao.com###activity-entrance-popup-root
 doubao.com##.group\/download
 doubibackup.com##.widgetRoller
 doubibackup.com##body div.guangg
@@ -124817,6 +124819,7 @@ zzzyk.com###Tinfo
 ||5bayjqsrgd.com^
 ||5bess6df0.com^
 ||5bf0fdacd2.apps.iocnt.de^
+||5bkhq0lwmq.com^
 ||5d7k30pv1u.com^
 ||5dfiuae82.com^
 ||5dm.link/htm$image
@@ -124887,6 +124890,7 @@ zzzyk.com###Tinfo
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
 ||5vkyqkc.cn^
+||5vs7i3cuc.com^
 ||5vszw5ab2.com^
 ||5vuk.xyz^
 ||5w31xv1a2.com^
@@ -125019,6 +125023,7 @@ zzzyk.com###Tinfo
 ||6cmxoje5k.com^
 ||6cyfvvs.com^
 ||6dp0i7.ru^
+||6f42v90nz.com^
 ||6fm4dcpj31.com^
 ||6functf.com^
 ||6fzt17pkr6a1de5.kvest.ee^
@@ -131475,6 +131480,7 @@ zzzyk.com###Tinfo
 ||ads-dmp-collect.*.karrotmarket.com^
 ||ads-image.production-public.tubi.io^
 ||ads-img-al.xhscdn.com^
+||ads-img-bak.xhscdn.com^
 ||ads-partners.coupang.com/log/
 ||ads-pixiv.net^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -140541,6 +140547,7 @@ zzzyk.com###Tinfo
 ||bigfishgames.com^$removeparam=npc
 ||bigfishgames.com^$removeparam=npi
 ||bigfishgames.com^$removeparam=pc
+||biggerbling.com^
 ||biggylabs.com.br/track-api/v2/track/site?
 ||bigleapforward.org^
 ||bigmining.com^$third-party
@@ -141915,6 +141922,7 @@ zzzyk.com###Tinfo
 ||btkbei.courir.com^
 ||btkdu.roundhouseprovisions.com^
 ||btldr.net^
+||btlgp4vze.com^
 ||btloader.com/tag?$redirect=noopjs,domain=voici.fr
 ||btloader.com^
 ||btmao.cc/Public/yd/
@@ -142299,6 +142307,7 @@ zzzyk.com###Tinfo
 ||bytravel.cn/js/ad_
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
+||bytytxkz.icu^
 ||byuwzr.amanacapital.com^
 ||byvlph.xyz^
 ||bywxp.aritzia.com^
@@ -147068,6 +147077,7 @@ zzzyk.com###Tinfo
 ||count.andreabrandi.com^
 ||count.asnetworks.de^
 ||count.bank99.at^
+||count.bg/js/script.js
 ||count.candou.com^
 ||count.carrierzone.com^
 ||count.channeladvisor.com^
@@ -154556,6 +154566,7 @@ zzzyk.com###Tinfo
 ||dl8.me^$third-party
 ||dlads.cn^
 ||dlads.cn^$third-party
+||dlbefft.com^
 ||dlcgh.songmontofficial.com^
 ||dldah.mountainmikespizza.com^
 ||dldev.wooribank.com.kh^
@@ -172352,6 +172363,7 @@ zzzyk.com###Tinfo
 ||img.link.cabinetry.com^
 ||img.litix.io/a.gif
 ||img.mbalib.com/common/servicesPicture/prom.js
+||img.medscapestatic.com/pi/scripts/omniture/bi_medscape.js$domain=medscape.com
 ||img.meituan.net/video/$domain=338i.com
 ||img.mikudm.net/img01/MP3/GG/20240415_CPS_960X75_general.gif
 ||img.n.nasdaq.com^
@@ -172583,6 +172595,7 @@ zzzyk.com###Tinfo
 ||incs.get-go.com^
 ||incs.gianteagle.com^
 ||incs.marketdistrict.com^
+||incubation95.top^
 ||ind.sh/view.php?$third-party
 ||indeed.com/*/log^$ping
 ||indeed.com/api/datadog-rum/?
@@ -193296,6 +193309,7 @@ zzzyk.com###Tinfo
 ||mtrcs.vw.com^
 ||mtrcsapi.parcoibiza.com^
 ||mtrgg.supplementwarehouse.com^
+||mtrics.cdc.gov^
 ||mtrs.cooecfluor.com^
 ||mtrs.fluor.com^
 ||mtrs.fluorconstructors.com^
@@ -194130,6 +194144,7 @@ zzzyk.com###Tinfo
 ||nbcvb.eqvvs.co.uk^
 ||nbcxa65t001z.net.jumia.ug^
 ||nbdebten0.wealthyguardian.net^
+||nbdpbxkf.top^
 ||nbdtk.sokolovelaw.com^
 ||nbeelx.angeliebe.co.jp^
 ||nbegame.com/nbeos/*.jpg
@@ -194184,6 +194199,7 @@ zzzyk.com###Tinfo
 ||ncpbz.macrostax.com^
 ||ncpnu.tyrexin.ch^
 ||ncqoe.magnesium.ca^
+||ncregister.com/_swp_analytics?
 ||nct.ui-portal.de^
 ||nctrk.abmail.com.br^
 ||ncvsbz.bonds.com.au^
@@ -201790,6 +201806,7 @@ zzzyk.com###Tinfo
 ||q511.wpbf.com^
 ||q58nf16jd3.com^
 ||q5sn40kmp2.com^
+||q5viqnac3i.com^
 ||q6iw41lkk.com^
 ||q6zikgclq9.com^
 ||q770.whittierdailynews.com^
@@ -243994,6 +244011,7 @@ zzzyk.com###Tinfo
 ||u10nte4ba.com^
 ||u1102.com^
 ||u16d4beu5.com^
+||u1aczgx9so.com^
 ||u1sdata.webullfintech.com^
 ||u22011.com^
 ||u22066.com^
@@ -245747,6 +245765,7 @@ zzzyk.com###Tinfo
 ||uu22112.com^
 ||uu22332.com^
 ||uu22662.com^
+||uu8bq6rnj.com^
 ||uub6hz5eu.com^
 ||uubzxk.bebe-mall.jp^
 ||uucnmtt.top^
@@ -253465,6 +253484,7 @@ zzzyk.com###Tinfo
 ||zineone.com^*/event
 ||zinim.leftonfriday.com^
 ||zinio.com/static/assets/js/fp-main.min.js
+||zinoe.cn^
 ||zinzimo.info^$domain=pronpic.org
 ||zio.xcar.com.cn^
 ||zion-telemetry-nonprod.api.cnn.io^
