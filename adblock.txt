@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-27 10:44:02(GMT+8) 
-! Total count: 254155
+! ! Version: 2026-04-27 21:51:39(GMT+8) 
+! Total count: 254163
  
 ###ADtip
 ###Ad_windows
@@ -14154,6 +14154,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com
 @@||play.aetv.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
+@@||play.fyi.tv^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||play.google.com/log?$domain=meet.google.com
 @@||play.google.com/log?format=json$domain=news.google.com
 @@||play.history.com^$cookie=/^AMCVS?_.*AdobeOrg/
@@ -113578,6 +113579,7 @@ nfstar.net##a[target="_blank"] > .img-responsive
 nfstar.net#?#.myui-panel-bg:has(strong:contains(广告))
 nfuwow.com###dl-left-first
 nfuwow.com###dl-right-first
+nfuwow.com##.ad1320top
 nfuwow.com##.adtopnewnewbox
 nfuwow.com##.bannermid3box
 nfuwow.com##.crightbtad
@@ -123876,6 +123878,7 @@ zzzyk.com###Tinfo
 ||19o8hzj117.com^
 ||1a715b8q5m3j.www.logology.co^
 ||1abzar.ir/abzar/tools/stat/
+||1adi9wenq.com^
 ||1amehwchx31.bloxdhop.io^
 ||1b6wvktphtz.stresshelden-coaching.de^
 ||1baq2nvd6n7.www.keevowallet.com^
@@ -133638,6 +133641,7 @@ zzzyk.com###Tinfo
 ||analiticas.bde.es^
 ||analitik.bik.gov.tr^
 ||analitik.pendik.bel.tr^
+||analitika.derp.si^
 ||analitits.com^$third-party
 ||analitycs.net^$third-party
 ||analizador.dphuesca.es^
@@ -156752,6 +156756,7 @@ zzzyk.com###Tinfo
 ||efsqwi.krueger-dirndl.de^
 ||efstk.huntees.com^
 ||eftd.cn^
+||efu871zc4.com^
 ||efukt.com/analytics-efukt.js
 ||efusc.com^
 ||efuxqe.tatilbudur.com^
@@ -164811,7 +164816,6 @@ zzzyk.com###Tinfo
 ||growthrx.in^$third-party
 ||grrergiol.com^
 ||grrzr.icoverdirect.com^
-||grs.dbankcloud.
 ||grs.hicloud.com^
 ||grtimed.com/material/*_960x110_
 ||grtmpr.vertbaudet.fr^
@@ -178271,6 +178275,7 @@ zzzyk.com###Tinfo
 ||leadrebel.io^$third-party
 ||leads.commercial.keurig.com^
 ||leads.whatboxdigital.com^
+||leadsandmore.go2cloud.org^
 ||leadsius.com^$third-party
 ||leadslabpixels.net^$third-party
 ||leadsleap.com^$third-party
@@ -186531,6 +186536,7 @@ zzzyk.com###Tinfo
 ||manoramaonline.com/acd/api/*/authorize/json?brand=*&ev_sid=
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
+||manscaped.com/rud-dataplane/
 ||mantrafox.com^
 ||manua.ls/g/collect?
 ||manua.ls/gtag
@@ -189099,6 +189105,7 @@ zzzyk.com###Tinfo
 ||medhyg.actonservice.com^
 ||media*.marktjagd.com/*/1x1.gif
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
+||media-analytic.com^
 ||media-atl3-1.cdn.whatsapp.net.iberostar.com^
 ||media-cdg4-1.cdn.whatsapp.net.iberostar.com^
 ||media-imdb.com/*/js/ads/beacon-
@@ -195258,6 +195265,7 @@ zzzyk.com###Tinfo
 ||noa0.compteczam.fr^
 ||noacqq.joamom.co.kr^
 ||noblecables.com^
+||noblefellow.com^
 ||noblocktape.com/stat/
 ||nocaadobefpc.optus.com.au^
 ||nocodelytics.com^$third-party
@@ -200300,7 +200308,6 @@ zzzyk.com###Tinfo
 ||pmrdnt.tuincentrum.nl^
 ||pmrzoo.fruttaebacche.it^
 ||pmvlwjy.cn^
-||pmweb.com.br^$third-party
 ||pmxalz.xyz^
 ||pmzfri.fitnessboutique.fr^
 ||pmzhtd.icu^
@@ -250895,6 +250902,7 @@ zzzyk.com###Tinfo
 ||xchina.click/upload/*.webp
 ||xchina.co/scripts/push_*.js
 ||xchina.io/$media,domain=xchina001.online
+||xciryzdnl.com^
 ||xcisleoa.cn^
 ||xckj0623.com^
 ||xckxrn.endriss.de^
