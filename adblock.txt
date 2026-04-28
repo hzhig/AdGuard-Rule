@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-27 21:51:39(GMT+8) 
-! Total count: 254163
+! ! Version: 2026-04-28 10:51:13(GMT+8) 
+! Total count: 254183
  
 ###ADtip
 ###Ad_windows
@@ -16048,7 +16048,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,goldderby.com,hollywoodreporter.com,indiewire.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -113622,6 +113622,7 @@ niuacc.com##.botLm-container
 niuacc.com##.masks
 niuacc.com##.yure
 niusnews.com##a[href^="https://www.niusnews.com/index.php/main/gotoBanner/"]
+niuyank.top##a.centtext
 niuyankan.top###content > a
 nivod2.com,nivod2.tv,nivod4.com,nivod5.com##.img-list > .img-item:has(> a[href*=".ad_click"])
 nivod2.com,nivod2.tv,nivod4.com,nivod5.com##a.focus_title_inner[href*=".ad_click"]
@@ -116812,6 +116813,7 @@ rollout1.click.s11.sfmc-osl.com$image
 romulation.net##DIV[style="background-color: #CC4444; color: #fff; padding:10px;"]
 romzhijia.net##.ggposition
 romzj.com##.sectionThree
+roomie.tw##div[id^="outer_Post"]
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > div[id^="ts_ad_native"])
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > ins)
 rouman5.com###headlessui-portal-root
@@ -125360,6 +125362,7 @@ zzzyk.com###Tinfo
 ||8gptk28oag.com^
 ||8h93.com^*.gif
 ||8hx7k0211.com^
+||8iav2fuiy.com^
 ||8inhjmd.usefathom.com^
 ||8j7tu8vtxx.com^
 ||8jkx.com^
@@ -135625,6 +135628,7 @@ zzzyk.com###Tinfo
 ||api.blog.zonaforte.com^
 ||api.blog.zuremod.com^
 ||api.blog.zureste.com^
+||api.bluecore.app/api/track/
 ||api.bluevechub.com^
 ||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
 ||api.boobluk.com^
@@ -142696,6 +142700,7 @@ zzzyk.com###Tinfo
 ||callindex.co.il/campaign/send_analytics.js
 ||callisto.fm^$third-party
 ||callmeasurement.com^$third-party
+||callosity19.top^
 ||callousbrake.com^
 ||callrail.com^$third-party
 ||callreports.com^$third-party
@@ -146801,7 +146806,6 @@ zzzyk.com###Tinfo
 ||contentpass.net/stats
 ||contentreveal.net/event/events.js
 ||contents-tracking.beop.io^$third-party
-||contents.kyobobook.co.kr/resources/lib/kbb-js/kbb.stats.js
 ||contents.pwc.com^
 ||contentsfeed.com^$third-party
 ||contentspread.net^$third-party
@@ -177204,6 +177208,8 @@ zzzyk.com###Tinfo
 ||knowlege.kuechenrueckwand.store^
 ||knowlege.pepeprint.de^
 ||knowmore.cc/style/head.js
+||knowunity.com/events^
+||knowunity.com/pixels/
 ||knpid.mywonderpaws.com^
 ||knptu.titanbuilders.us^
 ||knrgt.petscy.com^
@@ -177500,6 +177506,7 @@ zzzyk.com###Tinfo
 ||kuakao.com/index.php?m=content&c=index&a=show_ad
 ||kuakao.com:6053/floatcard?
 ||kuanxin.top^
+||kuazhi.com/kuazhi_click.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.js
 ||kucku.gigago.vn^
@@ -185815,6 +185822,7 @@ zzzyk.com###Tinfo
 ||lwadm.com^$third-party
 ||lwbo.cn^
 ||lwcnmtl.top^
+||lwdla7fjns.com^
 ||lwfdlv.icu^
 ||lwh1.carrefour-banque.fr^
 ||lwide.xyz^
@@ -186049,7 +186057,6 @@ zzzyk.com###Tinfo
 ||m.m216j.cn^$third-party
 ||m.manhua123.net/js/com1.js
 ||m.media-amazon.com/images/G/*/msa/vowels/metrics
-||m.media-amazon.com/images/I/*.js?AUIClients/GWMMetricsJS
 ||m.media-amazon.com/images/S/sash/*.js?csm_attribution=
 ||m.mediazilla.com^
 ||m.mentavi.com^
@@ -195091,6 +195098,7 @@ zzzyk.com###Tinfo
 ||niwota.com^$third-party
 ||nixie.starlightnet.work^
 ||njam.tv/tracking/
+||njawz0tlek.com^
 ||njbhp.promixnutrition.com^
 ||njbrwf.pilatesshop.it^
 ||njcchu.flowercampings.com^
@@ -196961,6 +196969,7 @@ zzzyk.com###Tinfo
 ||onscreens.me/js/st2.js
 ||onscreens.me/js/statistics.js
 ||onsgp.tryrecoverx.com^
+||onsitestats.bluecore.com^
 ||onsugar.com/static/ck.php?
 ||onthe.io^
 ||onthe.io^$third-party
@@ -197710,6 +197719,7 @@ zzzyk.com###Tinfo
 ||ozone.ru/graphics/client-metrics/
 ||ozoori-ss.checkoutera.com^
 ||ozovj.thelighttherapyinstitute.com^
+||ozrnsf3ta.com^
 ||ozsbe.goggles4u.com^
 ||ozsvnlo.com^
 ||oztg6i0ass.com^
@@ -199416,6 +199426,7 @@ zzzyk.com###Tinfo
 ||piaotia.com/scripts/read/style
 ||piatan.piatannatural.com.br^
 ||pibhjs.dongsuhfurniture.co.kr^
+||pibpjoo0lm.com^
 ||pic.0597kk.com^
 ||pic.959.cn/media/js/
 ||pic.baihuawen.cn^
@@ -204257,6 +204268,7 @@ zzzyk.com###Tinfo
 ||rfzmu.genseebeauty.com^
 ||rg-3tn.pages.dev^
 ||rg.colaaquifestas.com.br^
+||rg338ne0rt.com^
 ||rg84983is.com^
 ||rgaagnida.com^
 ||rgb9uinh2dej9ri.jacobzhang.de^
@@ -204303,6 +204315,7 @@ zzzyk.com###Tinfo
 ||rguki.headbangersports.com^
 ||rgvqddo.com^
 ||rgzrys.hangikredi.com^
+||rgzz3rs.icu^
 ||rh.adp.ca^
 ||rh.grupoocq.com.br^
 ||rh.ocq.com.br^
@@ -204685,6 +204698,7 @@ zzzyk.com###Tinfo
 ||rook.flowlens.com^
 ||rook.grithix.com^
 ||roolv.jewlr.com^
+||roomie.tw/metrics
 ||rooms.itsme.cool^
 ||rooms.itsme.video^
 ||roomvo.com/services/event/
@@ -205326,6 +205340,7 @@ zzzyk.com###Tinfo
 ||rx-test.capsulecares.com^
 ||rx.capsulecares.com^
 ||rx.traderrx.com.br^
+||rx1iwebx2.com^
 ||rxaap.actonservice.com^
 ||rxaqwhu54d.com^
 ||rxdevfrance.reedexpo.fr^
@@ -206417,6 +206432,8 @@ zzzyk.com###Tinfo
 ||safe-iplay.com/logger
 ||safe.catiiexpress.com^
 ||safeanalytics.net^$third-party
+||safefileku.com/download/*/event|
+||safefileku.com/events.js
 ||safelinking.biz/adblock-detector.htm$subdocument
 ||safepass.citizen.com^
 ||safetravelsapp.progressive.com^
@@ -230877,6 +230894,7 @@ zzzyk.com###Tinfo
 ||stats.christianpost.com^
 ||stats.chromatone.center^
 ||stats.chronoslabs.net^
+||stats.cinevibe.asia^
 ||stats.cinqsecondes.fr^
 ||stats.circularfurniture.dk^
 ||stats.citizenos.com^
@@ -236901,6 +236919,7 @@ zzzyk.com###Tinfo
 ||therapeuticcars.com^
 ||therawolf-ss.primeshopers.com^
 ||therealreal.com/ev56mY37/init.js
+||theretenoned.com^
 ||thermaltake.com/bannerslider/index/impress/
 ||thermaultra-ss.checkoutera.com^
 ||thermstats.com^$third-party
@@ -243373,6 +243392,7 @@ zzzyk.com###Tinfo
 ||ts98cm48b.com^
 ||tsa.taxslayer.com^
 ||tsancii.top^
+||tsaor7o1e9.com^
 ||tsbkht.puritan.com^
 ||tsbmkf.zonnebrillen.com^
 ||tsck.online^
