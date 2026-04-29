@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-29 10:50:12(GMT+8) 
-! Total count: 254215
+! ! Version: 2026-04-29 21:55:21(GMT+8) 
+! Total count: 254225
  
 ###ADtip
 ###Ad_windows
@@ -5774,6 +5774,7 @@ $websocket,domain=wap.yushuwu.cloud
 /pge/?s=$third-party
 /ph-tracking-1.2.js
 /phenomtrack.min.js
+/phenomtrack.min.js$script
 /php-stats.js
 /php-stats.php?
 /php-stats.phpjs.php?
@@ -11575,6 +11576,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.segment.com/v1/projects/
 @@||cdn.segment.com/v1/projects/*/settings$domain=reuters.com
 @@||cdn.segmentify.com/*/segmentify.js$domain=gratis.com
+@@||cdn.segmentify.com^$domain=fisslermagaza.com.tr
 @@||cdn.segmentify.com^$domain=gratis.com
 @@||cdn.segmentify.com^$domain=mediamarkt.com.tr
 @@||cdn.segmentify.com^$domain=pttavm.com
@@ -14510,6 +14512,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=tf1info.fr
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
 @@||seg-cdn.pumpkin.care/next-integrations/integrations/mixpanel/$domain=get.pumpkin.care
+@@||segmentify.com/*.json$domain=fisslermagaza.com.tr
 @@||segmentify.com^$script,stylesheet,xmlhttprequest,domain=puma.com
 @@||seguridad.compensar.com/lib/js/fingerprint2.js$~third-party
 @@||selfimg.com.cn/??
@@ -15209,6 +15212,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||we-stats.com/scripts/$script,domain=discover.com
+@@||web-sdk.segmentify.com/segmentify.debug.js$domain=fisslermagaza.com.tr
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
@@ -15478,6 +15482,7 @@ aaread.space##.navi
 aaread.space##div[style^="position: fixed; bottom:"]
 aatyu.livedoor.blog#?#.article > div.plugin-memo:has(> div.side > div.ninja-recommend-block)
 abbao.cn#@##adContent
+abc.net.au#%#//scriptlet('set-local-storage-item', 'snowplowOutQueue_Presentation Layer', '$remove$')
 abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwickexpress.com,barnsleychronicle.com,becomingpeculiar.com,bethcakes.com,blogher.com,bluegraygal.com,briefeguru.de,carmagazine.co.uk,cattime.com,cbr.com,chaptercheats.com,cleveland.com,collider.com,comingsoon.net,commercialobserver.com,competentedigitale.ro,crafty.house,dailyvoice.com,decider.com,didyouknowfacts.com,dogtime.com,dualshockers.com,dustyoldthing.com,faithhub.net,femestella.com,footwearnews.com,freeconvert.com,frogsandsnailsandpuppydogtail.com,fsm-media.com,funtasticlife.com,fwmadebycarli.com,gamerant.com,gfinityesports.com,givemesport.com,gulflive.com,helloflo.com,homeglowdesign.com,honeygirlsworld.com,hotcars.com,howtogeek.com,insider-gaming.com,insurancejournal.com,jasminemaria.com,kion546.com,lehighvalleylive.com,lettyskitchen.com,lifeinleggings.com,liveandletsfly.com,lizzieinlace.com,localnews8.com,lonestarlive.com,madeeveryday.com,maidenhead-advertiser.co.uk,makeuseof.com,mardomreport.net,masslive.com,melangery.com,milestomemories.com,mlive.com,modernmom.com,momtastic.com,mostlymorgan.com,motherwellmag.com,movieweb.com,muddybootsanddiamonds.com,musicfeeds.com.au,nationalreview.com,nj.com,nordot.app,nothingbutnewcastle.com,nsjonline.com,oakvillenews.org,observer.com,oregonlive.com,pagesix.com,pennlive.com,pinkonthecheek.com,predic.ro,puckermom.com,qtoptens.com,realgm.com,robbreport.com,royalmailchat.co.uk,samchui.com,sandrarose.com,screenrant.com,sheknows.com,sherdog.com,sidereel.com,silive.com,simpleflying.com,sloughexpress.co.uk,spacenews.com,sportsgamblingpodcast.com,spotofteadesigns.com,ssnewstelegram.com,stacysrandomthoughts.com,superherohype.com,syracuse.com,tablelifeblog.com,thebeautysection.com,thecelticblog.com,thecurvyfashionista.com,thefashionspot.com,thegamer.com,thenerdyme.com,thenonconsumeradvocate.com,theprudentgarden.com,thethings.com,timesnews.net,topspeed.com,toyotaklub.org.pl,travelingformiles.com,tutsnode.org,tvline.com#%#//scriptlet('ubo-rmnt', 'script', '"v4ac1eiZr0"')
 abema.tv#%#//scriptlet('remove-node-text', 'script', 'NREUM')
 abema.tv#%#//scriptlet('ubo-rmnt', 'script', 'NREUM')
@@ -16049,7 +16054,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -20887,6 +20892,8 @@ configurator.ducati.com#%#//scriptlet("set-constant", "WURFL", "emptyObj")
 connect.de#%#//scriptlet("abort-on-property-read", "trConfig")
 connect.hyundaiauto.in$image
 connect.reply.cupidondate.com$image
+conquerclub.com%2Fstat.php%3Ftype%3D$image
+conquerclub.com/stat.php?type=$image
 contact.mys-tyler.com$image
 contact.truewesthorsemanship.com$image
 contactmonkey.com/api/v1/tracker$image
@@ -130060,6 +130067,7 @@ zzzyk.com###Tinfo
 ||abc.mr-deko.com^
 ||abc.myrobd.com^
 ||abc.nagabirucuan.com^
+||abc.net.au^$cookie=/^ABC_Snowplow_id/
 ||abc.nutrameadow.com^
 ||abc.orvie.co^
 ||abc.parfemija.com^
@@ -143324,7 +143332,6 @@ zzzyk.com###Tinfo
 ||careers-production.gtm.inscale.net^
 ||careers.coniferhealth.com^
 ||careers.hotjar.com^
-||careers.lilly.com/*/phenomtrack.min.js
 ||carefuldolls.com^
 ||careless05.com^
 ||carepay.gaf.com^
@@ -144317,6 +144324,7 @@ zzzyk.com###Tinfo
 ||change.org/api-proxy/*/event_tracker?
 ||change.org/api-proxy/-/bandit/pull
 ||change.org/api-proxy/-/et
+||change.org/api-proxy/-/et?
 ||change.org/api-proxy/-/event_tracker
 ||change.org^$removeparam=psf_variant
 ||change.org^$removeparam=share_intent
@@ -175652,7 +175660,6 @@ zzzyk.com###Tinfo
 ||jobmist.com^
 ||jobs.bvng.nl^
 ||jobs.ch/api/v1/public/product/track/
-||jobs.hanes.com/*/phenomtrack.min.js
 ||jobs.smpgn.co^
 ||jobvite.com/analytics.js
 ||joc.marketing.atafreight.com^
@@ -192737,6 +192744,7 @@ zzzyk.com###Tinfo
 ||mon.us.tiktokv.com^
 ||mon.xactware.com^
 ||mon.zijieapi.com^
+||mon11-misc-lq.fqnovel.com^
 ||mon16-normal-us-ttp.capcutapi.us^
 ||monacobeatles.com^
 ||monerise.com^$third-party
@@ -208436,6 +208444,7 @@ zzzyk.com###Tinfo
 ||sensor.org.ua^$third-party
 ||sensor.photogrid.app^
 ||sensors-log.dongqiudi.com^
+||sensors.dito.ph^
 ||sensors.ibreader.com^
 ||sensors.snappea.com^
 ||sensors.snaptube.app^
@@ -231690,7 +231699,7 @@ zzzyk.com###Tinfo
 ||stats.seesteg-norderney.de^
 ||stats.selectam.io^
 ||stats.semipol.de^
-||stats.sender.net^
+||stats.sender.net/ping
 ||stats.sendngnt.com^
 ||stats.senty.com.au^
 ||stats.seotraff.team^
@@ -237840,6 +237849,7 @@ zzzyk.com###Tinfo
 ||tnc16-*.hypic.com^
 ||tnc16-normal-us-ttp.capcutapi.us^
 ||tnc3-aliec2.zijieapi^
+||tnc3-alisc1.bytedance.com^
 ||tnc3-alisc1.zijieapi.com^
 ||tnc3-alisc1.zijieapi^
 ||tnc3-bjlgy.snssdk.com^
