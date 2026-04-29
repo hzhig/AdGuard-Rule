@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-04-28 10:51:13(GMT+8) 
-! Total count: 32628
+! ! Version: 2026-04-29 10:50:12(GMT+8) 
+! Total count: 32651
  
 ###ADtip
 ###Ad_windows
@@ -1515,6 +1515,7 @@
 ##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
+##div[role="listitem"] .bannerliststyle
 ##div[role="listitem"] > div > div > .bannerliststyle
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
@@ -7250,7 +7251,6 @@ bitauto.com##div > ins[data-type="ad_play"]
 bitauto.com##ins[type="ad_play"]
 bitcoins4.me##.alert.alert-block
 bitvid.sx###aad
-bitxzlhi*.top/$script,xmlhttprequest,third-party
 biz.ifeng.com##.header
 biz.ifeng.com##.riodel
 biznetvigator.com#@##container_ad
@@ -8938,6 +8938,7 @@ fastadmin.net##body > a[target="_blank"]
 faxingw.cn##.detailadv
 faxingw.cn##.detailgc
 faxingw.cn##.indadv1
+fcenxe*.top/$script,xmlhttprequest,third-party
 fcw45.com##.bottom-adv
 fcw45.com##div[id^="layui-layer"]
 fdc.com.cn##.yifangbanner
@@ -14378,6 +14379,7 @@ tigtag.com##div[id^="Home942x70_"]
 tigtag.com##div[id^="Show300x"]
 tiku.baidu.com##.to-app
 tiku.baidu.com##.wap-bottom-op
+time.udn.com##.fixed-ad
 timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 timedg.com##.middleCrossAdvertise
@@ -14657,6 +14659,7 @@ udn.com###simplemodal-overlay
 udn.com##.ad_mask
 udn.com##.bg-banner--link
 udn.com##.ec-section
+udn.com##.fixed-ad
 udn.com##.inline-ads
 udn.com##.mag_topic > a[href][target="_blank"] > img[src^="https://p.udn.com.tw/upf/"][src*="_banners/Special/"]
 udn.com##.mag_topic > a[href^="https://goo.gl/"][target="_blank"] > img[src*="_banners/BD/"]
@@ -19062,6 +19065,7 @@ zzzyk.com###Tinfo
 ||bdunion1.suxiazai.com^
 ||bdwmhz.120askimages.com^
 ||bdx.playnext.cn^
+||bdxbtv.icu^
 ||bdxydp.icu^
 ||bea-s.dinghuoche.com^
 ||beacon-api.aliyuncs.com^
@@ -19255,6 +19259,7 @@ zzzyk.com###Tinfo
 ||bkjlf58.com^
 ||bkqa.cn^
 ||bl.emotionalworld.cn^
+||blackhead35.com^
 ||bld.mobi^
 ||bleumzr.icu^
 ||bljlrl.xyz^
@@ -19385,6 +19390,7 @@ zzzyk.com###Tinfo
 ||bshare.cn/bshare_view?Callback=
 ||bsizoia.com^
 ||bslbahv.top^
+||bslbpb.icu^
 ||bswsmlp.cn^
 ||bsyrimw.xyz^
 ||bt-tt.com/ad
@@ -19580,6 +19586,7 @@ zzzyk.com###Tinfo
 ||c4d.cn/template/iscwo_zcool/iscwo/ad/
 ||c4d4.cn^
 ||c4ru5li2sa.com^
+||c5mwwyqfvi.com^
 ||c6.friok.com^
 ||c64ihqx0gj.com^
 ||c6hhfkvxv.com^
@@ -19823,6 +19830,7 @@ zzzyk.com###Tinfo
 ||cfepws.com^
 ||cfoxpgfzxl.com^
 ||cfssi03yg3.com^
+||cftiqxg3mp.com^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgcg01010ht.com^
 ||cgcg01011ht.com^
@@ -20592,6 +20600,7 @@ zzzyk.com###Tinfo
 ||dbzolzzy7s.com^
 ||dceuhnpc57.shop^
 ||dciep.xyz^
+||dcpgdj.icu^
 ||dcs.conac.cn/js/
 ||dcsxv.com^
 ||dcvbnzss.xyz^
@@ -21395,6 +21404,7 @@ zzzyk.com###Tinfo
 ||eltdeh.top^
 ||elviraawa.com^
 ||em7ky342lo.com^
+||embbl8sy3.com^
 ||embnvut.com^
 ||embofjpks.com^
 ||emdcadvertise.eastmoney.com^
@@ -23917,6 +23927,7 @@ zzzyk.com###Tinfo
 ||itxinrou.com^
 ||itxueyuan.com/advPicture/
 ||itxueyuan.com^*.mp4
+||itxzlhijfcenxejclcaj.top^
 ||ityangstudy.cn^
 ||iucnwto.top^
 ||iufjkdjmsm.xyz^
@@ -23976,6 +23987,7 @@ zzzyk.com###Tinfo
 ||j.zlszw.com^
 ||j0saeheja5.com^
 ||j1.piaobing.com^
+||j1bla75rck.com^
 ||j1s956aee8.com^
 ||j2fu64j4e.com^
 ||j2jtq0hpb.com^
@@ -25301,6 +25313,7 @@ zzzyk.com###Tinfo
 ||lowadec.cn^
 ||lp340p7czf.com^
 ||lp780937a.com^
+||lpaitrekoe.com^
 ||lpalartra.com^
 ||lparnaro.com^
 ||lpasdfgwer.com^
@@ -25753,6 +25766,7 @@ zzzyk.com###Tinfo
 ||mgir.cn^
 ||mgivkqk.cn^
 ||mgky6yjwq.com^
+||mgpl5pqg29.com^
 ||mgrwaui4.top^
 ||mgux.cn^
 ||mgzjin.cn^$third-party
@@ -27101,6 +27115,7 @@ zzzyk.com###Tinfo
 ||photo.*.html?tk=$script,third-party
 ||photo.*/native?tk=$third-party
 ||photos18.com/images/friend/
+||phow238wzh.com^
 ||phozatoi.com^
 ||php.cn/ad1.
 ||php.cn/hezuo/
@@ -27192,6 +27207,7 @@ zzzyk.com###Tinfo
 ||pjdhguh14.com^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjoo8.com^
+||pjovytymn.com^
 ||pjsbuhl.icu^
 ||pjtime.com/js/show_ad
 ||pjy55d.com^
@@ -29859,6 +29875,7 @@ zzzyk.com###Tinfo
 ||udn.com/common/iframe/
 ||udn.com/common2/iframe/
 ||udn.com/mall/cus/cat/OutWebAd.do
+||udn.com/static/js/google-dfp-native.js
 ||udn.com/upf/2014_sales/testpage/Bannerimage/*x*_*.jpg
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
@@ -30361,6 +30378,7 @@ zzzyk.com###Tinfo
 ||vmj428qvi4.com^
 ||vmkp.cn^
 ||vmlrxs.top^
+||vmn05pnuh.com^
 ||vmvps.com/aoyohost-com-bann
 ||vmyv.cn^
 ||vncq.cn^
@@ -30486,6 +30504,7 @@ zzzyk.com###Tinfo
 ||vxotu.com/i/*.gif
 ||vxrdwo.cn^
 ||vxydbok.com^
+||vyczp.cn^
 ||vyqn.cn^
 ||vyreat.icu^
 ||vyxw.cn^
@@ -31787,6 +31806,7 @@ zzzyk.com###Tinfo
 ||yjuhqy.xyz^
 ||yjyc-ask.com/res/ads/
 ||yk-ssp.ad.youku.com^
+||yk9t90dlfx.com^
 ||ykad-data.youku.com^
 ||ykcjxvg.cn^
 ||ykfqztvfj.com^
@@ -31930,6 +31950,7 @@ zzzyk.com###Tinfo
 ||yuehesh.com^
 ||yueipaoo.xyz^*.gif
 ||yuelmodqhrw.com^
+||yuhn5w31n.com^
 ||yuhunwang.net^
 ||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
@@ -32282,6 +32303,7 @@ zzzyk.com###Tinfo
 ||zgm1.com^
 ||zgo8rgvuaf.com^
 ||zgqsc3shr.com^
+||zgttfnkcztzpjc.com^
 ||zgtwzq.xyz^
 ||zguqxf.xyz^
 ||zgwsnw.xyz^
@@ -32549,6 +32571,7 @@ zzzyk.com###Tinfo
 ||zwjaoni.cn^
 ||zwlhfjh4h.com^
 ||zwlikv.cn^
+||zwlpdo.cn^
 ||zwvq.cn^
 ||zwxtfp.icu^
 ||zx.docin.com^

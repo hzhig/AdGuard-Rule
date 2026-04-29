@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-28 10:51:13(GMT+8) 
-! Total count: 254183
+! ! Version: 2026-04-29 10:50:12(GMT+8) 
+! Total count: 254215
  
 ###ADtip
 ###Ad_windows
@@ -1529,6 +1529,7 @@
 ##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
+##div[role="listitem"] .bannerliststyle
 ##div[role="listitem"] > div > div > .bannerliststyle
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
@@ -16048,7 +16049,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,variety.com,vibe.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -16928,7 +16929,6 @@ bitcoins4.me##.alert.alert-block
 bitdefender.com#$#body[style="opacity: 0;"] { opacity: 1 !important; }
 biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 bitvid.sx###aad
-bitxzlhi*.top/$script,xmlhttprequest,third-party
 biz.ifeng.com##.header
 biz.ifeng.com##.riodel
 bizjournals.com##.c1-ad-sticky
@@ -105716,6 +105716,7 @@ faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visito
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.landingTime', '$remove$')
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.pagesViewed', '$remove$')
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.trafficSource', '$remove$')
+fcenxe*.top/$script,xmlhttprequest,third-party
 fcw45.com##.bottom-adv
 fcw45.com##div[id^="layui-layer"]
 fdc.com.cn##.yifangbanner
@@ -118325,6 +118326,7 @@ tigtag.com##div[id^="Show300x"]
 tiku.baidu.com##.to-app
 tiku.baidu.com##.wap-bottom-op
 tilt.pages.s11.sfmc-osl.com$image
+time.udn.com##.fixed-ad
 timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 timedg.com##.middleCrossAdvertise
@@ -119558,6 +119560,7 @@ udn.com###simplemodal-overlay
 udn.com##.ad_mask
 udn.com##.bg-banner--link
 udn.com##.ec-section
+udn.com##.fixed-ad
 udn.com##.inline-ads
 udn.com##.mag_topic > a[href][target="_blank"] > img[src^="https://p.udn.com.tw/upf/"][src*="_banners/Special/"]
 udn.com##.mag_topic > a[href^="https://goo.gl/"][target="_blank"] > img[src*="_banners/BD/"]
@@ -140052,6 +140055,7 @@ zzzyk.com###Tinfo
 ||bdvmetricas.banvenez.com.ve^
 ||bdwmhz.120askimages.com^
 ||bdx.playnext.cn^
+||bdxbtv.icu^
 ||bdxoxo.libraccio.it^
 ||bdxydp.icu^
 ||bdzcck.stadiumgoods.com^
@@ -140872,6 +140876,7 @@ zzzyk.com###Tinfo
 ||blackcrow.ai/v1/events/
 ||blackdagger.openapp.link^
 ||blackenterprise.black.news^
+||blackhead35.com^
 ||blackjack.abzorbagames.com^
 ||blackjack.net.anwalt.de^
 ||blackmesh.actonservice.com^
@@ -141871,6 +141876,7 @@ zzzyk.com###Tinfo
 ||bsjgdn.supergoop.com^
 ||bskblt.6thstreet.com^
 ||bslbahv.top^
+||bslbpb.icu^
 ||bsmtsl.gesundheits-praemien.de^
 ||bsna.galeria-kaufhof.de^
 ||bsna.inno.be^
@@ -142559,6 +142565,7 @@ zzzyk.com###Tinfo
 ||c4ru5li2sa.com^
 ||c4tracking01.com^$third-party
 ||c4tw.net^$third-party
+||c5mwwyqfvi.com^
 ||c6.friok.com^
 ||c6.paypal.com^$image
 ||c615.denverpost.com^
@@ -143774,7 +143781,7 @@ zzzyk.com###Tinfo
 ||cdn.dulceauroraa.com^
 ||cdn.dzen.ru/pingx
 ||cdn.eaec.fpfis.tech.ec.europa.eu^
-||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$script,redirect=noopjs
+||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
 ||cdn.fugu-it.com/web/script.js
@@ -144230,6 +144237,7 @@ zzzyk.com###Tinfo
 ||cfsaze.retailmenot.ca^
 ||cfsaze.retailmenot.com^
 ||cfssi03yg3.com^
+||cftiqxg3mp.com^
 ||cftrack.com^$third-party
 ||cftrk.novuna.co.uk^
 ||cfyhym.weightwatchers.fr^
@@ -153232,6 +153240,7 @@ zzzyk.com###Tinfo
 ||dcnkrd.baseballsavings.com^
 ||dco.coupang.com^
 ||dcogcf.sinnersattire.com^
+||dcpgdj.icu^
 ||dcs.audi.com^
 ||dcs.conac.cn/js/
 ||dcs.esprit.at^
@@ -157607,6 +157616,7 @@ zzzyk.com###Tinfo
 ||emart.ssg.com^$cookie=/^RC_/
 ||emart.ssg.com^$cookie=PCID
 ||emb.soothe.com^
+||embbl8sy3.com^
 ||embed.acast.com/api/proxy?type=impression
 ||embed.acast.com/api/stats
 ||embed.mikmak.tv/brandTracking/
@@ -161047,6 +161057,8 @@ zzzyk.com###Tinfo
 ||forum.ixbt.com/liveinternet.gif
 ||forum.turkmmo.com/jc/gtm.js
 ||forum.zuvio.com.tw/api/article/finish
+||forums.hardwarezone.com.sg/js/hwz/hwz_permutive.js
+||forums.hardwarezone.com.sg/js/hwz/neuron.js
 ||forums.mmorpg.com//js/count.js
 ||forums.mmorpg.com/applications/vanilla/js/tagging.js
 ||forums.mmorpg.com/settings/analyticstick.json
@@ -174798,6 +174810,7 @@ zzzyk.com###Tinfo
 ||itxinrou.com^
 ||itxueyuan.com/advPicture/
 ||itxueyuan.com^*.mp4
+||itxzlhijfcenxejclcaj.top^
 ||ityangstudy.cn^
 ||itznub.gap.co.uk^
 ||iu6t.consobaby.it^
@@ -174966,6 +174979,7 @@ zzzyk.com###Tinfo
 ||j1.piaobing.com^
 ||j178.wmur.com^
 ||j198.registercitizen.com^
+||j1bla75rck.com^
 ||j1s956aee8.com^
 ||j282.thetimes-tribune.com^
 ||j2fu64j4e.com^
@@ -185461,6 +185475,7 @@ zzzyk.com###Tinfo
 ||lp4.io^
 ||lp4.io^$third-party
 ||lp780937a.com^
+||lpaitrekoe.com^
 ||lpalartra.com^
 ||lparnaro.com^
 ||lpasdfgwer.com^
@@ -191913,6 +191928,7 @@ zzzyk.com###Tinfo
 ||mgntat.mno.link^
 ||mgntrn.nl/api/event
 ||mgopc.ddrbbqsupply.com^
+||mgpl5pqg29.com^
 ||mgpnz.shopakira.com^
 ||mgptul.finson.com^
 ||mgr.biltmorehotel.com^
@@ -192149,6 +192165,7 @@ zzzyk.com###Tinfo
 ||misadw1.cn^
 ||misapopait.com^
 ||misc.api.snaptube.app^
+||misc.udn.com/record/pageview/
 ||misc.valotehdas.fi^
 ||miscreantmoon.com^
 ||miseventos.orem.com.mx^
@@ -194102,6 +194119,7 @@ zzzyk.com###Tinfo
 ||naqvv.astroguia.net^
 ||narc-dc.actonservice.com^
 ||narkive.com/ajax/TelemV2?
+||narrativ.com^
 ||naruk.saintluciferspice.com^
 ||narwhal.bounty.studio^
 ||narwhal.quickbudget.xyz^
@@ -197813,6 +197831,7 @@ zzzyk.com###Tinfo
 ||p.typekit.net^
 ||p.udn.com.tw/upf/*_banners/Special/
 ||p.udn.com.tw/upf/2014_banners
+||p.udn.com.tw/upf/static/common/udn-fingerprint.umd.js
 ||p.versacommerce.de^
 ||p.victoria.dev^
 ||p.viennaandbailey.co.nz^
@@ -199370,6 +199389,7 @@ zzzyk.com###Tinfo
 ||photospace.life^$all
 ||photovault.pics^$all
 ||photovault.store^$all
+||phow238wzh.com^
 ||phozatoi.com^
 ||php.cn/ad1.
 ||php.cn/hezuo/
@@ -199855,6 +199875,7 @@ zzzyk.com###Tinfo
 ||pjnhls.gazel.it^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjoo8.com^
+||pjovytymn.com^
 ||pjoxcw.rosewe.com^
 ||pjplv.crownaffair.com^
 ||pjqrr.agapexoxo.com^
@@ -203730,6 +203751,7 @@ zzzyk.com###Tinfo
 ||relapse37.com^
 ||relationrest.com^
 ||relations.extrahop.com^
+||relatorios.prportais.com.br/storage/cdn-adi/news-tracker-min.js
 ||relay-event.talkie-ai.com^
 ||relay.archlending.com^
 ||relay.brandinglab.com.br^
@@ -244327,6 +244349,7 @@ zzzyk.com###Tinfo
 ||udn.com/common/iframe/
 ||udn.com/common2/iframe/
 ||udn.com/mall/cus/cat/OutWebAd.do
+||udn.com/static/js/google-dfp-native.js
 ||udn.com/upf/2014_sales/testpage/Bannerimage/*x*_*.jpg
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
@@ -245087,6 +245110,7 @@ zzzyk.com###Tinfo
 ||urwh.cn^
 ||urxbvw.tui.nl^
 ||urzlr.ritualzeroproof.com^
+||us*-prod-direct.*.com/events/$domain=tlc.com|discovery.com
 ||us-behavior.apitd.net^
 ||us-central*-shopify-instrumentat-*.cloudfunctions.net/telemetry
 ||us-central1-affilimate.cloudfunctions.net/tracking_
@@ -247014,6 +247038,7 @@ zzzyk.com###Tinfo
 ||vmm.gonsure.com^
 ||vmmmye.defender-usa.com^
 ||vmmpxl.com^$third-party
+||vmn05pnuh.com^
 ||vmo2uk.mno.link^
 ||vms.kassazaak.nl^
 ||vms.kassensystemevergleich.com^
@@ -247450,6 +247475,7 @@ zzzyk.com###Tinfo
 ||vybbem.mk.ru^
 ||vybbem.womanhit.ru^
 ||vyblc.houseofswim.com^
+||vyczp.cn^
 ||vydelavejtesnami.pg.cz^
 ||vyebov.entrenet.jp^
 ||vyeysj.foto-mundus.de^
@@ -247808,6 +247834,8 @@ zzzyk.com###Tinfo
 ||wasteland.net.anwalt.de^
 ||wat.gogoinflight.com^
 ||watch.brooklynadams.org^
+||watch.foodnetwork.com/events/
+||watch.hgtv.com/events/
 ||watch.jawwy.tv^
 ||watch.stctv.com^
 ||watch.vipa.me^
@@ -252294,6 +252322,7 @@ zzzyk.com###Tinfo
 ||yjyc-ask.com/res/ads/
 ||yk-ssp.ad.youku.com^
 ||yk.iconfragrance.shop^
+||yk9t90dlfx.com^
 ||ykad-data.youku.com^
 ||ykcjxvg.cn^
 ||ykdium.profishop.nl^
@@ -252669,6 +252698,7 @@ zzzyk.com###Tinfo
 ||yuelmodqhrw.com^
 ||yueqal.glassesusa.com^
 ||yugxerli.ems-dental.com^
+||yuhn5w31n.com^
 ||yuhunwang.net^
 ||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
@@ -253402,6 +253432,7 @@ zzzyk.com###Tinfo
 ||zgsdk.zhugeio.com^
 ||zgsid.spaderma.com^
 ||zgtcp.hotelcollectionofficial.uk^
+||zgttfnkcztzpjc.com^
 ||zgtwzq.xyz^
 ||zgumwv.stepstone.de^
 ||zguqxf.xyz^
@@ -254045,6 +254076,7 @@ zzzyk.com###Tinfo
 ||zwjaoni.cn^
 ||zwlhfjh4h.com^
 ||zwlikv.cn^
+||zwlpdo.cn^
 ||zwmzn.nutrimill.com^
 ||zwnqc.twinliquors.com^
 ||zwodit.sporti.pl^
