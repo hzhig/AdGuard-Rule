@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-30 10:52:04(GMT+8) 
-! Total count: 254237
+! ! Version: 2026-04-30 21:53:19(GMT+8) 
+! Total count: 254242
  
 ###ADtip
 ###Ad_windows
@@ -10837,6 +10837,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||adobe.com.ssl.d1.sc.omtrdc.net^$xmlhttprequest,domain=www.adobe.com
 @@||adobe.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||adobe.tt.omtrdc.net/rest/v1/delivery?client=adobe&sessionId=$domain=acrobat.adobe.com
+@@||adobedc.demdex.net/*/identity/acquire?$domain=westjet.com
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com|westjet.com
 @@||adobedc.demdex.net^$xmlhttprequest,domain=sc.com
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
@@ -119566,7 +119567,6 @@ udn.com##.ad_mask
 udn.com##.bg-banner--link
 udn.com##.ec-section
 udn.com##.fixed-ad
-udn.com##.inline-ads
 udn.com##.mag_topic > a[href][target="_blank"] > img[src^="https://p.udn.com.tw/upf/"][src*="_banners/Special/"]
 udn.com##.mag_topic > a[href^="https://goo.gl/"][target="_blank"] > img[src*="_banners/BD/"]
 udn.com##.more_ad
@@ -119575,6 +119575,7 @@ udn.com##.sponsor-wrapper
 udn.com##div[class*="edn-ads"]
 udn.com##iframe[src*="udn.com/mall/cus/cat/OutWebAd.do"]
 udn.com#$#.main-content { background-image: none !important; }
+udn.com#?#.inline-ads
 ufanw.com###banne
 uiadmin.net##.jump-linker
 uisdc.com##.archive-pm-top
@@ -158147,6 +158148,7 @@ zzzyk.com###Tinfo
 ||eqingl.ivet.bg^
 ||eqkwat.histoiredor.com^
 ||eql.mondaymerch.com^
+||eqlhb8m42q.com^
 ||eqlidke.cn^
 ||eqqi.cn^
 ||eqqp.cn^
@@ -176931,8 +176933,6 @@ zzzyk.com###Tinfo
 ||kimonix.com/analytics/
 ||kindasingle.com^
 ||kindernetz.de/static/tracking/xtclicks.js
-||kindhush.com^$redirect=noopjson,xmlhttprequest
-||kindhush.com^$~xmlhttprequest
 ||kindlaundry.rdtrke.com^
 ||kindlereunion.com^
 ||kinesis.eu-west-1.amazonaws.com^
@@ -186087,6 +186087,7 @@ zzzyk.com###Tinfo
 ||m.m216j.cn^$third-party
 ||m.manhua123.net/js/com1.js
 ||m.media-amazon.com/images/G/*/msa/vowels/metrics
+||m.media-amazon.com/images/I/*/BotCXMetricsCollectionJSAsset
 ||m.media-amazon.com/images/S/sash/*.js?csm_attribution=
 ||m.mediazilla.com^
 ||m.mentavi.com^
@@ -186233,6 +186234,7 @@ zzzyk.com###Tinfo
 ||m81mfege2.com^
 ||m821.saratogian.com^
 ||m886.kmbc.com^
+||m8h5qjmlb3.com^
 ||m8ryjf38a.com^
 ||m8zgls6zt.com^
 ||m9s3h265lq.com^
@@ -189143,6 +189145,7 @@ zzzyk.com###Tinfo
 ||medhyg.actonservice.com^
 ||media*.marktjagd.com/*/1x1.gif
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
+||media-amazon.com/images/*/metrics.jpg
 ||media-analytic.com^
 ||media-atl3-1.cdn.whatsapp.net.iberostar.com^
 ||media-cdg4-1.cdn.whatsapp.net.iberostar.com^
@@ -192995,6 +192998,7 @@ zzzyk.com###Tinfo
 ||mp.weixin.qq.com/mp/jsmonitor?
 ||mp.weixin.qq.com/mp/report?
 ||mp.weixin.qq.com/mp/webcommreport?
+||mp1sy1nri8.com^
 ||mp3.haogeba.com^$image,object
 ||mp3king.club^$third-party
 ||mp3skull.is/fab/FAB.js$script
@@ -199052,6 +199056,7 @@ zzzyk.com###Tinfo
 ||pd.bppeloqua.com^
 ||pd.lavloss.com^
 ||pd.trysera.com^$third-party
+||pd5sngsre3.net/g/hn.js
 ||pda7.placedesarts.com^
 ||pdaqa.fitmycar.co.nz^
 ||pdbu.net^$third-party
