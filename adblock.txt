@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-29 21:55:21(GMT+8) 
-! Total count: 254225
+! ! Version: 2026-04-30 10:52:04(GMT+8) 
+! Total count: 254237
  
 ###ADtip
 ###Ad_windows
@@ -1530,7 +1530,6 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[role="listitem"] .bannerliststyle
-##div[role="listitem"] > div > div > .bannerliststyle
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style^="line-height"][style*="http"][style$="fixed;"]
@@ -8684,7 +8683,6 @@ $websocket,domain=wap.yushuwu.cloud
 2345.com##.mzdh_bottom
 2345.com##.newsArea
 2345.com##.part-banner
-2345.com##.part-banner > .part-ppt
 2345.com##.s11-fixNav
 2345.com##.s11-logowall
 2345.com##.s11-side
@@ -16054,7 +16052,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,nbcsports.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -115846,8 +115844,8 @@ pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping.mg.apexpay.org$image
-ping0.cc###adxright
-ping0.cc##.xxeles
+ping0.cc###adaright
+ping0.cc##.xyeles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -123440,6 +123438,7 @@ zzzyk.com###Tinfo
 ||06789.xyz^
 ||06cp8ypn8j.com^
 ||06evyxnibl.com^
+||06hkgn0jl3.com^
 ||07.go.thermofisher.com^
 ||07073.com/api/getKfList?
 ||07073.com/pc/js/right-ad.
@@ -131887,6 +131886,7 @@ zzzyk.com###Tinfo
 ||affa8.hikkoshi-master.com^
 ||affclh.bookline.hu^
 ||affclkr.com^$third-party
+||affection28.top^
 ||affectionknit.com^
 ||affex.org^
 ||affex.org^$third-party
@@ -133760,6 +133760,7 @@ zzzyk.com###Tinfo
 ||analytics-fe.digital-cloud-prem.medallia.com^
 ||analytics-fe.digital-cloud-west.medallia.com^
 ||analytics-fe.digital-cloud.medallia.ca/api/web/events|
+||analytics-fe.digital-cloud.medallia.ca^
 ||analytics-fe.digital-cloud.medallia.com^
 ||analytics-fe.digital-cloud.medallia.eu^
 ||analytics-gateway.delta.dp.lightricks.com^
@@ -138776,6 +138777,7 @@ zzzyk.com###Tinfo
 ||autspe.notino.hr^
 ||auvto.venusetfleur.com^
 ||auwdff.dyfashion.ro^
+||aux-log.bidmatic.io^
 ||aux.lansator.ro^
 ||auxin.g123.jp/external/*/refund_campaign/game/g123/status
 ||auy07170km.com^
@@ -139409,6 +139411,7 @@ zzzyk.com###Tinfo
 ||backlinkdino.de^$third-party
 ||backoffice.verintsystemsinc.com^
 ||backstory.ebay.
+||backtension.com^
 ||backup-bar-navig.yandex.ru/u
 ||backupcat.com^
 ||backuplanding.ubm-events.com^
@@ -142377,7 +142380,8 @@ zzzyk.com###Tinfo
 ||bzpics.com/jslib/st.js?
 ||bzqqftz.icu^
 ||bzqxze.remixshop.com^
-||bzrcdn.openai.com/sdk/oaiq.min.js
+||bzr.openai.com^
+||bzrcdn.openai.com^
 ||bzrch.heyskipperfishing.com^
 ||bzrpp.nakednutrition.ca^
 ||bzsfvi.fnacpro.com^
@@ -160571,6 +160575,7 @@ zzzyk.com###Tinfo
 ||fjnrh.period.co^
 ||fjordsand.com^
 ||fjortk.braun-hamburg.com^
+||fjpopxgyfrlxvc.com^
 ||fjqtg.resthavenokc.com^
 ||fjqtyu.bethowen.ru^
 ||fjsen.com:81/mysql/count/
@@ -161696,9 +161701,11 @@ zzzyk.com###Tinfo
 ||fulltrannytube.com/stats.gif
 ||fulltv.com.ar/js/counter_xhtml.js
 ||fulmar.net.anwalt.de^
+||fuma8ligq.com^
 ||fumanhua88.info^
 ||fumblingform.com^
 ||fumiad.dxys.pro^
+||fummd03je4.com^
 ||fun-hits.com^$third-party
 ||fun.tinnedfishclub.com^
 ||fun1shot.com/images/qrcode_wechat.png
@@ -174205,6 +174212,7 @@ zzzyk.com###Tinfo
 ||intr.naymish.com^
 ||intrastats.com^$third-party
 ||intricateberry.com^
+||introjava.com^
 ||intuit.com/static/scripts/cookie-sync/cookiesync-pixel.js
 ||intuitcdn.net/analytics/
 ||intuitvisitorid.api.intuit.com^
@@ -186175,6 +186183,7 @@ zzzyk.com###Tinfo
 ||m1.stadiumgoods.com^
 ||m1.vodjk.com^
 ||m1.we556.com^
+||m11bkuusyb.com^
 ||m13k11t20.sn.nl^
 ||m161.sbsun.com^
 ||m17d1e83q.com^
@@ -200996,6 +201005,7 @@ zzzyk.com###Tinfo
 ||prlik.site^
 ||prlioxb.cn^
 ||prlog.ru/images/counter/$third-party
+||prm.ua/en/events/
 ||prndgif.com^
 ||prnetwork.de^$third-party
 ||prnx.net^$third-party
@@ -248019,6 +248029,7 @@ zzzyk.com###Tinfo
 ||wdsst.body-sds.dk^
 ||wdsvc.net^$third-party
 ||wdswgjn.cn^
+||wdtuc.cn^
 ||wdtw.cn^
 ||wdukge.midwayusa.com^
 ||wdyfx.ltliang.com^
@@ -254052,6 +254063,7 @@ zzzyk.com###Tinfo
 ||zvhct.zorrata.com^
 ||zvhjk.petite-plume.com^
 ||zvhkzb.ambiendo.de^
+||zvhtzl.icu^
 ||zvlxlu.emsan.com.tr^
 ||zvnlfj.laredoute.pt^
 ||zvoift.autouncle.pt^
