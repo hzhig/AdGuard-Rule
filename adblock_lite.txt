@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-02 21:10:07(GMT+8) 
-! Total count: 32688
+! ! Version: 2026-05-03 10:51:28(GMT+8) 
+! Total count: 32697
  
 ###ADtip
 ###Ad_windows
@@ -3148,6 +3148,8 @@ $websocket,domain=wap.yushuwu.cloud
 12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 12306.cn,club.pchome.net,qinbing.cn###slideBox
 12377.cn###notice
+123865.com##.bg_svip_block_ads
+123865.com#%#//scriptlet('prevent-window-open')
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##.baidu-banner-container
@@ -17292,6 +17294,7 @@ zzzyk.com###Tinfo
 ||7dgk5h1lk.com^
 ||7dh26aja.com^
 ||7dqjgdk.com^
+||7g761j2nc.com^
 ||7hgw85qugx.com^
 ||7imz0d5nay.com^
 ||7j4tpio.com^
@@ -19862,7 +19865,7 @@ zzzyk.com###Tinfo
 ||cgyx.tv^
 ||ch17axocue.top^
 ||chabadokor.com^
-||chachefa.com/asdfasdfqwer/
+||chachefa.com^*.js?v=
 ||chahua.org/aimg/
 ||chairman69.top^
 ||chakd.com/images/xitie160x60.gif
@@ -21061,6 +21064,7 @@ zzzyk.com###Tinfo
 ||dt243100.com^
 ||dtauda3232.top^
 ||dtckvpc.cn^
+||dtdjhb.icu^
 ||dtfyhdghsd.online^
 ||dtindrofe.com^
 ||dtjal7b1f.com^
@@ -22310,6 +22314,7 @@ zzzyk.com###Tinfo
 ||ghost580.com/js/nei4.js
 ||ghovvadv.com^
 ||ghsnhjk.cn^
+||ght2bvin1.com^
 ||ghwmbue.icu^
 ||giaoji.com/Runtime/Js/
 ||gifcdncn.trafficmanager.net^
@@ -25209,6 +25214,7 @@ zzzyk.com###Tinfo
 ||lknnbd.xyz^
 ||lkpjbr.icu^
 ||lkpmprksau.com^
+||lkpseyc3d.com^
 ||lkthfpii.xyz^
 ||lkwj.cn^
 ||ll.gxsky.com^
@@ -28953,6 +28959,7 @@ zzzyk.com###Tinfo
 ||static.bro.adca.st/ad*.html$subdocument
 ||static.cdnativepush.com^
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
+||static.dhsz.cn^$image,domain=123865.com
 ||static.doyouhike.net/partner/
 ||static.dragcave.net/cache/js/a/$script
 ||static.gaomaer.cn^
@@ -29515,6 +29522,7 @@ zzzyk.com###Tinfo
 ||toastspinner.com^
 ||tobapplog.ctobsnssdk.com^
 ||toblog.ctobsnssdk.com^
+||tocologist44.top^
 ||tocr.cn^
 ||today.line.me/dist/80980ed1/app.80980ed1.js$replace=/Vt={isLoaded:\!1/Vt={isLoaded:1/
 ||todayapp.tv^$popup,third-party
@@ -30001,6 +30009,7 @@ zzzyk.com###Tinfo
 ||umdc.aliapp.org^
 ||umeng.com^
 ||umengcloud.com^
+||umini.shujupie.com^
 ||umkezbh.cn^
 ||umqigvethe.com^
 ||umrr.cn^

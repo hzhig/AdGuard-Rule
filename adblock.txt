@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-02 21:10:07(GMT+8) 
-! Total count: 254275
+! ! Version: 2026-05-03 10:51:28(GMT+8) 
+! Total count: 254287
  
 ###ADtip
 ###Ad_windows
@@ -7983,6 +7983,8 @@ $websocket,domain=wap.yushuwu.cloud
 1237.connector-qa1.marketingcloudqaapis.com$image
 12377.cn###notice
 12382.connector-qa1.marketingcloudqaapis.com$image
+123865.com##.bg_svip_block_ads
+123865.com#%#//scriptlet('prevent-window-open')
 12396.sock-qa1.marketingcloudqaops.com$image
 123pan.com##.advBanner
 123pan.com##.ant-carousel
@@ -125213,6 +125215,7 @@ zzzyk.com###Tinfo
 ||7dqjgdk.com^
 ||7eer.net^$third-party
 ||7eleven.marketing.7eleven.com.au^
+||7g761j2nc.com^
 ||7gra.us/path-tracker-js/
 ||7hdl8dlfjm4g.www.cybernetman.com^
 ||7hgw85qugx.com^
@@ -141837,6 +141840,7 @@ zzzyk.com###Tinfo
 ||browserapi.manomano.*/sp-tracking/impressions
 ||browsercfg-drcn.cloud.dbankcloud.cn^
 ||browserflow.app/proxy/api/event
+||browserguides.net^
 ||browserkernel.baidu.com^
 ||browserling.com/api/stats-browsing
 ||browsermine.com^$third-party
@@ -142757,6 +142761,7 @@ zzzyk.com###Tinfo
 ||camel.warvik.no^
 ||cameleer.top^
 ||camelsfestival.com^
+||camelspark.com^
 ||camep.xyz^
 ||camerain.top^
 ||camgirls.casa/p.php
@@ -144316,7 +144321,7 @@ zzzyk.com###Tinfo
 ||ch17axocue.top^
 ||ch3ngl0rd.com/hit/
 ||chabadokor.com^
-||chachefa.com/asdfasdfqwer/
+||chachefa.com^*.js?v=
 ||chademocharge.com^
 ||chahua.org/aimg/
 ||chaindisc.com^
@@ -155442,6 +155447,7 @@ zzzyk.com###Tinfo
 ||dtch.brunel.nl^
 ||dtckvpc.cn^
 ||dtcollect.newsbang.com^
+||dtdjhb.icu^
 ||dtestpromo.fiat.it^
 ||dtesv.fpro.com^
 ||dtfyhdghsd.online^
@@ -163105,6 +163111,7 @@ zzzyk.com###Tinfo
 ||ghrnbw.avocadostore.de^
 ||ghrzlu.skechers.com.tr^
 ||ghsnhjk.cn^
+||ght2bvin1.com^
 ||ghupv.lascana.com^
 ||ghwkuv.lagirl.co.kr^
 ||ghwmbue.icu^
@@ -180000,6 +180007,7 @@ zzzyk.com###Tinfo
 ||lkoutz.winparts.be^
 ||lkpjbr.icu^
 ||lkpmprksau.com^
+||lkpseyc3d.com^
 ||lkqce.dermaflash.com^
 ||lkr.reply.eu^
 ||lksiz.mydancerbox.com^
@@ -230538,6 +230546,7 @@ zzzyk.com###Tinfo
 ||static.danawa.com/globaljs/static/targetPush/targetPushTracking.js
 ||static.dditscdn.com/arms-datacollectorjs/
 ||static.developer.riotgames.com/js/rgea.min.js
+||static.dhsz.cn^$image,domain=123865.com
 ||static.doyouhike.net/partner/
 ||static.dragcave.net/cache/js/a/$script
 ||static.ex.co/cdn/content/monetization/pixel-sdk/
@@ -237963,6 +237972,7 @@ zzzyk.com###Tinfo
 ||toc.io^$third-party
 ||tocdsk.hifiklubben.de^
 ||tock.weg.plus^
+||tocologist44.top^
 ||tocr.cn^
 ||tod99shi.com^
 ||today.line.me/dist/80980ed1/app.80980ed1.js$replace=/Vt={isLoaded:\!1/Vt={isLoaded:1/
@@ -240672,6 +240682,7 @@ zzzyk.com###Tinfo
 ||tracker-aa.pafbetscore.lv^
 ||tracker-api.my.com^
 ||tracker-beam.aktuality.sk^
+||tracker-beam.tempo.co^
 ||tracker-dot-dfty-optimeeze-leroymerlinfr.appspot.com^
 ||tracker-dot-optimeeze.appspot.com^
 ||tracker-rec.smart-bdash.com^
@@ -244782,6 +244793,7 @@ zzzyk.com###Tinfo
 ||umhyck.belvilla.com^
 ||umi.cloudful.de^
 ||umiaob.kireibiz.jp^
+||umini.shujupie.com^
 ||umirs.com/counter*.
 ||umirs.com/counters/
 ||umkezbh.cn^
