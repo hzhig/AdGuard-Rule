@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-04 10:48:55(GMT+8) 
-! Total count: 254299
+! ! Version: 2026-05-04 21:59:17(GMT+8) 
+! Total count: 254319
  
 ###ADtip
 ###Ad_windows
@@ -11123,6 +11123,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||api.zeeg.me/api/analytics/events/$~third-party
 @@||api2.branch.io^$app=com.spotify.music
 @@||api2.branch.io^$app=com.tokopedia.tkpd
+@@||api2.branch.io^$app=net.booksy.customer
 @@||apk.tw/source/plugin/mydefplugin/advertise.js$script,~third-party
 @@||apk.tw^$generichide
 @@||apk.tw^*/ads.js$script,~third-party
@@ -115854,7 +115855,10 @@ pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping.mg.apexpay.org$image
 ping0.cc###adaright
+ping0.cc###adbright
 ping0.cc##.xyeles
+ping0.cc##.xzeles
+ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -117815,6 +117819,8 @@ squidboards.com##.premiumContain
 srs.click.s11.sfmc-osl.com$image
 srv.mail.suresitter.com$image
 srzc.com##.topgg
+ssm.fun##.cAnnouncements
+ssm.fun##.cAnnouncementsContent
 ssnn.net###float_picr
 ssnn.net###nrk_gg
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
@@ -122644,6 +122650,7 @@ www22.click.s11.sfmc-osl.com$image
 www3.assetmanagement.pictet$image
 wwwstg.click.s11.sfmc-osl.com$image
 wx.sina.com.cn###artibody > .article-video
+wxredian.com#%#//scriptlet('set-constant', 'checkAdScript', 'noopFunc')
 wxsck.com###content > div[style^="clear:"]
 wxsck.com##.fixed-btn ~ div[style^="position:fixed; bottom:"]
 wxsck.com#$#.footer { margin-top: 0px !important; }
@@ -124987,6 +124994,7 @@ zzzyk.com###Tinfo
 ||644446.com^
 ||64lv69ncb9.com^
 ||64ma.com/tv/images/web.png
+||64sfltdfd9.com^
 ||6519114.automated.almosafer.com^
 ||6519114.automated.tajawal.com^
 ||6519114.email.tajawal.com^
@@ -131510,7 +131518,6 @@ zzzyk.com###Tinfo
 ||ads-alpha.ewscloud.com^
 ||ads-api.tiktok.com^
 ||ads-api.twitter.com^
-||ads-api.twitter.com^$app=com.twitter.android
 ||ads-api.x.com^
 ||ads-collector.luizalabs.com^
 ||ads-dmp-collect.*.karrotmarket.com^
@@ -133801,6 +133808,7 @@ zzzyk.com###Tinfo
 ||analytics-prod.readtheory.org^
 ||analytics-prod2.glance-internal.inmobi.com^
 ||analytics-production.hapyak.com^
+||analytics-proxy-501188673100.us-central1.run.app^
 ||analytics-proxy.springboard.com^
 ||analytics-rollout-*.amazonaws.com^
 ||analytics-script.ad-shield.io^
@@ -142284,6 +142292,7 @@ zzzyk.com###Tinfo
 ||bwvhtadad.com^
 ||bwxq93jdg.com^
 ||bwyasc.inseasonjewelry.com^
+||bwzett.icu^
 ||bx-cloud.com^
 ||bx.eiyanlens.com^
 ||bxackzj.icu^
@@ -148249,6 +148258,7 @@ zzzyk.com###Tinfo
 ||cxgfq.pinlue.com^
 ||cxgpt1.goindigo.in/forward/v2/track
 ||cxjuqd.floriosport.it^
+||cxlog.shinhansec.com^
 ||cxm.ingeniux.com^
 ||cxo.name/collect?
 ||cxoixf.lampegiganten.dk^
@@ -148883,6 +148893,7 @@ zzzyk.com###Tinfo
 ||d48paxyhx.com^
 ||d4ax0r5detcsu.cloudfront.net^
 ||d4vd.life/love/
+||d4xmm7es84.com^
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||d5.sina.com.cn^$object,script
 ||d56p.com/love/
@@ -175408,6 +175419,7 @@ zzzyk.com###Tinfo
 ||jhf4eib1zb.com^
 ||jhfuhi.b-exit.com^
 ||jhhpvy7cp3.com^
+||jhhv22erzs.com^
 ||jhkggrr.icu^
 ||jhlazsot.icu^
 ||jhm3.ifgexecutive.com^
@@ -176965,6 +176977,7 @@ zzzyk.com###Tinfo
 ||kimonix.com/analytics/
 ||kindasingle.com^
 ||kindernetz.de/static/tracking/xtclicks.js
+||kindhush.com^$redirect=noopjs,script
 ||kindlaundry.rdtrke.com^
 ||kindlereunion.com^
 ||kinesis.eu-west-1.amazonaws.com^
@@ -194885,6 +194898,8 @@ zzzyk.com###Tinfo
 ||next.shoppingdemaquininhas.com.br^
 ||next.sogolaco.com.br^
 ||next.viajarpraonde.com.br^
+||nextacdn.com^
+||nextacdn.top^
 ||nextclick.pl^$third-party
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
@@ -195007,6 +195022,7 @@ zzzyk.com###Tinfo
 ||nhddn.cloudninehair.com^
 ||nhdhoj.ibs.it^
 ||nhecom.ninahome.com.br^
+||nhgbdjs.com^
 ||nhglm.everydayyoga.com^
 ||nhids.farmacybeauty.com^
 ||nhjkm.com^
@@ -199175,6 +199191,7 @@ zzzyk.com###Tinfo
 ||pecukirom.com^$third-party
 ||peculiar93.top^
 ||pedestrian94.top^
+||pediatrist53.com^
 ||pedropanther.com^
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||peepcloud.joinpeep.io^
@@ -236144,6 +236161,7 @@ zzzyk.com###Tinfo
 ||tcmap.com.cn/js/b_
 ||tcmdjt.grimmschool.com^
 ||tcmexz.castorama.pl^
+||tcmxmlu.com^
 ||tcpgrb.ogic.fr^
 ||tcragarnh.com^
 ||tcrk.brunaperipato.com.br^
@@ -245321,6 +245339,7 @@ zzzyk.com###Tinfo
 ||usolie.info/bs/sm
 ||usoxsak.icu^
 ||uspauline.com^
+||uspe4j25v6.com^
 ||usphfiona.com^
 ||usr.interactiveone.com^
 ||usrkrz.zdravcity.ru^
@@ -249051,6 +249070,7 @@ zzzyk.com###Tinfo
 ||whitepixel.com^$third-party
 ||whjl.curvevera.com^
 ||whktr.runrocknroll.com^
+||whlwcahw1x.com^
 ||whmdrv.marpple.com^
 ||whnews.cn/wh_public/xuxu/
 ||whoami.akamai.net.iberostar.com^

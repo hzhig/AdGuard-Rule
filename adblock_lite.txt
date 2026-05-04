@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-04 10:48:55(GMT+8) 
-! Total count: 32708
+! ! Version: 2026-05-04 21:59:17(GMT+8) 
+! Total count: 32725
  
 ###ADtip
 ###Ad_windows
@@ -12873,7 +12873,10 @@ pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping0.cc###adaright
+ping0.cc###adbright
 ping0.cc##.xyeles
+ping0.cc##.xzeles
+ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -14033,6 +14036,8 @@ squidboards.com##.funbox
 squidboards.com##.premiumBlock
 squidboards.com##.premiumContain
 srzc.com##.topgg
+ssm.fun##.cAnnouncements
+ssm.fun##.cAnnouncementsContent
 ssnn.net###float_picr
 ssnn.net###nrk_gg
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
@@ -15258,6 +15263,7 @@ www.zhihu.com##A.MBannerAd
 www.zhihu.com##A.MHotFeedAd,.MRelateFeedAd,.WeiboAd-wrap,.AdvertImg.AdvertImg--isLoaded.MBannerAd-image,.Banner-adTag,[href='https://maimai.cn/']
 www.zol.com.cn#@##search_ad
 wx.sina.com.cn###artibody > .article-video
+wxredian.com#%#//scriptlet('set-constant', 'checkAdScript', 'noopFunc')
 wxsck.com###content > div[style^="clear:"]
 wxsck.com##.fixed-btn ~ div[style^="position:fixed; bottom:"]
 wxsck.com#$#.footer { margin-top: 0px !important; }
@@ -17120,6 +17126,7 @@ zzzyk.com###Tinfo
 ||644446.com^
 ||64lv69ncb9.com^
 ||64ma.com/tv/images/web.png
+||64sfltdfd9.com^
 ||65432.pw^
 ||65487496.xyz^
 ||66.fmx.cn/js/
@@ -19520,6 +19527,7 @@ zzzyk.com###Tinfo
 ||bwquktubbb.com^
 ||bwvhtadad.com^
 ||bwxq93jdg.com^
+||bwzett.icu^
 ||bxackzj.icu^
 ||bxdupj.icu^
 ||bxmo.cn^
@@ -20477,6 +20485,7 @@ zzzyk.com###Tinfo
 ||d4.sina.com.cn^$object,script
 ||d48paxyhx.com^
 ||d4vd.life/love/
+||d4xmm7es84.com^
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||d5.sina.com.cn^$object,script
 ||d56p.com/love/
@@ -24147,6 +24156,7 @@ zzzyk.com###Tinfo
 ||jhdvcjvsjkvjkb.com^
 ||jhf4eib1zb.com^
 ||jhhpvy7cp3.com^
+||jhhv22erzs.com^
 ||jhkggrr.icu^
 ||jhlazsot.icu^
 ||jhqi.cn^
@@ -26335,6 +26345,8 @@ zzzyk.com###Tinfo
 ||newwcrsed.com^
 ||newyx.net^*/down_yd.js
 ||nex.163.com/q?
+||nextacdn.com^
+||nextacdn.top^
 ||nezqmud.com^
 ||nf2r18mdu.com^
 ||nfksjkfs.com^
@@ -26377,6 +26389,7 @@ zzzyk.com###Tinfo
 ||nh3q4ucdlb.com^
 ||nh3ymjjdkx.com^
 ||nhcdn.cn^
+||nhgbdjs.com^
 ||nhjkm.com^
 ||nhjsw.cn^
 ||nhlrzf.icu^
@@ -27097,6 +27110,7 @@ zzzyk.com###Tinfo
 ||pebrihmethwa.com^
 ||peculiar93.top^
 ||pedestrian94.top^
+||pediatrist53.com^
 ||peer-stream.com/api/AdvertisementPlugin$object-subrequest,domain=schoener-fernsehen.com
 ||peise.net/Skin/js/global.
 ||pejrq.xyz^
@@ -29256,6 +29270,7 @@ zzzyk.com###Tinfo
 ||tchkcc.cn^
 ||tci.oss-ap-southeast-1.aliyuncs.com^
 ||tcmap.com.cn/js/b_
+||tcmxmlu.com^
 ||tcragarnh.com^
 ||tcsgcdn.top^
 ||tcss.qq.com^
@@ -30112,6 +30127,7 @@ zzzyk.com###Tinfo
 ||uslsxe.com^
 ||usoxsak.icu^
 ||uspauline.com^
+||uspe4j25v6.com^
 ||usphfiona.com^
 ||usrzh.cn^
 ||ussxvwu.online^
@@ -30770,6 +30786,7 @@ zzzyk.com###Tinfo
 ||whfpbc.99.com.cn^
 ||whichav.*/qq/qq.js
 ||whistle35.com^
+||whlwcahw1x.com^
 ||whnews.cn/wh_public/xuxu/
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||whwxxny.com^
