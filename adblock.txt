@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-05 10:40:53(GMT+8) 
-! Total count: 254345
+! ! Version: 2026-05-05 21:53:30(GMT+8) 
+! Total count: 254355
  
 ###ADtip
 ###Ad_windows
@@ -1744,6 +1744,8 @@ $cookie=__utmt
 $cookie=__utmt_sfga
 $cookie=__utmv
 $cookie=__utmz
+$cookie=_ain_cid
+$cookie=_ain_uid
 $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 $cookie=_cb
 $cookie=_cb_svref
@@ -1888,6 +1890,7 @@ $cookie=cqcid,domain=~nintendo.com
 $cookie=cric_adid,domain=gazeta.pl|sport.pl|tokfm.pl
 $cookie=cric_pubid,domain=gazeta.pl|sport.pl|tokfm.pl
 $cookie=crl8.fpcuid
+$cookie=cs_fpid
 $cookie=cto_bidid
 $cookie=cto_bundle
 $cookie=daum_ad
@@ -8753,7 +8756,7 @@ $websocket,domain=wap.yushuwu.cloud
 2471.sfap-qa1.marketingcloudqaops.com$image
 2471.sock-qa1.marketingcloudqaops.com$image
 24721.connector-qa1.marketingcloudqaapis.com$image
-247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com#%#//scriptlet('ubo-acs', 'document.createElement', 'admiral')
+247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,crooksandliars.com,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com#%#//scriptlet('ubo-acs', 'document.createElement', 'admiral')
 247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com,nypost.com,pagesix.com,pennlive.com,syracuse.com#%#//scriptlet('ubo-rmnt', 'script', '"data-adm-url"')
 248.connector-qa1.marketingcloudqaapis.com$image
 248.editor-qa1.marketingcloudqaapis.com$image
@@ -16060,7 +16063,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,nbcsports.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,nbcsports.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -16360,7 +16363,7 @@ backchina.com##a[href*=".21usdeal.com"]
 backchina.com##a[href*=".cardbenefit.com/"]
 backchina.com##div[style^="width:300px; min-height: 250px;"]
 badmintoncn.com###bottomad_big
-baeldung.com,cheatsheet.com,mensjournal.com,pwinsider.com#%#//scriptlet('ubo-rmnt', 'script', 'admiral')
+baeldung.com,cheatsheet.com,pwinsider.com#%#//scriptlet('ubo-rmnt', 'script', 'admiral')
 baidu.com###J-super-layer-promote
 baidu.com###activateGuidePopupOuter
 baidu.com###adCard
@@ -106580,7 +106583,7 @@ gasaq.com###guanggao_right
 gasaq.com##.guanggao_ime_big
 gate.baidu.com,m.baidu.com###container
 gate.happycustomer.io$image
-gbatemp.net#%#//scriptlet('ubo-set', 'admiral', 'noopFunc')
+gbatemp.net,usatoday.com#%#//scriptlet('ubo-set', 'admiral', 'noopFunc')
 gbyhn.com.tw##.footer-widget-column
 gcdsdk.appsflyersdk.com^
 gd163.cn##.bbs_ad
@@ -113610,6 +113613,8 @@ nfuwow.com##.midbgdbox
 nfuwow.com##a[href*="myyj.net"]
 nfuwow.com##div[style*="width: 1160px;"]
 nhk-ondemand.jp#%#//scriptlet('prevent-element-src-loading', 'img', 'mtcs.nhk-ondemand.jp/b/ss/nhkodmain/')
+nhnieuws.nl#%#//scriptlet('set-local-storage-item', 'cs_fpid', '$remove$')
+nhnieuws.nl#%#//scriptlet('set-local-storage-item', 'udid', '$remove$')
 niaogebiji.com##.adImgBox
 nicekkk.com###custom_html-2
 nicekkk.com,briian.com###custom_html-4
@@ -154497,6 +154502,7 @@ zzzyk.com###Tinfo
 ||dist.micres.cyberowl.jp/packs/link-tracker.js
 ||distiller.kano.link^
 ||distillery.wistia.com^
+||distilltable.com^
 ||distiltag.com^$third-party
 ||distralytics.com^$third-party
 ||distribeo.com^$third-party
@@ -159127,6 +159133,7 @@ zzzyk.com###Tinfo
 ||eventsproxy.gargantuan.futureplc.com^
 ||eventstream.dodopizza.com^
 ||eventsv2balanced.malpagames.com^
+||eventtrace.ru^
 ||eventtracking.hubapi.com^
 ||eveonline.com/redir.asp$third-party
 ||everestjs.net^$third-party
@@ -160553,7 +160560,7 @@ zzzyk.com###Tinfo
 ||fishhoo.com^$third-party
 ||fishing.bucketbro.com.au^
 ||fishing.daigostudio.com^
-||fishingtoolsbox.com^
+||fishingtoolsbox.com^$redirect=noopjs,script
 ||fishki.net/counter/
 ||fit.bedrijfsfitnessnederland.nl^
 ||fit.wingsfit1.com^
@@ -160622,7 +160629,7 @@ zzzyk.com###Tinfo
 ||fjkjaj.peterhahn.nl^
 ||fjlqqc.com/common/api/v1.0/slot-code/
 ||fjnrh.period.co^
-||fjordsand.com^
+||fjordsand.com^$redirect=noopjs,script
 ||fjortk.braun-hamburg.com^
 ||fjpopxgyfrlxvc.com^
 ||fjqtg.resthavenokc.com^
@@ -177600,6 +177607,7 @@ zzzyk.com###Tinfo
 ||kugqq.fillingpieces.com^
 ||kuheju.com^$popup
 ||kuiv.cn^
+||kujsc5.ru^
 ||kujts.aroma360official.com.br^
 ||kuk8.com^$third-party
 ||kukanmanhua.cyou^
@@ -186417,6 +186425,7 @@ zzzyk.com###Tinfo
 ||magrm.luxmery.com^
 ||magsrv.com^
 ||magstag.magnalia.com.br^
+||magtorr.com^
 ||mahdk.etrendygo.com^
 ||mahid.hatbazar.online^
 ||mahim.certifymeonline.net^
@@ -203796,6 +203805,7 @@ zzzyk.com###Tinfo
 ||reg.workspace-connect.com^
 ||reg.xrdconf.com^
 ||regexmail.com^
+||regfiles.net/0/|$script
 ||regi.di.atlas.samsung.com^
 ||regionconfig.amplitude.com^
 ||register-implants.dentsplysirona.com^
@@ -208284,7 +208294,7 @@ zzzyk.com###Tinfo
 ||securepaths.com^$third-party
 ||secureprovide1.com/*=tracking$image
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=line.me
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk.com|~heycar.co.uk|~gizmodo.jp|~dexerto.com|~makorrishon.co.il
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk.com|~heycar.co.uk|~gizmodo.jp|~dexerto.com|~makorrishon.co.il|~mensjournal.com
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,important,domain=turbo.pt
 ||secureserver.net/t/
 ||securestats.callawaygolf.com^
