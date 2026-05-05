@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-04 21:59:17(GMT+8) 
-! Total count: 254319
+! ! Version: 2026-05-05 10:40:53(GMT+8) 
+! Total count: 254345
  
 ###ADtip
 ###Ad_windows
@@ -8922,7 +8922,6 @@ $websocket,domain=wap.yushuwu.cloud
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
 2dway.com##a[href="https://www.2dway.com/5244/"]
-2gis.*#%#//scriptlet('set-local-storage-item', '/_ym/', '$remove$')
 2ndswing.com,goodcar.com#%#//scriptlet('set-local-storage-item', 'uw-uid', '$remove$')
 2q77z2isvi4j5t0x.kdpwizard.app$image
 2urs.com#%#//scriptlet('abort-on-property-read', 'ads')
@@ -15048,6 +15047,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||trip.cmbchina.com^$generichide
 @@||tru.am/scripts/custom/reuters.js$domain=reuters.com
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
+@@||try.abtasty.com/39d783b9bc0b6b495e430e140bd1eedc.js$domain=tickpick.com
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
 @@||try.abtasty.com^$script,domain=tickpick.com
@@ -112544,6 +112544,13 @@ meta.happycustomer.io$image
 metrics.mail.account.mathworks.com$image
 metrics.recruiting.mathworks.com$image
 metrilo.pongcheese.co.uk$image
+mexc.com#%#//scriptlet('set-local-storage-item', '__watchman_anonymous_id$$_', '$remove$')
+mexc.com#%#//scriptlet('set-local-storage-item', '_yjsu_yjad', '$remove$')
+mexc.com#%#//scriptlet('set-local-storage-item', 'mexc_fingerprint_all_config_init_time', '$remove$')
+mexc.com#%#//scriptlet('set-local-storage-item', 'mexc_local_fingerprint', '$remove$')
+mexc.com#%#//scriptlet('set-local-storage-item', 'mexc_local_fingerprint_sys_info', '$remove$')
+mexc.com#%#//scriptlet('set-local-storage-item', 'mexc_local_fingerprint_visitorId', '$remove$')
+mexc.com,2gis.*,spletnik.ru#%#//scriptlet('set-local-storage-item', '/^_ym/', '$remove$')
 mf.meizu.cn##.guide-suspend.suspend
 mfa.gov.cn,fmprc.gov.cn#@#.adbox2
 mfiles.pl###float_square
@@ -117780,7 +117787,6 @@ spinbot.com#@#.adsbygoogle
 splash.antipubfirefox.org##DIV[align="center"]
 splashemail.6sense.com$image
 splaybow.com###divPrevious:last-child
-spletnik.ru#%#//scriptlet('set-local-storage-item', '/^_ym/', '$remove$')
 spletnik.ru#%#//scriptlet('set-local-storage-item', 'adrcid', '$remove$')
 spmailtechnol.com$image
 spoiler.net#@#.banner-ad
@@ -134962,7 +134968,7 @@ zzzyk.com###Tinfo
 ||analytics.turnertv.com^
 ||analytics.tv189.cn^
 ||analytics.tver.jp^
-||analytics.twitter.com/i/adsct?
+||analytics.twitter.com/*/adsct?
 ||analytics.ubports.com^
 ||analytics.ubs.com^
 ||analytics.uhhospitals.org^
@@ -146344,6 +146350,7 @@ zzzyk.com###Tinfo
 ||components2.rcsobjects.it/rcs_tracking-service/
 ||compose99.com^
 ||compress-or-die.com/hokuspokus
+||compress33.top^
 ||compteur-fr.com^$third-party
 ||compteur-gratuit.org^$third-party
 ||compteur-visite.com^$third-party
@@ -156262,6 +156269,7 @@ zzzyk.com###Tinfo
 ||ebgagg.novi.ba^
 ||ebgagg.pink.rs^
 ||ebgfyn.zenden.ru^
+||ebgock7kz.com^
 ||ebh.eggbackhome.com^
 ||ebhaliragd.com^
 ||ebhjhw.bonprix.es^
@@ -159670,6 +159678,7 @@ zzzyk.com###Tinfo
 ||factually.co/api/track-pageview
 ||fadedsnow.com^
 ||fadjqqe.top^
+||fadrvppkhuhdhs.com^
 ||fads315.com^
 ||faei.cz^$removeparam=dop_ab_variant
 ||faei.cz^$removeparam=dop_id
@@ -185066,6 +185075,7 @@ zzzyk.com###Tinfo
 ||log1.apkomega.com^
 ||log1.cmpassport.com^
 ||log1.perfectworldgames.com^
+||log1.pwsdk.com^
 ||log1.wanmei.com^
 ||log1.wtlogin.qq.com^
 ||log16-normal-us-ttp.capcutapi.us^
@@ -185073,6 +185083,7 @@ zzzyk.com###Tinfo
 ||log2.mtime.cn^
 ||log2.musical.ly^
 ||log2.perfectworldgames.com^
+||log2.pwsdk.com^
 ||log2.radiko.jp^
 ||log2.sina.cn^
 ||log2.spotify.com^
@@ -186168,6 +186179,7 @@ zzzyk.com###Tinfo
 ||m.providers.alto.com^
 ||m.q1xs.com/17mb/script/wap.js
 ||m.qhxcdmfj.cn^$third-party
+||m.qishuba.com/jump/
 ||m.qiushuzw.com/9CB0D8A5/2dfc69b0d8a5.js
 ||m.realself.com^
 ||m.rech.studio^
@@ -191919,6 +191931,10 @@ zzzyk.com###Tinfo
 ||meucdn.vip/cdn-cgi/trace
 ||mevents.trusteer.com^
 ||mewe.com/ubk4jrxn.js
+||mexc.com/staticjs/tag.js
+||mexc.com^$cookie=mxc_home_advertising_redhot_isclick
+||mexc.com^$cookie=sajssdk_2015_cross_new_user
+||mexc.com^$cookie=sensorsdata2015jssdkcross
 ||mexico.balluff.com^
 ||meylercapital.actonservice.com^
 ||meypeg.videdressing.com^
@@ -192767,6 +192783,7 @@ zzzyk.com###Tinfo
 ||mollusk.apis.ign.com/metrics/
 ||mollusk.working.actor^
 ||mollyflow.com^
+||moloco.com^
 ||molpmh.xyz|
 ||momentfilter.com^
 ||momently.com^$third-party
@@ -193664,6 +193681,7 @@ zzzyk.com###Tinfo
 ||mx278ol2d.com^
 ||mx5.adgtrk.com^
 ||mxafaw.icu^
+||mxana.tacool.com^
 ||mxapis.com^$third-party
 ||mxbtgc.brightage.jp^
 ||mxc.electrospot.ro^
@@ -197234,6 +197252,7 @@ zzzyk.com###Tinfo
 ||opstag.com^$third-party
 ||opsveda.actonservice.com^
 ||opt.delta.com^
+||opt.mocortech.com^
 ||optaim.com^$third-party
 ||opti-digital.com^
 ||optically.cyclecourierco.com^
@@ -199133,6 +199152,7 @@ zzzyk.com###Tinfo
 ||pdhwzl.icu^
 ||pdiabbi.cn^
 ||pdjjrh.xyz^
+||pdjxoscm7.com^
 ||pdlavr.erwinmueller.com^
 ||pdmap.hawaiianhost.com^
 ||pdmntn.com^$third-party
@@ -230613,6 +230633,9 @@ zzzyk.com###Tinfo
 ||static.meijiacun.com^
 ||static.metro.co.uk/rta2/
 ||static.missav.com/js/plyr.js
+||static.mocortech.com/mx-fingerprintjs/
+||static.mocortech.com/mx-remote-packages/mxc-web-remote-script/lib/tag_ww.js
+||static.mocortech.com/mx-remote-packages/mxc-web-remote-script/lib/ytag.js
 ||static.myshlf.us/Affiliates/sms_aff_clicktrack-deciem.js
 ||static.narrativ.com/tags/narrativ-pub.
 ||static.nrk.no/*/Serum.ExperimentTracking.js
@@ -234037,8 +234060,8 @@ zzzyk.com###Tinfo
 ||t.clovahealth.co^
 ||t.cmuchippewas.com^
 ||t.cn^$domain=28kys.com|92kvip.com
+||t.co/*/adsct?
 ||t.co/i/adsct*tw_sale_amount=
-||t.co/i/adsct?
 ||t.co^$cookie=muc_ads
 ||t.cofcsports.com^
 ||t.coffeecircle.com^
@@ -245341,6 +245364,7 @@ zzzyk.com###Tinfo
 ||uspauline.com^
 ||uspe4j25v6.com^
 ||usphfiona.com^
+||usqok.cn^
 ||usr.interactiveone.com^
 ||usrkrz.zdravcity.ru^
 ||usrpubtrk.com^
@@ -251693,6 +251717,7 @@ zzzyk.com###Tinfo
 ||xtxbemp.xyz^
 ||xtxwva.intersport.com.tr^
 ||xtyxcc.provitamin.hu^
+||xu919zz2i.com^
 ||xuan5.com^$third-party
 ||xuanyaosp.com^
 ||xuawdz.xn--b1aedqiqb.xn--p1ai^
@@ -253842,6 +253867,7 @@ zzzyk.com###Tinfo
 ||zmt.hellhorror.com^
 ||zmvhh.arcticcool.com^
 ||zmvvg.tunedintokyo.com^
+||zmvwfd.icu^
 ||zmyopn.babadotop.com.br^
 ||zmzkyj.agrieuro.com^
 ||zn.ua/actions/profile/banners/stat
