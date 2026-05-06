@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-06 10:46:49(GMT+8) 
-! Total count: 32741
+! ! Version: 2026-05-06 22:09:15(GMT+8) 
+! Total count: 32746
  
 ###ADtip
 ###Ad_windows
@@ -12874,9 +12874,7 @@ pincong.rocks##.aw-mod > a[target="_blank"]
 pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
-ping0.cc###adaright
 ping0.cc###adbright
-ping0.cc##.xyeles
 ping0.cc##.xzeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
 pinggu.org##.banner2015
@@ -14762,7 +14760,6 @@ v.youku.com###player-advertise
 v.youku.com##.advertise-layer
 v.youku.com##.laifeng
 v.youku.com##.youku-advertise-layer
-v.youku.com#%#(()=>{const e="cna",t=()=>null!==document.cookie.match(new RegExp(`^${e}=|; ${e}=`));if(t())return;const o=new MutationObserver((()=>{const o=document.querySelector("preplay-layer > error-layer .preLayer-title");o&&o.textContent.includes("请关闭VPN代理软件或广告拦截插件后重试")&&!t()&&(document.cookie=`${e}=MwCHGEQKugYCAWoLKcbU0UGk;`,window.location.reload())})),n=document.documentElement;o.observe(n,{attributes:!0,childList:!0,subtree:!0}),setTimeout((()=>o.disconnect()),1e4)})();
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
 v2ex.com##.fr > a[href^="https://www.digitalocean.com/"]
@@ -15259,6 +15256,7 @@ www.xhfz2.com##span.lileft > A[style^='float:left;color:']
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
+www.youku.com,v.youku.com#%#(()=>{const e="cna",t=()=>null!==document.cookie.match(new RegExp(`^${e}=|; ${e}=`));if(t())return;const o=new MutationObserver((()=>{const o=document.querySelector("preplay-layer > error-layer .preLayer-title");o&&o.textContent.includes("请关闭VPN代理软件或广告拦截插件后重试")&&!t()&&(document.cookie=`${e}=MwCHGEQKugYCAWoLKcbU0UGk;`,window.location.reload())})),n=document.documentElement;o.observe(n,{attributes:!0,childList:!0,subtree:!0}),setTimeout((()=>o.disconnect()),1e4)})();
 www.zhihu.com##.KfeCollection-VipRecommendCard
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##A.MBannerAd
@@ -16183,6 +16181,7 @@ zzzyk.com###Tinfo
 ||127.net/external/js6public126_
 ||127.net/external/js6public163_
 ||127.net/m/*/promPic.jpg
+||129esrd5q5.com^
 ||12img.com/ad/
 ||12ybs41sa.com^
 ||12ypksztq.com^
@@ -18904,6 +18903,7 @@ zzzyk.com###Tinfo
 ||ballive.*/addm/
 ||balmoralmkt.com^$third-party
 ||balvehgmhw.com^
+||bandages84.com^
 ||bangyuandianzi.top^
 ||banhui.xyz^
 ||banma.com/get_ad/
@@ -19877,6 +19877,7 @@ zzzyk.com###Tinfo
 ||cgcg01080ht.com^
 ||cgdyw.net/xx/
 ||cgigc.com.cn^
+||cgihh.cn^
 ||cgmalight.com^
 ||cgyx.tv^
 ||ch17axocue.top^
@@ -21949,6 +21950,7 @@ zzzyk.com###Tinfo
 ||fpdisplay.com/upload/n_ad/
 ||fpgxyjv3h.com^
 ||fpoyvjgdm.com^
+||fprrpv.icu^
 ||fptdxkm.com^
 ||fqanoreirlpa.com^
 ||fqhakaihvu.com^
@@ -23802,6 +23804,7 @@ zzzyk.com###Tinfo
 ||inowe.xyz^
 ||inpage-push.com^
 ||inping.com^$third-party
+||inquiry64.top^
 ||insertup.top^
 ||insfengdata.com^
 ||insideex.top^
@@ -26158,6 +26161,7 @@ zzzyk.com###Tinfo
 ||my0538.com^*/thumb_1000_70_
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
+||mya2pg8cdg.com^
 ||myads.cc^
 ||mybjx.net/theme/default/js/common/bjx_service_
 ||mybjx.net/theme/default/js/common/duilianchn.js
@@ -26765,6 +26769,7 @@ zzzyk.com###Tinfo
 ||okbd2ou.icu^
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
+||okeeblr.com^
 ||okforwardt.fun^
 ||okkkk.com^
 ||okmhmkjnm.com^
