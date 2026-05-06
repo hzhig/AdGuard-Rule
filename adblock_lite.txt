@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-05 21:53:30(GMT+8) 
-! Total count: 32733
+! ! Version: 2026-05-06 10:46:49(GMT+8) 
+! Total count: 32741
  
 ###ADtip
 ###Ad_windows
@@ -1013,6 +1013,7 @@
 ##DIV.row.no-gutters.m-0
 ##DIV.small-icon-container.is_mb
 ##DIV.stui-player__item.clearfix > img[url]
+##DIV.swiper-container.swiper-container-horizontal.swiper-container-ios.swiper-container-wp8-horizontal.swiper-container-initialized.swiper-container-android
 ##DIV.swiper2.swiper-initialized.swiper-horizontal
 ##DIV.theme-hope-content.ads-container
 ##DIV[allowtransparency='true'][scrolling='no']
@@ -1483,6 +1484,7 @@
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
+##div.pannel > div.grid
 ##div.play_boxbg div[class$='_acmsd']
 ##div.player-rm.rm-two.rm-list > a
 ##div.poi-row IMG[width='950'][height='300'][style='max-width:100%;height:auto']
@@ -3149,14 +3151,14 @@ $websocket,domain=wap.yushuwu.cloud
 12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 12306.cn,club.pchome.net,qinbing.cn###slideBox
 12377.cn###notice
-123865.com##.bg_svip_block_ads
-123865.com#%#//scriptlet('prevent-window-open')
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##.baidu-banner-container
 123pan.com##.banner-container-h5
 123pan.com##.banner-container-pc
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
+123pan.com,123865.com##.bg_svip_block_ads
+123pan.com,123865.com#%#//scriptlet('prevent-window-open')
 123pan.com,meidebi.com,weicaixun.com#@#.share-list
 125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
@@ -18107,6 +18109,7 @@ zzzyk.com###Tinfo
 ||ahp24.site^
 ||ahpengjie.com^
 ||ahqihkm.top^
+||ahtjhe1bka.com^
 ||ahupio.icu^
 ||ahuys.net/Runtime/js/
 ||ahuys.net/sys
@@ -18529,6 +18532,7 @@ zzzyk.com###Tinfo
 ||apptry.easylife.tw/pub/js/common/common.js
 ||apsgo.com/assets/js/union.
 ||apsgo.com/go/
+||aq0vs4ftni.com^
 ||aqc.gucheng.com^
 ||aqdy.net/js/banner.js
 ||aqdy.net/js/tj.js
@@ -21869,6 +21873,7 @@ zzzyk.com###Tinfo
 ||fktaxk.top^
 ||fkxs.net/tops/
 ||fl0hg5wlr.com^
+||fl4md7mm8.com^
 ||fl6n.com/adtop/
 ||fl7i15bxzr.com^
 ||flagshipism.com^
@@ -22388,7 +22393,7 @@ zzzyk.com###Tinfo
 ||glgoo.*/gimage/ad/
 ||glhdan.site^
 ||gliacloud.com/player/adgeek_teep
-||gliacloud.com^$domain=thisiscm.com
+||gliacloud.com^$domain=thisiscm.com|twword.com
 ||glixaing.com^
 ||glmeilgroi.com^
 ||gloaphoo.net^
@@ -23981,6 +23986,7 @@ zzzyk.com###Tinfo
 ||ivdtruneda.com^
 ||ivhv.cn^
 ||iviewui.com/v1/*?name=
+||ivizbbqma.com^
 ||ivonnurb.com^
 ||ivqtrjt.cn^
 ||ivrokpyr.com^
@@ -27515,6 +27521,7 @@ zzzyk.com###Tinfo
 ||q06g.com^
 ||q1.yyxwzx.com^
 ||q1txsah8s.com^
+||q1yv4669q6.com^
 ||q27sz.com^
 ||q29k22vpu.com^
 ||q2fwgl4q8.com^
@@ -28988,7 +28995,7 @@ zzzyk.com###Tinfo
 ||static.bro.adca.st/ad*.html$subdocument
 ||static.cdnativepush.com^
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
-||static.dhsz.cn^$image,domain=123865.com
+||static.dhsz.cn^$image,domain=123865.com|123pan.com
 ||static.doyouhike.net/partner/
 ||static.dragcave.net/cache/js/a/$script
 ||static.gaomaer.cn^
@@ -32164,6 +32171,7 @@ zzzyk.com###Tinfo
 ||z198vxfuy3.com^
 ||z1e2vp1gw.com^
 ||z1el6lgol.com^
+||z1fl848ft.com^
 ||z1hihu.xmcimg.com^
 ||z2.fakutownee.cn^
 ||z2ke56999.com^

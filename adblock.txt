@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-05 21:53:30(GMT+8) 
-! Total count: 254355
+! ! Version: 2026-05-06 10:46:49(GMT+8) 
+! Total count: 254370
  
 ###ADtip
 ###Ad_windows
@@ -1020,6 +1020,7 @@
 ##DIV.row.no-gutters.m-0
 ##DIV.small-icon-container.is_mb
 ##DIV.stui-player__item.clearfix > img[url]
+##DIV.swiper-container.swiper-container-horizontal.swiper-container-ios.swiper-container-wp8-horizontal.swiper-container-initialized.swiper-container-android
 ##DIV.swiper2.swiper-initialized.swiper-horizontal
 ##DIV.theme-hope-content.ads-container
 ##DIV[allowtransparency='true'][scrolling='no']
@@ -1496,6 +1497,7 @@
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
+##div.pannel > div.grid
 ##div.play_boxbg div[class$='_acmsd']
 ##div.player-rm.rm-two.rm-list > a
 ##div.poi-row IMG[width='950'][height='300'][style='max-width:100%;height:auto']
@@ -1684,6 +1686,8 @@ $cookie=Exitbee_vid
 $cookie=Exitbee_visit_id
 $cookie=Exitbee_visitsCount
 $cookie=FCNEC
+$cookie=FPID
+$cookie=FPLC
 $cookie=GL_GI10
 $cookie=GL_UI4
 $cookie=Gdyn
@@ -7987,8 +7991,6 @@ $websocket,domain=wap.yushuwu.cloud
 1237.connector-qa1.marketingcloudqaapis.com$image
 12377.cn###notice
 12382.connector-qa1.marketingcloudqaapis.com$image
-123865.com##.bg_svip_block_ads
-123865.com#%#//scriptlet('prevent-window-open')
 12396.sock-qa1.marketingcloudqaops.com$image
 123pan.com##.advBanner
 123pan.com##.ant-carousel
@@ -7996,6 +7998,8 @@ $websocket,domain=wap.yushuwu.cloud
 123pan.com##.banner-container-h5
 123pan.com##.banner-container-pc
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
+123pan.com,123865.com##.bg_svip_block_ads
+123pan.com,123865.com#%#//scriptlet('prevent-window-open')
 123pan.com,meidebi.com,weicaixun.com#@#.share-list
 12407.connector-qa1.marketingcloudqaapis.com$image
 1243.connector-qa1.marketingcloudqaapis.com$image
@@ -14517,6 +14521,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=sncf-connect.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=usatoday.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=heise.de
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=parade.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=tf1info.fr
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
 @@||seg-cdn.pumpkin.care/next-integrations/integrations/mixpanel/$domain=get.pumpkin.care
@@ -16063,7 +16068,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,nbcsports.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,nbcsports.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -21870,6 +21875,7 @@ edm.niemeyer.com.au$image
 edm.partnercom.com.au$image
 edm.propertyfox.com.au$image
 edm.wpire.com.au$image
+edmontonsun.com,nj.com,syracuse.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 edrawsoft.cn###bottom-banner-activity-md
 edrawsoft.cn##.activity-banner
 edrawsoft.cn##.bottom-banner-activity
@@ -113665,7 +113671,6 @@ nivod2.com,nivod2.tv,nivod4.com,nivod5.com#%#//scriptlet('set-constant', 'pageDa
 nivod2.com,nivod2.tv,nivod4.com,nivod5.com#%#//scriptlet('set-constant', 'pageData.__banners.1.commercial.mediaUrl', '')
 nivod2.com,nivod2.tv,nivod4.com,nivod5.com#%#//scriptlet('set-constant', 'pageData.__banners.1.commercial.title', '')
 nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
-nj.com,syracuse.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 nl.reckon.news$image
 nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
 nlc.gov.cn###lovexin12xx
@@ -132463,6 +132468,7 @@ zzzyk.com###Tinfo
 ||ahstp.adrianvegaai.com^
 ||ahsxot.meaningfulbeauty.com^
 ||ahtas.guess.com^
+||ahtjhe1bka.com^
 ||ahu.clubkidscuritibaahu.com.br^
 ||ahupio.icu^
 ||ahuvjy.design-market.fr^
@@ -137865,6 +137871,7 @@ zzzyk.com###Tinfo
 ||apxl.io^
 ||apxqgj.jassduell.ch^
 ||apzce.pcrichard.com^
+||aq0vs4ftni.com^
 ||aqbron.battlepage.com^
 ||aqc.gucheng.com^
 ||aqczs.footlocker.co.nz^
@@ -140634,6 +140641,7 @@ zzzyk.com###Tinfo
 ||bijkep.hotelesestelar.com^
 ||bike.turbobd.com^
 ||bikeexerciser.com^
+||bikemag.com/.api/admiral
 ||bikepaws.com^
 ||bikesboard.com^
 ||biketo.com/d/file/p/
@@ -160689,6 +160697,7 @@ zzzyk.com###Tinfo
 ||fl.shopshomoy.online^
 ||fl.ummahsweetsbd.com^
 ||fl0hg5wlr.com^
+||fl4md7mm8.com^
 ||fl5dpe.oui.sncf^
 ||fl6n.com/adtop/
 ||fl7i15bxzr.com^
@@ -163363,7 +163372,7 @@ zzzyk.com###Tinfo
 ||glhou.milanicosmetics.com^
 ||gli9.inseec-bs.com^
 ||gliacloud.com/player/adgeek_teep
-||gliacloud.com^$domain=thisiscm.com
+||gliacloud.com^$domain=thisiscm.com|twword.com
 ||glimr.io^
 ||glisteningguide.com^
 ||glisteningsign.com^
@@ -174929,6 +174938,7 @@ zzzyk.com###Tinfo
 ||iviea.hotelcollectionofficial.com.br^
 ||iviewui.com/v1/*?name=
 ||ivitrack.com^$third-party
+||ivizbbqma.com^
 ||ivmwbl.hear.com^
 ||ivonitsa.openapp.link^
 ||ivonnurb.com^
@@ -198313,6 +198323,7 @@ zzzyk.com###Tinfo
 ||pappagallu.onefootball.com^
 ||paqkp.alignmedbrasil.com.br^
 ||paqqlk.motatos.de^
+||paradehomeandgarden.com/.api/admiral
 ||paradisemall.net^
 ||parakeet.jorenvanhocht.be^
 ||parakeet.kenleyar.ai^
@@ -200508,6 +200519,7 @@ zzzyk.com###Tinfo
 ||podcxz.icu^
 ||poder360.com.br/_tracker
 ||podiumpresto.com^
+||podiums.link/event
 ||podname.com^
 ||podph.mielleorganics.com^
 ||podscribe.com^$third-party
@@ -201968,6 +201980,7 @@ zzzyk.com###Tinfo
 ||q0losid.com^
 ||q1.yyxwzx.com^
 ||q1txsah8s.com^
+||q1yv4669q6.com^
 ||q20jqurls0y7gk8.info^
 ||q27sz.com^
 ||q29k22vpu.com^
@@ -208334,6 +208347,7 @@ zzzyk.com###Tinfo
 ||securetracking.huntington.com^
 ||securewebhelp.govmint.com^
 ||security.giokko.ru/cookie.php
+||securityannex.net^
 ||securityins.actonservice.com^
 ||securityintelligence.verint.com^
 ||securitymetrics.com^$third-party
@@ -230604,7 +230618,7 @@ zzzyk.com###Tinfo
 ||static.danawa.com/globaljs/static/targetPush/targetPushTracking.js
 ||static.dditscdn.com/arms-datacollectorjs/
 ||static.developer.riotgames.com/js/rgea.min.js
-||static.dhsz.cn^$image,domain=123865.com
+||static.dhsz.cn^$image,domain=123865.com|123pan.com
 ||static.doyouhike.net/partner/
 ||static.dragcave.net/cache/js/a/$script
 ||static.ex.co/cdn/content/monetization/pixel-sdk/
@@ -253122,6 +253136,7 @@ zzzyk.com###Tinfo
 ||z198vxfuy3.com^
 ||z1e2vp1gw.com^
 ||z1el6lgol.com^
+||z1fl848ft.com^
 ||z1hihu.xmcimg.com^
 ||z2.fakutownee.cn^
 ||z210.manisteenews.com^
