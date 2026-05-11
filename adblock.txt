@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-11 11:29:12(GMT+8) 
-! Total count: 254455
+! ! Version: 2026-05-11 22:49:06(GMT+8) 
+! Total count: 254479
  
 ###ADtip
 ###Ad_windows
@@ -371,6 +371,10 @@
 ##.ad-pc
 ##.ad-right-down
 ##.ad-right-top
+##.ad-s2-card
+##.ad-s3-block
+##.ad-s4-block
+##.ad-s5-block
 ##.ad-shine-panel
 ##.ad-site
 ##.ad.mi_btcon
@@ -2240,7 +2244,7 @@ $websocket,domain=wap.yushuwu.cloud
 *$denyallow=ucloud140.xyz,domain=jiuse.io,image
 *$denyallow=xpxs.net|jiasucdn.com,domain=xpxs.net,xmlhttprequest,image,script
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com,domain=banzhu1111111.com|banzhu2222222.com|banzhu3333333.com|banzhu4444444.com|banzhu5555555.com|banzhu6666666.com|banzhu7777777.com|banzhu8888888.com|banzhu9999999.com
-*$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com|rumanhua.org|cdnsrc.asp.net|ddxsmf.com|apps.bdimg.com|alicdn.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com|uaa.com|lamparasde.net|bbs.hupu.com|kankan2024.com|hanime1-me.icu|hanime1-me.top|rumanhua.org|ddxsmf.com|xb6v.org|6v520.cc
+*$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com|rumanhua.org|cdnsrc.asp.net|ddxsmf.com|apps.bdimg.com|alicdn.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com|uaa.com|lamparasde.net|bbs.hupu.com|kankan2024.com|hanime1-me.icu|hanime1-me.top|rumanhua.org|ddxsmf.com|xb6v.org|6v520.cc|xl02.com.de
 *$script,third-party,domain=huanggua22.com
 *$script,third-party,domain=m.roushuwu.vip
 *$script,third-party,xmlhttprequest,domain=m.biquge700.com|biquge001.com
@@ -106298,7 +106302,9 @@ freebitco.in,freedoge.co.in#@#.adsbygoogle
 freecodecamp.cn,freecodecamp.one#@#.btn-social
 freecodecamp.org#%#//scriptlet("abort-current-inline-script", "Function", "b9kEBAW")
 freedidi.com##.sidebar-content > div[id^="custom_html-"]
+freedidi.com##.spm-on:has(> div[class^="spm"] > .spm-body > a[target="_blank"])
 freedidi.com##a[href*="/bittly.cc"]
+freedidi.com#%#//scriptlet('abort-on-property-read', 'SPM_CONFIG.adblockOnly')
 freedidi.com#@#.adsBanner
 freedidi.com,ottawazine.com##div[id^="text-"]
 freedom-ip.com#@#.pub_vertical div
@@ -122816,6 +122822,8 @@ xixik.com###news_contents_left > .left_gg
 xjwiki.github.io#@##pub_head
 xkeba.com###diy90
 xkyn.com#%#//scriptlet("set-constant", "conone_lmg", "noopFunc")
+xl02.com.de#%#//scriptlet('abort-current-inline-script', 'Function', '.map(function')
+xl02.com.de#%#//scriptlet('set-cookie', 'closeAd', '1')
 xmfish.com###pw_content > .forum_panel:nth-child(4)
 xmfish.com##.advert-entry-list
 xmfish.com##.readCon_right
@@ -132772,6 +132780,7 @@ zzzyk.com###Tinfo
 ||ak.youbetterhealthy.com^
 ||ak0gsh40.com^
 ||ak530.com/js/*.js
+||ak7ko01zs.com^
 ||akabebe.com/jgg/*.gif
 ||akakce.com/*/clickHeat/
 ||akamai.com/crs/lgsitewise.js
@@ -136592,6 +136601,7 @@ zzzyk.com###Tinfo
 ||apm-track.xiaohongshu.com^
 ||apm.infoldgames.com/v1/log/sendtlog
 ||apm.mitismartbd.com^
+||apm.qwant.com^
 ||apm.relationshipone.com^
 ||apm.tnet.nl^
 ||apm.yahoo.co.jp^
@@ -139741,6 +139751,7 @@ zzzyk.com###Tinfo
 ||barnacle.hearmeout.work^
 ||barnacle.natalieandmikeyb.com^
 ||barnacle.viewsource.io^
+||barqueue.com^
 ||barracuda.carte-gr.total.fr^
 ||barracuda.civicdatalibrary.org^
 ||barracuda.verto.exchange^
@@ -142074,6 +142085,7 @@ zzzyk.com###Tinfo
 ||bubblestat.com^$third-party
 ||bubblewrapp.actonservice.com^
 ||bubblyaction.com^
+||bubilet.com.tr/metrics/
 ||bucketlistbob.com^
 ||bucklemail.com/a/$image
 ||bucnmtv.top^
@@ -142744,6 +142756,7 @@ zzzyk.com###Tinfo
 ||caibaojian.com/d/uploads/*/atop-
 ||caibaojian.com/d/uploads/*0-
 ||caider.fun^
+||caido.io/stats/
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caimei.me^
@@ -148936,6 +148949,7 @@ zzzyk.com###Tinfo
 ||d485.capitalgazette.com^
 ||d48paxyhx.com^
 ||d4ax0r5detcsu.cloudfront.net^
+||d4rxxm6ig.com^
 ||d4vd.life/love/
 ||d4xmm7es84.com^
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
@@ -153391,6 +153405,7 @@ zzzyk.com###Tinfo
 ||dd.garena.com^
 ||dd.leboncoin.fr^
 ||dd.nytimes.com^
+||dd.qwant.com^
 ||dd.reuters.com^
 ||dd.seloger-bureaux-commerces.com^
 ||dd.seloger.com^
@@ -156247,6 +156262,7 @@ zzzyk.com###Tinfo
 ||easyliao.com^$third-party
 ||easyresearch.se^$third-party
 ||easysol.net^$third-party
+||easysyncnews.com^
 ||easytarget.ru^$third-party
 ||easytomessage.com^
 ||easytracking.de^$third-party
@@ -156869,6 +156885,7 @@ zzzyk.com###Tinfo
 ||efsa.onlinelibrary.wiley.com/wro/*~full-text-analytics.js
 ||efsqwi.krueger-dirndl.de^
 ||efstk.huntees.com^
+||efsy7b1x6.com^
 ||eftd.cn^
 ||efu871zc4.com^
 ||efukt.com/analytics-efukt.js
@@ -164761,6 +164778,7 @@ zzzyk.com###Tinfo
 ||gpcjz.kotomi.com.au^
 ||gpfol.rootsbyga.com^
 ||gpfuhw.spaghetti-interactive.it^
+||gpfwx.cn^
 ||gpgzbl.artistguitars.com.au^
 ||gphim.drinkctrl.com^
 ||gpiljd.thetiebar.com^
@@ -186349,6 +186367,7 @@ zzzyk.com###Tinfo
 ||m5.66077.cn^
 ||m5.amap.com/ws/shield/location/collection/autodata/stat^
 ||m583.dailydemocrat.com^
+||m5nv2f52i.com^
 ||m5uiy5gd1.com^
 ||m69tvg6wqd.com^
 ||m6c4t9vmqarj.www.cefirates.com^
@@ -193094,6 +193113,7 @@ zzzyk.com###Tinfo
 ||movable-ink-6710.com^$third-party
 ||movableobject.com^
 ||movad.de/c.ount?
+||movavi.com/proxysss/index.php
 ||movdrl.agriconomie.com^
 ||move.azets.com^
 ||move.azets.dk^
@@ -198340,6 +198360,7 @@ zzzyk.com###Tinfo
 ||panda.teraskolmio.fi^
 ||panda.unpublished.app^
 ||pandanetwork.club/le/in.php^$third-party
+||pandaproxy.production.cafemedia.com/topics/clickstream-event
 ||pandg.tapad.com^
 ||pandora.com/ping.txt
 ||panel-cn.com^
@@ -201417,6 +201438,7 @@ zzzyk.com###Tinfo
 ||propsynergy.com^
 ||proreacher-ss.checkoutera.com^
 ||prosecrets.pro/js/VietXfAdvStats/frontend.js
+||prosecute39.top^
 ||prospecteye.com^$third-party
 ||prospex.actonservice.com^
 ||protapes.actonservice.com^
@@ -202494,6 +202516,7 @@ zzzyk.com###Tinfo
 ||qlvftg.officeiten.jp^
 ||qm-g.actonservice.com^
 ||qm.redbull.com^
+||qmarcani.com^
 ||qmav.cn^
 ||qmavyy.icu^
 ||qmcfa.brecksbulbs.ca^
@@ -251520,6 +251543,7 @@ zzzyk.com###Tinfo
 ||xkzzz.com/zb_users/plugin/MoreLinks/MoreLinks.
 ||xl-trk.com^$third-party
 ||xl.pt/api/stats.ashx?
+||xl02.com.de/zzzzz
 ||xl720.com/tmp/
 ||xlapmx.mcsport.ie^
 ||xlardaxq.com^
