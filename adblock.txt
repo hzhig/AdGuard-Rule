@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-12 10:54:00(GMT+8) 
-! Total count: 254485
+! ! Version: 2026-05-12 22:23:49(GMT+8) 
+! Total count: 254503
  
 ###ADtip
 ###Ad_windows
@@ -13010,7 +13010,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js?id=GTM-WMQ82P6$domain=excite.co.jp
 @@||googletagmanager.com/gtm.js^$domain=asus.com
 @@||googletagmanager.com/gtm.js^$domain=benscrub.com
-@@||googletagmanager.com/gtm.js^$domain=boyner.com.tr
 @@||googletagmanager.com/gtm.js^$domain=brownbagcoffee.co.kr
 @@||googletagmanager.com/gtm.js^$domain=capterra.com
 @@||googletagmanager.com/gtm.js^$domain=cosstores.com
@@ -123157,6 +123156,7 @@ zh141.com###text1
 zh141.com##a[title*="廣告"]
 zhainanba.org##.marauto > p[style="text-align: left;"]
 zhakao.cn##.main > div[id^="_"][style^="box-sizing: content-box; display: block; position: fixed; z-index:"]
+zhale.me##.sponsor-card
 zhangxinxu.com##a[href*=".taobao.com"]
 zhangxinxu.com##div[class^="col-left"] > a[href^="https://item.jd.com/"][style="display:block!important;position:sticky;top:0;"]
 zhangxinxu.com#?#:-abp-properties(display: block;*width: 336px;)
@@ -125142,6 +125142,7 @@ zzzyk.com###Tinfo
 ||6pm.com/martypixel?
 ||6pm.com/onload.cgi?
 ||6pm.com/track.cgi?
+||6q77vsjez1.com^
 ||6quspne.com^
 ||6s0zo8jzbb.com^
 ||6s8w2ck1g.com^
@@ -141504,6 +141505,7 @@ zzzyk.com###Tinfo
 ||boylove.cc/static/js/yymh.js
 ||boylove.cc^*/img/20*.gif
 ||boyloves.fun^*/img/20*.gif
+||boyner.com.tr/1eus/
 ||boyvtr8.com^
 ||bozhou666.com^
 ||bp.blogspot.com^*/s1600/dealer
@@ -154747,6 +154749,7 @@ zzzyk.com###Tinfo
 ||dls-ddc.dqa.samsung.com^
 ||dls.guidrr.com^
 ||dls2s.appsflyer.com^
+||dlso-ap96.macgamingdb.app^
 ||dlswbr.baidu.com/heicha/mw/abclite-*.js
 ||dlswbr.baidu.com^
 ||dlsybe78o0.com^
@@ -158380,6 +158383,7 @@ zzzyk.com###Tinfo
 ||esofco.gsmbutik.ru^
 ||esogk.frannegolde.com^
 ||esomniture.com^$third-party
+||esoterictools.com^
 ||espaniapizza.openapp.link^
 ||espmp-agfr.net^
 ||espmp-aufr.net^
@@ -159658,6 +159662,7 @@ zzzyk.com###Tinfo
 ||fabricww.com^$third-party
 ||fabryczna.viessmann.pl^
 ||fabsd.trupeer.ai^
+||fabulousbooking.com^
 ||fabuye.vip/zhuanfa/
 ||fac.fanucamerica.com^
 ||facai383.oss-cn-guangzhou.aliyuncs.com^
@@ -160920,6 +160925,7 @@ zzzyk.com###Tinfo
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||flznib.weblio.jp^
 ||fm-analytics-api.pocketfm.com^
+||fm-analytics.cloudbees.io^
 ||fm.trustmartbdx.shop^
 ||fm086.com/Plugins/search
 ||fma7.aegon.es^
@@ -163223,6 +163229,7 @@ zzzyk.com###Tinfo
 ||giantsvessel.com^
 ||giaoji.com/Runtime/Js/
 ||gias.jd.com/js/td.js
+||giaumusnsj.com^
 ||gibbon.711.st^
 ||gid.tapapis.cn^
 ||giddycoat.com^
@@ -163406,6 +163413,8 @@ zzzyk.com###Tinfo
 ||glasscoyote.com^
 ||glassdoor.*/geb/events/
 ||glasses.decorise.pl^
+||glassesusa.com/bff/dynamicYield/pageview
+||glassesusa.com/scripts/|
 ||glassguide-au.autovistagroup.com^
 ||glassmoni.researchgate.net^
 ||glbgox.djoser.de^
@@ -193180,6 +193189,7 @@ zzzyk.com###Tinfo
 ||mpb1.iteye.com^
 ||mpc-co.actonservice.com^
 ||mpc.nicequest.com^
+||mpecom-analyticevents-prod.boyner.com.tr^
 ||mpfmb.eightsaintsskincare.com^
 ||mpglie.apartmentguide.com^
 ||mpgtft.zoobeauval.com^
@@ -194212,6 +194222,7 @@ zzzyk.com###Tinfo
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||n26iiffw9.com^
+||n2bqyqg5u3.com^
 ||n2d79v41a3.com^
 ||n2ivsbik2.com^
 ||n2xj2mxg3z.com^
@@ -196469,6 +196480,7 @@ zzzyk.com###Tinfo
 ||ofkccsp35i.com^
 ||ofkdoq.teetee.eu^
 ||ofkqiy.knowfashionstyle.com^
+||ofmxtlbgqp.com^
 ||ofoltekbn.com^
 ||ofooe.cn^
 ||ofovp.mypeakchallenge.com^
@@ -199304,6 +199316,7 @@ zzzyk.com###Tinfo
 ||peafowl.projectstrackt.dev^
 ||peahn.modlily.com^
 ||peakcounter.dk^$third-party
+||peakcreator.com^
 ||peaks.patagonia.com^
 ||pealefe.com^
 ||pear.ca-eko-globetrotter.fr^
@@ -205564,6 +205577,7 @@ zzzyk.com###Tinfo
 ||rvz9.destinia.co.ro^
 ||rvzlobj.cn^
 ||rw.marchex.io^
+||rw56y62bgg.com^
 ||rwbqll.top^
 ||rwcboa.rjliving.com.au^
 ||rwdito.carsguide.com.au^
@@ -211844,6 +211858,7 @@ zzzyk.com###Tinfo
 ||sfcbl.mejuri.com^
 ||sfcev.ragenationapparel.com^
 ||sfchronicle.com/413gkwMT/init.js
+||sfchronicle.com/api/client-logs
 ||sfcnhm.hyundaihmall.com^
 ||sfcv.chinavi-shop.jp^
 ||sfeedback.equa.cz^
@@ -236805,6 +236820,7 @@ zzzyk.com###Tinfo
 ||teslaamg.obs.cn-east-3.myhuaweicloud.com^
 ||test-ad.lucia-c.com^
 ||test-ad.mens-lucia.com^
+||test-api.ajansspor.xyz/analytics/
 ||test-app.getgifted.com^
 ||test-app.popsa.com^
 ||test-app.thetimes.link^
@@ -237054,6 +237070,7 @@ zzzyk.com###Tinfo
 ||tgt.maep.ibm.com^
 ||tgtag.io^$third-party
 ||tgtgzo.otelz.com^
+||tgurcoinei.com^
 ||tgw.gmx.ch^
 ||tgw.gmx.net^
 ||tgw.web.de^
@@ -237106,6 +237123,7 @@ zzzyk.com###Tinfo
 ||theav.xyz/anyalytics
 ||thebasiccompanies.actonservice.com^
 ||thebdx.actonservice.com^
+||thebell.io/o4e1/
 ||thebestlinks.com^$third-party
 ||thebigvan.com^
 ||theblock.co/api/analytics
