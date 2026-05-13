@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-12 22:23:49(GMT+8) 
-! Total count: 254503
+! ! Version: 2026-05-13 10:58:18(GMT+8) 
+! Total count: 254507
  
 ###ADtip
 ###Ad_windows
@@ -3617,6 +3617,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/cake/*$domain=nordstrom.com|nordstromrack.com
 /api/checkout/web/metrics|$domain=nordstrom.com|nordstromrack.com
 /api/click/*?c=
+/api/client-logs$domain=theridgefieldpress.com|thetelegraph.com|beaumontenterprise.com|bigrapidsnews.com|chron.com|ctinsider.com|ctpost.com|darientimes.com|seattlepi.com|expressnews.com|fuelfix.com|greenwichtime.com|houstonchronicle.com|lakecountystar.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|myplainview.com|mysanantonio.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|recordpatriot.com|registercitizen.com|seattlepi.com|sfchronicle.com|sfgate.com|sheltonherald.com|smallbusiness.chron.com|stamfordadvocate.com|theheraldreview.com|thehour.com|theintelligencer.com|timesunion.com|trumbulltimes.com|weekand.com|wiltonbulletin.com|work.chron.com|yourconroenews.com
 /api/cmp_tracker|
 /api/collect|$ping,xmlhttprequest
 /api/datafast/*
@@ -17507,12 +17508,6 @@ chyangwa.net,motorfans.com.cn##img[width^="1200"]
 chysg.com##img[width="232"][height="90"]
 ci123.com###fixed-recom
 ci123.com##div[onclick^="window.location="]
-cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505', 'emptyObj')
-cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.init', 'noopFunc')
-cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.quick', 'noopFunc')
-cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.registerPage', 'noopFunc')
-cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.track', 'noopFunc')
-cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.use', 'noopFunc')
 cibaipuki.com##.table2
 cibaipuki.com##.topnotice a:not([href='http://7a7c.com'])
 cibaipuki.com##A[href^='/article-list-id']
@@ -106038,6 +106033,12 @@ feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
 felixmobile.com.au#$##__next [style*="filter:blur"] { filter: none !important; }
+fenbi.com,cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505', 'emptyObj')
+fenbi.com,cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.init', 'noopFunc')
+fenbi.com,cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.quick', 'noopFunc')
+fenbi.com,cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.registerPage', 'noopFunc')
+fenbi.com,cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.track', 'noopFunc')
+fenbi.com,cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.use', 'noopFunc')
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -150448,6 +150449,7 @@ zzzyk.com###Tinfo
 ||data-afa7d79a5a.apps.iocnt.de^
 ||data-afa8dd5312.kleinezeitung.at^
 ||data-afd30fa9a3.apps.iocnt.de^
+||data-api.fenbi.com^
 ||data-b0980db7ec.wiwo.de^
 ||data-b0fd716f10.auto-medienportal.net^
 ||data-b19475ee82.weather.com^
@@ -153906,6 +153908,7 @@ zzzyk.com###Tinfo
 ||df.infra.sz.shopee.
 ||df.pmweb.com.br^$third-party
 ||df.tanx.com^
+||df33iyey8.com^
 ||df888.eastday.com^
 ||dfadas13.com^
 ||dfaikhkm.xyz^
@@ -176604,6 +176607,7 @@ zzzyk.com###Tinfo
 ||k8mb640mta.com^
 ||k8velr77p.com^
 ||k90ey77nx.com^
+||k98033ewp.com^
 ||k99.cc^$third-party
 ||k9egtgh8v.com^
 ||k9w4m.xyz^
@@ -180217,6 +180221,7 @@ zzzyk.com###Tinfo
 ||lm335.com^
 ||lm336.com^
 ||lm343.com^
+||lm4u6e80f.com^
 ||lm553.com^
 ||lm663.com^
 ||lm665.com^
@@ -211858,7 +211863,6 @@ zzzyk.com###Tinfo
 ||sfcbl.mejuri.com^
 ||sfcev.ragenationapparel.com^
 ||sfchronicle.com/413gkwMT/init.js
-||sfchronicle.com/api/client-logs
 ||sfcnhm.hyundaihmall.com^
 ||sfcv.chinavi-shop.jp^
 ||sfeedback.equa.cz^
