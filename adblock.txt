@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-13 22:32:09(GMT+8) 
-! Total count: 254525
+! ! Version: 2026-05-14 11:23:26(GMT+8) 
+! Total count: 254547
  
 ###ADtip
 ###Ad_windows
@@ -5268,7 +5268,6 @@ $websocket,domain=wap.yushuwu.cloud
 /link_track.js
 /linkinformer.js
 /linkpulse.js
-/links.gitlab.com/s/eo/*$image
 /links1.strava.com/*$image
 /linktrack.js
 /linktracker.js
@@ -10252,7 +10251,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
 ://line.karte.io/CI0/$image
-://links.flickr.com/s/eo/$image
+://links.*/s/eo/$image
 ://links.paypal.*/eos/$image
 ://load.*.js?st=$~third-party
 ://m.*.cn/*.xmtl?$third-party
@@ -11456,6 +11455,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.clerk.io/clerk.js$domain=industrivarer.no
 @@||cdn.clerk.io/clerk.js$domain=panzerglass.com
 @@||cdn.clerk.io/clerk.js$domain=smnovella.com
+@@||cdn.cquotient.com/js/*/gretel.min.js$domain=jp.drmartens.com
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=karstadt.de
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=sloggi.com
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=store.smart.com.ph
@@ -12081,6 +12081,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||e.cn.miaozhen.com/r/k=*=http
 @@||e.cquotient.com/recs/*?callback=$domain=karstadt.de
 @@||e.cquotient.com/recs/*?callback=$domain=sloggi.com
+@@||e.cquotient.com/recs/blgg-DoctorMartens/$domain=jp.drmartens.com
 @@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
 @@||e.zg-api.com/a/z/js/*/analytics.js$domain=zillow.com
 @@||e9china.net^$generichide
@@ -122878,6 +122879,7 @@ xxxdownloadsfree.blogspot.com##DIV[style*="position:fixed;width:100%;top:0px;hei
 xxxsm.vip##.ad280x165
 xxxsm.vip##a[href="ilupian8.html"]
 xydai.cn##.deanad4s
+xyg688.com##img[alt="广告"]
 xyj321.com##.foot_alert_wrap
 xyz:9002/*?x=$third-party
 xz.ccoo.cn##.index_banner
@@ -124258,6 +124260,7 @@ zzzyk.com###Tinfo
 ||2gis.ru/_/log
 ||2gis.ru/_/metrics
 ||2hiu.com^$third-party
+||2hlcovn7n.com^
 ||2i0lliongn.com^
 ||2ip.*/member_photo/$domain=~2ip.com|~2ip.ru
 ||2ip.io/sbar/$third-party
@@ -133390,7 +133393,9 @@ zzzyk.com###Tinfo
 ||alyssabelen.com^
 ||alzexa.com^$third-party
 ||alzns.carters.com^
+||am-match.taboola.com^
 ||am-trc-events.taboola.com^
+||am-vid-events.taboola.com^
 ||am.belambra.co.uk^
 ||am.belambra.com^
 ||am.doggyandmoggie.co.uk^
@@ -135235,6 +135240,7 @@ zzzyk.com###Tinfo
 ||andyhoppe.com/count/
 ||andyhoppe.com^$third-party
 ||anemonew33.top^
+||anesthesia58.top^
 ||anesthesiaos.actonservice.com^
 ||anet.abphotos.link^
 ||anews7.nvwu.com^
@@ -135529,6 +135535,7 @@ zzzyk.com###Tinfo
 ||api-developer.sephora.com/v1/sot/evtTopic?$ping
 ||api-es.apdetective.site^
 ||api-esp.piano.io/onsite/recdata/id/
+||api-events.taboola.com^
 ||api-fp-retry-bj.fengkongcloud.com^
 ||api-fp-retry-sa.fengkongcloud.com^
 ||api-fr.apdetective.site^
@@ -140206,6 +140213,7 @@ zzzyk.com###Tinfo
 ||beacon.skillable.com^
 ||beacon.sojern.com^
 ||beacon.statful.com^
+||beacon.taboola.com^
 ||beacon.tingyun.com^
 ||beacon.toyota.co.jp^
 ||beacon.tws.toyota.jp^
@@ -142645,6 +142653,7 @@ zzzyk.com###Tinfo
 ||c1hit.zerkalo.io^
 ||c1km4.com/mobile/app.js
 ||c1qm3mg41.com^
+||c2.taboola.com^
 ||c2000.cn/c2000/
 ||c212.net^$third-party
 ||c21x8nmdak.com^
@@ -144197,6 +144206,7 @@ zzzyk.com###Tinfo
 ||cdpdp.arcticcool.com^
 ||cdrhjt.com^
 ||cdrive.compellent.com^
+||cds.taboola.com^
 ||cdskjrg.giliarto.com^
 ||cdtm.cdiscount.com^
 ||cduxqw.afrika-safari.dk^
@@ -154896,6 +154906,7 @@ zzzyk.com###Tinfo
 ||dn*.ixinwei.com^
 ||dn.pt/scooby/api/v1/log/
 ||dn34cbtcv9mef.cloudfront.net^
+||dn666andut2j1.cloudfront.net^
 ||dn6ik9809m.com^
 ||dna.uol.com.br^
 ||dna8twue3dlxq.cloudfront.net^
@@ -160905,7 +160916,6 @@ zzzyk.com###Tinfo
 ||flsfzr.cn^
 ||flspf.mysupplementstore.com^
 ||fltuyy.philippemodel.com^
-||fluctuo.com^$third-party
 ||fluencymedia.com^$third-party
 ||fluentco.actonservice.com^
 ||fluffy-analytics.vercel.app^
@@ -169007,6 +169017,7 @@ zzzyk.com###Tinfo
 ||gyehtm.thebridge.it^
 ||gyhgcgj.xyz^
 ||gyjinchuang.vip^
+||gyoqnunyfy.com^
 ||gypowdr.com^
 ||gyq3bew.icu^
 ||gyqbrs.qvc.it^
@@ -170582,6 +170593,7 @@ zzzyk.com###Tinfo
 ||hoyoverse.com/dora/lib/sentry/
 ||hoyoverse.com^$cookie=_HYVUUID
 ||hoznpn.icu^
+||hp.taboola.com^
 ||hpark-adobe.branch.rocks^
 ||hpark-beta-moengage.branch.rocks^
 ||hpark-brazesp.branch.rocks^
@@ -171517,6 +171529,7 @@ zzzyk.com###Tinfo
 ||idx.lat^
 ||idyllicjazz.com^
 ||idynbff.cn^
+||idzdsbanio.com^
 ||ie-business.vodafone.com^
 ||ie-go.experian.com^
 ||ie-mktg.vodafone.com^
@@ -172726,6 +172739,7 @@ zzzyk.com###Tinfo
 ||importantmeat.com^
 ||importedinsect.com^
 ||impossibleexpansion.com^
+||imprammp.taboola.com^
 ||imprc.gotpouches.com^
 ||impress.vcita.com^
 ||impression-tracker-service-5eimuebuhq-lz.a.run.app^
@@ -194266,6 +194280,7 @@ zzzyk.com###Tinfo
 ||n730.timesunion.com^
 ||n74s9.com^$third-party
 ||n818.timesherald.com^
+||n8bpikx1mt.com^
 ||n906n29tm.com^
 ||na-pages.husqvarna.com^
 ||na.finekagu.com^
@@ -195779,6 +195794,7 @@ zzzyk.com###Tinfo
 ||nr-beacon.movingimage.com^
 ||nr-data.net^$third-party
 ||nr-data.noelleeming.co.nz^
+||nr-events.taboola.com^
 ||nr-js.imaios.com^
 ||nr.bidderstack.com^
 ||nr.noelleeming.co.nz^
@@ -200546,6 +200562,7 @@ zzzyk.com###Tinfo
 ||plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws^
 ||plwfwc.teknozone.it^
 ||plyizb.latour-lith.nl^
+||pm-widget.taboola.com^
 ||pm.boostintegrated.com^
 ||pm.dailykos.com^
 ||pm.eu.viatrisconnect.com^
@@ -214113,6 +214130,7 @@ zzzyk.com###Tinfo
 ||shonretimus.com^$third-party
 ||shoop.de/mgtrx/
 ||shop-apotheke.com/conversational-api/analytics
+||shop-apotheke.com/te/
 ||shop-cart.app^
 ||shop.actev.ca^
 ||shop.ajwahglobal.com^
@@ -233897,6 +233915,7 @@ zzzyk.com###Tinfo
 ||sync.programmatica.com^
 ||sync.rambler.ru^
 ||sync.shinobi.jp^
+||sync.taboola.com^
 ||sync.tv^$third-party
 ||syncope12.top^
 ||syndication.exosrv.com/splash.php?$xmlhttprequest,redirect=nooptext,important,domain=hboav.com
@@ -242546,6 +242565,7 @@ zzzyk.com###Tinfo
 ||trbas.com^$third-party
 ||trbett.oeko-planet.com^
 ||trbuod.megalos.co.jp^
+||trc-events.taboola.com^
 ||trc.demobaza.com^
 ||trc.empreenderdinheiro.com.br^
 ||trc.fitimins.com^
@@ -244397,6 +244417,7 @@ zzzyk.com###Tinfo
 ||u46.pnc.com^
 ||u4h8saw19.com^
 ||u4jlr6f6n2.com^
+||u4q3l5ksmw.com^
 ||u542.dailycamera.com^
 ||u55011.com^
 ||u566.chron.com^
@@ -246918,6 +246939,7 @@ zzzyk.com###Tinfo
 ||vidoza.net/papi/*/addevent/promo_data
 ||vidsgs4x4.com^
 ||vidsrc.icu/js/script-custom.js
+||vidstat.taboola.com^
 ||vidstream.pro/log/
 ||vidstream.pro/ping/
 ||vidtech.cbsinteractive.com/*/lib/tracking/adobe/VideoHeartbeat-
