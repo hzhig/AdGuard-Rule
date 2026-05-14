@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-14 11:23:26(GMT+8) 
-! Total count: 254547
+! ! Version: 2026-05-14 22:10:17(GMT+8) 
+! Total count: 254554
  
 ###ADtip
 ###Ad_windows
@@ -1498,6 +1498,7 @@
 ##div.module-list-right-title-wrap > div.normal-title-wrap > div > a
 ##div.my-ad > a
 ##div.page-d.page-turn > [style='position: relative; margin: auto; clear: both; width: 300px;']
+##div.page.list div.small-icon-container
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
@@ -124519,6 +124520,7 @@ zzzyk.com###Tinfo
 ||3pzqcv5hc5.com^
 ||3q3l.cn^
 ||3q9j4w2r9d.com^
+||3qtdjf4830.com^
 ||3qx0pnhyzi.com^
 ||3qxsa.cc/js/news2.js
 ||3rcld5y1dm.com^
@@ -175144,6 +175146,7 @@ zzzyk.com###Tinfo
 ||izooto.com^$third-party
 ||izopsg.icu^
 ||izremx.dentalplans.com^
+||izrtyacymo.com^
 ||iztwp.com/images/
 ||izwgxw.acordocerto.com.br^
 ||izzodzmuu.com^
@@ -191638,7 +191641,7 @@ zzzyk.com###Tinfo
 ||metrics.stockhead.com.au^
 ||metrics.store.irobot.com^
 ||metrics.strategiccoach.com^
-||metrics.streaks.jp^$redirect=nooptext,xmlhttprequest! url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+||metrics.streaks.jp^$redirect=nooptext,xmlhttprequest
 ||metrics.streaks.jp^$xmlhttprequest,redirect=nooptext
 ||metrics.striderite.com^
 ||metrics.strokeawareness.com^
@@ -193283,6 +193286,7 @@ zzzyk.com###Tinfo
 ||mqqad.html5.qq.com^
 ||mqs.ioam.de^
 ||mqsicr.smiggle.co.uk^
+||mqunqwsyrw.com^
 ||mquwyx.engelhorn.de^
 ||mqvhpi.fruties.pl^
 ||mqvyob.vidaxl.fi^
@@ -203378,6 +203382,7 @@ zzzyk.com###Tinfo
 ||rakuten.com/rmsgjs/soj2.js
 ||rakutenadvertising.io^$third-party
 ||rakuya.com.tw/position?task=
+||ralf.curvo.eu^
 ||ralphlauren.com^*/init.js
 ||ralphs.com/resources/*/collect?
 ||ralyxv.icu^
@@ -220084,6 +220089,7 @@ zzzyk.com###Tinfo
 ||source-ed91a21bf0.dastelefonbuch.de^
 ||source.chromium.org/v1/logging
 ||sourcecode.pro^$third-party
+||sourcecodeapp.com^
 ||sourcecodeinfo.com^
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||sourceoak.com^
@@ -220480,6 +220486,7 @@ zzzyk.com###Tinfo
 ||spookyskate.com^
 ||spookysleet.com^
 ||spookystitch.com^
+||spoonballoon.com^
 ||spooncast.net^$cookie=/^_hackle_/
 ||spoonsilk.com^
 ||spoor-api.ft.com^
