@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-15 22:05:37(GMT+8) 
-! Total count: 254699
+! ! Version: 2026-05-16 10:50:52(GMT+8) 
+! Total count: 254708
  
 ###ADtip
 ###Ad_windows
@@ -8768,7 +8768,7 @@ $websocket,domain=wap.yushuwu.cloud
 2471.sfap-qa1.marketingcloudqaops.com$image
 2471.sock-qa1.marketingcloudqaops.com$image
 24721.connector-qa1.marketingcloudqaapis.com$image
-247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,crooksandliars.com,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com#%#//scriptlet('ubo-acs', 'document.createElement', 'admiral')
+247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,crooksandliars.com,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,theprovince.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com#%#//scriptlet('ubo-acs', 'document.createElement', 'admiral')
 247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com,nypost.com,pagesix.com,pennlive.com,syracuse.com#%#//scriptlet('ubo-rmnt', 'script', '"data-adm-url"')
 248.connector-qa1.marketingcloudqaapis.com$image
 248.editor-qa1.marketingcloudqaapis.com$image
@@ -13566,6 +13566,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||luoxiadushu.com^$generichide
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||m.ddyueshu.cc/*common
+@@||m.happymh.com^$cookie=/^_ga_/
 @@||m.v.fwmrm.net/p/release/latest-JS/adm/prd/AdManager.js$domain=revision3.com
 @@||m1tm.insideevs.com/gtm.js$~third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
@@ -14739,6 +14740,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||ssl.geoplugin.net/javascript.gp$domain=retrohahn.myshopify.com
 @@||ssl.google-analytics.com$app=de.ottomatik.callapizza
 @@||ssl.google-analytics.com/ga.js$domain=gmail.com
+@@||ssl.kaptcha.com/collect/$domain=app.airtm.com
 @@||ssl.kaptcha.com/collect/$domain=auth.wyze.com
 @@||ssl.kaptcha.com/collect/$domain=balance.vanillagift.com
 @@||ssl.kaptcha.com/collect/$domain=mybalancenow.com
@@ -16245,7 +16247,7 @@ atlantic.avadacom.com$image
 atlassian-trk.prd.msg.ss-inf.net$image
 atoolbox.net###ad-coupon-search
 ats-mail.eqt.com$image
-attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,news8000.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 atyun.com###r_banner > ul > li > a[href^="http"]:not([href*="atyun."])
 atyun.com##.coupletbox
 audio.avadacom.com$image
@@ -125375,6 +125377,7 @@ zzzyk.com###Tinfo
 ||8147563.thekingdom.bk.com^
 ||8147563.your-way.bk.com^
 ||8181zx.com^
+||81bkkx81zd.com^
 ||81book.com/static/scripts/1.js
 ||81book.com/static/scripts/common.
 ||81wx.info^
@@ -162398,7 +162401,6 @@ zzzyk.com###Tinfo
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
 ||gamersky.com/wap/js/gs/gsAllOpenAppBtn.
-||gamersky.com^*/getAdPositionIncDetail?
 ||games-sdk.yandex.ru/games/api/sdk/v1/player/stats^
 ||games.ifeng.com^$subdocument
 ||games.ifeng.com^*.shtml?v=
@@ -174897,6 +174899,7 @@ zzzyk.com###Tinfo
 ||is-log.furunavi.jp^
 ||is.fi/stats/
 ||is.lg.com^
+||is16yobjh7.com^
 ||isac.thermofisher.com^
 ||isacglobal.com/sa.js
 ||isancio.top^
@@ -177192,7 +177195,6 @@ zzzyk.com###Tinfo
 ||kimonix.com/analytics/
 ||kindasingle.com^
 ||kindernetz.de/static/tracking/xtclicks.js
-||kindhush.com^
 ||kindhush.com^$redirect=noopjs,script
 ||kindlaundry.rdtrke.com^
 ||kindlereunion.com^
@@ -199314,6 +199316,7 @@ zzzyk.com###Tinfo
 ||pcbeta.com/data/cache/_djwbhgprrtnmby.js
 ||pcbeta.com/data/cache/common_fbdbbsyuzhttpx.js
 ||pcbghv.staypro.no^
+||pcc980pvul.com^
 ||pcci.pccinnovation.org^
 ||pccipieces.actonservice.com^
 ||pccomponentes.*/api/users/tracking/
@@ -201178,6 +201181,7 @@ zzzyk.com###Tinfo
 ||prepaymint.net^
 ||presage.io^$third-party
 ||prescouter.com/pd.js
+||prescription55.top^
 ||presentationtracking.netflix.com^
 ||preserved32.top^
 ||presetrabbits.com^
@@ -203042,6 +203046,7 @@ zzzyk.com###Tinfo
 ||qucncfo.cn^
 ||qucnmty.top^
 ||qucnwty.top^
+||qucxwvt.com^
 ||qudajie.com^
 ||qudao.com/common/minisite.js
 ||quebec.savills.ca^
@@ -206328,6 +206333,7 @@ zzzyk.com###Tinfo
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/jk/aabd/prod/adblockerdetector.umd.js
 ||s.yimg.com/ma/auc/common/js/ext_y_straas_shell_*.js$domain=tw.bid.yahoo.com
+||s.yimg.com/rx/ev/*/pframe.html$domain=aol.com
 ||s.yimg.com/ss/analytics-$script,domain=yahoo.com
 ||s.yimg.com/ss/analytics-*.js
 ||s.yimg.com/ss/analytics3.js
@@ -221842,6 +221848,7 @@ zzzyk.com###Tinfo
 ||ss.heatxperts.com^
 ||ss.hedgesdirect.co.uk^
 ||ss.helgstranddressage.com^
+||ss.hellotushy.com^
 ||ss.henriks-hotel.com^
 ||ss.henryarcher.com^
 ||ss.hepl.ch^
@@ -244159,6 +244166,7 @@ zzzyk.com###Tinfo
 ||turtle.mushtache.com^
 ||turtle.mydataroom.io^
 ||turtle.sid.scot^
+||turtleface.net^
 ||turtlemobile.com.tw^$third-party
 ||tus1iptahdpin01.net.jumia.cm^
 ||tushwjp.icu^
@@ -248334,6 +248342,7 @@ zzzyk.com###Tinfo
 ||wayfair.de/a/
 ||wayfinderanalytics.servicebus.windows.net^
 ||wayjoyfarm.com^
+||waylowrates.net^
 ||wayyaj8t094u.www.kodalia.com^
 ||waz.met.vgwort.de^
 ||wazimo.com^$third-party
