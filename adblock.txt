@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-18 11:37:57(GMT+8) 
-! Total count: 254374
+! ! Version: 2026-05-18 23:30:30(GMT+8) 
+! Total count: 254383
  
 ###ADtip
 ###Ad_windows
@@ -1415,7 +1415,7 @@
 ##body > div#inplayer[align="center"]
 ##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 ##body > div[style$=";background: #000;opacity:0.01;"]
-##body > div[style=" max-width:990px; margin:0 auto;"]:first-child > a[target="_blank"]
+##body > div[style=" max-width:990px; margin:0 auto;"] > a[target="_blank"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > embed[id][src*="://"][src$="="]
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
@@ -138284,7 +138284,7 @@ zzzyk.com###Tinfo
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
 ||assets.9gtb.com^
-||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
+||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com|skinny.co.nz
 ||assets.adobedtm.com^$app=com.aa.android|uk.co.thetimes|de.spiegel.android.app.spon|com.hilton.android.hhonors
 ||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com|ubs.com|assets.adobedtm.com|eadt.co.uk|cineplex.com|samsung.com|mastercard.com
 ||assets.adsttc.com/insights/form-funnel.min.js
@@ -171250,6 +171250,7 @@ zzzyk.com###Tinfo
 ||i3zh.com/wp-content/plugins/cm-pop-up-banners/
 ||i4320rdrta.com^
 ||i5ixiwch2f.themakersmob.com^
+||i5le8m3qxs.com^
 ||i5q1t8vj9.com^
 ||i5qquywfz.com^
 ||i5rp73ne9h.com^
@@ -172691,6 +172692,7 @@ zzzyk.com###Tinfo
 ||immoweb.be/*/track/
 ||immowelt.de/serp-bff/analytics/
 ||immunity44.com^
+||immunity95.com^
 ||immunocap.thermofisher.com^
 ||immunocorp.actonservice.com^
 ||imnks.com/ad2023/$image
@@ -175953,6 +175955,7 @@ zzzyk.com###Tinfo
 ||joqdd.madeincookware.com.au^
 ||jornal.tesouros-da-julia.com^
 ||joskgw.sewingmachinesplus.com^
+||josqdb7jn4.com^
 ||jotedd.icu^
 ||jotform.io/getReferrer/$third-party
 ||jothvz.xyz^
@@ -195750,6 +195753,7 @@ zzzyk.com###Tinfo
 ||nrephihe.com^
 ||nrepr.thegymking.com^
 ||nrert.brighton.com^
+||nresystems.com^$third-party
 ||nrg.red-by-sfr.fr^
 ||nrich.ai^$third-party
 ||nrils.michaelkors.com^
@@ -230893,6 +230897,7 @@ zzzyk.com###Tinfo
 ||statistx.com^$third-party
 ||statix.business-gazeta.ru/js/components/metrics.js
 ||statix.business-gazeta.ru/js/components/murmur.js
+||statlytic.net^
 ||statlytic.net^$third-party
 ||statm.the-adult-company.com^
 ||statman.sesong.info^
@@ -251746,6 +251751,7 @@ zzzyk.com###Tinfo
 ||xtazfx.50factory.com^
 ||xtbzff.xyz^
 ||xtcpby.skechers.com^
+||xtg5gdugqi.com^
 ||xtgreat.com^$third-party
 ||xthaap.schwaebische-alb-jobanzeiger.de^
 ||xthhod.beevitamins.com.au^
@@ -252829,6 +252835,7 @@ zzzyk.com###Tinfo
 ||yto3kavwud.com^
 ||ytoontoteh.com^
 ||ytouvy.arezzo.com.br^
+||ytpfbbg6hl.com^
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
 ||ytralvbmto.com^
@@ -253878,6 +253885,7 @@ zzzyk.com###Tinfo
 ||zmetrics.msn.com^
 ||zmfdxt.megastudy.net^
 ||zmg15qfvi.com^
+||zmhpphp.forum^
 ||zmhqhuq.cn^
 ||zmhsxr.hometogo.com^
 ||zmiqg.eccouncil.org^
@@ -254063,6 +254071,7 @@ zzzyk.com###Tinfo
 ||zrjr81na94.com^
 ||zrjvg.splits59.com^
 ||zrjzi.geturbanleaf.com^
+||zrkeirapi.com^
 ||zrknjk.countrystorecatalog.com^
 ||zrktaa.cityfurniture.com^
 ||zrljzgs.xyz^
