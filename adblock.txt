@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-19 11:31:11(GMT+8) 
-! Total count: 254388
+! ! Version: 2026-05-19 23:19:33(GMT+8) 
+! Total count: 254399
  
 ###ADtip
 ###Ad_windows
@@ -11174,6 +11174,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||assets.adobedtm.com/*/satelliteLib-*.js$domain=docs.nvidia.com
 @@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
 @@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=bestbuy.ca|identity.healthsafe-id.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
+@@||assets.adobedtm.com^$domain=realtor.com
 @@||assets.customer.io/assets/track.js$domain=buffer.com
 @@||assets.espn.go.com/espn360/builds/nielsen/ggce*.swf
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
@@ -116983,6 +116984,7 @@ sasadown.cn###float_mask
 sblunwen.com###popupService
 sblunwen.com##.c11
 sbs-mkt-stage1-res.adobe-campaign.com$image
+sbs.co.kr#%#//scriptlet('set-cookie', '__suuid', '1', '/', '.sbs.co.kr')
 sc-email.londontechweek.com$image
 scan-manga.com###pub_f0
 scarfilm.org##.footer-col-3
@@ -118258,6 +118260,7 @@ theav.xyz##div[v-if="is_show()"]
 theav.xyz,69xx.one,theporn.cc#$##alert_windows { display: none !important; }
 theav.xyz,69xx.one,theporn.cc#$#.q-body--prevent-scroll { position: static !important; }
 theav.xyz,69xx.one,theporn.cc#%#//scriptlet("set-constant", "is_show", "false")
+thebaynet.com#@#.ad-above-footer
 thebell.io%2Fadmin%2Fimages%2Femail%2Fblank.gif$image
 thebell.io/admin/images/email/blank.gif$image
 thebitcoinsheep.com##.col-md-6 font[size="5"] > font[color="white"] > font[color="white"][size="3"]
@@ -124551,6 +124554,7 @@ zzzyk.com###Tinfo
 ||3x1ry6we9.com^
 ||3x5h6x434.com^
 ||3x8zapzon.com^
+||3xeedcdci.com^
 ||3xeo00tqz.com^
 ||3yej.xyz^
 ||3yq51wjim.com^
@@ -135967,6 +135971,7 @@ zzzyk.com###Tinfo
 ||api.fpleme.com.br^
 ||api.fratini.com.br^
 ||api.fraytreinamentos.com.br^
+||api.frontdoor.realtor.com/prism-ingestion-api/
 ||api.fubo.tv/papi/v1/tracking
 ||api.fuck.education^
 ||api.fueltech.com.br^
@@ -145009,6 +145014,7 @@ zzzyk.com###Tinfo
 ||claynelsonlifebalance.actonservice.com^
 ||clb.biz/Public/static/js/common-v2.js
 ||clb.yahoo.co.jp^
+||clb.yahooapis.jp^
 ||clc.stackoverflow.com^
 ||clck.dzen.ru/click/$ping
 ||clck.dzen.ru/click|
@@ -149011,6 +149017,7 @@ zzzyk.com###Tinfo
 ||d99xz3flubf0x.cloudfront.net/js/payhelm.*.js
 ||d9jj3mjthpub.cloudfront.net^
 ||d9q4aa05g4.com^
+||d9zx24n0d.com^
 ||da-fan-shu.cn/images/kuaijie.jpg
 ||da-kolkoz.com/da-top/track/
 ||da-stats.sladewatkins.net^
@@ -155451,6 +155458,7 @@ zzzyk.com###Tinfo
 ||dsas-t.danawa.com^
 ||dsas.danawa.com^
 ||dsb.yahoo.co.jp^
+||dsb.yahooapis.jp^
 ||dsbahmgppc0j4.cloudfront.net^
 ||dsbjdeh.cn^
 ||dsbt7.com^
@@ -239919,6 +239927,7 @@ zzzyk.com###Tinfo
 ||trace-*.free-reels.com^
 ||trace-*.hungrypanda.co^
 ||trace-2000.com^$third-party
+||trace-flow.ru^
 ||trace.51jingying.com^
 ||trace.bluemonkey.jp^
 ||trace.events^$third-party
@@ -249265,6 +249274,7 @@ zzzyk.com###Tinfo
 ||wildcat.restq.co^
 ||wildcommittee.com^
 ||wildebeest.quarva.dev^
+||wildpetalfarm.com^
 ||wildwist.com^
 ||wildwoodavenue.com^
 ||wiley.met.vgwort.de^
@@ -249550,6 +249560,7 @@ zzzyk.com###Tinfo
 ||woodstock.viessmann.com.au^
 ||woodtone.actonservice.com^
 ||woof.psi-lekarna.cz^
+||woofweather.com^
 ||woolstapler.com^
 ||woomy.me^$third-party
 ||woonboulevardpoortvliet.nl/*/Tagging_GTM/
