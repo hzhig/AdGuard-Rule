@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-22 11:36:43(GMT+8) 
-! Total count: 32568
+! ! Version: 2026-05-22 22:37:28(GMT+8) 
+! Total count: 32575
  
 ###ADtip
 ###Ad_windows
@@ -5594,6 +5594,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest
 @@||myspass.de/myspass/includes/apps/video/getvideometadataxml.php?$object-subrequest
 @@||myssl.com/scripts/analyze.js
+@@||mytvsuper.com^$generichide
 @@||naasongs.com^$generichide
 @@||nadajemy.pl/*/adsense/ad/banner/adv.js$script
 @@||napisy24.pl/run/js/ads/$script
@@ -6150,6 +6151,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tv3sport.dk^$elemhide
 @@||tv99.tv^$generichide
 @@||tvb.com/social/share_
+@@||tvb.com^$generichide
 @@||tvb.com^*/videojs.ads.
 @@||tvbanywherena.com^$generichide
 @@||tvseriesonline.pl/wp-content/themes/tvseriesonline/js/adsbygoogle.js$script
@@ -17790,6 +17792,7 @@ zzzyk.com###Tinfo
 ||a32a.com.cn^$third-party
 ||a48505.cn^
 ||a4bbltm3u2.com^
+||a4j126meg3.com^
 ||a4sz.xyz^
 ||a4xvv2g18l.com^
 ||a51wzxssu.com^
@@ -21637,6 +21640,7 @@ zzzyk.com###Tinfo
 ||f77j6t2b.com^
 ||f77xv3.top^
 ||f7eiavl95.com^
+||f7qhnenfbo.com^
 ||f7tkpjw6v.com^
 ||f7ugx6b863.com^
 ||f8c2gftcsj.com^
@@ -21979,6 +21983,7 @@ zzzyk.com###Tinfo
 ||friendshipmale.com^
 ||frontendjs.com/api/ad
 ||fronttoad.com^
+||frp8r3le9c.com^
 ||frpns.com^
 ||frrhdl.xyz^
 ||frsejhged.xyz^
@@ -27789,6 +27794,7 @@ zzzyk.com###Tinfo
 ||qudajie.com^
 ||qudao.com/common/minisite.js
 ||quge66.com/jdjd/
+||quince22.top^
 ||qujishu.com^
 ||qunar.com/js/ga.min.js
 ||qunar.com/render/*Advertisement.jsp?
@@ -29129,6 +29135,7 @@ zzzyk.com###Tinfo
 ||t7x22m7c.com^
 ||t7ywa5ai3.com^
 ||t8t8jyxsr.com^
+||t9x2gu6it3.com^
 ||ta.trs.cn^$third-party
 ||ta20k.xyz^
 ||ta7088hrd.com^

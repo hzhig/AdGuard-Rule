@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-22 11:36:43(GMT+8) 
-! Total count: 254431
+! ! Version: 2026-05-22 22:37:28(GMT+8) 
+! Total count: 254442
  
 ###ADtip
 ###Ad_windows
@@ -13795,6 +13795,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest
 @@||myspass.de/myspass/includes/apps/video/getvideometadataxml.php?$object-subrequest
 @@||myssl.com/scripts/analyze.js
+@@||mytvsuper.com^$generichide
 @@||n8s.jp^$script,domain=nikkei.com
 @@||naasongs.com^$generichide
 @@||nadajemy.pl/*/adsense/ad/banner/adv.js$script
@@ -15113,6 +15114,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tv5.org/cms/javascript/*/sitestat.js
 @@||tv99.tv^$generichide
 @@||tvb.com/social/share_
+@@||tvb.com^$generichide
 @@||tvb.com^*/videojs.ads.
 @@||tvbanywherena.com^$generichide
 @@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
@@ -128343,6 +128345,7 @@ zzzyk.com###Tinfo
 ||a48505.cn^
 ||a4b-tracking.com^$third-party
 ||a4bbltm3u2.com^
+||a4j126meg3.com^
 ||a4sz.xyz^
 ||a4xvv2g18l.com^
 ||a51wzxssu.com^
@@ -138015,6 +138018,8 @@ zzzyk.com###Tinfo
 ||area51.to^$third-party
 ||arega.petalsgummies.com^
 ||arena-quantum.co.uk^$third-party
+||arena.ai/rpc/e/
+||arena.ai/rpc/i/v0/e/
 ||arena.im/v2/collect
 ||areyoutherenow.com^
 ||argos.citruserve.com^
@@ -159686,6 +159691,7 @@ zzzyk.com###Tinfo
 ||f793.inc.com^
 ||f7ds.liberation.fr^
 ||f7eiavl95.com^
+||f7qhnenfbo.com^
 ||f7tkpjw6v.com^
 ||f7ugx6b863.com^
 ||f82.ayudadedeuda.com^
@@ -161717,6 +161723,7 @@ zzzyk.com###Tinfo
 ||frostnsullivan.advancedtech.com^
 ||frostpocket.com^
 ||frozekitchen.com^
+||frp8r3le9c.com^
 ||frpns.com^
 ||frqbff.hedleyandbennett.com^
 ||frqjv.cannas.net^
@@ -202929,6 +202936,7 @@ zzzyk.com###Tinfo
 ||quillkick.com^
 ||quiltquick.com^
 ||quiltruler.com^
+||quince22.top^
 ||quinceimaging.actonservice.com^
 ||quintelligence.com^$third-party
 ||quirklogic.actonservice.com^
@@ -234909,6 +234917,7 @@ zzzyk.com###Tinfo
 ||t969.sentinelandenterprise.com^
 ||t9h2.ricardocuisine.com^
 ||t9k3a.jeanpaulfortin.com^
+||t9x2gu6it3.com^
 ||ta.charlestyrwhitt.com^
 ||ta.elevation.day^
 ||ta.personligtraning.com^
@@ -249632,6 +249641,7 @@ zzzyk.com###Tinfo
 ||workplace.ricoh.de^
 ||workplace.ricoh.ie^
 ||workplace.ricoh.it^
+||workplacelight.com^
 ||workplacesolutions.equifax.com^
 ||workplacesolutions.inform.equifax.com^
 ||workshop39.top^
@@ -252088,6 +252098,7 @@ zzzyk.com###Tinfo
 ||yaayoi.neatfx.fr^
 ||yac5t.cn^
 ||yachtingnetwork.it/stat/
+||yachtloft.com^
 ||yadro.ru^
 ||yadtbk.blacks.co.uk^
 ||yag.ferreiratrader.com.br^
