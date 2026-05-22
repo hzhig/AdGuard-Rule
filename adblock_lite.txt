@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-21 23:23:44(GMT+8) 
-! Total count: 32565
+! ! Version: 2026-05-22 11:36:43(GMT+8) 
+! Total count: 32568
  
 ###ADtip
 ###Ad_windows
@@ -711,6 +711,7 @@
 ##.nQIAj1
 ##.nav-ads
 ##.nav-area + .wrapper .tuiguang
+##.newsAD
 ##.newstyle > .container > a[target="_blank"]
 ##.newstyle > a > img[src*="img.com/i/"]
 ##.no-mobile[style="position: fixed;right:0px;bottom: 0px;"]
@@ -4339,6 +4340,7 @@ $websocket,domain=wap.yushuwu.cloud
 :81/c/i.php?id=$script
 :81/s/i.php?id=$script
 :818/nowscore/
+:866/o.js$script,third-party
 :8686/8888/*.gif$third-party,image
 :88/999pc/
 :88/lighttpd/default/
@@ -14068,6 +14070,7 @@ starmusiq.com###adblock-detector-popup-alert
 start.firefoxchina.cn##.mod-delay-resource
 start.firefoxchina.cn##.wrap > div[style]:last-child
 stat-nba.com###ad_video
+staticfile.link###player_pause
 stbemucode.com##DIV.header-ads
 stbemucode.com##IFRAME[frameborder='0'][marginheight='0']
 stc.gov.cn###mov
