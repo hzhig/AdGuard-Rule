@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-23 10:53:48(GMT+8) 
-! Total count: 254447
+! ! Version: 2026-05-23 21:23:53(GMT+8) 
+! Total count: 254454
  
 ###ADtip
 ###Ad_windows
@@ -12008,6 +12008,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||directline.com/touchclarity/$script
+@@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||disqus.com/api/3.0/embed/threadDetails.json
 @@||disqus.com/api/3.0/posts/$document
@@ -124210,6 +124211,7 @@ zzzyk.com###Tinfo
 ||258zw.com^$third-party
 ||25ix8gm8ien.sandbox.panprices.com^
 ||25rpllbbg.com^
+||25t9uxgnx.com^
 ||268de.com/js/
 ||26gg.bnq86.com^$third-party
 ||26img.com/nnn2/188.js
@@ -124547,6 +124549,7 @@ zzzyk.com###Tinfo
 ||3rre9r4t2.com^
 ||3rsppty.cn^
 ||3ryin2uj0x.com^
+||3s7m2ss7g.com^
 ||3s8rz1nq6yw.nightowl.app^
 ||3sat.de/mediaplayer/*/plugins/IVWTrackingPlugin.swf
 ||3sat.de/mediathek/xmlservice/web/tracking
@@ -125596,6 +125599,7 @@ zzzyk.com###Tinfo
 ||9735476.test.skyscanner.net^
 ||9786.pandasuite.io^
 ||97kpz.com/js/bbk/g.js
+||97vk351gi.com^
 ||98.126.219.*/ads/
 ||98158.com^
 ||9831tb.com^
@@ -237174,6 +237178,8 @@ zzzyk.com###Tinfo
 ||thegreatesthits.takustik.com^
 ||theguardian.com^$removeparam=CMP
 ||theguru.co.kr/weblog/gtracker.php
+||thehackernews.com/ga/c
+||thehackernews.com/ga4/c
 ||thehackernews.com/zscripts/
 ||thehill.com/6zcfGH4h/init.js
 ||thehour.com/413gkwMT/init.js
@@ -247813,6 +247819,7 @@ zzzyk.com###Tinfo
 ||w3counter.com^$third-party
 ||w3cschool.cn/attachments/image/20170919/1505817817281252.jpg
 ||w3cschool.cn/index/*Advert
+||w3fov7zal.com^
 ||w3t.cn^*/fx.js
 ||w3track.com/newtrk/$third-party
 ||w3xue.com/js/pro541.js
