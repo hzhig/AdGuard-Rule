@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-23 21:23:53(GMT+8) 
-! Total count: 32582
+! ! Version: 2026-05-24 11:33:22(GMT+8) 
+! Total count: 32573
  
 ###ADtip
 ###Ad_windows
@@ -1793,11 +1793,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/tonglan2.js
 .com/topjs/
 .com/uploads/*-860x250.gif
-.com/vh1/$script,third-party
-.com/vh2/$script,third-party
-.com/vh5/$script,third-party
-.com/vj1/$script,third-party
-.com/vj2/$script,third-party
 .com/vodad.js
 .com/xz/*?token8=
 .com/zz/*2.txt$xmlhttprequest
@@ -2039,7 +2034,6 @@ $websocket,domain=wap.yushuwu.cloud
 /993dy_new//gg123/*
 /99rejs/js/adv
 /99vjj/*$third-party
-/://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /A-Tian/Tian-*-good.js
 /A-duoduo/Add-
 /AD2v1.1.js
@@ -2087,9 +2081,6 @@ $websocket,domain=wap.yushuwu.cloud
 /V.aspx?Bln=$script,third-party
 /View/img/b72890.jpg
 /[a-z0-9]+\.[a-z0-9]+\//$denyallow=cidetxt.cc,domain=cidetxt.cc,subdocument,script
-/\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
-/\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
-/\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
 /\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 /\/[a-z0-9]+$/$script,third-party,domain=gimy1.com|gimy.com.tw
 /\/\w{17}\//$script,~third-party,domain=xiguashuwu4.com|xiguashuwu.com|shruxiang.com|lancaizhu.com|haitangwenxue999.com|hbhmzt.com
@@ -4350,14 +4341,11 @@ $websocket,domain=wap.yushuwu.cloud
 :8888/zhu/pc_
 :8888/zhu/wap_
 :8891/v*$third-party
-:8891/v*/$script,third-party
 :8898/ads_
 :900*/d/*n=$script,third-party
 :900*/d/*t=$script,third-party
 :900*/sc/*n=$script,third-party
 :9001/code/
-:9875/vh2/
-:9875/vj2/
 :99/js/ads/
 =AdCode_$script,third-party
 =AdCode_sjdb
@@ -21595,6 +21583,7 @@ zzzyk.com###Tinfo
 ||exhibits86.com^
 ||exinariuminix.info^
 ||existences2.top^
+||exmoo.com/js/ad-position/
 ||expediency36.com^
 ||expreview.com/baba/
 ||ext.baidu.com^
@@ -26799,6 +26788,7 @@ zzzyk.com###Tinfo
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
 ||open.oneplus.net^
+||opendsp.vip^
 ||openinstall.io^$third-party
 ||openrcv.baidu.com^
 ||operetta17.com^
@@ -28033,6 +28023,7 @@ zzzyk.com###Tinfo
 ||rhiolf.cn^
 ||rhlxm.top^
 ||rhmt1jjyo.com^
+||rhododendron15.top^
 ||rhrrf.cn^
 ||rhtc.quanminyouxi.cn^
 ||riaway.com/statics/idea.jpg
@@ -30494,6 +30485,7 @@ zzzyk.com###Tinfo
 ||w3xue.com/js/pro541.js
 ||w3ytzqm3d.com^
 ||w41.i7x3.fun^
+||w4nw434j7n.com^
 ||w4sn20zpvz.com^
 ||w505cb.cc^
 ||w505cb.com^
@@ -30594,6 +30586,7 @@ zzzyk.com###Tinfo
 ||wddsva0.com^
 ||wde0a1qrm.com^
 ||wdff.buzz/hengf.
+||wdp5rczwlp.com^
 ||wdpkx.cn^
 ||wdrn97z1o.com^
 ||wdswgjn.cn^
@@ -32307,8 +32300,6 @@ zzzyk.com###Tinfo
 ||zhuqellv.com^
 ||zhushou.360.cn/script/plugin_tiper.js
 ||zhuwang.cc/api.php?op=ad_
-||zhuys.com/js/ysmm.
-||zhuys.com^*.php
 ||zhwzsym.top^
 ||zhy333.com^$third-party
 ||zhzyw.com/js/InsertJS.js
