@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-25 11:43:49(GMT+8) 
-! Total count: 32582
+! ! Version: 2026-05-25 22:52:43(GMT+8) 
+! Total count: 32587
  
 ###ADtip
 ###Ad_windows
@@ -12877,7 +12877,7 @@ pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping0.cc###adbright
 ping0.cc##.xzeles
-ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
+ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -19797,7 +19797,7 @@ zzzyk.com###Tinfo
 ||cdn.jquery-cdn.cc^
 ||cdn.ouo.io/js/full-page-script.js$script,third-party
 ||cdn.pcworld.*/idg_gpt_pipeline_$script
-||cdn.ping0.cc/images/ax/*.gif$~third-party
+||cdn.ping0.cc/images/dx/*.gif$~third-party
 ||cdn.q.gs/js/display.js$script,third-party
 ||cdn.q.gs/js/entry.js$script,third-party
 ||cdn.q.gs/js/link-converter.js$script,third-party
@@ -20494,6 +20494,7 @@ zzzyk.com###Tinfo
 ||d3s9in1sg.com^
 ||d4.sina.com.cn^$object,script
 ||d48paxyhx.com^
+||d4dlgw9mi.com^
 ||d4rxxm6ig.com^
 ||d4vd.life/love/
 ||d4xmm7es84.com^
@@ -25202,6 +25203,7 @@ zzzyk.com###Tinfo
 ||lixiaodongcy.com^
 ||lizehuandian.top^
 ||lj0hx1sboy.com^
+||lj43bm3y8.com^
 ||ljarfvg.cn^
 ||ljvt4pnl9.com^
 ||lk0v8teerw.com^
@@ -26693,6 +26695,7 @@ zzzyk.com###Tinfo
 ||ohvk.cn^
 ||ohvtrokyq.com^
 ||ohwb.cn^
+||oi0wm8b09.com^
 ||oi9rp7.online^
 ||oiewpw.com^
 ||oifyeldk.top^
@@ -30250,6 +30253,7 @@ zzzyk.com###Tinfo
 ||vhsutpgui.xyz^
 ||vhulan.com^
 ||vhutitpu.icu^
+||vhwrju18p.com^
 ||vhxahf.icu^
 ||vickyellend.com^
 ||victoriaelmae.com^
@@ -32032,6 +32036,7 @@ zzzyk.com###Tinfo
 ||z84dbowgc.com^
 ||z93grqmdaq.com^
 ||z9dy1kq9wv.com^
+||z9o0rgee8.com^
 ||z9sab7vr0b.com^
 ||zabdybod*.club^
 ||zacff.com^
