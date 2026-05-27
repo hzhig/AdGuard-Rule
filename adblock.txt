@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-26 23:25:04(GMT+8) 
-! Total count: 254255
+! ! Version: 2026-05-27 11:43:07(GMT+8) 
+! Total count: 254275
  
 ###ADtip
 ###Ad_windows
@@ -1931,9 +1931,13 @@ $cookie=gaClientId
 $cookie=gam_ppid
 $cookie=gckp
 $cookie=globalTI_SID
+$cookie=gnt_i
+$cookie=gnt_ti
 $cookie=gptrackCookie
 $cookie=gptrackPVID
 $cookie=granify.uuid
+$cookie=gup_anonid
+$cookie=gup_clientid
 $cookie=h_zdbb
 $cookie=iawip
 $cookie=iawppid
@@ -11747,6 +11751,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cnprint.org^$generichide
 @@||cnr.cn/gg/
 @@||cnsexy.top/wp-content/plugins/dh-anti-adblocker/assets/js/showads.js
+@@||cnstrc.com/js/cust/indigo_pAkokG.js$domain=indigo.ca
 @@||cnstrc.com/js/cust/swanson-health_*.js$domain=swansonvitamins.com
 @@||cntv.cn/include/video/js/cntv_Advertise.js
 @@||cntv.cn^*_ad.js
@@ -13925,6 +13930,8 @@ $websocket,domain=wap.yushuwu.cloud
 @@||online.rshb.ru/rshb-mbfl/plugins/
 @@||online.unionpay.com/ads/$script
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
+@@||onlinestarten.net/assets/*sn1_dvt-prod.js$domain=247sports.com
+@@||onlinestarten.net^$xmlhttprequest,domain=247sports.com
 @@||ooyala.com/3rdparty/comscore_$domain=livetvcafe.net
 @@||ooyala.com/3rdparty/comscore_*.swf$domain=bloomberg.com|businessweek.com|greentechmedia.com
 @@||ooyala.com/crossdomain.xml
@@ -16093,6 +16100,8 @@ apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirs
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
 apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apo-prod.adobe.io%2Fpo-server%2Flink%2Fopen$image
+apo-prod.adobe.io/po-server/link/open$image
 apowersoft.cn##.activity-poster
 app.businessmaking.progress.net%2Fe%2F*%3Felq%3D$image
 app.businessmaking.progress.net/e/*?elq=$image
@@ -115838,6 +115847,7 @@ pcworks.cn##.md-show
 pcworks.cn##.xintheme-ad
 pcworld.com#%#//scriptlet('href-sanitizer', 'a[href*="skimresources.com"]', '?url')
 pebx.pl#@#.adsbygoogle
+pedalparts.co.kr#%#//scriptlet('set-constant', 'aCounterPageScriptGoodsView', 'noopFunc')
 peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/attachment/portal/"]
 pelikan.*#%#//scriptlet('set-local-storage-item', 'PAPVisitorId', '$remove$')
 pellejss.info$image
@@ -116108,6 +116118,8 @@ postmaster.mailgun.multoweb.nl$image
 postmaster.mg.hotelhead.de$image
 postmaster.mistersmoke.happycustomer.io$image
 postmaster.mtrl.me$image
+postoffice.adobe.com%2Fpo-server%2Flink%2Fopen$image
+postoffice.adobe.com/po-server/link/open$image
 power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
 power.baidu.com,zhidao.baidu.com##.wgt-clew[data-type="goods"]
 powerhousefamily.xyz$image
@@ -119453,6 +119465,7 @@ tuliu.com###vFloat
 tuliu.com##.info-recommend
 tuliu.com##.zx-advertising-box
 tumutanzi.com###text-3
+tupaki.com##div[id^="detail_wrap_ad"]
 turbodebrideur.com#@##pubdirecte
 turbogenerator.info###anuncio
 turbogenerator.info###blanuncio
@@ -169345,6 +169358,7 @@ zzzyk.com###Tinfo
 ||hawk.mjsarfatti.com^
 ||hawk.techradar.com/js/*/analytics-library-entry-getCustomTrackingId.js
 ||hawky.pcgamer.com/js/*/analytics-library-entry-getCustomTrackingId.js
+||hawthorn33.top^
 ||hawthorng66.top^
 ||hax.co.id/dist/js/ajax.js
 ||haxddr.crocieraonline.com^
@@ -175275,6 +175289,7 @@ zzzyk.com###Tinfo
 ||jcula.knixteen.ca^
 ||jcwtml.icu^
 ||jcxsrh.aalok.com^
+||jcyy3wifq.com^
 ||jcyyxq.joker-ev.jp^
 ||jd-bbs.com^*/gif/
 ||jd.com/bottom/cps
@@ -186614,6 +186629,7 @@ zzzyk.com###Tinfo
 ||malluktig.in^
 ||malmo.travelafricamag.com^
 ||malog.byapps.co.kr^
+||maltadaily.mt/api/ad-track|
 ||mamecn.com/style/pcjs/bgimg.
 ||mamibuy.com.tw/Ad/Period.aspx
 ||mamka.aviasales.ru^
@@ -189059,6 +189075,8 @@ zzzyk.com###Tinfo
 ||mdxtz.lorex.com^
 ||me-gay.com/analytics.js
 ||me-gay.com/stats.gif^
+||me-qr.com/metrics/
+||me-qr.com/statistic/collect/
 ||me.coact.org.au^
 ||me.edintattoo.co.uk^
 ||me.glamhive.com^
@@ -202673,6 +202691,7 @@ zzzyk.com###Tinfo
 ||qselic.top^
 ||qseqvo.a1securitycameras.com^
 ||qsj8fd.com^
+||qsjdi1vyq.com^
 ||qsjfd2.com^
 ||qsjfd2.xyz^
 ||qsko05060mas.com^
@@ -203066,6 +203085,7 @@ zzzyk.com###Tinfo
 ||r10s.jp/com/img/home/t.gif?$image,redirect=1x1-transparent.gif,domain=rakuten.co.jp,important
 ||r10s.jp/com/js/omniture/
 ||r1c.ricardocuisine.com^
+||r1jprcr42.com^
 ||r1ztni.oui.sncf^
 ||r25.jp/api/tracking/
 ||r255.wmtw.com^
