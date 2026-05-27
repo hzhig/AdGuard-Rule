@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-27 11:43:07(GMT+8) 
-! Total count: 254275
+! ! Version: 2026-05-27 23:39:32(GMT+8) 
+! Total count: 254284
  
 ###ADtip
 ###Ad_windows
@@ -106260,8 +106260,6 @@ followme.cn##.money-box
 followup.axa.co.jp$image
 fontsquirrel.com###bottom_banner_ad_container
 food4less.com#%#//scriptlet('set-local-storage-item', 'analytics-device', '$remove$')
-foodieteller.com#%#//scriptlet('abort-on-property-write', '__ad_unblock_id_obfuscation')
-foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
 foodmate.net##.ad5
 foodmate.net##.m[style="height:40px;"]
 foodmate.net##.zx_ad
@@ -113426,6 +113424,8 @@ naekranie.pl###niceMessage
 naifei.im##.tg_w
 naifei.im##div[class^="wp-none"]
 naifei.im##div[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
+nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
+nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw#%#//scriptlet('abort-on-property-write', '__ad_unblock_id_obfuscation')
 nanfengyl.com##.index-top-ad1
 nanfengyl.com##.top-ad-txt
 nani.baidu.com,ala.baidu.com##.tbui_aside_float_bar + .clearfix
@@ -113616,6 +113616,7 @@ newsmth.net##.b-content > #sogou_banner:nth-child(3)
 newsmth.net##.ns-ad
 newsweekjapan.jp##.taboola-below-article-thumbnails-desktop-2-wrap
 newtalk.tw###_popIn_recommend
+newtalk.tw##.ad-half
 newtalk.tw##.dable_response
 newtalk.tw##.extend_ad
 newtalk.tw##div[id^="ATS_"]
@@ -143734,6 +143735,7 @@ zzzyk.com###Tinfo
 ||cchvc.net^
 ||cciqma.cosabella.com^
 ||ccjep.onehopewine.com^
+||ccjyphp.forum^
 ||cckke.com/fanhao/v/ad
 ||cckov.bluatlas.com^
 ||cclink.carfax.com^
@@ -163407,7 +163409,7 @@ zzzyk.com###Tinfo
 ||glassbox-hlx-igw.bankofamerica.com^
 ||glassboxcdn.com^$third-party
 ||glassboxdigital.io^$third-party
-||glasscoyote.com^
+||glasscoyote.com^$redirect=noopjs,script
 ||glassdoor.*/geb/events/
 ||glasses.decorise.pl^
 ||glassesusa.com/bff/dynamicYield/pageview
@@ -175116,6 +175118,7 @@ zzzyk.com###Tinfo
 ||j348.citizensvoice.com^
 ||j3fvhzit0.com^
 ||j3gkwzt7o.com^
+||j3idyosut.com^
 ||j423.oneidadispatch.com^
 ||j4mxrs21gh.com^
 ||j4s12kfavg.com^
@@ -194933,6 +194936,7 @@ zzzyk.com###Tinfo
 ||newsweekjapan.jp^$cookie=is_visiter
 ||newsweekjapan.jp^$cookie=site_visited
 ||newt.javier.dev^
+||newtalk.tw/js/ad/
 ||newtest.wunderman-email.cjm.adobe.com^
 ||newtimes.com/analytics?
 ||newton.pm/events/track_bulk
@@ -195311,6 +195315,7 @@ zzzyk.com###Tinfo
 ||nl2v1uw9e.com^
 ||nlain.shoplc.com^
 ||nlawnt.gurhan.com^
+||nlbb3dvqh.com^
 ||nlbcb.tees2urdoor.com^
 ||nlbukc.babyworld.se^
 ||nldij.eatmezcla.com^
@@ -203353,6 +203358,7 @@ zzzyk.com###Tinfo
 ||rbjwels.xyz^
 ||rbkidelmug.com^
 ||rbl.ms/res/users/tracking/
+||rbmg4agmo.com^
 ||rbmrs.eskiin.com^
 ||rbncmx.chopperexchange.com^
 ||rbnvpy.klingel.at^
@@ -234803,6 +234809,7 @@ zzzyk.com###Tinfo
 ||tadpull.com^$third-party
 ||taduhy.timberland.co.uk^
 ||taemhn.zamst-online.jp^
+||taf9vs2wz.com^
 ||tafeyoguv.pettywell.com^
 ||tafrebadus.com^$third-party
 ||tafyeta.ru^$domain=pronpic.org
@@ -244671,6 +244678,7 @@ zzzyk.com###Tinfo
 ||uiwyirmq.kids-world.dk^
 ||uizgs.amberinteriordesign.com^
 ||uizmsi.tirendo.ch^
+||uj08lr3rv.com^
 ||uj2h8xm8w.com^
 ||ujbhri.pharmamarket.nl^
 ||ujekas.outletmabe.com.mx^
@@ -247684,6 +247692,7 @@ zzzyk.com###Tinfo
 ||w5bi16f3co.com^
 ||w5c6d9.cc^
 ||w5daa5.com^
+||w5eep9esa.com^
 ||w5ftl8bhu3.com^
 ||w6.chabad.org^
 ||w6xbr7hc.xyz^
