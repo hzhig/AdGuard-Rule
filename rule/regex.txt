@@ -1,4 +1,4 @@
-# Update time: 2026-05-28 23:38:51
+# Update time: 2026-05-29 10:45:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -210,7 +210,6 @@ analytics-*.aasaam.com
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
-||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
@@ -259,7 +258,6 @@ analytics-*.aasaam.com
 ||logs*.smithsonian.museum^
 ||bar*.shinobi.jp^
 ||counter*.freecounter.ovh^
-||tracking-v*.a.run.app^
 ||weblogger-wss.cool*cloud.com^
 ||track.zalando.
 ||seller-log-collector.shopee.
@@ -310,7 +308,6 @@ analytics-*.aasaam.com
 ||121.204.246.*.gif
 ||button.blogs.yandex.
 ||zbb.bbb.*.pics^
-||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||rum*.a.trbcdn.net^
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
@@ -338,7 +335,6 @@ analytics-*.aasaam.com
 ||cnt.hd21.
 ||ulog.*.ksapisrv.com^
 ||servo-report.dvdfab.
-||trk*.vidible.tv^
 ||pop-under.
 ||talpa-analytics.
 ||pixelapi-*.cs.mysamba.tv^
@@ -495,6 +491,7 @@ analytics-*.aasaam.com
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||ecommerce-events*.adscale.com^
+||tracking-v*.a.run.app^
 ||zazgiyoh*.xyz^
 ||stats*.credit-cooperatif.coop^
 ||tracking*.euroads.fi^
@@ -579,6 +576,7 @@ analytics-*.aasaam.com
 ||htm*.hepsiburada.com^
 ||creative*.bidease.com^
 ||mapi-log.qoo*.jp^
+||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||fanpingbi*.gaokao.com^
 ||dn*.ixinwei.com^
 ||ja*.apppure.net^
@@ -623,6 +621,7 @@ analytics-*.aasaam.com
 ||event.*.karrotmarket.com^
 ||a*.chajiaotong.com^
 ||gads*s.com^
+||trk*.vidible.tv^
 ||gscounters.*.gigya.com^
 ||adserver.*.yahoodns.net^
 ||fads*z.com^
@@ -746,4 +745,5 @@ rgmechanicsgames.com*VPN.exe
 |167.206.10.148^
 ||23.109.87.
 ||fxhpaoxqyajvmdg.
+||prebid-*.rubiconproject.com^
 Banner468x60
