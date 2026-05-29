@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-28 23:52:42(GMT+8) 
-! Total count: 254313
+! ! Version: 2026-05-29 11:33:01(GMT+8) 
+! Total count: 254320
  
 ###ADtip
 ###Ad_windows
@@ -11570,6 +11570,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 @@||cdn.petametrics.com/*-nbc.js$script,domain=bringmethenews.com
+@@||cdn.petametrics.com/*.js$domain=thestreet.com
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||cdn.polarbyte.com^$domain=bab.la
 @@||cdn.popcash.net/pop.js,$popup,domain=hentaistream.com
@@ -124543,6 +124544,7 @@ zzzyk.com###Tinfo
 ||3kfvgobkw.com^
 ||3l0zszdzjhpw.www.comicleaks.com^
 ||3li5a.elisacavaletti.it^
+||3llzzztmz.com^
 ||3lxk4afsb.com^
 ||3mark.actonservice.com^
 ||3ml8v.cn^
@@ -169001,6 +169003,7 @@ zzzyk.com###Tinfo
 ||gybyxsy1588.com^
 ||gycxh.thingsremembered.com^
 ||gycyms.backmarket.de^
+||gycz2v4ch.com^
 ||gyehtm.thebridge.it^
 ||gyhgcgj.xyz^
 ||gyjinchuang.vip^
@@ -169108,6 +169111,7 @@ zzzyk.com###Tinfo
 ||h689.nydailynews.com^
 ||h6cp.icu^
 ||h6fh0e4hg.com^
+||h6n6i7v98.com^
 ||h731.icu^
 ||h7ima6w5k.com^
 ||h8cjr6nhm.com^
@@ -199030,6 +199034,7 @@ zzzyk.com###Tinfo
 ||paypalobjects.com^*/pixel.gif
 ||payqjd.subito.it^
 ||payroll.smartsalary.com.au^
+||paytr.com/securemetric/
 ||paywall.folha.uol.com.br^$domain=folha.uol.com.br
 ||pb.adriver.ru^
 ||pb.i.sogou.com^
@@ -248461,6 +248466,7 @@ zzzyk.com###Tinfo
 ||webanalyticsnossl.websense.com^
 ||webanalyticsssl.websense.com^
 ||webapi-cloud.bluestacks.com/api/*/report-page-view
+||webapi.*/v1/count$domain=etnowpolymers.com|femina.in|filmfare.com|goodhomes.co.in|grazia.co.in|themachinist.in
 ||webapi.3cx.com^
 ||webapi.depop.com/*/collector
 ||webapi.depop.com/api/v1/performance/collect/
@@ -249258,6 +249264,7 @@ zzzyk.com###Tinfo
 ||wispycarts-ss.topashopo.com^
 ||wispycity.com^
 ||wissen.sage.de^
+||wisteria37.top^
 ||wistfulwaste.com^
 ||wit.qq.com^$third-party
 ||witbee.com^*/collect
