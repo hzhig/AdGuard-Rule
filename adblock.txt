@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-29 23:28:26(GMT+8) 
-! Total count: 254326
+! ! Version: 2026-05-30 10:58:35(GMT+8) 
+! Total count: 254339
  
 ###ADtip
 ###Ad_windows
@@ -1958,6 +1958,9 @@ $cookie=li_sugr
 $cookie=lms_ads
 $cookie=lms_analytics
 $cookie=logglytrackingsession
+$cookie=mm-session-id
+$cookie=mm-user-id
+$cookie=mmcookieUserID
 $cookie=mosb,domain=womenshealthmag.com|bicycling.com|bestproducts.com|caranddriver.com|cosmopolitan.com|countryliving.com|delish.com|elledecor.com|elle.com|esquire.com|goodhousekeeping.com|harpersbazaar.com|housebeautiful.com|oprahdaily.com|prevention.com|redbookmag.com|roadandtrack.com|runnersworld.com|seventeen.com|townandcountrymag.com|veranda.com|womansday.com|autoweek.com|thepioneerwoman.com|popularmechanics.com
 $cookie=muidn
 $cookie=nQ_cookieId
@@ -9740,12 +9743,12 @@ $websocket,domain=wap.yushuwu.cloud
 5982.connector-qa1.marketingcloudqaapis.com$image
 5d1bag1lvrocz6cn.beta.mercury.ai$image
 5dm.app##[src*="sinaimg.cn"]
+5dm.dev##div[id^="player_p"]
 5dm.link###popop
 5dm.link###rip
 5dm.link###xaify
 5dm.link##a[href^="https://aigirlfriendstudio.com/"]
 5dm.link##a[href^="https://equity.tmall.com/"]
-5dm.link##div[id^="player_p"]
 5dm.link#@#.tm-share-this
 5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##.ad_img-bg-bg-p
@@ -11314,6 +11317,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||bitzfree.com/js/*.js$script
 @@||biv.gazeta.pl/resources/emailLoginPage__front/$domain=oauth.gazeta.pl
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
+@@||blackbaud.net/proxy/api/track/
 @@||blackcircles.ca^$script,~third-party
 @@||blackmod.net^$generichide
 @@||blizzard.com/oauth2$removeparam
@@ -124446,6 +124450,7 @@ zzzyk.com###Tinfo
 ||3798.com^$third-party
 ||37bhof.com^
 ||37lwjdaua.com^
+||37nu0riwfd.com^
 ||38.33.15.*.gif
 ||380.tw^$popup,third-party
 ||380tv.com/upload/*-ad-
@@ -124954,7 +124959,7 @@ zzzyk.com###Tinfo
 ||5bkhq0lwmq.com^
 ||5d7k30pv1u.com^
 ||5dfiuae82.com^
-||5dm.link/htm$image
+||5dm.*/htm$image
 ||5dm.link/htmI/*.gif
 ||5dm.tv/html/5dmm.jpg
 ||5dmail.net/image/$object
@@ -140356,6 +140361,7 @@ zzzyk.com###Tinfo
 ||beget.com/p$image,third-party
 ||begging.vintageaksesuar.com^
 ||beginnerpancake.com^
+||begonia20.com^
 ||beha.ksmobile.com^
 ||behance.net/log
 ||behance.net/v2/logs
@@ -154072,6 +154078,7 @@ zzzyk.com###Tinfo
 ||dhauc.earthhero.com^
 ||dhawbu.crazyskin.co.kr^
 ||dhc.co.jp/com/cookie.jsp
+||dhckj73qr3.com^
 ||dhdaa.duke.edu^
 ||dhddv.rarevinyl.com^
 ||dhduc.com^
@@ -157066,6 +157073,7 @@ zzzyk.com###Tinfo
 ||ejywxd.mynavi.agentsearch.jp^
 ||ek-tracker.ekitan.com^
 ||ek8.voyage-prive.com^
+||ek946br7uy.com^
 ||ekclickei.ekclickei.com^
 ||ekdky.cn^
 ||ekdtywtkc.com^
@@ -171451,6 +171459,7 @@ zzzyk.com###Tinfo
 ||ideng.com^$third-party
 ||identification.hotmart.com^
 ||identify.hotjar.com^
+||identity.treeumapp.net^
 ||identity39.com^
 ||identitymind.com^$third-party
 ||identitypxl.app^
@@ -185909,6 +185918,7 @@ zzzyk.com###Tinfo
 ||lumpylumber.com^
 ||lumpywood.com^
 ||lumtjt.plumbingonline.ca^
+||lun.ua/api/analytics/product|
 ||lunarcave.com^
 ||lunchroomlock.com^
 ||lunhua5.com/images/more.gif
@@ -204557,6 +204567,7 @@ zzzyk.com###Tinfo
 ||ridibooks.com$cookie=/^AMP/
 ||ridibooks.com$cookie=ruid
 ||ridmvd.dazzystore.com^
+||ridus.ru/stat?
 ||ridve.simmsfishing.com^
 ||ridzf.ispeedtolead.com^
 ||rifei.gironplay.com.br^
@@ -237489,6 +237500,7 @@ zzzyk.com###Tinfo
 ||tjumv.mindgamesfragrance.com^
 ||tjv250730ads.com^
 ||tjv251109ads.com^
+||tjv260529xxx.com^
 ||tjvpnh.icu^
 ||tjwpfr.unitrailer.de^
 ||tjwzyjx.icu^
@@ -244937,6 +244949,7 @@ zzzyk.com###Tinfo
 ||uni-duesseldorf.de/cgi-bin/nph-count?
 ||uni.okane-reco-plus.com^
 ||uni7.uniplaces.com^
+||uniads.net/pixel?
 ||unibet.com/orval/tracking/lastclick.min.js
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||uniconsent.com^$third-party

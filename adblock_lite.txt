@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-05-29 23:28:26(GMT+8) 
-! Total count: 32637
+! ! Version: 2026-05-30 10:58:35(GMT+8) 
+! Total count: 32642
  
 ###ADtip
 ###Ad_windows
@@ -4016,12 +4016,12 @@ $websocket,domain=wap.yushuwu.cloud
 58pic.com##.xyyh
 591hx.com##.banner_w
 5dm.app##[src*="sinaimg.cn"]
+5dm.dev##div[id^="player_p"]
 5dm.link###popop
 5dm.link###rip
 5dm.link###xaify
 5dm.link##a[href^="https://aigirlfriendstudio.com/"]
 5dm.link##a[href^="https://equity.tmall.com/"]
-5dm.link##div[id^="player_p"]
 5dm.link#@#.tm-share-this
 5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##.ad_img-bg-bg-p
@@ -16667,6 +16667,7 @@ zzzyk.com###Tinfo
 ||3798.com^$third-party
 ||37bhof.com^
 ||37lwjdaua.com^
+||37nu0riwfd.com^
 ||38.33.15.*.gif
 ||380.tw^$popup,third-party
 ||380tv.com/upload/*-ad-
@@ -17059,7 +17060,7 @@ zzzyk.com###Tinfo
 ||5bkhq0lwmq.com^
 ||5d7k30pv1u.com^
 ||5dfiuae82.com^
-||5dm.link/htm$image
+||5dm.*/htm$image
 ||5dm.link/htmI/*.gif
 ||5dm.tv/html/5dmm.jpg
 ||5dmail.net/image/$object
@@ -19152,6 +19153,7 @@ zzzyk.com###Tinfo
 ||bedrapiona.com^
 ||beephone.com.tw/ad-middle.php
 ||beephone.com.tw/ad-yahoo.php
+||begonia20.com^
 ||behavior65.top^
 ||beijing-air.com/images/a/j
 ||beijing.buzhi5.com^
@@ -20796,6 +20798,7 @@ zzzyk.com###Tinfo
 ||dh1dh.top^
 ||dh5t3pyb6r.com^
 ||dh8ypn3lq8.com^
+||dhckj73qr3.com^
 ||dhduc.com^
 ||dheblxw.com^
 ||dheear.site^
@@ -21439,6 +21442,7 @@ zzzyk.com###Tinfo
 ||ejiwvof.icu^
 ||ejolul.xyz^
 ||ejunshi.com^
+||ek946br7uy.com^
 ||ekdky.cn^
 ||ekdtywtkc.com^
 ||eklzt1bvv.com^
@@ -29447,6 +29451,7 @@ zzzyk.com###Tinfo
 ||tjqwb.cn^
 ||tjv250730ads.com^
 ||tjv251109ads.com^
+||tjv260529xxx.com^
 ||tjvpnh.icu^
 ||tjwzyjx.icu^
 ||tk.504pk.com^
