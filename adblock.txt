@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-05-31 11:46:48(GMT+8) 
-! Total count: 254352
+! ! Version: 2026-05-31 21:43:28(GMT+8) 
+! Total count: 254361
  
 ###ADtip
 ###Ad_windows
@@ -3065,8 +3065,8 @@ $websocket,domain=wap.yushuwu.cloud
 /DG/DEFAULT/cs?
 /DG/DEFAULT/rest/*
 /DG/DEFAULT/rest/rpc/*
-/DNSCheck.js
-/DNSChecker.js
+/DNSCheck.js$domain=~github.com
+/DNSChecker.js$domain=~github.com
 /Distribute/Distribute_g/butterfly/*
 /DynamicAnalytics.js
 /EZ-YAHOO/*$domain=ezvivi.com
@@ -125825,6 +125825,7 @@ zzzyk.com###Tinfo
 ||a.cdnpure.com/report/group_user?
 ||a.centrum.cz^
 ||a.chdist.com^
+||a.cineflix.st^
 ||a.closerpets.co.uk^
 ||a.cnki.net/a/
 ||a.danskrejsehjaelp.dk^
@@ -130016,6 +130017,7 @@ zzzyk.com###Tinfo
 ||aa.wowma.jp^
 ||aa.xiangxiangmf.com^
 ||aa.zdnet.com^
+||aa2hzrmu9.com^
 ||aa3zx8wko.top^
 ||aa52jm08ly.com^
 ||aa67678156.com^$third-party
@@ -145884,6 +145886,7 @@ zzzyk.com###Tinfo
 ||co.dewrain.life^
 ||co.vaicore.site^
 ||co.vaicore.xyz^
+||co4scosu6.com^
 ||co932.coloradopolitics.com^
 ||coalkitchen.com^
 ||coatfood.com^
@@ -161815,6 +161818,7 @@ zzzyk.com###Tinfo
 ||ftysya.aboutyou.de^
 ||ftz.io^$third-party
 ||ftzets.silkfred.com^
+||fubuki-umami.space/api/script.js
 ||fubuki-umami.space^
 ||fucpa.sk-ii.com^
 ||fudezz.bolasport.com^
@@ -171384,6 +171388,7 @@ zzzyk.com###Tinfo
 ||icgsiq.cuir-city.com^
 ||icharts.actonservice.com^
 ||ichc1.xinglinpukang.com^
+||ichfzso7f.com^
 ||ichnaea-web.netflix.com^
 ||ichnaea.dradis.netflix.com^
 ||ichnaea.netflix.com^
@@ -202006,6 +202011,7 @@ zzzyk.com###Tinfo
 ||pywiia.lfmall.co.kr^
 ||pyxis.atp.fox^
 ||pyxjkx.springjapan.com^
+||pz0d6zc6n.com^
 ||pzajdh.guicheweb.com.br^
 ||pzapi-ij.com^
 ||pzapi-kg.com^
@@ -233146,6 +233152,7 @@ zzzyk.com###Tinfo
 ||suncanny.marvelhq.com^
 ||suncorp.activate.ensighten.com^
 ||sundaysky.com^$third-party
+||sunflower27.com^
 ||sunflowers66.top^
 ||sunglasse2.top^
 ||sunhome.ru/counter.php$third-party
@@ -252295,6 +252302,7 @@ zzzyk.com###Tinfo
 ||yg0051thk.com^
 ||yg006.com/attachment/js/
 ||yg006.com/attachment/xjdb.jpg
+||yg4j3py9b.com^
 ||ygbnqy.famous-design.com^
 ||ygctwz.rawhidedogbones.com^
 ||ygdogx.hearstmagazines.co.uk^
@@ -252331,6 +252339,7 @@ zzzyk.com###Tinfo
 ||yhdm335.com/piao/
 ||yhdm44.com/123.html
 ||yhecauig.com^
+||yhgqxkjz9.com^
 ||yhgyog.elephantstock.com^
 ||yhhnjg.com^
 ||yhhuzt.gintarine.lt^
