@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-01 12:00:11(GMT+8) 
-! Total count: 254366
+! ! Version: 2026-06-02 01:37:10(GMT+8) 
+! Total count: 254377
  
 ###ADtip
 ###Ad_windows
@@ -118236,6 +118236,7 @@ techcrunch.com#%#//scriptlet('set-local-storage-item', 'criteo_fast_bid', '$remo
 techmaniachd.pl###sidebar-right-1 > #HTML6
 technews.tw##.inside_AD
 techradar.com#%#//scriptlet('href-sanitizer', 'a[href^="https://go.redirectingat.com/?id="]', '?url')
+techritual.com##.th-single-ad
 techug.com##a[href*="/222.html"]
 techug.com##a[href*="/eee.html"]
 techug.com,webhek.com##.aatb
@@ -124001,6 +124002,7 @@ zzzyk.com###Tinfo
 ||1dmp.io^$third-party
 ||1dor1d6vc.com^
 ||1e90.pandasuite.io^
+||1ehioxpqe.com^
 ||1eusy6.boxoffice.adventuretix.com^
 ||1f0l.top^
 ||1fp9k4zrm.com^
@@ -125724,6 +125726,7 @@ zzzyk.com###Tinfo
 ||9oru1vh0w.com^
 ||9oxhstb2m2.com^
 ||9p81m19kr.com^
+||9pyn42z6d.com^
 ||9pzoz6taf.com^
 ||9r0v0go0el.com^
 ||9soefyenw.com^
@@ -144116,6 +144119,7 @@ zzzyk.com###Tinfo
 ||cdn.tebilisim.com/analytics.js
 ||cdn.teleportapi.com^$third-party
 ||cdn.tercept.com^$third-party
+||cdn.theconversation.com/static/tc/gtm_data_layer-*.js
 ||cdn.thenewsbox.net/m/impression
 ||cdn.theoplayer.com/t?
 ||cdn.thinkindot.com/tracker/tracker-*.js
@@ -204722,6 +204726,7 @@ zzzyk.com###Tinfo
 ||rl0.ru/*/dist/post.js$domain=www.rambler.ru
 ||rl1vypwyd2.com^
 ||rl6b3zvtsk.com^
+||rl8yj74pr.com^
 ||rlavvoeo.com^
 ||rlcar.thrivemarket.com^
 ||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
@@ -205387,6 +205392,7 @@ zzzyk.com###Tinfo
 ||rudderlabs.com^$third-party
 ||rudderstack.com/v1/batch?writeKey=
 ||rudderstack.com/v1/identify|
+||rudderstack.com/v1/track
 ||rudderstack.com/v1/track|
 ||rudhjah.top^
 ||rudr-events.joybird.com^
@@ -219907,6 +219913,8 @@ zzzyk.com###Tinfo
 ||sonar6.fzih1-1.fna.fbcdn.net.iberostar.com^
 ||sonar6.xy.fbcdn.net.iberostar.com^
 ||soneticscorp.actonservice.com^
+||songlyrics.com/js/um.js
+||songlyrics.com/js/visits.js
 ||songmeanings.com/*/e.gif?pixels=
 ||songs.newdelica.com^
 ||songsongyun.com/ads/
@@ -244880,6 +244888,7 @@ zzzyk.com###Tinfo
 ||um5xcgngmart.xyz^
 ||umami.*/script.js|$script
 ||umami.aigenerations.net^
+||umami.dev^
 ||umami.flixer.su^
 ||umami.is^$third-party
 ||umami.spencerdevs.xyz^
@@ -246390,6 +246399,7 @@ zzzyk.com###Tinfo
 ||vcypfn.readers.com^
 ||vcz9kuhac.com^
 ||vd-test.net.anwalt.de^
+||vd09de2i0.com^
 ||vdangi.topshelfgolf.com^
 ||vdc.zoomph.com^
 ||vde1.voyage-prive.de^
@@ -251963,6 +251973,7 @@ zzzyk.com###Tinfo
 ||xztjis.kikiluv.co.kr^
 ||xztqfj.dreamvs.jp^
 ||xzutow.affordablelamps.com^
+||xzv5vu7wl.com^
 ||xzvhyx.com^
 ||xzwcng.vans.com.au^
 ||xzwtxo.nurse-senka.jp^
