@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-02 01:37:10(GMT+8) 
-! Total count: 254377
+! ! Version: 2026-06-02 11:55:21(GMT+8) 
+! Total count: 254386
  
 ###ADtip
 ###Ad_windows
@@ -122754,6 +122754,7 @@ xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
 xchina.co##.block-overlay
+xchina.co##.photo-items > div[class^="item auto-height"]
 xchina001.online###core-zone-4
 xchina001.online###z-extra-2
 xchina001.online###z-extra-3
@@ -131329,6 +131330,7 @@ zzzyk.com###Tinfo
 ||adebiscname.sumirin-ht.co.jp^
 ||adebisu.wowow.co.jp^
 ||adelixir.com^$third-party
+||ader.naver.com^$domain=~search.naver.com,xmlhttprequest
 ||adeventtracker.spotify.com^
 ||adeventtrackermonitoring.spotify.com^
 ||adex.kintetsu-re.co.jp^
@@ -140940,6 +140942,7 @@ zzzyk.com###Tinfo
 ||bizseasky.com/mon
 ||bizseasky.com/tracker/
 ||bizspring.net^$third-party
+||biztoolsbrief.com^
 ||bizz.cochraneco.com^
 ||bj1.118pan.com^
 ||bj5iodzgyi.com^
@@ -141375,6 +141378,7 @@ zzzyk.com###Tinfo
 ||boar.hopehollow.com^
 ||boar.indieweb.org^
 ||boar.kostholdsveilederen.no^
+||boardbumpers.com^
 ||boardx.huanqiu.com^
 ||boatcodeapp.com^
 ||boatpaper.com^
@@ -144071,9 +144075,9 @@ zzzyk.com###Tinfo
 ||cdn.reverso.net/ramjs/
 ||cdn.reverso.net/rumjs/
 ||cdn.rlets.com^
-||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noopmp3-0.1s,domain=m.yichengwlkj.com
-||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/firstAdMaxFreeTimes:\d+/firstAdMaxFreeTimes:30000/,domain=m.yichengwlkj.com
-||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/secondsAdMaxTimes:\d+/secondsAdMaxTimes:150000/,domain=m.yichengwlkj.com
+||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noopmp3-0.1s,domain=yichengwlkj.com
+||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/firstAdMaxFreeTimes:\d+/firstAdMaxFreeTimes:30000/,domain=yichengwlkj.com
+||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/secondsAdMaxTimes:\d+/secondsAdMaxTimes:150000/,domain=yichengwlkj.com
 ||cdn.rvohealth.com/preamp/api/*/decisions|
 ||cdn.saltstone.shop^
 ||cdn.search.brave.com/serp/*/static/serp-js/telemetry/
@@ -157067,6 +157071,7 @@ zzzyk.com###Tinfo
 ||eiydgc.12storeez.ru^
 ||eiykmtb.cn^
 ||eizda.nelsondigital.io^
+||ej8f5vk381.com^
 ||ejark.bagups.com^
 ||ejbbcf.finishline.com^
 ||ejbkqt.morugi.com^
@@ -169234,6 +169239,7 @@ zzzyk.com###Tinfo
 ||handerfix.com^
 ||handjob.tw/ad/
 ||handler.amarujala.com/user/event
+||handler.rgstats.com^
 ||handleteeth.com^
 ||handmade.prettyserendipity.co.uk^
 ||handsomehose.com^
@@ -171168,6 +171174,7 @@ zzzyk.com###Tinfo
 ||hzvsld.fr.filorga.com^
 ||hzxfbs.spartoo.si^
 ||hzymxd.nocibe.fr^
+||hzyolohcz6.com^
 ||hzzba.holeymoley.com^
 ||hzzycu.captainhooks.co.kr^
 ||hzzyhl.jobs.ch^
@@ -186328,7 +186335,6 @@ zzzyk.com###Tinfo
 ||m.ybstwl.com/public/tpl/m2/js/
 ||m.ygexing.com/d/js/acmsd
 ||m.yhdm.so/bar/yfgg.js
-||m.yichengwlkj.com/ssp_ad_sdk.js
 ||m.yinghuacd.com/bar
 ||m.ysxs8.com/js/content_db.js
 ||m.zijlacht.nl^
@@ -186516,6 +186522,7 @@ zzzyk.com###Tinfo
 ||magnify.net/decor/track/
 ||magnify360.com^$third-party
 ||magnipeople.com/0/sendEventV2
+||magnolia77.top^
 ||magnolian07.top^
 ||magpie.onething.org^
 ||magrm.luxmery.com^
@@ -237187,6 +237194,7 @@ zzzyk.com###Tinfo
 ||thezbpe5*.xyz^
 ||thfpnn.leben-style.jp^
 ||thgfp.homesick.com^
+||thgh902ny.com^
 ||thhdtwyb.tghhouston.co^
 ||thhesw.tre.it^
 ||thhke.mypowerlife.com^
@@ -252381,6 +252389,7 @@ zzzyk.com###Tinfo
 ||yibian.hopto.org/apng/load.php$important
 ||yiboshangmao3.com^
 ||yichengjiajupt.com^
+||yichengwlkj.com/ssp_ad_sdk.js
 ||yicrdo.amsterdamprinting.com^
 ||yidengfe.com/launches/01/yd.png
 ||yield-manager.browsiprod.com^

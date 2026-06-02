@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-02 01:37:10(GMT+8) 
-! Total count: 32669
+! ! Version: 2026-06-02 11:55:21(GMT+8) 
+! Total count: 32674
  
 ###ADtip
 ###Ad_windows
@@ -15310,6 +15310,7 @@ xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
 xchina.co##.block-overlay
+xchina.co##.photo-items > div[class^="item auto-height"]
 xchina001.online###core-zone-4
 xchina001.online###z-extra-2
 xchina001.online###z-extra-3
@@ -19828,9 +19829,9 @@ zzzyk.com###Tinfo
 ||cdn.q.gs/js/display.js$script,third-party
 ||cdn.q.gs/js/entry.js$script,third-party
 ||cdn.q.gs/js/link-converter.js$script,third-party
-||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noopmp3-0.1s,domain=m.yichengwlkj.com
-||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/firstAdMaxFreeTimes:\d+/firstAdMaxFreeTimes:30000/,domain=m.yichengwlkj.com
-||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/secondsAdMaxTimes:\d+/secondsAdMaxTimes:150000/,domain=m.yichengwlkj.com
+||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noopmp3-0.1s,domain=yichengwlkj.com
+||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/firstAdMaxFreeTimes:\d+/firstAdMaxFreeTimes:30000/,domain=yichengwlkj.com
+||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/secondsAdMaxTimes:\d+/secondsAdMaxTimes:150000/,domain=yichengwlkj.com
 ||cdn.shdsp.net/ad
 ||cdn.shorte.st/link-converter.min.js$script,third-party
 ||cdn.tvdez.com^$third-party
@@ -21449,6 +21450,7 @@ zzzyk.com###Tinfo
 ||eitorawrdo.com^
 ||eiv.baidu.com^
 ||eiykmtb.cn^
+||ej8f5vk381.com^
 ||ejieban.com^
 ||ejiwvof.icu^
 ||ejolul.xyz^
@@ -23460,6 +23462,7 @@ zzzyk.com###Tinfo
 ||hznzcn.com/moban/youxiajiao.js
 ||hzrghx.xyz^
 ||hzvcaadn.icu^
+||hzyolohcz6.com^
 ||i-fk.cn^
 ||i-gamer.net/promo_
 ||i-gamer.net^$domain=cartoonmad.com
@@ -25582,7 +25585,6 @@ zzzyk.com###Tinfo
 ||m.ybstwl.com/public/tpl/m2/js/
 ||m.ygexing.com/d/js/acmsd
 ||m.yhdm.so/bar/yfgg.js
-||m.yichengwlkj.com/ssp_ad_sdk.js
 ||m.yinghuacd.com/bar
 ||m.ysxs8.com/js/content_db.js
 ||m03dv.xyz^
@@ -25637,6 +25639,7 @@ zzzyk.com###Tinfo
 ||mafengwo.cn/uva/i.gif?
 ||magedu.com/wp-content/uploads/*/xwzx
 ||magnetdog.net^$popup
+||magnolia77.top^
 ||magnolian07.top^
 ||magsrv.com^
 ||mahoupao.com/api.php?mod=ad&
@@ -29378,6 +29381,7 @@ zzzyk.com###Tinfo
 ||theweeklydonut.org^
 ||thewindrun.com^
 ||thezbpe5*.xyz^
+||thgh902ny.com^
 ||thinkmd.cn^
 ||thisav.com/0*.js
 ||thisav.com/index.js
@@ -31767,6 +31771,7 @@ zzzyk.com###Tinfo
 ||yibian.hopto.org/apng/load.php$important
 ||yiboshangmao3.com^
 ||yichengjiajupt.com^
+||yichengwlkj.com/ssp_ad_sdk.js
 ||yidengfe.com/launches/01/yd.png
 ||yifujing.com^
 ||yige20221219.xyz^
