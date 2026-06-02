@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-02 11:55:21(GMT+8) 
-! Total count: 32674
+! ! Version: 2026-06-03 00:23:15(GMT+8) 
+! Total count: 32684
  
 ###ADtip
 ###Ad_windows
@@ -7202,8 +7202,7 @@ bilibili.com#?#.video-card-common:has(>.card-pic>a[href*="cm.bilibili.com"][data
 bilibili.com#?#.video-page-special-card-small:has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.com#@#.bili-dialog-m
 bilibili.com#@#.btn-ctnr
-bilinovel.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'pagead2.googlesyndication.com')
-bilinovel.com#%#//scriptlet('set-constant', 'checkAndHandleAdBlock', 'undefined')
+bilinovel.com#%#//scriptlet('prevent-setTimeout', 'offsetHeig\'+\'ht\']')
 bimiacg.net##.tuiguang
 bimibimi.cc##[src^='https://dd-static.jd.com']
 binbox.io#@#.banner-ad
@@ -14242,6 +14241,8 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
+tcptest.cn##div.fixed.hidden
+tcptest.cn##div.min-w-0 > .relative
 teachinghand.com##.actions__wrapper
 tech.ifeng.com##body > div[style^="width:"][style*="margin: 0px auto; transition:"][style*="position: fixed; z-index:"]
 tech.qq.com##.kjad2
@@ -17062,6 +17063,7 @@ zzzyk.com###Tinfo
 ||5bayjqsrgd.com^
 ||5bess6df0.com^
 ||5bkhq0lwmq.com^
+||5cyqzktkwh.com^
 ||5d7k30pv1u.com^
 ||5dfiuae82.com^
 ||5dm.*/ggjpg/
@@ -18951,6 +18953,7 @@ zzzyk.com###Tinfo
 ||bakrathtfa.com^
 ||ballive.*/addm/
 ||balmoralmkt.com^$third-party
+||balsam18.com^
 ||balvehgmhw.com^
 ||bandages84.com^
 ||bangyuandianzi.top^
@@ -19897,6 +19900,7 @@ zzzyk.com###Tinfo
 ||ceshi1.ink^
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||cesu.ai/uploads/AdvertImages/
+||cf7xvu3z6z.com^
 ||cfdns.vip^
 ||cfepws.com^
 ||cfoxpgfzxl.com^
@@ -20441,6 +20445,7 @@ zzzyk.com###Tinfo
 ||cuutiethm.com^
 ||cv3qb5813.com^
 ||cv5gezvaj.com^
+||cvd2jag5ru.com^
 ||cvftv2.com^
 ||cvpl9qbz6.com^
 ||cvsheil.com^
@@ -23462,6 +23467,7 @@ zzzyk.com###Tinfo
 ||hznzcn.com/moban/youxiajiao.js
 ||hzrghx.xyz^
 ||hzvcaadn.icu^
+||hzvnt399h7.com^
 ||hzyolohcz6.com^
 ||i-fk.cn^
 ||i-gamer.net/promo_
@@ -25112,6 +25118,7 @@ zzzyk.com###Tinfo
 ||lettucex977.com^
 ||letv.com/pzt/hyhmzq/index.shtml
 ||letvcdn.com/lc02_live/201803/18/23/40/1521387641261new.
+||letvdbrwhbnhrs.com^
 ||leue.cn^
 ||lewenma.com/js/read.js
 ||leyf5q4rk.com^
@@ -27369,6 +27376,7 @@ zzzyk.com###Tinfo
 ||poyc.cn^
 ||ppbtdj.icu^
 ||ppedp.cn^
+||ppkufuc5vg.com^
 ||pplnjoow.com^
 ||ppluoli.xyz^*.gif
 ||pppteennal.com^
@@ -31128,6 +31136,7 @@ zzzyk.com###Tinfo
 ||x6d93mku0.com^
 ||x6img.com^$domain=picturedata.org
 ||x6u6kw4sg.com^
+||x7weiubb2f.com^
 ||x8kwcr3l.xyz^
 ||x8wyxfxul.com^
 ||x9flqeptn.com^
@@ -32564,6 +32573,7 @@ zzzyk.com###Tinfo
 ||ztshg.cn^
 ||zttebe.top^
 ||ztyumn.ifeng.com^
+||zudns.cn/uploads/*.gif$image,domain=tcptest.cn
 ||zuiacg.com/images/client/
 ||zuixinyiqi.com^
 ||zujtlj.icu^

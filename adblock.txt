@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-02 11:55:21(GMT+8) 
-! Total count: 254386
+! ! Version: 2026-06-03 00:23:15(GMT+8) 
+! Total count: 254407
  
 ###ADtip
 ###Ad_windows
@@ -2248,6 +2248,7 @@ $websocket,domain=wap.yushuwu.cloud
 &l=dataLayer&cx=c
 &pagegroup=*&url=$script
 &refer=http$script
+&sst.gcsub=
 &sst.sw_exp=
 &t=pageview&
 &xhtml?$script,third-party
@@ -2408,6 +2409,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cn:*/vh5$third-party
 .cn:8005/cc/*?is_not=
 .co/gc?id=$domain=nzma.org.nz
+.co/gr?id=
 .co/js/ads/
 .com%2F_t%2Fopen%2F$image
 .com%2Fe%2Fo%2F$image
@@ -3245,6 +3247,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 /^https:\/\/korea\.epsilonsoft\.to/[a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9].js$/$script,domain=epsilonsoft.to
 /^https:\/\/m\.2shuqu\.net\/static\/[a-z0-9]+\/[a-z0-9]+\.js/$script,domain=m.2shuqu.net
+/^https:\/\/robota\.ua\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\/$/$script
 /^https:\/\/www\.38ksw\.com\/public\/[0-9]+\.js/$domain=38ksw.com
 /^https:\/\/www\.lowes\.com\/[a-zA-Z0-9-_]+\/[a-z]+\/[a-zA-Z0-9-_]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+$/$domain=lowes.com,xmlhttprequest,method=post
 /^https:\/\/www\.purevpn\.[a-z]+\/[a-z0-9]{7}\/$/$script
@@ -16923,8 +16926,7 @@ bilibili.com#?#.video-card-common:has(>.card-pic>a[href*="cm.bilibili.com"][data
 bilibili.com#?#.video-page-special-card-small:has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.com#@#.bili-dialog-m
 bilibili.com#@#.btn-ctnr
-bilinovel.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'pagead2.googlesyndication.com')
-bilinovel.com#%#//scriptlet('set-constant', 'checkAndHandleAdBlock', 'undefined')
+bilinovel.com#%#//scriptlet('prevent-setTimeout', 'offsetHeig\'+\'ht\']')
 billing.lattice.com$image
 bimiacg.net##.tuiguang
 bimibimi.cc##[src^='https://dd-static.jd.com']
@@ -117873,6 +117875,7 @@ sporttery.cn###newDiv
 sporttvdireto.com#@##ads1
 sportvgratis1.com###eplayer
 sportvgratis1.com##IMG[src^="http://www.pt.vigour-europe.com/"]
+sporty.com#%#//scriptlet('prevent-fetch', 'faro-sportybet.sportydog.net/collect')
 springlobalid3.click.s11.sfmc-osl.com$image
 sptrack.mailer.humblebundle.com$image
 squidboards.com##.funbox
@@ -118200,6 +118203,8 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
+tcptest.cn##div.fixed.hidden
+tcptest.cn##div.min-w-0 > .relative
 tdiblasts.campaign.doctorsinternet.com$image
 te.asociaceautoskol.cz$image
 te.baselinker.com$image
@@ -124961,6 +124966,7 @@ zzzyk.com###Tinfo
 ||5bess6df0.com^
 ||5bf0fdacd2.apps.iocnt.de^
 ||5bkhq0lwmq.com^
+||5cyqzktkwh.com^
 ||5d7k30pv1u.com^
 ||5dfiuae82.com^
 ||5dm.*/ggjpg/
@@ -134049,6 +134055,7 @@ zzzyk.com###Tinfo
 ||analytics.ateeq-sa.com^
 ||analytics.athome.com^
 ||analytics.atlassian.com^
+||analytics.atom.com^
 ||analytics.audioeye.com^
 ||analytics.audioeye.com^$third-party
 ||analytics.audionow.de^
@@ -139753,6 +139760,7 @@ zzzyk.com###Tinfo
 ||ballsbanana.com^
 ||ballymoregroup.actonservice.com^
 ||balmoralmkt.com^$third-party
+||balsam18.com^
 ||balvehgmhw.com^
 ||bam-x.com^$third-party
 ||bambee.actonservice.com^
@@ -144381,6 +144389,7 @@ zzzyk.com###Tinfo
 ||cf.glowbackledstore.com^
 ||cf.overblog.com^
 ||cf.wolfclicktrack.com^
+||cf7xvu3z6z.com^
 ||cfa-js.cafe24.com^
 ||cfa.fidelity.com^
 ||cfaexam.quantresear.ch^
@@ -144912,6 +144921,7 @@ zzzyk.com###Tinfo
 ||cityadstrack.com^$third-party
 ||cityam.com/assets/js/PbCode.min.js$script
 ||citybeat.de/include/cbtrck.104.min.js
+||citydeal.net^
 ||citygridmedia.com/tracker/
 ||cityofsanmateo.analytics.open.law^
 ||citypaketet.se^$third-party
@@ -146540,6 +146550,7 @@ zzzyk.com###Tinfo
 ||confiant-integrations.global.ssl.fastly.net^
 ||confiant-integrations.net^
 ||confiant.msn.com^
+||confidence.dev^$third-party
 ||confidencetalks.com^
 ||config-factory.com^
 ||config-security.com/event
@@ -148316,6 +148327,7 @@ zzzyk.com###Tinfo
 ||cv3qb5813.com^
 ||cv5gezvaj.com^
 ||cvclso.fust.ch^
+||cvd2jag5ru.com^
 ||cvftv2.com^
 ||cvgbl.consumeraffairs.com^
 ||cvgml.yema.com^
@@ -159005,6 +159017,7 @@ zzzyk.com###Tinfo
 ||events-collector-dataplatform.action-media.ru^
 ||events-collector.spot.im^
 ||events-endpoint.pointandplace.com^
+||events-ingestion-helpcenter.services.gorgias.help^
 ||events-ingestion.services.gorgias.com^
 ||events-jp.splash-screen.net^
 ||events-logs.doctolib.com^
@@ -159951,6 +159964,7 @@ zzzyk.com###Tinfo
 ||farm-cn.plista.com^
 ||farmergoldfish.com^
 ||faro-collector-prod-*.grafana.net^
+||faro-sportybet.sportydog.net/collect|$xmlhttprequest,redirect=noopjson
 ||faroz.offer.farozamart.com^
 ||farshake.com^
 ||farsnails.com^
@@ -161086,7 +161100,7 @@ zzzyk.com###Tinfo
 ||fontke.com/custom/
 ||fonts.net/t/trackingCode.js
 ||fonts.simoneferretti.net^
-||fontserif.com^
+||fontserif.com^$redirect=noopjs,script
 ||food.informaengage.com^
 ||food.pentonmarketingsvcs.com^
 ||food4less.com/atlas/v*/clickstream/
@@ -171171,6 +171185,7 @@ zzzyk.com###Tinfo
 ||hzuheh.palcloset.jp^
 ||hzvcaadn.icu^
 ||hzvfn.covesmart.com^
+||hzvnt399h7.com^
 ||hzvsld.fr.filorga.com^
 ||hzxfbs.spartoo.si^
 ||hzymxd.nocibe.fr^
@@ -178705,6 +178720,7 @@ zzzyk.com###Tinfo
 ||letv.com/env/
 ||letv.com/pzt/hyhmzq/index.shtml
 ||letvcdn.com/lc02_live/201803/18/23/40/1521387641261new.
+||letvdbrwhbnhrs.com^
 ||leue.cn^
 ||level.badlandgame.com^
 ||levelaccess.net/analytics/
@@ -200836,6 +200852,7 @@ zzzyk.com###Tinfo
 ||pphvl.negativeunderwear.com^
 ||pphwrevr.com^$third-party
 ||ppiel.kodakdigitizing.com^
+||ppkufuc5vg.com^
 ||pplgv.getcleanpeople.com^
 ||pplnjoow.com^
 ||pplpiq.pricerunner.se^
@@ -203552,6 +203569,7 @@ zzzyk.com###Tinfo
 ||reach.jensenprecast.com^
 ||reach.terumo-bct.com^
 ||reachforce.com^$third-party
+||reachhumans.com^
 ||reachlocalservices.com^$third-party
 ||reachmax.cn^$third-party
 ||react-admin-telemetry.marmelab.com^
@@ -231732,6 +231750,7 @@ zzzyk.com###Tinfo
 ||stats.paypal-metrics.com^
 ||stats.paysagistes.pro^
 ||stats.pcsg-server.de/js/
+||stats.peachify.top^
 ||stats.pebkac.io^
 ||stats.pendleratlas.de^
 ||stats.perpetual.pizza^
@@ -251063,6 +251082,7 @@ zzzyk.com###Tinfo
 ||x6d93mku0.com^
 ||x6img.com^$domain=picturedata.org
 ||x6u6kw4sg.com^
+||x7weiubb2f.com^
 ||x8.cho-chin.com^
 ||x822.mrt.com^
 ||x88s.pandasuite.io^
@@ -254164,6 +254184,7 @@ zzzyk.com###Tinfo
 ||ztugn.transformationbody.com^
 ||ztyumn.ifeng.com^
 ||zudicy.guatafac.es^
+||zudns.cn/uploads/*.gif$image,domain=tcptest.cn
 ||zudopk.callondoc.com^
 ||zudver.matsmart.se^
 ||zufsu.lee.com^
