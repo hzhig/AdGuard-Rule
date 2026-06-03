@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-03 12:02:32(GMT+8) 
-! Total count: 254413
+! ! Version: 2026-06-04 00:47:14(GMT+8) 
+! Total count: 254426
  
 ###ADtip
 ###Ad_windows
@@ -3247,7 +3247,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/cs\d{3}\.\w+\.com\/cscript\/\d{3}\/[\w\d]+\.js$/$script,third-party,match-case
 /^https:\/\/korea\.epsilonsoft\.to/[a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9].js$/$script,domain=epsilonsoft.to
 /^https:\/\/m\.2shuqu\.net\/static\/[a-z0-9]+\/[a-z0-9]+\.js/$script,domain=m.2shuqu.net
-/^https:\/\/robota\.ua\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\/$/$script
+/^https:\/\/robota\.ua\/[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]\/$/$script,domain=robota.ua
 /^https:\/\/www\.38ksw\.com\/public\/[0-9]+\.js/$domain=38ksw.com
 /^https:\/\/www\.lowes\.com\/[a-zA-Z0-9-_]+\/[a-z]+\/[a-zA-Z0-9-_]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+$/$domain=lowes.com,xmlhttprequest,method=post
 /^https:\/\/www\.purevpn\.[a-z]+\/[a-z0-9]{7}\/$/$script
@@ -117034,6 +117034,7 @@ se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 sealfit.ontraport.net%2Fo%3F$image
 sealfit.ontraport.net/o?$image
 search.bilibili.com##.video-list > div:has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .ad-feedback-entry)
+search.brave.com#%#//scriptlet('set-local-storage-item', 'app.usageMetricsOptOut', 'true')
 search.chongbuluo.com##.search > div > a[target="_blank"] > img
 seclub.org##a[href^="http://waplog.net/"]
 secretmine.net###main-content > br
@@ -130559,6 +130560,9 @@ zzzyk.com###Tinfo
 ||academic96.top^
 ||academics.academicsuperstore.com^
 ||acadian-asset.actonservice.com^
+||acapellas.eu/proxy.php?path=ping
+||acapellas.eu/proxy.php?path=stats
+||acapellas.eu/tracker.js
 ||acapi.aol.com/v1/events
 ||acast.com/api/stats
 ||acbd.holylandprayer.com^
@@ -151417,6 +151421,7 @@ zzzyk.com###Tinfo
 ||data.americas.coca-cola.com^
 ||data.anparch.com.vn^
 ||data.apac.coca-cola.com^
+||data.api.canalplus.com/event
 ||data.areavip.realmadrid.es^
 ||data.armexdef.uk/api/visit/
 ||data.armexdef.uk^
@@ -155416,6 +155421,7 @@ zzzyk.com###Tinfo
 ||driftingchef.com^
 ||driftpizza.com^
 ||driv-analytics.com^$third-party
+||drive-igora.ru/netcat/modules/stats/
 ||drive.carpoollogistics.com^
 ||drive.google.com/drive/logImpressions|
 ||drive.model1.com^
@@ -162659,6 +162665,7 @@ zzzyk.com###Tinfo
 ||gdxxb.com^$third-party
 ||gdyjs.com^
 ||gdzshoes.com^
+||ge99lo1z2.com^
 ||gea-exchange-03.net.jumia.ug^
 ||gear.echovisuals.com^
 ||gearbubbles.com^
@@ -169135,6 +169142,7 @@ zzzyk.com###Tinfo
 ||h1.cfxinxi.cn^
 ||h1.kukuw.com^
 ||h1.wk2.com^
+||h1883c5wn.com^
 ||h1v3fa.com^
 ||h1yfrt.com^
 ||h2ji5.xyz^
@@ -169544,6 +169552,7 @@ zzzyk.com###Tinfo
 ||hclspy.gourmetencasa-tcm.com^
 ||hcmanager.swifteq.com/hc_events/
 ||hcmhqb.radpowerbikes.ca^
+||hcp5dq18h.com^
 ||hcsmec.decathlon.pt^
 ||hcu.actonservice.com^
 ||hcudl.sokolovelaw.com^
@@ -170398,6 +170407,7 @@ zzzyk.com###Tinfo
 ||hnytrd.ssfshop.com^
 ||hnzzff.club^
 ||hoafot.itoman.com^
+||hoamt60fa.com^
 ||hoaqzs.manier.ro^
 ||hobbygames.ru/?route=product/product/visit
 ||hocalwire.com/tracking-
@@ -186428,6 +186438,7 @@ zzzyk.com###Tinfo
 ||m8zgls6zt.com^
 ||m9s3h265lq.com^
 ||m9sz0hh3f7.com^
+||m9ylqs5rn.com^
 ||ma-adx.ctrip.com^
 ||ma-petite-recette.fr/visites
 ||ma-sdk-api-sg.engagelab.com/ma-report/sdk/h5/app/v3/event
@@ -202388,6 +202399,7 @@ zzzyk.com###Tinfo
 ||qifjksdqwd.xyz^
 ||qifyeldy.top^
 ||qigreveth.com^
+||qihang168.top^
 ||qihucdn.com/11.0.1.js$script
 ||qihzz.erincondren.com^
 ||qiji1.jdwx.info^
@@ -254011,6 +254023,7 @@ zzzyk.com###Tinfo
 ||zonyff.xyz^
 ||zooj.cn^$third-party
 ||zoologist00.com^
+||zoom.us/*/telemetry
 ||zoom.us^$cookie=_zm_ctaid
 ||zoom.us^$cookie=_zm_fingerprint
 ||zoom.us^$cookie=_zm_visitor_guid
