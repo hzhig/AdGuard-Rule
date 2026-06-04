@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-04 00:47:14(GMT+8) 
-! Total count: 254426
+! ! Version: 2026-06-04 11:57:01(GMT+8) 
+! Total count: 254438
  
 ###ADtip
 ###Ad_windows
@@ -11621,6 +11621,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.segmentify.com^$script,domain=gratis.com
 @@||cdn.shopify.com/*/trekkie*.js$domain=koh.com
 @@||cdn.shopify.com/oxygen-v2/*/assets/Clarity-$domain=thegoodguys.com.au
+@@||cdn.shopify.com/shopifycloud/arrive-server/pay/vite-pay/assets/AnalyticsProvider*.js$domain=shop.app
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cdn.sophi.io/assets/$script,domain=nationalpost.com
 @@||cdn.sophi.io/assets/demeter/*/stable/*.js$domain=nationalpost.com
@@ -13395,6 +13396,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=weather.com
 @@||jstatic.3.cn^$domain=m.jd.com
 @@||jswenhui.com^*/ad/
+@@||jsxx.gds.edu.cn^$genericblock
 @@||juduo.cc^$generichide
 @@||jupako.uk/ads.php$subdocument
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
@@ -107986,13 +107988,14 @@ huarenjie.com###LeftAd2
 huarenjie.com###RightAd2
 huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
+huavod.cc#%#(()=>{if(!location.href.includes("://huavod.cc/player/index.php"))return;const e=()=>{const e=document.querySelector("body > center > h1");e?.textContent?.includes("404 Not Found")&&(()=>{const e=top.document.querySelector('#playleft > iframe[src^="https://newplayer.huaren.live/player/index.php"]');e&&(e.src=e.src.replace("huaren.live","huavod.top"))})()};"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()})();
+huavod.cc,huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
+huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
+huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showModal')
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.ad_duration_ms', '0')
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'mac_player_info.from', 'ARTVIPA')
 huavod.com##a[href^="https://lesi198.com"]
-huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
-huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
-huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showModal')
-huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.ad_duration_ms', '0')
-huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
-huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'mac_player_info.from', 'ARTVIP')
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -141817,6 +141820,7 @@ zzzyk.com###Tinfo
 ||branch.whatsnxt.app^
 ||branch.xoxloveheart.com^
 ||branch2.udl.io^
+||branch20.top^
 ||branchborder.com^
 ||branchct.ncapp04.com^
 ||branchcust.zulln.se^
@@ -153261,6 +153265,7 @@ zzzyk.com###Tinfo
 ||dayujs.top^
 ||dayyfq.rapidonline.com^
 ||dazdmx.cobra.fr^
+||dazzlescript.com^
 ||dazzlingbook.com^
 ||db-ip.com^$third-party
 ||db11yy.com^
@@ -153501,6 +153506,7 @@ zzzyk.com###Tinfo
 ||dd667788dd.com^
 ||dd6zx4ibq538k.cloudfront.net^
 ||dd778899dd.com^
+||dd81bp3qbj.com^
 ||ddbgi.bonheurjewelry.com^
 ||ddbuwo.cn^
 ||ddc.statefarm.com^
@@ -155060,6 +155066,7 @@ zzzyk.com###Tinfo
 ||docs.amd.com/internal/api/webapp/events
 ||docs.github.com/events
 ||docs.google.com/forms/*/naLogImpressions^
+||documentstock.com^
 ||docviewer.yandex.com/monitoring.txt
 ||docyjy.ryderwear.com^
 ||doczj.com/js/common.js
@@ -170872,6 +170879,7 @@ zzzyk.com###Tinfo
 ||huaren.us/bbs_ads/
 ||huarenjie.com/attachment/myfiles/
 ||huatuo.qq.com^
+||huavod.cc/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huavod.com/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huavod.net/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huavod.top/player/$replace=/let ConFig/var ConFig/,document,subdocument
@@ -186407,6 +186415,7 @@ zzzyk.com###Tinfo
 ||m3ds.subarumetropolitain.com^
 ||m3ks1o8jz.com^
 ||m3uef4b38brmbntdzx.franchiseplus.nl^
+||m3v8x28jut.com^
 ||m4.directwoodflooring.co.uk^
 ||m43ocq1uoj.com^
 ||m485oq2gym.top^
@@ -202020,6 +202029,7 @@ zzzyk.com###Tinfo
 ||pxl.retaku.net^
 ||pxlctl.elpais.com^
 ||pxlgnpgecom-a.akamaihd.net^
+||pxlizduukhnpps.com^
 ||pxlnow.in^
 ||pxlstat.com^
 ||pxmhwn.wellstore.it^
@@ -230760,7 +230770,7 @@ zzzyk.com###Tinfo
 ||static.nrk.no/*/Serum.ExperimentTracking.js
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.okokserver.com/uploads/lesi/$image,domain=huaren.live|huavod.com
-||static.okokserver.com/uploads/lesi/$xmlhttprequest,redirect=nooptext,domain=huaren.live|huavod.net|huavod.com|huavod.top
+||static.okokserver.com/uploads/lesi/$xmlhttprequest,redirect=nooptext,domain=huaren.live|huavod.net|huavod.com|huavod.top|huavod.cc
 ||static.okokserver.com/uploads/lesi/lesi.mp4$media
 ||static.okokserver.com^$media,domain=huaren.live
 ||static.olelive.com/upload/site/*/*.gif
@@ -246282,6 +246292,7 @@ zzzyk.com###Tinfo
 ||va-endpoint.com^$third-party
 ||va.tawk.to/log
 ||va.tawk.to/log^
+||va3yq7si6w.com^
 ||va6test.va6prodt.test.cjmadobe.com^
 ||vacationbetter.inspirato.com^
 ||vacationsgolf.com^
@@ -251272,6 +251283,7 @@ zzzyk.com###Tinfo
 ||xgo.com.cn/pv.js
 ||xgp.pl/wp-content/themes/asona-child-theme/scripts/ga-script.js
 ||xgspzv.troyestore.com^
+||xgsspao.com^
 ||xgsvpsz7f4.com^
 ||xgtv.atuvu.ca^
 ||xgtxdf.saihok.jp^
