@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-04 11:57:01(GMT+8) 
-! Total count: 254438
+! ! Version: 2026-06-04 22:58:39(GMT+8) 
+! Total count: 254451
  
 ###ADtip
 ###Ad_windows
@@ -1870,6 +1870,8 @@ $cookie=advcake_track_url
 $cookie=advcake_trackid
 $cookie=advcake_utm_partner
 $cookie=advcake_utm_webmaster
+$cookie=afUserId
+$cookie=af_id
 $cookie=ahoy_visit,domain=instacart.ca|instacart.com
 $cookie=ahoy_visitor,domain=instacart.ca|instacart.com
 $cookie=ajs_anonymous_id
@@ -11686,6 +11688,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||chasecdn.com/web/*/eventtracker.js$domain=chase.com
 @@||chat-webim.rsb.ru/l/v/track.php?
 @@||chat.d-id.com/assets/mixpanel.$~third-party
+@@||chat.dbo-dengi.online/*/track?event=$script,domain=online.mtsdengi.ru
 @@||chatzy.com/?jsonp:$script
 @@||check.ddos-guard.net/check.js$script
 @@||checkm8.com^$object-subrequest,domain=mako.co.il
@@ -16268,7 +16271,7 @@ atlantic.avadacom.com$image
 atlassian-trk.prd.msg.ss-inf.net$image
 atoolbox.net###ad-coupon-search
 ats-mail.eqt.com$image
-attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 atyun.com###r_banner > ul > li > a[href^="http"]:not([href*="atyun."])
 atyun.com##.coupletbox
 audio.avadacom.com$image
@@ -21357,6 +21360,7 @@ digital-eliteboard.com/b/image.gif?p=
 digital.neoseguradora.com.br$image
 digitalcitizen.life###dont-block-our-ads-popup
 digitalcitizen.life##.TopAdBanner
+digitalspy.com##.inline-content-module:has(.cx-flex-module)
 digitimes.com.tw##.dt-ad-block
 digitimes.com.tw##.edm-frame:has(> .adtext)
 digitimes.com.tw##a[href*="/webad/"]
@@ -113174,6 +113178,7 @@ mosung.com$image
 motobuy.com.tw##.AD1
 motobuy.com.tw##.adbig
 motocity.com.tw###rotator
+motortrend.com#%#//scriptlet('set-local-storage-item', 'mtid', '$remove$')
 motv.app##.wn_banner
 movements.mg.movements.mov$image
 movie.flixster.com$image
@@ -118368,7 +118373,6 @@ tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5feb\\u8baf\\u5927\\u7ba1\\u5bb6\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901f\\u8baf\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
-tieba.baidu.com##.load-more.wake-app
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.only-lz
@@ -122743,6 +122747,7 @@ x3cn.com#?#body > div#qmenu_menu ~ div[style]:has(> a[target="_blank"])
 x6d.com#?#li:has(>.myad)
 x6d.com,xiaodao0.com##a[href^="/ad."]
 x6g.com##.addd
+x6g.com##.news-article_container > ul > li[class]:has(> a[href^="/ad.php?aHR0c"])
 x99av.com#%#//scriptlet('set-constant', 'ADSOBJET', 'emptyObj')
 xbeibeix.com#%#//scriptlet('prevent-setTimeout', '/\.height\(\) == 0|adsbygoogle/')
 xbeibeix.com#@#.google-ad
@@ -124989,6 +124994,7 @@ zzzyk.com###Tinfo
 ||5e00.pandasuite.io^
 ||5edf1d2qv.com^
 ||5etv.com^$third-party
+||5eyal1g5a9.com^
 ||5f1qyi04vz.com^
 ||5fm.985fm.ca^
 ||5fyme6x6uy.com^
@@ -144179,7 +144185,6 @@ zzzyk.com###Tinfo
 ||cdn.yottaa.com/rapid.security.min.*.js$script,redirect=noopjs,domain=northerntool.com
 ||cdn.yunliunet.com^
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
-||cdn.zg-api.com^*/analytics.js
 ||cdn.zx-adnet.com^$third-party
 ||cdn0.sxhjty.cn^
 ||cdn00.sanko.ac.jp^
@@ -144659,6 +144664,7 @@ zzzyk.com###Tinfo
 ||chexun.net/images/sales//cxgg/
 ||chgwwj.klimate.nl^
 ||chhav.oneractive.com^
+||chibanippo.co.jp/api/page-tracker
 ||chibi.sh^$third-party
 ||chickadee.mikebifulco.com^
 ||chickadee.och.dev^
@@ -156095,7 +156101,6 @@ zzzyk.com###Tinfo
 ||e.usesneakpeek.com^
 ||e.vcty.co^
 ||e.viously.com^
-||e.zg-api.com/event$domain=zillow.com
 ||e.zg-api.com^
 ||e035.pandasuite.io^
 ||e045f561.b-cdn.net^
@@ -156970,6 +156975,7 @@ zzzyk.com###Tinfo
 ||efgam.actonservice.com^
 ||efgh.5lu.com^
 ||efglbp.baur.de^
+||efh2rahxxq.com^
 ||efjsvt.patyka.com^
 ||eflbundles.*.com.tr^
 ||eflru.cheerdental.com^
@@ -162037,6 +162043,7 @@ zzzyk.com###Tinfo
 ||fx110.*/Scripts/1.0.0/gulpmin/Ghz/
 ||fx110.*/Styles/1.0.0/dist/Ghz/MatrixAds.
 ||fx168.com/am.js
+||fx455rrt4b.com^
 ||fx678.com/htcount/count.js
 ||fx8rurzhbf.com^
 ||fxa.fuchsschmitt.com^
@@ -176359,6 +176366,7 @@ zzzyk.com###Tinfo
 ||jtugc.12thtribe.com^
 ||jtxrou.saucony.com^
 ||jtyutq.chaussures.fr^
+||jtzyk9iypb.com^
 ||ju23.madeindesign.co.uk^
 ||juandou.com^$third-party
 ||juapp5.com/geek_image/chaopai.jpeg
@@ -185886,7 +185894,8 @@ zzzyk.com###Tinfo
 ||ltbyw.top/data/images/*.gif
 ||ltcmak.alodokter.com^
 ||ltcnetwork.mhainc.com^
-||ltd.ua/zz
+||ltd.ua/zz$badfilter
+||ltd.ua/zz$xmlhttprequest,redirect=noopjson
 ||ltdcef.mclanee.co.kr^
 ||ltdczq.myhome.nifty.com^
 ||ltecrf.dhgate.com^
@@ -189390,6 +189399,7 @@ zzzyk.com###Tinfo
 ||media.fc2.com/counter_img
 ||media.flaticon.com/dist/js/ads.*.js
 ||media.flixcar.com/delivery/js/hotspot/
+||media.flixcar.com/log/
 ||media.fmid5-1.fna.whatsapp.net.iberostar.com^
 ||media.fsctrust.com^
 ||media.geinoschool-hikaku.net^
@@ -194459,6 +194469,7 @@ zzzyk.com###Tinfo
 ||nbmhu.sattache.com^
 ||nbohze.thenorthface.ru^
 ||nbpczr.icu^
+||nbpicture.xyz^$domain=ltd.ua
 ||nbraenkikrn.com^
 ||nbrngg.rinkaiseminar.co.jp^
 ||nbsdi.minisplitsystemsdirect.com^
@@ -199986,6 +199997,7 @@ zzzyk.com###Tinfo
 ||pixel.locker2.com^
 ||pixel.magentamarketing.com^
 ||pixel.mangooutletshop.com^
+||pixel.marqo-ep.ai^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscgp.com^
@@ -202907,6 +202919,7 @@ zzzyk.com###Tinfo
 ||qudajie.com^
 ||qudao.com/common/minisite.js
 ||quebec.savills.ca^
+||queen-one.net^
 ||queenjam.com^
 ||queenskart.com^
 ||queer.de/a?$image
@@ -246925,7 +246938,6 @@ zzzyk.com###Tinfo
 ||vimeo.com/add/
 ||vimeo.com^$cookie=_scid
 ||vimeo.com^$cookie=_scid_r
-||vimeo.com^$cookie=afUserId
 ||vimeocdn.com/add/player-stats?
 ||vimeocdn.com/add/player-stats?beacon=
 ||vimeocdn.com/ga/
@@ -248154,6 +248166,7 @@ zzzyk.com###Tinfo
 ||wc.wholifeco.com^
 ||wc.yahoodns.net^$image
 ||wc4.net^$image,third-party
+||wc6y3nrv7g.com^
 ||wcanj.com/2345/
 ||wcbmp.sugarloaf.com^
 ||wccftech.com/cnt*.js?ts=
