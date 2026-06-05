@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-04 22:58:39(GMT+8) 
-! Total count: 254451
+! ! Version: 2026-06-05 11:41:30(GMT+8) 
+! Total count: 254456
  
 ###ADtip
 ###Ad_windows
@@ -13766,11 +13766,13 @@ $websocket,domain=wap.yushuwu.cloud
 @@||mozilla.org/api$removeparam
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|bravotv.com|cnbc.com|gymshark.com|motortrendondemand.com|nbcsports.com
+@@||mpsnare.iesnare.com/script/logo.js$domain=aswbe.ana.co.jp
 @@||mpsnare.iesnare.com/script/logo.js$domain=lenovo.com
+@@||mpsnare.iesnare.com/snare.js$domain=aswbe.ana.co.jp
 @@||mpsnare.iesnare.com/snare.js$domain=lenovo.com
 @@||mpsnare.iesnare.com/snare.js$domain=rossmann.de
 @@||mpsnare.iesnare.com/snare.js$domain=welcome.cryptothrills.io
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|secure.coventrybuildingsociety.co.uk|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
+@@||mpsnare.iesnare.com^$script,domain=aswbe.ana.co.jp|citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|secure.coventrybuildingsociety.co.uk|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 @@||ms332.com^$generichide
 @@||msecnd.net/scripts/jsll-$domain=microsoft.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
@@ -123591,6 +123593,7 @@ zzzyk.com###Tinfo
 ||0ns32h.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0oi1ej7mo.com^
+||0otmh22aj2.com^
 ||0ouq6.climaxchange.com^
 ||0p7w.cn^
 ||0qxfxqif0.com^
@@ -141071,6 +141074,7 @@ zzzyk.com###Tinfo
 ||blackjack.abzorbagames.com^
 ||blackjack.net.anwalt.de^
 ||blackmesh.actonservice.com^
+||blackthorn88.com^
 ||blacktri-a.akamaihd.net^
 ||blacktri.com^$third-party
 ||bladv.actonservice.com^
@@ -184939,6 +184943,7 @@ zzzyk.com###Tinfo
 ||locotrack.net^$third-party
 ||locust.ausrebellion.earth^
 ||lodicoandco.actonservice.com^
+||lodipq3zb.com^
 ||lodjo.electrifyexpo.com^
 ||lodlww.carcon.co.jp^
 ||loe.ipvzdelavanie.sk^
@@ -185894,8 +185899,6 @@ zzzyk.com###Tinfo
 ||ltbyw.top/data/images/*.gif
 ||ltcmak.alodokter.com^
 ||ltcnetwork.mhainc.com^
-||ltd.ua/zz$badfilter
-||ltd.ua/zz$xmlhttprequest,redirect=noopjson
 ||ltdcef.mclanee.co.kr^
 ||ltdczq.myhome.nifty.com^
 ||ltecrf.dhgate.com^
@@ -249973,6 +249976,7 @@ zzzyk.com###Tinfo
 ||ww9874.com/asset/playerInit.js
 ||wwads.cn^
 ||wwatmd.chainethermale.fr^
+||wwavo59q3.com^
 ||wwbsll.nissen.co.jp^
 ||wwclickserv.club^$third-party
 ||wwe.soto88ontop.site^
@@ -251079,6 +251083,7 @@ zzzyk.com###Tinfo
 ||x.com^$removeparam=t
 ||x.com^*/log.json
 ||x.crockers.co.nz^
+||x.designboom.com^
 ||x.disq.us^
 ||x.gldn.io^
 ||x.groupecolibri.ca^
