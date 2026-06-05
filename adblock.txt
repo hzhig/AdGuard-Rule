@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-05 11:41:30(GMT+8) 
-! Total count: 254456
+! ! Version: 2026-06-05 22:49:23(GMT+8) 
+! Total count: 254477
  
 ###ADtip
 ###Ad_windows
@@ -14682,6 +14682,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||smartpixel.tv
 @@||smetrics.aa.com/b/ss/
 @@||smetrics.aa.com^$app=com.aa.android
+@@||smetrics.airmiles.ca/*identity/acquire?$domain=oauth.airmiles.ca
 @@||smetrics.blackberry.com/b/ss/*:jump-page:$image,domain=bbm.com
 @@||smetrics.target.com/b/ss/$image
 @@||smetrics.ticketmaster.com/b/ss/$image
@@ -14951,7 +14952,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tags.news.com.au/prod/heartbeat/$script
 @@||tags.stepstone.com/utag/de/prod/utag.js$domain=stepstone.de
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=10.com.au|bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 @@||tags.tiqcdn.com/utag/bofa/ml/prod/utag.js$domain=ml.com
 @@||tags.tiqcdn.com/utag/cbsi/pluto-tv/prod/utag.js$domain=pluto.tv
 @@||tags.tiqcdn.com/utag/pch/*/prod/utag.js$domain=pch.com
@@ -16180,6 +16181,8 @@ apticmail.factoring.payex.com$image
 apticmail.finance.mail.tratonfs.com$image
 ar.verwin.com$image
 ara.moseasia.com$image
+aramgg.com##.bg-red-950
+aramgg.com##a[rel^="sponsored"]
 arbiter.mail.quadspinner.com$image
 arcadia.avadacom.com$image
 archive.org#%#//scriptlet('set-constant', 'archive_analytics', 'noopFunc')
@@ -21454,6 +21457,8 @@ dmzj.com###khdDown
 dmzj.com###show_tip_bg
 dmzj.com##.ad_th
 dmzj.com##a[href*="qunhei.com"]
+dn.pt#%#//scriptlet('set-local-storage-item', 'altair', '$remove$')
+dn.pt#%#//scriptlet('set-local-storage-item', 'aries__uuid', '$remove$')
 dngz.net##.hezuo
 dngz.net##.listright > a[target="_blank"] > img
 dngz.net##.tongji
@@ -115925,8 +115930,8 @@ pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping.mg.apexpay.org$image
-ping0.cc###adbright
-ping0.cc##.xzeles
+ping0.cc###adfright
+ping0.cc##.xaeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
@@ -124558,6 +124563,7 @@ zzzyk.com###Tinfo
 ||3hads4i5hm.com^
 ||3hfmrv8d45.com^
 ||3hg6yh6h0.com^
+||3hrv7yijx.com^
 ||3hx1ui2vt.com^
 ||3i2i.com^
 ||3i3w8hl6do.com^
@@ -124781,6 +124787,7 @@ zzzyk.com###Tinfo
 ||4wym8gups.com^
 ||4xdma060ad.com^
 ||4xicd08qs.com^
+||4xr7sy3gu.com^
 ||4y13js.work^
 ||4yduy53ik.com^
 ||4yl3e3fmv.com^
@@ -145337,6 +145344,7 @@ zzzyk.com###Tinfo
 ||client-log.karte.io^
 ||client-logger.beta.salemove.com^
 ||client-logger.salemove.com^
+||client-logs-a.wbx2.com^
 ||client-metrics.chess.com^
 ||client-sdk.hackle.io^
 ||client-telemetry-preauth.hingeprod.net^
@@ -154982,6 +154990,7 @@ zzzyk.com###Tinfo
 ||dmzls.safe-installation.com^$third-party
 ||dmztm.varley.com^
 ||dn*.ixinwei.com^
+||dn.pt/scooby/api/v*/log/
 ||dn.pt/scooby/api/v1/log/
 ||dn34cbtcv9mef.cloudfront.net^
 ||dn666andut2j1.cloudfront.net^
@@ -163735,6 +163744,7 @@ zzzyk.com###Tinfo
 ||go-test.wondavr.com^
 ||go-uat.qantaswellbeing.com^
 ||go-usertrack-importer.pub.24ur.si^
+||go-usertrack-importer.pub.rtl-api.com^
 ||go-vmware.broadcom.com^
 ||go.17app.co^
 ||go.4010.ru^
@@ -164584,7 +164594,6 @@ zzzyk.com###Tinfo
 ||good.debbeq.com^
 ||good.iamandco.com^
 ||good8866.com/js/*.js
-||goodbark.com^
 ||goodcar.com/js/parts/fp.js
 ||goodcome.com.tw/block/ad/rndtopad.php
 ||goodcounter.org^$third-party
@@ -174807,7 +174816,6 @@ zzzyk.com###Tinfo
 ||iqzone.com^$third-party
 ||ir-sdk.guardease.com^
 ||ir.ebaystatic.com/*/js/GlanceCobrowseLoader_
-||ir.ebaystatic.com/*/s_1x2.gif
 ||ir.ebaystatic.com/cr/ebay-rum/
 ||ir.ebaystatic.com/rs/c/9527tracking/
 ||ir.ebaystatic.com/rs/c/makeebayfasterscript-src-scripts-logger-cbdc5549.js
@@ -177418,6 +177426,7 @@ zzzyk.com###Tinfo
 ||knfssst.knifestock.sk^
 ||kngkxk.around101.com^
 ||knhtqq.fnjournal.com^
+||knie8wmsk.com^
 ||knifetreasury.com^
 ||knitstamp.com^
 ||knjcsonpo.com^
@@ -186421,6 +186430,7 @@ zzzyk.com###Tinfo
 ||m2k3j7x8.com^
 ||m2t.actonservice.com^
 ||m3.dreamdecking.co.uk^
+||m365.cloud.microsoft/events
 ||m365log.com^$third-party
 ||m367.michigansthumb.com^
 ||m3cqjc3og6.com^
@@ -194325,6 +194335,7 @@ zzzyk.com###Tinfo
 ||naesl.theinkeylist.com^
 ||nafmxc.1083.fr^
 ||nagar.nagardeal.shop^
+||nahdlvqwqkzxby.com^
 ||nahg4lhbr.com^
 ||nahid.satyabadipathe.com^
 ||nahin.nabihababycollection.com^
@@ -194556,6 +194567,7 @@ zzzyk.com###Tinfo
 ||ndmais.com.br/tracking-parceiros-ndmais/
 ||ndmcg.schwarzkopf-professional.us^
 ||ndmot.sideout.com^
+||ndpfxnu.com^
 ||ndpro.healthtonicbd.com^
 ||ndpro.primbd.org^
 ||ndpro.swaponsworld.com^
@@ -205357,6 +205369,7 @@ zzzyk.com###Tinfo
 ||rtk.trk.wellnessplansdirect.com^
 ||rtk.trk.wisespendusa.com^
 ||rtk.trk.yourtrustedbenefits.com^
+||rtl.hr^$cookie=device-id
 ||rtl.hu/_stat/
 ||rtl.met.vgwort.de^
 ||rtl.nl/system/track/
@@ -207147,6 +207160,8 @@ zzzyk.com###Tinfo
 ||sapnest.com^
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
+||sapo.pt/assets/sapix.gif
+||sapo.pt/metrics
 ||sapot.1000bulbs.com^
 ||sapphire.api.microsoftapp.net^$app=com.microsoft.bing
 ||sappmetrics.sprint.com^
@@ -208539,6 +208554,7 @@ zzzyk.com###Tinfo
 ||seguridad.compensar.com/lib/js/fingerprint2.js$script,redirect=fingerprintjs2
 ||seibc.ofirbeauty.com^
 ||seifst.seifenstars.de^
+||seijlfsx.com^
 ||seitwert.de^$third-party
 ||sejdfu.coeur.de^
 ||sekaopi.nocre.jp^
@@ -233126,6 +233142,7 @@ zzzyk.com###Tinfo
 ||substack.com^$cookie=visit_idr
 ||substantialgrade.com^
 ||substation.confection.io^
+||substrate.office.com/search/api/v1/events
 ||subx.alpinawein.de^
 ||success.act-on.com^
 ||success.azzure-it.com^
@@ -240613,6 +240630,7 @@ zzzyk.com###Tinfo
 ||track.projetobravomike.com.br^
 ||track.promptfile.com^
 ||track.properhaus.com^
+||track.psatcrm.com/tracker.js
 ||track.push-ad.com^
 ||track.pushbullet.com^
 ||track.qoof.com^
@@ -243797,6 +243815,7 @@ zzzyk.com###Tinfo
 ||tt1069.com/script.min.js
 ||tt1069.com/t0602.js
 ||tt123.eastday.com^
+||tt144jrfu.com^
 ||ttaqa.taylorrobinsonmusic.com^
 ||ttarget.eastwestbank.com^
 ||ttauri.laptopmag.com^
@@ -246464,6 +246483,7 @@ zzzyk.com###Tinfo
 ||vcrvd.hollywoodmirrors.co.uk^
 ||vcs.kensington.my^
 ||vcs.zijieapi.com^
+||vcsc1fp2f.com^
 ||vcvbnmto.xyz^
 ||vcvnl.fashionnova.com^
 ||vcxtkb.myomee.com^
@@ -252645,6 +252665,7 @@ zzzyk.com###Tinfo
 ||ymviwl.just4camper.de^
 ||ymyile.xyz^
 ||yn0mbg4p1.com^
+||yn68b5vn9.com^
 ||yn9k86cpsf.com^
 ||ynagqs.vidaxl.pl^
 ||yncjsc.cn^
