@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-06 11:25:24(GMT+8) 
-! Total count: 254490
+! ! Version: 2026-06-06 21:41:04(GMT+8) 
+! Total count: 254498
  
 ###ADtip
 ###Ad_windows
@@ -10326,6 +10326,9 @@ $websocket,domain=wap.yushuwu.cloud
 ://tracker.*/track/event
 ://tracking.*/beacon/
 ://tracking.*/event
+://tralut.*/collect/value?
+://tralut.*/js/script-dynamic.js
+://tralut.*/js/tracking.js
 ://tru.am^$third-party
 ://vip.*/?pge=$image,third-party
 ://wa.*/s?$image
@@ -12092,6 +12095,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dw.de/js/xtcore.js
 @@||dwstatic.com/b=amkit&f=*/adjoin.
+@@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com
 @@||dydog.org/*/DPlayer.min.css
 @@||dydog.org/*/DPlayer.min.js
 @@||dygassets.dygdigital.com/player-new/
@@ -124590,6 +124594,7 @@ zzzyk.com###Tinfo
 ||3p-udc.yahoo.com^
 ||3p8801.co^
 ||3pefw1lz4.com^
+||3pf2kwmc3g.com^
 ||3pkf5m0gd.com^
 ||3plworldwide.actonservice.com^
 ||3prndxd.cn^
@@ -128417,6 +128422,7 @@ zzzyk.com###Tinfo
 ||a4sz.xyz^
 ||a4xvv2g18l.com^
 ||a51wzxssu.com^
+||a5wlr2yplf.com^
 ||a5xiazai.com/z/
 ||a6.hujiang.com^$domain=~class.hujiang.com
 ||a613.redbluffdailynews.com^
@@ -149141,6 +149147,7 @@ zzzyk.com###Tinfo
 ||dabu.askmediagroup.com^
 ||daccp.cn^
 ||dacedsfa.cn^
+||daciuehpyf.com^
 ||dacocorp.actonservice.com^
 ||dacota.tw/wp-content/plugins/wp-mop-analytics/
 ||dacounter.com^$third-party
@@ -162269,6 +162276,7 @@ zzzyk.com###Tinfo
 ||g4z8712756.com^
 ||g594253006.co^
 ||g5hvff5.chatwerk.de^
+||g5xu1dslr6.com^
 ||g64njjhyh.com^
 ||g650.delcotimes.com^
 ||g66ryy88z.com^
@@ -178678,12 +178686,10 @@ zzzyk.com###Tinfo
 ||lemon.fragranceofarabia.com^
 ||lemon.meinefestanstellung-fyrd.com^
 ||lemon.peakhomefurnishings.com^
-||lemonde.fr/*.pa.js
 ||lemonde.fr/*?s=$xmlhttprequest,ping
+||lemonde.fr/b9d29410eafefd859fb36add0cb64f9b4ad2138b
 ||lemonde.fr/bucket/*/js/smartTag.bundle.js
-||lemonde.fr/bucket/*/tagistan.
 ||lemonde.fr/bucket/resources/front/*.pa.js
-||lemonde.fr^$ping
 ||lemonpackage.com^
 ||lemonpi.io^
 ||lemonsandjoy.com^
@@ -236470,6 +236476,7 @@ zzzyk.com###Tinfo
 ||tdigcw.com^
 ||tdjvod.chevignon.com.co^
 ||tdk.petsplace.nl^
+||tdlop7tsme.com^
 ||tdnel.tend.com^
 ||tdor-smetrics.td.com^
 ||tdp.loja.terradepeao.com.br^
@@ -253643,6 +253650,7 @@ zzzyk.com###Tinfo
 ||zfcdirf.icu^
 ||zfcumb.xyz^
 ||zfcxs.magazines.com^
+||zfdfs1tpyd.com^
 ||zfdve.goodr.com^
 ||zfdzf.killstar.com^
 ||zfdzp.eatrotten.com^
