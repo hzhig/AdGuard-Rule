@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-05 22:49:23(GMT+8) 
-! Total count: 254477
+! ! Version: 2026-06-06 11:25:24(GMT+8) 
+! Total count: 254490
  
 ###ADtip
 ###Ad_windows
@@ -1967,6 +1967,7 @@ $cookie=mosb,domain=womenshealthmag.com|bicycling.com|bestproducts.com|caranddri
 $cookie=muidn
 $cookie=nQ_cookieId
 $cookie=nQ_userVisitId
+$cookie=newspack-cid
 $cookie=nxt_last_visit
 $cookie=obuid
 $cookie=oftmediauid,domain=wp.pl
@@ -113448,6 +113449,7 @@ naifei.im##.tg_w
 naifei.im##div[class^="wp-none"]
 naifei.im##div[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
 nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
+nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw#%#//scriptlet('abort-on-property-write', '__PROXY_META')
 nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw#%#//scriptlet('abort-on-property-write', '__ad_unblock_id_obfuscation')
 nanfengyl.com##.index-top-ad1
 nanfengyl.com##.top-ad-txt
@@ -124355,6 +124357,7 @@ zzzyk.com###Tinfo
 ||2pqma2nuv.com^
 ||2qpqwkx.cn^
 ||2r1jqii2c.com^
+||2r2zhs64a7.com^
 ||2r69dkb1a.com^
 ||2rid9fii9chx.www.atlaslane.com^
 ||2rwonuh.com^
@@ -125192,6 +125195,7 @@ zzzyk.com###Tinfo
 ||6cmxoje5k.com^
 ||6cyfvvs.com^
 ||6dp0i7.ru^
+||6ejvq6ykg2.com^
 ||6f42v90nz.com^
 ||6fm4dcpj31.com^
 ||6functf.com^
@@ -160597,6 +160601,7 @@ zzzyk.com###Tinfo
 ||findme.ru/Counter$third-party
 ||findthetruth.allergyai.com^
 ||findyourdailyjoy.com^
+||findyourdelight.com^
 ||findyourinfluence.actonservice.com^
 ||fine.aftershoot.com^
 ||fine.ampelmannshop.com^
@@ -170027,6 +170032,7 @@ zzzyk.com###Tinfo
 ||hibiscus76.com^
 ||hickeyhsu.top^
 ||hickeysmith.actonservice.com^
+||hickory27.top^
 ||hicloud.com/download/web/dtm.js
 ||hiconversion.com^$third-party
 ||hide.epochwine.it^
@@ -177181,6 +177187,8 @@ zzzyk.com###Tinfo
 ||kissmetrics.com^$third-party
 ||kissmetrics.io^$third-party
 ||kistacity.viessmann.se^
+||kit.com/posts/visit
+||kit.com/ui/reporting_event
 ||kit.infento.com^
 ||kit22.com^
 ||kitabisa.berkah100.asia^
@@ -177205,7 +177213,6 @@ zzzyk.com###Tinfo
 ||kiuua.cycologygear.com^
 ||kiva.org/r3pNVz1F/init.js
 ||kivo.fun^
-||kiwari.com^*/impressions.asp?
 ||kiwi.coreyodonnell.tech^
 ||kiwi.emilkowal.ski^
 ||kiwi.halostats.app^
@@ -178460,6 +178467,7 @@ zzzyk.com###Tinfo
 ||ldckmk.divarese.com.tr^
 ||ldcqh.reynspooner.com^
 ||lddt.de^$third-party
+||lddvxfmswnnxny.com^
 ||ldgnrtn.com^
 ||ldgxsr.locasun-vp.fr^
 ||ldhteg.mooihorloge.nl^
@@ -186430,6 +186438,7 @@ zzzyk.com###Tinfo
 ||m2k3j7x8.com^
 ||m2t.actonservice.com^
 ||m3.dreamdecking.co.uk^
+||m365.cloud.microsoft/client_health_ping
 ||m365.cloud.microsoft/events
 ||m365log.com^$third-party
 ||m367.michigansthumb.com^
@@ -196286,6 +196295,7 @@ zzzyk.com###Tinfo
 ||o398.trumbulltimes.com^
 ||o3gxzoewxl1x.cp.zomro.com^
 ||o40d17vln.com^
+||o5y2zd1lq8.com^
 ||o68c.sfr.fr^
 ||o69cab6a.eulerian.io^
 ||o6oxvugdl.com^
@@ -203667,6 +203677,7 @@ zzzyk.com###Tinfo
 ||realizerecess.com^$third-party
 ||reallyfreegeoip.org^$third-party
 ||realm.hearst3pcc.com^
+||realmadryt.pl/api/v1/client-log|$important
 ||realogic.actonservice.com^
 ||realogicinc.actonservice.com^
 ||realperson.de/system/third-party/rpfp/rpfp.min.js
@@ -223495,6 +223506,7 @@ zzzyk.com###Tinfo
 ||ssksc.giftsforyounow.com^
 ||sskt.basus.fr^
 ||sskt.moea.io^
+||sskuwzv.com^
 ||ssl-abendblatt.met.vgwort.de^
 ||ssl-beck.met.vgwort.de^
 ||ssl-berliner-kurier.met.vgwort.de^
@@ -244984,6 +244996,7 @@ zzzyk.com###Tinfo
 ||umami.spencerdevs.xyz^
 ||umami.subdavis.com^
 ||umami.syg.ma^
+||umami.vidcore.net^
 ||umami.vidfast.pro^
 ||umami.wakarimasen.moe^
 ||umamix.fadunews.in^
