@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-08 11:57:37(GMT+8) 
-! Total count: 254520
+! ! Version: 2026-06-08 23:50:57(GMT+8) 
+! Total count: 254546
  
 ###ADtip
 ###Ad_windows
@@ -108015,6 +108015,7 @@ huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('set-consta
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'mac_player_info.from', 'ARTVIPA')
 huavod.com##a[href^="https://lesi198.com"]
+huavod.net#%#(()=>{const e=()=>{const e=document.querySelector('iframe[src^="https://newplayer.huavod.net/player/index.php?code="]');if(e){const n=e.src.replace("://newplayer.huavod.net/","://newplayer.huaren.live/");e.src=n}};"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()})();
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -109420,6 +109421,7 @@ laohu8.com##.top-recommend
 laohu8.com#@#.tweet-article
 laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_html
 laosiji.com#@#.sns-wrapper
+laosu.tech#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlocker')
 laowang.vip###frameYl5IOf
 laowangblog.com##img[src^="https://laowangblog.com/"][src*="-ad"]
 laozuo.org###focusslide
@@ -111830,6 +111832,8 @@ m.qu.la#?#ul:-abp-has(> li > a[href*=".bcebos."])
 m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'Math.random', 'parentNode.insertBefore')
 m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'return a.split')
 m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'navigator', 'location.href')
+m.shuhaige.net#%#//scriptlet('prevent-setTimeout', 'parentNode.insertBefore', '1000')
+m.shuhaige.net#%#//scriptlet('prevent-setTimeout', 'parentNode.insertBefore', '1500')
 m.skatingfinland.fi$image
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
 m.smzdm.com##.damo-footer-open-app__fixed-logo
@@ -113215,6 +113219,16 @@ mpyit.com##.cboxElement + a[target="_blank"]
 mpyit.com##.cboxElement + center[style=" padding-top:10px; "]
 mpyit.com##.post-999999
 mpyit.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+mqoeomads.cc###tip_modal > .modal-dialog
+mqoeomads.cc##.ad-dialog
+mqoeomads.cc##.dx-ad-plugin
+mqoeomads.cc##.dx-modal
+mqoeomads.cc##.dx-recommend-icons
+mqoeomads.cc##.md\:bg-inherit
+mqoeomads.cc##.md\:block.hidden:has([data-ad_id])
+mqoeomads.cc##.modal-backdrop
+mqoeomads.cc##div.dx-banner-item
+mqoeomads.cc##ul.video-items > li:has(> [data-ad_id])
 mr.postman.storyworth.com$image
 mrbird.cc#@#.social-icons
 mrmad.com.tw##div[id^="mrmadad-"][style]:has(> .adsbygoogle)
@@ -125352,6 +125366,7 @@ zzzyk.com###Tinfo
 ||79181531227.com^
 ||797sun.com/include/js/common_footer.
 ||79n4cubmu8.com^
+||79ssr9d244.com^
 ||79zxcv.com^
 ||7asx1bxaw.com^
 ||7awf4fi9k7.com^
@@ -133847,6 +133862,7 @@ zzzyk.com###Tinfo
 ||analitika.derp.si^
 ||analitits.com^$third-party
 ||analitycs.net^$third-party
+||analiz.habersoft.com/collect.js
 ||analizador.dphuesca.es^
 ||analoganalytics.com^$third-party
 ||analtyics.quicargo.com^
@@ -134761,6 +134777,7 @@ zzzyk.com###Tinfo
 ||analytics.nrgprotects.com^
 ||analytics.oceanengine.com^
 ||analytics.octaglobal.com^
+||analytics.oeksound.com^
 ||analytics.office-interior.com^
 ||analytics.ohmycharmz.com^
 ||analytics.okazii.ro^
@@ -160321,7 +160338,7 @@ zzzyk.com###Tinfo
 ||featherstage.com^
 ||feathr.co^$third-party
 ||feature-flag-edge.live.clickbus.net^
-||featureassets.org^
+||featureassets.org^$xmlhttprequest
 ||featured.bradyid.com^
 ||featureflags.grubhub.com/v1/events
 ||featuregates.org^
@@ -186492,6 +186509,7 @@ zzzyk.com###Tinfo
 ||m821.saratogian.com^
 ||m886.kmbc.com^
 ||m8h5qjmlb3.com^
+||m8qk101065.com^
 ||m8ryjf38a.com^
 ||m8zgls6zt.com^
 ||m9s3h265lq.com^
@@ -196515,6 +196533,7 @@ zzzyk.com###Tinfo
 ||oek7.april-moto.com^
 ||oekkuthy.com^
 ||oeko.immergruen-energie.de^
+||oeksound.com/pl/api/event
 ||oesfco.glamira.pl^
 ||oesnwi.icu^
 ||oesonx.10000recipe.com^
@@ -199745,6 +199764,7 @@ zzzyk.com###Tinfo
 ||pic.0597kk.com^
 ||pic.959.cn/media/js/
 ||pic.baihuawen.cn^
+||pic.deueza.cn/*.gif$domain=mqoeomads.cc
 ||pic.fengniao.com^
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
@@ -202040,6 +202060,7 @@ zzzyk.com###Tinfo
 ||pwrlkyotm.com^$third-party
 ||pwrmar.2-berega.ru^
 ||pwtftm.shingaku.mynavi.jp^
+||pwvlthpqzonnfe.com^
 ||px*.mediahills.ru^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
@@ -202357,6 +202378,7 @@ zzzyk.com###Tinfo
 ||qezkdby1jj.com^
 ||qezpjlp.cn^
 ||qf1d.top^
+||qf51ho9qtz.com^
 ||qfbles.elefant.ro^
 ||qfcdgy.cn^
 ||qfcxpa.dreamcloudsleep.com^
@@ -203089,6 +203111,7 @@ zzzyk.com###Tinfo
 ||qwant.com/action/
 ||qwant.com/impression/
 ||qwant.com/maps/events
+||qwant.com/nemo-telemetry/
 ||qwant.com/v2/api/ux/surveys?
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcwnjk.com^
@@ -207236,6 +207259,7 @@ zzzyk.com###Tinfo
 ||satarget.npubank.com.au^
 ||satarget.southaustralia.com^
 ||satgt.grafana.com^
+||satinwood84.com^
 ||satisfycork.com^
 ||satracking.cubiq.com^
 ||satracking.finning.com^
@@ -230919,6 +230943,7 @@ zzzyk.com###Tinfo
 ||statics88.vip^
 ||staticwl.bkmcdn.com/scripts/adwords-tracker.js
 ||statig.com.br/pub/setCookie.js?
+||statikk.modelviewer.lol^
 ||statinside.com^$third-party
 ||statis.greentonic.cz^
 ||statis.simeji.me/report/
@@ -244724,6 +244749,7 @@ zzzyk.com###Tinfo
 ||uetx75ibcu.com^
 ||ueuqui.esprit.nl^
 ||ueuwvgco19.com^
+||uevrhqra7u.com^
 ||uewzjy.xyz^
 ||uexgsi.guppy.jp^
 ||ueyuww.icu^

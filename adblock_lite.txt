@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-08 11:57:37(GMT+8) 
-! Total count: 32750
+! ! Version: 2026-06-08 23:50:57(GMT+8) 
+! Total count: 32771
  
 ###ADtip
 ###Ad_windows
@@ -10052,6 +10052,7 @@ huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('set-consta
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'mac_player_info.from', 'ARTVIPA')
 huavod.com##a[href^="https://lesi198.com"]
+huavod.net#%#(()=>{const e=()=>{const e=document.querySelector('iframe[src^="https://newplayer.huavod.net/player/index.php?code="]');if(e){const n=e.src.replace("://newplayer.huavod.net/","://newplayer.huaren.live/");e.src=n}};"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()})();
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -11294,6 +11295,7 @@ laohu8.com##.top-recommend
 laohu8.com#@#.tweet-article
 laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_html
 laosiji.com#@#.sns-wrapper
+laosu.tech#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlocker')
 laowang.vip###frameYl5IOf
 laowangblog.com##img[src^="https://laowangblog.com/"][src*="-ad"]
 laozuo.org###focusslide
@@ -11736,6 +11738,8 @@ m.qu.la#?#ul:-abp-has(> li > a[href*=".bcebos."])
 m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'Math.random', 'parentNode.insertBefore')
 m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'return a.split')
 m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'navigator', 'location.href')
+m.shuhaige.net#%#//scriptlet('prevent-setTimeout', 'parentNode.insertBefore', '1000')
+m.shuhaige.net#%#//scriptlet('prevent-setTimeout', 'parentNode.insertBefore', '1500')
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
 m.smzdm.com##.damo-footer-open-app__fixed-logo
 m.so.com##.e_idea_list
@@ -12168,6 +12172,16 @@ mpyit.com##.cboxElement + a[target="_blank"]
 mpyit.com##.cboxElement + center[style=" padding-top:10px; "]
 mpyit.com##.post-999999
 mpyit.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+mqoeomads.cc###tip_modal > .modal-dialog
+mqoeomads.cc##.ad-dialog
+mqoeomads.cc##.dx-ad-plugin
+mqoeomads.cc##.dx-modal
+mqoeomads.cc##.dx-recommend-icons
+mqoeomads.cc##.md\:bg-inherit
+mqoeomads.cc##.md\:block.hidden:has([data-ad_id])
+mqoeomads.cc##.modal-backdrop
+mqoeomads.cc##div.dx-banner-item
+mqoeomads.cc##ul.video-items > li:has(> [data-ad_id])
 mrbird.cc#@#.social-icons
 mrmad.com.tw##div[id^="mrmadad-"][style]:has(> .adsbygoogle)
 mrmad.com.tw#?#div[id^="mrmad-"]:has(>.adsbygoogle)
@@ -17353,6 +17367,7 @@ zzzyk.com###Tinfo
 ||79181531227.com^
 ||797sun.com/include/js/common_footer.
 ||79n4cubmu8.com^
+||79ssr9d244.com^
 ||79zxcv.com^
 ||7asx1bxaw.com^
 ||7awf4fi9k7.com^
@@ -25672,6 +25687,7 @@ zzzyk.com###Tinfo
 ||m7xssfiit.com^
 ||m81mfege2.com^
 ||m8h5qjmlb3.com^
+||m8qk101065.com^
 ||m8ryjf38a.com^
 ||m8zgls6zt.com^
 ||m9s3h265lq.com^
@@ -27277,6 +27293,7 @@ zzzyk.com###Tinfo
 ||pic.0597kk.com^
 ||pic.959.cn/media/js/
 ||pic.baihuawen.cn^
+||pic.deueza.cn/*.gif$domain=mqoeomads.cc
 ||pic.fengniao.com^
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
@@ -27562,6 +27579,7 @@ zzzyk.com###Tinfo
 ||pw321.com^*.gif
 ||pwaihoe.icu^
 ||pwk73hidf2.com^
+||pwvlthpqzonnfe.com^
 ||px.ucweb.com^
 ||px02mouzas.com^
 ||pxdb08b82.com^
@@ -27664,6 +27682,7 @@ zzzyk.com###Tinfo
 ||qezkdby1jj.com^
 ||qezpjlp.cn^
 ||qf1d.top^
+||qf51ho9qtz.com^
 ||qfcdgy.cn^
 ||qfirgakpv.com^
 ||qfnoyix.cn^
@@ -28451,6 +28470,7 @@ zzzyk.com###Tinfo
 ||sass.hk/images/hengfu.jpg
 ||sass.hk/js/ggcn.js
 ||sass.hk/plus/mytag_js.php?aid=
+||satinwood84.com^
 ||satroki.tech/api/JdUnion
 ||sausage34.com^
 ||saviourketonic.com^
@@ -30018,6 +30038,7 @@ zzzyk.com###Tinfo
 ||uesv3jjf6.com^
 ||uetx75ibcu.com^
 ||ueuwvgco19.com^
+||uevrhqra7u.com^
 ||uewzjy.xyz^
 ||ueyuww.icu^
 ||ufa9tt1n5.com^
