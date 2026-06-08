@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-07 21:50:55(GMT+8) 
-! Total count: 254512
+! ! Version: 2026-06-08 11:57:37(GMT+8) 
+! Total count: 254520
  
 ###ADtip
 ###Ad_windows
@@ -3593,6 +3593,7 @@ $websocket,domain=wap.yushuwu.cloud
 /analyticstrack.js
 /analyticstracking.js
 /analyticstrain.min.js
+/analytify-events-tracking.js
 /anametrix/cas.js
 /anclytic-ajax.html
 /anclytic.htm
@@ -7252,6 +7253,8 @@ $websocket,domain=wap.yushuwu.cloud
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
+/wp-analytify-forms/assets/js/tracking.js
+/wp-analytify/assets/js/scrolldepth.js
 /wp-coin-hive-util.js
 /wp-coin-hive.js
 /wp-content/cache/busting/google-tracking/*
@@ -124436,6 +124439,7 @@ zzzyk.com###Tinfo
 ||33w8tdyelw.com^
 ||34.215.155.61^
 ||3400.org^
+||34dcvgw197.com^
 ||34iq.com/index
 ||34mede82hj.com^
 ||35.194.26.233^
@@ -124729,6 +124733,7 @@ zzzyk.com###Tinfo
 ||4e9ynqm47d.com^
 ||4etsr.xyz^
 ||4f3tsea1m.com^
+||4f8g9foqwy.com^
 ||4fd0jlybx.com^
 ||4fptsi5zxo.com^
 ||4fzfc1irq.com^
@@ -207898,6 +207903,7 @@ zzzyk.com###Tinfo
 ||searchrecterm.kuwo.cn^$app=cn.kuwo.player
 ||searchrys.com/dot.php
 ||searchunify.com/analytics/suanlytics.png
+||seaskypro.com^
 ||seat.it/cgi-bin/getcod.cgi?
 ||seatsmoke.com^
 ||seattlepi.com/413gkwMT/init.js
@@ -246548,6 +246554,7 @@ zzzyk.com###Tinfo
 ||vdnh.cn^
 ||vdo.ai/core/logger.php?
 ||vdo.ai/core/scantrad-net/
+||vdo3c.org^
 ||vdoing.com^$third-party
 ||vdrebz.kathmandu.com.au^
 ||vdrfes.site^
@@ -254288,6 +254295,7 @@ zzzyk.com###Tinfo
 ||ztuec.nutrabio.com^
 ||ztugn.transformationbody.com^
 ||ztyumn.ifeng.com^
+||zu9srbxg0t.com^
 ||zudicy.guatafac.es^
 ||zudns.cn/uploads/*.gif$image,domain=tcptest.cn
 ||zudopk.callondoc.com^
