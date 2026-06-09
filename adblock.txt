@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-09 11:27:42(GMT+8) 
-! Total count: 254552
+! ! Version: 2026-06-09 22:49:19(GMT+8) 
+! Total count: 254548
  
 ###ADtip
 ###Ad_windows
@@ -3420,6 +3420,7 @@ $websocket,domain=wap.yushuwu.cloud
 /adtracking.asmx
 /adtrk/tr.gif
 /advanced-ads-tracking/assets/*
+/advanced-ads-tracking/assets/dist/ga-tracking.js
 /advert/youxi.js
 /advpic/*
 /advstats.js
@@ -5121,6 +5122,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/guanggao_gg.js
 /js/hbx.js
 /js/hf*.js?v=$script,domain=bqgaa.com|bi25.cc
+/js/hf.js
 /js/home/ad/ad.
 /js/htmlk*.js$~third-party
 /js/htmlka.js
@@ -11977,6 +11979,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||daziba.cn/Images/share.css
 @@||dbzog.de/Bilder/$image
 @@||dbzog.de^$elemhide
+@@||dc.services.visualstudio.com/v2/track$xmlhttprequest,domain=aiskillsnavigator.microsoft.com
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=abcnews.go.com
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=disney.*
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=fivethirtyeight.com
@@ -124040,7 +124043,6 @@ zzzyk.com###Tinfo
 ||1bva.sg.fr^
 ||1bw7etm93lf.www.woodbrass.com^
 ||1cpbac.ru^
-||1cros.net^
 ||1ctc.sfr.fr^
 ||1ddbsf9ac5v.vendorportal.bestseller.com^
 ||1dfsdfg.com^
@@ -124688,7 +124690,6 @@ zzzyk.com###Tinfo
 ||4199tv.com^
 ||41grk.icu^
 ||41vtzzt0s.com^
-||4251.tech^
 ||4275.com/css/91kf.
 ||42vaywaovr.com^
 ||42yenxh.cn^
@@ -126884,7 +126885,6 @@ zzzyk.com###Tinfo
 ||a19997.actonservice.com^
 ||a1at.mno.link^
 ||a1bw2cup.top^
-||a1webstrategy.com^
 ||a1webstrategy.com^$third-party
 ||a2.americasavingsexperts.com^
 ||a2.avomeen.com^
@@ -130187,7 +130187,6 @@ zzzyk.com###Tinfo
 ||aax-us-iad.amazon.com/e/xsp/imp?
 ||aax-us-iad.amazon.com^$script
 ||aaxdetect.com^$third-party
-||aaxwall.com^
 ||aazfby.auto.de^
 ||aazmiw.reisenthel.com^
 ||ab-in-den-urlaub.de/TrackingPixel_
@@ -133444,7 +133443,6 @@ zzzyk.com###Tinfo
 ||alpha.shroom-iq.com^
 ||alpha.smilepop.pl^
 ||alpha.tracedock.com^
-||alpha1trk.com^
 ||alpharank.io/api/pixel/
 ||alphasimplex.actonservice.com^
 ||alphaupsell.s3.ap-northeast-2.amazonaws.com^
@@ -143712,7 +143710,6 @@ zzzyk.com###Tinfo
 ||catshark.jimmyaldape.dev^
 ||catsnthing.com^$all
 ||catsnthings.fun^$all
-||catsunrunjam.com^
 ||catsys.jp^$third-party
 ||cattell.loanzify.app^
 ||cattle.apisyouwonthate.com^
@@ -153249,7 +153246,6 @@ zzzyk.com###Tinfo
 ||datamilk.app^$third-party
 ||datamind.ru^$third-party
 ||datanoticias.prisasd.com^
-||dataofpages.com^
 ||dataoke.com/api/component/code-info/v1?
 ||dataperforma.com^$third-party
 ||datapickles.com^
@@ -155785,6 +155781,7 @@ zzzyk.com###Tinfo
 ||dujgiq.trendhim.pl^
 ||dukea.alice.camera^
 ||dukwznn0x.com^
+||dulo.tv/api/ping
 ||dumbingofage.com/?feed-stats-post-id=
 ||dumjz.wearswoody.com^
 ||dumpster.cam4.com/v2/fp1.js
@@ -157878,7 +157875,6 @@ zzzyk.com###Tinfo
 ||emails.travelchannel.com^
 ||emails.verishop.com^
 ||emails.watchown.tv^
-||emailsnow.info^
 ||emamz.sunstrucktm.com^
 ||emarbox.com^$third-party
 ||emarketeer.com/tracker/
@@ -169418,6 +169414,7 @@ zzzyk.com###Tinfo
 ||haplessland.com^
 ||hapoz.londontownusa.com^
 ||happen.spkt.io^
+||happycow.net/analytics_socket|
 ||happyholidays.coniferhealth.com^
 ||happyhongkong.com/images/client/
 ||happymoose.sk-webanalytics.de^
@@ -171387,7 +171384,6 @@ zzzyk.com###Tinfo
 ||i96wgz4nmy.com^
 ||i97wqa881u.com^
 ||i9i3ko2o70.com^
-||ia-dmp.com^
 ||ia.51.la^
 ||ia.ekstrabladet.dk^
 ||ia3lxhd539.com^
@@ -175329,7 +175325,6 @@ zzzyk.com###Tinfo
 ||jambwe.transsibinfo.com^
 ||james.edge45.testandtarget.omniture.com^
 ||jamexport.com^
-||jams.wiki^
 ||janapi.jd.com^
 ||jandan.net/static/sos/recreate-games.gif
 ||jandan.net/static/ss/
@@ -192469,7 +192464,6 @@ zzzyk.com###Tinfo
 ||miqznq.eszonyeg.hu^
 ||mirabelanalytics.com^
 ||mirabelsmarketingmanager.com^$third-party
-||mircheigeshoa.com^
 ||mirec.ubmmexico.com^
 ||mirtesen.ru/js/ms.js
 ||mirvso.boggi.com^
@@ -193184,7 +193178,6 @@ zzzyk.com###Tinfo
 ||morgenpost.de/resources/*/js/webtrekk
 ||morinaga.co.jp/assets/js/ga.js
 ||mormont.gamer-network.net^
-||mors22.com^
 ||morsn.repwearfitness.com^
 ||mortgage.equifax.com^
 ||mortgage.inform.equifax.com^
@@ -197323,6 +197316,7 @@ zzzyk.com###Tinfo
 ||onxpca.aramon.com^
 ||onxuegm38t.com^
 ||onzhe.craftsports.us^
+||onzj79fce.com^
 ||onzloa.classically.co.kr^
 ||oo-syringe.com/prod/moat.js
 ||oo.ooshop.com^
@@ -197448,6 +197442,7 @@ zzzyk.com###Tinfo
 ||opera.com^$cookie=opref
 ||operationchicken.com^
 ||operationnail.com^
+||operationsports.com/plow-lite-bundle
 ||operationsports.com/wp-json/navy/v1/tag?pid=
 ||operetta17.com^
 ||opfjj.vivobarefoot.com^
@@ -201982,7 +201977,6 @@ zzzyk.com###Tinfo
 ||pushspring.actonservice.com^
 ||pushspring.com^$third-party
 ||pushsquare.com/blank.gif
-||pushvisit.xyz^
 ||pushwize.com^$third-party
 ||pushwoosh.com^$third-party
 ||pussy.org^*.cgi?pid=
@@ -203336,7 +203330,6 @@ zzzyk.com###Tinfo
 ||ra0mpyy93.com^
 ||ra1.xyz^
 ||ra10.xyz^
-||raac33.net^
 ||rabbit.donald.cat^
 ||rabbit.kilowatt.media^
 ||rabbit.meitustat.com^
@@ -205539,6 +205532,7 @@ zzzyk.com###Tinfo
 ||rudr-events.joybird.com^
 ||ruehg.dotcompliancegroup.com^
 ||rugao35.com/Public/config/Couplet/Index
+||rugbypass.com/api/tracking/
 ||rugs.luxuriousrugs.com.au^
 ||rugttt.robinson.com^
 ||ruguoapp.com^$domain=aixiaoju.com
@@ -214137,6 +214131,7 @@ zzzyk.com###Tinfo
 ||shimo.im/kong-api/ads
 ||shimo.im/lizard-api/ads
 ||shimo.im^*/ads?
+||shingakunet.com/rnet/dlpo/
 ||shinhan.com/comjs/GoogleAnalyticsBuilder.js
 ||shinhancard.com/logic/js/lib/googleAnalytics
 ||shinhancard.com/logic/js/lib/wl6.js
@@ -220845,6 +220840,7 @@ zzzyk.com###Tinfo
 ||srpm.reclamapormi.com^
 ||srpx.net^$third-party
 ||srqponmd.carte-gr.total.fr^
+||srqxnvjdd.com^
 ||srratl.mona-mode.at^
 ||srrxiq.wurth.fr^
 ||srsa.srglobal.com^
@@ -230934,6 +230930,7 @@ zzzyk.com###Tinfo
 ||static.zongheng.com^*/adClickStat.js
 ||static.zongheng.com^*/ad_click.js
 ||static.zongheng.com^*/logger.min.js
+||static0.pocketlintimages.com/assets/sentinel-events-tracker.*.js
 ||static1.dmcdn.net/js/cpe/cpeEvent.min.js
 ||static1.dmcdn.net/js/cpe/cpeEventTracking.min.js
 ||static1.dmcdn.net/playerv5/dmp.pes_pip_tracking.*.js
@@ -230969,7 +230966,6 @@ zzzyk.com###Tinfo
 ||statistiche-web.com^$third-party
 ||statistiche.it^$third-party
 ||statistichegratis.net^$third-party
-||statisticplatform.com^
 ||statistics-collector-api.listglobally.com^
 ||statistics.11880.com^
 ||statistics.aldi-international.com/consent/collect
@@ -231992,6 +231988,7 @@ zzzyk.com###Tinfo
 ||stats.s-zt.at^
 ||stats.sa-as.com^
 ||stats.safeway.com^
+||stats.sailtheship.xyz^
 ||stats.sakurasky.com^
 ||stats.salzburgerjobs.at^
 ||stats.samsungpass.com^
@@ -235611,8 +235608,8 @@ zzzyk.com###Tinfo
 ||tags.tiq.rbcinsurance.com^
 ||tags.tiq.rbcprivateinsurance.com^
 ||tags.tiq.worldprotect.com^
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com|the-sun.com
-||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org|calvinklein.ca|hosteurope.de|news.com.au
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com|the-sun.com|lavazza.com
+||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org|calvinklein.ca|hosteurope.de|news.com.au|lavazza.com
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||tags.tiqcdn.com^$app=uk.co.thetimes|com.hulu.plus|com.booking
 ||tags.toitpourtoi.fr^
@@ -236989,7 +236986,6 @@ zzzyk.com###Tinfo
 ||test.thei.co^
 ||test.thomsonreuters.com^
 ||test.torrentfreak.com^
-||test.vast^
 ||test.zeus-wifi.jp^
 ||test123.proudclinic.co.jp^
 ||test2.majelan.com^
@@ -240092,7 +240088,6 @@ zzzyk.com###Tinfo
 ||track-re01.com^$third-party
 ||track-resource.bidease.com^
 ||track-s-f4c70430.everreal.co^
-||track-selectmedia.com^
 ||track-srv.vietnamnet.vn^
 ||track-test.workframe.com^
 ||track-us.bidease.com^
@@ -240742,6 +240737,7 @@ zzzyk.com###Tinfo
 ||track.share.envestnet.com^
 ||track.shareco.life^
 ||track.shemaghmafjar.com^
+||track.shiksha.com^
 ||track.shine-group.fr^
 ||track.shontan.com^
 ||track.shootersgate.com^
@@ -242545,7 +242541,6 @@ zzzyk.com###Tinfo
 ||traker.preventaudiosp.com.br^
 ||trakken.de^$third-party
 ||trakksocial.googlecode.com^$third-party
-||trakle01.online^
 ||traktor.adventures.is^
 ||traktor.lozkoholicy.pl^
 ||traktor.ru^*/counter.php?
@@ -246387,6 +246382,7 @@ zzzyk.com###Tinfo
 ||v4gtm.transrapidopn.com.br^
 ||v4ox630nia.com^
 ||v53groc9v.com^
+||v5rv8mnfk.com^
 ||v6jt.cn^
 ||v7d8v.brilliance.com^
 ||v812.lakecountystar.com^
