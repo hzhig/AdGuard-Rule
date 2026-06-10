@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-09 22:49:19(GMT+8) 
-! Total count: 254548
+! ! Version: 2026-06-10 11:39:13(GMT+8) 
+! Total count: 254589
  
 ###ADtip
 ###Ad_windows
@@ -2666,6 +2666,7 @@ $websocket,domain=wap.yushuwu.cloud
 .js?advertID=
 .js?id=GTM-
 .js?ssid=_$script,third-party
+.js?tg=$~third-party
 .k618.cn/sytab/
 .k618.cn/zbggw/
 .keap-link003.com/$image
@@ -2940,7 +2941,6 @@ $websocket,domain=wap.yushuwu.cloud
 /*.css?*r=0$third-party
 /*/*.add.*.add
 /*JmVu.js?sp=
-/*JmVu.js?tg=
 /*_*_aubi.js$third-party
 /.*/$network,app=com.adups.fota.sysoper|com.adups.fota
 /.*/$permissions=browsing-topics=(),document
@@ -11590,6 +11590,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.petametrics.com/*-nbc.js$script,domain=bringmethenews.com
 @@||cdn.petametrics.com/*.js$domain=thestreet.com
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
+@@||cdn.petametrics.com^$script,domain=meidasnews.com
 @@||cdn.polarbyte.com^$domain=bab.la
 @@||cdn.popcash.net/pop.js,$popup,domain=hentaistream.com
 @@||cdn.prod.uidapi.com/uid2-sdk-*.js$domain=hoy.tv
@@ -15600,8 +15601,8 @@ accept.alalikexpress.com$image
 access.moseasia.com$image
 account-email.bellmedia.ca$image
 accounting.avadacom.com$image
-accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'Navigator.prototype.globalPrivacyControl', 'false')
-accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'navigator.globalPrivacyControl', 'false')
+accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'Navigator.prototype.globalPrivacyControl', 'false')
+accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'navigator.globalPrivacyControl', 'false')
 aceee.org#%#//scriptlet('prevent-canvas', '2d')
 acfun.cn###bd_ad1
 acfun.cn###goniudan
@@ -124806,6 +124807,7 @@ zzzyk.com###Tinfo
 ||4u079hpvl.com^
 ||4u3222y7.xyz^
 ||4ufutzmihl.com^
+||4uitrrt700.com^
 ||4v6a7i3dkz.com^
 ||4vgyjja.cn^
 ||4w3ol467n.com^
@@ -125052,6 +125054,7 @@ zzzyk.com###Tinfo
 ||5ilinglei.com/gg.html
 ||5ilog.com/qq/js/jsgg.js
 ||5imx.com/image/image/
+||5ipifco2tf.com^
 ||5ips.net/love/
 ||5j45n3f6r.com^
 ||5jgwflo4y935b8udrp.www.pmn-nerez.cz^
@@ -133457,6 +133460,7 @@ zzzyk.com###Tinfo
 ||alsgaj.sportschosun.com^
 ||also.greatsecuritydebate.net^
 ||alt-r.my.com^
+||alt.cobweb.com^
 ||alt.proskillsbasketball.com^
 ||altabold1.com^$third-party
 ||altalex.wolterskluwer.com^
@@ -134609,6 +134613,7 @@ zzzyk.com###Tinfo
 ||analytics.law.tmchippewa.com^
 ||analytics.law.umitribe.org^
 ||analytics.learncanyon.com^
+||analytics.learndirect.com^
 ||analytics.leavemanager.com^
 ||analytics.leespace.co^
 ||analytics.lekumo.jp^
@@ -144210,6 +144215,7 @@ zzzyk.com###Tinfo
 ||cdn.userleap.com^
 ||cdn.usezeno.com.br^
 ||cdn.ustatik.com/vendor/metrica/watch.js
+||cdn.viberu.ru/dist/tracking.*.js
 ||cdn.vidcrunch.com/integrations/*_Responsive_Floating_DFP_$domain=discuss.com.hk
 ||cdn.villaggioportoada.it^
 ||cdn.vue-js.cyou^
@@ -145630,6 +145636,7 @@ zzzyk.com###Tinfo
 ||cloudtracer101.com^$third-party
 ||cloudwp.io^
 ||cloudzilla.ai/ingest/
+||cloverkeys.com^
 ||cloverleaf.infor.com^
 ||clownfish.onvard.de^
 ||clownfish.philipkiely.com^
@@ -145713,6 +145720,7 @@ zzzyk.com###Tinfo
 ||cmo.gulfacademysafety.com^
 ||cmo.gulfacademysafety.me^
 ||cmon.congress.gov^
+||cmos3.org^
 ||cmp-cdn.ghostery.com^
 ||cmp.audi.be^
 ||cmp.audifinance.be^
@@ -148060,6 +148068,7 @@ zzzyk.com###Tinfo
 ||ctllup.deery.com.tr^
 ||ctlpyp.lactoclear.co.kr^
 ||ctlxht.akeso.co.kr^
+||ctm.turnbull-scott.co.uk^
 ||ctnsnet.com^$third-party
 ||ctobsnssdk.com^
 ||ctp1.bforbank.com^
@@ -149361,6 +149370,7 @@ zzzyk.com###Tinfo
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||dap.dmm.co.jp/imp?
 ||dap.livemint.com^
+||dap.rri.go.id/tracker/
 ||dap.worldota.net^
 ||dapperdiscussion.com^
 ||dappervppaclassactionsettlement.e.epiqnotification.com^
@@ -151771,6 +151781,7 @@ zzzyk.com###Tinfo
 ||data.denovoagency.com^
 ||data.derstahlgarten.de^
 ||data.desayunosfelices.es^
+||data.deschouwwitgoed.nl^
 ||data.descubre.interbank.pe^
 ||data.desingel.be^
 ||data.desligamentonoturno.com.br^
@@ -157199,6 +157210,7 @@ zzzyk.com###Tinfo
 ||ekpafzj.com^
 ||ekpgu.alicemushrooms.com^
 ||ekphpa.perfectlypriscilla.com^
+||ekpsn3kja.com^
 ||ekrki.jessicasimpson.com^
 ||ekuhv.wearpepper.com^
 ||el.quizlet.com^
@@ -172011,6 +172023,7 @@ zzzyk.com###Tinfo
 ||image.yafytg.cn^
 ||image.yodobashi.com/catalog/*/common/js/onetag.js
 ||image.yodobashi.com/catalog/*/common/js/taglog/
+||imagebuffer.com^
 ||imagecutie.com^
 ||imagedelivery.net^$domain=vikacg.com
 ||imagefap.com/images/yes.gif?
@@ -185829,6 +185842,7 @@ zzzyk.com###Tinfo
 ||lpvgnb.mingwangknits.com^
 ||lpx.qantas.com^
 ||lpxmall.com^
+||lpxyrjholunvdk.com^
 ||lpygsq.dorita.se^
 ||lpyxrp.thewodlife.com.au^
 ||lpzxed.em.com.br^
@@ -185907,6 +185921,7 @@ zzzyk.com###Tinfo
 ||lrta.cn^
 ||lrtjvd.wordans.com^
 ||lruiz.iedm.com^
+||lruqanolg.com^
 ||lrwmjfmq.prioritystdtesting.com^
 ||lrytas.lt/counter/
 ||ls.luxeshineprofessional.co.nz^
@@ -186178,6 +186193,7 @@ zzzyk.com###Tinfo
 ||lxwysd.hirmer.de^
 ||lxztgb.musee-pla.com^
 ||ly8c.caci-online.fr^
+||lyajuchnb.com^
 ||lybjfx.proffsmagasinet.se^
 ||lybyvv.gaitame.com^
 ||lycc72.com/resources/js/content.js
@@ -189096,6 +189112,7 @@ zzzyk.com###Tinfo
 ||mds.ricoh.ie^
 ||mds.ricoh.it^
 ||mds.ricoh.no^
+||mdstats.fr^$third-party
 ||mdstats.info^
 ||mdstrm.com/js/lib/streammetrics.js
 ||mdt.arqplace.com.br^
@@ -191296,6 +191313,7 @@ zzzyk.com###Tinfo
 ||metrics.natmags.co.uk^
 ||metrics.naturagart.de^
 ||metrics.nautica.com^
+||metrics.nautilus2.pl^
 ||metrics.nba.com^
 ||metrics.nbc-insurance.ca^
 ||metrics.nbnco.com.au^
@@ -199560,7 +199578,7 @@ zzzyk.com###Tinfo
 ||petametrics.com/*/activity
 ||petametrics.com/*/modal
 ||petametrics.com^
-||petametrics.com^$third-party,domain=~telegraph.co.uk|~thestreet.com
+||petametrics.com^$third-party,domain=~meidasnews.com|~telegraph.co.uk|~thestreet.com
 ||petco.com/track-production/analytics.js
 ||petitechili.com^
 ||petpgn.artisanparfumeur.com^
@@ -202200,6 +202218,7 @@ zzzyk.com###Tinfo
 ||q2fwgl4q8.com^
 ||q2tqrsh02.com^
 ||q3rlg1flo.com^
+||q4173l5op.com^
 ||q4l5gz6lqog6.www.eventus.io^
 ||q511.wpbf.com^
 ||q58nf16jd3.com^
@@ -214350,6 +214369,7 @@ zzzyk.com###Tinfo
 ||shtptt.cupshe.com^
 ||shtrack.kingsoft.jp^
 ||shuakongbao.com/resource/images/banner/
+||shuba.life/api/views
 ||shueisha.online/op/analytics.js
 ||shufapeixun.shop^
 ||shufoo.net/log/
@@ -223941,6 +223961,7 @@ zzzyk.com###Tinfo
 ||sst.amnesty.nl^
 ||sst.amo-stickers.hu^
 ||sst.ampride.ee^
+||sst.amweb.nl^
 ||sst.analytica-us.com^
 ||sst.analyticalabindia.com^
 ||sst.analyticpixelpro.com^
@@ -224091,6 +224112,7 @@ zzzyk.com###Tinfo
 ||sst.beaulares.com^
 ||sst.beaverbd.com.bd^
 ||sst.bebidou.fr^
+||sst.beckhuis.com^
 ||sst.bedsonlinestore.co.uk^
 ||sst.beefboutique.nl^
 ||sst.behangplaza.nl^
@@ -224129,6 +224151,7 @@ zzzyk.com###Tinfo
 ||sst.bierihydraulics.com^
 ||sst.biheca.com^
 ||sst.bijsmaak.com^
+||sst.bike-eu.com^
 ||sst.bikesattel.at^
 ||sst.bila-as.com^
 ||sst.billo.life^
@@ -224368,6 +224391,7 @@ zzzyk.com###Tinfo
 ||sst.chapaifoodhutbd.com^
 ||sst.charliegoldsmith.com^
 ||sst.charmingrosary.com^
+||sst.charrell.be^
 ||sst.chary.nl^
 ||sst.chatbot.app^
 ||sst.chatmax.app^
@@ -224535,6 +224559,7 @@ zzzyk.com###Tinfo
 ||sst.ddfevent.com^
 ||sst.ddw.nl^
 ||sst.dealatcity.com^
+||sst.dearchitect.nl^
 ||sst.decormax.nl^
 ||sst.dedar.com^
 ||sst.deenterprises.com^
@@ -224572,6 +224597,7 @@ zzzyk.com###Tinfo
 ||sst.desabag.de^
 ||sst.designofficechairs.com^
 ||sst.deskaprojekt.pl^
+||sst.desko.nl^
 ||sst.destruindometas.com.br^
 ||sst.detgodelotteri.dk^
 ||sst.devestingrosmalen.nl^
@@ -224596,6 +224622,7 @@ zzzyk.com###Tinfo
 ||sst.discoverkoi.com^
 ||sst.disneyinconcert.medialane.nl^
 ||sst.dispendix.com^
+||sst.distrifood.nl^
 ||sst.ditano.com^
 ||sst.divafashionu.com^
 ||sst.divais.it^
@@ -225688,6 +225715,7 @@ zzzyk.com###Tinfo
 ||sst.miraaya.com^
 ||sst.miracamp.com^
 ||sst.mishiqa.com^
+||sst.missethoreca.nl^
 ||sst.misstik.ro^
 ||sst.mistrznocy.pl^
 ||sst.miswanfashion.com^
@@ -225760,6 +225788,7 @@ zzzyk.com###Tinfo
 ||sst.mrmanbd.com^
 ||sst.mrquikhomeservices.com^
 ||sst.msj.dk^
+||sst.msm.nl^
 ||sst.mspshow.co.uk^
 ||sst.mtrix.de^
 ||sst.mudita.com^
@@ -225976,6 +226005,7 @@ zzzyk.com###Tinfo
 ||sst.onlineaanmeldingen.nl^
 ||sst.onlinedeurbeslagshop.nl^
 ||sst.onlinetegelgigant.nl^
+||sst.onlineveilingmeester.nl^
 ||sst.onlyskincare.com^
 ||sst.ontslagmeesters.nl^
 ||sst.oogfonds.nl^
@@ -226044,6 +226074,7 @@ zzzyk.com###Tinfo
 ||sst.parizske.cz^
 ||sst.parizske.sk^
 ||sst.parkerstone.nl^
+||sst.parkingcentrumoosterdok.nl^
 ||sst.partnerpete.com^
 ||sst.partsforgermancars.co.uk^
 ||sst.partymax.co^
@@ -226351,6 +226382,7 @@ zzzyk.com###Tinfo
 ||sst.safetyplatformtraining.eu^
 ||sst.sailwithus.de^
 ||sst.saintbernard.com^
+||sst.salarisnet.nl^
 ||sst.salmondevelopersbd.com^
 ||sst.saltanat.life^
 ||sst.saluddelser.com^
@@ -226541,6 +226573,8 @@ zzzyk.com###Tinfo
 ||sst.stenhyd.de^
 ||sst.stenhyd.se^
 ||sst.stevesgoods.com^
+||sst.stickerei-stoiber.ch^
+||sst.stickerei-stoiber.de^
 ||sst.stickerella.ch^
 ||sst.stifskwone.be^
 ||sst.stockholmsmassan.se^
@@ -235275,12 +235309,14 @@ zzzyk.com###Tinfo
 ||tagging.strokengordijn.be^
 ||tagging.swat.io^
 ||tagging.systemyzawieszen.pl^
+||tagging.trined.nl^
 ||tagging.utwente.nl^
 ||tagging.vanbeekart.de^
 ||tagging.vanbeekart.nl^
 ||tagging.veda.ch^
 ||tagging.vhdakkapellen.nl^
 ||tagging.vios.dk^
+||tagging.voordeelvanger.nl^
 ||tagging.weightloss.goodbodyclinic.com^
 ||tagging.wellen-trading.de^
 ||tagging.woodtex.be^
@@ -236529,6 +236565,7 @@ zzzyk.com###Tinfo
 ||tdpfe.lalignenyc.com^
 ||tds.io^$third-party
 ||tds.net/api/*/sendEvents/
+||tds.vss-security.nl^
 ||tds1.vivabox.be^
 ||tdsrilqk.dublin-chiropractic.com^
 ||tdstats.com^$third-party
@@ -237126,6 +237163,7 @@ zzzyk.com###Tinfo
 ||tgfkhk.tire-hood.com^
 ||tgfnm.maisonbondny.com^
 ||tgfyq.cn^
+||tggng.suitable.de^
 ||tggrurcutf.com^
 ||tggsd07.com^
 ||tghigvud.com^
@@ -237276,6 +237314,7 @@ zzzyk.com###Tinfo
 ||thenextweb.com/geppetto/s.js
 ||thenurafix-ss.checkoutera.com^
 ||theoplayer.com/t?
+||theorem12.top^
 ||thepaper.cn/bottomBanner_
 ||thepixelpioneer.com^
 ||thepolorvision-ss.checkoutera.com^
@@ -242221,6 +242260,7 @@ zzzyk.com###Tinfo
 ||tracking.utas.edu.au^
 ||tracking.utedesign.no^
 ||tracking.utlservice.com^
+||tracking.vbr.ru^
 ||tracking.velozuniformes.com.br^
 ||tracking.ventingdirect.com^
 ||tracking.ventingpipe.com^
@@ -249308,6 +249348,7 @@ zzzyk.com###Tinfo
 ||whitepapers.rockwellautomation.com^
 ||whitepixel.com^$third-party
 ||whjl.curvevera.com^
+||whkhct2lnf.com^
 ||whktr.runrocknroll.com^
 ||whlwcahw1x.com^
 ||whmdrv.marpple.com^
