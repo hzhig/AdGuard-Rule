@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-10 11:39:13(GMT+8) 
-! Total count: 254589
+! ! Version: 2026-06-10 23:32:41(GMT+8) 
+! Total count: 254619
  
 ###ADtip
 ###Ad_windows
@@ -1276,6 +1276,7 @@
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
 ##a[clickmode="cpt"]
+##a[data-ad_type="1"]
 ##a[href$=".cc:8443"]
 ##a[href$=".xyz:8443"]
 ##a[href$="/hjdt9.com"]
@@ -2197,7 +2198,7 @@ $script,third-party,denyallow=unpkg.zhihu.com,domain=52niuyan.cc
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
-$script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net
+$script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.cc
 $script,third-party,websocket,domain=52codes.net
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
@@ -4764,6 +4765,7 @@ $websocket,domain=wap.yushuwu.cloud
 /goAnalytics.js
 /google-analyticator/*$script
 /google-analytics.
+/google-listings-and-ads/js/build/gtag-events.js
 /google-nielsen-analytics.js
 /google/analytics.js
 /googleAnal.js
@@ -10093,16 +10095,16 @@ $websocket,domain=wap.yushuwu.cloud
 91lai.com##.showimgs
 91porn.com##.preroll-blocker
 91porn.com#@#.vjs-preroll
-91porna.com##.ad-dialog
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
 91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
-91porna.com##.dx-banner-item
 91porna.com##.h-full.swiper
-91porna.com##.modal-backdrop
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
+91porna.com,evgpopxb.cc##.ad-dialog
+91porna.com,evgpopxb.cc##.dx-banner-item
+91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
@@ -11093,6 +11095,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||api.captchme.net/api/media$image
 @@||api.chartbeat.com^$script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.clerk.io/v*/log/click?$domain=fjellandhandel.no
+@@||api.clerk.io/v*/log/click?payload=$domain=ringo.no
 @@||api.cxense.com/document/search?
 @@||api.cxense.com/persisted/execute$domain=nippon.com
 @@||api.cxense.com/public/widget/$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
@@ -13487,6 +13490,8 @@ $websocket,domain=wap.yushuwu.cloud
 @@||landtop.com.tw/images/ad/
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
+@@||laosu.cf^$generichide
+@@||laosu.tech^$generichide
 @@||laotiesao.vip^$generichide
 @@||larioja.com/*/adfrm.js$script
 @@||larvf.com/js/ads.js$script
@@ -15970,6 +15975,8 @@ ali213.net#@#.subscribe-container
 alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
+alicrm.alibaba.com%2Fouter%2Femail%2FsetReadStatus.html
+alicrm.alibaba.com/outer/email/setReadStatus.html
 alientube.co###adblockContainer
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
@@ -16939,6 +16946,8 @@ bilibili.com#%#//scriptlet('set-constant', '__MIRROR_REPORT__.customPerformanceQ
 bilibili.com#%#//scriptlet('set-constant', '__MIRROR_REPORT__.customReportPb', 'noopFunc')
 bilibili.com#%#//scriptlet('set-constant', '__MIRROR_REPORT__.pbReportPv', 'noopFunc')
 bilibili.com#%#//scriptlet('set-constant', '__MIRROR_REPORT__.techReportPb', 'noopFunc')
+bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.pushState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
+bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.replaceState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
 bilibili.com#?#.eva-extension-body > .bili-video-card:has(.bili-video-card__info--ad)
 bilibili.com#?#.float-btn:contains(打开App)
 bilibili.com#?#.is-rcmd:-abp-has(>div:not(div:-abp-has(div)))
@@ -108379,6 +108388,7 @@ im286.net###diy110
 im286.net###diyflash
 im286.net##.im286-t
 im286.net##.qybj
+image-sap.sfmc-content.com$image
 image.baidu.com###adsearch
 image.baidu.com###cmsimage
 image.baidu.com###ecomContainer
@@ -108403,6 +108413,7 @@ image.baidu.com##.wrapper_dot_box.dot_black
 image.baidu.com##div[id^="relecom"]
 image.baidu.com#?#.newfcImgli:has(.fc-ad-tip)
 image.baidu.com,nongjitong.com##.recommend
+image.read.forbes.com$image
 image.s1.qa1.inboundtestdomain.com$image
 image.so.com###js_textlink
 image.so.com###starlist
@@ -109302,6 +109313,8 @@ kingkong.com.tw##.room-banner-wrap
 kino-zeit.de##.vgwort-metis-marker
 kinoman.tv##IMG[src="http://static.kinoman.tv/assets/img/vip-info.png?v"]
 kinotan.ru,kinotochka.club,legend.az##.counts
+kio.ac#%#//scriptlet('set-local-storage-item', '/^kio.ac_fa_/', '$remove$')
+kio.ac#%#//scriptlet('set-local-storage-item', 'affiliate_advertiser_stats', '$remove$')
 kisssub.org###kanban
 kisssub.org##a > img[src*=".0o0.ooo/"]
 kita.click.s11.sfmc-osl.com$image
@@ -118085,6 +118098,8 @@ supertaste.tvbs.com.tw###ad_m_bottom
 supertaste.tvbs.com.tw###lightbox--ad
 supertaste.tvbs.com.tw##.ad_m_block
 supertaste.tvbs.com.tw##.ad_m_top
+supertaste.tvbs.com.tw##.min-h-\[15\.625rem\]
+supertaste.tvbs.com.tw##div[class]:has(> div[id^="supertaste_"])
 supertaste.tvbs.com.tw##div[id^="taboola-"]
 supertaste.tvbs.com.tw#?#.article_detail > div.cotxt_title:has(> p:contains(/延伸閱讀|你可能會喜歡|大家都在看/))
 supertaste.tvbs.com.tw#?#.sidebar > span:contains(人氣點閱榜)
@@ -136412,6 +136427,8 @@ zzzyk.com###Tinfo
 ||api.portuguesconyara.com^
 ||api.praticaensino.com.br^
 ||api.preventsaude.net^
+||api.prod.allstar.dev/methods/clip-views
+||api.prod.allstar.dev/methods/track
 ||api.prod.bigsur.ai/nua?s=
 ||api.prod.bigsur.ai/qr?s=
 ||api.prod.carbonatixaudio.com/article/stats?
@@ -142637,6 +142654,7 @@ zzzyk.com###Tinfo
 ||c-gtc.getui.net^
 ||c-o-u-n-t.com^$third-party
 ||c-rings.net^$script,third-party
+||c-stat.eu^
 ||c-t.topya.com^
 ||c.28rv.com^
 ||c.91wan.com^$third-party
@@ -144296,6 +144314,7 @@ zzzyk.com###Tinfo
 ||cdntxt.com/node/doit.
 ||cdntxt.com/t1/
 ||cdntxt.com/t2/
+||cdnw.onlinelearning.hms.harvard.edu^
 ||cdnweb.avansas.com/_ui/shared/js/analyticsmediator.js
 ||cdnwidget.com^
 ||cdnx.baiadellesirene.it^
@@ -155945,6 +155964,7 @@ zzzyk.com###Tinfo
 ||dwga.wt-gosen.de^
 ||dwglgp.dunelm.com^
 ||dwh-prod.moz.de^
+||dwh3rjyzxj.com^
 ||dwibjkdsn.com^
 ||dwin1.com^
 ||dwin2.com^
@@ -162406,6 +162426,7 @@ zzzyk.com###Tinfo
 ||galacg.me/wp-content/uploads/*750x
 ||galada.it/omnitag/
 ||galaxiemedia.fr^$third-party
+||galaxus.ch/api/public/sbm/v1/fp
 ||galaxus.com/_next/static/chunks/rum.$script
 ||galaxus.de/*/*/*/*/*/*/*/$script,domain=galaxus.de
 ||galaxus.de^$cookie=/^\.(b|s|xp|ub\.)id/
@@ -169034,6 +169055,7 @@ zzzyk.com###Tinfo
 ||guu0bfmpf5.com^
 ||guufxr.sdbullion.com^
 ||guuia6hxf.com^
+||guulgakv.com^
 ||guurniuvgo.com^
 ||guwd.cn^
 ||guwuym.barneys.co.jp^
@@ -171999,6 +172021,7 @@ zzzyk.com###Tinfo
 ||im.cbsileads.com^$third-party
 ||im0st6rwn.com^
 ||im286.net/286/
+||image-sap.sfmc-content.com^
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
 ||image.51cto.com/ad/
@@ -175605,6 +175628,7 @@ zzzyk.com###Tinfo
 ||jfdfvprfq.kamin-elektro.de^
 ||jfdfvprfq.wine-store.dk^
 ||jfdiu.saskatoonberriesbaseballclub.ca^
+||jfffe1o97b.com^
 ||jfgvom.maatila.co.kr^
 ||jfjip.onceuponafarmorganics.com^
 ||jflsh.tahylormade.com^
@@ -177086,6 +177110,7 @@ zzzyk.com###Tinfo
 ||kf.qingwk.com^
 ||kf.vinthentic.com^
 ||kf2038zvxt.com^
+||kf4kwomxhl.com^
 ||kfa9grestp.com^
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||kfcu.fmservice.com^
@@ -200467,6 +200492,7 @@ zzzyk.com###Tinfo
 ||plausible.redchamp.net^
 ||plausible.regex.help^
 ||plausible.retune.de^
+||plausible.root-nation.net^
 ||plausible.safing.io^
 ||plausible.sbw.org^
 ||plausible.scimago.es^
@@ -204810,6 +204836,7 @@ zzzyk.com###Tinfo
 ||rivcash.com/*/event/page_visit
 ||rivcash.com/ajax/log_js_error.php
 ||river49xx.org^
+||rivnepost.rv.ua/wp-admin/admin-ajax.php?action=rbcollect
 ||rivrai.com^$third-party
 ||rivullvwg.com^
 ||riwkmo.spacemarket.com^
@@ -244698,6 +244725,7 @@ zzzyk.com###Tinfo
 ||uczfl.com/data/content
 ||ud.autoboativeshow.com^
 ||ud.freshdentalcare.com^
+||ud.galaxus.ch^
 ||ud.galaxus.de^
 ||ud.habs.tixonlinenow.com^
 ||ud.tranquilityspacecoast.com^
@@ -244714,6 +244742,7 @@ zzzyk.com###Tinfo
 ||udcazzuy.k9at.co.uk^
 ||udcm.yahoo.com^
 ||udd1i5.zhihu.com^
+||udderstack.allstar.gg^
 ||udemy.com/api-2.0/ecl
 ||udemy.com/api-2.0/ecl?
 ||udeztrb.cn^
@@ -251592,6 +251621,7 @@ zzzyk.com###Tinfo
 ||xj8z427gxz.com^
 ||xjkpzh.voraxacessorios.com.br^
 ||xjkugh.waterdropfilter.com^
+||xjl2ts2q6a.com^
 ||xjoipse.vivarawpets.com^
 ||xjoiteee8.com^
 ||xjoqmy.tuifly.be^

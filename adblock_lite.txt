@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-10 11:39:13(GMT+8) 
-! Total count: 32791
+! ! Version: 2026-06-10 23:32:41(GMT+8) 
+! Total count: 32801
  
 ###ADtip
 ###Ad_windows
@@ -1269,6 +1269,7 @@
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
 ##a[clickmode="cpt"]
+##a[data-ad_type="1"]
 ##a[href$=".cc:8443"]
 ##a[href$=".xyz:8443"]
 ##a[href$="/hjdt9.com"]
@@ -1632,7 +1633,7 @@ $script,third-party,denyallow=unpkg.zhihu.com,domain=52niuyan.cc
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
-$script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net
+$script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.cc
 $script,third-party,websocket,domain=52codes.net
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -4201,16 +4202,16 @@ $websocket,domain=wap.yushuwu.cloud
 91lai.com##.showimgs
 91porn.com##.preroll-blocker
 91porn.com#@#.vjs-preroll
-91porna.com##.ad-dialog
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
 91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
-91porna.com##.dx-banner-item
 91porna.com##.h-full.swiper
-91porna.com##.modal-backdrop
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
+91porna.com,evgpopxb.cc##.ad-dialog
+91porna.com,evgpopxb.cc##.dx-banner-item
+91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
@@ -5463,6 +5464,8 @@ $websocket,domain=wap.yushuwu.cloud
 @@||lager.com.tw/images/layer6_adbanner/
 @@||lancdn.com/landian/public/js/ads.js
 @@||landtop.com.tw/images/ad/
+@@||laosu.cf^$generichide
+@@||laosu.tech^$generichide
 @@||laotiesao.vip^$generichide
 @@||larioja.com/*/adfrm.js$script
 @@||larvf.com/js/ads.js$script
@@ -14167,6 +14170,8 @@ supertaste.tvbs.com.tw###ad_m_bottom
 supertaste.tvbs.com.tw###lightbox--ad
 supertaste.tvbs.com.tw##.ad_m_block
 supertaste.tvbs.com.tw##.ad_m_top
+supertaste.tvbs.com.tw##.min-h-\[15\.625rem\]
+supertaste.tvbs.com.tw##div[class]:has(> div[id^="supertaste_"])
 supertaste.tvbs.com.tw##div[id^="taboola-"]
 supertaste.tvbs.com.tw#?#.article_detail > div.cotxt_title:has(> p:contains(/延伸閱讀|你可能會喜歡|大家都在看/))
 supertaste.tvbs.com.tw#?#.sidebar > span:contains(人氣點閱榜)
@@ -21232,6 +21237,7 @@ zzzyk.com###Tinfo
 ||dwbaazotho.com^
 ||dwchovra.com^
 ||dwfjtz.xyz^
+||dwh3rjyzxj.com^
 ||dwibjkdsn.com^
 ||dwjlxiuio.com^
 ||dwstatic.com^*/newsPopup/
@@ -22781,6 +22787,7 @@ zzzyk.com###Tinfo
 ||gusp.cn^
 ||guu0bfmpf5.com^
 ||guuia6hxf.com^
+||guulgakv.com^
 ||guurniuvgo.com^
 ||guwd.cn^
 ||guzsjdl.cn^
@@ -24243,6 +24250,7 @@ zzzyk.com###Tinfo
 ||jesfsf.top^
 ||jessicarace.com^
 ||jf2v.mnpool.cn^
+||jfffe1o97b.com^
 ||jfnkjr.xyz^
 ||jfpo.cn^
 ||jfsdiwmnbsk009.top^
@@ -24789,6 +24797,7 @@ zzzyk.com###Tinfo
 ||keywin.org/templates/kw_v2/images/youbianad.png
 ||kf.qingwk.com^
 ||kf2038zvxt.com^
+||kf4kwomxhl.com^
 ||kfa9grestp.com^
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||kfejnjs.cn^
@@ -31437,6 +31446,7 @@ zzzyk.com###Tinfo
 ||xj-landing.gdtimg.com^
 ||xj63rov3m.com^
 ||xj8z427gxz.com^
+||xjl2ts2q6a.com^
 ||xjoiteee8.com^
 ||xjrvwz.com^
 ||xjssjc.com^
