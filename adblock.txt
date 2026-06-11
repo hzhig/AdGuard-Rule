@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-10 23:32:41(GMT+8) 
-! Total count: 254619
+! ! Version: 2026-06-11 11:55:42(GMT+8) 
+! Total count: 254635
  
 ###ADtip
 ###Ad_windows
@@ -2127,8 +2127,8 @@ $cookie=yotpo_pixel
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
+$csp=script-src 'self' * 'unsafe-inline',domain=shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|98dxs.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
-$csp=script-src 'self' * 'unsafe-inline',domain=ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|98dxs.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
@@ -16104,6 +16104,8 @@ apachecn.org###coo_banner_WideScreen
 apachecn.org##.md-banner
 apc.avadacom.com$image
 aphrodite.avadacom.com$image
+api-euo.temu.com%2Fcallback%2Fdoha%2Fopen%2Ftrack%3F
+api-euo.temu.com/callback/doha/open/track?
 api-stg.click.s11.sfmc-osl.com$image
 api.mixpanel.com/track$image
 api.peeper.plus.yandex.net%2Fv1%2Fp%2F$image
@@ -118094,6 +118096,8 @@ supercloudsms.com##.container > a > img
 supercloudsms.com##a[href^="/redirect?"]
 superlife.ca##.sidebar-ad-zone
 supermoto8.com###myModal
+supersender.yandex.net%2Fv1%2F$image
+supersender.yandex.net/v1/$image
 supertaste.tvbs.com.tw###ad_m_bottom
 supertaste.tvbs.com.tw###lightbox--ad
 supertaste.tvbs.com.tw##.ad_m_block
@@ -118298,6 +118302,8 @@ techbang.com##div[class^="techbang_inline_"]
 techcrunch.com#%#//scriptlet('set-local-storage-item', 'criteo_fast_bid', '$remove$')
 techmaniachd.pl###sidebar-right-1 > #HTML6
 technews.tw##.inside_AD
+techorange.com##a[href^="https://supr.link/"]
+techorange.com##div.elementor-widget > div.elementor-widget-container:has(> a[href*="utm_campaign"] > img)
 techradar.com#%#//scriptlet('href-sanitizer', 'a[href^="https://go.redirectingat.com/?id="]', '?url')
 techritual.com##.th-single-ad
 techug.com##a[href*="/222.html"]
@@ -124781,6 +124787,7 @@ zzzyk.com###Tinfo
 ||4hds.com/js/camstats.js
 ||4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com^
 ||4hw.com.cn/js/common.js
+||4i2q0y9wv.com^
 ||4ifhpfi1.xyz^
 ||4jaehnfqizyx.controlconceptsusa.com^
 ||4jh1le34m.com^
@@ -142951,6 +142958,7 @@ zzzyk.com###Tinfo
 ||calcados.reginarios.com.br^
 ||calcul-pagerank.fr/client/$third-party
 ||calculatingcircle.com^
+||calculation94.top^
 ||calculatorstatement.com^
 ||calendly.com/api/booking/analytics/track
 ||calendly.com/telemetry.js
@@ -175568,6 +175576,7 @@ zzzyk.com###Tinfo
 ||jdvts.joyorganics.com^
 ||jdwx.info/api.php?mod=ad&
 ||jdzmqj.thousandtrails.com^
+||je3zdrcua.com^
 ||jearr.flagandanthem.com^
 ||jeccmq.wehkamp.nl^
 ||jecppjak.rgnt-motorcycles.com^
@@ -176105,6 +176114,7 @@ zzzyk.com###Tinfo
 ||joqawz.snipes.nl^
 ||joqdd.madeincookware.com.au^
 ||jornal.tesouros-da-julia.com^
+||joshpaintings.com^
 ||joskgw.sewingmachinesplus.com^
 ||josqdb7jn4.com^
 ||jotedd.icu^
@@ -197350,6 +197360,7 @@ zzzyk.com###Tinfo
 ||ontraport.com/opt_assets/static/js/logging.js
 ||ontraport.com/track.php
 ||ontraport.com/tracking.js
+||onttsrh5i.com^
 ||ontxgr.hofer-reisen.at^
 ||onupnu.edreams.com.au^
 ||onvas.katespadeoutlet.com^
@@ -205306,6 +205317,7 @@ zzzyk.com###Tinfo
 ||rstdfyerm.icu^
 ||rstil.vionicshoes.com^
 ||rstna.brandsworld.co.th^
+||rstqbtoqrxbvpk.com^
 ||rsuevw.unicef.or.jp^
 ||rsv.dankore.jp^
 ||rsv.pairorder.jp^
@@ -205755,6 +205767,7 @@ zzzyk.com###Tinfo
 ||rxzz.metcalfehotel.com^
 ||ry0.rythmefm.com^
 ||ry7icaih0p.com^
+||rybbit.com^$third-party
 ||rybbit.sg-app.com^
 ||rybfjx.sportscheck.com^
 ||rychlost.cz/_pub/jquery/scripts.js$script
@@ -236486,6 +236499,7 @@ zzzyk.com###Tinfo
 ||tcmexz.castorama.pl^
 ||tcmxmlu.com^
 ||tcpgrb.ogic.fr^
+||tcptest.cn/prod-api/web/adLinks/
 ||tcragarnh.com^
 ||tcrk.brunaperipato.com.br^
 ||tcs.lombardodier.com^
@@ -237254,6 +237268,7 @@ zzzyk.com###Tinfo
 ||thdidx.xyz^
 ||thdjtp.icu^
 ||the-group.net/aether/
+||the-race.com/.ghost/analytics/
 ||the-sun.com/assets/client/analyticsListeners*.js
 ||the-sun.com/assets/optimizely/
 ||the.chayapest.com^
@@ -242611,6 +242626,7 @@ zzzyk.com###Tinfo
 ||traktor.adventures.is^
 ||traktor.lozkoholicy.pl^
 ||traktor.ru^*/counter.php?
+||tralut.*.*/collect
 ||tralut.chatpdf.com^
 ||trandgid.com^
 ||tranquilcan.com^
