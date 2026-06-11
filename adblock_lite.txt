@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-11 11:55:42(GMT+8) 
-! Total count: 32809
+! ! Version: 2026-06-11 23:59:16(GMT+8) 
+! Total count: 32817
  
 ###ADtip
 ###Ad_windows
@@ -14797,6 +14797,7 @@ v.youku.com###player-advertise
 v.youku.com##.advertise-layer
 v.youku.com##.laifeng
 v.youku.com##.youku-advertise-layer
+v.youku.com#%#(()=>{const t={apply:(t,o,a)=>{try{const t=o?.[0]?.data?.data??o?.data;t?.ad&&(t.ad={}),t?.ykad&&(t.ykad={})}catch(t){}return Reflect.apply(t,o,a)}};window.Array.prototype.slice=new Proxy(window.Array.prototype.slice,t),window.Object.prototype.hasOwnProperty=new Proxy(window.Object.prototype.hasOwnProperty,t)})();
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
 v2ex.com##.fr > a[href^="https://www.digitalocean.com/"]
@@ -15338,6 +15339,7 @@ xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
 xchina.co##.block-overlay
+xchina.co##.photo-items > .auto-height
 xchina.co##.photo-items > div[class^="item auto-height"]
 xchina001.online###core-zone-4
 xchina001.online###z-extra-2
@@ -17530,6 +17532,8 @@ zzzyk.com###Tinfo
 ||8g2a7mifv.com^
 ||8gp4wjq3.com^
 ||8gptk28oag.com^
+||8h6oiw0uo.com^
+||8h7j79qxm.com^
 ||8h93.com^*.gif
 ||8hx7k0211.com^
 ||8iav2fuiy.com^
@@ -17720,6 +17724,7 @@ zzzyk.com###Tinfo
 ||9l4i9edu.top^
 ||9l9ck7mdd2.com^
 ||9ma1sr1tb1.com^
+||9mdg9cu59.com^
 ||9miwo.com^
 ||9o29nhxgp.com^
 ||9odes.ltd^
@@ -22219,6 +22224,7 @@ zzzyk.com###Tinfo
 ||g6x2uvza37.com^
 ||g7htk7ls7.com^
 ||g8hi6r3odr.com^
+||g8nwdolod.com^
 ||g8ygkqhm9p.com^
 ||g9cvic3khh.com^
 ||ga1.3dmgame.com^
@@ -25700,6 +25706,7 @@ zzzyk.com###Tinfo
 ||m3v8x28jut.com^
 ||m43ocq1uoj.com^
 ||m485oq2gym.top^
+||m4dynuge4.com^
 ||m4fxreb5s.com^
 ||m4pgay.com^
 ||m5.66077.cn^
@@ -27597,6 +27604,7 @@ zzzyk.com###Tinfo
 ||pv.sohu.com^$domain=chinafund.cn
 ||pv.zhiding.cn^
 ||pv4b.com^$popup
+||pv7ezc6as.com^
 ||pv966.us/js/tw.js
 ||pvajlmhjjq.xyz^
 ||pvgcyyh.icu^

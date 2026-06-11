@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-11 11:55:42(GMT+8) 
-! Total count: 254635
+! ! Version: 2026-06-11 23:59:16(GMT+8) 
+! Total count: 254651
  
 ###ADtip
 ###Ad_windows
@@ -119900,6 +119900,7 @@ v.youku.com###player-advertise
 v.youku.com##.advertise-layer
 v.youku.com##.laifeng
 v.youku.com##.youku-advertise-layer
+v.youku.com#%#(()=>{const t={apply:(t,o,a)=>{try{const t=o?.[0]?.data?.data??o?.data;t?.ad&&(t.ad={}),t?.ykad&&(t.ykad={})}catch(t){}return Reflect.apply(t,o,a)}};window.Array.prototype.slice=new Proxy(window.Array.prototype.slice,t),window.Object.prototype.hasOwnProperty=new Proxy(window.Object.prototype.hasOwnProperty,t)})();
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
 v2ex.com##.fr > a[href^="https://www.digitalocean.com/"]
@@ -122823,6 +122824,7 @@ xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
 xchina.co##.block-overlay
+xchina.co##.photo-items > .auto-height
 xchina.co##.photo-items > div[class^="item auto-height"]
 xchina001.online###core-zone-4
 xchina001.online###z-extra-2
@@ -125584,6 +125586,8 @@ zzzyk.com###Tinfo
 ||8g2a7mifv.com^
 ||8gp4wjq3.com^
 ||8gptk28oag.com^
+||8h6oiw0uo.com^
+||8h7j79qxm.com^
 ||8h93.com^*.gif
 ||8hx7k0211.com^
 ||8iav2fuiy.com^
@@ -125803,6 +125807,7 @@ zzzyk.com###Tinfo
 ||9l4i9edu.top^
 ||9l9ck7mdd2.com^
 ||9ma1sr1tb1.com^
+||9mdg9cu59.com^
 ||9miwo.com^
 ||9nl.eu^$third-party
 ||9o29nhxgp.com^
@@ -135158,6 +135163,7 @@ zzzyk.com###Tinfo
 ||analytics.toyotaforklift.com^
 ||analytics.tradedoubler.com^
 ||analytics.traderlink.com^
+||analytics.trbna.com^
 ||analytics.tributarycapitalmanagement.com^
 ||analytics.tributaryfunds.com^
 ||analytics.tricorp.com^
@@ -143864,6 +143870,8 @@ zzzyk.com###Tinfo
 ||ccgateway.net^$third-party
 ||ccgnuq.bbqgalore.com^
 ||cchlhb.budgetsport.fi^
+||cchome-stage.adobe.io^
+||cchome.adobe.io^
 ||cchvc.net^
 ||cciqma.cosabella.com^
 ||ccjep.onehopewine.com^
@@ -144318,6 +144326,7 @@ zzzyk.com###Tinfo
 ||cdnst.zaycev.net/static/*/countersm.js
 ||cdnstats-a.akamaihd.net^
 ||cdnstr.com^
+||cdntbl.com/gtm/
 ||cdntxt.com/m1/
 ||cdntxt.com/node/doit.
 ||cdntxt.com/t1/
@@ -162354,6 +162363,7 @@ zzzyk.com###Tinfo
 ||g8715710740.co^
 ||g8913795075.co^
 ||g8hi6r3odr.com^
+||g8nwdolod.com^
 ||g8ygkqhm9p.com^
 ||g9111879410.co^
 ||g9508048080.co^
@@ -186537,6 +186547,7 @@ zzzyk.com###Tinfo
 ||m485oq2gym.top^
 ||m4d.cemiteriodapenitencia.com.br^
 ||m4d.planoacolher.com.br^
+||m4dynuge4.com^
 ||m4fxreb5s.com^
 ||m4pgay.com^
 ||m4zoxtrcea1k.controlconceptsusa.com^
@@ -202062,6 +202073,7 @@ zzzyk.com###Tinfo
 ||pv.xcar.com.cn^
 ||pv.zhiding.cn^
 ||pv4b.com^$popup
+||pv7ezc6as.com^
 ||pv966.us/js/tw.js
 ||pvaal.freezbone.com^
 ||pvajlmhjjq.xyz^
@@ -211762,6 +211774,7 @@ zzzyk.com###Tinfo
 ||serviceo.xfinity.com^
 ||serviceos.comcast.net^
 ||serviceos.xfinity.com^
+||services.account.adobe.com/log/message
 ||services.api.no/api/bazaar/logerror
 ||services.bdc.ca^
 ||services.bionika-digital.ru^
@@ -235093,6 +235106,7 @@ zzzyk.com###Tinfo
 ||tabcp.tryshavest.com^
 ||tableland06.top^
 ||tablesafe.actonservice.com^
+||tabletki.ua/analyticsdata/
 ||taboola.com.cn^$third-party
 ||taboola.com^$domain=spaste.com
 ||taboola.com^$third-party
@@ -236787,6 +236801,7 @@ zzzyk.com###Tinfo
 ||tele2.actonservice.com^
 ||telecid.ru^
 ||telecome.cn^
+||telefonnyjdovidnyk.com.ua^$cookie=goog_ads
 ||telegraf.detmir-stats.ru^
 ||telegraph.prd.api.discomax.com^
 ||telegraph.prd.api.discoveryplus.com^
@@ -242646,6 +242661,7 @@ zzzyk.com###Tinfo
 ||transplant.universityhealth.com^
 ||transportation.external.conduent.com^
 ||transportation.external.xerox.com^
+||transporter.makemytrip.global^
 ||trap.skype.com^
 ||trappcloudservices.trapptechnology.com^
 ||trapptech.actonservice.com^
