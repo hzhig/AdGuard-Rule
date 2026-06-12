@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-11 23:59:16(GMT+8) 
-! Total count: 254651
+! ! Version: 2026-06-12 11:54:35(GMT+8) 
+! Total count: 254667
  
 ###ADtip
 ###Ad_windows
@@ -2255,6 +2255,7 @@ $websocket,domain=wap.yushuwu.cloud
 &sst.gcsub=
 &sst.sw_exp=
 &t=pageview&
+&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
 &xhtml?$script,third-party
 *$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=biqege.com,domain=biqege.com,script,xmlhttprequest
@@ -12252,7 +12253,9 @@ $websocket,domain=wap.yushuwu.cloud
 @@||feilusw.com/search.html$genericblock,generichide
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=examinerlive.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
+@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=ok.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=themirror.com
+@@||feliz.data.tm-awx.com/smile-web-v*/$domain=ok.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=examinerlive.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=mirror.co.uk
@@ -12991,7 +12994,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=thethaiger.com
 @@||googletagmanager.com/gtm.js$domain=tomshw.it
 @@||googletagmanager.com/gtm.js$domain=traum-ferienwohnungen.de
-@@||googletagmanager.com/gtm.js$domain=tribuna.com
 @@||googletagmanager.com/gtm.js$domain=turkcell.com.tr
 @@||googletagmanager.com/gtm.js$domain=tv-asahi.co.jp
 @@||googletagmanager.com/gtm.js$domain=type.jp
@@ -123612,6 +123614,7 @@ zzzyk.com###Tinfo
 ||085cczz.com^
 ||086123.xyz^
 ||087tqb.cn^
+||08pkgxft0u.com^
 ||093yuht.com^
 ||0941.org^
 ||094kk.com^
@@ -142031,6 +142034,7 @@ zzzyk.com###Tinfo
 ||brilliantcollector.com^$third-party
 ||bringg.actonservice.com^
 ||bringmethehats.com^
+||bringmethenews.com/.api/admiral
 ||brinstascooter.eccocar.com^
 ||brioscoot.eccocar.com^
 ||brirriek.com^
@@ -160606,6 +160610,7 @@ zzzyk.com###Tinfo
 ||figpii.com^$third-party
 ||figsprotein.com^
 ||figurehunter.net^
+||fih3r.com^
 ||fihln.skullcandy.ca^
 ||fiicj.provenwinners.com^
 ||fiimox.lebenskraftpur.de^
@@ -162355,6 +162360,7 @@ zzzyk.com###Tinfo
 ||g64njjhyh.com^
 ||g650.delcotimes.com^
 ||g66ryy88z.com^
+||g6ird1tez2.com^
 ||g6x2uvza37.com^
 ||g792337340.co^
 ||g792337342.co^
@@ -170983,6 +170989,7 @@ zzzyk.com###Tinfo
 ||huananxs.top/static/jp/js/ad
 ||huancaicp.com/?pid=$popup
 ||huanjugu.com/dm
+||huanle97.com^
 ||huanqiu.com/resource/js/base
 ||huanqiu.com/ssi/show_*_mall.ssi
 ||huanqiu.com/statics/*/dist/js/detected_block.js
@@ -176514,6 +176521,7 @@ zzzyk.com###Tinfo
 ||julpo.precise.credit^
 ||jumar.estilan.com^
 ||jumbo.zomato.com^
+||jumbochalk.com^
 ||jumghz.durstexpress.de^
 ||jumplead.com^$third-party
 ||jumpstartinc.actonservice.com^
@@ -178284,6 +178292,7 @@ zzzyk.com###Tinfo
 ||lake.joongang.co.kr^
 ||lake.studydrive.net^
 ||lakefish.xyz^
+||lakeofficepros.com^
 ||lakerspreferences.gleague.nba.com^
 ||lakerspreferences.nba.com^
 ||lakesecure.com^
@@ -192778,6 +192787,7 @@ zzzyk.com###Tinfo
 ||mlinkdev.bookedout.com^
 ||mlinks.fluz.app^
 ||mlinks.helloalfred.com^
+||mliyokonw.com^
 ||mlkblr.la-becanerie.com^
 ||mlkklg.suncamp.de^
 ||mllog.jd.com^
@@ -197505,6 +197515,7 @@ zzzyk.com###Tinfo
 ||openweb.bid^$third-party
 ||openxcdn.net^$third-party
 ||opera.com^$cookie=opref
+||operation67.com^
 ||operationchicken.com^
 ||operationnail.com^
 ||operationsports.com/plow-lite-bundle
@@ -199981,6 +199992,7 @@ zzzyk.com###Tinfo
 ||pipette22.top^
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
+||piplnlkmoandbq.com^
 ||pippio.com^
 ||pippio.com^$domain=disqus.com
 ||pipujp.titaneyeplus.com^
@@ -205600,6 +205612,7 @@ zzzyk.com###Tinfo
 ||rudderstack.com/v1/track|
 ||rudhjah.top^
 ||rudr-events.joybird.com^
+||rueducommerce.fr/ps/events.js
 ||ruehg.dotcompliancegroup.com^
 ||rugao35.com/Public/config/Couplet/Index
 ||rugbypass.com/api/tracking/
@@ -241686,6 +241699,7 @@ zzzyk.com###Tinfo
 ||tracking.grandgimeno.com^
 ||tracking.graphly.io^
 ||tracking.grosseladies.de^
+||tracking.groupe-ldlc.com^
 ||tracking.gruener-soelden.com^
 ||tracking.gruppo.mps.it^
 ||tracking.gtc.com.gt^
@@ -245067,6 +245081,7 @@ zzzyk.com###Tinfo
 ||ukpsal.icu^
 ||ukqitv.bizhint.jp^
 ||ukri.innovateuk.org^
+||uks8suop4b.com^
 ||uktgg.dev-tester.com^
 ||ukuof.resthavenfuneral.com^
 ||ukvnr.glamrdip.com^
@@ -251529,6 +251544,7 @@ zzzyk.com###Tinfo
 ||xhuahy.juwelo.it^
 ||xhwojh.nimikoruni.com^
 ||xhxmhs.ounass.ae^
+||xhxtdjx.com^
 ||xhy.infiniteage.com^
 ||xhymsq.com/data/attachment/portal/
 ||xhzmjs.com^
