@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-12 11:54:35(GMT+8) 
-! Total count: 254667
+! ! Version: 2026-06-12 22:56:58(GMT+8) 
+! Total count: 254686
  
 ###ADtip
 ###Ad_windows
@@ -11172,6 +11172,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||app.adjust.world^$app=com.spotify.music
 @@||app.clarity.so^$~third-party
 @@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
+@@||app.lyrebirdhealth.com/_app/immutable/chunks/google-analytics*.js$domain=app.lyrebirdhealth.com
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||apple.com/metrics/ac-analytics/*/scripts/$domain=apple.com
 @@||apple.com/metrics/data-relay/*/scripts/data-relay.js
@@ -15952,6 +15953,7 @@ akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 akshare.moseasia.com$image
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -16299,7 +16301,6 @@ atlantic.avadacom.com$image
 atlassian-trk.prd.msg.ss-inf.net$image
 atoolbox.net###ad-coupon-search
 ats-mail.eqt.com$image
-attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 atyun.com###r_banner > ul > li > a[href^="http"]:not([href*="atyun."])
 atyun.com##.coupletbox
 audio.avadacom.com$image
@@ -123615,6 +123616,7 @@ zzzyk.com###Tinfo
 ||086123.xyz^
 ||087tqb.cn^
 ||08pkgxft0u.com^
+||08su45co5x.com^
 ||093yuht.com^
 ||0941.org^
 ||094kk.com^
@@ -123896,6 +123898,7 @@ zzzyk.com###Tinfo
 ||1438976156.recolution.de^
 ||148a0hqnen.com^
 ||14pbmfzci.com^
+||151xrobgqz.com^
 ||154.22.214.2^
 ||154.7.80.158^
 ||1558334541.rsc.cdn77.org^
@@ -124413,6 +124416,7 @@ zzzyk.com###Tinfo
 ||2rid9fii9chx.www.atlaslane.com^
 ||2rwonuh.com^
 ||2smt6mfgo.de^
+||2top98spp.shop^
 ||2trk.info^$third-party
 ||2tty.overstappen.nl^
 ||2u1h56851n.top^
@@ -125086,6 +125090,7 @@ zzzyk.com###Tinfo
 ||5j45n3f6r.com^
 ||5jgwflo4y935b8udrp.www.pmn-nerez.cz^
 ||5k1cyldc9.com^
+||5kjpa028wo.com^
 ||5kmp7.top^
 ||5kmqy60r7.com^
 ||5lf5cujc5.com^
@@ -125803,6 +125808,7 @@ zzzyk.com###Tinfo
 ||9kkjfywjz50v.www.eventus.io^
 ||9kld.com/ad*.html
 ||9kp.cc/js/bbk/
+||9kqh3r24zv.com^
 ||9ku.com/aaa/
 ||9kvnwwkj.pandasuite.io^
 ||9kz9cttz76.antonsten.com^
@@ -130008,6 +130014,7 @@ zzzyk.com###Tinfo
 ||a8trck.ws.formzu.net^
 ||a8trk.www.std-lab.jp^
 ||a8wakiga.ike-sunshine.co.jp^
+||a8wqu3fbmk.com^
 ||a8wristcut.ike-sunshine.co.jp^
 ||a8ww.net^$third-party
 ||a8x.piece-kaitori.jp^
@@ -142660,6 +142667,7 @@ zzzyk.com###Tinfo
 ||c*hit.zerkalo.io^
 ||c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com^
 ||c-c-l.actonservice.com^
+||c-cmoa.akamaized.net/sol/c/js/common/gtm_ga_user_update.js
 ||c-ctrip.com/ResUnionOnline/R3/float/floating_normal.min.js
 ||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
@@ -153776,6 +153784,7 @@ zzzyk.com###Tinfo
 ||deeplinks.twelve.dynamify.com^
 ||deeplinktest.yooture.info^
 ||deeplinkuat.upoker.net^
+||deepsystems.com/wp-content/plugins/integrate-posthog-web-analytics/
 ||deeptack.com^
 ||deer.m1x.co^
 ||deer.ray.io^
@@ -162485,6 +162494,8 @@ zzzyk.com###Tinfo
 ||gamefowl.nonprofit.foundation^
 ||gamefy.cn/cookiead.php
 ||gamegecko.com/gametrack?
+||gameinformer.com/*/js/tracking/
+||gameinformer.com/modules/contrib/statistics/
 ||gamejolt.com/tick/
 ||gamemale.com/static/js/valida.js
 ||gamemonetize.com/account/event.php?
@@ -174361,6 +174372,7 @@ zzzyk.com###Tinfo
 ||insights.triad.sk^
 ||insights.v3.decathlon.net^
 ||insights.winwithoutpitching.com^
+||insights.xyba.dev^
 ||insights.zennioptical.com^
 ||insights.zinio.com^
 ||insightseries.redbull.racing^
@@ -180071,7 +180083,6 @@ zzzyk.com###Tinfo
 ||links.thedyrt.com^
 ||links.theinfatuation.com^
 ||links.thephoenix.org^
-||links.thriveglobal.com^
 ||links.tlc.com^
 ||links.travelchannel.com^
 ||links.tribe.fitness^
@@ -188907,6 +188918,7 @@ zzzyk.com###Tinfo
 ||match.jimjobs.nl^
 ||match2one.net^
 ||matchid.adfox.yandex.ru/getcookie$domain=vseinstrumenti.ru|kp.ru
+||matchtv.ru^$cookie=spbc_uuid
 ||matelso.de/webtracking/
 ||matelso.de^$third-party
 ||materialisticmoon.com^
@@ -212463,6 +212475,7 @@ zzzyk.com###Tinfo
 ||sgtm.clogau.co.uk^
 ||sgtm.cloudfireoficial.online^
 ||sgtm.cmmcturismo.com^
+||sgtm.cmoa.jp^
 ||sgtm.coachinayahfundingtool.com^
 ||sgtm.coandaair.com^
 ||sgtm.cocotilesandmosaics.com.au^
@@ -227842,7 +227855,6 @@ zzzyk.com###Tinfo
 ||staging-link-ccontact.focuscura.com^
 ||staging-link.docyt.com^
 ||staging-link.kol.store^
-||staging-links.thriveglobal.com^
 ||staging-pt.ispot.tv^
 ||staging-refer.rooam.co^
 ||staging-tracking.ecics.com^
@@ -231900,6 +231912,7 @@ zzzyk.com###Tinfo
 ||stats.niceshitforbitcoiners.com^
 ||stats.nicklafferty.com^
 ||stats.niravraval.com^
+||stats.nkkk.de^
 ||stats.no-cosmetics.de^
 ||stats.nodewood.com^
 ||stats.noeticflow.com^
@@ -232336,6 +232349,7 @@ zzzyk.com###Tinfo
 ||stats.vattenfall.se^
 ||stats.vdsnow.ru^
 ||stats.vegamuze.be^
+||stats.velarium.cc^
 ||stats.vican.me^
 ||stats.vidalytics.com^
 ||stats.vidbinge.com^
@@ -233085,7 +233099,7 @@ zzzyk.com###Tinfo
 ||sts.eliasjarzombek.com^
 ||sts.istitutomarangoni.com^
 ||sts.livrariadopsicologo.com.br^
-||sts.marketingsuite.jp/sts/SocialEvent/Event
+||sts.marketingsuite.jp^
 ||sts.moshiki.com^
 ||sts.naba.it^
 ||sts.ntmb.it^
@@ -247936,6 +247950,7 @@ zzzyk.com###Tinfo
 ||vyyikx.sixt.ch^
 ||vyykdr.renogy.com^
 ||vyz3nn85ed0e.controlconceptsusa.com^
+||vz95953ow5.com^
 ||vzal21mooz.hyperwrite.ai^
 ||vzcfqp.unibet.fr^
 ||vzeuvcdi.icu^
@@ -251918,6 +251933,8 @@ zzzyk.com###Tinfo
 ||xqdwwj.medpeer.jp^
 ||xqhfb9hzrs.com^
 ||xqiitw.brasty.ro^
+||xqishen.com^*/0
+||xqishen.com^*/1
 ||xqjlpo.kasanova.it^
 ||xqkhkazk.kursus.unord.dk^
 ||xqlby.jysk.ca^
@@ -254263,7 +254280,9 @@ zzzyk.com###Tinfo
 ||zonyff.xyz^
 ||zooj.cn^$third-party
 ||zoologist00.com^
-||zoom.us/*/telemetry
+||zoom.us/*/app-telemetry.
+||zoom.us/*/fingerprintjs-
+||zoom.us/user/anonymous/telemetry
 ||zoom.us^$cookie=_zm_ctaid
 ||zoom.us^$cookie=_zm_fingerprint
 ||zoom.us^$cookie=_zm_visitor_guid
