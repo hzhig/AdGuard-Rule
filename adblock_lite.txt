@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-16 12:03:03(GMT+8) 
-! Total count: 32885
+! ! Version: 2026-06-17 00:50:10(GMT+8) 
+! Total count: 32893
  
 ###ADtip
 ###Ad_windows
@@ -1651,6 +1651,7 @@ $websocket,domain=wap.yushuwu.cloud
 *$script,third-party,domain=huanggua22.com
 *$script,third-party,domain=m.roushuwu.vip
 *$script,third-party,xmlhttprequest,domain=m.biquge700.com|biquge001.com
+*$script,xmlhttprequest,image,third-party,domain=360lele.cc
 *$script,xmlhttprequest,third-party,domain=m.1024txt.com
 *$script,xmlhttprequest,third-party,domain=m.niupizhi.net
 *$third-party,domain=440012.xyz
@@ -3632,6 +3633,8 @@ $websocket,domain=wap.yushuwu.cloud
 360kuai.com##.side-wrapper
 360kuai.com##.taskbar
 360kuai.com,hao.360.com###cangbao_redbags
+360lele.cc##.container > div[id]:has(> div[style*="width: 100vw; position: relative;"] > span + img)
+360lele.cc,huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListener("touchstart"')
 360zbz.com#@#.rightad
 365xuet.com##.cd-items
 368015.xyz##div[style="height:60px;width:100%;"]
@@ -10075,7 +10078,6 @@ huke88.com##.hand-once
 hulkusc.com###bab_popup
 hulkusc.com#@#.adsbox
 hung-ya.com##.AdBottom
-huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListener("touchstart"')
 hupu.com###HCFull
 hupu.com###game-center-entrance-container
 hupu.com###shihuo1111
@@ -14163,6 +14165,7 @@ suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
 sunnylife.tw##.Zi_ad_a_H
 sunnylife.tw##.post-entry > div[style="min-width: 300px; min-height:300px;"]
+sunnylife.tw##div[style="min-width: 300px; min-height:400px;"]
 sunofbeach.net##div[id$="-ad"]
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
@@ -15033,6 +15036,7 @@ webkaka.com##.pTopTextAd
 webkaka.com##a[href*=".simcentric."]
 webkaka.com##a[href*="/click/a_d_"]
 webkaka.com##td[id$="_SPONSOR"]
+webtech360.com##.service-box
 webtor.io##DIV.ad
 webtor.io##IFRAME[scrolling='no']
 webtor.io##[data-element='empty']
@@ -17416,6 +17420,7 @@ zzzyk.com###Tinfo
 ||7dqjgdk.com^
 ||7g761j2nc.com^
 ||7hgw85qugx.com^
+||7ho8oc3svg.com^
 ||7imz0d5nay.com^
 ||7iwxojx1s.com^
 ||7j4tpio.com^
@@ -21530,6 +21535,7 @@ zzzyk.com###Tinfo
 ||ehk.trenhdg.com^
 ||ehox67pahs.com^
 ||ehvkaakviw.com^
+||ei6udchhys.com^
 ||ei7buknu82.com^
 ||eiadf.xyz^
 ||eic.org.cn/api/Popup?
@@ -23794,6 +23800,7 @@ zzzyk.com###Tinfo
 ||ikuaiquwan6.com^
 ||ikunikun.xyz^
 ||ilade.xyz^
+||ilbceb6d60.com^
 ||ildopxge.com^
 ||ilgt04vkw4.com^
 ||ilvuqx9vlt.com^
@@ -29863,6 +29870,7 @@ zzzyk.com###Tinfo
 ||tshmhp.icu^
 ||tslbahi.top^
 ||tslianm.com^
+||tslkd9ygnh.com^
 ||tsuh.cn^
 ||tsyndicate.com^
 ||tt.biquge.la^
