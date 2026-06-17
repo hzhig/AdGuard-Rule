@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-17 12:03:46(GMT+8) 
-! Total count: 254302
+! ! Version: 2026-06-17 23:27:44(GMT+8) 
+! Total count: 254308
  
 ###ADtip
 ###Ad_windows
@@ -1826,6 +1826,7 @@ $cookie=_sharedID_cst
 $cookie=_sharedid
 $cookie=_sharedid_cst
 $cookie=_shopify_analytics
+$cookie=_shopify_marketing
 $cookie=_shopify_y
 $cookie=_sotmpid
 $cookie=_sotmsid
@@ -1897,7 +1898,11 @@ $cookie=cX_LSS
 $cookie=cX_P
 $cookie=cX_S
 $cookie=camps,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
+$cookie=cfz_adobe
+$cookie=cfz_facebook
+$cookie=cfz_facebook-pixel
 $cookie=cfz_google-analytics_v4
+$cookie=cfz_reddit
 $cookie=cfzs_google-analytics_v4
 $cookie=clRequestId
 $cookie=clVisitorId
@@ -15953,7 +15958,6 @@ androiddevtools.cn###auto-scroll-ad-box
 androidhellas.com##IMG[src="http://androidhellas.com/wp-content/uploads/2013/08/Android-Hellas-banner-728x90A.gif"]
 androiding.how##.jsXY6yjBmGN4
 androiding.how##.jsXY6yjBmGN4-bg
-androplus.org##a[href^="https://px.a8.net/"]
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 angels.webspecmail.com$image
 angelweb.cn###G640x60
@@ -107795,18 +107799,17 @@ huarenjie.com###LeftAd2
 huarenjie.com###RightAd2
 huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
-huavod.cc#%#(()=>{if(!location.href.includes("://huavod.cc/player/index.php"))return;const e=()=>{const e=document.querySelector("body > center > h1");e?.textContent?.includes("404 Not Found")&&(()=>{const e=top.document.querySelector('#playleft > iframe[src^="https://newplayer.huaren.live/player/index.php"]');e&&(e.src=e.src.replace("huaren.live","huavod.top"))})()};"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()})();
 huavod.cc,huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('abort-current-inline-script', 'MutationObserver', 'isAdblocked')
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('abort-on-stack-trace', 'document.querySelector', 'isAdblocked')
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showModal')
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-setTimeout', '/bait\.offsetHeight===0|isAdblocked|requestAnimationFrame\(/')
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('abort-on-stack-trace', 'Element.prototype.attachShadow', 'Object.Score')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.ad_duration_ms', '0')
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-replace-argument', 'Document.prototype.getElementById', '0', 'no_player-vip', 'player-vip')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
-huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'mac_player_info.from', 'ARTVIPA')
 huavod.com##a[href^="https://lesi198.com"]
-huavod.net#%#(()=>{const e=()=>{const e=document.querySelector('iframe[src^="https://newplayer.huavod.net/player/index.php?code="]');if(e){const n=e.src.replace("://newplayer.huavod.net/","://newplayer.huaren.live/");e.src=n}};"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()})();
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -145177,7 +145180,6 @@ zzzyk.com###Tinfo
 ||cloudflare.com/ajax/libs/fingerprintjs2/$script,redirect=fingerprintjs2,domain=gamebox.gesoten.com,important
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
-||cloudflare.com^$cookie=cfz_facebook-pixel
 ||cloudflare.st^
 ||cloudflareinsights.com^$third-party
 ||cloudfront-666.kxcdn.com/v4.js
@@ -146161,6 +146163,7 @@ zzzyk.com###Tinfo
 ||compliance.coniferhealth.com^
 ||compliance.govdocs.com^
 ||complianceupdates.aem.org^
+||compo-de.frontnow.app/api/event|
 ||components.justanswer.com/v3/main-tracking-script@released.js
 ||components2.*.it/rcs_tealium/
 ||components2.corriereobjects.it/rcs_data-tracking/
@@ -155410,6 +155413,7 @@ zzzyk.com###Tinfo
 ||dufbut.wtennis.com.br^
 ||dufile.com/jsa/
 ||dugout.co/das2.js
+||dugun.com^$cookie=uniqueId
 ||duhnet.tv/*/*/stats/init.min.js
 ||duier.top^
 ||duiwai.baidu.com^
@@ -171643,7 +171647,6 @@ zzzyk.com###Tinfo
 ||im.cbsileads.com^$third-party
 ||im0st6rwn.com^
 ||im286.net/286/
-||image-sap.sfmc-content.com^
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
 ||image.51cto.com/ad/
@@ -176869,6 +176872,7 @@ zzzyk.com###Tinfo
 ||kingfisher.gedaly.com^
 ||kingnews.burgerking.co.za^
 ||kingsandqueens.splowser.com^
+||kingsealed.com^
 ||kinhincauking.website^
 ||kinisi.mkb-brandstof.nl^
 ||kinja.com/api/analytics/
@@ -232773,6 +232777,7 @@ zzzyk.com###Tinfo
 ||stvrb.oakmontmortuary.com^
 ||stw.extrem-down.zone^
 ||stw.extreme-down.
+||stw.zone-telechargement.
 ||stwg.wishup.gifts^
 ||stx.startax.it^
 ||style.lighthouseink.de^
@@ -240701,6 +240706,7 @@ zzzyk.com###Tinfo
 ||tracker-beam.tempo.co^
 ||tracker-dot-dfty-optimeeze-leroymerlinfr.appspot.com^
 ||tracker-dot-optimeeze.appspot.com^
+||tracker-proxy.getmimo.com^
 ||tracker-rec.smart-bdash.com^
 ||tracker-remp.active.radio^
 ||tracker-remp.premiumtimesng.com^
