@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-18 11:54:38(GMT+8) 
-! Total count: 32906
+! ! Version: 2026-06-18 23:22:04(GMT+8) 
+! Total count: 32912
  
 ###ADtip
 ###Ad_windows
@@ -15008,12 +15008,14 @@ wdzj.com##.left-gg-box > div.sl-ggao > div.gg
 wdzj.com##div[class$="-ad-top"]
 wdzzz.com##.zz
 wdzzz.com##.zz_nr
+wealth.com.tw##div[class]:has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
+wealth.com.tw#?##root > div[class] > div[class] div[class] > div[class]:not([class*=" "], [id]):matches-property(/__reactFiber/.return.pendingProps.gtmCode=/^GTM-/)
 wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> button path[d^="M16 4c6.627 0 12 5.373"])
 wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> div[class]:matches-css(height: 250px))
+wealth.com.tw#?##root > div[class] > div[class]:matches-property(/__reactFiber/.return.elementType.displayName=/HeaderAdvertisement/)
 wealth.com.tw#?##root div[class]:matches-css(padding-left: 70px) > div[class]:matches-css(column-gap: 30px):has(> div[class]:matches-css(align-items: center))
 wealth.com.tw#?##root div[class]:matches-css(position: relative) > div[class]:matches-css(justify-content: center):has(> div[class]:matches-css(width: 300px))
 wealth.com.tw#?##root div[class]:matches-css(row-gap: 13px) > div[class]:matches-css(row-gap: 6px):has(> div[class]:matches-css(width: 300px))
-wealth.com.tw#?#div[class]:has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
 wealth.com.tw#?#div[class]:has(>div[class]>div[class*="-ad-manager-"])
 wealwomen.com##div[data-cptid]
 weather.com.cn###adtop_r
@@ -16179,6 +16181,7 @@ zzzyk.com###Tinfo
 ||107.167.16.*.gif
 ||107.167.22.*.gif
 ||109218er.xyz^
+||10eni3ogoo.com^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||11.96131.com.cn^
 ||11.golang8.com^
@@ -19336,6 +19339,7 @@ zzzyk.com###Tinfo
 ||bigcood.xyz^
 ||bigear.cn/cache/htmlcache/
 ||bihaipack.com^
+||bikemanw.com^
 ||biketo.com/d/file/p/
 ||bilibili.com/html/ads-index.js
 ||bilibili.com/x/web-interface/archive/special/recommend?aid=
@@ -19748,6 +19752,7 @@ zzzyk.com###Tinfo
 ||c6.friok.com^
 ||c64ihqx0gj.com^
 ||c6hhfkvxv.com^
+||c6nxtri65t.com^
 ||c7bijgz6zr.com^
 ||c7o9xp4e4.com^
 ||c81.ipanocloud.com^
@@ -22827,6 +22832,7 @@ zzzyk.com###Tinfo
 ||guli21.com/js/ggdm
 ||gumgo.cn^$third-party
 ||gummy-debt.com^
+||gun2v2neoo.com^
 ||gunmi.cn^$third-party
 ||guoguoks.com/1.
 ||guohexinxiang.com^

@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-18 11:54:38(GMT+8) 
-! Total count: 254321
+! ! Version: 2026-06-18 23:22:04(GMT+8) 
+! Total count: 254332
  
 ###ADtip
 ###Ad_windows
@@ -117986,6 +117986,7 @@ theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
 theqoo.net##.theqoo-counter
 thesporttv.eu,sporttvhdmi.com##[id^="ad_tlvmedia-"]
+thestar.com.my#%#//scriptlet('set-local-storage-item', 'nx_anon_id_v1', '$remove$')
 theworld.cn##.download-now
 thg.ru#?#td[valign="top"] > table > tbody > tr:has(> td > table[cellpadding="0"] a[href^="http://top100.rambler.ru/"])
 thinbug.com###inktokad
@@ -121919,12 +121920,14 @@ wdzj.com##.left-gg-box > div.sl-ggao > div.gg
 wdzj.com##div[class$="-ad-top"]
 wdzzz.com##.zz
 wdzzz.com##.zz_nr
+wealth.com.tw##div[class]:has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
+wealth.com.tw#?##root > div[class] > div[class] div[class] > div[class]:not([class*=" "], [id]):matches-property(/__reactFiber/.return.pendingProps.gtmCode=/^GTM-/)
 wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> button path[d^="M16 4c6.627 0 12 5.373"])
 wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> div[class]:matches-css(height: 250px))
+wealth.com.tw#?##root > div[class] > div[class]:matches-property(/__reactFiber/.return.elementType.displayName=/HeaderAdvertisement/)
 wealth.com.tw#?##root div[class]:matches-css(padding-left: 70px) > div[class]:matches-css(column-gap: 30px):has(> div[class]:matches-css(align-items: center))
 wealth.com.tw#?##root div[class]:matches-css(position: relative) > div[class]:matches-css(justify-content: center):has(> div[class]:matches-css(width: 300px))
 wealth.com.tw#?##root div[class]:matches-css(row-gap: 13px) > div[class]:matches-css(row-gap: 6px):has(> div[class]:matches-css(width: 300px))
-wealth.com.tw#?#div[class]:has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
 wealth.com.tw#?#div[class]:has(>div[class]>div[class*="-ad-manager-"])
 wealwomen.com##div[data-cptid]
 weather.com.cn###adtop_r
@@ -123346,6 +123349,7 @@ zzzyk.com###Tinfo
 ||107.167.22.*.gif
 ||109.123.233.251^
 ||109218er.xyz^
+||10eni3ogoo.com^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||10haber.net/cu1m/
 ||10stepswp.advancedtech.com^
@@ -134395,7 +134399,6 @@ zzzyk.com###Tinfo
 ||analytics.omniscientai.com^$third-party
 ||analytics.omnivent.com^
 ||analytics.ompgroup.com^
-||analytics.onedio.com^
 ||analytics.onlinehomeretail.co.uk^
 ||analytics.onlyonlinemarketing.com^
 ||analytics.ooyala.com^
@@ -140435,6 +140438,7 @@ zzzyk.com###Tinfo
 ||bike.turbobd.com^
 ||bikeexerciser.com^
 ||bikemag.com/.api/admiral
+||bikemanw.com^
 ||bikepaws.com^
 ||bikesboard.com^
 ||biketo.com/d/file/p/
@@ -142435,6 +142439,7 @@ zzzyk.com###Tinfo
 ||c677.wisn.com^
 ||c6hhfkvxv.com^
 ||c6lc.pandasuite.io^
+||c6nxtri65t.com^
 ||c705.trentonian.com^
 ||c783.fastcompany.com^
 ||c7bijgz6zr.com^
@@ -144936,6 +144941,7 @@ zzzyk.com###Tinfo
 ||clickguard.com^$third-party
 ||clickguardian.app^$third-party
 ||clickguardian.co.uk^$third-party
+||clickhouse-collector.*.prod.plat.agency^
 ||clicki.cn^$third-party
 ||clickinc.com^$third-party
 ||clickindia.com/cimem/ad-post-ajax.php?FormName=browsingHistory
@@ -168643,6 +168649,7 @@ zzzyk.com###Tinfo
 ||gumgo.cn^$third-party
 ||gummy-debt.com^
 ||gumtree.com.au/tracking/
+||gun2v2neoo.com^
 ||gunmi.cn^$third-party
 ||guoguoks.com/1.
 ||guohexinxiang.com^
@@ -199199,6 +199206,7 @@ zzzyk.com###Tinfo
 ||perfiliate.com^$third-party
 ||perfops.io^$third-party
 ||perfops.net/rom3/
+||performance-events.guardianapis.com^
 ||performance-logger.minted.com^
 ||performance.athleticgym.com.co^
 ||performance.inncollectiongroup.com^
@@ -199336,6 +199344,7 @@ zzzyk.com###Tinfo
 ||pgtrh.alicelanehome.com^
 ||pgznc.canadaswonderland.com^
 ||ph.bioharmonygoods1.com^
+||ph.givebutter.com^$ping
 ||phadia.thermo.com^
 ||phadia.thermofisher.com^
 ||phaja.littlebipsy.com^
@@ -227276,6 +227285,7 @@ zzzyk.com###Tinfo
 ||ssyy881.com/zz/
 ||st-*.dynamicyield.com^
 ||st-5cva8vttppvjafpc7jvj.kodik.biz^
+||st-a.cdp.asia/insight.js
 ||st-a.cdp.asia^
 ||st-a8.tscubic.com^
 ||st-fly.b-cdn.net^
@@ -230792,6 +230802,7 @@ zzzyk.com###Tinfo
 ||stats-proto.pandora.com^
 ||stats-real-clients.zentech.gr^
 ||stats-ruzickap-github-io.ruzicka.dev^
+||stats-sdk.tange365.com^
 ||stats-sg.ganymede.eu^
 ||stats-ssl.mdanderson.org^
 ||stats.*.ronghub.com^
