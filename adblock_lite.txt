@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-21 12:09:27(GMT+8) 
-! Total count: 32956
+! ! Version: 2026-06-21 22:09:18(GMT+8) 
+! Total count: 32966
  
 ###ADtip
 ###Ad_windows
@@ -3859,9 +3859,13 @@ $websocket,domain=wap.yushuwu.cloud
 5184.com##.fixed_bgg
 5184.com##.fixed_bgg2
 5184.com##.gg600
+51cg1.com##.dplayer-pre-bg
+51cg1.com##.dplayer-pre-countdown
+51cg1.com##.dplayer-pre-img
 51cg1.com##.horizontal-banner
 51cg1.com##.post-card-ads
 51cg1.com##article:has(> a > div.post-card > div[style^="background-image: url(\"data:image/gif;base64"])
+51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 51credit.com###leftLayerDown
 51credit.com##.credit-box
 51credit.com##.main-r-ka
@@ -17562,6 +17566,7 @@ zzzyk.com###Tinfo
 ||89mtdab.xyz^
 ||8bnouo6r6.com^
 ||8chj9.com^
+||8cj70f905.com^
 ||8cjk04e7sb.com^
 ||8clkggoo62.com^
 ||8cnd.com^
@@ -17780,6 +17785,7 @@ zzzyk.com###Tinfo
 ||9pyn42z6d.com^
 ||9pzoz6taf.com^
 ||9r0v0go0el.com^
+||9rkh7nbaj.com^
 ||9soefyenw.com^
 ||9swovqnp52.com^
 ||9tata.com/js/Rand.js
@@ -24291,6 +24297,7 @@ zzzyk.com###Tinfo
 ||jb.dianshu119.com^
 ||jb.ecar168.cn^
 ||jb51.net/imgby/logo_
+||jba33y5xx.com^
 ||jbazhaheia.top^
 ||jbbydz.icu^
 ||jbdch1.appmobile.cn^
@@ -30786,6 +30793,7 @@ zzzyk.com###Tinfo
 ||vwfppr.xyz^
 ||vwiy.cn^
 ||vwowvu9ha.com^
+||vwpgnvwgywbrfo.com^
 ||vwtbrzymoz.com^
 ||vwtjvd.xyz^
 ||vwuudahnarh.com^
@@ -31810,6 +31818,7 @@ zzzyk.com###Tinfo
 ||xvideo.cc/wefong2.js
 ||xvkz.cn^
 ||xwbspx.xyz^
+||xwcm.net/caches/ahm.
 ||xwdsp.com^
 ||xwlyfl.xyz^
 ||xwqtatnw.icu^
@@ -32192,6 +32201,7 @@ zzzyk.com###Tinfo
 ||ypyr.cn^
 ||ypzps.com^
 ||yqg.jobui.com^
+||yqgtuqf.icu^
 ||yqgzaewe.cn^
 ||yqhorcill.com^
 ||yqrsdfh.top^

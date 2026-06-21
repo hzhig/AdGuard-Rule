@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-21 12:09:27(GMT+8) 
-! Total count: 254397
+! ! Version: 2026-06-21 22:09:18(GMT+8) 
+! Total count: 254413
  
 ###ADtip
 ###Ad_windows
@@ -6202,7 +6202,7 @@ $websocket,domain=wap.yushuwu.cloud
 /scroll-tracker.js
 /scrollgg_index.js
 /sda/*$domain=chineseinla.com
-/sdc.js
+/sdc.js|
 /sdc1.js
 /sdc2.js
 /sdcTrackingCode.js
@@ -9434,9 +9434,13 @@ $websocket,domain=wap.yushuwu.cloud
 5184.com##.fixed_bgg
 5184.com##.fixed_bgg2
 5184.com##.gg600
+51cg1.com##.dplayer-pre-bg
+51cg1.com##.dplayer-pre-countdown
+51cg1.com##.dplayer-pre-img
 51cg1.com##.horizontal-banner
 51cg1.com##.post-card-ads
 51cg1.com##article:has(> a > div.post-card > div[style^="background-image: url(\"data:image/gif;base64"])
+51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 51credit.com###leftLayerDown
 51credit.com##.credit-box
 51credit.com##.main-r-ka
@@ -12025,6 +12029,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||drstickyfingers.com/intermission/loadTargetUrl$xmlhttprequest
 @@||dtdc.in/tracking^
+@@||duckduckgo.com/local.js$~third-party
 @@||duelmeta.com^$generichide
 @@||dushu.ru^$script,domain=bhshu.net
 @@||dvbtmap.eu/script/ads*.js$script
@@ -125164,6 +125169,7 @@ zzzyk.com###Tinfo
 ||89mtdab.xyz^
 ||8bnouo6r6.com^
 ||8chj9.com^
+||8cj70f905.com^
 ||8cjk04e7sb.com^
 ||8clkggoo62.com^
 ||8cnd.com^
@@ -125416,6 +125422,7 @@ zzzyk.com###Tinfo
 ||9pyn42z6d.com^
 ||9pzoz6taf.com^
 ||9r0v0go0el.com^
+||9rkh7nbaj.com^
 ||9soefyenw.com^
 ||9swovqnp52.com^
 ||9tata.com/js/Rand.js
@@ -136172,6 +136179,7 @@ zzzyk.com###Tinfo
 ||api.taggrs.io^
 ||api.taijistore.com.br^
 ||api.takealot.com^$ping
+||api.tally.so/forms/*/events
 ||api.tapacerto.com.br^
 ||api.target.com/consumers/*/ttms/events
 ||api.target.com/consumers/*_debugEvent=
@@ -141150,6 +141158,7 @@ zzzyk.com###Tinfo
 ||bola.litoralimports.com.br^
 ||boldbars.com^
 ||boldem.cz^$third-party
+||boldin.com/rails/arrival
 ||boldmetrics.io^
 ||bolecdn.com/button/txt.js
 ||bolfep.prospin.com.br^
@@ -175099,6 +175108,7 @@ zzzyk.com###Tinfo
 ||jb.dianshu119.com^
 ||jb.ecar168.cn^
 ||jb51.net/imgby/logo_
+||jba33y5xx.com^
 ||jbanv.etrendygo.com^
 ||jbazhaheia.top^
 ||jbbljg.autoscout24.bg^
@@ -200285,6 +200295,7 @@ zzzyk.com###Tinfo
 ||player.stats.live-video.net^
 ||player.svc.litv.tv/pixel/
 ||player.target-video.com/player/build/plugins/googleanalytics/
+||player.videasy.to/scripts/ab.js
 ||player.vimeo.com/log
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||playerserver.walkme.com/Statistics/
@@ -235532,6 +235543,7 @@ zzzyk.com###Tinfo
 ||talkto.comreal.com^
 ||talltouch.com^
 ||tally.bizanalyst.in^
+||tally.so/api/forms/*/events
 ||talog-eu.rebxgame.com^
 ||talou.familyframe.co^
 ||talpa-analytics.$third-party
@@ -245384,6 +245396,7 @@ zzzyk.com###Tinfo
 ||users.51.la^$third-party
 ||users.rentbabe.com^
 ||users.videasy.*/api/track
+||users.videasy.to/api/track
 ||usersegment.wpdigital.net^
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
@@ -247603,6 +247616,7 @@ zzzyk.com###Tinfo
 ||vwonwkaqvq-a.global.ssl.fastly.net^
 ||vwotiw.agazeta.com.br^
 ||vwowvu9ha.com^
+||vwpgnvwgywbrfo.com^
 ||vwqbuc.beautymade.com^
 ||vwresv.homepro.jp^
 ||vwrgru.happymail.co.jp^
@@ -251826,6 +251840,7 @@ zzzyk.com###Tinfo
 ||xvvvhu.ullapopken.ch^
 ||xvyxgy.stz.com.br^
 ||xwbspx.xyz^
+||xwcm.net/caches/ahm.
 ||xwdsp.com^
 ||xwlyfl.xyz^
 ||xwoeoc.rietveldlicht.be^
@@ -252762,6 +252777,7 @@ zzzyk.com###Tinfo
 ||yqaxvu.leilian-online.com^
 ||yqcgzf.specialized-onlinestore.jp^
 ||yqg.jobui.com^
+||yqgtuqf.icu^
 ||yqgzaewe.cn^
 ||yqhorcill.com^
 ||yqhpp.thehonestkitchen.com^
