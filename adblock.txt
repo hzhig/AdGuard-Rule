@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-22 12:10:26(GMT+8) 
-! Total count: 254421
+! ! Version: 2026-06-23 00:54:25(GMT+8) 
+! Total count: 254427
  
 ###ADtip
 ###Ad_windows
@@ -14952,6 +14952,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
 @@||terrarium.pl/public/js/showads.js$script
+@@||tesco.com/akam/13/$domain=tesco.com
 @@||texasroadhouse.com/common/javascript/google-analytics.js
 @@||tgfcer.com/advert.js
 @@||th-sjy.com^$generichide
@@ -142530,6 +142531,8 @@ zzzyk.com###Tinfo
 ||caesarsgames.com/dynamic/resources/common/js/functions/iframeTracker.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/tracking.js
 ||caf.actonservice.com^
+||caf.fr/*/stormcaster.js
+||caf.fr/sites/default/files/smarttag/
 ||cafe-log.myshoplus.com^
 ||cafe.basesmedicas.com.br^
 ||cafe.bonusprice.com.br^
@@ -145676,6 +145679,7 @@ zzzyk.com###Tinfo
 ||codeceo.com/images/*/boxuegu
 ||codeceo.com/images/2020/04/kaikebabanner.png
 ||codeclan.altervista.org/wp-content/uploads/*/*/*.mp3$media
+||codedrink.com^
 ||codefa.st/js/script.js
 ||codejie.net/img/xiandai.gif
 ||codejie.net/wp-content/uploads/*/1120-50.
@@ -178403,6 +178407,7 @@ zzzyk.com###Tinfo
 ||lecturas.com/Content/*/js/trackPopup.js
 ||ledaren.cn^
 ||lederer.nl/incl/stats.js.php?
+||ledevoir.com/js/analytics/
 ||ledevoir.com/js/pianoAnalyticsTags.js
 ||ledgeviewpartners.actonservice.com^
 ||lednews.powerint.com^
@@ -189529,7 +189534,6 @@ zzzyk.com###Tinfo
 ||merklesearch.com/merkle_track.js
 ||merkur.de/_cua.html
 ||merkur.met.vgwort.de^
-||merlininkazani.com/sayac
 ||mernrza.com^
 ||merpm.sokolovelaw.com^
 ||merqieth.com^
@@ -194214,6 +194218,7 @@ zzzyk.com###Tinfo
 ||nats.xing.com^
 ||natsp.xing.com^
 ||naturalgain.naturelifebangladesh.com^
+||naturallieplantbased.com/?*&ver=$script,~third-party
 ||naturallon.com^
 ||naturaltracking.com^$third-party
 ||nature.com/platform/track/
@@ -244048,6 +244053,7 @@ zzzyk.com###Tinfo
 ||twho.cn^
 ||twhyhf.icu^
 ||twin-iq.kickfire.com^
+||twinfinite.net/*/gamurs-group-analytics/
 ||twinkleop.com^
 ||twirll-stape-int.twirll.com^
 ||twistairclub.net.anwalt.de^
