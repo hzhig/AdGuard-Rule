@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-23 22:46:58(GMT+8) 
-! Total count: 254465
+! ! Version: 2026-06-24 11:32:07(GMT+8) 
+! Total count: 254479
  
 ###ADtip
 ###Ad_windows
@@ -10960,6 +10960,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||amplify.outbrain.com^$app=jp.co.alc.eow
 @@||amplitude.com/libs/$script,domain=b2c.voegol.com.br|elconfidencial.com|kink.com|pdfexpert.com|xe.com
 @@||amy.gs/intermission/loadTargetUrl$xmlhttprequest
+@@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
 @@||analysys.cn^$domain=analysys.cn
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=nhs.uk
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=techuk.org
@@ -15885,7 +15886,7 @@ akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -106046,7 +106047,6 @@ flashback.org###top-banner-container
 flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 flightradar24.com##.noads
 flighty.cn###searchBox + #sidebarBox
-flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 flowus.cn##footer .swiper
 flux-globalid3.click.s11.sfmc-osl.com$image
 flyblog.cc###links > div[id] > div.hslice:not(#search):not(#counter):not(#category):not(#calendar):not([id*="-article"]):not(#latest-comment)
@@ -116541,7 +116541,7 @@ rgrp.digipen.edu$image
 rgrp.fffenterprises.com$image
 ria.ru##.antiblock
 riaway.com##.info_message_container
-ricardocuisine.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
+ricardocuisine.com,thegentlemansjournal.com,thekrazycouponlady.com,flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 ridgemerino.com#%#//scriptlet('set-local-storage-item', 'kl-uid', '$remove$')
 right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##.wp > .a_t:has(> table > tbody > tr > td > .adsbygoogle)
@@ -117985,13 +117985,11 @@ thecatcity.com##.article-page__ad-block
 theextopia.com##.adsbanner
 theextopia.com##.adsfoot1
 theextopia.com##.adsfoot2
-thegentlemansjournal.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 theguardian.com##.js-adblock-sticky
 theguardian.com##.site-message--adblock-message
 thehill.com###block-thehill-blocks-amp-outbrain
 thehindu.com###sectiondivicymi
 thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '/^ab\.storage\./', '$remove$')
-thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 themirror.com##reach-topbox
 thenewslens.com##div[class^="help-tnl-"]
 thenewslens.com##div[class^="help-tnl-container-"]
@@ -118006,6 +118004,7 @@ theporn.cc##.toolbar-gg
 theqoo.net##.theqoo-counter
 thesporttv.eu,sporttvhdmi.com##[id^="ad_tlvmedia-"]
 thestar.com.my#%#//scriptlet('set-local-storage-item', 'nx_anon_id_v1', '$remove$')
+thesun.co.uk#%#//scriptlet('set-local-storage-item', '/^optimizely_data/', '$remove$')
 theworld.cn##.download-now
 thg.ru#?#td[valign="top"] > table > tbody > tr:has(> td > table[cellpadding="0"] a[href^="http://top100.rambler.ru/"])
 thinbug.com###inktokad
@@ -124825,6 +124824,7 @@ zzzyk.com###Tinfo
 ||68287zubo85737.com^
 ||682a5845.b-cdn.net^
 ||68710266.com^
+||68b1hx8ej.com^
 ||68s4eyiru.com^
 ||68td4yete.com^
 ||68tkaiaji.com^
@@ -125392,6 +125392,7 @@ zzzyk.com###Tinfo
 ||9fgh98k.com^
 ||9fum.ifeng.com^
 ||9fwz.com^
+||9g3yx40s6.com^
 ||9gag.com/event/
 ||9gag.com/track/
 ||9gag.com^$removeparam=ref
@@ -143699,6 +143700,7 @@ zzzyk.com###Tinfo
 ||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
+||cdn.flowplayer.com/releases/native/3/stable/plugins/ga4.min.js
 ||cdn.fugu-it.com/web/script.js
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
@@ -153275,6 +153277,7 @@ zzzyk.com###Tinfo
 ||ddhwxwi6h.com^
 ||ddiamond.com.tr/tom8/
 ||ddioce.wolverine.com^
+||dditsadn.com^$domain=livesex.com
 ||dditscdn.com/*fingerprints
 ||dditscdn.com/?a=
 ||dditscdn.com/log/
@@ -153880,6 +153883,7 @@ zzzyk.com###Tinfo
 ||dhauc.earthhero.com^
 ||dhawbu.crazyskin.co.kr^
 ||dhc.co.jp/com/cookie.jsp
+||dhcjty.com^
 ||dhckj73qr3.com^
 ||dhdaa.duke.edu^
 ||dhddv.rarevinyl.com^
@@ -159824,6 +159828,7 @@ zzzyk.com###Tinfo
 ||fastgull.io^
 ||fastly-analytics.com^$third-party
 ||fastly-insights.com^$third-party
+||fastly.com/metrics/gtm/
 ||fastly.net/i?
 ||fastly.net/sp.js
 ||fastmail.com/api/event/
@@ -185081,6 +185086,7 @@ zzzyk.com###Tinfo
 ||logapi.sooplive.com^
 ||logapi.tv.naver.com^
 ||logapi.zhipin.com^
+||logarithm29.top^
 ||logbak.hicloud.com^
 ||logbase.io/metrics
 ||logbor.com^$third-party
@@ -196278,6 +196284,7 @@ zzzyk.com###Tinfo
 ||ocvdi0rum.com^
 ||ocvig.soluxury.ca^
 ||ocwlhv.ecid.com.br^
+||od6992uotl.com^
 ||oda.markitondemand.com^
 ||odb.outbrain.com^
 ||odc.1und1.de^
@@ -197020,6 +197027,8 @@ zzzyk.com###Tinfo
 ||onetag.co.kr^
 ||onetrust.com^$ping
 ||onetvb.com/assets/javascripts/
+||onetwotrip.com/_api_misc/kismx/e^
+||onetwotrip.com/_avia/statistics/
 ||oneyearonechange.com^
 ||ongc.justmusic.co.il^
 ||onghfx.revolve.com^
@@ -201459,6 +201468,7 @@ zzzyk.com###Tinfo
 ||psbiaf.converse.com^
 ||pscfsj.casadabebida.com.br^
 ||pscunow.fmservice.com^
+||psdovpvghfphju.com^
 ||pse.gabor.com^
 ||psetu.citybonfires.com^
 ||psfcnf.ochsnersport.ch^
@@ -244253,6 +244263,7 @@ zzzyk.com###Tinfo
 ||tzlit.cn^
 ||tzlsm.reservebar.com^
 ||tzovkp.aboutyou.at^
+||tzp61mplc.com^
 ||tzpiz.racecraftaus.com^
 ||tzqip.thevinessupply.co^
 ||tzur.intersport.me^
@@ -252652,6 +252663,7 @@ zzzyk.com###Tinfo
 ||yncjsc.cn^
 ||yndhi.com^
 ||ynemmp.goertz.de^
+||ynet-pic1.yit.co.il/Common/Api/Scripts/GA4/ga4-ynetnews-*.js
 ||ynet.com/c/js/manto.min.js
 ||ynfxxbp.xyz^
 ||yngnwe.8division.com^
@@ -253879,6 +253891,7 @@ zzzyk.com###Tinfo
 ||zjst.net/3.gif
 ||zjthzf.xyz^
 ||zjtu.tv/add.
+||zju16obqzy.com^
 ||zjuoc.fromourplace.au^
 ||zjven.boysmells.com^
 ||zjxc.com/source/plugin/e6_xc_ad/
@@ -254160,6 +254173,7 @@ zzzyk.com###Tinfo
 ||zrnsl.alexanderwang.com^
 ||zrnsri.vogacloset.com^
 ||zrofz.spectacularacademy.com^
+||zrosq6dsha.com^
 ||zrpfi.cheershealth.com^
 ||zrrjq.pinkblushmaternity.com^
 ||zrsaff.petworld.no^
