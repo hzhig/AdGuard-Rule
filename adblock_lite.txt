@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-24 22:28:37(GMT+8) 
-! Total count: 33002
+! ! Version: 2026-06-25 11:30:15(GMT+8) 
+! Total count: 33008
  
 ###ADtip
 ###Ad_windows
@@ -1651,7 +1651,7 @@ $websocket,domain=wap.yushuwu.cloud
 *$script,third-party,domain=huanggua22.com
 *$script,third-party,domain=m.roushuwu.vip|xiaoaimh.com
 *$script,third-party,xmlhttprequest,domain=m.biquge700.com|biquge001.com
-*$script,xmlhttprequest,image,third-party,domain=360lele.cc
+*$script,xmlhttprequest,image,third-party,domain=360lele.cc|fxshu.top
 *$script,xmlhttprequest,third-party,domain=m.1024txt.com
 *$script,xmlhttprequest,third-party,domain=m.niupizhi.net
 *$third-party,domain=440012.xyz
@@ -3634,7 +3634,6 @@ $websocket,domain=wap.yushuwu.cloud
 360kuai.com##.taskbar
 360kuai.com,hao.360.com###cangbao_redbags
 360lele.cc##.container > div[id]:has(> div[style*="width: 100vw; position: relative;"] > span + img)
-360lele.cc,huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListener("touchstart"')
 360zbz.com#@#.rightad
 365xuet.com##.cd-items
 368015.xyz##div[style="height:60px;width:100%;"]
@@ -9282,6 +9281,8 @@ fx678.com##div[id^="dl_"]
 fx678.com##div[id^="hta_"]
 fx678.com#@##ad_8
 fxedu.com.cn#@#.ad_r
+fxshu.top##.com_t > div[id]:has(> div[style*="width: 100vw; position: relative;"] > span + img)
+fxshu.top,360lele.cc,huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListener("touchstart"')
 fxykx.com##a[href*="zyttx.com/"]
 fxykx.com,pantsu.cat#@##banner_ad
 fydisk.com###vbox
@@ -19887,6 +19888,7 @@ zzzyk.com###Tinfo
 ||cbh365.club^
 ||cbhzxctgm.com^
 ||cbjg.cqnews.net^
+||cbjk6j85d.com^
 ||cbjs.baidu.com^
 ||cbo9vo98i.com^
 ||cboufsrelp.com^
@@ -20662,6 +20664,7 @@ zzzyk.com###Tinfo
 ||d4.sina.com.cn^$object,script
 ||d48paxyhx.com^
 ||d4dlgw9mi.com^
+||d4ehbdtlw.com^
 ||d4rxxm6ig.com^
 ||d4vd.life/love/
 ||d4xmm7es84.com^
@@ -21697,6 +21700,7 @@ zzzyk.com###Tinfo
 ||eqlidke.cn^
 ||eqqi.cn^
 ||eqqp.cn^
+||equation33.com^
 ||equwxrqjyl.com^
 ||er.5ykj.cn^
 ||er.5ykj.com^
@@ -24914,6 +24918,7 @@ zzzyk.com###Tinfo
 ||kelehut.cc/js/m.
 ||ken.kenxq.com^
 ||kengi.top^
+||kettledroopingcontinuation.com^
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
 ||keyboard88.top^
@@ -29164,6 +29169,7 @@ zzzyk.com###Tinfo
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||spellbind33.com^
+||spendsdetachment.com^
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 ||spl.ztvx8.com^$third-party
 ||spnuninugr.com^

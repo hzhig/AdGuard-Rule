@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-24 22:28:37(GMT+8) 
-! Total count: 254486
+! ! Version: 2026-06-25 11:30:15(GMT+8) 
+! Total count: 254495
  
 ###ADtip
 ###Ad_windows
@@ -2245,7 +2245,7 @@ $websocket,domain=wap.yushuwu.cloud
 *$script,third-party,domain=huanggua22.com
 *$script,third-party,domain=m.roushuwu.vip|xiaoaimh.com
 *$script,third-party,xmlhttprequest,domain=m.biquge700.com|biquge001.com
-*$script,xmlhttprequest,image,third-party,domain=360lele.cc
+*$script,xmlhttprequest,image,third-party,domain=360lele.cc|fxshu.top
 *$script,xmlhttprequest,third-party,domain=m.1024txt.com
 *$script,xmlhttprequest,third-party,domain=m.niupizhi.net
 *$third-party,domain=440012.xyz
@@ -9046,7 +9046,6 @@ $websocket,domain=wap.yushuwu.cloud
 360kuai.com##.taskbar
 360kuai.com,hao.360.com###cangbao_redbags
 360lele.cc##.container > div[id]:has(> div[style*="width: 100vw; position: relative;"] > span + img)
-360lele.cc,huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListener("touchstart"')
 360zbz.com#@#.rightad
 3617.connector-qa1.marketingcloudqaapis.com$image
 3655.sfap-qa1.marketingcloudqaops.com$image
@@ -106353,6 +106352,8 @@ fx678.com##div[id^="dl_"]
 fx678.com##div[id^="hta_"]
 fx678.com#@##ad_8
 fxedu.com.cn#@#.ad_r
+fxshu.top##.com_t > div[id]:has(> div[style*="width: 100vw; position: relative;"] > span + img)
+fxshu.top,360lele.cc,huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListener("touchstart"')
 fxykx.com##a[href*="zyttx.com/"]
 fxykx.com,pantsu.cat#@##banner_ad
 fydisk.com###vbox
@@ -143440,6 +143441,7 @@ zzzyk.com###Tinfo
 ||cbh365.club^
 ||cbhzxctgm.com^
 ||cbjg.cqnews.net^
+||cbjk6j85d.com^
 ||cbjs.baidu.com^
 ||cbjtv.backcountry.com^
 ||cbl6.destinia.gt^
@@ -148785,6 +148787,7 @@ zzzyk.com###Tinfo
 ||d48paxyhx.com^
 ||d4ax0r5detcsu.cloudfront.net^
 ||d4dlgw9mi.com^
+||d4ehbdtlw.com^
 ||d4rxxm6ig.com^
 ||d4vd.life/love/
 ||d4xmm7es84.com^
@@ -158137,6 +158140,7 @@ zzzyk.com###Tinfo
 ||eqsdv.everlane.com^
 ||eqtrack.americashomeplace.com^
 ||equablekettle.com^
+||equation33.com^
 ||equilist.raj-ohlavek.cz^
 ||equipamentos.karcher-center-dikmaq.com.br^
 ||equippo.actonservice.com^
@@ -176813,6 +176817,7 @@ zzzyk.com###Tinfo
 ||kernenergie.efscle.com^
 ||kesko.actonservice.com^
 ||kestlerfinancial.actonservice.com^
+||kettledroopingcontinuation.com^
 ||keuaq.amsoil.ca^
 ||kevinroebert.gitlab.io/ClearUrls/void/index.html$removeparam=test
 ||kevqi.emango.sk^
@@ -197711,6 +197716,7 @@ zzzyk.com###Tinfo
 ||outdoorsy.com^$cookie=odc-e
 ||outdoorsy.com^$cookie=odc-s
 ||outdoorthingy.com^
+||outerwords.com^
 ||outfit.wingsfit1.com^
 ||outfunnel.com^$third-party
 ||outlook-1.cdn.office.net/owamini/*/resources/analytics-ping.js
@@ -202550,6 +202556,7 @@ zzzyk.com###Tinfo
 ||qotms.aestheticmanagementpartners.com^
 ||qotnke.natureone.co.kr^
 ||qouxkn.natuurhuisje.nl^
+||qovani.com^
 ||qovbv.thesoutherntrapper.com^
 ||qowfknlds.net^
 ||qowfuv.virbacavto.ru^
@@ -220254,6 +220261,7 @@ zzzyk.com###Tinfo
 ||spellknight.com^
 ||spellmist.com^
 ||spellsalsa.com^$third-party
+||spendsdetachment.com^
 ||spenvp.gate.shop^
 ||spermwhale.rowansimpson.com^
 ||spersonalization.mrappliance.ca^
@@ -236216,6 +236224,7 @@ zzzyk.com###Tinfo
 ||tbk.p61gallery.com^
 ||tbknig.ecc.jp^
 ||tbl258ym4.cc^
+||tblcontent.com^
 ||tbmgyz.centerparcs.de^
 ||tbp.be-performance.com^
 ||tbqyl.axparis.com^
