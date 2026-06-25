@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-25 11:30:15(GMT+8) 
-! Total count: 254495
+! ! Version: 2026-06-25 22:31:25(GMT+8) 
+! Total count: 254510
  
 ###ADtip
 ###Ad_windows
@@ -12759,6 +12759,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=gillette.de
 @@||googletagmanager.com/gtm.js$domain=givingfuel.com|regfox.com|ticketspice.com|redpodium.com
 @@||googletagmanager.com/gtm.js$domain=glamusha.ru
+@@||googletagmanager.com/gtm.js$domain=gocomics.com
 @@||googletagmanager.com/gtm.js$domain=gratis.com
 @@||googletagmanager.com/gtm.js$domain=gumtree.com
 @@||googletagmanager.com/gtm.js$domain=haisenryakuzu.net
@@ -16195,8 +16196,6 @@ assbbs.com##div[id^="ass_adv"]
 assets.avadacom.com$image
 assets.blk.mail.rewardgateway.net$image
 assets.txn.mail.rewardgateway.net$image
-assume.gguaklar.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
-assume.gguaklar.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
 ast.moseasia.com$image
 asterisk.avadacom.com$image
 asterix.avadacom.com$image
@@ -107569,6 +107568,8 @@ hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-p
 hmoe.one,hmoe.moe##a[href^="https://item.taobao.com"]
 hobbylog.jp##.pbancut
 hochi.news###ohtani-pickup
+hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
+hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
 hola.rocket.la$image
 holtrenfrew.com#%#//scriptlet('set-constant', 'ometria', 'emptyObj')
 holtrenfrew.com#%#//scriptlet('set-constant', 'ometria.init', 'noopFunc')
@@ -123263,6 +123264,7 @@ zzzyk.com###Tinfo
 ||0yq00i.cn^
 ||0yu3bxtqv.com^
 ||0z3zbnbkv.com^
+||0zo9nqijr.com^
 ||1-cl0ud.com^$third-party
 ||1.07swz.com^
 ||1.1.1.1/cdn-cgi/trace
@@ -125630,6 +125632,7 @@ zzzyk.com###Tinfo
 ||a.jolieride.com^
 ||a.justlodges.com^
 ||a.jyeoo.com/js?
+||a.klaviyo.com/forms/api/v3/geo-ip
 ||a.klaviyo.com/onsite/track-analytics
 ||a.koodomobile.com^
 ||a.kupibilet.ru^
@@ -138032,7 +138035,7 @@ zzzyk.com###Tinfo
 ||ask.wearelistening.co.nz^
 ||askanydifference.com/beardeddragon/gilamonster.js
 ||askdoctors.jp/assets/packs/js/impression_tracker-
-||askdriver.com^
+||askdriver.com^$redirect=noopjs,script
 ||askjbvjnejcbzweh.com^
 ||asklcnlkacnklnl.com^
 ||asldmlws.cn^
@@ -144162,6 +144165,7 @@ zzzyk.com###Tinfo
 ||cfmediaview.com/API/MV_Visit.ashx
 ||cfmediaview.com^$third-party
 ||cfoxpgfzxl.com^
+||cfparequest.pcpartpicker.com/api/event
 ||cfpwood.actonservice.com^
 ||cfqkop.jaked.com^
 ||cfrnyp.kars4kids.org^
@@ -148687,6 +148691,7 @@ zzzyk.com###Tinfo
 ||d2fuc4clr7gvcn.cloudfront.net^
 ||d2g2u2795e3fzw.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
+||d2gt2ux04o03l1.cloudfront.net^
 ||d2hrivdxn8ekm8.cloudfront.net^$third-party
 ||d2i34c80a0ftze.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
@@ -164357,6 +164362,7 @@ zzzyk.com###Tinfo
 ||golengmen.com/assets/publish/
 ||golfcartlaws.com^
 ||golfersrow.com^
+||gollum.monotote.com^
 ||gome.com.cn/flight?
 ||gomerchant.groupon.com^
 ||gomoxie.solutions^*/events
@@ -169617,6 +169623,7 @@ zzzyk.com###Tinfo
 ||hepsiburada.com/webcontent/
 ||heraldandtimeslabs.com/sugar.js
 ||herbgreencolumn.com^
+||herbstarsbuilding.com^
 ||herculean57.com^
 ||hermes.allo-media.net^
 ||hero.shapero.com^
@@ -177082,6 +177089,7 @@ zzzyk.com###Tinfo
 ||kk.kvalitetskontroll.no^
 ||kk.pamo-design.com^
 ||kk3fefl2b3.com^
+||kk51qd5l4.com^
 ||kkbco.thehouseofmarley.co.uk^
 ||kkcmcp.printemps.com^
 ||kkday.com/api/_nuxt/recommend/user-action-record
@@ -178468,6 +178476,7 @@ zzzyk.com###Tinfo
 ||legitscript.com/seals/$script
 ||lego.com/api/dl-event-ingest
 ||legolas-media.com^$third-party
+||legolas.monotote.com^
 ||legoo.simonpearce.com^
 ||legopq.site^
 ||leguide.com/js/lgtrk-*.js
@@ -179913,6 +179922,7 @@ zzzyk.com###Tinfo
 ||live2support.com^*/js_lstrk.
 ||live800.com^$third-party
 ||liveany.com/images/8d8d.gif
+||liveball.sx/albert
 ||livechatinc.com^*/control.cgi?
 ||livecounter.dk^$third-party
 ||livecounter.theyosh.nl^
@@ -200150,6 +200160,7 @@ zzzyk.com###Tinfo
 ||plans.ceteraretirement.com^
 ||plans.fundtherebuild.com^
 ||plantcourse.com^
+||plantet.pl/products/ping/
 ||plants.outsidein.com^
 ||plas.imfeld.dev^
 ||plateau77.com^
@@ -234519,6 +234530,7 @@ zzzyk.com###Tinfo
 ||t.mm-uxrv.com^
 ||t.mma-adl.com^
 ||t.mmaeast.com^
+||t.mmganalytics.com^
 ||t.montecarlosbm.com^
 ||t.moonstreet.pl^
 ||t.morvextoys.com^
@@ -236628,6 +236640,7 @@ zzzyk.com###Tinfo
 ||telemetry.bowflex.ca^
 ||telemetry.bowflex.com^
 ||telemetry.boxt.co.uk^
+||telemetry.bydata.com^
 ||telemetry.canva.com^
 ||telemetry.cardfactory.co.uk^
 ||telemetry.cfraresearch.com^
@@ -245110,7 +245123,7 @@ zzzyk.com###Tinfo
 ||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
 ||unleash.livepix.gg^
-||unloadyourself.com^
+||unloadyourself.com^$redirect=noopjs,script
 ||unlock.eleganceclothing.co^
 ||unm.emol.com^
 ||unpkg.com/@topsort/analytics.js
@@ -246393,6 +246406,7 @@ zzzyk.com###Tinfo
 ||vauu8z77p.com^
 ||vaxgyly.cn^
 ||vazulp.graniph.com^
+||vb5gi1zp5.com^
 ||vbanalytics.com^$third-party
 ||vbc08091op.com^
 ||vbc08100op.com^
@@ -247678,6 +247692,7 @@ zzzyk.com###Tinfo
 ||vvvvid.it^$ping
 ||vvwuqxp.icu^
 ||vvxhth.xyz^
+||vvzjhzccndbhva.com^
 ||vwakpz.vidri.com.sv^
 ||vwbbpe.aircaraibes.com^
 ||vwdealerdigital.com/cdn/sd.js
