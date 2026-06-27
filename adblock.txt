@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-26 22:23:01(GMT+8) 
-! Total count: 254267
+! ! Version: 2026-06-27 11:23:22(GMT+8) 
+! Total count: 254278
  
 ###ADtip
 ###Ad_windows
@@ -1076,7 +1076,6 @@
 ##IMG[onclick*="bucd.lol"]
 ##IMG[onclick='godown()'][src$='gif']
 ##IMG[onclick='golh()'][src$='.gif']
-##IMG[referrerpolicy='no-referrer'][src$='.gif'][width='100%']
 ##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
@@ -10041,6 +10040,10 @@ $websocket,domain=wap.yushuwu.cloud
 91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
+91porny.com,91porn.fans###main > div[class][id] > .mb-0
+91porny.com,91porn.fans##.videoPlayContainer > style + div[data-nosnippet]
+91porny.com,91porn.fans#?##main > div[class][id]:has(>style)
+91porny.com,91porn.fans#?#.colVideoList:has(>.video-elem>.d-block[href^="http"])
 91porny.com/api/getPos?jspath=/
 91rb99.com##.top
 91wenmi.com###xiezuo
@@ -122494,9 +122497,6 @@ xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-cons
 xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.quick', 'noopFunc')
 xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.registerPage', 'noopFunc')
 xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.track', 'noopFunc')
-xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
-xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
-xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
 xinhuanet.com##.adv-column2
 xinhuanet.com##.adv3
 xinhuanet.com##.columBox.book
@@ -123196,7 +123196,6 @@ zzzyk.com###Tinfo
 ||08pkgxft0u.com^
 ||08su45co5x.com^
 ||093yuht.com^
-||0941.org^
 ||094kk.com^
 ||096iokj.com^
 ||09jsufg.com^
@@ -123819,6 +123818,7 @@ zzzyk.com###Tinfo
 ||22588888.com^$popup
 ||22eo9qlbpt.com^
 ||22pixx.xyz/l/
+||22svkcdbyp.com^
 ||22vie9ula.com^
 ||23.224.89.2^$third-party
 ||23.231.151.252^
@@ -124001,6 +124001,7 @@ zzzyk.com###Tinfo
 ||2wq9u06jq.com^
 ||2wqs6d2gp.com^
 ||2xclick.ru^$third-party
+||2xi988xu22.com^
 ||2xmzazd.cn^
 ||2xx63f0bfy.com^
 ||2y2lttjs.hair^
@@ -140576,6 +140577,7 @@ zzzyk.com###Tinfo
 ||birjkhm.cn^
 ||birnbaum.net.anwalt.de^
 ||birthdaybelief.com^
+||bis.org/metrics/web.gif?
 ||bis8j.com^
 ||bisko.mall.tv^
 ||bismetrics.experian.com^
@@ -140754,6 +140756,7 @@ zzzyk.com###Tinfo
 ||blavity.black.news^
 ||bldr.mkt.samsung.com^
 ||ble.ubm-licensing.com^
+||ble7orbnz.com^
 ||bleachbubble.com^
 ||bleachscarecrow.com^
 ||bleedlight.com^
@@ -158078,6 +158081,7 @@ zzzyk.com###Tinfo
 ||eqtrack.americashomeplace.com^
 ||equablekettle.com^
 ||equation33.com^
+||equidistant19.com^
 ||equilist.raj-ohlavek.cz^
 ||equipamentos.karcher-center-dikmaq.com.br^
 ||equippo.actonservice.com^
@@ -164501,6 +164505,7 @@ zzzyk.com###Tinfo
 ||goprediction.com^$third-party
 ||goproxy.cc/api.php
 ||gopuff.com/api/v1/track/impression/
+||goqix4lm5.com^
 ||gordonua.com/actions/stat/
 ||gorgeousedge.com^
 ||gorgon.youdao.com^
@@ -176376,6 +176381,7 @@ zzzyk.com###Tinfo
 ||k5ggua.xyz^
 ||k5w06v2yzh.com^
 ||k69wes8q8.com^
+||k6d.falang.net^
 ||k7f67a6s7.xyz^
 ||k7m4co459k.com^
 ||k864.orovillemr.com^
@@ -192849,6 +192855,7 @@ zzzyk.com###Tinfo
 ||morgenpost.de/resources/*/js/webtrekk
 ||morinaga.co.jp/assets/js/ga.js
 ||mormont.gamer-network.net^
+||morningstar.com/api/v1/analytics
 ||morsn.repwearfitness.com^
 ||mortgage.equifax.com^
 ||mortgage.inform.equifax.com^
@@ -196467,6 +196474,7 @@ zzzyk.com###Tinfo
 ||oliver.pub^
 ||oljqmw.icu^
 ||olklgn.jh-profishop.de^
+||ollsok.icu^
 ||olmsoneenh.info^$domain=avgle.com
 ||olnfdv.f-academy.jp^
 ||olpmni.acer.com^
@@ -204720,6 +204728,7 @@ zzzyk.com###Tinfo
 ||rootau.rootlab.com.au^
 ||ropvea.surthrival.com^
 ||ror12.cc^
+||rorwdbuazjbxta.com^
 ||ros3d4dbs3px.salud-masculina.info^
 ||rosa.floresya.co^
 ||rose.remirosecorp.com^
@@ -208280,6 +208289,7 @@ zzzyk.com###Tinfo
 ||seibc.ofirbeauty.com^
 ||seifst.seifenstars.de^
 ||seijlfsx.com^
+||seismic.com/playerservice/api/v1/log?
 ||seitwert.de^$third-party
 ||sejdfu.coeur.de^
 ||sekaopi.nocre.jp^
@@ -234688,7 +234698,6 @@ zzzyk.com###Tinfo
 ||t4ft.de^$third-party
 ||t570.wiltonbulletin.com^
 ||t57u6anx2.com^
-||t6.china-xian.com^
 ||t6ec3seyq.com^
 ||t733.wjcl.com^
 ||t78obxl4h1.com^
@@ -235399,6 +235408,7 @@ zzzyk.com###Tinfo
 ||tainec.fun^
 ||taiqingjiu.com^
 ||taisha.org/statics/js/pc2.0/common/form.bottom.
+||taiverturena.com^
 ||taiwandaily.net/wp-content/uploads*_600x100.
 ||taiwannutrition.com/blog/wp-content/plugins/arscode-ninja-popups/
 ||taiwanplus.com/api/video/startVideo
@@ -243475,6 +243485,7 @@ zzzyk.com###Tinfo
 ||ts.x18.is^
 ||ts166.net^
 ||ts98cm48b.com^
+||tsa-f.webex.com^
 ||tsa.taxslayer.com^
 ||tsa.webex.com^
 ||tsancii.top^
