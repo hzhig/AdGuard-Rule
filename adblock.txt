@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-28 11:43:05(GMT+8) 
-! Total count: 254289
+! ! Version: 2026-06-28 21:44:39(GMT+8) 
+! Total count: 254304
  
 ###ADtip
 ###Ad_windows
@@ -3865,6 +3865,7 @@ $websocket,domain=wap.yushuwu.cloud
 /busting/facebook-tracking/*
 /busting/google-tracking/*
 /bv-analytics.js
+/bydataAnalytics.js
 /bypassma.js
 /c.gif?
 /c.js#pid=$script,third-party
@@ -4492,6 +4493,7 @@ $websocket,domain=wap.yushuwu.cloud
 /fingerprint3.min.js
 /firebase-analytics.js$domain=furunavi.jp|mt.co.kr|hanatour.com|modetour.com
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
 /firm_tracking.js
@@ -108560,6 +108562,7 @@ ithome.com##.down_app
 ithome.com##.indexV2 > div > a
 ithome.com##.j_iframe_show > iframe
 ithome.com##.lapin
+ithome.com##.op
 ithome.com##.open-app-banner
 ithome.com##.placeholder:has([data-original*='newsuploadfiles'])
 ithome.com##.rds
@@ -108569,6 +108572,7 @@ ithome.com##.rm-modal-body
 ithome.com##.rm-modal1-bg
 ithome.com##.rm-modal1-body
 ithome.com##.sb_list > .bx
+ithome.com##.visited-link-color-fixed:has(.tip-gray)
 ithome.com##a[href*="/lapin."]
 ithome.com##a[href*="/lapin."] + .ad
 ithome.com##a[href="/html/363216.htm"]
@@ -133296,6 +133300,7 @@ zzzyk.com###Tinfo
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/snowplow-zitcha.js
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
+||amazonaws.com/telemetry.bydata/
 ||amazonaws.com/umg-analytics/
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com/webengage-files/
@@ -133733,6 +133738,7 @@ zzzyk.com###Tinfo
 ||analytics.atara.sa^
 ||analytics.ateeq-sa.com^
 ||analytics.athome.com^
+||analytics.atlas5.co^
 ||analytics.atlassian.com^
 ||analytics.atom.com^
 ||analytics.audioeye.com^
@@ -139655,6 +139661,7 @@ zzzyk.com###Tinfo
 ||bbppg.ardmoor.co.uk^
 ||bbpt.bodybarpilates.com^
 ||bbpysi.kagukuro.com^
+||bbqy4ihvz9.com^
 ||bbr.bru-zane.com^
 ||bbrav96ax.com^
 ||bbs.a9vg.com/showit/img_show.php
@@ -153143,6 +153150,7 @@ zzzyk.com###Tinfo
 ||dcjoj.clubmagichour.com^
 ||dckiwt.eataly.com^
 ||dclnxirp001cou.net.jumia.co.tz^
+||dclsrv.com^
 ||dcluc.boxousa.com^
 ||dcmgd.bristlehealth.com^
 ||dcmn.com^$third-party
@@ -186150,6 +186158,7 @@ zzzyk.com###Tinfo
 ||m2.washmen.com^
 ||m2k3j7x8.com^
 ||m2t.actonservice.com^
+||m2wrsmrsbj.com^
 ||m3.dreamdecking.co.uk^
 ||m365.cloud.microsoft/client_health_ping
 ||m365.cloud.microsoft/events
@@ -193046,6 +193055,7 @@ zzzyk.com###Tinfo
 ||mqojih.taschenkaufhaus.de^
 ||mqondrun.com^
 ||mqqad.html5.qq.com^
+||mqrqtvzwdl.com^
 ||mqs.ioam.de^
 ||mqsicr.smiggle.co.uk^
 ||mqunqwsyrw.com^
@@ -200188,6 +200198,7 @@ zzzyk.com###Tinfo
 ||play6111.com/js/
 ||playbook.convio.com^
 ||playbrain.io/analytics/
+||playdigo.com^$third-party
 ||playep.pro/pl/vendor/stat.min.js
 ||player-analytics.mp.lura.live^
 ||player-api.instaread.co/api/metrics/
@@ -201490,6 +201501,7 @@ zzzyk.com###Tinfo
 ||publisher-assets.spot.im/ad/event-tracking/$xmlhttprequest,redirect=noopjs
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
 ||publisher-event.unityads.unity3d.com^
+||publisher-services.amazon.dev/v1/recordVendorsLoaded
 ||publishflow.com^$third-party
 ||publytics.net^$third-party
 ||pubperf.com^$third-party
@@ -219045,6 +219057,7 @@ zzzyk.com###Tinfo
 ||sn.vitalstoffkraft.de^
 ||sn.www.flooringtoolsonline.co.uk^
 ||sn.www.tejalchopra.com^
+||sn0z9i4bax.com^
 ||snacktoken.com^
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
@@ -233681,6 +233694,7 @@ zzzyk.com###Tinfo
 ||sync.shinobi.jp^
 ||sync.taboola.com^
 ||sync.tv^$third-party
+||syncingbridge.com^
 ||syncope12.top^
 ||syndication.exosrv.com/splash.php?$xmlhttprequest,redirect=nooptext,important,domain=hboav.com
 ||synergizeonline.net/trackpoint/
@@ -240707,6 +240721,7 @@ zzzyk.com###Tinfo
 ||tracker-remp.active.radio^
 ||tracker-remp.premiumtimesng.com^
 ||tracker-server.high-cdn.com^
+||tracker-shr.ortb.net^
 ||tracker-v4.gamedock.io^
 ||tracker.3dissue.com^
 ||tracker.520call.me^
