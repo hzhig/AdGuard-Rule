@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-27 21:40:59(GMT+8) 
-! Total count: 254281
+! ! Version: 2026-06-28 11:43:05(GMT+8) 
+! Total count: 254289
  
 ###ADtip
 ###Ad_windows
@@ -10040,10 +10040,10 @@ $websocket,domain=wap.yushuwu.cloud
 91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
-91porny.com,91porn.fans###main > div[class][id] > .mb-0
-91porny.com,91porn.fans##.videoPlayContainer > style + div[data-nosnippet]
-91porny.com,91porn.fans#?##main > div[class][id]:has(>style)
-91porny.com,91porn.fans#?#.colVideoList:has(>.video-elem>.d-block[href^="http"])
+91porny.com,91porn.fans,91porny.org###main > div[class][id] > .mb-0
+91porny.com,91porn.fans,91porny.org##.videoPlayContainer > style + div[data-nosnippet]
+91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(>style)
+91porny.com,91porn.fans,91porny.org#?#.colVideoList:has(>.video-elem>.d-block[href^="http"])
 91porny.com/api/getPos?jspath=/
 91rb99.com##.top
 91wenmi.com###xiezuo
@@ -10716,6 +10716,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
 @@||a.klaviyo.com/onsite/api/*/modules?company_id=$domain=complyfoam.com
 @@||a.ligatus.com/?ids=*&t=js$script,domain=lachainemeteo.com
+@@||a.run.app/api/stat?$domain=cocowa.app
 @@||a.usafacts.org/api/v4/Metrics$~third-party
 @@||a.visualrevenue.com/vrs.js$domain=nydailynews.com
 @@||a.visualrevenue.com/vrs.js$domain=t-online.de
@@ -11966,6 +11967,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||digit77.com^$generichide
 @@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
+@@||directg.jp/js/fingerprint2.js$~third-party
 @@||directline.com/touchclarity/$script
 @@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
@@ -123741,6 +123743,7 @@ zzzyk.com###Tinfo
 ||1ub29e88i.com^
 ||1und1.met.vgwort.de^
 ||1uo9djbnsr.com^
+||1urjtp1t6.com^
 ||1vd2esrss.com^
 ||1vyt1eguj27.ommasign.com^
 ||1w73a5d.cn^
@@ -142200,6 +142203,7 @@ zzzyk.com###Tinfo
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
 ||bytytxkz.icu^
+||byuh78fy2m.com^
 ||byuwzr.amanacapital.com^
 ||byvlph.xyz^
 ||bywxp.aritzia.com^
@@ -154272,6 +154276,7 @@ zzzyk.com###Tinfo
 ||directelia.monexetmoi.com^
 ||directelia.my-loverelationship.com^
 ||directelia.premiumtarot.com^
+||directg.jp/js/fingerprint2.js$script,redirect=fingerprintjs2
 ||directions.mdanderson.org^
 ||directnews.co.uk/feedtrack/
 ||directory.cookieyes.com/api/v*/ip
@@ -176820,8 +176825,6 @@ zzzyk.com###Tinfo
 ||kib.hu^
 ||kibn.cn^
 ||kick.com/*&loaderVersion=
-||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
-||kick.com/UcggFnr2hNhLCwLf/
 ||kickass.cd/analyze*.js
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
@@ -191883,6 +191886,7 @@ zzzyk.com###Tinfo
 ||mg.xhkvff.cn^
 ||mg.yunchong6.cn^
 ||mg.zgcqxjzny.cn^
+||mg0pfou5o.com^
 ||mg21.com/wp-content/uploads/ad/
 ||mgagd.lacrawfish.com^
 ||mgaru.dev^$third-party
@@ -197115,6 +197119,7 @@ zzzyk.com###Tinfo
 ||operationsports.com/plow-lite-bundle
 ||operationsports.com/wp-json/navy/v1/tag?pid=
 ||operetta17.com^
+||opev2lhm7h.com^
 ||opfjj.vivobarefoot.com^
 ||oph7o.montecarlosbm-corporate.com^
 ||ophan.theguardian.com/a.gif
@@ -203514,6 +203519,7 @@ zzzyk.com###Tinfo
 ||recs.richrelevance.com/rrserver/tracking?
 ||recs.richrelevance.com^$third-party
 ||recs.shareaholic.com^
+||rectangular18.com^
 ||recurly.com/js/v1/events
 ||recv-entry.tbs.co.jp^
 ||recv-jnn.tbs.co.jp^
@@ -251565,6 +251571,7 @@ zzzyk.com###Tinfo
 ||xrkadslmgg.top^
 ||xrkadslmgg.xyz^
 ||xrkbhl2cp.com^
+||xrnrplqcfmpxfg.com^
 ||xrnyhc.allmanmulsang.com^
 ||xrnyhc.alltype.co.kr^
 ||xrnyhc.arumdri.co.kr^
@@ -254072,6 +254079,7 @@ zzzyk.com###Tinfo
 ||zujz.cn^
 ||zukddms.cn^
 ||zulaedha.com^
+||zulphaqaq.in^
 ||zulu.dacaporio.com.br^
 ||zum7cc.oui.sncf^
 ||zumiq.ellevetwholesale.com^
