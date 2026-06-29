@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-29 11:51:48(GMT+8) 
-! Total count: 254308
+! ! Version: 2026-06-29 23:44:39(GMT+8) 
+! Total count: 254320
  
 ###ADtip
 ###Ad_windows
@@ -12617,7 +12617,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|wps.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
@@ -107564,8 +107564,6 @@ hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-p
 hmoe.one,hmoe.moe##a[href^="https://item.taobao.com"]
 hobbylog.jp##.pbancut
 hochi.news###ohtani-pickup
-hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
-hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
 hola.rocket.la$image
 holtrenfrew.com#%#//scriptlet('set-constant', 'ometria', 'emptyObj')
 holtrenfrew.com#%#//scriptlet('set-constant', 'ometria.init', 'noopFunc')
@@ -119347,6 +119345,8 @@ unwire.hk##.post-main-ad
 uol.com.br#%#//scriptlet('set-constant', 'UOLPD', 'emptyObj')
 uol.com.br#%#//scriptlet('set-constant', 'UOLPD.dataLayer', 'emptyObj')
 uol.com.br#%#//scriptlet('set-constant', 'YT.ImaManager', 'noopFunc')
+uopakwoll.cc,hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
+uopakwoll.cc,hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
 uotan.cn###fuck-ads
 up.woozooo.com##.ves
 up01.cc###popad
@@ -133558,6 +133558,7 @@ zzzyk.com###Tinfo
 ||analytics*.prezly.com^
 ||analytics-*-nfl.yinzcam.com^
 ||analytics-1.cavai.com^
+||analytics-api-s.cloudinary.com^
 ||analytics-api.a-f.io^
 ||analytics-api.dvdfab.
 ||analytics-api.gemcommerce.com^
@@ -136454,6 +136455,7 @@ zzzyk.com###Tinfo
 ||app-tracking.hlogo.de^
 ||app-uat.latrobehealth.com.au^
 ||app-uat.navyhealth.com.au^
+||app-web-server.imagen-ai-op.com/analytics/
 ||app.1112.com^
 ||app.12thman.com^
 ||app.12thmanfoundation.com^
@@ -164323,7 +164325,6 @@ zzzyk.com###Tinfo
 ||goodreads.com^$removeparam=from_srp
 ||goodreads.com^$removeparam=qid
 ||goodreads.com^$removeparam=rank
-||goodrx.com^$cookie=grx_unique_id
 ||goods.preoponno.com^
 ||goods.tudou.com/api?
 ||google-analtyics.com/analytics.js
@@ -169675,6 +169676,7 @@ zzzyk.com###Tinfo
 ||hh.jiankang.com^
 ||hh.ru/analytics^
 ||hh.ru/anatskytics?
+||hh.ru/shards/banner_real_view_analytics
 ||hh.ru/shards/stat
 ||hh.ru/stat?
 ||hh.ru/stat?url=
@@ -170992,6 +170994,7 @@ zzzyk.com###Tinfo
 ||i.flive.ifeng.com/baidu_*.html?parentId=frondAd_
 ||i.getemoji.me^
 ||i.go.sohu.com^
+||i.hh.ru/js/External/TargetAds_WebSDK.js
 ||i.honk.me^
 ||i.imedia.cz^
 ||i.imgur.com^$domain=av.movie
@@ -176742,6 +176745,7 @@ zzzyk.com###Tinfo
 ||keyboard88.top^
 ||keydbc.fabgetaways.com^
 ||keyes.myre.io^
+||keyforsteam.de/analytics/script.js
 ||keymetric.net^$third-party
 ||keynotegroup.actonservice.com^
 ||keytiles.com^$third-party
@@ -193594,6 +193598,7 @@ zzzyk.com###Tinfo
 ||mxafaw.icu^
 ||mxana.tacool.com^
 ||mxapis.com^$third-party
+||mxauvrtdm.com^
 ||mxbtgc.brightage.jp^
 ||mxc.electrospot.ro^
 ||mxcdn.net^$domain=spiegel.de
@@ -193904,6 +193909,7 @@ zzzyk.com###Tinfo
 ||myshop.absodry.com^
 ||myshop.greenhousepolytunnels.com.au^
 ||myshopify.com/api/collect
+||myshows.me/v3/rpc/stat/
 ||mysingleromance.com^
 ||mysite.webroot.com^
 ||mysitetraffic.net^$third-party
@@ -195168,6 +195174,7 @@ zzzyk.com###Tinfo
 ||nl.la-resilience.com^
 ||nl071vrnv.com^
 ||nl1d8gzi5.com^
+||nlab.itmedia.co.jp/scripts/cx.js
 ||nlain.shoplc.com^
 ||nlawnt.gurhan.com^
 ||nlbb3dvqh.com^
@@ -199361,6 +199368,7 @@ zzzyk.com###Tinfo
 ||phlebotomyexam.quantresear.ch^
 ||phlic.top/log/
 ||phncc.kunjae.com^
+||phncdn.com/www-static/js/lib/user-clogs.js
 ||phnkjk.joautok.hu^
 ||phodhithp.com^
 ||phoenix-content.cresa.com^
@@ -200025,6 +200033,7 @@ zzzyk.com###Tinfo
 ||platform-eu.cloud.coveo.com/rest/*/analytics/view?
 ||platform.datazoom.io/beacon/
 ||platform.datazoom.io^
+||platform.grcv.io/json/rum
 ||platform.iteratehq.com^
 ||platform.loyaltylion.com/analytics/
 ||platform.twitter.com/impressions.js
@@ -200541,6 +200550,7 @@ zzzyk.com###Tinfo
 ||porneq.com/lib/ajax/track.php
 ||porngraph.com^$third-party
 ||pornhd.com/pinky.gif
+||pornhub.com/_i?
 ||pornhub.com/js/eht.js
 ||pornhub.com/pix.php?s=
 ||pornhub.com/video/category_tracker?e=$important
@@ -200594,6 +200604,7 @@ zzzyk.com###Tinfo
 ||posthog.com/*/logs?$xmlhttprequest
 ||posthog.com/api/homepage-hits
 ||posthog.com/api/signup-count
+||posthog.football24.ua^
 ||posthog.lingvanex.com^
 ||posthog.tarnkappe.info^
 ||postimg.cc^*-960x60.
@@ -204890,6 +204901,7 @@ zzzyk.com###Tinfo
 ||rrpaafci9i.com^
 ||rrpcc.sokolovelaw.com^
 ||rrss.abc.es^
+||rrsxes4oy.com^
 ||rrtng.brickwar2.com^
 ||rrudwdjo.mrvig.com^
 ||rrxddl.xyz^
