@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-29 23:44:39(GMT+8) 
-! Total count: 32785
+! ! Version: 2026-06-30 22:16:43(GMT+8) 
+! Total count: 32775
  
 ###ADtip
 ###Ad_windows
@@ -1582,7 +1582,6 @@
 ##script + .header_rmb
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
-##script + div[id^="a-loading-"]
 ##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##secion#ly LI[role='group'],secion#ly > H2
@@ -1769,7 +1768,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/logo/ad.js
 .com/logo/logo.js
 .com/logo/logoxia.js
-.com/m-2594|$script,third-party
 .com/m.aspx?action=$third-party,script
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
@@ -2679,7 +2677,6 @@ $websocket,domain=wap.yushuwu.cloud
 /qpxl.js
 /qqlive/conf/playerlottery/*
 /r/*?_r=$object,subdocument,third-party
-/r/t1/*$subdocument,third-party
 /r/video/*$domain=youxi.baidu.com
 /red2/ad/*
 /redbaiduct.com?s=
@@ -2925,7 +2922,6 @@ $websocket,domain=wap.yushuwu.cloud
 /zzzz/assets/js/common/discor_list.js
 012.tw#@#.ad728
 01net.com##.geste
-020job.com##A[href^="/Click.aspx?AdPageID="]
 0439.com###kanfang
 04stream.com##[id^="adv"]
 04stream.com##[id^="closediv"]
@@ -2940,9 +2936,7 @@ $websocket,domain=wap.yushuwu.cloud
 0597kk.com##.lyhux_mu
 0597kk.com##div[style="width:960px; overflow:hidden; margin:2px auto; "]
 0597kk.com##img[width^="37"][height="30"]
-0597ok.com,nongjitong.com,typecho.wiki##.div_ad
 0598yu.com##.v1100_ad
-060s.com###header4
 07073.com###Vsss00
 07073.com###rightDiv > div[style="height:250px"]
 07073.com###tanchuang
@@ -3531,8 +3525,8 @@ $websocket,domain=wap.yushuwu.cloud
 2cto.com##.adv980
 2cto.com##.adv980box
 2cto.com##div[style^="float:left;width:300px;"]
+2cycomic.com##body > a
 2cycomic.com##body > div > center
-2cycomic.com,whnyd.com##body > a
 2dfan.com,galge.fun###popadv-container
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
@@ -4109,9 +4103,6 @@ $websocket,domain=wap.yushuwu.cloud
 77mh.nl###bdtopbot
 7808.cn###float-chat
 7808.cn###force-popup
-789ys.com##h1[style]
-789ys.com,fffdm.com##ul[style]
-789ys.com,ruanyifeng.com##div[style*="important"]
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -4533,8 +4524,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@|https://$script,domain=sport1.de
 @@||$xmlhttprequest,domain=last.fm
 @@||/template/conch/asset/js/hlhtml.js$domain=www.lldm.net|1anime.me
-@@||060s.com/images_ad/*.png
-@@||073img.com/*,*,
 @@||10010.cn^*/ad
 @@||10010.com/mall/common/js/fa.js?referer=
 @@||10010.com^$generichide
@@ -7405,8 +7394,6 @@ brushes8.com##.baidugg580
 brushes8.com##.zjianad
 bt.cn##.left_wrap:nth-child(3)
 bt.cn,lotour.com##.btad
-bt1207ma.xyz##a[href*="/uuribao.com/"]
-bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
 btbtt.me###wrapper2 > .width
 btime.com###ad_full_button_placehoder
 btime.com###download
@@ -8968,6 +8955,7 @@ fengniao.com###ad-head
 fengniao.com,zhiding.cn##div[id^="AD"]
 fenopy.se##[rel="nofollow external"][href^="/ddl/"]
 fffdm.com##[style^="width"][style*="height"]
+fffdm.com##ul[style]
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 fgames.pw###html3
 fh21.com.cn###lbzxM
@@ -12611,6 +12599,7 @@ nodeloc.com##.AfruxWidgets-sideNavAlt
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
 nodeseek.com##.promotation-item
 nongjitong.com##.ad_sms
+nongjitong.com,typecho.wiki##.div_ad
 noslocker.com#%#//scriptlet('remove-node-text', 'script', '/navigator\.platform|new Function/')
 note.youdao.com##.top-btns
 notre-planete.info###abp1
@@ -13474,6 +13463,7 @@ ruanyifeng.com##a[href*=".apeclass.com"]
 ruanyifeng.com##a[href*=".kaikeba.com"]
 ruanyifeng.com##a[href*=".ke.qq.com"]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
+ruanyifeng.com##div[style*="important"]
 ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 ruanyifeng.com#%#//scriptlet('prevent-setTimeout', 'checker')
 ruanyifeng.com#?#.asset-content > p:contains(/二维|助教|0 元|报名费|原价/) + p + p > img
@@ -14350,7 +14340,6 @@ thinbug.com###inktokad
 thinkphp.cn##.a6
 thmz.com###floatdivids
 thwiki.cc###a-carousel
-tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
 tianshif.com###comment-ad
 tianshui.com.cn##td[height="420"]
@@ -15143,7 +15132,6 @@ whcykj.cn###InviteContainerl
 whcykj.cn##.swt_bottom
 whnews.cn###gd_l
 whnews.cn###gd_r
-whnyd.com##div[style*="height: 115px"]
 wiki.mbalib.com###ad-fold
 wiki.mbalib.com###p-ad-bd
 wiki.mbalib.com##.ad-br
@@ -16015,9 +16003,6 @@ zzzyk.com###Tinfo
 ||03t441b8w.com^
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
-||0460.com/images/ad/
-||0460.com/images/banner/
-||0460.com/js/txtrec.js
 ||04cmm.com:8888/js
 ||04stream.tv/sda/
 ||0512s.com^$third-party
@@ -16027,7 +16012,6 @@ zzzyk.com###Tinfo
 ||0575bbs.com/updateimeags/
 ||0579.cn/SHow/Showplacenew.aspx
 ||0592.mobi^
-||0597ok.com/ilike/597/
 ||0598yu.com/api.php?mod=ad&
 ||05pg9z.com^
 ||0606kk.com/js/index/index.js
@@ -16603,6 +16587,7 @@ zzzyk.com###Tinfo
 ||2dctkld.com^
 ||2e4xnyfeae.com^
 ||2e629ntxk3.com^
+||2eao5syzj.com^
 ||2euqnxt25.com^
 ||2f4a93wskk.com^
 ||2fhn1qmca.com^
@@ -22108,6 +22093,7 @@ zzzyk.com###Tinfo
 ||frpns.com^
 ||frrhdl.xyz^
 ||frsejhged.xyz^
+||frustum77.top^
 ||frzlftr9y.com^
 ||fsclzs.com/Ad_User/
 ||fsgsfaf6.com^
@@ -26803,6 +26789,7 @@ zzzyk.com###Tinfo
 ||odmerorlzo.com^
 ||odxupm909y.com^
 ||odz12g5ag.com^
+||oe8mnxdtoi.com^
 ||oehhq.xyz^
 ||oekkuthy.com^
 ||oesnwi.icu^
@@ -29608,6 +29595,7 @@ zzzyk.com###Tinfo
 ||tkll12171nb.com^
 ||tkll12181nb.com^
 ||tknkfd.xyz^
+||tkpenntaispfdm.com^
 ||tkqwurl.icu^
 ||tl86tv.com/52
 ||tl9q49ffi.com^
@@ -31732,6 +31720,7 @@ zzzyk.com###Tinfo
 ||y1.junshitt.com^
 ||y18ut1kw22.com^
 ||y1ma8c054n.com^
+||y2ej3xxfve.com^
 ||y2vorexg2u.com^
 ||y3600.cc/20
 ||y3600.cc/js/jquery.min.js
@@ -32233,6 +32222,7 @@ zzzyk.com###Tinfo
 ||z9dy1kq9wv.com^
 ||z9o0rgee8.com^
 ||z9sab7vr0b.com^
+||za5ww9yxg.com^
 ||zabdybod*.club^
 ||zacff.com^
 ||zahrvfbd*.xyz^

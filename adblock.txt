@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-29 23:44:39(GMT+8) 
-! Total count: 254320
+! ! Version: 2026-06-30 22:16:43(GMT+8) 
+! Total count: 254325
  
 ###ADtip
 ###Ad_windows
@@ -1599,7 +1599,6 @@
 ##script + .header_rmb
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
-##script + div[id^="a-loading-"]
 ##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##secion#ly LI[role='group'],secion#ly > H2
@@ -2466,7 +2465,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/logo/ad.js
 .com/logo/logo.js
 .com/logo/logoxia.js
-.com/m-2594|$script,third-party
 .com/m.aspx?action=$third-party,script
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
@@ -6030,7 +6028,6 @@ $websocket,domain=wap.yushuwu.cloud
 /r.rnc?
 /r/*?_r=$object,subdocument,third-party
 /r/collect?
-/r/t1/*$subdocument,third-party
 /r/video/*$domain=youxi.baidu.com
 /radar/trace?
 /rainbow/master-js
@@ -7375,7 +7372,6 @@ $websocket,domain=wap.yushuwu.cloud
 /~shared/do/~/count/?$image
 012.tw#@#.ad728
 01net.com##.geste
-020job.com##A[href^="/Click.aspx?AdPageID="]
 0439.com###kanfang
 04stream.com##[id^="adv"]
 04stream.com##[id^="closediv"]
@@ -7390,9 +7386,7 @@ $websocket,domain=wap.yushuwu.cloud
 0597kk.com##.lyhux_mu
 0597kk.com##div[style="width:960px; overflow:hidden; margin:2px auto; "]
 0597kk.com##img[width^="37"][height="30"]
-0597ok.com,nongjitong.com,typecho.wiki##.div_ad
 0598yu.com##.v1100_ad
-060s.com###header4
 07073.com###Vsss00
 07073.com###rightDiv > div[style="height:250px"]
 07073.com###tanchuang
@@ -8878,8 +8872,8 @@ $websocket,domain=wap.yushuwu.cloud
 2cto.com##.adv980
 2cto.com##.adv980box
 2cto.com##div[style^="float:left;width:300px;"]
+2cycomic.com##body > a
 2cycomic.com##body > div > center
-2cycomic.com,whnyd.com##body > a
 2dfan.com,galge.fun###popadv-container
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
@@ -9899,9 +9893,6 @@ $websocket,domain=wap.yushuwu.cloud
 7863.connector-qa1.marketingcloudqaapis.com$image
 7878.connector-qa1.marketingcloudqaapis.com$image
 7893.sfap-qa1.marketingcloudqaops.com$image
-789ys.com##h1[style]
-789ys.com,fffdm.com##ul[style]
-789ys.com,ruanyifeng.com##div[style*="important"]
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -10587,8 +10578,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@|wss://zoom.us^$removeparam
 @@||$xmlhttprequest,domain=last.fm
 @@||/template/conch/asset/js/hlhtml.js$domain=www.lldm.net|1anime.me
-@@||060s.com/images_ad/*.png
-@@||073img.com/*,*,
 @@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com|one.one.one.one
 @@||10010.cn^*/ad
 @@||10010.com/mall/common/js/fa.js?referer=
@@ -12030,6 +12019,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||drstickyfingers.com/intermission/loadTargetUrl$xmlhttprequest
 @@||dtdc.in/tracking^
 @@||duckduckgo.com/local.js$~third-party
+@@||duckduckgo.com/local.js?tg=$~third-party
 @@||duelmeta.com^$generichide
 @@||dushu.ru^$script,domain=bhshu.net
 @@||dvbtmap.eu/script/ads*.js$script
@@ -17093,8 +17083,6 @@ brushes8.com##.baidugg580
 brushes8.com##.zjianad
 bt.cn##.left_wrap:nth-child(3)
 bt.cn,lotour.com##.btad
-bt1207ma.xyz##a[href*="/uuribao.com/"]
-bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
 btbtt.me###wrapper2 > .width
 btime.com###ad_full_button_placehoder
 btime.com###download
@@ -105912,6 +105900,7 @@ fenopy.se##[rel="nofollow external"][href^="/ddl/"]
 ferra.ru##div[data-widget="plista_widget_belowArticle_desktop_nocss"]+div[class^="_"] > svg
 ferra.ru##div[data-widget="plista_widget_webApp_mobile_nocss"]+div[class^="_"] > svg
 fffdm.com##[style^="width"][style*="height"]
+fffdm.com##ul[style]
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 fgames.pw###html3
 fh.click.s11.sfmc-osl.com$image
@@ -112249,6 +112238,8 @@ marketing.tradezero.co$image
 marketingcloud-np.delltechnologies.com$image
 marketwatch.com#%#//scriptlet('set-local-storage-item', 'pvid', '$remove$')
 markezine.jp##.carouselBlock > li[id^="cx_"].c-headlineindex_listitem
+mashable.com#%#//scriptlet('href-sanitizer', 'a[href^="https://cc.mashable.com/v1/otc/"]', '?url')
+mashable.com#%#//scriptlet('href-sanitizer', 'a[href^="https://zdcs.link/"]', '?u')
 masok.cn###bottomLayer
 massmail.ficci.com$image
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
@@ -113509,6 +113500,7 @@ nodeloc.com##.AfruxWidgets-sideNavAlt
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
 nodeseek.com##.promotation-item
 nongjitong.com##.ad_sms
+nongjitong.com,typecho.wiki##.div_ad
 norisoku.com###random
 nos.national.aaa.com$image
 noslocker.com#%#//scriptlet('remove-node-text', 'script', '/navigator\.platform|new Function/')
@@ -116662,6 +116654,7 @@ ruanyifeng.com##a[href*=".apeclass.com"]
 ruanyifeng.com##a[href*=".kaikeba.com"]
 ruanyifeng.com##a[href*=".ke.qq.com"]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
+ruanyifeng.com##div[style*="important"]
 ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 ruanyifeng.com#%#//scriptlet('prevent-setTimeout', 'checker')
 ruanyifeng.com#?#.asset-content > p:contains(/二维|助教|0 元|报名费|原价/) + p + p > img
@@ -118011,7 +118004,6 @@ thinkphp.cn##.a6
 thmz.com###floatdivids
 threads.net#%#//scriptlet('href-sanitizer', 'a[href*="?xmt="]', '[href]', 'removeParam:xmt')
 thwiki.cc###a-carousel
-tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
 tianshif.com###comment-ad
 tianshui.com.cn##td[height="420"]
@@ -122085,7 +122077,6 @@ whcykj.cn###InviteContainerl
 whcykj.cn##.swt_bottom
 whnews.cn###gd_l
 whnews.cn###gd_r
-whnyd.com##div[style*="height: 115px"]
 who.e.aremedia.com.au$image
 wiki.mbalib.com###ad-fold
 wiki.mbalib.com###p-ad-bd
@@ -123158,9 +123149,6 @@ zzzyk.com###Tinfo
 ||03t441b8w.com^
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
-||0460.com/images/ad/
-||0460.com/images/banner/
-||0460.com/js/txtrec.js
 ||04cmm.com:8888/js
 ||04stream.tv/sda/
 ||0512s.com^$third-party
@@ -123170,7 +123158,6 @@ zzzyk.com###Tinfo
 ||0575bbs.com/updateimeags/
 ||0579.cn/SHow/Showplacenew.aspx
 ||0592.mobi^
-||0597ok.com/ilike/597/
 ||0598yu.com/api.php?mod=ad&
 ||05pg9z.com^
 ||0606kk.com/js/index/index.js
@@ -123947,6 +123934,7 @@ zzzyk.com###Tinfo
 ||2e4xnyfeae.com^
 ||2e629ntxk3.com^
 ||2e718yf5jypb.test.digitalsurge.io^
+||2eao5syzj.com^
 ||2efj.economies.cheque-dejeuner.com^
 ||2efj.up.coop^
 ||2ememain.be/c3650cdf-
@@ -136105,6 +136093,7 @@ zzzyk.com###Tinfo
 ||api.sabrinas.com.br^
 ||api.sae.systems^
 ||api.sail-personalize.com^$third-party
+||api.sales-ninja.me/*/events/
 ||api.salesjobs.com.br^
 ||api.salesmachine.io/*/track/event
 ||api.sambafutsalclub.com^
@@ -145099,6 +145088,7 @@ zzzyk.com###Tinfo
 ||clk.onet.pl^
 ||clk.rratrack.com^
 ||clk.smart-homeshoppers.com^
+||clk.tradedoubler.com/click?*url=$urltransform=pct|/^https?:\/\/(?:[a-z0-9-]+\.)*?.*\.tradedoubler\.com.*[?&]url=([^&]*).*/\$1/|pct
 ||clk.ubi.com^
 ||clk.wagon-hire.com^
 ||clk2.allaboutvibe.com^
@@ -161492,6 +161482,7 @@ zzzyk.com###Tinfo
 ||fruitflan.com^$third-party
 ||fruity.redpitaya.com^
 ||frus.sailexperiencefloripa.com.br^
+||frustum77.top^
 ||frysfood.com/assets/*/collect?
 ||frzbly.cosdlazdrowia.pl^
 ||frzlftr9y.com^
@@ -179774,6 +179765,7 @@ zzzyk.com###Tinfo
 ||lists-tracking.komando.com^
 ||lists.ccmbg.com^
 ||lit.connatix.com^
+||litags.feedblitz.com^
 ||lite.lchfarkivet.se^
 ||literally-analytics.appspot.com^
 ||litix.io^
@@ -196210,6 +196202,7 @@ zzzyk.com###Tinfo
 ||odysee.com/reports/
 ||odz12g5ag.com^
 ||oe-static.de^*/wws.js
+||oe8mnxdtoi.com^
 ||oebarc.ekosport.at^
 ||oeclu.craftedelements.com^
 ||oedbml.collage-shop.jp^
@@ -204434,6 +204427,10 @@ zzzyk.com###Tinfo
 ||ridgemerino.com/api/collect
 ||ridibooks.com$cookie=/^AMP/
 ||ridibooks.com$cookie=ruid
+||ridibooks.com/_ext/g/js?id=
+||ridibooks.com^$cookie=attribution_tool_params
+||ridibooks.com^$cookie=fingerprint
+||ridibooks.com^$cookie=pvid
 ||ridmvd.dazzystore.com^
 ||ridus.ru/stat?
 ||ridve.simmsfishing.com^
@@ -220085,6 +220082,7 @@ zzzyk.com###Tinfo
 ||spcollect.sunflex.de^
 ||spdn.splice.com/next-integrations/integrations/google-tag-manager/
 ||spdn.splice.com/next-integrations/middleware/analytics.
+||spea.eko.com^
 ||speaker.paco-benitez.com^
 ||spearad.video^$third-party
 ||spec-sensors.actonservice.com^
@@ -230624,6 +230622,7 @@ zzzyk.com###Tinfo
 ||static.rebelboost.com/tracking/
 ||static.rendeljkinait.hu/plugins/rendeljkinait-base-setup/widgets/package-tracking-widget/
 ||static.republika.co.id/js/tracker.js
+||static.ridicdn.net/books-backend/*/tracking/ridi-tracking-sdk.js
 ||static.rongkao.com^
 ||static.rtrp.jp/static/js/googletagmanager.*.js
 ||static.runconverge.com^
@@ -232354,6 +232353,7 @@ zzzyk.com###Tinfo
 ||stopadblock.org/adblocker-deaktivieren$subdocument
 ||stopify.co^$all
 ||stopstomach.com^
+||storage.eko.com/efu/ekoanalytics/
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/builder-preview/iframe/pixel.js
 ||storage.googleapis.com/cdn2.guard.io/webflow/tracking-grd.js
@@ -233712,6 +233712,7 @@ zzzyk.com###Tinfo
 ||syncingbridge.com^
 ||syncope12.top^
 ||syndication.exosrv.com/splash.php?$xmlhttprequest,redirect=nooptext,important,domain=hboav.com
+||syndication.x.com/i/jot/
 ||synergizeonline.net/trackpoint/
 ||synergy-e.com^$third-party
 ||synerise.com^$third-party
@@ -236480,6 +236481,7 @@ zzzyk.com###Tinfo
 ||telemetry-web.api.playstation.com^$redirect=nooptext
 ||telemetry.*.pvp.net^
 ||telemetry.adobe.io^
+||telemetry.adsninja.ca^
 ||telemetry.algolia.com^
 ||telemetry.am.pictet.com^
 ||telemetry.api.playstation.com^
@@ -237679,6 +237681,7 @@ zzzyk.com###Tinfo
 ||tkmeyf.houseoflotus.jp^
 ||tknet.rayjump.com^
 ||tknkfd.xyz^
+||tkpenntaispfdm.com^
 ||tkphu.sillysanta.dk^
 ||tkppvr.freshfarm.it^
 ||tkqlhce.com^$third-party
@@ -248036,7 +248039,7 @@ zzzyk.com###Tinfo
 ||wco.crownpeak.com^
 ||wcs.naver.com^
 ||wcs.naver.com^$~script,domain=~smartstore.naver.com
-||wcs.naver.net/wcslog.js^
+||wcs.naver.net/wcslog.js^$domain=~map.vworld.kr
 ||wct-1.com/wct.js
 ||wct-2.com^
 ||wct.compari.se^
@@ -251937,6 +251940,7 @@ zzzyk.com###Tinfo
 ||y197.standardspeaker.com^
 ||y1ma8c054n.com^
 ||y2down.cc/cdn-cgi/trace
+||y2ej3xxfve.com^
 ||y2vorexg2u.com^
 ||y3600.cc/20
 ||y3600.cc/js/jquery.min.js
@@ -253128,6 +253132,7 @@ zzzyk.com###Tinfo
 ||za.zalo.me^
 ||za.zdn.vn^
 ||za.zingnews.vn^
+||za5ww9yxg.com^
 ||zaawds.farmae.it^
 ||zabdybod*.club^
 ||zacec.coverfx.com^
