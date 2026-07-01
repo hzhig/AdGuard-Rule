@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-01 11:47:30(GMT+8) 
-! Total count: 254343
+! ! Version: 2026-07-01 22:38:39(GMT+8) 
+! Total count: 254367
  
 ###ADtip
 ###Ad_windows
@@ -17318,6 +17318,7 @@ chexun.com##.ad1100
 chexun.com##.ad794
 chexun.com##.attr-outside-ad
 chexun.com##a[attr-outside-ad]
+chicagoreader.com#@#.ad-above-footer
 chigua69.com##.video-list > div.video-item:has(> a[adv_id])
 china.cn###pic_banner
 china.cn##.bottom_recommend_box
@@ -123678,6 +123679,7 @@ zzzyk.com###Tinfo
 ||1jc5t.xyz^
 ||1jlp1qbgu.com^
 ||1jzocofm4.com^
+||1k1bd77k9.com^
 ||1k2uh20wr.com^
 ||1k5vz1ejbcx.staging.probemas.com^
 ||1k8j786ks5.com^
@@ -135672,6 +135674,7 @@ zzzyk.com###Tinfo
 ||api.evoluamaiscursosonline.com.br^
 ||api.exc.mob.com^
 ||api.exercitesportes.com.br^
+||api.experte.com/t/
 ||api.explosaopizza.com.br^
 ||api.eye.sbdv.ru^
 ||api.faba.pw^
@@ -135757,6 +135760,7 @@ zzzyk.com###Tinfo
 ||api.hakatt.com^
 ||api.halftonelab.com^
 ||api.hauzriviera.com^
+||api.headliner.link/api/v1/b/receive
 ||api.healthlife.magazine4you.site^
 ||api.hearclearco.store^
 ||api.helefitness.com.br^
@@ -139777,7 +139781,6 @@ zzzyk.com###Tinfo
 ||bd.czxuexi.com^
 ||bd.dailyneeds-bd.com^
 ||bd.dhsz.cn^
-||bd.ershenghuo.com^
 ||bd.ghorbari.shop^
 ||bd.khukumonishop.xyz^
 ||bd.komeshop.com^
@@ -145678,6 +145681,7 @@ zzzyk.com###Tinfo
 ||coffee.brandzaak.nl^
 ||coffee.garageroasted.co.uk^
 ||coffee.seducaoinvisivel.store^
+||coffeefire.net^
 ||coffeesidehustle.com^
 ||coffeycomm.actonservice.com^
 ||cofs.partscentre.co.uk^
@@ -146051,6 +146055,8 @@ zzzyk.com###Tinfo
 ||cometlytrack.com^
 ||cometquote.com^
 ||comfortablecheese.com^
+||comfy.ua/api/analytics/
+||comfy.ua/api/auth/v*/gtm/
 ||comic-rocket.com/metrics.js
 ||comic.naver.com/ad/flex/stats.nhn
 ||comitiumanalytics.com^$third-party
@@ -148149,6 +148155,7 @@ zzzyk.com###Tinfo
 ||cyezszhm.pammys.com^
 ||cyf9.destinia.cl^
 ||cyhbrjf.cn^
+||cylinder35.top^
 ||cymhqj.ipet-ins.com^
 ||cymuig.assem.nl^
 ||cyntgd.anticipazionitv.it^
@@ -155881,6 +155888,7 @@ zzzyk.com###Tinfo
 ||e664.theoaklandpress.com^
 ||e75liqii98.com^
 ||e77lmzbqou0n-a.akamaihd.net^
+||e81j0an3d.com^
 ||e90m7tos2.com^
 ||e9377f.com^$redirect=noopmp3-0.1s,domain=eastday.com
 ||e993.wlky.com^
@@ -158205,6 +158213,7 @@ zzzyk.com###Tinfo
 ||eshsm.amazethreads.com^
 ||eshur.pranapets.com^
 ||esifi.acmetools.com^
+||esim.io/monitoring
 ||eslbahw.top^
 ||esm1.net^$third-party
 ||esmas.com/scripts/esmas_stats.js
@@ -169458,9 +169467,14 @@ zzzyk.com###Tinfo
 ||heirui.cn/static/hb_
 ||heise.de/*/webtrekk
 ||heise.de/avw-bin/ivw/CP^
+||heise.de/hlt/statistics/$xmlhttprequest
 ||heise.de/ivw-bin/ivw/CP^
 ||heise.de/ivw-bin/ivw/cp/
 ||heise.de/js/ho/mbmedien-reporting.js
+||heise.de/positions|$xmlhttprequest
+||heise.de/pw/metrics/$xmlhttprequest
+||heise.de/recommendation/m/impression$xmlhttprequest
+||heise.de/recommendation/m/view$xmlhttprequest
 ||heise.de/video/video_gesehen.html?mmbid=
 ||heise.met.vgwort.de^
 ||heiw99ovji.com^
@@ -176807,6 +176821,7 @@ zzzyk.com###Tinfo
 ||kgnews.co.kr/weblog/gtracker.
 ||kgoj4nrhe.com^
 ||kgoma.com/v1/stat/
+||kgou4s5dz.com^
 ||kgqxzw.blue-tomato.com^
 ||kgqzgj.rougegorge.com^
 ||kgrvt.ukmedi.co.uk^
@@ -199044,6 +199059,7 @@ zzzyk.com###Tinfo
 ||pcvzpj.xyz^
 ||pcwelt.de/js/amazon_tracking.js
 ||pcworld.co.nz/*pipeline$script
+||pcx-events.revbox.co^
 ||pcxnrr.icu^
 ||pcykgc.onetravel.com^
 ||pd.bppeloqua.com^
@@ -204167,6 +204183,7 @@ zzzyk.com###Tinfo
 ||ressources.promoneuve.fr^
 ||ressources.usine-digitale.com^
 ||ressources.usine-nouvelle.com^
+||rest.comfy.ua^
 ||rest.wildstar-online.com^
 ||restaurantguru.com/ajax/logAB
 ||restaurantguru.com/log.php
@@ -231480,6 +231497,7 @@ zzzyk.com###Tinfo
 ||stats.manakin.fi^
 ||stats.manz.at^
 ||stats.mappl.tv^
+||stats.mapple.*^
 ||stats.marienhoehe-norderney.de^
 ||stats.marketsmith.com^
 ||stats.marshfieldclinic.org^
@@ -234144,6 +234162,7 @@ zzzyk.com###Tinfo
 ||t.evocsports.ch^
 ||t.evoriel.fr^
 ||t.experienceandamans.com^
+||t.experte.de^
 ||t.fabulousfox.com^
 ||t.factorform.com^
 ||t.fairparkdallas.com^
@@ -237059,6 +237078,7 @@ zzzyk.com###Tinfo
 ||thepaper.cn/bottomBanner_
 ||thepixelpioneer.com^
 ||thepolorvision-ss.checkoutera.com^
+||thepoorswiss.com/tps/cfwa-collect
 ||theporn.cc/anyalytics?
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
@@ -238337,6 +238357,7 @@ zzzyk.com###Tinfo
 ||tpiqbv.pixartprinting.ch^
 ||tpivd.tea-direct.co.uk^
 ||tpjehb.addax.com.tr^
+||tpjhxbwkvjjvtq.com^
 ||tpkyt.amnesiashop.com^
 ||tpmexb.vans.co.nz^
 ||tpp-dishp1.isgengine.com^
@@ -244257,6 +244278,7 @@ zzzyk.com###Tinfo
 ||u6yzoru6u.com^
 ||u7em6.xyz^
 ||u7em9v4hp.com^
+||u7lb6db41.com^
 ||u7s546.com^
 ||u7u9.com^$third-party
 ||u7ugo0jr3.com^
@@ -244537,6 +244559,7 @@ zzzyk.com###Tinfo
 ||uevrhqra7u.com^
 ||uewzjy.xyz^
 ||uexgsi.guppy.jp^
+||ueya0wo6m.com^
 ||ueyuww.icu^
 ||uezeus.ueberbit.de^
 ||ufa9tt1n5.com^
@@ -244741,6 +244764,7 @@ zzzyk.com###Tinfo
 ||ukg6sq48dy4zd6gn.edge41.testandtarget.omniture.com^
 ||ukgfxw.satofull.jp^
 ||ukgia.mojodesk.com^
+||ukgm0qily.com^
 ||uki2.secureforms.mcafee.com^
 ||ukjphn.vitaminler.com^
 ||ukjwyv.icu^
