@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-06-30 22:16:43(GMT+8) 
-! Total count: 32775
+! ! Version: 2026-07-01 11:47:30(GMT+8) 
+! Total count: 32787
  
 ###ADtip
 ###Ad_windows
@@ -9321,6 +9321,7 @@ gamersky.com##.downLoadGame-2
 gamersky.com##.downLoadGame-2 + .dl_url
 gamersky.com##div[id^="adscontainer_b"]
 gamersky.com##header[class^="ymw-header20"]
+gamersky.com#%#//scriptlet('abort-current-inline-script', 'localStorage', 'showAd')
 games.qq.com##.dc-kf_list
 gametower.com.tw###tableAD
 gamicsoft.com##.mobileAd-slider
@@ -11060,6 +11061,9 @@ joyacg.top##a[href^="http"] > .img-fluid
 joyreactor.cc##div#sidebar
 jpfans.com,jpseek.com##table[cellspacing="1"][cellpadding="6"]
 jpsub.com##.floatbar_div
+jptt.tv##.fluid_nonLinear_ad
+jptt.tv#$##vast_video_loading_f-player { display: none !important; }
+jptt.tv#%#//scriptlet('set-constant', 'player.adList', 'emptyObj')
 jpwind.com###asideNav
 jq-school.com##.setfarme:nth-child(7)
 jq-school.com##div[style="width:1060px; height:auto; margin:0 auto;overflow:hidden;"]
@@ -16069,6 +16073,7 @@ zzzyk.com###Tinfo
 ||0m9mjmrd.top^
 ||0nkwep2fh.com^
 ||0ns32h.com^
+||0nyzdw2maq.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0oi1ej7mo.com^
 ||0oo9j37xp.com^
@@ -17919,6 +17924,7 @@ zzzyk.com###Tinfo
 ||aatv.app/sport/sport.js
 ||ab.cnbanbao.com^
 ||ab.rejushe.com^
+||ab3de9.gamersky.com^
 ||abab.com/pv.js
 ||abalado.com^
 ||abalone46.com^
@@ -21601,6 +21607,7 @@ zzzyk.com###Tinfo
 ||eo.chaungpin.top^
 ||eo.dongdm.cn^
 ||eo.jinzpeng.cn^
+||eo2eaqg5no.com^
 ||eol.cn/e_busi/
 ||eol.cn/e_images/gk/jnc
 ||eol.cn/images/*1000-
@@ -22248,6 +22255,8 @@ zzzyk.com###Tinfo
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
 ||gamersky.com/wap/js/gs/gsAllOpenAppBtn.
+||gamersky.com/web/getJS?url=*.gamersky.com*banner
+||gamersky.com/web/getJS?url=*.gamersky.com*newAd
 ||games.ifeng.com^$subdocument
 ||games.ifeng.com^*.shtml?v=
 ||games95.com^
@@ -27557,6 +27566,7 @@ zzzyk.com###Tinfo
 ||pufei8.com/skin/t6.html
 ||pufhzpt.cn^
 ||pugzutzi.com^
+||puk9mpb8dm.com^
 ||pulfinik.com^
 ||puma.com^$popup,domain=hupu.com
 ||pupudy.com/images/wxrj.gif
@@ -29356,6 +29366,7 @@ zzzyk.com###Tinfo
 ||tarqk5.com^
 ||tasgxk4ia6.com^
 ||taunphoik.com^
+||tawjmkk1p6.com^
 ||tawk.to^$third-party
 ||taxismaned.top^
 ||tb1mdkeni.com^
@@ -30057,6 +30068,7 @@ zzzyk.com###Tinfo
 ||ufne.cn^
 ||ufthraevuy.com^
 ||uftokromta.com^
+||ufurlokhqd.com^
 ||ufvauj.cn^
 ||ufxs.cn^
 ||ug.baidu.com^

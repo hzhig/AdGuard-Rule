@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-06-30 22:16:43(GMT+8) 
-! Total count: 254325
+! ! Version: 2026-07-01 11:47:30(GMT+8) 
+! Total count: 254343
  
 ###ADtip
 ###Ad_windows
@@ -14733,6 +14733,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||st.dynamicyield.com/st?$domain=dafiti.com.br
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
 @@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
+@@||st.top100.ru/top100/top100.js$domain=gazeta.ru|lenta.ru
 @@||st.top100.ru/top100/top100.js$domain=rambler.ru|m.gazeta.ru|motor.ru|ferra.ru
 @@||st.vtomske.ru/js/adv*.js$script
 @@||stacksocial.com^$cookie=ajs_anonymous_id
@@ -106401,6 +106402,7 @@ gamersky.com##.downLoadGame-2
 gamersky.com##.downLoadGame-2 + .dl_url
 gamersky.com##div[id^="adscontainer_b"]
 gamersky.com##header[class^="ymw-header20"]
+gamersky.com#%#//scriptlet('abort-current-inline-script', 'localStorage', 'showAd')
 games.qq.com##.dc-kf_list
 gamespot.com#%#//scriptlet('set-local-storage-item', 'ppid', '$remove$')
 gametower.com.tw###tableAD
@@ -108922,6 +108924,9 @@ joyacg.top##a[href^="http"] > .img-fluid
 joyreactor.cc##div#sidebar
 jpfans.com,jpseek.com##table[cellspacing="1"][cellpadding="6"]
 jpsub.com##.floatbar_div
+jptt.tv##.fluid_nonLinear_ad
+jptt.tv#$##vast_video_loading_f-player { display: none !important; }
+jptt.tv#%#//scriptlet('set-constant', 'player.adList', 'emptyObj')
 jpwind.com###asideNav
 jq-school.com##.setfarme:nth-child(7)
 jq-school.com##div[style="width:1060px; height:auto; margin:0 auto;overflow:hidden;"]
@@ -123219,6 +123224,7 @@ zzzyk.com###Tinfo
 ||0m9mjmrd.top^
 ||0nkwep2fh.com^
 ||0ns32h.com^
+||0nyzdw2maq.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0oi1ej7mo.com^
 ||0oo9j37xp.com^
@@ -129826,6 +129832,7 @@ zzzyk.com###Tinfo
 ||ab.servogram.io^
 ||ab.thestudioacademyofbeauty.com^
 ||ab.tienda.primemobiliario.com^
+||ab3de9.gamersky.com^
 ||abab.com/pv.js
 ||abadis.ir/ajaxcmd/setvisit/
 ||abalado.com^
@@ -130535,7 +130542,6 @@ zzzyk.com###Tinfo
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
 ||acustomizedgift.com^$redirect=noopjs,script
-||acustomizedgift.com^$script,redirect=noopjs
 ||acustomizedgift.com^$~xmlhttprequest
 ||acv.au-hikari-kddi.com^
 ||acv.auhikari-norikae.com^
@@ -143685,6 +143691,7 @@ zzzyk.com###Tinfo
 ||cdn.iterwebcms.com/*/mas-tracker-min.js
 ||cdn.itphanpytor.club^
 ||cdn.iyosa.com/src/report.js
+||cdn.iz.ru/profiles/portal/themes/purple/js/statistics/custom_criteo*.js
 ||cdn.j.gs/js/display.js$script,third-party
 ||cdn.j.gs/js/entry.js$script,third-party
 ||cdn.j.gs/js/link-converter.js$script,third-party
@@ -147532,6 +147539,7 @@ zzzyk.com###Tinfo
 ||cs.media.net^
 ||cs.nakanohito.jp^
 ||cs.nexttv.co.il^
+||cs.rambler.ru/api/v*/events
 ||cs.zg-api.com^
 ||cs0008sbeda.enzyme-supply.com^
 ||cs0008sbeda.moromi-koso-c.com^
@@ -157967,6 +157975,7 @@ zzzyk.com###Tinfo
 ||eo.dongdm.cn^
 ||eo.jinzpeng.cn^
 ||eo.pearlinsurance.com^
+||eo2eaqg5no.com^
 ||eoapxl.com^
 ||eocfk.thehappyplanner.com^
 ||eodda.womanwithin.com^
@@ -162109,6 +162118,8 @@ zzzyk.com###Tinfo
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
 ||gamersky.com/wap/js/gs/gsAllOpenAppBtn.
+||gamersky.com/web/getJS?url=*.gamersky.com*banner
+||gamersky.com/web/getJS?url=*.gamersky.com*newAd
 ||games-sdk.yandex.ru/games/api/sdk/v1/player/stats^
 ||games.ifeng.com^$subdocument
 ||games.ifeng.com^*.shtml?v=
@@ -162233,6 +162244,7 @@ zzzyk.com###Tinfo
 ||gazelle.editorclub.com^
 ||gazelle.laurenagray.com^
 ||gazeta-unp.ru/viewCounter/increment
+||gazeta.ru/atlas/metrics/
 ||gazetevatan.com/d/generic-counter.asp^
 ||gazetevatan.com/d/j/analytics.min.js
 ||gazetkapromocyjna.com.pl/api/track
@@ -194691,6 +194703,7 @@ zzzyk.com###Tinfo
 ||news.finance-commerce.com^
 ||news.financeaccountingtech.com^
 ||news.forddirectdealers.com^
+||news.gnezdo2.ru/gnezdo_news_tracker_new.js
 ||news.google.com/_/v
 ||news.idahobusinessreview.com^
 ||news.iftm.fr^
@@ -200627,6 +200640,7 @@ zzzyk.com###Tinfo
 ||powerfulcopper.com^
 ||powerrobotflower.com^
 ||powertips.idera.com^
+||powertoolwiki.com^
 ||powerup.rsaworks.com^
 ||poxiao.com/template/default/images/12345.js
 ||poyc.cn^
@@ -201544,6 +201558,7 @@ zzzyk.com###Tinfo
 ||pugzutzi.com^
 ||puiwrs.misterspex.de^
 ||puja.amardeeprawat.com^
+||puk9mpb8dm.com^
 ||pukri.climit.com^
 ||pulfinik.com^
 ||pullandbear.com/integration/zenit/events/hit
@@ -230567,6 +230582,7 @@ zzzyk.com###Tinfo
 ||static.gala.games/gal/fp/loader_v*.js
 ||static.gaomaer.cn^
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
+||static.gazeta.ru/nm*/js/block_counter_v*.js
 ||static.gazeta.ru/nm2021/js/block_counter.
 ||static.genuss-aktivhotel.com^
 ||static.gridsumdissector.com^
@@ -236051,6 +236067,7 @@ zzzyk.com###Tinfo
 ||taurus.iad.appboy.com^
 ||tav.tradeaovivo.com.br^
 ||tawdryson.com^
+||tawjmkk1p6.com^
 ||tawk.to^$third-party
 ||taxel.jp^$third-party
 ||taxismaned.top^
@@ -244552,6 +244569,7 @@ zzzyk.com###Tinfo
 ||ufthraevuy.com^
 ||uftis.vitaminshoppe.com^
 ||uftokromta.com^
+||ufurlokhqd.com^
 ||ufuspv.nucific.com^
 ||ufvauj.cn^
 ||ufwsfi.magasins-u.com^
