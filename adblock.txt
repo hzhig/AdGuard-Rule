@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-02 11:31:24(GMT+8) 
-! Total count: 254378
+! ! Version: 2026-07-02 21:58:25(GMT+8) 
+! Total count: 254390
  
 ###ADtip
 ###Ad_windows
@@ -20643,6 +20643,7 @@ cmail.sportsbet.io$image
 cmbc.com.cn#@#.adBox
 cmhello.com##.gpost-above
 cmmonitor.com#@#.adsbygoogle
+cmoney.tw##.stockGrid__topbar
 cms-demolobalid3.click.s11.sfmc-osl.com$image
 cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
 cn-healthcare.com##.fh_ad_wrap
@@ -21265,6 +21266,7 @@ disp.cc###ads_page_b
 disp.cc###ads_page_r
 disp.cc##.ads_bot_block
 disqus.com#%#//scriptlet('href-sanitizer', 'a[href*="://disq.us/url?url="]', '?url')
+disqus.com#%#//scriptlet('set-cookie', 'disqus_tracking_optout', '1')
 ditu.so.com##.label-ads
 ditu.so.com##a[class^="index-bcItem"]
 ditu.so.com##a[href^="https://e.so.com/"]
@@ -117326,6 +117328,8 @@ soft.3dmgame.com##.btnbox > a.btnsecurity
 soft.macx.cn#@##googlead
 soft4fun.net###xad_mu
 soft5566.com###sharebtn
+soft8ware.com##ins.adsbygoogle
+soft8ware.com#%#//scriptlet('prevent-setTimeout', 'triggerAdBlockModal')
 soft98.ir##.shad
 soft98.ir##.shad2
 softblog.tw#@#.dshare
@@ -124624,6 +124628,7 @@ zzzyk.com###Tinfo
 ||5bess6df0.com^
 ||5bf0fdacd2.apps.iocnt.de^
 ||5bkhq0lwmq.com^
+||5bpajgg436.com^
 ||5cyi6tp6h.com^
 ||5cyqzktkwh.com^
 ||5dfiuae82.com^
@@ -124885,6 +124890,7 @@ zzzyk.com###Tinfo
 ||6q77vsjez1.com^
 ||6quspne.com^
 ||6s0zo8jzbb.com^
+||6s78n1rj4r.com^
 ||6s8w2ck1g.com^
 ||6sc.co^$third-party
 ||6spczz2hj1.com^
@@ -145080,6 +145086,7 @@ zzzyk.com###Tinfo
 ||clipcentric.com^$third-party
 ||clipkit.co/clipkit_assets/beacon-
 ||clipkit.de/metrics?
+||clipro.tv/v*/events
 ||clipsyndicate.com/cs_api/cliplog?
 ||cliquelead.com^
 ||clixgalore.com^$third-party
@@ -164793,6 +164800,7 @@ zzzyk.com###Tinfo
 ||groupon.com/analytic/
 ||groupon.com/api/v*/logs
 ||groupon.com/v*/dataPoint
+||groupon.de/mobilenextapi/v*/logs
 ||groupon.it/tracky|
 ||groupondata.com/tracky
 ||groupondata.com/trest
@@ -200013,6 +200021,7 @@ zzzyk.com###Tinfo
 ||pl.noartmusic.com^
 ||pl.paradiesgartenfestival.at^
 ||pl.paradisecity.be^
+||pl.primis.tech^
 ||pl.scandal.events^
 ||pl.schaatsbaanmuseumplein.nl^
 ||pl.sharpmarketing.eu^
@@ -203289,6 +203298,7 @@ zzzyk.com###Tinfo
 ||rbjwels.xyz^
 ||rbkidelmug.com^
 ||rbl.ms/res/users/tracking/
+||rbl.ms/spacer.gif?
 ||rbmg4agmo.com^
 ||rbmrs.eskiin.com^
 ||rbncmx.chopperexchange.com^
@@ -232709,6 +232719,7 @@ zzzyk.com###Tinfo
 ||streamnoads.com/stat/
 ||streamoptim.com/log.js
 ||streamoptim.com/log/report?
+||streams-scores.rbl.ms^
 ||streams.bestbuy.com/customer/web-streams/v*/events/digital-experience-event
 ||streams.bestbuy.com/customer/web-streams/v1/events/cj-page-visits
 ||streams.cablecar.sph.com.sg^
@@ -233745,6 +233756,7 @@ zzzyk.com###Tinfo
 ||sync.clearnview.com^
 ||sync.ebis.ne.jp^$third-party
 ||sync.getpublica.com^
+||sync.inmobi.com^
 ||sync.morgdm.ru^
 ||sync.opendsp.ru^
 ||sync.outbrain.com^$third-party
