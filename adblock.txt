@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-01 22:38:39(GMT+8) 
-! Total count: 254367
+! ! Version: 2026-07-02 11:31:24(GMT+8) 
+! Total count: 254378
  
 ###ADtip
 ###Ad_windows
@@ -107196,6 +107196,9 @@ hanime1.me##div[style*="width: 310px; height: 282px;"]
 hanime1.me#%#//scriptlet("trusted-replace-node-text", "script", "popunder", "/window\.open\('(.*?)',.*?\);\n.*location.href = '.*';/", "location.assign('$1');")
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
 hanime1.me#@#[class*="juicyads"]
+hanjuk.com##[style^="display: block; z-index: 2147483646; position: fixed; user-select: none;"]
+hanjuk.com##body > [style^="display: block; width: 100%; height: 131px;"]
+hanjuk.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'new Function')
 hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
 hanman/static/dist/ppm/js/main.js
@@ -148166,6 +148169,7 @@ zzzyk.com###Tinfo
 ||cyq3noz.icu^
 ||cyq8vqq9s.com^
 ||cyqgk.greatgardenplants.com^
+||cyu6bl939o.com^
 ||cyummh.df-sportspecialist.it^
 ||cyvcz.am-autoparts.com^
 ||cyvxfq.jennikayne.com^
@@ -161616,6 +161620,7 @@ zzzyk.com###Tinfo
 ||fudrf.titan.fitness^
 ||fuel-design.com/js/script.js
 ||fueldeck.com^$third-party
+||fuelfever.net^
 ||fuelinspector.com^
 ||fuelx.com^$third-party
 ||fuentekj.com^
@@ -194593,6 +194598,7 @@ zzzyk.com###Tinfo
 ||netmng.com^$third-party
 ||netmonitor.fi^$third-party
 ||netne.net/stats/
+||netpoint-media.de^$third-party
 ||netquattro.com/stats/
 ||netratings.com^$third-party
 ||netrefer.com^$third-party
@@ -201995,6 +202001,7 @@ zzzyk.com###Tinfo
 ||qbgizx.ekoi.fr^
 ||qbgvgw.angeloni.com.br^
 ||qbhmz3.com^
+||qbhsocu.com^
 ||qbibsy.icu^
 ||qbjit.circalasvegas.com^
 ||qbk1.com^
@@ -204421,6 +204428,7 @@ zzzyk.com###Tinfo
 ||rhmt1jjyo.com^
 ||rhnsd.splendid.com^
 ||rhododendron15.top^
+||rhombus74.com^
 ||rhoxnc.studentuniverse.com^
 ||rhrrf.cn^
 ||rhsmp.allgooddaze.com^
@@ -204966,6 +204974,7 @@ zzzyk.com###Tinfo
 ||rsc.lepoint.fr^
 ||rscpm.tikisgeckos.com^
 ||rsewys.lavor.com^
+||rsfzjtdmbmxdfq.com^
 ||rsggq.garyswine.com^
 ||rshqmo.aekki.com^
 ||rshrt.com^$cookie=app_visitor
@@ -211424,6 +211433,7 @@ zzzyk.com###Tinfo
 ||service.giosg.com^$cookie=sgid
 ||service.hcob-bank.de^
 ||service.inn-out-shop.com^
+||service.iz.ru/api/*/view/inc?sourceId=
 ||service.minute.ly^
 ||service.pacstainless.com^
 ||service.rongdhanustore.com^
@@ -252050,6 +252060,7 @@ zzzyk.com###Tinfo
 ||yahoo.net/pixel*.gif
 ||yahoo.net/pixel.gif
 ||yahoodns.net/pixel.gif
+||yahzsa6o2o.com^
 ||yaizkr.168cm.kr^
 ||yajkhd.supersports.com^
 ||yak.auclantis.com^

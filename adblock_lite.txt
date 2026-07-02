@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-07-01 22:38:39(GMT+8) 
-! Total count: 32795
+! ! Version: 2026-07-02 11:31:24(GMT+8) 
+! Total count: 32803
  
 ###ADtip
 ###Ad_windows
@@ -9612,6 +9612,9 @@ hanime1.me##div[style*="width: 310px; height: 282px;"]
 hanime1.me#%#//scriptlet("trusted-replace-node-text", "script", "popunder", "/window\.open\('(.*?)',.*?\);\n.*location.href = '.*';/", "location.assign('$1');")
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
 hanime1.me#@#[class*="juicyads"]
+hanjuk.com##[style^="display: block; z-index: 2147483646; position: fixed; user-select: none;"]
+hanjuk.com##body > [style^="display: block; width: 100%; height: 131px;"]
+hanjuk.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'new Function')
 hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
 hanman/static/dist/ppm/js/main.js
@@ -20541,6 +20544,7 @@ zzzyk.com###Tinfo
 ||cypcb.net^
 ||cyq3noz.icu^
 ||cyq8vqq9s.com^
+||cyu6bl939o.com^
 ||cz16vlh0la.com^
 ||czghjt.com^
 ||czsp12.com/api/*=advert&
@@ -27659,6 +27663,7 @@ zzzyk.com###Tinfo
 ||qayqa.com:6868/jquery/
 ||qbcyr5tfd.com^
 ||qbhmz3.com^
+||qbhsocu.com^
 ||qbibsy.icu^
 ||qbox.me/FlnVIdUeIo_LrXyGiOL0OFw0Gpa7
 ||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
@@ -28197,6 +28202,7 @@ zzzyk.com###Tinfo
 ||rhlxm.top^
 ||rhmt1jjyo.com^
 ||rhododendron15.top^
+||rhombus74.com^
 ||rhrrf.cn^
 ||rhtc.quanminyouxi.cn^
 ||riaway.com/statics/idea.jpg
@@ -28304,6 +28310,7 @@ zzzyk.com###Tinfo
 ||rrxddl.xyz^
 ||rryy99.com/statics/js/stat.js
 ||rsanciz.top^
+||rsfzjtdmbmxdfq.com^
 ||rsinnxoe.com^
 ||rssxsjh.icu^
 ||rstdfyerm.icu^
@@ -31765,6 +31772,7 @@ zzzyk.com###Tinfo
 ||yahekby.cn^
 ||yahoo.com/embed/tv?site=buzzhand&
 ||yahoo.com/gdsale/gdsale.asp$domain=beephone.com.tw
+||yahzsa6o2o.com^
 ||yakhaknog.com^
 ||yalingba.com/ggtxjs/
 ||yan007.com/js/sss/ad.js
