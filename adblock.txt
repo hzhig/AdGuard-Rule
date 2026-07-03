@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-03 10:53:55(GMT+8) 
-! Total count: 254401
+! ! Version: 2026-07-03 22:01:55(GMT+8) 
+! Total count: 254416
  
 ###ADtip
 ###Ad_windows
@@ -122601,7 +122601,6 @@ y.qq.com##.top_bar
 y.qq.com##.top_box
 y.qq.com##.top_operation_bar__btn
 y.qq.com##.top_operation_box
-ya.ru#%#//scriptlet('abort-on-property-write', 'Ya.clck')
 yad2.co.il###sLightbox_container
 yad2.co.il###sLightbox_overlay
 yafud.pl###adsense_banner_top
@@ -124877,6 +124876,7 @@ zzzyk.com###Tinfo
 ||6o2k80jf8w.com^
 ||6o719vq4x.com^
 ||6ogiuks905.com^
+||6ovzwbq4o.com^
 ||6p2g1kk03.com^
 ||6p6vcukqz.com^
 ||6pal.consobaby.com^
@@ -141199,6 +141199,7 @@ zzzyk.com###Tinfo
 ||book118.com^*/showRecommend.
 ||bookbeef.com^
 ||bookben.com/js/m/wap.js
+||bookcabin.com/api/log-browser
 ||booking.com/*/track^
 ||booking.com/87sduif98q3rijax
 ||booking.com/c360/v1/track
@@ -160403,6 +160404,7 @@ zzzyk.com###Tinfo
 ||fiqns.mfimedical.com^
 ||fircokqe.com^
 ||fire.solutions.jci.com^
+||fireanalytics.firestream.to^
 ||firearmtire.com^
 ||firebase.googleapis.com^$domain=terabox.fun
 ||firebaseinstallations.googleapis.com^$domain=terabox.fun
@@ -161603,6 +161605,7 @@ zzzyk.com###Tinfo
 ||ftnnce.autodoc.dk^
 ||ftp.happ.social^
 ||ftqmv.midtownumbrellas.com^
+||ftqn9wedv.com^
 ||ftqsz.frankiesbikinis.com^
 ||ftrack.dowasdeal.com^
 ||ftrfnx.icu^
@@ -164544,6 +164547,7 @@ zzzyk.com###Tinfo
 ||goose.surfboardpayments.com^
 ||goose64.top^
 ||goosedaily.com/advertise/
+||gopay.sh/collect
 ||gopher.mina.ca^
 ||gopjn.com^$third-party
 ||goprediction.com^$third-party
@@ -172695,6 +172699,7 @@ zzzyk.com###Tinfo
 ||indmetric.rediff.com^
 ||indoeasia.edm.globalsources.com^
 ||indoleads.com/api/pixel-content/
+||indonesiadefense.com/metrikgtg
 ||industrivarer.no^$referrerpolicy=origin
 ||industry.statefoodsafety.com^
 ||industry.tafensw.edu.au^
@@ -179976,6 +179981,7 @@ zzzyk.com###Tinfo
 ||lkpmprksau.com^
 ||lkpseyc3d.com^
 ||lkqce.dermaflash.com^
+||lkqivtsnfvriw.website^
 ||lkr.reply.eu^
 ||lksiz.mydancerbox.com^
 ||lksrhj.green-acres.pt^
@@ -197774,6 +197780,8 @@ zzzyk.com###Tinfo
 ||ozkkuy.fabianafilippi.com^
 ||ozkri.apotheke-zaversky.at^
 ||oznlro.sanity.com.au^
+||ozon.ru/p-api/tracker/
+||ozon.ru/pop-stats-collector/
 ||ozon.ru/tracker/
 ||ozon.ru^$removeparam=partner
 ||ozone.ru/graphics/client-metrics/
@@ -227442,6 +227450,7 @@ zzzyk.com###Tinfo
 ||st.olloaudio.com^
 ||st.onemazdausa.com^
 ||st.onlygip.tech^$third-party
+||st.ozone.ru/s*/client-metrics/
 ||st.ozone.ru/s3/ozon-tag-manager/
 ||st.partypro.nl^
 ||st.pba.xl.pt/pbasitetracker/pbasitetracker.min.js
@@ -234806,6 +234815,7 @@ zzzyk.com###Tinfo
 ||t7baxp1xmw00.boxoffice.adventuretix.com^
 ||t7cp4fldl.com^
 ||t7fv5mjt8i.com^
+||t7h2otlhd.com^
 ||t7k3n9.micasa.ch^
 ||t7x22m7c.com^
 ||t7ywa5ai3.com^
@@ -246222,6 +246232,7 @@ zzzyk.com###Tinfo
 ||v53groc9v.com^
 ||v5rv8mnfk.com^
 ||v6jt.cn^
+||v700rtlhd.com^
 ||v7d8v.brilliance.com^
 ||v812.lakecountystar.com^
 ||v84tz11w7.com^
@@ -250024,6 +250035,7 @@ zzzyk.com###Tinfo
 ||www.attribution-day.com^
 ||www.attributionday.com^
 ||www.avismarketing.gr^
+||www.awin1.com/cread.php?*ued=$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?.*\.awin1\.com.*[?&]ued=([^&]*).*/\$1/|pct
 ||www.azera-s014.com^
 ||www.badb5refl.com^
 ||www.bae5tracker.com^
@@ -251081,6 +251093,9 @@ zzzyk.com###Tinfo
 ||xanalytics.vip^
 ||xaogi.com^$domain=pronpic.org
 ||xapi.ozon.by/perf-metrics-collector/
+||xapi.ozon.ru/api/logs-gateway/
+||xapi.ozon.ru/api/logs-shredder/
+||xapi.ozon.ru/perf-metrics-collector/
 ||xapi.ozon.ru^$ping
 ||xapu7phoge.com^
 ||xaqprd.gardenbenches.com^
