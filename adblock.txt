@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-06 11:27:45(GMT+8) 
-! Total count: 254451
+! ! Version: 2026-07-06 23:30:37(GMT+8) 
+! Total count: 254457
  
 ###ADtip
 ###Ad_windows
@@ -17258,6 +17258,7 @@ cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
 cdn.tvdez.com###cerrar
 cdn.tvdez.com##IFRAME[src^="http://ad.directrev.com/RealMedia/ads/"]
+cdnperf.com#%#//scriptlet('prevent-element-src-loading', 'script', 'cdn.perfops.net/rom3/rom3.min.js')
 ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,likefont.com,shangyexinzhi.com,zp365.com##.advert
 ceiea.com##.adclass2019
 cekresi.com##.pleasehideadblkuc.popio
@@ -129825,6 +129826,7 @@ zzzyk.com###Tinfo
 ||aax-us-iad.amazon.com/e/xsp/imp?
 ||aax-us-iad.amazon.com^$script
 ||aaxdetect.com^$third-party
+||aaxggkj.com^
 ||aazfby.auto.de^
 ||aazmiw.reisenthel.com^
 ||ab-in-den-urlaub.de/TrackingPixel_
@@ -136489,7 +136491,7 @@ zzzyk.com###Tinfo
 ||app.accelerate.zoominfo.com^
 ||app.acekuwait.com^
 ||app.activityhero.com^
-||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban|com.lenovo.anyshare.gps|com.fileclean.manager.easy
+||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban|com.lenovo.anyshare.gps|com.fileclean.manager.easy|com.avito.android
 ||app.adjust.com^$third-party
 ||app.adjust.io^
 ||app.adjust.net.in^
@@ -139561,6 +139563,7 @@ zzzyk.com###Tinfo
 ||baremetrics.com^$third-party
 ||barilliance.net^$third-party
 ||barium.cheezdev.com^
+||barkfactor.com^
 ||barkin.jubileescents.co.uk^
 ||barks.jp/v1/stats
 ||barnacle.big-in-japan.com^
@@ -143654,6 +143657,7 @@ zzzyk.com###Tinfo
 ||cdn.cahayabinar.com^
 ||cdn.calibermind.com/a.js
 ||cdn.calltrk.com/companies/
+||cdn.cardcluster.com/ma/j.js
 ||cdn.clerk.io/clerk.js
 ||cdn.clkmc.com/cmc.js
 ||cdn.coastoutdoors.ca^
@@ -157683,6 +157687,7 @@ zzzyk.com###Tinfo
 ||emu.cortexfutura.com^
 ||emu.motala.no^
 ||emu.pin13.net^
+||emule-security.org/tracker.js
 ||emxdgt.com^$third-party
 ||emzcnu.evanus.vn^
 ||emzii.sosf.co^
@@ -175513,6 +175518,7 @@ zzzyk.com###Tinfo
 ||jitapu.com/inc/adv
 ||jitashe.org/template/jitashe/image/bc/3
 ||jitsu.ixbt.com^
+||jitsu.ixbt.games^
 ||jitsu.ixbt.site^
 ||jiujpc.asgoodasnew.fr^
 ||jiumai88.com^
