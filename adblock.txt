@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-05 21:36:49(GMT+8) 
-! Total count: 254444
+! ! Version: 2026-07-06 11:27:45(GMT+8) 
+! Total count: 254451
  
 ###ADtip
 ###Ad_windows
@@ -4067,6 +4067,7 @@ $websocket,domain=wap.yushuwu.cloud
 /code/cpc.asp?
 /code/cpm.asp?
 /code/cpv.asp?
+/code/e.js|$~third-party
 /code/mypop.asp?
 /code/pop_cpf.
 /code/popjs.
@@ -10184,7 +10185,6 @@ $websocket,domain=wap.yushuwu.cloud
 ://elqtrk.
 ://email.*/o/$image
 ://emailtracking.$image
-://estats.*/code/e.js
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?id=GTM-
@@ -10236,7 +10236,6 @@ $websocket,domain=wap.yushuwu.cloud
 ://ssgtm.
 ://sst.*.js?id=GTM-
 ://stat.*/pageview/$xmlhttprequest
-://stats.*/code/e.js
 ://t.*/open^$image
 ://t.order.*/r/?id=$image
 ://t.targito.
@@ -123756,6 +123755,7 @@ zzzyk.com###Tinfo
 ||1weorpu.com^
 ||1win.com^$ping
 ||1wkg.cn^
+||1wo2fytcws.com^
 ||1worldsync.com/log?
 ||1x6666.com/img/
 ||1xwkhcsp3s5.vqsave.ommasign.com^
@@ -153982,6 +153982,7 @@ zzzyk.com###Tinfo
 ||dialogue.nl.mazda.be^
 ||dialogue32.com^
 ||diamages.carte-gr.total.fr^
+||diameter94.com^
 ||diamiu.com/wp-content/uploads/1200-200.
 ||dian500.com^$third-party
 ||dianhanjiw.com^
@@ -195276,6 +195277,7 @@ zzzyk.com###Tinfo
 ||nlpd.technosurf.ch^
 ||nlpd.vaudvins.ch^
 ||nlpnh.superiorseating.com^
+||nlthaiu88.com^
 ||nltihf.fashiondays.ro^
 ||nltui.eflownutrition.com^
 ||nltx.kikar.co.il/v*/analytics/
@@ -196274,6 +196276,7 @@ zzzyk.com###Tinfo
 ||odz12g5ag.com^
 ||oe-static.de^*/wws.js
 ||oe8mnxdtoi.com^
+||oe9s24wy9.com^
 ||oebarc.ekosport.at^
 ||oeclu.craftedelements.com^
 ||oedbml.collage-shop.jp^
@@ -206215,6 +206218,7 @@ zzzyk.com###Tinfo
 ||s5.charliehebdo.fr^
 ||s615419487.sc.origins.en25.com^
 ||s65m.win^
+||s6ctxsmoaj.com^
 ||s6in.cc^
 ||s72h7io4o.com^
 ||s73cloud.com/metrics/
@@ -247943,6 +247947,8 @@ zzzyk.com###Tinfo
 ||wallapop.com^$cookie=device_id
 ||wallapop.com^$cookie=rl_anonymous_id
 ||wallet.chain.com^
+||wallethacks.com/js/t/|
+||wallethacks.com/js/w
 ||wallkit.net^*/user/event
 ||walmart.ca/api/bsp/logger
 ||walmart.ca/api/home-page/logger
@@ -253559,6 +253565,7 @@ zzzyk.com###Tinfo
 ||zeocr.realbotanicals.com^
 ||zeookuv.xyz^
 ||zeotap.com^$third-party
+||zepcdxyiqtxtbc.com^
 ||zephyrcatalyst.com^
 ||zephyrlabyrinth.com^
 ||zeppelinradio.com^
