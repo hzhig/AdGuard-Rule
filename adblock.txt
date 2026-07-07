@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-07 11:18:39(GMT+8) 
-! Total count: 254466
+! ! Version: 2026-07-07 22:31:22(GMT+8) 
+! Total count: 254475
  
 ###ADtip
 ###Ad_windows
@@ -107816,6 +107816,7 @@ huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('prevent-se
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-replace-argument', 'Document.prototype.getElementById', '0', 'no_player-vip', 'player-vip')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-replace-argument', 'Document.prototype.querySelectorAll', '0', 'no_ads', 'a.item[title="体育"]')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
+huavod.com###player-vip
 huavod.com##a[href^="https://lesi198.com"]
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
@@ -123206,6 +123207,7 @@ zzzyk.com###Tinfo
 ||096iokj.com^
 ||09jsufg.com^
 ||0a66kw9r8.com^
+||0aokpbwui.com^
 ||0b4qu3nxa.com^
 ||0b6rvr210q.com^
 ||0bb8jytek.com^
@@ -163161,6 +163163,7 @@ zzzyk.com###Tinfo
 ||gismeteo.ru/stat.js
 ||gitbook.com/v1/integrations/googleanalytics/
 ||gitcrumbs.com^
+||gitfut.com/*/view
 ||github.com/_private/browser/stats
 ||github.com/_stats
 ||github.com/hydro_browser_events
@@ -168986,6 +168989,7 @@ zzzyk.com###Tinfo
 ||h702886htm.com^
 ||h731.icu^
 ||h7ima6w5k.com^
+||h89o58087.com^
 ||h8cjr6nhm.com^
 ||h9806gjhz.com^
 ||h9hy9.pyrenex.com^
@@ -196751,6 +196755,7 @@ zzzyk.com###Tinfo
 ||omnie.ai/api/ddMetric
 ||omnifpc.devry.edu^
 ||omnifpcs.devry.edu^
+||omnimove.tourradar.com^
 ||omniomar.com^
 ||omnis.basspro.com^
 ||omnis.bd.pcmall.com^
@@ -201483,6 +201488,7 @@ zzzyk.com###Tinfo
 ||pstatp.com^*/ttstatistics.
 ||pstats.cloudpal.app^
 ||pstats.com^$third-party
+||pstgaac.com^
 ||pstt.mtb-news.de^
 ||pstvvb.xyz^
 ||pswec.com/px/$third-party
@@ -242729,6 +242735,7 @@ zzzyk.com###Tinfo
 ||trinitymedia.ai/api/collect?
 ||trinklink1.s3.amazonaws.com/trinklink.js
 ||trio.autosanthana.com^
+||trip.com/*/monitor/log
 ||trip.com/bee/collect
 ||trip.com/bf.gif?
 ||trip.com/restapi/soa2/*/clog
@@ -242745,6 +242752,7 @@ zzzyk.com###Tinfo
 ||tripadvisor.*/wm/record
 ||tripadvisor.com.tr/MetricsAjax
 ||tripcdn.com/bee/collect$domain=trip.com
+||tripcdn.com/modules/ibu/xtracker/
 ||triplestat.online^
 ||triplewhale-pixel.web.app^
 ||triptease.io^$third-party
@@ -245491,6 +245499,7 @@ zzzyk.com###Tinfo
 ||usr.interactiveone.com^
 ||usrkrz.zdravcity.ru^
 ||usrpubtrk.com^
+||usrxtmy.com^
 ||usrzh.cn^
 ||ussco-dev.actonservice.com^
 ||ussolutions.equifax.com^
