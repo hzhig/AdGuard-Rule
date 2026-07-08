@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-07 22:31:22(GMT+8) 
-! Total count: 254475
+! ! Version: 2026-07-08 10:35:51(GMT+8) 
+! Total count: 254484
  
 ###ADtip
 ###Ad_windows
@@ -12182,11 +12182,13 @@ $websocket,domain=wap.yushuwu.cloud
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=ok.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=themirror.com
+@@||feliz-web.data.tm-awx.com^$domain=football.london
 @@||feliz.data.tm-awx.com/smile-web-v*/$domain=ok.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=examinerlive.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=mirror.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=themirror.com
+@@||feliz.data.tm-awx.com^$domain=football.london
 @@||fengkongcloud.com/fpv2.js
 @@||fharr.com^$generichide
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
@@ -143697,6 +143699,7 @@ zzzyk.com###Tinfo
 ||cdn.dulceauroraa.com^
 ||cdn.dzen.ru/pingx
 ||cdn.eaec.fpfis.tech.ec.europa.eu^
+||cdn.eu.amplitude.com/libs/analytics-browser-
 ||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
@@ -164771,6 +164774,8 @@ zzzyk.com###Tinfo
 ||grduswfx.com^
 ||gre.groobee.io^
 ||greasysquare.com^
+||greatandhra.com^$cookie=uid-s
+||greatandhra.com^$cookie=vsid
 ||greatnumeric.com^
 ||greatviews.de^$third-party
 ||green-griffin-860.appspot.com^
@@ -202082,6 +202087,7 @@ zzzyk.com###Tinfo
 ||qbwkux.home24.at^
 ||qbwniy.baldur-garten.at^
 ||qbwsbh.prixtel.com^
+||qbxxi23a2.com^
 ||qbyngdjq8g.com^
 ||qbzbrn.nordictrack.fr^
 ||qc.arstechnica.com^
@@ -247655,6 +247661,7 @@ zzzyk.com###Tinfo
 ||vvrlh.naturens-medicin.se^
 ||vvszccbu.rhinox-group.com^
 ||vvszccbu.rhinox-group.us^
+||vvtpftuiqrbdha.com^
 ||vvuii.ogee.com^
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
@@ -247951,6 +247958,7 @@ zzzyk.com###Tinfo
 ||wagzqhq.cn^
 ||wahid.elementorit.com^
 ||wai69.com/js/baidu/
+||waioidmwg.com^
 ||waipian*.com/statics/recommend/
 ||wait.re^
 ||waitingnumber.com^
@@ -253979,6 +253987,7 @@ zzzyk.com###Tinfo
 ||zmhqhuq.cn^
 ||zmhsxr.hometogo.com^
 ||zmiqg.eccouncil.org^
+||zmjt3xi8k.com^
 ||zmk.pw/zfb.png
 ||zmk852tp7.com^
 ||zmkp6jvq4.com^
