@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-09 22:56:42(GMT+8) 
-! Total count: 254530
+! ! Version: 2026-07-10 10:57:12(GMT+8) 
+! Total count: 254544
  
 ###ADtip
 ###Ad_windows
@@ -1592,7 +1592,6 @@
 ##img[src^="http://c.bigmir.net/"]
 ##main.quote-main > .section_btn.clearfix.mt20
 ##oxk
-##p > a[href^="/AllRes/Vlog"]
 ##script + #coupletBox
 ##script + #rbbox
 ##script + .dbfh
@@ -3002,7 +3001,6 @@ $websocket,domain=wap.yushuwu.cloud
 /BKVTrack.js
 /BadwebRemindPage.aspx?param=$popup,third-party
 /BrandXuanDong.js
-/CC6F9ACB52D1582671AFEA808AFE10FE.gif
 /CI0/0$image
 /CaptureStat.asmx
 /ClickTail.js
@@ -117676,6 +117674,7 @@ stiply-track-email.signing.staffable.com$image
 stiply-track-email.stiply.com$image
 stiply-track-email.yourmaki.com$image
 sto520.com#?#.content > div.book > div[style^="text-align"]:has(> ins.adsbygoogle)
+stock-calculator.net##.grid > div > div.overflow-hidden:has(> div.inset-0 > ins.adsbygoogle)
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
 stock87.com##div[id^="Javascript"]
 stock87.com##div[style^="position:relative;width:1000px;height:90px;"]
@@ -123092,7 +123091,6 @@ zzzyk.com###Tinfo
 ||*.amazonaws.com/js/adblock.min.js$script,domain=motorsport-total.com
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.kameleoon.eu^$domain=20minutes.fr|20min.fr
-||*.mp4$redirect=noopmp3-0.1s,domain=huavod.com|huaren.live
 ||*.org/config/v7.js
 ||*/ad/$redirect=noopmp3-0.1s,domain=huaren.tv
 ||*/vhot2.qqvideo.tc.qq.com^
@@ -123187,6 +123185,7 @@ zzzyk.com###Tinfo
 ||0598yu.com/api.php?mod=ad&
 ||05pg9z.com^
 ||0606kk.com/js/index/index.js
+||063rpyn37z.com^
 ||063tutu.com^
 ||064ioio.com^
 ||065yuyu.com^
@@ -124020,6 +124019,7 @@ zzzyk.com###Tinfo
 ||2top98spp.shop^
 ||2trk.info^$third-party
 ||2tty.overstappen.nl^
+||2u2wyftqmr.com^
 ||2u3v4w5x6y.com^
 ||2vcb9onxjm.com^
 ||2vqgtxw.cn^
@@ -124677,6 +124677,7 @@ zzzyk.com###Tinfo
 ||5h3wnuhr8.com^
 ||5hdz1gnue.com^
 ||5hffr1p22j.com^
+||5ho41ueq7w.com^
 ||5hu7hee0pt.com^
 ||5ibanma.com^
 ||5icool.org/uploadfile/poster/
@@ -134485,6 +134486,7 @@ zzzyk.com###Tinfo
 ||analytics.perfumestime.sa^
 ||analytics.pesktop.com^
 ||analytics.petracarestore.com^
+||analytics.pextra.cloud^
 ||analytics.pgatour.com^
 ||analytics.pgncs.notion.so^
 ||analytics.phn.com^
@@ -147461,6 +147463,7 @@ zzzyk.com###Tinfo
 ||credible.com/api/logs-fe
 ||credifence-ss.olladeals.com^
 ||credifenceshop-ss.checkoutera.com^
+||credistory.ru/api/Metrics/
 ||credistory.ru/api/v1/LiveMetrics/
 ||credit.commercial.capitalontap.com^
 ||creema.jp/ad/click-log
@@ -155190,6 +155193,7 @@ zzzyk.com###Tinfo
 ||drau.viessmann.si^
 ||drawers06.com^
 ||drawfxk.com^
+||drawknife37.top^
 ||dre.dreamkue.com^
 ||dream.dreamheavenbd.xyz^
 ||dreamcounter.de^$third-party
@@ -161077,6 +161081,7 @@ zzzyk.com###Tinfo
 ||formulawire.com^$third-party
 ||forocoches.com/image/nada.gif
 ||forpci3.siege-corp.com^
+||fortbeach.com^
 ||forter.com^$third-party
 ||fortnitechat.site^$all
 ||fortunatemark.com^
@@ -161326,6 +161331,7 @@ zzzyk.com###Tinfo
 ||fqtyucit.com^
 ||fqvvn.getlemonhead.com^
 ||fqwgcx.catawiki.fr^
+||fqwv7k7ex.com^
 ||fqxkj.cn^
 ||fqxnlh.kgcshop.co.kr^
 ||fr-fr.siemensplmevents.com^
@@ -170265,6 +170271,7 @@ zzzyk.com###Tinfo
 ||hobbygames.ru/?route=product/product/visit
 ||hocalwire.com/tracking-
 ||hocgeese.com^
+||hockeyfool.com^
 ||hockeystack.com^$third-party
 ||hod.asphalte.com^
 ||hodges.actonservice.com^
@@ -185269,6 +185276,7 @@ zzzyk.com###Tinfo
 ||logtake.weidian.com^
 ||logua.com^$third-party
 ||logupdate.avlyun.sec.miui.com^
+||logws*.ati-host.net^
 ||logx-experimentation.iherb.com^
 ||logx.optimizely.com^
 ||logxp.ru^$third-party
@@ -199060,6 +199068,7 @@ zzzyk.com###Tinfo
 ||pbox.photobox.se^
 ||pbreo.sokolovelaw.com^
 ||pbrvf.daybreakskin.com^
+||pbs.inmobi.com^
 ||pbsoe.softiespjs.com^
 ||pbstats.jpmorgan.com^
 ||pbstck.com^$third-party
@@ -247812,6 +247821,7 @@ zzzyk.com###Tinfo
 ||w.bnlg.fun^
 ||w.bulkbuydirect.co.uk^
 ||w.ilfattoquotidiano.it^
+||w.inmobi.com^
 ||w.knuffelwuff.co.uk^
 ||w.pellepolitibil.no^
 ||w.revenuegeeks.com^
@@ -248192,6 +248202,7 @@ zzzyk.com###Tinfo
 ||wbmbr16tt.com^
 ||wbnijy.bakerross.fr^
 ||wboeot.shop2gether.com.br^
+||wbraekvint.com^
 ||wbswtr.decathlon.com.tr^
 ||wbt.worldbeachtennis.com.br^
 ||wbtr.chgmeridian.com^
@@ -251169,6 +251180,7 @@ zzzyk.com###Tinfo
 ||x3-predictor.goguardian.com^
 ||x35ehot6mu.com^
 ||x360xs.com/tops/
+||x3jhw0klp.com^
 ||x3lps9uuog.com^
 ||x3pfkiohz.com^
 ||x3zy2.icu^
@@ -251520,6 +251532,7 @@ zzzyk.com###Tinfo
 ||xj-landing.gdtimg.com^
 ||xj63rov3m.com^
 ||xj8z427gxz.com^
+||xjh4uvv1ew.com^
 ||xjkpzh.voraxacessorios.com.br^
 ||xjkugh.waterdropfilter.com^
 ||xjl2ts2q6a.com^
@@ -253569,6 +253582,7 @@ zzzyk.com###Tinfo
 ||zdhpenn.shop^
 ||zdi0.destinia.cr^
 ||zdiwsb.live^
+||zdjcxtteffxrri.com^
 ||zdjeae.live^
 ||zdjff.rootsbyga.com^
 ||zdkdwk.buzz^

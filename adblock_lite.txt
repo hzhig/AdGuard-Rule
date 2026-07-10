@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-07-09 22:56:42(GMT+8) 
-! Total count: 32870
+! ! Version: 2026-07-10 10:57:12(GMT+8) 
+! Total count: 32877
  
 ###ADtip
 ###Ad_windows
@@ -1575,7 +1575,6 @@
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##main.quote-main > .section_btn.clearfix.mt20
 ##oxk
-##p > a[href^="/AllRes/Vlog"]
 ##script + #coupletBox
 ##script + #rbbox
 ##script + .dbfh
@@ -2040,7 +2039,6 @@ $websocket,domain=wap.yushuwu.cloud
 /Appapi/jjlist.php
 /BadwebRemindPage.aspx?param=$popup,third-party
 /BrandXuanDong.js
-/CC6F9ACB52D1582671AFEA808AFE10FE.gif
 /CoNTent*(com?
 /Code/pccpcv.php
 /CodeFiles/*.aspx?placeid=$third-party
@@ -14118,6 +14116,7 @@ steelcn.cn##.new_fixed
 stheadline.com###jetso-wrapper
 stheadline.com##.section-popular
 sto520.com#?#.content > div.book > div[style^="text-align"]:has(> ins.adsbygoogle)
+stock-calculator.net##.grid > div > div.overflow-hidden:has(> div.inset-0 > ins.adsbygoogle)
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
 stock87.com##div[id^="Javascript"]
 stock87.com##div[style^="position:relative;width:1000px;height:90px;"]
@@ -15974,7 +15973,6 @@ zzzyk.com###Tinfo
 ||*.amazonaws.com/js/adblock.min.js$script,domain=motorsport-total.com
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.kameleoon.eu^$domain=20minutes.fr|20min.fr
-||*.mp4$redirect=noopmp3-0.1s,domain=huavod.com|huaren.live
 ||*.org/config/v7.js
 ||*/ad/$redirect=noopmp3-0.1s,domain=huaren.tv
 ||*/vhot2.qqvideo.tc.qq.com^
@@ -16030,6 +16028,7 @@ zzzyk.com###Tinfo
 ||0598yu.com/api.php?mod=ad&
 ||05pg9z.com^
 ||0606kk.com/js/index/index.js
+||063rpyn37z.com^
 ||063tutu.com^
 ||064ioio.com^
 ||065yuyu.com^
@@ -16641,6 +16640,7 @@ zzzyk.com###Tinfo
 ||2r69dkb1a.com^
 ||2rwonuh.com^
 ||2top98spp.shop^
+||2u2wyftqmr.com^
 ||2u3v4w5x6y.com^
 ||2vcb9onxjm.com^
 ||2vqgtxw.cn^
@@ -17159,6 +17159,7 @@ zzzyk.com###Tinfo
 ||5h3wnuhr8.com^
 ||5hdz1gnue.com^
 ||5hffr1p22j.com^
+||5ho41ueq7w.com^
 ||5hu7hee0pt.com^
 ||5ibanma.com^
 ||5icool.org/uploadfile/poster/
@@ -21198,6 +21199,7 @@ zzzyk.com###Tinfo
 ||dragon-guide.net/pic001/pic/shangcheng/
 ||drawers06.com^
 ||drawfxk.com^
+||drawknife37.top^
 ||dreamlikeverse.com^
 ||drebz4f.shop^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
@@ -22097,6 +22099,7 @@ zzzyk.com###Tinfo
 ||fqquzqd.top^
 ||fqthetotf.com^
 ||fqtyucit.com^
+||fqwv7k7ex.com^
 ||fqxkj.cn^
 ||fr701hx5vi.com^
 ||fraction05.com^
@@ -30846,6 +30849,7 @@ zzzyk.com###Tinfo
 ||wbiao.co/src2/js/expand/fudong/
 ||wbkar038r.com^
 ||wbmbr16tt.com^
+||wbraekvint.com^
 ||wbupbv.com^
 ||wbvfj.xyz^
 ||wc6y3nrv7g.com^
@@ -31298,6 +31302,7 @@ zzzyk.com###Tinfo
 ||x23qb.com/skin/themex.js
 ||x35ehot6mu.com^
 ||x360xs.com/tops/
+||x3jhw0klp.com^
 ||x3lps9uuog.com^
 ||x3pfkiohz.com^
 ||x3zy2.icu^
@@ -31510,6 +31515,7 @@ zzzyk.com###Tinfo
 ||xj-landing.gdtimg.com^
 ||xj63rov3m.com^
 ||xj8z427gxz.com^
+||xjh4uvv1ew.com^
 ||xjl2ts2q6a.com^
 ||xjoiteee8.com^
 ||xjrvwz.com^
@@ -32439,6 +32445,7 @@ zzzyk.com###Tinfo
 ||zdhpenn.live^
 ||zdhpenn.shop^
 ||zdiwsb.live^
+||zdjcxtteffxrri.com^
 ||zdjeae.live^
 ||zdkdwk.buzz^
 ||zdkdwk.live^
