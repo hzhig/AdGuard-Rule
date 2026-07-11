@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-10 22:24:14(GMT+8) 
-! Total count: 254553
+! ! Version: 2026-07-11 10:33:43(GMT+8) 
+! Total count: 254565
  
 ###ADtip
 ###Ad_windows
@@ -112320,6 +112320,7 @@ mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
 mcmod.cn###McmodDonate
 mcmod.cn##a[href^="https://link.mcmod.cn/target/service-ad-vat"]
+mcp.directory#%#//scriptlet('remove-cookie', 'dotcom_user')
 md.hkgolden.com##.hkg-ad
 md.hkgolden.com#?##viewpage > .post:has(> :is(div[id^="div-gpt-"], .hkg-ad))
 mdpr.jp#?#.p-articleList__heading:has(+ div#taboola-below-article-thumbnails-desktop)
@@ -135102,6 +135103,7 @@ zzzyk.com###Tinfo
 ||anontimes.com^
 ||anonym.data.funkedigital.de^
 ||anonymised.io^$third-party
+||anonymized-metrics.rmbl.ws^
 ||anormal-tracker.de^$third-party
 ||anqu.com/b.js
 ||anrdoezrs.net^$third-party
@@ -143189,6 +143191,7 @@ zzzyk.com###Tinfo
 ||capisvr.falaqfood.com^
 ||capital.com^$ping
 ||capitalone.com/collector/
+||capitalopera.com^
 ||capitfes.andrefilipe.com.br^
 ||capitp.teacherpimenta.com^
 ||capping.sirius.press^
@@ -147517,6 +147520,7 @@ zzzyk.com###Tinfo
 ||crmmetrixwris.com^$third-party
 ||crmonline.actonservice.com^
 ||crmvg.zanerobe.com^
+||cro541bud.com^
 ||crobotb.com^
 ||crocetta.viessmann.it^
 ||crochetdivas.com^
@@ -147836,6 +147840,7 @@ zzzyk.com###Tinfo
 ||ctyojp.kibek.de^
 ||ctzcqz.impromptugourmet.com^
 ||cu.dzen.ru/?rn=
+||cu9epqwr6.com^
 ||cuarb.cartersoshkosh.ca^
 ||cubaobei.com^
 ||cubbyathome.com/jAYekY18/init.js
@@ -164749,6 +164754,7 @@ zzzyk.com###Tinfo
 ||gqmuky.kaigonohonne.com^
 ||gqnous.klingel.be^
 ||gqodc.lovecrafts.com^
+||gqot4qlr9.com^
 ||gqqxum.mannys.com.au^
 ||gqraqz.e-domizil.de^
 ||gqssj.dukesweightloss.com.au^
@@ -169123,6 +169129,7 @@ zzzyk.com###Tinfo
 ||handler.rgstats.com^
 ||handleteeth.com^
 ||handmade.prettyserendipity.co.uk^
+||handsaw46.com^
 ||handsomehose.com^
 ||handsomeindustry.com^
 ||handsomelyhealth.com^
@@ -175601,6 +175608,7 @@ zzzyk.com###Tinfo
 ||jjkiahh.icu^
 ||jjkjn.luumlife.com^
 ||jjklrcw.com^
+||jjl4eob8mm.com^
 ||jjltj.58thstreet.co.uk^
 ||jjm.jjmodas.com.br^
 ||jjnrd.loversstores.com^
@@ -197022,6 +197030,7 @@ zzzyk.com###Tinfo
 ||oneid.live^
 ||oneid.mmstat.com^
 ||oneinstack.com/images/oneinstack-
+||onekindmarket.com^
 ||onelink.appsflyer.com^
 ||onelink.me^$image,script,third-party
 ||onelink.me^$third-party
@@ -197066,6 +197075,7 @@ zzzyk.com###Tinfo
 ||onhqz.rocksbox.com^
 ||oniad.com^$third-party
 ||onigh.colorwowhair.com^
+||onioncomic.com^
 ||onjjbn.koffiemarkt.be^
 ||onjmsj.sumai-surfin.com^
 ||onkacspio.com^
@@ -235541,7 +235551,7 @@ zzzyk.com###Tinfo
 ||tags.tiq.rbcinsurance.com^
 ||tags.tiq.rbcprivateinsurance.com^
 ||tags.tiq.worldprotect.com^
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com|the-sun.com|lavazza.com|greenmangamingbundles.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com|the-sun.com|lavazza.com|greenmangamingbundles.com
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org|calvinklein.ca|hosteurope.de|news.com.au|lavazza.com
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||tags.tiqcdn.com^$app=uk.co.thetimes|com.hulu.plus|com.booking
@@ -251139,6 +251149,7 @@ zzzyk.com###Tinfo
 ||x.com/1.1/graphql/viewer_context.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
+||x.com/i/api/1.1/flow/viewer.json
 ||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
@@ -251902,6 +251913,7 @@ zzzyk.com###Tinfo
 ||xtazfx.50factory.com^
 ||xtbzff.xyz^
 ||xtcpby.skechers.com^
+||xtfxjlpglilrdo.com^
 ||xtg5gdugqi.com^
 ||xtgreat.com^$third-party
 ||xthaap.schwaebische-alb-jobanzeiger.de^
