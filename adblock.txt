@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-13 22:32:13(GMT+8) 
-! Total count: 254621
+! ! Version: 2026-07-14 10:25:44(GMT+8) 
+! Total count: 254632
  
 ###ADtip
 ###Ad_windows
@@ -113523,8 +113523,8 @@ nodejs.cn#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 nodejs.cn#%#//scriptlet('set-constant', 'adRender', 'noopFunc')
 nodejs.cn#%#//scriptlet('set-constant', 'adsbygoogle', 'emptyObj')
 nodejs.cn#%#//scriptlet('set-constant', 'adsbygoogle.loaded', 'true')
-nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
+nodeloc.com##.sidebar-ads-wrapper
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
 nodeseek.com##.promotation-item
 nongjitong.com##.ad_sms
@@ -124392,6 +124392,7 @@ zzzyk.com###Tinfo
 ||4d9f09z8c.com^
 ||4dex.tech^
 ||4dyt.cn^
+||4e0jpheoi1.com^
 ||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com/sa7d76sa/
 ||4e9ynqm47d.com^
 ||4etsr.xyz^
@@ -132669,6 +132670,7 @@ zzzyk.com###Tinfo
 ||aktualne.cz^$removeparam=dop_id
 ||aktualne.cz^$removeparam=dop_req_id
 ||aktualne.cz^$removeparam=dop_source_zone_name
+||akutagawa.consumer.gopuff.com^
 ||akuziti.com/tu/*.js
 ||akv2-br-cdn.kwai.net.iberostar.com^
 ||akviv.snagtights.eu^
@@ -164803,6 +164805,7 @@ zzzyk.com###Tinfo
 ||grado.ufv.es^
 ||graduate59.com^
 ||grafana-agent.cuboxx.io^
+||grafana-app-proxy.consumer.gopuff.com/collect
 ||grafana.net/collect/
 ||graffiti-tags.apple.com^
 ||grainmass.com^
@@ -199012,6 +199015,7 @@ zzzyk.com###Tinfo
 ||passportnews.co.il/system/js/analytics.js
 ||passportnews.co.il/tag_manager.js
 ||passt.cleens.co.uk^
+||passwordbyte.com^
 ||pasta.esfile.duapps.com^
 ||pastoralroad.com^
 ||patched.to^$cookie=mybb[lastactive]
@@ -200434,6 +200438,7 @@ zzzyk.com###Tinfo
 ||player.videasy.to/scripts/ab.js
 ||player.vimeo.com/log
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
+||playerhappy.com^
 ||playerserver.walkme.com/Statistics/
 ||playeur.com/plbio/api/event
 ||playfulriver.com^
@@ -202075,6 +202080,7 @@ zzzyk.com###Tinfo
 ||pziqf.blackovis.com^
 ||pzjhx.bauhaus.dk^
 ||pzjizsyf.icu^
+||pzkkot4kn.com^
 ||pzkrgcp.cn^
 ||pzkvg.elevatedfaith.com^
 ||pzlkz.villadelpalmar.com^
@@ -204920,6 +204926,7 @@ zzzyk.com###Tinfo
 ||rocket.ivi.ru/event
 ||rocket.ivi.ru/playback/event
 ||rocketcdn.me/*/tracking.js
+||rocketmonitor.com^
 ||rockincontent.net^$third-party
 ||rockm.sydneyhydroplumbing.com.au^
 ||rocks.io^$third-party
@@ -205012,6 +205019,7 @@ zzzyk.com###Tinfo
 ||route.empresanoautomatico.com.br^
 ||route.kcvisibility.com^
 ||routeapp.io/route-analytics/
+||routebug.com^
 ||router28.net.anwalt.de^
 ||routes.navibration.com^
 ||rouwhapt.com^
@@ -206313,6 +206321,7 @@ zzzyk.com###Tinfo
 ||s2strack.nextbase.co.uk^
 ||s2tu.com/images/*.gif
 ||s2whyufxmzam.chatpay.com.br^
+||s2ze6h0miy.com^
 ||s3-analytics-events.easybrain.com^
 ||s3-ca-liveops.easybrain.com^
 ||s3-nl-01.mangabuddy.in^
@@ -207488,6 +207497,7 @@ zzzyk.com###Tinfo
 ||scintillatingscissors.com^
 ||scintillatingsilver.com^
 ||scispg.smu.edu.sg^
+||scissors73.top^
 ||scissorsstatement.com^
 ||scjlpq.navitime.co.jp^
 ||scjpqut.cn^
@@ -254273,6 +254283,7 @@ zzzyk.com###Tinfo
 ||zprk.io^$third-party
 ||zpsfvc.phinaturals.com^
 ||zpsovpgyk.xyz^
+||zptfrxoaumxhnu.com^
 ||zpuip.aroma360.mx^
 ||zpwykn.emassagechair.com^
 ||zpxvpvee.icu^
