@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-14 10:25:44(GMT+8) 
-! Total count: 254632
+! ! Version: 2026-07-14 21:40:38(GMT+8) 
+! Total count: 254649
  
 ###ADtip
 ###Ad_windows
@@ -10383,6 +10383,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.googleadservices.*.js$domain=ponominalu.ru
 @@.jpg#$domain=huhupan.com
+@@.my.salesforce-setup.com/_ui/common/config/field/*/d?id=*&type=
 @@.php?id=$script,domain=surirt.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|digit77.com|e9china.net|upxin.net
 @@/.adforge.|$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
@@ -15041,7 +15042,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tracklog.58.com/referrer_ershouche_m_Now.js$domain=m.renrenche.com
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||trackr.fr/sites/all/themes/contrib/touch/js/miroirs/adwordstracking.js$script
-@@||trailblaze.my.salesforce-setup.com/_ui/common/config/field/*/d?id=*&type=
 @@||transfernow.net/*/dltransfer$removeparam
 @@||translate.googleapis.com/element/
 @@||translate.googleapis.com/element/$badfilter
@@ -20834,6 +20834,7 @@ comichara.com,movient.net###text-6
 commonhealth.com.tw##div[class*="ad--"]
 comopremium.com.ar###blanuncio
 comopremium.com.ar##IMG[src="templates/plugmod/images/a.png"]
+complex.com#%#//scriptlet('set-local-storage-item', 'poll_anonymous_id', '$remove$')
 compo.de#%#//scriptlet('set-local-storage-item', 'rid', '$remove$')
 comprovendolibri.it#@#.myTestAd
 comptoir-info.com#@#.textad
@@ -123214,6 +123215,7 @@ zzzyk.com###Tinfo
 ||073img.com/*/|
 ||074adzx.com^
 ||0755rc.com^$third-party
+||078pwrxpbg.com^
 ||07b3.pandasuite.io^
 ||07pv7k61z.com^
 ||080999.cn^
@@ -123636,6 +123638,7 @@ zzzyk.com###Tinfo
 ||18comic.*/templates/frontend/airav/js/jquery.*_*.js
 ||18comic.vip/templates/frontend/airav/js/td_js/td_ga_tracker.js
 ||18dui.com^
+||18ioh53d3f.com^
 ||18mo21a2ji.com^
 ||18wosx.ru^
 ||1900196654.p04.elqsandbox.com^
@@ -140674,6 +140677,7 @@ zzzyk.com###Tinfo
 ||bison.stuffmatic.com^
 ||bison.weitweit.at^
 ||bisrtb.vidazoo.com^
+||bissell.pl/datalayer/index/events
 ||bisto.shinesty.com^
 ||bistoury55.com^
 ||bit.beformance.com^
@@ -145193,6 +145197,7 @@ zzzyk.com###Tinfo
 ||clkcv.biglobehikari-kaisen.com^
 ||clkcv.livede55.com^
 ||clkstat.china.cn^
+||clktrkd.com^
 ||clkwnl.xyz^
 ||cllctr.any.run^
 ||cllctr.roistat.com^
@@ -159181,6 +159186,7 @@ zzzyk.com###Tinfo
 ||evri.com/analytics/
 ||evs.data.ciceksepeti.com^
 ||evs.icy-lake.kickstarter.com^
+||evs.segment.complex.com^
 ||evs.sgmt.loom.com^
 ||evs.sgmt.loom.com^$script
 ||evss.evinyolu.net^
@@ -188865,6 +188871,7 @@ zzzyk.com###Tinfo
 ||mc.yandex.ru^
 ||mc.yandex.ru^$cookie=yabs-sid
 ||mc.yango.com^
+||mc0pagg4ao.com^
 ||mc2o133jkwu19fv9.net.fidor.de^
 ||mcacry.trendhim.it^
 ||mcad.mods-clinic.com^
@@ -189314,11 +189321,13 @@ zzzyk.com###Tinfo
 ||media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/js/blocked.min.js$script,domain=smashingmagazine.com
 ||media-platform.com/common/js/lib/cxense/
 ||media-stat.mail.ru^
+||media-trend.mail.ru/pixel/
 ||media.affiliate.logitravel.com^
 ||media.bestproxyandvpn.com^
 ||media.biolovers.nl^
 ||media.cdn.kuwo.cn*tuijian*.json$app=cn.kuwo.player
 ||media.claritylabsolutions.com^
+||media.complex.com/common/catalyst.js
 ||media.contentassetscdn.com^
 ||media.eagleridgeinvestment.com^
 ||media.elementsbehavioralhealth.com^
@@ -198053,6 +198062,7 @@ zzzyk.com###Tinfo
 ||p030.courant.com^
 ||p04.sc.origins.en25.com^
 ||p06.sc.origins.en25.com^
+||p0pn18sxvh.com^
 ||p0y.cn^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
 ||p0y.cn^$third-party
@@ -201938,6 +201948,7 @@ zzzyk.com###Tinfo
 ||pvglc.petespasta.com^
 ||pvhbhnqip.com^
 ||pvhpt.betabrand.com^
+||pvino9yhp3.com^
 ||pvjep.edsflyshop.com^
 ||pvjjg.plouise.co.uk^
 ||pvkc.cn^
@@ -203188,6 +203199,7 @@ zzzyk.com###Tinfo
 ||r.stripe.com^$ping,script,xmlhttprequest
 ||r.studiosarte.com^
 ||r.trwl1.com/s1/$subdocument
+||r.vares.top^
 ||r.wdfl.co/rw.js
 ||r.winf.site^
 ||r.wz.de^
@@ -203209,6 +203221,7 @@ zzzyk.com###Tinfo
 ||r2b2.cz/events.php?
 ||r2pnq.montecarlovirtualtour.com^
 ||r2r.utas.edu.au^
+||r3.mail.ru/k?fver=
 ||r3.mail.ru/k?sign=
 ||r36ku.site^
 ||r3nvrr4uzh.com^
@@ -203981,6 +203994,7 @@ zzzyk.com###Tinfo
 ||reke.at.sohu.com^
 ||reklama.lv/services/collect.php
 ||reklama.lv/services/espy.php
+||reklama.mail.ru/*.gif
 ||rel-link.californiapsychics.com^
 ||rel.msn.com^
 ||relacionamento.edpcomunicacao.com.br^
@@ -204969,6 +204983,7 @@ zzzyk.com###Tinfo
 ||romiyee.icu^
 ||romotur.actonservice.com^
 ||ronbbf.xyz^
+||ronfjvonmo.com^
 ||rongedui.com^
 ||roois.nurseyard.com^
 ||rook.behmann.at^
@@ -233379,7 +233394,6 @@ zzzyk.com###Tinfo
 ||support.hqts.com^
 ||support.huawei.com/enterprisesearch/3rdParty/opensource/analytics/
 ||support.labcorp.com^
-||support.microsoft.com/*/ms.analytics-web-*.min.js
 ||support.panasonic.eu^
 ||support.ricoh.de^
 ||support.ricoh.fr^
@@ -243366,6 +243380,7 @@ zzzyk.com###Tinfo
 ||trk.stroeermediabrands.de^
 ||trk.supermarketnews.com^
 ||trk.svr-algorix.com^
+||trk.swipey.me^
 ||trk.swolegripz.com^
 ||trk.tabucbd.com^
 ||trk.tbivision.com^
@@ -244400,6 +244415,7 @@ zzzyk.com###Tinfo
 ||tzfgm.aweinspired.com^
 ||tzgurwizule3.app.cardahealth.com^
 ||tzhchq.secretderm.com^
+||tzifhmvuju.com^
 ||tzipd.rockemsocks.com^
 ||tzlbzndiezpzro.com^
 ||tzlit.cn^
@@ -245086,6 +245102,7 @@ zzzyk.com###Tinfo
 ||umami.subdavis.com^
 ||umami.syg.ma^
 ||umami.vidcore.net^
+||umami.vidfast.
 ||umami.vidfast.pro^
 ||umami.vidup.to^
 ||umami.wakarimasen.moe^
