@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-07-14 21:40:38(GMT+8) 
-! Total count: 32933
+! ! Version: 2026-07-15 10:23:33(GMT+8) 
+! Total count: 32943
  
 ###ADtip
 ###Ad_windows
@@ -341,6 +341,7 @@
 ##.__isboostOverContent
 ##._cggp
 ##._ggs
+##._v_ad_container
 ##.a-media.ex-728-90
 ##.a_2mu
 ##.a_cn
@@ -7288,10 +7289,12 @@ blog.51cto.com##ul.Navigates > li.first > a[href][target="_blank"]
 blog.csdn.net###article_content > link + a
 blog.csdn.net###kp_box_www_swiper_ban
 blog.csdn.net##.blog-slide-ad-box
+blog.csdn.net##.passport-login-container
 blog.csdn.net##.programmer1Box
 blog.csdn.net##.t0
 blog.csdn.net##.toolbar-advert
 blog.csdn.net##SCRIPT[src^="https://csdnimg.cn/release/phoenix/vendor/linkCatcher/linkCatcher.js"] + .t0
+blog.csdn.net##[class^='mobileContainer_']
 blog.csdn.net##div[style="min-height:250px;"]
 blog.csdn.net##dl[id^="yd_a_d_feed_"]
 blog.icook.tw##span[class^="style_adUnit"]
@@ -17301,6 +17304,7 @@ zzzyk.com###Tinfo
 ||6avz.com^$script,third-party
 ||6b8emvi3ya.com^
 ||6b9wbbjf5s.com^
+||6bgubwkwoh.com^
 ||6c34boi06m.com^
 ||6cjdya3djn.com^
 ||6cmxoje5k.com^
@@ -21672,6 +21676,7 @@ zzzyk.com###Tinfo
 ||epoun.top^
 ||eprice.com.tw/img/tw_m/ad/
 ||epxlt.xyz^
+||eq9qnbh53.com^
 ||eqghuu.com^
 ||eqieg6yn5.com^
 ||eqlhb8m42q.com^
@@ -26740,6 +26745,7 @@ zzzyk.com###Tinfo
 ||nqlzlr.icu^
 ||nqoxurf.icu^
 ||nqwgvk.cn^
+||nrfvq6g98.com^
 ||nrjzkj.cn^
 ||nrki.cn^
 ||nrsfh.com/neirong/
@@ -27206,6 +27212,7 @@ zzzyk.com###Tinfo
 ||pagefair.com^$third-party
 ||pagefair.net^$third-party
 ||pageview.kgsz.cn^
+||paintbrush82.top^
 ||palmertx.com/template/js/img-1.php
 ||pan.baidu.com/act/api/activityentry?
 ||pan0304.com/ads.
@@ -29414,6 +29421,7 @@ zzzyk.com###Tinfo
 ||t2zfyxjj.icu^
 ||t33ng.com^
 ||t57u6anx2.com^
+||t5gp7rzz4.com^
 ||t6ec3seyq.com^
 ||t78obxl4h1.com^
 ||t7cp4fldl.com^
@@ -31739,6 +31747,7 @@ zzzyk.com###Tinfo
 ||xscp03131xq.com^
 ||xsjh001.xyz^
 ||xslca.cc/js/pf.js
+||xspxdhkcaplhza.com^
 ||xssncc2tv.com^
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
@@ -32312,6 +32321,7 @@ zzzyk.com###Tinfo
 ||yyetss.com/static/modal.js
 ||yyhbt.cn^
 ||yylady.cn^
+||yymowvdy0.com^
 ||yynncbn.cn^
 ||yyqozaldwa.com^
 ||yyselrqpyu.com^

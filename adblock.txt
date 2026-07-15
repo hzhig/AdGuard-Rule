@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-14 21:40:38(GMT+8) 
-! Total count: 254649
+! ! Version: 2026-07-15 10:23:33(GMT+8) 
+! Total count: 254663
  
 ###ADtip
 ###Ad_windows
@@ -345,6 +345,7 @@
 ##.__isboostOverContent
 ##._cggp
 ##._ggs
+##._v_ad_container
 ##.a-media.ex-728-90
 ##.a_2mu
 ##.a_cn
@@ -16970,10 +16971,12 @@ blog.51cto.com##ul.Navigates > li.first > a[href][target="_blank"]
 blog.csdn.net###article_content > link + a
 blog.csdn.net###kp_box_www_swiper_ban
 blog.csdn.net##.blog-slide-ad-box
+blog.csdn.net##.passport-login-container
 blog.csdn.net##.programmer1Box
 blog.csdn.net##.t0
 blog.csdn.net##.toolbar-advert
 blog.csdn.net##SCRIPT[src^="https://csdnimg.cn/release/phoenix/vendor/linkCatcher/linkCatcher.js"] + .t0
+blog.csdn.net##[class^='mobileContainer_']
 blog.csdn.net##div[style="min-height:250px;"]
 blog.csdn.net##dl[id^="yd_a_d_feed_"]
 blog.fc2.com#?#.side-menu > div.sidebar-style > script[src^="//counter1.fc2.com/"]:upward(2)
@@ -124874,6 +124877,7 @@ zzzyk.com###Tinfo
 ||6b8emvi3ya.com^
 ||6b9wbbjf5s.com^
 ||6bc.edge41.testandtarget.omniture.com^
+||6bgubwkwoh.com^
 ||6c34boi06m.com^
 ||6cjdya3djn.com^
 ||6cmxoje5k.com^
@@ -158196,6 +158200,7 @@ zzzyk.com###Tinfo
 ||eq-tracking.d-marketing.ricoh.co.jp^
 ||eq-tracking.myricoh.jp^
 ||eq.userneeds.com^
+||eq9qnbh53.com^
 ||eqclicks.movember.com^
 ||eqcpn.semcostura.com^
 ||eqghuu.com^
@@ -170381,6 +170386,7 @@ zzzyk.com###Tinfo
 ||homemate.co.jp/common/js/beacon/real_estate_detail.js
 ||homemate.co.jp/for/beacon_info/
 ||homerun.co.uk^$cookie=_fingerPrint
+||homerunfood.com^
 ||homeslick.com^
 ||homestore.com/srv/
 ||hommies.homestuffbd.com^
@@ -195769,6 +195775,7 @@ zzzyk.com###Tinfo
 ||nrepr.thegymking.com^
 ||nrert.brighton.com^
 ||nresystems.com^$third-party
+||nrfvq6g98.com^
 ||nrg.red-by-sfr.fr^
 ||nrich.ai^$third-party
 ||nrils.michaelkors.com^
@@ -198335,6 +198342,7 @@ zzzyk.com###Tinfo
 ||pailpatch.com^
 ||painel.lojalacodemenina.com.br^
 ||painstakingpickle.com^
+||paintbrush82.top^
 ||paintersusainc.actonservice.com^
 ||paintmogul.com^
 ||paintpear.com^
@@ -207502,6 +207510,7 @@ zzzyk.com###Tinfo
 ||sciencenet.cn/field/js/news.
 ||sciencenet.cn/html/js/n
 ||sciencerevenue.com^$third-party
+||sciencevault.net^
 ||sciencex.com/api/location/
 ||scientificshirt.com^
 ||scii.spolaorimoveis.com.br^
@@ -207861,6 +207870,7 @@ zzzyk.com###Tinfo
 ||seamless.wtaxgroup.co^
 ||seamlesssalon.com^
 ||seao.business.samsung.com^
+||seaotterplay.com^
 ||seaquake54.com^
 ||search-api.fie.futurecdn.net/js/*/master-*/analytics-library-entry-getCustomTrackingId.js
 ||search-api.joongna.com/v*/ga/log|
@@ -208612,6 +208622,7 @@ zzzyk.com###Tinfo
 ||send.preply.com^
 ||sender.contentjs.com^$popup
 ||sendgrid.employeelinkapp.com^
+||sendinblast.com^
 ||sendingspire.com^
 ||sendmoney.americanexpress.co.uk^
 ||sendpulse.com^$third-party
@@ -234995,6 +235006,7 @@ zzzyk.com###Tinfo
 ||t4ft.de^$third-party
 ||t570.wiltonbulletin.com^
 ||t57u6anx2.com^
+||t5gp7rzz4.com^
 ||t6ec3seyq.com^
 ||t733.wjcl.com^
 ||t78obxl4h1.com^
@@ -251974,6 +251986,7 @@ zzzyk.com###Tinfo
 ||xslca.cc/js/pf.js
 ||xslmpq.ohou.se^
 ||xsplit.com/_gtm.js
+||xspxdhkcaplhza.com^
 ||xsrv.jp/ga/
 ||xsrzqh.ananzi.co.za^
 ||xsrzqh.oferte360.ro^
@@ -253326,6 +253339,7 @@ zzzyk.com###Tinfo
 ||yyjxv.godisdope.com^
 ||yylady.cn^
 ||yylqlk.agatinsvet.cz^
+||yymowvdy0.com^
 ||yynncbn.cn^
 ||yyqlpi.danmusikk.no^
 ||yyqozaldwa.com^
