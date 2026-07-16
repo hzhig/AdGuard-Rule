@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-16 10:31:16(GMT+8) 
-! Total count: 254678
+! ! Version: 2026-07-16 21:47:58(GMT+8) 
+! Total count: 254701
  
 ###ADtip
 ###Ad_windows
@@ -108309,6 +108309,7 @@ ip.cn##.well > p > a
 ip.sb##.wwads_abp
 ip.sb##[style='text-align: center;margin: 20px 0;width: 100%;']
 ip138.com###banana
+ipay.ztgame.com#%#//scriptlet('prevent-fetch', 'beacon.ztgame.com')
 ipcelou.com##.MODBanana
 ipcfun.com###crumb_r
 ipcfun.com###sidebar > ul > div[style]
@@ -116782,6 +116783,7 @@ se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 search.bilibili.com##.video-list > div:has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .ad-feedback-entry)
 search.brave.com#%#//scriptlet('set-local-storage-item', 'app.usageMetricsOptOut', 'true')
 search.chongbuluo.com##.search > div > a[target="_blank"] > img
+search.naver.com#%#//scriptlet('set-cookie-reload', 'NNB', '1', '/', '.naver.com')
 seclub.org##a[href^="http://waplog.net/"]
 secretmine.net###main-content > br
 secretmine.net###main-content > center
@@ -124754,6 +124756,7 @@ zzzyk.com###Tinfo
 ||5vuk.xyz^
 ||5w31xv1a2.com^
 ||5wl8x.xyz^
+||5wt390pvwz.com^
 ||5wv0y42ub.com^
 ||5wzew9jht.com^
 ||5x17591y3b.com^
@@ -125057,6 +125060,7 @@ zzzyk.com###Tinfo
 ||7dgk5h1lk.com^
 ||7dh26aja.com^
 ||7dqjgdk.com^
+||7eehi3vqy3.com^
 ||7eer.net^$third-party
 ||7eleven.marketing.7eleven.com.au^
 ||7g761j2nc.com^
@@ -125271,6 +125275,7 @@ zzzyk.com###Tinfo
 ||8x3wolchw.com^
 ||8x5vviy4r2.com^
 ||8xbook.org/scripts/ad/
+||8ya9li3d2g.com^
 ||8yd2rtikkz.com^
 ||8yo772d29.com^
 ||8yuwd5lpj.com^
@@ -143511,6 +143516,7 @@ zzzyk.com###Tinfo
 ||cbpgpg.bombshellsportswear.com^
 ||cbpnm.scentbird.com^
 ||cbpog.gruntstyle.com^
+||cbqh4uqmzm.com^
 ||cbs12.com/api/rest/analytics/
 ||cbsaavideo.com/measurements/
 ||cbsbnq.goodsey.com^
@@ -154349,6 +154355,7 @@ zzzyk.com###Tinfo
 ||dikmnhyxz.xyz^
 ||dikvs.bluebirdbotanicals.com^
 ||dilidili.wang/uploads/allimg/171227/1_1520203421.png
+||dilsnzgygszpla.com^
 ||dimensionfunding.actonservice.com^
 ||dimensions.mappy.com^
 ||dimestore.com^$third-party
@@ -160795,6 +160802,7 @@ zzzyk.com###Tinfo
 ||flixgvid.flix360.io^
 ||flixster.com^*/analytics.
 ||flixsyndication.net^$third-party
+||flixtrz.com/api/analytics/watch-event|
 ||flixyshop-ss.topashopo.com^
 ||fljaxb.chalktalksports.com^
 ||flkgjlfghm.com^
@@ -175065,6 +175073,7 @@ zzzyk.com###Tinfo
 ||ixtzad.fetch.co.uk^
 ||ixug0amgtn.com^
 ||iy.com.cn^$third-party
+||iy0keh7qj7.com^
 ||iycifx.coldwatercreek.com^
 ||iyes.youku.com^
 ||iyf.tv/a/$xmlhttprequest
@@ -177262,6 +177271,7 @@ zzzyk.com###Tinfo
 ||kls24qtvc.com^
 ||klsjxp.kyeonsadol.co.kr^
 ||klsrv.footlocker.ca^
+||klt2ojvew1.com^
 ||kltjbnfjmnh.com^
 ||klufjdo.com^
 ||klwuhp.daehyuninside.com^
@@ -177968,6 +177978,7 @@ zzzyk.com###Tinfo
 ||l.osakazine.net^
 ||l.otemo-yan.net^
 ||l.ouest-france.fr^
+||l.ovhcloud.com^
 ||l.page.worldvision.ca^
 ||l.paroledemamans.com^
 ||l.player.ooyala.com^
@@ -186365,6 +186376,7 @@ zzzyk.com###Tinfo
 ||m3cqjc3og6.com^
 ||m3ds.subarumetropolitain.com^
 ||m3ks1o8jz.com^
+||m3rsa3rnbm.com^
 ||m3uef4b38brmbntdzx.franchiseplus.nl^
 ||m3v8x28jut.com^
 ||m4.directwoodflooring.co.uk^
@@ -193467,6 +193479,8 @@ zzzyk.com###Tinfo
 ||mt3.maisontheatre.com^
 ||mt48.net^
 ||mt4v4.com^
+||mtag-*.wedevs.com^
+||mtag.markopolo.ai^
 ||mtag.mman.kr^
 ||mtaitdupf.com^
 ||mtaul.coverland.com^
@@ -195489,6 +195503,7 @@ zzzyk.com###Tinfo
 ||nnobek.waschbaer.de^
 ||nnocsin.cn^
 ||nnofmj.studiof.com.co^
+||nnqc6d2kgn.com^
 ||nnqhp.poponsmiles.com^
 ||nnqip.bestcanvas.ca^
 ||nnqwe.xyz^
@@ -196424,6 +196439,7 @@ zzzyk.com###Tinfo
 ||oe-static.de^*/wws.js
 ||oe8mnxdtoi.com^
 ||oe9s24wy9.com^
+||oeaznhm2wx.com^
 ||oebarc.ekosport.at^
 ||oeclu.craftedelements.com^
 ||oedbml.collage-shop.jp^
@@ -203030,6 +203046,7 @@ zzzyk.com###Tinfo
 ||qvenxs.cash-piscines.com^
 ||qveyyi.clarivate.com^
 ||qvfcl.privilegedshoes.com^
+||qvfvah7jyb.com^
 ||qvlcdw.ho-br.com^
 ||qvlvz.alphaindustries.com^
 ||qvmucs.abluestore.com^
@@ -207241,6 +207258,7 @@ zzzyk.com###Tinfo
 ||sats.mailbrew.com^
 ||sats.manager-magazin.de^
 ||sats.spiegel.de^
+||satualumni.itb.ac.id/api/client-logs
 ||saturno.nutrijuliamenezes.com.br^
 ||sausage34.com^
 ||save.accesspay.com.au^
@@ -214850,6 +214868,7 @@ zzzyk.com###Tinfo
 ||skilledview.com^
 ||skillfuldrop.com^
 ||skillfullyfrugal.com^
+||skillpuppy.com^
 ||skillshare.com/events/track
 ||skillshouse.actonservice.com^
 ||skimresources.com^$third-party
@@ -220343,6 +220362,7 @@ zzzyk.com###Tinfo
 ||sparrow.uitvaartzorg-vanraemdonck.be^
 ||sparrow.workingincontent.com^
 ||sparteo.com^$third-party
+||spatula91.com^
 ||spaziogames.it/ajax/player_impression.ashx?
 ||spb.docdoc.ru^$cookie=deviceId
 ||spbvedomosti.ru^$cookie=/^BITRIX_/
@@ -233806,6 +233826,7 @@ zzzyk.com###Tinfo
 ||swmkru.zlutahala.cz^
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
+||swordblock.com^
 ||swordfish.elvietanny.com^
 ||swordfish.floofs.com^
 ||swordfish.holzschuhe.at^
@@ -233832,6 +233853,7 @@ zzzyk.com###Tinfo
 ||swzrtm.unclereco.com^
 ||sx.fakjkwp.cn^
 ||sx.ifm.org^
+||sx2sg2t5sd.com^
 ||sxarakia.openapp.link^
 ||sxbhr.designsbyjuju.com^
 ||sxbj.gasparmtl.com^
@@ -246778,6 +246800,7 @@ zzzyk.com###Tinfo
 ||verticalsearchworks.com^$third-party
 ||vertigo52.top^
 ||vertster.com^$third-party
+||verybark.com^
 ||verypopularwebsite.com^$third-party
 ||verysadfun.com/assets/publish/jquery.*.js
 ||vesseltracker.com/assets/js/leaflet-ais-trackingsymbols/
