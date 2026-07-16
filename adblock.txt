@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-15 21:41:14(GMT+8) 
-! Total count: 254674
+! ! Version: 2026-07-16 10:31:16(GMT+8) 
+! Total count: 254678
  
 ###ADtip
 ###Ad_windows
@@ -14939,6 +14939,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tchibo.de^*/webtrekk_$xmlhttprequest
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
+@@||techlab-cdn.com/e/$domain=sephora.com
 @@||technews.tw/www/delivery/$badfilter
 @@||technews.tw^$generichide,badfilter
 @@||technical-service.net/api?$domain=n-tv.de|vip.de|rtl.de
@@ -208797,6 +208798,7 @@ zzzyk.com###Tinfo
 ||separatesort.com^
 ||sephora-qa.branch.rocks^
 ||sephora-qa.branchstaging.com^
+||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js
 ||sephreoqy.com^
 ||sepialine.linkdsg.com^
 ||sepvbm.fromyouflowers.com^
@@ -233680,6 +233682,7 @@ zzzyk.com###Tinfo
 ||swallow.pelias.io^
 ||swan.visualma.com^
 ||swankysquare.com^
+||swanwebcreations.com^
 ||swapan.tradecosmix.com^
 ||swarm.video/j79z9kzty.js
 ||swarm.video/stats/
@@ -254111,6 +254114,7 @@ zzzyk.com###Tinfo
 ||zkmhhr1fr79z.dictionary.basabali.org^
 ||zkmll.thh-org.com^
 ||zkmnpnt4xg.com^
+||zkn5zg8on.com^
 ||zknqll.icu^
 ||zknrhv.sebago.com^
 ||zkntjk.hikaku-cardloan.news.mynavi.jp^
