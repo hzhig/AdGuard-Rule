@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-17 10:33:29(GMT+8) 
-! Total count: 254713
+! ! Version: 2026-07-17 21:25:40(GMT+8) 
+! Total count: 254726
  
 ###ADtip
 ###Ad_windows
@@ -2989,12 +2989,12 @@ $websocket,domain=wap.yushuwu.cloud
 /AppMeasurement.js
 /AppMeasurement.js$domain=channel4.com
 /AppMeasurement.min.js
-/AppMeasurement.min.js$domain=petco.com|tractorsupply.com
+/AppMeasurement.min.js$domain=petco.com|tractorsupply.com|eonline.com
 /AppMeasurement2.js
 /AppMeasurementCustom.min.js
 /AppMeasurement_Module_ActivityMap.js$domain=channel4.com
 /AppMeasurement_Module_ActivityMap.min.js
-/AppMeasurement_Module_ActivityMap.min.js$domain=petco.com
+/AppMeasurement_Module_ActivityMap.min.js$domain=petco.com|eonline.com
 /Appapi/jjlist.php
 /Article/ViewCount/*
 /AutoTracker.js
@@ -123710,6 +123710,7 @@ zzzyk.com###Tinfo
 ||1gr.cz/log/
 ||1gr.cz/log^
 ||1gvzhr49e.com^
+||1h90ydceq.com^
 ||1hb4jkt1u2d.probemas.com^
 ||1hcgomshd.com^
 ||1hhwyb4vl.com^
@@ -123865,6 +123866,7 @@ zzzyk.com###Tinfo
 ||22588888.com^$popup
 ||22eo9qlbpt.com^
 ||22pixx.xyz/l/
+||22qcvn8hq.com^
 ||22svkcdbyp.com^
 ||22vie9ula.com^
 ||23.224.89.2^$third-party
@@ -125254,6 +125256,7 @@ zzzyk.com###Tinfo
 ||8mg050.n3cdn1.secureserver.net^*.gif
 ||8mg050.n3cdn1.secureserver.net^*/960
 ||8mhcc.top^
+||8o5v23yip.com^
 ||8oghu1wcau.com^
 ||8p14q886v2.com^
 ||8pbiddjtp.com^
@@ -138189,6 +138192,7 @@ zzzyk.com###Tinfo
 ||assets.htvapps.com/lumiere/fallback/analytics.js
 ||assets.ikventilasjon.no^
 ||assets.kost1.no^
+||assets.mediadelivery.net/rum.js
 ||assets.mediahostingcdn.com^
 ||assets.mikeroulston.com^
 ||assets.minutemediacdn.com/mm-cwv-tracker/
@@ -161443,6 +161447,7 @@ zzzyk.com###Tinfo
 ||franchising.pizzapizza.ca^
 ||franchising.toppers.ca^
 ||franeski.net/js/lib.js
+||franken-analytics.makeup.global^
 ||franklin-edu.actonservice.com^
 ||franklin.edu.actonservice.com^
 ||franksfloral.com^
@@ -164906,6 +164911,7 @@ zzzyk.com###Tinfo
 ||gridsumdissector.com^$third-party
 ||gripcorn.com^
 ||griza.homebase.co.uk^
+||grizly.*/metrics/
 ||grjasq.com^
 ||grjxzyrk.birchevents.com^
 ||grkrh.express.com^
@@ -175735,6 +175741,7 @@ zzzyk.com###Tinfo
 ||jly24aw29n5m-a.akamaihd.net^
 ||jm-madeira.pt/html/js/iter-libraries/iter-statistics.js
 ||jm.customer-success-apac.adobe.com^
+||jm3uvitq0.com^
 ||jmacqo.viata.es^
 ||jmbbs.cn/sjgg/
 ||jmbluyxkl.xyz^
@@ -177560,6 +177567,7 @@ zzzyk.com###Tinfo
 ||krevn0cq4.com^
 ||krfxvi.iconbydesign.com.au^
 ||krgoad.mauboussin.fr^
+||krhi1dc7m.com^
 ||krill.far.dev^
 ||krill.far.site^
 ||krill.spoonrage.com^
@@ -193165,6 +193173,7 @@ zzzyk.com###Tinfo
 ||movementventures.com/_uid.gif
 ||movetv.com/sa-events
 ||movibliss-ss.checkoutera.com^
+||moviebite.cc/api/trakt/
 ||moviefone.com/click?
 ||moviefone.com/ping?
 ||moviepilot.de/assets/autotrack
@@ -194283,6 +194292,8 @@ zzzyk.com###Tinfo
 ||na-pages.husqvarna.com^
 ||na.finekagu.com^
 ||na.groupondata.com^
+||na.web.skill.music.a2z.com/api/audioAdStarted
+||na.web.skill.music.a2z.com/api/elementClicked
 ||naajie.com/float.js
 ||naanalle.pl^
 ||naanalytics.jcb.com^
@@ -194808,6 +194819,7 @@ zzzyk.com###Tinfo
 ||netshoes.com.br/tracking/
 ||netstat.yunnan.cn^
 ||netstats.dk^$third-party
+||nettg.pl/store-view/api/track-page-view
 ||nettokom-lp.information.nettokom.de^
 ||netu.ac/cdn-cgi/trace
 ||netupdater.info^$third-party
@@ -201656,6 +201668,7 @@ zzzyk.com###Tinfo
 ||pswec.com/px/$third-party
 ||pswgpb.seshop.com^
 ||pswzggx.icu^
+||psxc6fapn.com^
 ||psxsjo.carrano.com.br^
 ||psychedelicarithmetic.com^
 ||psyzg.com/Public/Home/images/tuhe_240_236.gif
