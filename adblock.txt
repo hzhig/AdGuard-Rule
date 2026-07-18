@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-17 21:25:40(GMT+8) 
-! Total count: 254726
+! ! Version: 2026-07-18 10:24:48(GMT+8) 
+! Total count: 254732
  
 ###ADtip
 ###Ad_windows
@@ -3608,6 +3608,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/site/tracking-config/*
 /api/stat?
 /api/statsd|$~third-party,xmlhttprequest
+/api/stn/audience|$xmlhttprequest
 /api/track?guid
 /api/track|$third-party,xmlhttprequest
 /api/trk?
@@ -122416,8 +122417,7 @@ wzzy.cc##.xgplayer-error
 x-mol.com###floatWindow
 x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
-x.com#%#//scriptlet('set-constant', '__INITIAL_STATE__.featureSwitch.defaultConfig.rweb_home_jot_context_enabled.value', 'false')
-x.com#%#//scriptlet('set-constant', '__INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_context_enabled.value', 'false')
+x.com#%#//scriptlet('prevent-fetch', '/i/api/1.1/flow/viewer.json')
 x.com#%#//scriptlet('ubo-set', '__INITIAL_STATE__.featureSwitch.defaultConfig.rweb_home_jot_context_enabled.value', 'false')
 x.com#%#//scriptlet('ubo-set', '__INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_context_enabled.value', 'false')! url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
 x.com/*/videoads/
@@ -128136,6 +128136,7 @@ zzzyk.com###Tinfo
 ||a4sz.xyz^
 ||a4xvv2g18l.com^
 ||a51wzxssu.com^
+||a588g3q4t.com^
 ||a5wlr2yplf.com^
 ||a5xiazai.com/z/
 ||a6.hujiang.com^$domain=~class.hujiang.com
@@ -130230,6 +130231,7 @@ zzzyk.com###Tinfo
 ||abrnfctkn.xyz^
 ||abruptroad.com^
 ||abs.proxistore.com^
+||abs.twimg.com/responsive-web/client-web/loader.HomeTimelineAdblockNotice
 ||absentairport.com^
 ||absinfo.eagle.org^
 ||absm.hostliger.com^
@@ -131441,6 +131443,7 @@ zzzyk.com###Tinfo
 ||ads.tikpage.com^
 ||ads.tiktok.com^
 ||ads.tvb.com^
+||ads.tvp.pl^
 ||ads.ulti300capi.com^
 ||ads.webrekom.xyz^
 ||ads.win555capi.com^
@@ -142472,6 +142475,7 @@ zzzyk.com###Tinfo
 ||c.thredup.com^
 ||c.topya.com^
 ||c.tvsou.com^
+||c.uniten.io^
 ||c.vanityfair.com^
 ||c.vcty.co^
 ||c.viteos.ch^
@@ -232527,6 +232531,7 @@ zzzyk.com###Tinfo
 ||stepe.soulderma.com.br^
 ||stepik.org/api/metrics/
 ||stepioserver.citicrow.com^
+||stepladder10.top^
 ||stepservernew.sixtsix.com^
 ||stepstomeasure.qlearn.com.bd^
 ||stepup.bdamadermart.com^
@@ -252354,6 +252359,7 @@ zzzyk.com###Tinfo
 ||y820.darientimes.com^
 ||y8hxgv9m.kobetsu.co.jp^
 ||y900.greenwichtime.com^
+||y9oog9hyuo.com^
 ||y9ppy0icw1.com^
 ||ya*.dwstatic.com^
 ||ya.ru/clck/
