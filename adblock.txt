@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-19 21:15:21(GMT+8) 
-! Total count: 254333
+! ! Version: 2026-07-20 11:33:53(GMT+8) 
+! Total count: 254341
  
 ###ADtip
 ###Ad_windows
@@ -121813,6 +121813,7 @@ view.zero-markets.com$image
 view.zogsports.com$image
 view.zoko-marketing.co.il$image
 view.zwilling-news.com$image
+vikacg.com##a[href^="https://acg01.com/]"]
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > .grid > a[href^="http"]:not([href*="vikacg."])
 vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > a[href^="http"]:not([href*="vikacg."])
@@ -123785,6 +123786,7 @@ zzzyk.com###Tinfo
 ||1xwkhcsp3s5.vqsave.ommasign.com^
 ||1y55vfy87.com^
 ||1zdywcgmlt.com^
+||1zw5kzrzjm.com^
 ||2.haoxue360.com^
 ||2.tracktrack.org^
 ||2.wantsext.me^
@@ -142138,6 +142140,7 @@ zzzyk.com###Tinfo
 ||bvkyog.melvin-hamilton.de^
 ||bvlang.com/ad/
 ||bvlpbn.goldenpark.es^
+||bvnnxhmypzrpbe.com^
 ||bvpqrydt.xyz^
 ||bvqfh.skinesa.com^
 ||bvr.ast.snva.jp^
@@ -147562,6 +147565,7 @@ zzzyk.com###Tinfo
 ||crunchyroll.com/tracker?
 ||crunchyroll.com/versioned_assets/js/tracking^
 ||cruntn.receno.com^
+||crusher38.top^
 ||crutcheruimsettlement.e.epiqnotification.com^
 ||cruzietv.com^
 ||crvayw.kagunosato.com^
@@ -153920,6 +153924,7 @@ zzzyk.com###Tinfo
 ||dheear.site^
 ||dherea.site^
 ||dhfbm.auratenewyork.com^
+||dhfshdmuvezfhm.com^
 ||dhgate.com/yjb6/
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhhsz.wedgegame.com^
@@ -168889,6 +168894,7 @@ zzzyk.com###Tinfo
 ||gzcfm.petfinn.com^
 ||gzees.theperfumebox.com^
 ||gzfzcj.cn^
+||gzhkarwp9n.com^
 ||gzjnc.kewlioo.com^
 ||gzjndc.fumiiro.jp^
 ||gzjqb.warmies.com^
@@ -178254,6 +178260,7 @@ zzzyk.com###Tinfo
 ||leadc7.icu^
 ||leadcertain.actonservice.com^
 ||leadchampion.com^$third-party
+||leadconnectorhq.com/stats/event
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
 ||leader.executiveforum.com^
@@ -199238,6 +199245,7 @@ zzzyk.com###Tinfo
 ||perso.aws.arc.pub^
 ||personal.hubinternational.com^
 ||personalizado.caicobrindes.net.br^
+||personalize-edge.contentstack.com/events
 ||personyze.com^$third-party
 ||perspective44.top^
 ||pertholin.com^$third-party
@@ -199478,6 +199486,7 @@ zzzyk.com###Tinfo
 ||picgd.com/images/2018/12/01/h1pi5.png
 ||pichost.pics^$all
 ||picis.optum.com^
+||picjs.xyz/image/*.gif$domain=vikacg.com
 ||pickmicro.com^
 ||piclect.com^*.gif$third-party
 ||piclick.kr^$third-party
@@ -246477,7 +246486,6 @@ zzzyk.com###Tinfo
 ||verticalsearchworks.com^$third-party
 ||vertigo52.top^
 ||vertster.com^$third-party
-||verybark.com^
 ||verybark.com^$redirect=noopjs,script
 ||verybouncy.com^
 ||verypopularwebsite.com^$third-party
