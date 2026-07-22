@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-22 10:33:45(GMT+8) 
-! Total count: 254398
+! ! Version: 2026-07-22 21:50:25(GMT+8) 
+! Total count: 254407
  
 ###ADtip
 ###Ad_windows
@@ -106473,6 +106473,7 @@ gasaq.com###guanggao_right
 gasaq.com##.guanggao_ime_big
 gate.baidu.com,m.baidu.com###container
 gate.happycustomer.io$image
+gazetadopovo.com.br##section[class^="pianoRecommender"]
 gbatemp.net,usatoday.com#%#//scriptlet('ubo-set', 'admiral', 'noopFunc')
 gbyhn.com.tw##.footer-widget-column
 gcdsdk.appsflyersdk.com^
@@ -115673,8 +115674,6 @@ photopea.com##.flexrow > div[style^="padding-top:"]
 php.cn##.close_id
 php.cn##.layui-show > UL > .top-img
 php.cn##.wwads-cn
-php.cn##.zwwad
-php.cn##a[href*="/go."]:not([href*="Fwww.php"])
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
 phpvar.com##.qrcode-swiper-container
@@ -116571,7 +116570,7 @@ ria.ru##.antiblock
 riaway.com##.info_message_container
 ricardocuisine.com,thegentlemansjournal.com,thekrazycouponlady.com,flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 ridgemerino.com#%#//scriptlet('set-local-storage-item', 'kl-uid', '$remove$')
-right.com.cn###hd > div.wp > div.hdc > h2
+right.com.cn###hd > div.wp > div.hdc > h2 img.boardlogo
 right.com.cn##.wp > .a_t:has(> table > tbody > tr > td > .adsbygoogle)
 right.com.cn##a[href^="https://jd.dangbei.com/"]
 right.com.cn#@##sitefocus.focus
@@ -123257,6 +123256,7 @@ zzzyk.com###Tinfo
 ||0ihw4ipvm5.com^
 ||0jghm60qg.com^
 ||0kkbb.com/js/i.js
+||0kplffrs42.com^
 ||0krdn3.com^
 ||0l34c7sqy.com^
 ||0l7t5qhb4.com^
@@ -125139,6 +125139,7 @@ zzzyk.com###Tinfo
 ||82o9v830.com^
 ||83133.com/api/
 ||84dwl4bbq.com^
+||84v3xysu80.com^
 ||84zm8.xyz^
 ||85270jylmzsym.top^
 ||85566.net/js/loadjs/jquery
@@ -136215,6 +136216,7 @@ zzzyk.com###Tinfo
 ||api.store-macys.com/event-queue
 ||api.strats.gg/internal/api/*/visits
 ||api.streamelements.com/science/
+||api.strem.io/api/events
 ||api.studioimmagine.com.br^
 ||api.superembalagem.com.br^
 ||api.svan.com.br^
@@ -154080,6 +154082,7 @@ zzzyk.com###Tinfo
 ||diepresse.com^$removeparam=xt_at
 ||diepresse.com^$removeparam=xtor
 ||diesci.simpletire.com^
+||diestock56.top^
 ||dietj.cardboardcutoutstandees.com^
 ||difficultfog.com^
 ||diffusion-tracker.com^$third-party
@@ -159143,6 +159146,7 @@ zzzyk.com###Tinfo
 ||evpxl9a8h.com^
 ||evrget.nikkan-gendai.com^
 ||evri.com/analytics/
+||evrmwlh0dl.com^
 ||evs.data.ciceksepeti.com^
 ||evs.icy-lake.kickstarter.com^
 ||evs.segment.complex.com^
@@ -196079,6 +196083,7 @@ zzzyk.com###Tinfo
 ||o69cab6a.eulerian.io^
 ||o6oxvugdl.com^
 ||o8.hyatt.com^
+||o8agbq0qwm.com^
 ||o8u3n4q7fe.com^
 ||o9qdqbu6nu.com^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
@@ -198965,6 +198970,7 @@ zzzyk.com###Tinfo
 ||pblwxn.icu^
 ||pbm-email.rightwayhealthcare.com^
 ||pbmp.ali213.net/js/
+||pbo8y8igrp.com^
 ||pbox.no.photobox.com^
 ||pbox.photobox.at^
 ||pbox.photobox.be^
@@ -199445,8 +199451,6 @@ zzzyk.com###Tinfo
 ||photovault.store^$all
 ||phow238wzh.com^
 ||phozatoi.com^
-||php.cn/ad1.
-||php.cn/hezuo/
 ||php.panasiaticsolutions.com^
 ||php1.cn/uploads/huayun.jpg
 ||phpad.cqnews.net^
@@ -232730,6 +232734,7 @@ zzzyk.com###Tinfo
 ||streams.bestbuy.com/customer/web-streams/v1/events/cj-page-visits
 ||streams.cablecar.sph.com.sg^
 ||streamsend.com^$third-party
+||streamsports99.su/assets/trackingManager.*.js
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
 ||streamta.site/stat/
@@ -236408,6 +236413,7 @@ zzzyk.com###Tinfo
 ||tea.tescobank.com^
 ||tea2.tescobank.com^
 ||teach.graduateprogram.org^
+||teacher.php.cn/php/
 ||teal.cdt.santander.com.co^
 ||teal.openbank.de^
 ||teal.openbank.es^
@@ -251207,6 +251213,7 @@ zzzyk.com###Tinfo
 ||xficbl.my-auction.co.jp^
 ||xfidfuxidr.in^
 ||xfinity.com/event/
+||xfjy2fh28b.com^
 ||xflsj.com^
 ||xfobuc.serenaandlily.com^
 ||xfvod.pro/images/ad/
@@ -252798,6 +252805,7 @@ zzzyk.com###Tinfo
 ||yruws6.com^
 ||yrvbgr.eduwill.net^
 ||yrvrso.nutribio.pt^
+||yrwks6l3cy.com^
 ||yryxcn.e-ohaka.com^
 ||ys-log-upload-os.hoyoverse.com^
 ||ys2000.cdn.bcebos.com^
@@ -253275,6 +253283,7 @@ zzzyk.com###Tinfo
 ||zawad.sarnora.com^
 ||zawqwpajq.club^
 ||zawra9izy3.com^
+||zaxffxesykzvfs.com^
 ||zay7gs1xkl.com^
 ||zaycev.net/clickmeter_
 ||zazgbqg*.xyz^
