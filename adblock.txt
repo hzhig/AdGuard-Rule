@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-23 10:39:21(GMT+8) 
-! Total count: 254417
+! ! Version: 2026-07-23 21:55:35(GMT+8) 
+! Total count: 254418
  
 ###ADtip
 ###Ad_windows
@@ -3618,6 +3618,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/v1/impressions|
 /api/v1/metrics
 /api/v1/reportData/*
+/api/v1/reporting/flows
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
@@ -16378,7 +16379,6 @@ baidu.com###fengchao-dialog
 baidu.com###fengchaoad
 baidu.com###gamePromo
 baidu.com###ggbtm
-baidu.com###header > div:last-child
 baidu.com###index_banner_top
 baidu.com###index_right_float
 baidu.com###index_right_top
@@ -132657,6 +132657,7 @@ zzzyk.com###Tinfo
 ||aktualne.cz^$removeparam=dop_id
 ||aktualne.cz^$removeparam=dop_req_id
 ||aktualne.cz^$removeparam=dop_source_zone_name
+||akuohvb4u.com^
 ||akutagawa.consumer.gopuff.com^
 ||akuziti.com/tu/*.js
 ||akv2-br-cdn.kwai.net.iberostar.com^
@@ -135899,7 +135900,6 @@ zzzyk.com###Tinfo
 ||api.kwaizt.com^
 ||api.lab8oficial.com.br^
 ||api.lafiorestore.com.br^
-||api.laftel.net/api/*/status/$xmlhttprequest,redirect=noopjs
 ||api.laganeb.com^
 ||api.lamhah.com^
 ||api.landing.dcml.com.br^
@@ -140945,6 +140945,7 @@ zzzyk.com###Tinfo
 ||bloombergbusiness.com/horizon/track
 ||bloomreach.co^
 ||bloomsend.com^
+||blowlamp65.com^
 ||blozoo.info/js/inouttool/
 ||blozoo.info/js/ranktool/
 ||blozoo.info/js/reversetool/
@@ -154100,11 +154101,6 @@ zzzyk.com###Tinfo
 ||digiadglobal.com^$third-party
 ||digianalytics.fr^$third-party
 ||digicard.jollyhires.com^
-||digidip.net/visit?url=$urltransform=/%2F/\//
-||digidip.net/visit?url=$urltransform=/%3A/:/
-||digidip.net/visit?url=$urltransform=/%3D/=/
-||digidip.net/visit?url=$urltransform=/%3F/?/
-||digidip.net/visit?url=$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?.*\.digidip\.net.*url=([^&]*).*/\$1/
 ||digidip.net^$domain=gofeminin.de
 ||digidip.net^$third-party
 ||digikey.*/-/media/Designer/Web%20Analytics/MultiTrack/JS/multitrack.js
@@ -160090,6 +160086,7 @@ zzzyk.com###Tinfo
 ||fdp.arenacanada.ca^
 ||fds-1230.cc^
 ||fdt.kraken.com^
+||fdtarpaueilvrs.com^
 ||fdv77tcm.bsteuern.com^
 ||fdxtbs.meeters.org^
 ||fdyqre.pormadeonline.com.br^
@@ -176461,6 +176458,7 @@ zzzyk.com###Tinfo
 ||k1s3u1dtpc.com^
 ||k2.dancihu.com^
 ||k203.adn.com^
+||k2bividyt.com^
 ||k2n0f.cn^$third-party
 ||k2s.cc/log|
 ||k31bpzf.xyz^
@@ -219305,6 +219303,7 @@ zzzyk.com###Tinfo
 ||socialflow.branch.rocks^
 ||socialprofitmachine.com^$third-party
 ||socialrank.fr/client/$third-party
+||socialsend.net^
 ||socialtrack.co^$third-party
 ||socialxup.com/api/sale-accounts
 ||socialxup.com/api/track
@@ -253280,6 +253279,7 @@ zzzyk.com###Tinfo
 ||zareen.craftorabyporshia.com^
 ||zarget.com^$third-party
 ||zarkph.lacotto.jp^
+||zas4hfcxr.com^
 ||zasjf.xyz^
 ||zasjfget.xyz^
 ||zathrilgiw.com^
@@ -254128,6 +254128,7 @@ zzzyk.com###Tinfo
 ||zsefe.livesozy.com^
 ||zsevyy.imfat.co.kr^
 ||zsgmpd.zba.jp^
+||zsi24utdu.com^
 ||zsi7.destinia.do^
 ||zsimzv.hsecret.co.kr^
 ||zsjjob.com/user/member/google.htm
