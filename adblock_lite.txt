@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-07-24 10:35:15(GMT+8) 
-! Total count: 32629
+! ! Version: 2026-07-24 21:43:06(GMT+8) 
+! Total count: 32636
  
 ###ADtip
 ###Ad_windows
@@ -3843,7 +3843,6 @@ $websocket,domain=wap.yushuwu.cloud
 51cg1.com##.horizontal-banner
 51cg1.com##.post-card-ads
 51cg1.com##article:has(> a > div.post-card > div[style^="background-image: url(\"data:image/gif;base64"])
-51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 51credit.com###leftLayerDown
 51credit.com##.credit-box
 51credit.com##.main-r-ka
@@ -12197,6 +12196,7 @@ mqoeomads.cc##.modal-backdrop
 mqoeomads.cc##div.dx-banner-item
 mqoeomads.cc##ul.video-items > li:has(> [data-ad_id])
 mrbird.cc#@#.social-icons
+mrds66.com,51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 mrmad.com.tw##div[id^="mrmadad-"][style]:has(> .adsbygoogle)
 mrmad.com.tw#?#div[id^="mrmad-"]:has(>.adsbygoogle)
 mrtzcmp3.net###hstp-bg-overlay
@@ -16634,6 +16634,7 @@ zzzyk.com###Tinfo
 ||2r1jqii2c.com^
 ||2r2zhs64a7.com^
 ||2rwonuh.com^
+||2s5rm8cz8p.com^
 ||2top98spp.shop^
 ||2u2wyftqmr.com^
 ||2u3v4w5x6y.com^
@@ -20624,6 +20625,7 @@ zzzyk.com###Tinfo
 ||d6er6wrvw.com^
 ||d6gsujd8v.com^
 ||d6hvvn5jvc.com^
+||d6odox96rf.com^
 ||d6y6etzkk.com^
 ||d7fl3a3vwh.com^
 ||d7rn5gu7i2.com^
@@ -20885,6 +20887,7 @@ zzzyk.com###Tinfo
 ||dghhot.com^
 ||dghkpp.xyz^
 ||dgnqrl.icu^
+||dgpvbzhqklzddy.com^
 ||dgrpeldt54.com^
 ||dgvkrt.xyz^
 ||dgxlm.xyz^
@@ -20990,6 +20993,7 @@ zzzyk.com###Tinfo
 ||djdedu.net/static/*.gif
 ||djicdn.com/uploads/ad_image_file/
 ||djljz.cn/Plugins/Template/XJLY/js/app.
+||djname.info^
 ||djs.baomihua.com^
 ||djv99sxoqpv11.cloudfront.net^
 ||djx3um1my.com^
@@ -25082,6 +25086,7 @@ zzzyk.com###Tinfo
 ||lcd.aivote.com^
 ||lcgcrldp6m.com^
 ||lcqbi7nsv.com^
+||lctpvmaxz.icu^
 ||lcugzodfdo.com^
 ||lcxw.cn/d/js/thea
 ||lcxw.cn/i/*dl.js
@@ -26270,6 +26275,7 @@ zzzyk.com###Tinfo
 ||n5ta9.site^
 ||n6579.com^
 ||n6al211kbp.com^
+||n6pepvekwa.com^
 ||n7181.com^
 ||n7fyrdeen.com^
 ||n8bpikx1mt.com^
@@ -29850,6 +29856,7 @@ zzzyk.com###Tinfo
 ||u55011.com^
 ||u62x055tr.com^
 ||u6421d8aqt.com^
+||u67qpnaexu.com^
 ||u6uy9lzdcj.com^
 ||u6yzoru6u.com^
 ||u7em6.xyz^
