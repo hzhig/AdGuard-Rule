@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-24 21:43:06(GMT+8) 
-! Total count: 254441
+! ! Version: 2026-07-25 10:33:49(GMT+8) 
+! Total count: 254455
  
 ###ADtip
 ###Ad_windows
@@ -2131,7 +2131,7 @@ $cookie=yoc_visxuid,domain=wp.pl
 $cookie=yotpo_pixel
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
-$csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
+$csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=ltbook.net|shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
@@ -3168,7 +3168,7 @@ $websocket,domain=wap.yushuwu.cloud
 /Web_JS_Stats.
 /Web_JS_Stats.js
 /[a-z0-9]+\.[a-z0-9]+\//$denyallow=cidetxt.cc,domain=cidetxt.cc,subdocument,script
-/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
+/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 /\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{25,}$/$script,~third-party,domain=gu-global.com|uniqlo.com
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xmlhttprequest,~third-party
 /\/-[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+$/$domain=calvinklein.*,xmlhttprequest,script
@@ -4977,6 +4977,8 @@ $websocket,domain=wap.yushuwu.cloud
 /intake/v2/rum.js
 /interaction/beacon
 /intercept/intercept.js
+/internal-stats-lite/p.php?
+/internal-stats/pixel/*
 /ipdvdc.min.js
 /ips-invite.iperceptions.com/*
 /iris-t.js
@@ -11267,7 +11269,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||blackmod.net^$generichide
 @@||blizzard.com/oauth2$removeparam
 @@||blob.core.windows.net/bge/src/js/google-analytics.js$domain=secure2.bge.com
-@@||blob.core.windows.net/comed/src/js/google-analytics.js$domain=comed.com
 @@||blocket.se^*/xtcore.js
 @@||bloctel.gouv.fr/assets/scripts/smarttag.js
 @@||blog.6ziz.com^$generichide
@@ -12767,6 +12768,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=highsnobiety.com
 @@||googletagmanager.com/gtm.js$domain=hipolink.net
 @@||googletagmanager.com/gtm.js$domain=hobbystock.jp
+@@||googletagmanager.com/gtm.js$domain=hokkaido-np.co.jp
 @@||googletagmanager.com/gtm.js$domain=hp.com
 @@||googletagmanager.com/gtm.js$domain=hub.docker.com
 @@||googletagmanager.com/gtm.js$domain=hyponamiru.cz
@@ -15348,6 +15350,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||xp.audience.io/sdk.js$script,domain=foxla.com
 @@||xxxxx520.com^$generichide
 @@||xykpay.3d2.icbc.com.cn/acs-auth-web/js/fingerprint2.min.js$~third-party
+@@||xzeepb2clookuppsta001.blob.core.windows.net/bge/$content
 @@||yafud.pl^$generichide
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
@@ -124099,6 +124102,7 @@ zzzyk.com###Tinfo
 ||33dav.com/static/js/bottom.js
 ||33img.com^$domain=18board.com|18p2p.com
 ||33kw1wc58.top^
+||33mp2fbrns.com^
 ||33shu.net/js/game
 ||34.215.155.61^
 ||3400.org^
@@ -140176,6 +140180,7 @@ zzzyk.com###Tinfo
 ||belindanbd.com^
 ||belk.com/0iiey9LM/init.js
 ||bellesdemeures.com/Content/dist/js/libs/thor.js
+||bellows83.top^
 ||belong.curtin.edu.au^
 ||beloved.instateacher.gr^
 ||belstat.be^$third-party
@@ -142193,6 +142198,7 @@ zzzyk.com###Tinfo
 ||bwdhuanbao.com^
 ||bwj4.hrhibiza.com^
 ||bwkpkx.projectxparis.com^
+||bwlnnrdsqondjy.com^
 ||bwlwbt.rbarevistas.com^
 ||bwmetrics.jegy.hu^
 ||bwmxdg.kimono-365.jp^
@@ -162087,6 +162093,7 @@ zzzyk.com###Tinfo
 ||g7htk7ls7.com^
 ||g8715710740.co^
 ||g8913795075.co^
+||g89eyc8a1.com^
 ||g8nwdolod.com^
 ||g8ygkqhm9p.com^
 ||g9111879410.co^
@@ -176849,6 +176856,7 @@ zzzyk.com###Tinfo
 ||kf.vinthentic.com^
 ||kf4kwomxhl.com^
 ||kfa9grestp.com^
+||kfbmswmmo.com^
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||kfcu.fmservice.com^
 ||kfdduc.superstari.co.kr^
@@ -177126,8 +177134,6 @@ zzzyk.com###Tinfo
 ||klangoo.com^$third-party
 ||klarinsights.net^
 ||klarnaservices.com/?a=$image
-||klarnaservices.com/v1/osm-client-script/
-||klarnaservices.com^$image,third-party
 ||klaviyo.com/onsite/js/sentry.
 ||klaviyo.com/onsite/track-analytics?
 ||klavjn.niawigs.com^
@@ -179943,6 +179949,7 @@ zzzyk.com###Tinfo
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||lives.l.qq.com^
+||livescore.com/external/media/analytics_config/
 ||livesearch-metrics.magento-ds.com^
 ||livesegmentservice.com^$third-party
 ||livesession.io^$third-party
@@ -200315,6 +200322,7 @@ zzzyk.com###Tinfo
 ||player.vimeo.com/log
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||playerhappy.com^
+||playerscache.com^
 ||playerserver.walkme.com/Statistics/
 ||playeur.com/plbio/api/event
 ||playfulriver.com^
@@ -201370,6 +201378,7 @@ zzzyk.com###Tinfo
 ||providers.mhc.net^
 ||providesupport.com/cmd/$image
 ||provify.io^$third-party
+||provingmagic.com^
 ||provize.3dfitness.cz^
 ||provize.brilas.cz^
 ||provize.dzumdzum.cz^
@@ -203110,6 +203119,7 @@ zzzyk.com###Tinfo
 ||rabbit.meitustat.com^
 ||rabbit.radicalxchange.org^
 ||rabbit.upwardhomes.net^
+||rabbitboots.com^
 ||rabbitbreath.com^
 ||rabbitrifle.com^
 ||rabc1.iteye.com^
@@ -214259,6 +214269,7 @@ zzzyk.com###Tinfo
 ||sikncs.com^
 ||silentcredit.com^
 ||silentjackal.com^
+||silentsingle.com^
 ||siliconslow.com^
 ||silimbompom.com^$third-party
 ||silkworm.boxmood.be^
@@ -219035,6 +219046,7 @@ zzzyk.com###Tinfo
 ||smrt.as^
 ||smrtb.com^$third-party
 ||smrtlnks.com^$third-party
+||smrtwheel.com^
 ||sms-cuc.e2eprod.repackage.test.ajo.adobe.com^
 ||sms-cuc.e2eprod.repackageaus5.test.ajo.adobe.com^
 ||sms-cuc.e2eprod.repackagecan2.test.ajo.adobe.com^
@@ -247508,6 +247520,7 @@ zzzyk.com###Tinfo
 ||vslstape.resettfitness.com.br^
 ||vsn-analytics.aparentmedia.com^
 ||vsogz.sokolovelaw.com^
+||vsonic.click/api/views/track
 ||vsping-*.myqcloud.com/ggw/
 ||vsping.com/website/adLinks?
 ||vsping.com/website/ads?
@@ -251148,6 +251161,7 @@ zzzyk.com###Tinfo
 ||xc.macd.cn^
 ||xc.mydrivers.com^
 ||xc3.services.livejournal.com/ljcounter/
+||xcafe.com/track/impression?
 ||xcar.com.cn/bbs/adfocus.js
 ||xcar.com.cn/dsp/ad
 ||xcar.com.cn/exp/
