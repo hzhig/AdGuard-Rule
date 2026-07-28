@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-28 10:27:47(GMT+8) 
-! Total count: 254521
+! ! Version: 2026-07-28 22:04:13(GMT+8) 
+! Total count: 254551
  
 ###ADtip
 ###Ad_windows
@@ -2247,6 +2247,7 @@ $websocket,domain=wap.yushuwu.cloud
 *$script,third-party,domain=m.roushuwu.vip|xiaoaimh.com
 *$script,third-party,xmlhttprequest,domain=m.biquge700.com|biquge001.com
 *$script,xmlhttprequest,image,third-party,domain=360lele.cc|fxshu.top
+*$script,xmlhttprequest,third-party,domain=25img.com
 *$script,xmlhttprequest,third-party,domain=m.1024txt.com
 *$script,xmlhttprequest,third-party,domain=m.niupizhi.net
 *$third-party,domain=440012.xyz
@@ -2570,6 +2571,7 @@ $websocket,domain=wap.yushuwu.cloud
 .gif|$domain=7mshipin.org|viidii.info
 .gif|$domain=8727ck.cc|8726ck.cc
 .gif|$domain=99re.com
+.gif|$image,third-party,domain=25img.com
 .gif|$image,third-party,domain=91porny.com
 .gif|$image,third-party,domain=huanggua22.com
 .gif|$image,third-party,domain=jiuqugan.top|91jp3.beauty
@@ -4319,6 +4321,7 @@ $websocket,domain=wap.yushuwu.cloud
 /dzwww/ad_dzw_inner.js
 /e.customeriomail.com/e/o/*$image
 /e.gif?
+/e/*^ip=$domain=heygen.com
 /e/ecmsshop/zhuanpan/js/*
 /e_stat?g_id=
 /eatms.js
@@ -10625,6 +10628,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||2018x.bid/adview.js
 @@||210.40.130.91^*/ad.css?$stylesheet
 @@||2345.com/images/activity/20171111/open/j/close.png
+@@||2ipcore.com^$domain=2ip.ru
 @@||2o7.net^$domain=audiusa.com
 @@||2unlimited.info/js/adsense.js
 @@||3.bp.blogspot.com/*.jpg#/adaffiliate_/adops/ad/adsales/ad/adsby./adtest./$domain=f1fanklub.pl
@@ -12183,6 +12187,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
 @@||fastly-analytics.com/debug_resolver$xmlhttprequest,domain=fastly-debug.com
 @@||fastrapidleech.com/*/adsbygoogle.js$script
+@@||fate-go.jp/anniv_11th_sns/assets/js/services/gtm.js$~third-party
 @@||fathom.video/embed/$subdocument
 @@||faucetbitcoins.com/banner.gif$image
 @@||fccbrea.org^*/swfaddress.js
@@ -12707,11 +12712,13 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=blue-tomato.com
 @@||googletagmanager.com/gtm.js$domain=braun.com
 @@||googletagmanager.com/gtm.js$domain=brita.de
+@@||googletagmanager.com/gtm.js$domain=brita.pl
 @@||googletagmanager.com/gtm.js$domain=buhitter.com
 @@||googletagmanager.com/gtm.js$domain=bunte.de|stiefelparadies.de
 @@||googletagmanager.com/gtm.js$domain=cabinet.planetakino.ua
 @@||googletagmanager.com/gtm.js$domain=caminteresse.fr
 @@||googletagmanager.com/gtm.js$domain=canadiantire.ca
+@@||googletagmanager.com/gtm.js$domain=candy-home.com
 @@||googletagmanager.com/gtm.js$domain=capital.fr
 @@||googletagmanager.com/gtm.js$domain=cashconverters.com.au
 @@||googletagmanager.com/gtm.js$domain=cashier.dmm.co.jp|cashier.dmm.com
@@ -14373,6 +14380,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||ridediriddim.com^$generichide
 @@||right.com.cn/forum/*300*250$image
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
+@@||rm.redbull.com/gtm.js$domain=redbull.com
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
 @@||rmcpay.com/js/google-analytics.js|
 @@||rmdown.com/ads.js
@@ -16944,7 +16952,6 @@ bitvid.sx###aad
 biz.ifeng.com##.header
 biz.ifeng.com##.riodel
 bizjournals.com##.c1-ad-sticky
-biznesenter.pl#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'gtm.start')
 biznetvigator.com#@##container_ad
 bjcxqd.com##.box-vdgd
 bjd.com.cn##.bjd-advertisement
@@ -17195,6 +17202,7 @@ camerabay.tv##.popupad
 campusfrance.org#%#//scriptlet('set-constant', 'pa', 'emptyObj')
 campusfrance.org#%#//scriptlet('set-constant', 'pa.sendEvent', 'noopFunc')
 canadiantire.ca#%#//scriptlet('set-local-storage-item', 'signifydSessionIdInfo', '$remove$')
+candytm.pl,biznesenter.pl#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/gtm\.start|dataLayer/')
 cangjige.net##.wp[style="height:36px;padding-top:15px;"]
 cangku.moe##.slider
 canhasbitcoin.com###adblock-message
@@ -123942,6 +123950,7 @@ zzzyk.com###Tinfo
 ||256856.com/fei-ad/
 ||257298.a.siteapps.com/257298.js$script,domain=listamais.com.br
 ||258zw.com^$third-party
+||25img.com/nnn2/189guding.js
 ||25ix8gm8ien.sandbox.panprices.com^
 ||25rpllbbg.com^
 ||25t9uxgnx.com^
@@ -124261,6 +124270,7 @@ zzzyk.com###Tinfo
 ||3ie0h3b.com^
 ||3ikcnjvsx.com^
 ||3is34bpqs4.com^
+||3iulae112b.com^
 ||3j0pw4ed7uac-a.akamaihd.net^
 ||3j1fiw14n9.com^
 ||3j4vjpx7k.com^
@@ -132830,6 +132840,7 @@ zzzyk.com###Tinfo
 ||al1n6v56m.com^
 ||alaburger.openapp.link^
 ||aladdinupdate.blackrock.com^
+||aladinia.app^
 ||alamin.annawabi.com^
 ||alamocapital.actonservice.com^
 ||alapita.openapp.link^
@@ -133977,6 +133988,7 @@ zzzyk.com###Tinfo
 ||analytics.crazygames.com^
 ||analytics.crea.ca^
 ||analytics.creem.com^
+||analytics.crewly.pl^
 ||analytics.crowdkeep.com^
 ||analytics.cycleworld.com^
 ||analytics.cyrillus.be^
@@ -136390,6 +136402,7 @@ zzzyk.com###Tinfo
 ||api2.drmontanha.com.br^
 ||api2.drramoncolombo.com^
 ||api2.drricardofonseca.com^
+||api2.heygen.com/v1/movio.batch_track
 ||api2.ma.ru/analytics.js
 ||api2.midnance.com^
 ||api2.oraulmartins.com.br^
@@ -141154,6 +141167,7 @@ zzzyk.com###Tinfo
 ||bnds6.site^
 ||bnds7.site^
 ||bnds8.site^
+||bnesim.com/js/trackers.js
 ||bnews.com.br/increase_counters.js
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
@@ -142841,7 +142855,9 @@ zzzyk.com###Tinfo
 ||canddi.com^$third-party
 ||candid.zone^
 ||candidate.response.ingenovishealth.com^
+||candy-home.com^$referrerpolicy=origin
 ||candy.sees.com^
+||candytm.pl/gtmgateway/
 ||cane.intel.cn^
 ||cane.intel.co.jp^
 ||cane.intel.co.kr^
@@ -144092,6 +144108,7 @@ zzzyk.com###Tinfo
 ||cdp.cifinancial.com^
 ||cdp.cloud.unity.cn^
 ||cdp.cloud.unity3d.com^
+||cdp.customer.io^
 ||cdp.ems.onet.pl/*/me?domain=
 ||cdp.getswisscard.ch^
 ||cdp.howtotrade.com^
@@ -145300,6 +145317,7 @@ zzzyk.com###Tinfo
 ||cloud.hetaarbeten.se^
 ||cloud.lotustravel.se^
 ||cloud.mixtou.com.br^
+||cloud.monolytics.app^
 ||cloud.moyagi.com^
 ||cloud.orimlighyra.se^
 ||cloud.pensionera.se^
@@ -155988,6 +156006,7 @@ zzzyk.com###Tinfo
 ||e1e.io^
 ||e1wluazgt.com^
 ||e1yrns9aw.com^
+||e2.sy-d.io^
 ||e20d8e38992b.o3n.io^
 ||e220.dailyfreeman.com^
 ||e23.cn/js/aaa.js
@@ -160827,6 +160846,7 @@ zzzyk.com###Tinfo
 ||flourishingendeavor.com^
 ||flourishinginnovation.com^
 ||flourishingpartnership.com^
+||flow-control.profitroom.net^
 ||flow.1passwordservices.com/api/v1/event
 ||flow.curendo.de^
 ||flow.doormat.net.au^
@@ -163473,6 +163493,7 @@ zzzyk.com###Tinfo
 ||glssp.net/logger.js
 ||glue.evansadhesive.com^
 ||gluedpixel.com^
+||glutenfreeonashoestring.com/wp-content/*/analytics*.min.js
 ||glwxw.net^
 ||glxdlf.tickets.ua^
 ||glxmao.eterna.de^
@@ -164333,6 +164354,7 @@ zzzyk.com###Tinfo
 ||goatcounter.gamecraft.it^
 ||goatcounter.irishbornchinese.com^
 ||goatcounter.repozitor.com^
+||goatcounter.ssp.sh^
 ||goatcounter.thedave.dev^
 ||goatcounter.thedave.me^
 ||goatcounter.thedave.photos^
@@ -169084,6 +169106,7 @@ zzzyk.com###Tinfo
 ||h8h1ls3hg.com^
 ||h9806gjhz.com^
 ||h9hy9.pyrenex.com^
+||h9w02sx7t9.com^
 ||haakz.shopaspengreen.com^
 ||haauospr.zerow.it^
 ||haber365.com.tr/*/hitcount
@@ -194188,6 +194211,7 @@ zzzyk.com###Tinfo
 ||n6579.com^
 ||n6al211kbp.com^
 ||n6pepvekwa.com^
+||n6pwo7whs2.com^
 ||n7181.com^
 ||n730.timesunion.com^
 ||n74s9.com^$third-party
@@ -200359,6 +200383,7 @@ zzzyk.com###Tinfo
 ||player-files.remixd.com/ping.gif
 ||player-metrics.instaread.co^
 ||player-telemetry.vimeo.com^
+||player.fabster.com/event/
 ||player.hdgay.net/cdn-cgi/trace
 ||player.instaread.co/js/inarticle-metrics.js
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
@@ -202356,6 +202381,8 @@ zzzyk.com###Tinfo
 ||qiq.videouniquebooster.com^
 ||qirloith.com^
 ||qirqritp.com^
+||qishen123.com^*/0
+||qishen123.com^*/1
 ||qishula.com/css/ding.js
 ||qishula.com/css/wap.
 ||qitdsl.ralf.ru^
@@ -220355,6 +220382,7 @@ zzzyk.com###Tinfo
 ||spnuninugr.com^
 ||spnx.jp/spnx-logger.js
 ||spnx.jp^$third-party
+||spolshy.com.ua/js/data|
 ||spolu.kuskakaa.cz^
 ||spoluhraci.decathlon.cz^
 ||spolupraca.aretacia-rozvodov.sk^
@@ -237027,6 +237055,7 @@ zzzyk.com###Tinfo
 ||tfhsv.creatinegummies.com^
 ||tfiic.centricwear.com^
 ||tfiksp.d-rw.com^
+||tfjhjrqmu.icu^
 ||tfkgt.mzmautowerks.com^
 ||tfkic.worldmarket.com^
 ||tfonlyuse.shop^
@@ -254148,6 +254177,7 @@ zzzyk.com###Tinfo
 ||zozo.jp/common/js/ads-inner-tracking.js
 ||zozwyc.moscot.com^
 ||zp365.com/newhousered/hb-index-pop-
+||zp8roiukic.com^
 ||zpashl.amgakuin.co.jp^
 ||zpcrc.1md.org^
 ||zpeqosn.icu^

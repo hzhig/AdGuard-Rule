@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-07-28 10:27:47(GMT+8) 
-! Total count: 32681
+! ! Version: 2026-07-28 22:04:13(GMT+8) 
+! Total count: 32692
  
 ###ADtip
 ###Ad_windows
@@ -1649,6 +1649,7 @@ $websocket,domain=wap.yushuwu.cloud
 *$script,third-party,domain=m.roushuwu.vip|xiaoaimh.com
 *$script,third-party,xmlhttprequest,domain=m.biquge700.com|biquge001.com
 *$script,xmlhttprequest,image,third-party,domain=360lele.cc|fxshu.top
+*$script,xmlhttprequest,third-party,domain=25img.com
 *$script,xmlhttprequest,third-party,domain=m.1024txt.com
 *$script,xmlhttprequest,third-party,domain=m.niupizhi.net
 *$third-party,domain=440012.xyz
@@ -1826,6 +1827,7 @@ $websocket,domain=wap.yushuwu.cloud
 .gif|$domain=7mshipin.org|viidii.info
 .gif|$domain=8727ck.cc|8726ck.cc
 .gif|$domain=99re.com
+.gif|$image,third-party,domain=25img.com
 .gif|$image,third-party,domain=91porny.com
 .gif|$image,third-party,domain=huanggua22.com
 .gif|$image,third-party,domain=jiuqugan.top|91jp3.beauty
@@ -4549,6 +4551,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||2018x.bid/adview.js
 @@||210.40.130.91^*/ad.css?$stylesheet
 @@||2345.com/images/activity/20171111/open/j/close.png
+@@||2ipcore.com^$domain=2ip.ru
 @@||2unlimited.info/js/adsense.js
 @@||3.bp.blogspot.com/*.jpg#/adaffiliate_/adops/ad/adsales/ad/adsby./adtest./$domain=f1fanklub.pl
 @@||31vcd.com/player/kuyun.js
@@ -16566,6 +16569,7 @@ zzzyk.com###Tinfo
 ||256856.com/fei-ad/
 ||257298.a.siteapps.com/257298.js$script,domain=listamais.com.br
 ||258zw.com^$third-party
+||25img.com/nnn2/189guding.js
 ||25rpllbbg.com^
 ||25t9uxgnx.com^
 ||268de.com/js/
@@ -16811,6 +16815,7 @@ zzzyk.com###Tinfo
 ||3ie0h3b.com^
 ||3ikcnjvsx.com^
 ||3is34bpqs4.com^
+||3iulae112b.com^
 ||3j1fiw14n9.com^
 ||3j4vjpx7k.com^
 ||3jia5.com^$third-party
@@ -22901,6 +22906,7 @@ zzzyk.com###Tinfo
 ||h8cjr6nhm.com^
 ||h8h1ls3hg.com^
 ||h9806gjhz.com^
+||h9w02sx7t9.com^
 ||hacde1.icu^
 ||hacde10.icu^
 ||hacde3.icu^
@@ -26310,6 +26316,7 @@ zzzyk.com###Tinfo
 ||n6579.com^
 ||n6al211kbp.com^
 ||n6pepvekwa.com^
+||n6pwo7whs2.com^
 ||n7181.com^
 ||n7fyrdeen.com^
 ||n8bpikx1mt.com^
@@ -27686,6 +27693,8 @@ zzzyk.com###Tinfo
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qirloith.com^
 ||qirqritp.com^
+||qishen123.com^*/0
+||qishen123.com^*/1
 ||qishula.com/css/ding.js
 ||qishula.com/css/wap.
 ||qiudbjwhy.com^
@@ -29344,6 +29353,7 @@ zzzyk.com###Tinfo
 ||tfgfgtm.com^
 ||tfgotoai.shop^
 ||tfhpxv.icu^
+||tfjhjrqmu.icu^
 ||tfonlyuse.shop^
 ||tfsuggestion.live^
 ||tftran.shop^
@@ -32512,6 +32522,7 @@ zzzyk.com###Tinfo
 ||zouqiuyyds.com^
 ||zowralr.cn^
 ||zp365.com/newhousered/hb-index-pop-
+||zp8roiukic.com^
 ||zpeqosn.icu^
 ||zpgb.cn^
 ||zpiyi.com/public/js/global.js
