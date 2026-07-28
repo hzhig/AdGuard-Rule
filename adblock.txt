@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-27 22:31:05(GMT+8) 
-! Total count: 254505
+! ! Version: 2026-07-28 10:27:47(GMT+8) 
+! Total count: 254521
  
 ###ADtip
 ###Ad_windows
@@ -7897,6 +7897,7 @@ $websocket,domain=wap.yushuwu.cloud
 1194.sock-qa1.marketingcloudqaops.com$image
 11945.editor-qa1.marketingcloudqaapis.com$image
 11976.connector-qa1.marketingcloudqaapis.com$image
+11alive.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
 11dkim1._domainkey.snapcap.com$image
@@ -15356,6 +15357,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||xxxxx520.com^$generichide
 @@||xykpay.3d2.icbc.com.cn/acs-auth-web/js/fingerprint2.min.js$~third-party
 @@||xzeepb2clookuppsta001.blob.core.windows.net/bge/$content
+@@||xzeepb2clookuppsta001.blob.core.windows.net/comed/src/js/google-analytics.js$domain=secure1.comed.com
 @@||yafud.pl^$generichide
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
@@ -15895,7 +15897,7 @@ akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -16071,7 +16073,6 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app.mellstroy.website$image
 app.n26.com#@#.bl > .gg
@@ -124403,6 +124404,7 @@ zzzyk.com###Tinfo
 ||4d45i6p0g.com^
 ||4d9f09z8c.com^
 ||4dex.tech^
+||4djkbk96r4.com^
 ||4dyt.cn^
 ||4e0jpheoi1.com^
 ||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com/sa7d76sa/
@@ -138689,6 +138691,7 @@ zzzyk.com###Tinfo
 ||autoimmunity.thermofisher.com^
 ||autoline-top.com/counter.php?
 ||autoline-top.com^$third-party
+||autoline.link/weblog
 ||automate-prod.s3.amazonaws.com^$~script
 ||automate.gixxy.com^
 ||automate.opex.com^
@@ -144380,6 +144383,7 @@ zzzyk.com###Tinfo
 ||chartec.actonservice.com^
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
+||chase.com/apps/services/clientBeacon.html
 ||chaseherbalpasty.com^
 ||chat.deepseek.com/api/v0/events
 ||chat.forddirectdealers.com^
@@ -148860,6 +148864,7 @@ zzzyk.com###Tinfo
 ||d3kyk5bao1crtw.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
 ||d3lqotgbn3npr.cloudfront.net^
+||d3lw7s0briwuoi.cloudfront.net^
 ||d3m6sept6cnil5.cloudfront.net^
 ||d3mapax0c3izpi.cloudfront.net/lib/ajax/events.js
 ||d3mshiiq22wqhz.cloudfront.net^
@@ -155426,6 +155431,7 @@ zzzyk.com###Tinfo
 ||dstbunkfw.xyz^
 ||dsvmgu.snipes.it^
 ||dszdtt.drawelry.com^
+||dszvvdcmzxztte.com^
 ||dt-tracker.mamikos.com^
 ||dt.airtrackfactory.com^
 ||dt.alemi-zurich.ch^
@@ -160873,6 +160879,7 @@ zzzyk.com###Tinfo
 ||fly.ofernandoluz.com^
 ||fly.pid.edu.pl^
 ||flya.me/eventtrack
+||flyflightstar.com^
 ||flyingfish.whoisrepresented.org^
 ||flyingpt.com^$third-party
 ||flystranger.com^
@@ -161020,6 +161027,7 @@ zzzyk.com###Tinfo
 ||foot-live.info/images/adblok.mp3$media
 ||foot.footstream.tv/js/compteur1.js$script
 ||foot.wiki^$all
+||footballmedal.com^
 ||footballmedia.com/tracking/
 ||footprint.frizznflame.com^
 ||footprintdns.com^$third-party
@@ -163436,6 +163444,7 @@ zzzyk.com###Tinfo
 ||globaleloqua.americanexpress.com^
 ||globallearningsystems.actonservice.com^
 ||globalmed.actonservice.com^
+||globalorders.net^
 ||globalservices.conde.digital/p77xzrbz9z.js
 ||globalservices.conde.digital^
 ||globalsiteanalytics.com^
@@ -176651,6 +176660,7 @@ zzzyk.com###Tinfo
 ||karrot-pixel.business.daangn.com^
 ||karstadt.de/on/demandware.store/*/__Analytics-Tracking?
 ||kart2ks.icu^
+||karte.io/event
 ||karte.io/libs/tracker.
 ||karte.io/mirror-record/
 ||karte.io/mirror-record/record?
@@ -200537,6 +200547,7 @@ zzzyk.com###Tinfo
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
 ||poco.de/api/tracking
+||pocustrack.com^
 ||poczta.carte-gr.total.fr^
 ||poczta.happ.social^
 ||pod.spoti.fi^
@@ -204452,6 +204463,7 @@ zzzyk.com###Tinfo
 ||rgdmxvcz.piercingxxl.de^
 ||rgdmxvcz.piercingxxl.fr^
 ||rgdmxvcz.piercingxxl.pl^
+||rgdnlzsth.icu^
 ||rgecga.piary.jp^
 ||rgeho.katoura.com.au^
 ||rgfdd.victoriarosepark.com^
@@ -211806,6 +211818,7 @@ zzzyk.com###Tinfo
 ||sfg11rr.com^
 ||sfgame.net/tracking_ggs.php
 ||sfgate.com/413gkwMT/init.js
+||sfgate.com/api/client-logs
 ||sfgtm.imagroup.com^
 ||sfgysl.carguy.kr^
 ||sfgysl.ezday.co.kr^
@@ -214812,6 +214825,7 @@ zzzyk.com###Tinfo
 ||slc.commerce.naver.com^
 ||sldoj.shoptimized.net^
 ||sled.arvex-rental-cars.com^
+||sledgehammer09.com^
 ||sleeknotestaticcontent.sleeknote.com/production/package-tracker.js
 ||sleepypiglet.deltashore.uk^
 ||sleepzeepro-ss.checkoutera.com^
@@ -249725,6 +249739,7 @@ zzzyk.com###Tinfo
 ||wp.lockmysneaker.com^
 ||wp.pl/?rid=
 ||wpa.b.qq.com/cgi/wpa.php?
+||wpastra.com/wp-content/plugins/cross-domain-tracker-for-affiliatewp/
 ||wpauvu.obuvki.bg^
 ||wpcihg.com^
 ||wpdaxue.com/img/*/txy-
@@ -253643,6 +253658,7 @@ zzzyk.com###Tinfo
 ||zewfbw.buzz^
 ||zewfbw.xyz^
 ||zexfzson.icu^
+||zf56jef1dd.com^
 ||zfc2ul88s.top^
 ||zfccd.mylifeforce.com^
 ||zfcdirf.icu^
