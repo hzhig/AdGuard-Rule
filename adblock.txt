@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-30 10:20:19(GMT+8) 
-! Total count: 254609
+! ! Version: 2026-07-30 21:57:52(GMT+8) 
+! Total count: 254623
  
 ###ADtip
 ###Ad_windows
@@ -5136,6 +5136,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/yueyupp_3.js
 /js/yzgg.js
 /js_ibeat_ext.cms
+/js_includes_ux_metrics.js
 /js_log_error.js
 /js_logger.php
 /js_php/ajsf.php?id=$third-party
@@ -6969,6 +6970,7 @@ $websocket,domain=wap.yushuwu.cloud
 /uecomscore_cmp_event_mundo.js
 /uedata?
 /uem-ep.js
+/ui-core-analytics-bundle.js
 /uisprime/track
 /umami.js
 /umg-analytics.min.js
@@ -14990,6 +14992,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
 @@||themarker.com/logger/p.gif?*=COMMENTS$xmlhttprequest
 @@||themarker.com/logger/p.gif?a=$image
+@@||themoviedb.org/assets/
 @@||theseblogs.com/intermission/loadTargetUrl$xmlhttprequest
 @@||theseforums.com/intermission/loadTargetUrl$xmlhttprequest
 @@||thisav.com^$generichide
@@ -112415,6 +112418,8 @@ mesddl.cc###cboxContent
 messages.coreandmain.com$image
 messages.pawjourr.com$image
 meta.happycustomer.io$image
+metacritic.com#%#//scriptlet('set-local-storage-item', 'ppid', '$remove$')
+metacritic.com#%#//scriptlet('set-local-storage-item', 'uds_anon_id', '$remove$')
 metrics.mail.account.mathworks.com$image
 metrics.recruiting.mathworks.com$image
 metrilo.pongcheese.co.uk$image
@@ -118064,6 +118069,7 @@ thepaper.cn##.download
 thepaper.cn##[class^='index_footer_banner']
 theplace2.ru#@#.adsbygoogle
 theplanet.ws##a[href="http://mycounter.com.ua/"]
+theplayerstribune.com#%#//scriptlet('set-local-storage-item', 'userIdentifier', '$remove$')
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
 theqoo.net##.theqoo-counter
@@ -132857,7 +132863,7 @@ zzzyk.com###Tinfo
 ||al1n6v56m.com^
 ||alaburger.openapp.link^
 ||aladdinupdate.blackrock.com^
-||aladinia.app^
+||aladinia.app/tracking.js
 ||alamin.annawabi.com^
 ||alamocapital.actonservice.com^
 ||alapita.openapp.link^
@@ -135616,6 +135622,8 @@ zzzyk.com###Tinfo
 ||api.brunoacosta.com^
 ||api.brutalkill.com.br^
 ||api.bslacademy.com.br^
+||api.btmessage.com/events/
+||api.btmessage.com/log?
 ||api.bugsnag.com^
 ||api.builtin.com/track/client-events
 ||api.bulldrop.com.br^
@@ -138230,6 +138238,7 @@ zzzyk.com###Tinfo
 ||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.htvapps.com/lumiere/fallback/analytics.js
 ||assets.ikventilasjon.no^
+||assets.jimstatic.com/at.js
 ||assets.kost1.no^
 ||assets.mediadelivery.net/rum.js
 ||assets.mediahostingcdn.com^
@@ -141441,6 +141450,7 @@ zzzyk.com###Tinfo
 ||boylove.cc^*/img/20*.gif
 ||boyloves.fun^*/img/20*.gif
 ||boyner.com.tr/1eus/
+||boyplus.net/589n/
 ||boyvtr8.com^
 ||bozhou666.com^
 ||bp.blogspot.com^*/s1600/dealer
@@ -141503,6 +141513,7 @@ zzzyk.com###Tinfo
 ||bqloqigu.com^
 ||bqoiz.ingoodtaste.com^
 ||bqoulb.nowo.pt^
+||bqplydkjst.com^
 ||bqrfet.midasshoes.com.au^
 ||bqstreamer.com^
 ||bqtxcs.bellacoastaldecor.com^
@@ -176051,6 +176062,7 @@ zzzyk.com###Tinfo
 ||jqzmfh.autolucas.ro^
 ||jqzmji.nnn.ed.jp^
 ||jr-cross.co.jp/lib/js/ekinakaPotal-ga.js
+||jr9v5lx1ro.com^
 ||jraasj.kobo.com^
 ||jraopiteln.ems-dolorclast-usa.com^
 ||jraum.highereducation.shop^
@@ -197916,6 +197928,7 @@ zzzyk.com###Tinfo
 ||oxvzxk.carriere-info.fr^
 ||oxygenfuse.com^
 ||oyaswl.manor.ch^
+||oyb2ev9lqn.com^
 ||oyfnkle.cn^
 ||oyhurln.cn^
 ||oyksoft.com/assets/images/*.gif
@@ -252981,6 +252994,7 @@ zzzyk.com###Tinfo
 ||yqqhbd.yotsuyaotsuka.com^
 ||yqsu.cn^
 ||yquqoj.com^
+||yqwueei.icu^
 ||yqxg4.compandsave.com^
 ||yqzhishen.me/Statistics/statistics.
 ||yr-names.click^
