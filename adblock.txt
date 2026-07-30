@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-29 22:07:36(GMT+8) 
-! Total count: 254587
+! ! Version: 2026-07-30 10:20:19(GMT+8) 
+! Total count: 254609
  
 ###ADtip
 ###Ad_windows
@@ -3864,6 +3864,7 @@ $websocket,domain=wap.yushuwu.cloud
 /bugcounter.php?
 /bugsnag.min.js$third-party
 /bundle-analytics.js
+/bundle.tracing.min.js
 /bundle.tracking.js
 /bundle/analytics.
 /bunsen/events/*
@@ -4743,6 +4744,8 @@ $websocket,domain=wap.yushuwu.cloud
 /googletagmanageranalytics.js
 /googletrack.js
 /gosquared.js$script
+/gosstat_gokw.gif?
+/gosstat_gomp.gif?
 /gp/r.html?$image
 /gp/video/acquisition/utilities/monitoring|$domain=primevideo.com|amazon.*
 /grabify.link\/[0-9A-Z]{6,8}$/$domain=grabify.link,all
@@ -4938,6 +4941,7 @@ $websocket,domain=wap.yushuwu.cloud
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
+/impb?b=
 /impr.gif?
 /impresion/zona/*
 /impress.php?
@@ -7900,7 +7904,7 @@ $websocket,domain=wap.yushuwu.cloud
 1194.sock-qa1.marketingcloudqaops.com$image
 11945.editor-qa1.marketingcloudqaapis.com$image
 11976.connector-qa1.marketingcloudqaapis.com$image
-11alive.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+11alive.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
 11dkim1._domainkey.snapcap.com$image
@@ -14185,9 +14189,11 @@ $websocket,domain=wap.yushuwu.cloud
 @@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com
 @@||play.aetv.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
+@@||play.fyi.tv/vendor/VisitorAPI.js
 @@||play.fyi.tv^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||play.google.com/log?$domain=meet.google.com
 @@||play.google.com/log?format=json$domain=news.google.com
+@@||play.history.com/vendor/VisitorAPI.js
 @@||play.history.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||play.mylifetime.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||play.wtk.insys.pl/Scripts/InsysPlayer.v0.1.0/adTest.png$image
@@ -124097,6 +124103,7 @@ zzzyk.com###Tinfo
 ||3158.cn/static/js/fixbtm/
 ||3158.cn^*_analyser.
 ||315che.com/tree/ad.js
+||31ezrbosr6.com^
 ||31io8wshq.com^
 ||31pjnw0wff.com^
 ||31vcd.com^*.js
@@ -125242,6 +125249,7 @@ zzzyk.com###Tinfo
 ||8clkggoo62.com^
 ||8cnd.com^
 ||8csgiuclxz.com^
+||8d3jrboxxy.com^
 ||8d4b.pandasuite.io^
 ||8d7hhh8x.com^
 ||8d8d.me/images/dealer.gif
@@ -142514,6 +142522,7 @@ zzzyk.com###Tinfo
 ||c.tbex.ru^
 ||c.thredup.com^
 ||c.topya.com^
+||c.trkn.it^
 ||c.tvsou.com^
 ||c.uniten.io^
 ||c.vanityfair.com^
@@ -154785,6 +154794,7 @@ zzzyk.com###Tinfo
 ||dm.zuowenku.net^
 ||dm1.ddwk8.cn^
 ||dm1.zjydt.com^
+||dm5900.com/piao/
 ||dmanalytics1.com^$third-party
 ||dmarkconsulting.actonservice.com^
 ||dmc.coverswindow.com^
@@ -158182,6 +158192,7 @@ zzzyk.com###Tinfo
 ||eowpmq.vinoseleccion.com^
 ||eoyqzzk.cn^
 ||eozwcp.jetex.com^
+||ep.jamx.ai^
 ||ep.regis.edu^
 ||ep4p.com^$third-party
 ||epaej.cortazu.com^
@@ -158515,6 +158526,7 @@ zzzyk.com###Tinfo
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
 ||etff5y04k.com^
+||etfstream.com/api/active-campaign/track-events
 ||etfstream.com/api/analytics/
 ||etfstream.com/api/proxy/get-search-sponsor
 ||etgaad.smartphoto.be^
@@ -159892,6 +159904,7 @@ zzzyk.com###Tinfo
 ||farmergoldfish.com^
 ||faro-collector-prod-*.grafana.net^
 ||faro-sportybet.sportydog.net/collect|$xmlhttprequest,redirect=noopjson
+||faro.civitai.
 ||faroz.offer.farozamart.com^
 ||farshake.com^
 ||farsnails.com^
@@ -170217,6 +170230,7 @@ zzzyk.com###Tinfo
 ||hlalliances.com^
 ||hlbbn6ii.icu^
 ||hlbgo.business-class.com^
+||hlbitfukldzbrk.com^
 ||hlbizs.noo.ma^
 ||hlbtv.cbdistillery.co^
 ||hlcdhk.jskis.com^
@@ -170426,6 +170440,7 @@ zzzyk.com###Tinfo
 ||honestdata.honesteco.org^
 ||honestharbor.com^
 ||honeybulb.com^
+||honeybutterbliss.com^
 ||honeycomb.io/1/events/
 ||honeywarm-ss.checkoutera.com^
 ||hongfachn.com^
@@ -171859,6 +171874,7 @@ zzzyk.com###Tinfo
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 ||im.cbsileads.com^$third-party
 ||im0st6rwn.com^
+||im25r8olb.com^
 ||im286.net/286/
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
@@ -177453,6 +177469,7 @@ zzzyk.com###Tinfo
 ||kopde.xyz^
 ||kopsil.com^$third-party
 ||kopzkz.claytonitalia.com^
+||koreatimes.co.kr/api/log
 ||koreatimes.co.kr/initlib/ktet.js
 ||korewaeroi.com/fukugan_$subdocument
 ||koronapay.com/*/metrika_rus.js
@@ -196666,6 +196683,7 @@ zzzyk.com###Tinfo
 ||okw.schillingengineering.de^
 ||okx.com/jsstat/sb?
 ||okzsb7l5bl.com^
+||ol-collector.quillbot.com^
 ||ol-img.com/channel/tuku/js/tukuPopup.js
 ||olacontent.schwab.com^$script
 ||olaplog.smartmediarep.com^
@@ -199350,6 +199368,7 @@ zzzyk.com###Tinfo
 ||penguin.revolana.com^
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
+||penknife87.com^
 ||penna.peninhaimobiliaria.com.br^
 ||pensebig.com.br^$third-party
 ||penton.com/analytics/
@@ -200687,6 +200706,7 @@ zzzyk.com###Tinfo
 ||pool4.ioam.de^
 ||pool5.ioam.de^
 ||poolcushions.com^
+||poolprochem.com^
 ||poontown.net/Webservices/jsParseLinks.aspx$script,third-party
 ||poontown.net/visitScript/$script,third-party
 ||poool.fr/api/v3/access/event
@@ -207437,6 +207457,7 @@ zzzyk.com###Tinfo
 ||scholar.google.com^$ping
 ||scholarloop.com^
 ||school.novakidschool.com/api/*/metrics
+||schoolpaws.com^
 ||schottenland.de/na/ajax.php?ax=HiT&
 ||schouder.somt.nl^
 ||schpa.newroadadvertising.com^
@@ -214464,6 +214485,7 @@ zzzyk.com###Tinfo
 ||simplify.razorsync.com^
 ||simplycast.us^$third-party
 ||simplymeasured.com^$third-party
+||simplyradon.com^
 ||simplywall.st/backend/flags/proxy/client/metrics
 ||simscale.actonservice.com^
 ||simulateswing.com^
@@ -219564,6 +219586,7 @@ zzzyk.com###Tinfo
 ||solar.sunpowercorp.com^
 ||solarislabyrinth.com^
 ||solaron.top^
+||solarrecharge.net^
 ||solarwinds.com/ra-$script
 ||sole.bkosmetik.com^
 ||sole.pretto.fr^
@@ -252550,7 +252573,6 @@ zzzyk.com###Tinfo
 ||yhdcdo.crazy-factory.com^
 ||yhdd1.com^$third-party
 ||yhdm.tv/bar/yfyh.js
-||yhdm335.com/piao/
 ||yhdm44.com/123.html
 ||yhecauig.com^
 ||yhgqxkjz9.com^
