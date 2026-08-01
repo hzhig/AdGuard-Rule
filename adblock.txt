@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-31 22:03:28(GMT+8) 
-! Total count: 254641
+! ! Version: 2026-08-01 10:42:10(GMT+8) 
+! Total count: 254653
  
 ###ADtip
 ###Ad_windows
@@ -3563,6 +3563,8 @@ $websocket,domain=wap.yushuwu.cloud
 /apc/trans.gif?$domain=live.com|office.com
 /api-analytics.
 /api-insights/log?
+/api-integration/ad-rotator/stats^
+/api-integration/ad-rotator/track/*
 /api.transferwise.com/v1/notification-flow/messages/*/open.gif
 /api/0/stats
 /api/LM/Report?placeUUID=$third-party
@@ -126608,6 +126610,7 @@ zzzyk.com###Tinfo
 ||a19895.actonservice.com^
 ||a19930.actonservice.com^
 ||a19997.actonservice.com^
+||a1ajfrk4i.com^
 ||a1at.mno.link^
 ||a1bw2cup.top^
 ||a1webstrategy.com^$third-party
@@ -135107,6 +135110,7 @@ zzzyk.com###Tinfo
 ||ancientact.com^
 ||ancqie.finanztrends.info^
 ||andersenit.dk^$third-party
+||andfauna.net^
 ||andina.nasuacasa.coca-cola.com.br^$cookie=/^_snrs_/
 ||andina.nasuacasa.coca-cola.com.br^$cookie=/^vtex-search-/
 ||andlache.com^
@@ -139696,6 +139700,7 @@ zzzyk.com###Tinfo
 ||barracuda.carte-gr.total.fr^
 ||barracuda.civicdatalibrary.org^
 ||barracuda.verto.exchange^
+||barrelcider.com^
 ||barrister85.top^
 ||barrons.com/cookies/pixel.gif
 ||barry-callebaut.com/pd.js
@@ -154500,6 +154505,7 @@ zzzyk.com###Tinfo
 ||disability29.top^
 ||disagreeabledrop.com^
 ||discards55.com^
+||discjockeys.net^
 ||discopond.com^
 ||discord.com/api/track
 ||discord.com/api/v*/science
@@ -156936,6 +156942,7 @@ zzzyk.com###Tinfo
 ||egdehs.selected.com^
 ||egg.afisha.ru^
 ||eggplant.cloud^$third-party
+||eggrecipe.com^
 ||eghaailr.com^
 ||eghrbf.immowelt.at^
 ||eghyahl.cn^
@@ -163519,6 +163526,7 @@ zzzyk.com###Tinfo
 ||globalwebindex.net^$third-party
 ||globase.com^$third-party
 ||globel.co.uk^$third-party
+||globes.co.il/news/scripts/fp2.min.js
 ||globes.co.il/shared/s.ashx?
 ||globetrackr.com^$third-party
 ||globo-ab.globo.com^
@@ -170685,6 +170693,7 @@ zzzyk.com###Tinfo
 ||hqq.tv/js/gcounter.js
 ||hqrixc.dorocy.co.kr^
 ||hqvkbn.icu^
+||hqvldtiayuvrho.com^
 ||hqvrvageaf.com^
 ||hqwtqa.intelligence-artificielle-school.com^
 ||hqxbuy.rugs-direct.com^
@@ -202240,6 +202249,7 @@ zzzyk.com###Tinfo
 ||qcalq.whirleypopshop.com^
 ||qcb2xeg.icu^
 ||qcblzn.pinkpanda.it^
+||qccxvtfbk.com^
 ||qcdch.saltlaboratory.com^
 ||qceyjl.cellularoutfitter.com^
 ||qcgt.qciano.com.br^
@@ -233336,6 +233346,7 @@ zzzyk.com###Tinfo
 ||sun.sunnahersopan.com^
 ||sun66387567606.online^
 ||sun66387567606.site^
+||sunblock65.com^
 ||suncanny.marvel.com^
 ||suncanny.marvelhq.com^
 ||suncorp.activate.ensighten.com^
@@ -253315,6 +253326,7 @@ zzzyk.com###Tinfo
 ||yynncbn.cn^
 ||yyqlpi.danmusikk.no^
 ||yyqozaldwa.com^
+||yyrodzxm5.com^
 ||yyrtip.mujkoberec.cz^
 ||yyselrqpyu.com^
 ||yysjea.stepstone.nl^
