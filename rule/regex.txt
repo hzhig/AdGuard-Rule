@@ -1,4 +1,4 @@
-# Update time: 2026-07-31 21:51:38
+# Update time: 2026-08-01 10:21:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -55,7 +55,6 @@
 ||avito.avito.avito.
 ||yandex.pay.avito.
 ||report.*.qq.com^
-||onetrust.
 ||allyes.
 ||icast.
 ||gg.
@@ -65,7 +64,6 @@
 ||cnzz.
 ||adsfile.
 ||adserver.
-||adservice.
 ||adpic.
 ||sax.sina.
 ||biz5.
@@ -76,6 +74,7 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||onetrust.
 ||adx.
 ||adx-
 ||adsfs.
@@ -97,6 +96,7 @@ MRelateFeedAd
 ||adcolony.
 ||advertising.
 ||showad*
+||adservice.
 ||pagead.
 ||djjca.
 ||imageadv.
@@ -286,7 +286,6 @@ advertisers.js|
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||ecommerce-events*.adscale.com^
-||tracking-v*.a.run.app^
 ||zazgiyoh*.xyz^
 ||stats*.credit-cooperatif.coop^
 ||tracking*.euroads.fi^
@@ -372,7 +371,6 @@ advertisers.js|
 ||htm*.hepsiburada.com^
 ||creative*.bidease.com^
 ||mapi-log.qoo*.jp^
-||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||fanpingbi*.gaokao.com^
 ||dn*.ixinwei.com^
 ||ja*.apppure.net^
@@ -418,7 +416,6 @@ advertisers.js|
 ||event.*.karrotmarket.com^
 ||a*.chajiaotong.com^
 ||gads*s.com^
-||trk*.vidible.tv^
 ||gscounters.*.gigya.com^
 ||adserver.*.yahoodns.net^
 ||fads*z.com^
@@ -465,7 +462,6 @@ advertisers.js|
 ||matomo.*.vn^
 ||log-*.isnssdk.com^
 ||static*.365inews.com^
-||ubacollect-*.cloud.dbankcloud.cn^
 ||appanalysis*.banggood.com^
 ||maas-*.phunware.com^
 ||api*.batmobi.net^
@@ -532,11 +528,8 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
-||rgfftupf.
 ||adservice.google.
-||counter*.stat.ovh^
 |load.sst.
-||ads.livetv*.me^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
@@ -588,6 +581,7 @@ analytics-*.aasaam.com
 ||logs*.smithsonian.museum^
 ||bar*.shinobi.jp^
 ||counter*.freecounter.ovh^
+||tracking-v*.a.run.app^
 ||weblogger-wss.cool*cloud.com^
 ||track.zalando.
 ||seller-log-collector.shopee.
@@ -617,7 +611,6 @@ analytics-*.aasaam.com
 |piwik.
 ||letssex.
 ||production-adserver-*.amazonaws.com^
-||ad-host-backup-*.aliyuncs.com^
 ||cl*.k5a.io^
 ||analytics.ahrefs.
 ||s*.adduplex.com^
@@ -625,6 +618,7 @@ analytics-*.aasaam.com
 ||umami.vidfast.
 ||adserver1.
 ||ad*.mellesleg.hu^
+||rtb-*.anysex.com^
 ||countly-
 ||countly.
 ||backstory.ebay.
@@ -640,8 +634,9 @@ analytics-*.aasaam.com
 ||query*.petametrics.com^
 ||121.204.246.*.gif
 ||button.blogs.yandex.
-||fxhpaoxqyajvmdg.
+||buzzer.xhamster*
 ||zbb.bbb.*.pics^
+||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||rum*.a.trbcdn.net^
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
@@ -663,13 +658,13 @@ analytics-*.aasaam.com
 ||eclog*-*.cafe24.com^
 ||s*.skencituer.com^
 ||underclick.
-||advertising.civitai.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
 ||cnt.hd21.
 ||ulog.*.ksapisrv.com^
 ||stw.zone-telechargement.
 ||servo-report.dvdfab.
+||trk*.vidible.tv^
 ||pop-under.
 ||talpa-analytics.
 ||pixelapi-*.cs.mysamba.tv^
@@ -702,6 +697,7 @@ analytics-*.aasaam.com
 ||ad*.bilgin.pro^
 ||px*.mediahills.ru^
 ||ulog.*.kwai-pro.com^
+||ubacollect-*.cloud.dbankcloud.cn^
 ||rotaban.
 ||tw-726620180914.*.run.app^
 ||prebid-cache*.ifunny.co^
@@ -713,7 +709,6 @@ analytics-*.aasaam.com
 |load.gtm.
 ||stats*.videonow.ru^
 ||pixel.archive.
-||reachableads-av.*.amazonaws.com^
 ||ad*.thisisgame.com^
 ||q*-publick.club^
 ||iad-*.appboy.com^
@@ -740,17 +735,22 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
+||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
 ||23.109.82.
+||ad-host-backup-*.aliyuncs.com^
 ||fapnado.*.php|
 ||itechpost.com*adbk
+||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
+||counter*.stat.ovh^
 ||158.247.208.
+||ads.livetv*.me^
 ||142.91.159.
-||buzzer.xhamster*
 |167.206.10.148^
-||rtb-*.anysex.com^
 ||23.109.87.
+||fxhpaoxqyajvmdg.
+||advertising.civitai.
 Banner468x60
