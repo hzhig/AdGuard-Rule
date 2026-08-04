@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-03 22:35:51(GMT+8) 
-! Total count: 254679
+! ! Version: 2026-08-04 10:26:13(GMT+8) 
+! Total count: 254689
  
 ###ADtip
 ###Ad_windows
@@ -6852,6 +6852,7 @@ $websocket,domain=wap.yushuwu.cloud
 /tracking.phtml?
 /tracking.srv2.de/op/*$image
 /tracking.vidt
+/tracking/affiliate|$image
 /tracking/airdog
 /tracking/call.$script
 /tracking/common.html
@@ -134424,6 +134425,7 @@ zzzyk.com###Tinfo
 ||analytics.mattresswarehouse.com^
 ||analytics.mawashico.com^
 ||analytics.maxroll.gg^
+||analytics.maxx53.com^
 ||analytics.mbga.jp^
 ||analytics.mc500.info^
 ||analytics.mcw.nz^
@@ -157095,6 +157097,7 @@ zzzyk.com###Tinfo
 ||ekrki.jessicasimpson.com^
 ||ekuhv.wearpepper.com^
 ||el.quizlet.com^
+||el.siglo.mx^
 ||el2m3qr7v.com^
 ||ela-3-tnk.com^$third-party
 ||elade.mensuas.com^
@@ -158070,6 +158073,7 @@ zzzyk.com###Tinfo
 ||engagefront.theweathernetwork.com^
 ||engagelab.cc^
 ||engagemaster.com^$third-party
+||engagement.coremedia.cloud^
 ||engagement.feedly.com^
 ||engagements.appsflyer.com^
 ||engagemetrics.cisco.com^
@@ -158477,6 +158481,7 @@ zzzyk.com###Tinfo
 ||estrelaapps.com/collect
 ||estuary98.top^
 ||esub.akkusys.de^
+||esudrp.cn^
 ||esvkay.unifriend.co.kr^
 ||eswpwi.xlmoto.pl^
 ||esywhf.everbags.com.br^
@@ -159892,6 +159897,7 @@ zzzyk.com###Tinfo
 ||fangfeng009.xyz^
 ||fanhaodang.org/Runtime/js/
 ||fanjs.top^
+||fanless.net^
 ||fanp.me/*/silveregg_tracking.html
 ||fanpage.it/views/
 ||fanpingbi*.gaokao.com^
@@ -159908,6 +159914,7 @@ zzzyk.com###Tinfo
 ||fanyi.baidu.com/wise/afd
 ||fanyi100.com.cn^
 ||fanzhuang.net.cn^$third-party
+||faoda4xd2.com^
 ||faokwl.sklepogrodniczy.pl^
 ||fap.bar/a.js
 ||faphouse.com/api/collector/
@@ -171558,6 +171565,7 @@ zzzyk.com###Tinfo
 ||idrivelogistics.actonservice.com^
 ||ids.actonservice.com^
 ||idsfq.katespade.de^
+||idsmodules.com^
 ||idsod.catholic.com^
 ||idsqb.evanalexandergrooming.com^
 ||idstatus.sky.com^
@@ -185530,6 +185538,7 @@ zzzyk.com###Tinfo
 ||lowermybills.actonsoftware.com^
 ||lowerthewatts.net^
 ||lowes.com/baymax/events/
+||lowes.com/baymax/events/track?
 ||lowes.com/gauge/
 ||lowes.com/pharos/api/webTelemetry?
 ||lowes.com/resources/*/collect?
@@ -251614,6 +251623,7 @@ zzzyk.com###Tinfo
 ||xifj.applevacations.com^
 ||xiguasuwu.com/static/m.
 ||xii1ybb2hk.com^
+||xikprjbbp.com^
 ||xilofr.xyz^
 ||ximit8023.maijijo.com^
 ||xinbo-lora.cn^
