@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-06 22:05:41(GMT+8) 
-! Total count: 254726
+! ! Version: 2026-08-07 10:36:24(GMT+8) 
+! Total count: 254729
  
 ###ADtip
 ###Ad_windows
@@ -135560,6 +135560,7 @@ zzzyk.com###Tinfo
 ||api.audiumesquadrias.com^
 ||api.aurorea.com.br^
 ||api.autoflixtreinamentos.com^
+||api.autogram.site/api/tracking/track.js
 ||api.autopilothq.com^
 ||api.autopilothq.com^$third-party
 ||api.aws.mapquest.com/logger
@@ -154233,6 +154234,7 @@ zzzyk.com###Tinfo
 ||digiadglobal.com^$third-party
 ||digianalytics.fr^$third-party
 ||digicard.jollyhires.com^
+||digidip.net/visit?url=$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?.*\.digidip\.net.*url=([^&]*)/\$1/|pct
 ||digidip.net^$domain=gofeminin.de
 ||digidip.net^$third-party
 ||digikey.*/-/media/Designer/Web%20Analytics/MultiTrack/JS/multitrack.js
@@ -177192,6 +177194,7 @@ zzzyk.com###Tinfo
 ||kitbit.net^$third-party
 ||kitces.com/wp-json/kwm/v1/track
 ||kitchen.juicer.cc^
+||kitchenbasin.com^
 ||kitchenfu47.top^
 ||kite.cardneyestate.co.uk^
 ||kite.devin.website^
