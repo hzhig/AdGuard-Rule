@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-07 21:00:17(GMT+8) 
-! Total count: 254729
+! ! Version: 2026-08-08 09:27:31(GMT+8) 
+! Total count: 254747
  
 ###ADtip
 ###Ad_windows
@@ -3224,6 +3224,7 @@ $websocket,domain=wap.yushuwu.cloud
 /__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
+/__siren/*$domain=edp24.co.uk|theargus.co.uk
 /__ssobj/core.js
 /__ssobj/rum?
 /__ssobj/sync?$image
@@ -6091,6 +6092,8 @@ $websocket,domain=wap.yushuwu.cloud
 /res/kj/hf*.js?v=
 /resolve?type=*&short=*&name=$third-party
 /resource/common/tongzhuo/game_info.json
+/resources/images/pixel/*$domain=edp24.co.uk|theargus.co.uk
+/resources/responsive-static/vendor/adobe/*$domain=edp24.co.uk|theargus.co.uk
 /resources/video/players/prod/dist/*/analytics.js$domain=komonews.com|wjactv.com|upnorthlive.com|cnycentral.com|wpde.com|cbs6albany.com|kutv.com|wjla.com|news3lv.com|kmph.com|kfoxtv.com|fox17.com|foxbaltimore.com|foxchattanooga.com|foxillinois.com|foxnebraska.com|foxreno.com|foxrochester.com|foxsanantonio.com|nbcmontana.com|okcfox.com|siouxlandnews.com|wach.com|wchstv.com|wcyb.com|wfxl.com|wgxa.tv|wlos.com|wsbt.com|cbs2iowa.com|fox4beaumont.com|mycbs4.com|mynews4.com|news4sanantonio.com|abc6onyourside.com|wtov9.com|turnto10.com|fox11online.com|mynbc15.com|nbc16.com|fox23maine.com|nbc24.com|fox28savannah.com|myfox28columbus.com|fox42kptm.com|dayton247now.com|fox56.com|katu.com|local12.com|bakersfieldnow.com|ktul.com|22thepoint.com|abc3340.com|abc45.com|abc7amarillo.com|abcnews4.com|cbs12.com|cbs4local.com|cbsaustin.com|chattanoogacw.com|cw14online.com|cwomaha.tv|cw18milwaukee.com|cw23tv.com|cw34.com|cw35.com|cw9tv.com|cwcentralpa.com|cwcincinnati.com|cwcolumbus.com|cwlasvegas.com|cwtreasurevalley.com|fox38corpuschristi.com|fox47.com|fox49.tv|foxkansas.com|foxrichmond.com|idahonews.com|katv.com|kcby.com|kdsm17.com|keprtv.com|kfdm.com|khqa.com|kimatv.com|kmyu.tv|kocb.com|kpic.com|krcgtv.com|krcrtv.com|ktvl.com|ktvo.com|ktxs.com|kunptv.com|kunwtv.com|kval.com|local21news.com|midmichigannow.com|myrdctv.com|mytv30web.com|mytvbaltimore.com|mytvbuffalo.com|mytvcharleston.com|mytvdayton.com|mytvrichmond.com|mytvwichita.com|mytvz.com|nebraska.tv|nevadasportsnet.com|newschannel20.com|newschannel9.com|raleighcw.com|seattlerefined.com|southernoregoncw.com|star64.tv|telemundoaustin.com|thecw38.com|thecw46.com|thecwtc.com|thecwtv.tv|thenationaldesk.com|utv44.com|wabm68.com|watchdaytime.com|wcti12.com|weartv.com|wfgxtv.com|wgme.com|wpgh53.com|wset.com|wtwc40.com|wutv29.com|wwmt.com|13wham.com
 /rest/analytics/*
 /rest/high/api/cogitoergosum
@@ -7687,6 +7690,7 @@ $websocket,domain=wap.yushuwu.cloud
 10jqka.com.cn,18183.com,actoys.net,beijing-air.com,bio1000.com,foodmate.net,gter.net,hepuwang.com,jjwxc.net,ncdiy.com,qingdaonews.com,tgbus.com##.ad1
 10jqka.com.cn,faxingw.cn,gdmm.com#@#.ad_1
 10jqka.com.cn,hepan.com##.onead
+10tv.com,11alive.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lfpress.com,localmemphis.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,weareiowa.com,wfaa.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11005.sock-qa1.marketingcloudqaops.com$image
 11018.sock-qa1.marketingcloudqaops.com$image
 11055.connector-qa1.marketingcloudqaapis.com$image
@@ -7908,7 +7912,6 @@ $websocket,domain=wap.yushuwu.cloud
 1194.sock-qa1.marketingcloudqaops.com$image
 11945.editor-qa1.marketingcloudqaapis.com$image
 11976.connector-qa1.marketingcloudqaapis.com$image
-11alive.com,12newsnow.com,9news.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kgw.com,krem.com,kvue.com,lfpress.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,weareiowa.com,wfaa.com,wgrz.com,windsorstar.com,wkyc.com,wltx.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
 11dkim1._domainkey.snapcap.com$image
@@ -15231,6 +15234,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||vlscppe.microsoft.com/fp/tags.js$domain=microsoft.com
 @@||vod.olympics2010.msn.com/beacon?
 @@||vod.universalsports.com/beacon?
+@@||vodafone.com.au/gtm.js$~third-party
 @@||vodafonelimited.tt.omtrdc.net^
 @@||voxmusic.tv/html/js/adv.bbelements.js$script,domain=voxmusic.tv
 @@||vplayer.ilsemedia.nl/swf/im_player.swf?
@@ -105451,6 +105455,7 @@ eol.cn##div[id^="s1_"]
 eol.cn,firefoxchina.cn,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epay.click.s11.sfmc-osl.com$image
+epicgames.com#%#//scriptlet('prevent-xhr', '/id/api/analytics')
 epicurious.com#%#//scriptlet('set-cookie', 'FP_visitorID', '1', '/', 'epicurious.com')
 epinv.com##.epinv_b
 epinv.com##.epinv_f
@@ -109019,6 +109024,7 @@ jsbooks.com.cn#@#.left-ads
 jsjiami.com##.asd > li > a.shaky
 jsjiami.com##.banner-container li._logo ~ li > a[target="_blank"]
 json.cn###shuangshi1Modal1
+json.cn##.show-hide-adv
 json.cn##.tip[target="_blank"]
 json.cn,pianyuan.org,qixingquan.com##.modal-backdrop
 jsphp.net##.adleft-wrap
@@ -118077,7 +118083,6 @@ theporn.cc##.toolbar-gg
 theqoo.net##.theqoo-counter
 thesporttv.eu,sporttvhdmi.com##[id^="ad_tlvmedia-"]
 thestar.com.my#%#//scriptlet('set-local-storage-item', 'nx_anon_id_v1', '$remove$')
-thesun.co.uk#%#//scriptlet('set-local-storage-item', '/^optimizely_data/', '$remove$')
 theworld.cn##.download-now
 thg.ru#?#td[valign="top"] > table > tbody > tr:has(> td > table[cellpadding="0"] a[href^="http://top100.rambler.ru/"])
 thinbug.com###inktokad
@@ -121912,6 +121917,7 @@ vocus.cc##article > div[style^="min-height:"]:empty
 vocus.cc##article > div[style^="min-height:"]:has(> div[class^="sc-"] > div[class^="sc-"] > ins[data-rmax-space-id])
 vod1769.com##.banner_img
 vod1769.com##div[id^="a"]
+vodafone.com.au,thesun.co.uk#%#//scriptlet('set-local-storage-item', '/^optimizely_data/', '$remove$')
 volcore.xyz##.avd1
 volcore.xyz##.avd2
 vostfr-vf.com##.fixe
@@ -124462,6 +124468,7 @@ zzzyk.com###Tinfo
 ||4hw.com.cn/js/common.js
 ||4i2q0y9wv.com^
 ||4ifhpfi1.xyz^
+||4j7mf4mmx.com^
 ||4jaehnfqizyx.controlconceptsusa.com^
 ||4jh1le34m.com^
 ||4jnzhl0d0.com^
@@ -130072,6 +130079,7 @@ zzzyk.com###Tinfo
 ||abgku.onewillow.com^
 ||abilityscale.com^
 ||abilitytoucan.com^
+||abilityworkout.com^
 ||abjectattempt.com^
 ||abjkfy.muuu.com^
 ||abjtuq.exoticca.com^
@@ -138212,7 +138220,7 @@ zzzyk.com###Tinfo
 ||assets.9gtb.com^
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com|skinny.co.nz
 ||assets.adobedtm.com^$app=com.aa.android|uk.co.thetimes|de.spiegel.android.app.spon|com.hilton.android.hhonors
-||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com|ubs.com|assets.adobedtm.com|eadt.co.uk|cineplex.com|samsung.com|mastercard.com|mini.com.tr
+||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com|ubs.com|assets.adobedtm.com|eadt.co.uk|cineplex.com|samsung.com|mastercard.com|mini.com.tr|theargus.co.uk
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.akvarieboden.net^
@@ -139707,6 +139715,7 @@ zzzyk.com###Tinfo
 ||barnacle.hearmeout.work^
 ||barnacle.natalieandmikeyb.com^
 ||barnacle.viewsource.io^
+||barqmajk.com^
 ||barqueue.com^
 ||barracuda.carte-gr.total.fr^
 ||barracuda.civicdatalibrary.org^
@@ -140356,6 +140365,7 @@ zzzyk.com###Tinfo
 ||bestpush.pconline.com.cn^
 ||bestqikan.com/static/js/swt.js
 ||bestshoesboot.com^
+||bestsportsbra.com^
 ||bestvogue.com/fans/
 ||besucher.nona.de^
 ||besucherzaehler-counter.de^$third-party
@@ -142009,6 +142019,7 @@ zzzyk.com###Tinfo
 ||btloader.com^
 ||btmao.cc/Public/yd/
 ||btmean.cardosystems.com^
+||btmessage.com^$third-party
 ||btmovi.in/static/js/xf.js
 ||btmulu.com/assets/*/ad02.gif
 ||btn.listonic.com^
@@ -143998,6 +144009,7 @@ zzzyk.com###Tinfo
 ||cdn.search.brave.com/serp/*/static/serp-js/telemetry/
 ||cdn.segment.com/analytics.js
 ||cdn.segmentify.com/*/segmentify.js$script,important,redirect=noopjs,domain=gratis.com
+||cdn.seline.com^
 ||cdn.seonintelligence.com^
 ||cdn.sgmntfy.com^
 ||cdn.shdsp.net/ad
@@ -154582,6 +154594,7 @@ zzzyk.com###Tinfo
 ||dismantlepenantiterrorist.com^
 ||dispatcher.upmc.uc.cn^
 ||dispatchunique.com^
+||dispeldesign.com^
 ||display.itmemo.cn^
 ||displaymarketplace.com^$third-party
 ||displaymaxmerchandising.actonservice.com^
@@ -154598,6 +154611,7 @@ zzzyk.com###Tinfo
 ||disruptive49.com^
 ||dissolution06.com^
 ||dist.micres.cyberowl.jp/packs/link-tracker.js
+||distantflame.com^
 ||distiller.kano.link^
 ||distillery.wistia.com^
 ||distilltable.com^
@@ -154622,6 +154636,7 @@ zzzyk.com###Tinfo
 ||dividend56.top^
 ||division43.top^
 ||divolution.com^$third-party
+||dixbvzvuzhvxbg.com^
 ||dixrow.pamono.de^
 ||diy.bauhaus.info^
 ||diy.beviswoodclub.com^
@@ -156808,9 +156823,6 @@ zzzyk.com###Tinfo
 ||edomsp.membershop.ee^
 ||edong.link^
 ||edoshbw.top^
-||edp24.co.uk/__siren/
-||edp24.co.uk/resources/images/pixel/
-||edp24.co.uk/resources/responsive-static/vendor/adobe/
 ||edpsmart.edpcomunicacao.com.br^
 ||edqmrt.spinlife.com^
 ||edrakiber.com^
@@ -157431,6 +157443,7 @@ zzzyk.com###Tinfo
 ||elusivecascade.com^
 ||eluxer.net^$third-party
 ||elviraawa.com^
+||elwd3duunc.com^
 ||elwebmx21.com^
 ||elysvo.elysvo.com^
 ||elyxvt.wilsonamplifiers.com^
@@ -157930,7 +157943,6 @@ zzzyk.com###Tinfo
 ||endowmentoverhangutmost.com^
 ||endurablebulb.com^
 ||eneba.com/metrics/
-||eneba.com^$cookie=userId
 ||enecto.com^$third-party
 ||enelveufry.com^
 ||enennsa.gushiwen.cn^
@@ -158667,7 +158679,6 @@ zzzyk.com###Tinfo
 ||etsy.com/bcn/beacon
 ||etsy.com/bcn/beacon|
 ||etsy.com/clientlog
-||etsy.com/include/tags.js
 ||etsy.com^$removeparam=click_key
 ||etsy.com^$removeparam=click_sum
 ||etsy.com^$removeparam=organic_search_click
@@ -199457,6 +199468,7 @@ zzzyk.com###Tinfo
 ||penguin.revolana.com^
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
+||penknife47.com^
 ||penknife87.com^
 ||penna.peninhaimobiliaria.com.br^
 ||pensebig.com.br^$third-party
@@ -199897,6 +199909,7 @@ zzzyk.com###Tinfo
 ||pinvf.australianopaldirect.com^
 ||pinyuege.net/template/pinygm/public/js/
 ||pionmj.companyshop24.de^
+||pipadvance.com^
 ||pipe-collect.ebu.io^
 ||pipedream.wistia.com^
 ||pipeline.balkstercourant.nl^$~script
@@ -201139,6 +201152,7 @@ zzzyk.com###Tinfo
 ||prelude69.com^
 ||premierbuyer.edm.globalsources.com^
 ||premiercio.actonservice.com^
+||premierzal.ru^$cookie=/^__ddg/
 ||premiumapp.byjus.com^
 ||premiumimpression.com^$third-party
 ||prems.thewatchdog.io^
@@ -203186,6 +203200,7 @@ zzzyk.com###Tinfo
 ||qyuzwd.maskworld.com^
 ||qyvnic.footshop.cz^
 ||qywjep.miniinthebox.com^
+||qyxrwl.com^
 ||qyysqs.color4care.no^
 ||qyyvoquib.com^
 ||qyzyd.top^
@@ -206932,6 +206947,7 @@ zzzyk.com###Tinfo
 ||samestretch.com^
 ||sametrics.finn.no^
 ||samia.net.anwalt.de^
+||sammobile.com/wp-content/themes/*/settings/hits/
 ||sampdoria.soschildrensvillages.org.uk^
 ||samplesamba.com^
 ||sams.11freunde.de^
@@ -246843,7 +246859,6 @@ zzzyk.com###Tinfo
 ||verticalsearchworks.com^$third-party
 ||vertigo52.top^
 ||vertster.com^$third-party
-||verybark.com^$redirect=noopjs,script
 ||verybouncy.com^
 ||verypopularwebsite.com^$third-party
 ||verysadfun.com/assets/publish/jquery.*.js
@@ -247583,6 +247598,8 @@ zzzyk.com###Tinfo
 ||vocabulary83.com^
 ||vocalsure.com^
 ||vocfhq.ilgiardinodeilibri.it^
+||vodafone.com.au/content/js/newrelic.js
+||vodafone.com.au/js/ot2.min.js
 ||vodtw.xyz/zepto-
 ||voeux2020.wearemip.com^
 ||vogcv.libelulatequila.com^
@@ -251345,6 +251362,7 @@ zzzyk.com###Tinfo
 ||x.xtar.io^
 ||x.yaohuo.me^
 ||x0.ifengimg.com/feprod/c/web/d/pc_bottom.js
+||x01omk083.com^
 ||x0b5edl6u.com^
 ||x0lkimaixh.com^
 ||x0ri3.bbqexperiencecenter.be^
