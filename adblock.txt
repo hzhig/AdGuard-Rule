@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-10 09:42:55(GMT+8) 
-! Total count: 254754
+! ! Version: 2026-08-10 21:04:13(GMT+8) 
+! Total count: 254775
  
 ###ADtip
 ###Ad_windows
@@ -3224,7 +3224,7 @@ $websocket,domain=wap.yushuwu.cloud
 /__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
-/__siren/*$domain=edp24.co.uk|theargus.co.uk
+/__siren/*$domain=edp24.co.uk|theargus.co.uk|fakenhamtimes.co.uk
 /__ssobj/core.js
 /__ssobj/rum?
 /__ssobj/sync?$image
@@ -6092,8 +6092,8 @@ $websocket,domain=wap.yushuwu.cloud
 /res/kj/hf*.js?v=
 /resolve?type=*&short=*&name=$third-party
 /resource/common/tongzhuo/game_info.json
-/resources/images/pixel/*$domain=edp24.co.uk|theargus.co.uk
-/resources/responsive-static/vendor/adobe/*$domain=edp24.co.uk|theargus.co.uk
+/resources/images/pixel/*$domain=edp24.co.uk|theargus.co.uk|fakenhamtimes.co.uk
+/resources/responsive-static/vendor/adobe/*$domain=edp24.co.uk|theargus.co.uk|fakenhamtimes.co.uk
 /resources/video/players/prod/dist/*/analytics.js$domain=komonews.com|wjactv.com|upnorthlive.com|cnycentral.com|wpde.com|cbs6albany.com|kutv.com|wjla.com|news3lv.com|kmph.com|kfoxtv.com|fox17.com|foxbaltimore.com|foxchattanooga.com|foxillinois.com|foxnebraska.com|foxreno.com|foxrochester.com|foxsanantonio.com|nbcmontana.com|okcfox.com|siouxlandnews.com|wach.com|wchstv.com|wcyb.com|wfxl.com|wgxa.tv|wlos.com|wsbt.com|cbs2iowa.com|fox4beaumont.com|mycbs4.com|mynews4.com|news4sanantonio.com|abc6onyourside.com|wtov9.com|turnto10.com|fox11online.com|mynbc15.com|nbc16.com|fox23maine.com|nbc24.com|fox28savannah.com|myfox28columbus.com|fox42kptm.com|dayton247now.com|fox56.com|katu.com|local12.com|bakersfieldnow.com|ktul.com|22thepoint.com|abc3340.com|abc45.com|abc7amarillo.com|abcnews4.com|cbs12.com|cbs4local.com|cbsaustin.com|chattanoogacw.com|cw14online.com|cwomaha.tv|cw18milwaukee.com|cw23tv.com|cw34.com|cw35.com|cw9tv.com|cwcentralpa.com|cwcincinnati.com|cwcolumbus.com|cwlasvegas.com|cwtreasurevalley.com|fox38corpuschristi.com|fox47.com|fox49.tv|foxkansas.com|foxrichmond.com|idahonews.com|katv.com|kcby.com|kdsm17.com|keprtv.com|kfdm.com|khqa.com|kimatv.com|kmyu.tv|kocb.com|kpic.com|krcgtv.com|krcrtv.com|ktvl.com|ktvo.com|ktxs.com|kunptv.com|kunwtv.com|kval.com|local21news.com|midmichigannow.com|myrdctv.com|mytv30web.com|mytvbaltimore.com|mytvbuffalo.com|mytvcharleston.com|mytvdayton.com|mytvrichmond.com|mytvwichita.com|mytvz.com|nebraska.tv|nevadasportsnet.com|newschannel20.com|newschannel9.com|raleighcw.com|seattlerefined.com|southernoregoncw.com|star64.tv|telemundoaustin.com|thecw38.com|thecw46.com|thecwtc.com|thecwtv.tv|thenationaldesk.com|utv44.com|wabm68.com|watchdaytime.com|wcti12.com|weartv.com|wfgxtv.com|wgme.com|wpgh53.com|wset.com|wtwc40.com|wutv29.com|wwmt.com|13wham.com
 /rest/analytics/*
 /rest/high/api/cogitoergosum
@@ -124933,6 +124933,7 @@ zzzyk.com###Tinfo
 ||6cyfvvs.com^
 ||6dp0i7.ru^
 ||6ejvq6ykg2.com^
+||6ez760nwf0.com^
 ||6f42v90nz.com^
 ||6fm4dcpj31.com^
 ||6functf.com^
@@ -133881,6 +133882,7 @@ zzzyk.com###Tinfo
 ||analytics.audionow.de^
 ||analytics.audionow.de^$third-party
 ||analytics.authoritymedia.com^
+||analytics.autoodb.com^
 ||analytics.autozone.com^
 ||analytics.avanser.com.au^
 ||analytics.avcdn.net^
@@ -135266,6 +135268,7 @@ zzzyk.com###Tinfo
 ||anti-cheat.info^$third-party
 ||antiadtape.com/stat/
 ||antiblock.info^$third-party
+||antibot.wildberries.ru^
 ||antico.openapp.link^
 ||antidoto.antidotodigital.com^
 ||antillephone.com^$third-party
@@ -138223,7 +138226,7 @@ zzzyk.com###Tinfo
 ||assets.9gtb.com^
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com|skinny.co.nz
 ||assets.adobedtm.com^$app=com.aa.android|uk.co.thetimes|de.spiegel.android.app.spon|com.hilton.android.hhonors
-||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com|ubs.com|assets.adobedtm.com|eadt.co.uk|cineplex.com|samsung.com|mastercard.com|mini.com.tr|theargus.co.uk
+||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com|ubs.com|assets.adobedtm.com|eadt.co.uk|cineplex.com|samsung.com|mastercard.com|mini.com.tr|theargus.co.uk|fakenhamtimes.co.uk
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.akvarieboden.net^
@@ -152875,6 +152878,7 @@ zzzyk.com###Tinfo
 ||data.stepstone.nl^
 ||data.stolarniapika.sklep.pl^
 ||data.storeiconsupply.com^
+||data.storyeditor.eu/se_analytics.js
 ||data.strayer.edu^
 ||data.stringting.com^
 ||data.strummingbird.com.au^
@@ -155359,6 +155363,8 @@ zzzyk.com###Tinfo
 ||dragon-guide.net/pic001/hezuo/
 ||dragon-guide.net/pic001/pic/shangcheng/
 ||dragon.codemakes.art^
+||dragon.pdf2go.com/api/bat|
+||dragon.pdf2go.com/api/z|
 ||dragon.sh2.com^
 ||dragonbats.com^
 ||dragonfly.jala-one.com^
@@ -159615,6 +159621,7 @@ zzzyk.com###Tinfo
 ||eyzubm.gooutdoors.co.uk^
 ||ezakus.net^$third-party
 ||ezapp.ovh/track.js?pixelId=
+||ezcl19vy10.com^
 ||ezd6n7n4m7.com^
 ||ezdjat.shoesme.nl^
 ||ezebuy.ezebuybd.com^
@@ -160372,6 +160379,7 @@ zzzyk.com###Tinfo
 ||fet20kdo93.com^
 ||fetch.gethuan.com^
 ||feuqzl.woolrich.com^
+||fevgdluuiqjflm.com^
 ||fewjuice.com^
 ||fewkittens.com^
 ||fewptsgg.argonaudio.com^
@@ -165072,6 +165080,7 @@ zzzyk.com###Tinfo
 ||grow.national.biz^
 ||grow.naturaltransplants.com^
 ||grow.powerstep.com^
+||grow.urbandictionary.network^
 ||growingio.com^$third-party
 ||growth-channel.net^
 ||growth.beach.com^
@@ -169508,6 +169517,7 @@ zzzyk.com###Tinfo
 ||hbgcxdsl.sackit.eu^
 ||hbgcxdsl.sackit.nl^
 ||hbgcxdsl.sackitshop.de^
+||hbiaz6xxya.com^
 ||hbiq.net^
 ||hbkunye.com^
 ||hblcr.plug.tech^
@@ -171599,6 +171609,7 @@ zzzyk.com###Tinfo
 ||idqwqm.kkday.com^
 ||idrivelogistics.actonservice.com^
 ||ids.actonservice.com^
+||idsequoia.ai^
 ||idsfq.katespade.de^
 ||idsmodules.com^
 ||idsod.catholic.com^
@@ -194434,6 +194445,7 @@ zzzyk.com###Tinfo
 ||narc-dc.actonservice.com^
 ||narkive.com/ajax/TelemV2?
 ||narrativ.com^
+||narto-drama.com/presence/heartbeat
 ||naruk.saintluciferspice.com^
 ||narwhal.bounty.studio^
 ||narwhal.quickbudget.xyz^
@@ -201038,6 +201050,7 @@ zzzyk.com###Tinfo
 ||pqrede.fiatprofessional.com^
 ||pqrms.belkdev.com^
 ||pqroe.akrrush.com^
+||pqruoaz4co.com^
 ||pqtab.audryrosejewelry.com^
 ||pqutk.anntaylor.com^
 ||pqzba.nativepet.com^
@@ -202721,6 +202734,7 @@ zzzyk.com###Tinfo
 ||qnuyqu.ubierzsie.com^
 ||qnuzwe.nomanwalksalone.com^
 ||qnvod.net/qna/
+||qnw0cru1i5.com^
 ||qnwact.colnaghi.com.br^
 ||qnwkbv.bestsecret.nl^
 ||qnywjs.buzz^
@@ -203207,6 +203221,7 @@ zzzyk.com###Tinfo
 ||qyuzwd.maskworld.com^
 ||qyvnic.footshop.cz^
 ||qywjep.miniinthebox.com^
+||qyxiangr.com^
 ||qyxrwl.com^
 ||qyysqs.color4care.no^
 ||qyyvoquib.com^
@@ -203752,6 +203767,8 @@ zzzyk.com###Tinfo
 ||realogic.actonservice.com^
 ||realogicinc.actonservice.com^
 ||realperson.de/system/third-party/rpfp/rpfp.min.js
+||realself.com/v1/browser-logging-service/browser/log
+||realself.com/v1/page-interactions-events
 ||realsolutions.americanexpress.fr^
 ||realsolutions.americanexpress.it^
 ||realsolutions.americanexpress.se^
@@ -241232,6 +241249,7 @@ zzzyk.com###Tinfo
 ||tracker.netklix.com^$script
 ||tracker.nitropay.com^
 ||tracker.nocodelytics.com^
+||tracker.okazje.info.pl/tracker.js
 ||tracker.oval.id^
 ||tracker.personizely.net^
 ||tracker.pinnaclesports.com^
@@ -244217,6 +244235,7 @@ zzzyk.com###Tinfo
 ||tupian888.*.bcebos.com^
 ||tuplebar.com^
 ||tuplzt.xyz^
+||tupmsen.com^
 ||tupperwaresecuritiessettlement.e.epiqnotification.com^
 ||turbobit.net/ajax/fdlogger/
 ||turbobit.net/js/analytics/fdUserFingerprintToken.js
@@ -248047,6 +248066,7 @@ zzzyk.com###Tinfo
 ||w2g-ping.b-cdn.net^
 ||w2j4kdjma.com^
 ||w2q5p09n8.com^
+||w2qyyljk71.com^
 ||w3-reporting-nel.reddit.com^
 ||w3-reporting.reddit.com^
 ||w3.air-worldwide.com^
@@ -251450,6 +251470,7 @@ zzzyk.com###Tinfo
 ||xc.macd.cn^
 ||xc.mydrivers.com^
 ||xc3.services.livejournal.com/ljcounter/
+||xc5r5huxrr.com^
 ||xcafe.com/track/impression?
 ||xcar.com.cn/bbs/adfocus.js
 ||xcar.com.cn/dsp/ad
