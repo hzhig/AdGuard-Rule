@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-11 09:39:43(GMT+8) 
-! Total count: 254783
+! ! Version: 2026-08-11 21:01:12(GMT+8) 
+! Total count: 254804
  
 ###ADtip
 ###Ad_windows
@@ -16916,6 +16916,7 @@ bing.com###id_mobile
 bing.com##.OpInNwWndw
 bing.com##.b_algo:has(.ad_esltitle)
 bing.com##.b_algo:has(.b_ads1line)
+bing.com##.b_algo:has(.sb_adTA_title_link_cn)
 bing.com##.sb_form_placeholder:has(>.ad-ghost-slug)
 bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com,cn.bing.net###bnp_rich_div
@@ -16933,7 +16934,6 @@ bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
 bing.com,cn.bing.net##li:has(a[h$=",Ads"])
-bing.com,~www.bing.com##.b_algo:has(p[style="display: none !important;"])
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
@@ -117821,12 +117821,16 @@ supercloudsms.com##a[href^="/redirect?"]
 superlife.ca##.sidebar-ad-zone
 supermoto8.com###myModal
 supertaste.tvbs.com.tw###ad_m_bottom
+supertaste.tvbs.com.tw###article-content > div[class^="py-"]:has(> div[id^="supertaste_"])
 supertaste.tvbs.com.tw###lightbox--ad
 supertaste.tvbs.com.tw##.ad_m_block
 supertaste.tvbs.com.tw##.ad_m_top
 supertaste.tvbs.com.tw##.min-h-\[15\.625rem\]
-supertaste.tvbs.com.tw##div[class]:has(> div[id^="supertaste_"])
+supertaste.tvbs.com.tw##.min-h-\[250px\]
+supertaste.tvbs.com.tw##aside > div[id^="supertaste_"]
+supertaste.tvbs.com.tw##aside > section:has(> div[id^="taboola-"])
 supertaste.tvbs.com.tw##div[id^="taboola-"]
+supertaste.tvbs.com.tw##footer > section:has(> div[id^="taboola-"])
 supertaste.tvbs.com.tw#?#.article_detail > div.cotxt_title:has(> p:contains(/延伸閱讀|你可能會喜歡|大家都在看/))
 supertaste.tvbs.com.tw#?#.sidebar > span:contains(人氣點閱榜)
 support.gatesentry.com$image
@@ -124075,6 +124079,7 @@ zzzyk.com###Tinfo
 ||2omfz9ygz2.com^
 ||2orln75bry.com^
 ||2osq127yy.com^
+||2p3ebtxsp.com^
 ||2parale.ro^$third-party
 ||2performant.com^$third-party
 ||2pogg4c.cn^
@@ -124649,6 +124654,7 @@ zzzyk.com###Tinfo
 ||54ads.com^
 ||54askjdklm.xyz^
 ||54dbg.xyz^
+||54igqsjd9.com^
 ||54kefu.net^$third-party
 ||54new.com*/da/
 ||55.kabayanengine.com^
@@ -138288,6 +138294,7 @@ zzzyk.com###Tinfo
 ||assets.msn.cn/service/news/feed/pages/$jsonprune=\$.sections..subSections..cards..[?(key-substr 'type' 'nativead')]
 ||assets.msn.cn/serviceak/news/feed/pages/viewspage$jsonprune=\$.sections..cards..[?(key-substr 'type' 'PartnerUpsell')]
 ||assets.ogrzewanie-pex.pl^
+||assets.onedollarstats.com^
 ||assets.oupe.es^
 ||assets.papegames.com/libs/monitor.js
 ||assets.piercingkungen.se^
@@ -157888,6 +157895,7 @@ zzzyk.com###Tinfo
 ||emptyescort.com^
 ||emrdnt.sumaity.com^
 ||emrld.cc^
+||emrldtp.com/collect
 ||ems-a8net-tracking.easy-myshop.jp^
 ||ems.golpobox.com^
 ||ems.youku.com/event?
@@ -161282,6 +161290,7 @@ zzzyk.com###Tinfo
 ||forter.com^$third-party
 ||fortnitechat.site^$all
 ||fortunatemark.com^
+||fortune.com/api/recommendations/feedback/view/
 ||fortune.com/comscore-json/
 ||fortune59.com^
 ||fortvision.com^$third-party
@@ -162647,6 +162656,7 @@ zzzyk.com###Tinfo
 ||gdbyhtl.net^*adfix/
 ||gdcytv.cn^*.gif
 ||gde.ru/isapi/tracker.dll?
+||gdebenz.ru/api/rum
 ||gdeslon.ru^$third-party
 ||gdfot.summerfridays.com^
 ||gdfp.gifshow.com^
@@ -172880,6 +172890,7 @@ zzzyk.com###Tinfo
 ||in.treasuredata.com^
 ||in.unext.jp^
 ||in.upipr.co^
+||in5nx9xbd.com^
 ||inaftracker.com^$third-party
 ||inapps.appsflyer.com^
 ||inapps.appsflyersdk.com^
@@ -178945,6 +178956,7 @@ zzzyk.com###Tinfo
 ||lhrgi.blinds4you.co.uk^
 ||lhrtt.everlane.com^
 ||lhrzel.enterprise.com.tr^
+||lht8yhbbl.com^
 ||lhtgm.cymbiotika.ca^
 ||lhuckewm.tacoshop.it^
 ||lhvlkgbkjmrnc.com^
@@ -199456,6 +199468,7 @@ zzzyk.com###Tinfo
 ||pebfvv.icu^
 ||pecukirom.com^$third-party
 ||peculiar93.top^
+||ped146qez.com^
 ||pedestrian94.top^
 ||pediatrist53.com^
 ||pedropanther.com^
@@ -204992,6 +205005,7 @@ zzzyk.com###Tinfo
 ||rmxmtsg.wowe.me^
 ||rmzbfum.cn^
 ||rmztc.bostonscally.com^
+||rn30y7u7h.com^
 ||rnasaj.labelandthread.com^
 ||rnd.de^$cookie=__vads
 ||rndgc.takemeche.com^
@@ -205630,6 +205644,7 @@ zzzyk.com###Tinfo
 ||rum-ingress-coralogix.com^
 ||rum-metrics.bunny.net^
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
+||rum.aliyuncs.com^
 ||rum.api.intuit.com^
 ||rum.azion.com^
 ||rum.azioncdn.net^
@@ -207902,6 +207917,7 @@ zzzyk.com###Tinfo
 ||sdk.rum.aliyuncs.com/v*/bl.js
 ||sdk.sipujia.cn^
 ||sdk.stats-locations.com^
+||sdk.tvbs.com.tw/ad/v*/ad-sdk.min.js
 ||sdkapi-prod.dfinery.ai^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
@@ -231486,6 +231502,7 @@ zzzyk.com###Tinfo
 ||stats.dignityhealth.org^
 ||stats.dillen.dev^
 ||stats.discotel.de^
+||stats.divee.ai^
 ||stats.divyanshu013.dev^
 ||stats.dmail.co.nz^
 ||stats.dmarcdigests.com^
@@ -231742,6 +231759,7 @@ zzzyk.com###Tinfo
 ||stats.jdheyburn.co.uk^
 ||stats.jeremygreenawalt.com^
 ||stats.jerickson.net^
+||stats.jerkmotion.com^
 ||stats.jessesquires.com^
 ||stats.jetzt-aktivieren.de^
 ||stats.jhsheridan.com^
@@ -244598,6 +244616,7 @@ zzzyk.com###Tinfo
 ||u.knuffelwuff.at^
 ||u.knuffelwuff.dk^
 ||u.landing.ni.com^
+||u.lessbutbetter.studio^
 ||u.makro.es^
 ||u.makro.pl^
 ||u.makro.pt^
@@ -244640,6 +244659,7 @@ zzzyk.com###Tinfo
 ||u1102.com^
 ||u16d4beu5.com^
 ||u1aczgx9so.com^
+||u1g98fo6b.com^
 ||u1sdata.webullfintech.com^
 ||u22011.com^
 ||u22066.com^
@@ -246540,6 +246560,7 @@ zzzyk.com###Tinfo
 ||v.perfumesclub.com^
 ||v.shopify.com^
 ||v.topya.com^
+||v.voltmail.io^
 ||v.voxberg.com^
 ||v.vratiexpress.com^
 ||v00yvd.xyz^
