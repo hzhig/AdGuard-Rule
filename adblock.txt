@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-12 09:50:38(GMT+8) 
-! Total count: 254815
+! ! Version: 2026-08-12 21:05:19(GMT+8) 
+! Total count: 254825
  
 ###ADtip
 ###Ad_windows
@@ -1493,6 +1493,7 @@
 ##div.container > div.row div.yalayi_box
 ##div.container.ff-bg > div.row.ff-row.slide
 ##div.flex-1.order-first > DIV.under_player
+##div.footer-area.mobile DIV#banner_container
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
 ##div.inn-content-reseter > a > IMG[decoding='async'][loading='lazy']
 ##div.layout-box a > IMG[src*='.gif']
@@ -11946,6 +11947,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.subito.it.first-party-js.datadome.co^$script,xmlhttprequest,domain=areariservata.subito.it
+@@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||dd6zx4ibq538k.cloudfront.net/static/images/$domain=tkmaxx.com
 @@||ddtorun.pl/pl/js/show_ads.js$script
@@ -11953,6 +11955,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||deals.nextag.com^*/ClickTracker.jsp
 @@||deb.gs/intermission/loadTargetUrl$xmlhttprequest
 @@||debenhams.com/foresee/foresee-trigger.js
+@@||dekra-akademie.de/resource/*/eCom_FrontendV3/assets/js/gtm.js$~third-party
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||dell.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||delta.com/dlhome/ruxitagentjs$~third-party
@@ -123960,6 +123963,7 @@ zzzyk.com###Tinfo
 ||249999.xyz^*.gif
 ||24cmm.com:8888/js
 ||24counter.com^$third-party
+||24jp8wjmho.com^
 ||24klm.cn^
 ||24klm.net^
 ||24log.com^$third-party
@@ -124064,6 +124068,7 @@ zzzyk.com###Tinfo
 ||2ip.*/member_photo/$domain=~2ip.com|~2ip.ru
 ||2ip.io/sbar/$third-party
 ||2ip.ru/sbar/$third-party
+||2j9banjbst.com^
 ||2jse6.icu^
 ||2juyabihe.com^
 ||2kandy.com/js/123/
@@ -140581,6 +140586,7 @@ zzzyk.com###Tinfo
 ||biaoge.tv/fa
 ||biberukalap.com^
 ||bibglj.timberland.fr^
+||bickiron84.com^
 ||bickiron92.com^
 ||biconcave43.com^
 ||bicp-analytics.postscript.io^
@@ -144214,7 +144220,6 @@ zzzyk.com###Tinfo
 ||cdvsd9.com^
 ||cdwlxi.cadremploi.fr^
 ||cdxyb.cn^$third-party
-||cdxyspa.com/js/e
 ||cdyee.com/external/5070.files/ad/
 ||cdzjqz.gratis.com.tr^
 ||cdzzo.highr.co^
@@ -144968,6 +144973,7 @@ zzzyk.com###Tinfo
 ||cl.inhaabit.com^
 ||cl.naturalhealing.fun^
 ||cl.t3n.de^
+||cl1npfik45.com^
 ||cl3ywestv3b5.ru.themoneytizer.com^
 ||clam.mglaman.dev^
 ||clammy88.com^
@@ -145797,6 +145803,7 @@ zzzyk.com###Tinfo
 ||cnstats.cdev.eu^
 ||cnstats.ru^$third-party
 ||cnstrc.com/behavior?
+||cnsy8lwlyv.com^
 ||cnsynt.thirdlove.com^
 ||cnt-*.svc.iptv.rt.ru/event_collector
 ||cnt.3dmy.net^
@@ -163137,6 +163144,7 @@ zzzyk.com###Tinfo
 ||gf7t.cheques-cadeaux-culturels.fr^
 ||gfan.com/press/
 ||gfbdb1.com^
+||gfblaghzk2.com^
 ||gfdlnadm.damask.dk^
 ||gfdlnadm.georgjensen-damask.com^
 ||gfdlnadm.georgjensen-damask.de^
@@ -192521,6 +192529,7 @@ zzzyk.com###Tinfo
 ||missyuan.com/sy/
 ||mistervillas.com^
 ||misto.zp.ua/img/reiting_$third-party
+||mistral.ai/api/trpc/event.sendEventToDatalake?
 ||mistyhorizon.com^
 ||misumi-ec.com/api/v1/log/
 ||misumi-ec.com/vcommon/common/js/karte.js
@@ -214874,6 +214883,7 @@ zzzyk.com###Tinfo
 ||sizkvubl.wirklich-achtsam.de^
 ||sizybn.shipsltd.co.jp^
 ||sizzlingsmoke.com^
+||sj2xvswu3r.com^
 ||sjanff.v-moda.com^
 ||sjardw.footlocker.fr^
 ||sjarvis.taobao.com^
@@ -248334,7 +248344,6 @@ zzzyk.com###Tinfo
 ||wangzhanmeng.com/link/link.html
 ||wanmei.com/public/js/stat.js
 ||wanmei.la/a*.js
-||wanmeisxs.cc/js/m.
 ||wantgoo.com/wantgoofiles/banner/
 ||wantingwindow.com^
 ||wantlive.com/pixel/
@@ -253305,6 +253314,7 @@ zzzyk.com###Tinfo
 ||yuno2.kiuvix.com^
 ||yunqishi8.com^
 ||yunsennet.com^$popup
+||yuntu68.com/imgcimo/
 ||yuntue.com/zb_users/plugin/MoreLinks*.php
 ||yunupload.net/jsa/
 ||yunzhan365.com/resourceFiles/js/weixin-share.js
