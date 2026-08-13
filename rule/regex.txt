@@ -1,4 +1,4 @@
-# Update time: 2026-08-13 09:26:17
+# Update time: 2026-08-13 20:57:20
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -213,7 +213,6 @@ advertisers.js|
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
-||ysdm*.ys137.com.cn^
 ||lt*.tritondigital.com^
 ||api-*.hismarttv.com^
 ||eflbundles.*.com.tr^
@@ -284,7 +283,7 @@ advertisers.js|
 ||ads*.textra.me^
 ||aj2*.online^
 ||cs*.mp3bars.com^
-||ecommerce-events*.adscale.com^
+||tracking-v*.a.run.app^
 ||zazgiyoh*.xyz^
 ||stats*.credit-cooperatif.coop^
 ||tracking*.euroads.fi^
@@ -534,6 +533,7 @@ analytics-*.aasaam.com
 ||w*statistics.info^
 ||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
+||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
 ||partner.superbahisaffiliates*.com^
@@ -579,12 +579,11 @@ analytics-*.aasaam.com
 ||107.167.16.*.gif
 ||logs*.smithsonian.museum^
 ||bar*.shinobi.jp^
+||ecommerce-events*.adscale.com^
 ||counter*.freecounter.ovh^
-||tracking-v*.a.run.app^
 ||weblogger-wss.cool*cloud.com^
 ||track.zalando.
 ||seller-log-collector.shopee.
-||advert*.livesportmedia.eu^
 ||subnewss*.net^
 ||t.delfi.
 ||hostingcloud.*.wasm^
@@ -748,6 +747,7 @@ rgmechanicsgames.com*VPN.exe
 ||counter*.stat.ovh^
 ||158.247.208.
 ||ads.livetv*.me^
+||advert*.livesportmedia.eu^
 ||142.91.159.
 |167.206.10.148^
 ||23.109.87.
