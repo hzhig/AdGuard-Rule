@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-16 20:36:05(GMT+8) 
-! Total count: 255038
+! ! Version: 2026-08-17 09:11:03(GMT+8) 
+! Total count: 255043
  
 ###ADtip
 ###Ad_windows
@@ -4126,6 +4126,8 @@ $websocket,domain=wap.yushuwu.cloud
 /com.snowplowanalytics.snowplow/*$domain=~7plus.com.au
 /com_joomlawatch/img.php
 /com_jrealtimeanalytics/*
+/com_jrealtimeanalytics/js/heatmap.js
+/com_jrealtimeanalytics/js/stream.js
 /commerce-events-listener.js
 /common/analytics.js
 /common/cf/*$image,object,domain=~ztgame.com
@@ -124082,6 +124084,7 @@ zzzyk.com###Tinfo
 ||2ld8mx979a.com^
 ||2lj9n8sz0w.com^
 ||2lpwji3xr.com^
+||2m.ma/tracking/
 ||2nl6sgd9c.com^
 ||2no.co^$third-party
 ||2nvd5j7iv0.com^
@@ -169429,6 +169432,7 @@ zzzyk.com###Tinfo
 ||handleteeth.com^
 ||handmade.prettyserendipity.co.uk^
 ||handsaw46.com^
+||handshake.gravito.net^
 ||handsomehose.com^
 ||handsomeindustry.com^
 ||handsomelyhealth.com^
@@ -249757,6 +249761,7 @@ zzzyk.com###Tinfo
 ||whoami.akamai.net.iberostar.com^
 ||whoaremyfriends.com^$third-party
 ||whoaremyfriends.net^$third-party
+||whoas.xyz^$third-party
 ||whof.spawilliamgray.com^
 ||whoisonline.net^$third-party
 ||whoisvisiting.com^$third-party
