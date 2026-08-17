@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-17 09:11:03(GMT+8) 
-! Total count: 255043
+! ! Version: 2026-08-17 20:40:49(GMT+8) 
+! Total count: 255067
  
 ###ADtip
 ###Ad_windows
@@ -645,6 +645,7 @@
 ##.indexnews-ad
 ##.infomation + #notice_container > .event-notice
 ##.inner-advertise
+##.ippure-ads.right-one
 ##.it618_firstad_flex
 ##.itopbar + .container
 ##.jav-nav + .bcpic
@@ -11046,7 +11047,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||api.captchme.net/api/media$image
 @@||api.chartbeat.com^$script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.clerk.io/v*/log/$domain=apotera.no
-@@||api.clerk.io/v*/log/$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk
+@@||api.clerk.io/v*/log/$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk|brukas.no
 @@||api.clerk.io/v*/log/$domain=industrivarer.no
 @@||api.clerk.io/v*/log/$domain=jaktdepotet.no
 @@||api.clerk.io/v*/log/click?$domain=fjellandhandel.no
@@ -11429,7 +11430,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.chatytvgratis.me/ads/ads.php?$domain=cineplanet21.com
 @@||cdn.chatytvgratis.me/ads/ads2.php?$domain=cineplanet21.com
 @@||cdn.clerk.io/clerk.js$domain=apotera.no
-@@||cdn.clerk.io/clerk.js$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk
+@@||cdn.clerk.io/clerk.js$domain=avxperten.at|avxperten.be|avxperten.com|avxperten.cy|avxperten.cz|avxperten.de|avxperten.dk|avxperten.ee|avxperten.es|avxperten.fi|avxperten.fr|avxperten.gr|avxperten.hr|avxperten.hu|avxperten.it|avxperten.lt|avxperten.lu|avxperten.lv|avxperten.nl|avxperten.no|avxperten.pl|avxperten.pt|avxperten.ro|avxperten.se|avxperten.si|avxperten.sk|brukas.no
 @@||cdn.clerk.io/clerk.js$domain=batteribyen.dk|batterionline.no|batterionline.se
 @@||cdn.clerk.io/clerk.js$domain=dehardloopwinkel.nl
 @@||cdn.clerk.io/clerk.js$domain=fjellandhandel.no
@@ -21294,6 +21295,7 @@ digitimes.com.tw##.dt-ad-block
 digitimes.com.tw##.edm-frame:has(> .adtext)
 digitimes.com.tw##a[href*="/webad/"]
 digitimes.com.tw#$#.ad-banner { visibility: hidden !important; }
+digvps.com##aside[data-slot="right"][aria-label] > div > a[target="_blank"]
 dilidili.wang#$#body > article[class][style*="position: fixed;top: 0;z-index: 9999;display:block !important;"] { position: absolute!important; left: -3000px!important; }
 dilidili3.com#?#.body > div.body-wrap:has(> div.mod-box > div.mod-title > h3:contains(友情链接))
 dimtown.com##.aggd
@@ -125172,6 +125174,7 @@ zzzyk.com###Tinfo
 ||7phsx1bxhf.execute-api.*.amazonaws.com/collect|
 ||7q1z79gxsi.global.ssl.fastly.net^
 ||7q2701vx8e.com^
+||7qkm33t55.com^
 ||7qo2met.com^
 ||7qxv9s5q16.com^
 ||7r227ut.cn^
@@ -132143,6 +132146,7 @@ zzzyk.com###Tinfo
 ||affiliate.ucetni-portal.cz^
 ||affiliate.uncaria.cz^
 ||affiliate.unicare.sk^
+||affiliate.unisender.com^
 ||affiliate.vasecocky.cz^
 ||affiliate.vasesosovky.sk^
 ||affiliate.velebny.cz^
@@ -136268,6 +136272,7 @@ zzzyk.com###Tinfo
 ||api.recopecas.com.br^
 ||api.recoverfarma.com.br^
 ||api.redesulconsorcios.com.br^
+||api.redgifs.com/v*/events/
 ||api.redgifs.com/v*/metrics/
 ||api.redogummies.com^
 ||api.relationship.poroand.com^
@@ -140837,6 +140842,7 @@ zzzyk.com###Tinfo
 ||bitcoin25.com/libs/check.js$script
 ||bitdefender.com/cdp/
 ||bitdefender.com/dtm/
+||bitdefender.com/geoip
 ||bitget.com/v1/buried/log/
 ||bithi.mirroryouroutfit.com^
 ||bitify.hydroetculture.com^
@@ -143569,6 +143575,7 @@ zzzyk.com###Tinfo
 ||cat.hilde-phil.com^
 ||cat.laravel-news.com^
 ||cat.mattr.global^
+||cat.pexels.com^
 ||cat.sprucely.net^
 ||cat.thisminute.app^
 ||catalogcake.com^
@@ -143977,6 +143984,9 @@ zzzyk.com###Tinfo
 ||cdn.kaizenplatform.net^
 ||cdn.klambt.services/matomo/$third-party
 ||cdn.kmalgo.com^
+||cdn.lesnumeriques.com/assets/*/js/eventsTracker-
+||cdn.lesnumeriques.com/assets/*/js/offer-tracking-
+||cdn.lesnumeriques.com/assets/*/js/tracking-
 ||cdn.liga.net/assets/js/campaign.js
 ||cdn.liga.net/assets/js/remplib.js
 ||cdn.lihkg.com/static/*/js/21.chunk.js
@@ -147803,6 +147813,7 @@ zzzyk.com###Tinfo
 ||crunchyroll.com/tracker?
 ||crunchyroll.com/versioned_assets/js/tracking^
 ||cruntn.receno.com^
+||crusher28.com^
 ||crusher38.top^
 ||crutcheruimsettlement.e.epiqnotification.com^
 ||cruzietv.com^
@@ -156062,6 +156073,7 @@ zzzyk.com###Tinfo
 ||dzgwautxzdtn9.cloudfront.net^
 ||dzhhc.brandalley.co.uk^
 ||dzhst.etmoore.com^
+||dzihsqn.icu^
 ||dzjhok.teufelaudio.at^
 ||dzjzg.com^
 ||dzkwj0y.xyz^
@@ -160471,6 +160483,7 @@ zzzyk.com###Tinfo
 ||fewptsgg.argonaudio.com^
 ||fewptsgg.radiantacoustics.com^
 ||fewptsgg.vestlyd.com^
+||fezjga8y1.com^
 ||fezod.cheryls.com^
 ||ff.fralsningsarmen.se^
 ||ff.meikanguo.com^
@@ -165057,6 +165070,7 @@ zzzyk.com###Tinfo
 ||gr-business.vodafone.com^
 ||gr-go.experian.com^
 ||gr.a23.in^
+||gr8psejq9.com^
 ||grabify.link/api/js
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
@@ -171371,6 +171385,7 @@ zzzyk.com###Tinfo
 ||hzsnm.gardengoodsdirect.com^
 ||hzstats.com^
 ||hztja.naturalizer.ca^
+||hztrfbokggvlle.com^
 ||hzuheh.palcloset.jp^
 ||hzvcaadn.icu^
 ||hzvfn.covesmart.com^
@@ -186991,6 +187006,7 @@ zzzyk.com###Tinfo
 ||manguan.vip^
 ||manhuabei.com/assets/xiwang.js
 ||manhuapi.com/style/js/common.js
+||manhuaren.com/wx20190904.js
 ||manifest97.com^
 ||maniteka.com^
 ||manlungkey.com^
@@ -199601,6 +199617,7 @@ zzzyk.com###Tinfo
 ||pear.youzful-by-ca.fr^
 ||peards.zevvle.com^
 ||pearldiver.io^$third-party
+||pearos.xyz/track.php
 ||pearpouch.com^
 ||pearson.com/assets/*/collect
 ||peasy.so^$third-party
@@ -202838,6 +202855,7 @@ zzzyk.com###Tinfo
 ||qlqvej.bahia-principe.com^
 ||qlrbf.petersheppard.com.au^
 ||qls7v6jd3.com^
+||qlscg0qnz.com^
 ||qlsngs.paruvendu.fr^
 ||qlspmy.xlmoto.be^
 ||qlsszi.lululemon.co.nz^
@@ -203302,6 +203320,7 @@ zzzyk.com###Tinfo
 ||qveyyi.clarivate.com^
 ||qvfcl.privilegedshoes.com^
 ||qvfvah7jyb.com^
+||qvijpi426.com^
 ||qvlcdw.ho-br.com^
 ||qvlvz.alphaindustries.com^
 ||qvmucs.abluestore.com^
@@ -205155,6 +205174,7 @@ zzzyk.com###Tinfo
 ||rmp4.destinia.uy^
 ||rmsbkw.green-acres.be^
 ||rmspa.designcomfort.co^
+||rmt827wgr.com^
 ||rmtag.com^$third-party
 ||rmvrpc.habi-unni.com^
 ||rmws8.com^
@@ -205890,6 +205910,7 @@ zzzyk.com###Tinfo
 ||ruziecoraz.com^
 ||rv.modanisa.com^$script
 ||rva.outbrain.com^
+||rvbavxtjy.icu^
 ||rvbqze.albamoda.de^
 ||rvbztg.cn^
 ||rvcwmg.torbs.pl^
@@ -235351,6 +235372,7 @@ zzzyk.com###Tinfo
 ||t3e.firstchoice.co.uk^
 ||t4e.sainsburys.co.uk^
 ||t4ft.de^$third-party
+||t4s8t6p39.com^
 ||t570.wiltonbulletin.com^
 ||t57u6anx2.com^
 ||t5gp7rzz4.com^
@@ -248391,6 +248413,7 @@ zzzyk.com###Tinfo
 ||w97nv5ibv4.com^
 ||w982.middletownpress.com^
 ||w9g7dlhw3kaank.www.eldorado.gg^
+||w9p70nort.com^
 ||wa.airexperience.dk^
 ||wa.and.co.uk^
 ||wa.appsflyer.com^
@@ -252606,6 +252629,7 @@ zzzyk.com###Tinfo
 ||xyzw.elorabeauty.com.tr^
 ||xyzznt.uterque.com^
 ||xz.fbcdn.net^
+||xz6ogoi12.com^
 ||xzblht.icu^
 ||xzfizn.massmedian.co.jp^
 ||xzhrwy.giordanoweine.de^
