@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-08-19 09:10:09(GMT+8) 
-! Total count: 32907
+! ! Version: 2026-08-19 20:42:42(GMT+8) 
+! Total count: 32923
  
 ###ADtip
 ###Ad_windows
@@ -4199,12 +4199,16 @@ $websocket,domain=wap.yushuwu.cloud
 91porna.com,evgpopxb.cc##.dx-banner-item
 91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com###playerJsvLayer.jsv-layer
+91porny.com###video-play + div[data-nosnippet]
 91porny.com##.alert
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.com##div[data-nosnippet]:has(div.row a[href][rel^="noopener"])
+91porny.com#$##warningModal { display: none !important; }
+91porny.com#$#.modal-backdrop { display: none !important; }
+91porny.com#$#body.modal-open { overflow: auto !important; }
 91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(.video-elem>a[rel="noopener nofollow"])
 91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(>div>style)
 91porny.com,91porn.fans,91porny.org#?#.colVideoList:has(>.video-elem>.display[href^="http"])
@@ -9087,6 +9091,8 @@ flowus.cn##footer .swiper
 flyblog.cc###links > div[id] > div.hslice:not(#search):not(#counter):not(#category):not(#calendar):not([id*="-article"]):not(#latest-comment)
 flyblog.cc##.pixnavbar__top-bar__main-sites
 flyblog.cc,maxfoodfun.com#?#.article-body > div[style]:has(> div[style] > div[id] > ins.adsbyfalcon)
+flyert.com.cn##div[style^="width:300px;height:90px;"]
+flyert.com.cn##div[style^="width:950px;height:90px;"]
 flymer.ru#@#.ad-unit
 flyzy2005.com##.baidu_ad
 flyzy2005.com##.widget_kratos_ad
@@ -16126,6 +16132,7 @@ zzzyk.com###Tinfo
 ||0wpfe0duo.com^
 ||0xr7ii3df.com^
 ||0xzxwnkqdu.com^
+||0yfqg4qm0.com^
 ||0yjeii25x4.com^
 ||0yq00i.cn^
 ||0yu3bxtqv.com^
@@ -19834,6 +19841,7 @@ zzzyk.com###Tinfo
 ||c7bijgz6zr.com^
 ||c81.ipanocloud.com^
 ||c8q27tqnaw.com^
+||c918sslye.com^
 ||c9pgryrmt4.com^
 ||c9r05q.com^
 ||ca.cbsi.com.cn/rpv?
@@ -20327,6 +20335,7 @@ zzzyk.com###Tinfo
 ||clugqa.com^
 ||clw99.mobi^
 ||cm.baidu.com^
+||cm30oc1du.com^
 ||cmbkgmx.cn^
 ||cmesgpqq8z.com^
 ||cmgjqqu.cn^
@@ -24379,6 +24388,7 @@ zzzyk.com###Tinfo
 ||jg0y00ciyr.com^
 ||jg1668.com^$third-party
 ||jg8zueqa4e.com^
+||jgdzthrmmhnddc.com^
 ||jghklz.xyz^
 ||jgid.cn^
 ||jgo1pcbx9.com^
@@ -24797,6 +24807,7 @@ zzzyk.com###Tinfo
 ||k2n0f.cn^$third-party
 ||k31bpzf.xyz^
 ||k366.com/images/smxs^
+||k3vgy6hf7.com^
 ||k42kw.top^
 ||k5705bn39u.com^
 ||k5ggua.xyz^
@@ -27621,6 +27632,7 @@ zzzyk.com###Tinfo
 ||psyzg.com/Public/Home/images/tuhe_240_236.gif
 ||ptauxofi.net^
 ||ptbus.com/s.js
+||ptfg.flyertrip.com/static/img/campain/
 ||ptfish.com/*/ad$image,object
 ||ptfxh.com^
 ||ptga.cn^
@@ -29521,6 +29533,7 @@ zzzyk.com###Tinfo
 ||termvb.xyz^
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||teslaamg.obs.cn-east-3.myhuaweicloud.com^
+||testingcf.jsdelivr.net/gh/softwaredefinevehicle/*/wp-slimstat.js
 ||testingcf.jsdelivr.net/gh/softwaredefinevehicle/static/lozad.min.js
 ||tetiaetwg.com^
 ||tetiao9.com^
@@ -30216,6 +30229,7 @@ zzzyk.com###Tinfo
 ||ukjwyv.icu^
 ||ukpsal.icu^
 ||uks8suop4b.com^
+||ukwtsegym.com^
 ||ukx6umuvu.com^
 ||ulgroiklf.com^
 ||ulk8je1fv9.com^
@@ -32058,6 +32072,7 @@ zzzyk.com###Tinfo
 ||ykyfhxr.xyz^
 ||yl04z4v.cn^
 ||ylghac.icu^
+||ylkvxrimr.com^
 ||ylr1xn2b4i.com^
 ||ylznwl.cn^
 ||ym3jmnu05.com^
@@ -32808,6 +32823,7 @@ zzzyk.com###Tinfo
 ||zuoyebang.cc/static/question/question/resource/QRCode_
 ||zuoyebang.cc/zyb_4953cbb8a9a2332469592196c056a906.jpg
 ||zupulu.com/scripts/app/app.js
+||zuqqgwi.icu^
 ||zvasuzb.icu^
 ||zvciaoan1k.com^
 ||zvdc9y.icu^
