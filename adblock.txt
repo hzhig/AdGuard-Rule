@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-19 20:42:42(GMT+8) 
-! Total count: 386294
+! ! Version: 2026-08-20 09:09:04(GMT+8) 
+! Total count: 386305
  
 ###ADtip
 ###Ad_windows
@@ -2229,6 +2229,7 @@ $websocket,domain=wap.yushuwu.cloud
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &l=dataLayer&cx=c
 &pagegroup=*&url=$script
+&pload=*&eclog=
 &refer=http$script
 &sst.gcsub=
 &sst.sw_exp=
@@ -7155,6 +7156,7 @@ $websocket,domain=wap.yushuwu.cloud
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-pixels@*/web-pixel-*/sandbox/modern/*
+/web-stats$domain=softonic.com|softonic-ar.com|softonic-id.com|softonic-id.com|softonic.jp|softonic.kr|softonic.nl|softonic.pl|softonic.com.br|softonic.ru|softonic.se|softonic-th.com|softonic.com.tr|softonic.cn
 /web-vitals-analytics.js
 /web-vitals-tracker.js
 /web-vitals.iife.js
@@ -7743,7 +7745,7 @@ $websocket,domain=wap.yushuwu.cloud
 10jqka.com.cn,18183.com,actoys.net,beijing-air.com,bio1000.com,foodmate.net,gter.net,hepuwang.com,jjwxc.net,ncdiy.com,qingdaonews.com,tgbus.com##.ad1
 10jqka.com.cn,faxingw.cn,gdmm.com#@#.ad_1
 10jqka.com.cn,hepan.com##.onead
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,tasteofhome.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,tasteofhome.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11005.sock-qa1.marketingcloudqaops.com$image
 11018.sock-qa1.marketingcloudqaops.com$image
 11055.connector-qa1.marketingcloudqaapis.com$image
@@ -13187,6 +13189,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cloudfront.net/libs/amplitude-*-min.gz.js$domain=elconfidencial.com
 @@||cloudfront.net/opentag*.js$domain=telegraph.co.uk
 @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
+@@||cloudimanage.com/admin/api/audithub/v1/customers/*/analytics/events/crawl$~third-party
 @@||cloudimg.io/*/analytics.$script,domain=michelinman.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cloudtime.to/banner.php$script
@@ -14425,6 +14428,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=systemrequirementslab.com
 @@||googletagmanager.com/gtm.js$domain=t-online.de
 @@||googletagmanager.com/gtm.js$domain=tagesanzeiger.ch
+@@||googletagmanager.com/gtm.js$domain=talent.lowes.com
 @@||googletagmanager.com/gtm.js$domain=tauron.pl
 @@||googletagmanager.com/gtm.js$domain=teb.com.tr
 @@||googletagmanager.com/gtm.js$domain=techadvisor.co.uk
@@ -215208,10 +215212,9 @@ gzmama.com###zone_index_fullcolumn_2
 gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 gzmama.com###zone_top_fullcolumn
+h-ciyuan.com###block-132
 h-ciyuan.com##.friend-links
 h-ciyuan.com##.gridview-grid-post-title:has(> a[title^="Permanent Link to 『Ad』"])
-h-ciyuan.com##.responsive-figure
-h-ciyuan.com##.theiaStickySidebar .widget_media_image
 h-ciyuan.com#?#.gridview-grid-post:has(a[title*="Ad』"])
 h5.17k.com#$#body { overflow: visible!important; }
 h5.17k.com#$#html { overflow: visible!important; }
@@ -235161,6 +235164,7 @@ zzzyk.com###Tinfo
 ||28lu.net^*/0
 ||28lu.net^*/1
 ||2922qj5tf2n.swyftx.com.au^
+||29ruu0q5p.com^
 ||29spp.com/js/tj.js
 ||29zle9rx4.com^
 ||2aa6f9qgrh9.acc.evservice.nl^
@@ -236486,8 +236490,6 @@ zzzyk.com###Tinfo
 ||8lmggang9.com^
 ||8lz3swf01q.com^
 ||8maple.ru/dzcm$redirect=1x1-transparent.gif,domain=8maple.ru
-||8mg050.n3cdn1.secureserver.net^*.gif
-||8mg050.n3cdn1.secureserver.net^*/960
 ||8mhcc.top^
 ||8o5v23yip.com^
 ||8oghu1wcau.com^
@@ -246340,6 +246342,7 @@ zzzyk.com###Tinfo
 ||analytics.t-mobile.com^
 ||analytics.taahirajewellery.com^
 ||analytics.tabichan.jp^
+||analytics.talentegy.com^
 ||analytics.talokaivo.fi^
 ||analytics.tashandley.com^
 ||analytics.tatadigital.com^
@@ -252261,6 +252264,7 @@ zzzyk.com###Tinfo
 ||beampulse.com^$third-party
 ||beamvolcano.com^
 ||beancontrol.com^
+||beandelight.com^
 ||beanstalkdata.com^$third-party
 ||beanstock.com^$third-party
 ||beanworks.actonservice.com^
@@ -288512,6 +288516,7 @@ zzzyk.com###Tinfo
 ||healthroundprince.com^
 ||healthy.partandparcel.com.au^
 ||healthy.spartanburgregional.com^
+||healthyclad.com^
 ||healthys09.top^
 ||heap-api.com^
 ||heap.drop.com^
@@ -289937,6 +289942,7 @@ zzzyk.com###Tinfo
 ||hubble.mrstarsky.com^
 ||hubble.netease.com^$third-party
 ||hubble.remmenexpert.nl^
+||hubcapcafe.net^
 ||hubcloud.com.cn^
 ||hubdigitalads.com^$third-party
 ||hubert.branch.rocks^
@@ -298250,6 +298256,7 @@ zzzyk.com###Tinfo
 ||leak.welnes.online^
 ||leanplum.com^$third-party
 ||leaplunchroom.com^
+||leapquick.com^
 ||learn.acpprograms.org^
 ||learn.aiu.edu.au^
 ||learn.aiu.sg^
@@ -305909,6 +305916,7 @@ zzzyk.com###Tinfo
 ||losecounter.de^$third-party
 ||losslace.com^
 ||losstrack.com^$third-party
+||lostwaxlab.com^
 ||lotour.net/analytics/statsv2.js
 ||lotour.net/bcef/388.js
 ||lotte.myomee.com^
@@ -317613,6 +317621,7 @@ zzzyk.com###Tinfo
 ||novanthealth.org/v1/tagular/beam
 ||novarecoverycenter.actonservice.com^
 ||novaseekers.com^
+||novazen.net^
 ||novedades.telecomfibercorp.com.ar^
 ||novelcool.com/files/js/yh_tj.js
 ||novi.webnovi.eu^
@@ -322056,6 +322065,7 @@ zzzyk.com###Tinfo
 ||photorank.me^$third-party
 ||photos18.com/images/friend/
 ||photospace.life^$all
+||photosubscribe.com^
 ||photovault.pics^$all
 ||photovault.store^$all
 ||phow238wzh.com^
@@ -323193,6 +323203,7 @@ zzzyk.com###Tinfo
 ||pointlesspocket.com^
 ||pointlessprofit.com^
 ||pointmediatracker.com^$third-party
+||pointsshare.com^
 ||poiqknfl.com^
 ||poirot.custommade.com^
 ||poisedfuel.com^
