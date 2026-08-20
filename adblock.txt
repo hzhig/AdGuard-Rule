@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-20 09:09:04(GMT+8) 
-! Total count: 386305
+! ! Version: 2026-08-20 20:45:57(GMT+8) 
+! Total count: 386323
  
 ###ADtip
 ###Ad_windows
@@ -7745,7 +7745,7 @@ $websocket,domain=wap.yushuwu.cloud
 10jqka.com.cn,18183.com,actoys.net,beijing-air.com,bio1000.com,foodmate.net,gter.net,hepuwang.com,jjwxc.net,ncdiy.com,qingdaonews.com,tgbus.com##.ad1
 10jqka.com.cn,faxingw.cn,gdmm.com#@#.ad_1
 10jqka.com.cn,hepan.com##.onead
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,tasteofhome.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,tasteofhome.com,thehealthy.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11005.sock-qa1.marketingcloudqaops.com$image
 11018.sock-qa1.marketingcloudqaops.com$image
 11055.connector-qa1.marketingcloudqaapis.com$image
@@ -8712,6 +8712,7 @@ $websocket,domain=wap.yushuwu.cloud
 17173.com##.mod-tg1
 17173.com##.pic[href*="Room"]
 17173.com##.slide-list > li[style]:has(> a[href*="&ad_code="])
+17173.com##.webgame .pn-bd
 17173.com##a[href*="&ad_code="]
 17173.com##a[href^="https://gtv."]
 17173.com,am730.com.hk,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,lantian.tv,maoken.com,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com,zdzdm.com##.adbox
@@ -14613,6 +14614,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||hhgregg.com/wcsstore/MadisonsStorefrontAssetStore/javascript/Analytics/AnalyticsTagDataObject.js
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hikmall.com/js/sensorsdata.min.js
+@@||hilton.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||hindustantimes.com^/ads.js$script
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
 @@||histock.tw/JScript/AD/
@@ -234435,6 +234437,7 @@ zzzyk.com###Tinfo
 ||0b6rvr210q.com^
 ||0bb8jytek.com^
 ||0biwj.musedearplugs.com^
+||0c484j022z.com^
 ||0d1oo8jp69.com^
 ||0ddf.pandasuite.io^
 ||0dy3evz6x.com^
@@ -234878,6 +234881,7 @@ zzzyk.com###Tinfo
 ||1999019.com^
 ||19dkfu1wg.com^
 ||1a715b8q5m3j.www.logology.co^
+||1aa0yygqst.com^
 ||1abzar.ir/abzar/tools/stat/
 ||1adi9wenq.com^
 ||1amehwchx31.bloxdhop.io^
@@ -235483,6 +235487,7 @@ zzzyk.com###Tinfo
 ||3mark.actonservice.com^
 ||3ng6p6m0.de^$third-party
 ||3nopvvhju5.com^
+||3o6a7kbcwo.com^
 ||3p-geo.yahoo.com^
 ||3p-udc.yahoo.com^
 ||3p8801.co^
@@ -246888,6 +246893,7 @@ zzzyk.com###Tinfo
 ||aooptout.zoominformation.com^
 ||aopah.satechi.com^
 ||aopcoms.aoptec.com^
+||aopytfhhfc.com^
 ||aoqcqh.eavalyne.lt^
 ||aoqhfs.optikdodomu.cz^
 ||aoqinglv.cn^
@@ -251188,6 +251194,7 @@ zzzyk.com###Tinfo
 ||ayparnarzt.com^
 ||ayqwjhh4cn.com^
 ||aystda25.amazingyou.com^
+||aytgk8rfu4.com^
 ||ayxewp.lextenso.fr^
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
@@ -258463,6 +258470,7 @@ zzzyk.com###Tinfo
 ||cmcore.com^$third-party
 ||cmcyne.xoticpc.com^
 ||cmdvap.tsupport.jp^
+||cme8k7fuwy.com^
 ||cmesgpqq8z.com^
 ||cmetrics.wilton.com^
 ||cmexota.ru/templates/default/images/livinternet.png
@@ -261718,6 +261726,7 @@ zzzyk.com###Tinfo
 ||cyberghostvpn.com^$cookie=cg_clickid
 ||cyberghostvpn.com^$cookie=visitor_date
 ||cyberghostvpn.com^$cookie=visitor_type
+||cybernews.com/clientfpid/
 ||cyberpedia.su/count.php
 ||cyclamen46.com^
 ||cycling.voicycling.com.br^
@@ -324693,6 +324702,7 @@ zzzyk.com###Tinfo
 ||pwtkl.byrosiejane.com^
 ||pwvlthpqzonnfe.com^
 ||pwxaed.be-mydesk.com^
+||pwzrfznosfblpi.com^
 ||px*.mediahills.ru^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
@@ -326218,7 +326228,7 @@ zzzyk.com###Tinfo
 ||rampjs-cdn.system1.com^
 ||rampmetrics.com^$third-party
 ||rand.propspotter.com.au^
-||randisphotos.com^
+||randisphotos.com^$redirect=noopjs,script
 ||randiul.com^$third-party
 ||random.amuuzbouche.com^
 ||random.osorteiodosprimos.me^
@@ -330929,6 +330939,7 @@ zzzyk.com###Tinfo
 ||scnt.rambler.ru^
 ||scode.randomhouse.com^
 ||scoegp.learnandmaster.com^
+||scollect.17173.com^
 ||sconline.com.tw/top/coolpc_
 ||sconnectstats.mckesson.com^
 ||scontent-atl3-2.xx.fbcdn.net.iberostar.com^
@@ -339931,6 +339942,7 @@ zzzyk.com###Tinfo
 ||slant.co/js/track.min.js
 ||slashdot.org/country.js
 ||slashdot.org/images/js.gif
+||slashdot.org/software/$image
 ||slashlook.com/_resource/html/_bloggerAdsBottom.html
 ||slashlook.com/_resource/html/_bloggerAdsInline1.html
 ||slashnext.actonservice.com^
@@ -367067,6 +367079,9 @@ zzzyk.com###Tinfo
 ||thehackernews.com/ga4/c
 ||thehackernews.com/zscripts/
 ||thehealthsite.com/apstag.js
+||thehealthy.com/wp-content/plugins/tmbi-amazon-affiliate/
+||thehealthy.com/wp-content/plugins/tmbi-data-analytics/
+||thehealthy.com/wp-content/plugins/tmbi-permutive/
 ||thehill.com/6zcfGH4h/init.js
 ||thehour.com/413gkwMT/init.js
 ||theindex.moe/api/ip-info$redirect=noopjson
@@ -373352,6 +373367,7 @@ zzzyk.com###Tinfo
 ||trerqekuw.com^
 ||tresit.siblu.fr^
 ||tresorit.com/page-init-tracking.*.js
+||trestle59.com^
 ||trf.tjustagolf.se^
 ||trfmxf.xyz^
 ||trfpwt.kokendwaterkranen.com^
@@ -375460,6 +375476,7 @@ zzzyk.com###Tinfo
 ||udxsuy.helline.fr^
 ||udzsgk.myclassico.com^
 ||udzucw.haggar.com^
+||ue.17173cdn.com/a/www/index/*/js/seed.js
 ||ue.flipboard.com^
 ||ue.kicker.de^
 ||ue8im.com^
@@ -382696,6 +382713,7 @@ zzzyk.com###Tinfo
 ||xckyqq.com^
 ||xckysk.auto-doc.at^
 ||xclaimwords.net^$third-party
+||xclikgrueb.com^
 ||xcmfu.com/cp.
 ||xcmz999.com^
 ||xcnfzp.icu^
