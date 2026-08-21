@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-21 09:13:08(GMT+8) 
-! Total count: 386343
+! ! Version: 2026-08-21 20:43:05(GMT+8) 
+! Total count: 386354
  
 ###ADtip
 ###Ad_windows
@@ -7156,7 +7156,6 @@ $websocket,domain=wap.yushuwu.cloud
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-pixels@*/web-pixel-*/sandbox/modern/*
-/web-stats$domain=softonic.com|softonic-ar.com|softonic-id.com|softonic-id.com|softonic.jp|softonic.kr|softonic.nl|softonic.pl|softonic.com.br|softonic.ru|softonic.se|softonic-th.com|softonic.com.tr|softonic.cn
 /web-vitals-analytics.js
 /web-vitals-tracker.js
 /web-vitals.iife.js
@@ -246239,6 +246238,7 @@ zzzyk.com###Tinfo
 ||analytics.securebanklogin.com^
 ||analytics.sedrajewellery.com^
 ||analytics.seekxr.com^
+||analytics.sen.go.kr^
 ||analytics.send.cm^
 ||analytics.sensorpartners.com^
 ||analytics.servettefc.ch^
@@ -250187,8 +250187,8 @@ zzzyk.com###Tinfo
 ||assets.akvarieboden.net^
 ||assets.alicdn.com/g/*/affiliate-tracker.js$domain=aliexpress.com|aliexpress.us
 ||assets.aliexpress-media.com/g/??alilog/aplus_plugin_aefront/index.js,alilog/mlog/aplus_int.js
-||assets.aliexpress-media.com/g/AWSC/*/collina.js$script,domain=aliexpress.com
-||assets.aliexpress-media.com/g/AWSC/*/fireyejs.js$script,domain=aliexpress.com
+||assets.aliexpress-media.com/g/AWSC/*/collina.js$script,domain=aliexpress.com|aliexpress.us
+||assets.aliexpress-media.com/g/AWSC/*/fireyejs.js$script,domain=aliexpress.com|aliexpress.us
 ||assets.aliexpress-media.com/g/AWSC/WebUMID/*/um.js
 ||assets.aliexpress-media.com/g/AWSC/fireyejs/*/fireyejs.js
 ||assets.aliexpress-media.com/g/AWSC/uab/*/collina.js
@@ -289757,6 +289757,7 @@ zzzyk.com###Tinfo
 ||hrprofessionals.hrdept.co.uk^
 ||hrprwf.proteinocean.com^
 ||hrqek.origoshoes.com^
+||hrro55g56.com^
 ||hrs.actonservice.com^
 ||hrs.de/bi/null.gif?
 ||hruoxg.5vorflug.de^
@@ -310439,6 +310440,7 @@ zzzyk.com###Tinfo
 ||meethanshi.com^
 ||meetimgz.com/vtrack
 ||meeting.nuance.com^
+||meetingpoint-jl.de/api/*-track|
 ||meetings.gaylordhotels.com^
 ||meetrics.net^$domain=spiegel.de
 ||meetrics.net^$third-party
@@ -316024,6 +316026,7 @@ zzzyk.com###Tinfo
 ||n2bqyqg5u3.com^
 ||n2d79v41a3.com^
 ||n2ivsbik2.com^
+||n2m8u4ae9.com^
 ||n2xj2mxg3z.com^
 ||n3567.com^
 ||n367tqpdxce0.quine.sh^
@@ -318250,6 +318253,7 @@ zzzyk.com###Tinfo
 ||nztja.teddybaldassarre.com^
 ||nzueib.dice.com^
 ||nzuwat.miliboo.it^
+||nzvmpjjkpinlbi.com^
 ||nzydzsw.com^$third-party
 ||nzymeedg.icu^
 ||nzzvvf.goldengoose.com^
@@ -319426,6 +319430,7 @@ zzzyk.com###Tinfo
 ||online.wsj.com/javascript/abm.js$script
 ||online.yodle.com^
 ||onlineis.actonservice.com^
+||onlinemediahelper.com^
 ||onlinepbx.ru^$third-party
 ||onlinepngtools.com/api/v1/stats/$ping
 ||onlinepngtools.com/images/examples-onlinepngtools/single-opaque-pixel.png
@@ -345238,6 +345243,7 @@ zzzyk.com###Tinfo
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
 ||softdrinks.euvou.events^
+||softonic*/web-stats
 ||softonic-analytics.net^$third-party
 ||softonic.jp/web-stats
 ||softportal.com/js/metrika.js
@@ -362664,6 +362670,7 @@ zzzyk.com###Tinfo
 ||sumaity.com/script/analytics/s_code.js
 ||sumaiya.sumaiyahairtonic.com^
 ||sumatra.ai^$third-party
+||sumetrika.com^
 ||summary.bookoff.co.jp^
 ||summary.bookoffonline.co.jp^
 ||summary.instaread.co^
@@ -364624,6 +364631,7 @@ zzzyk.com###Tinfo
 ||t4s8t6p39.com^
 ||t570.wiltonbulletin.com^
 ||t57u6anx2.com^
+||t5a64j1v4.com^
 ||t5gp7rzz4.com^
 ||t6ec3seyq.com^
 ||t733.wjcl.com^
@@ -367828,6 +367836,7 @@ zzzyk.com###Tinfo
 ||tksqz.simplynootropics.com.au^
 ||tktlt.freedomfatigues.com^
 ||tktracker.aotter.net^
+||tkvfayv59.com^
 ||tkvied.levi.com.my^
 ||tkvvyf.keen.pl^
 ||tkvxdj.cars.com^
@@ -374170,6 +374179,7 @@ zzzyk.com###Tinfo
 ||trovo-tag.com^
 ||trovo-tag.com^$third-party
 ||trowel03.com^
+||trowel67.com^
 ||troypoint.com/wp-admin/admin-ajax.php?action=geoip_detect
 ||trp69.top^
 ||trpkktzakr.easyjet.com.cpanel.net.easyjet.com^
@@ -383770,6 +383780,7 @@ zzzyk.com###Tinfo
 ||yahoo.com/pageview
 ||yahoo.com/pageview?
 ||yahoo.com/sync/casale/
+||yahoo.com/xhr/beacon/batch/
 ||yahoo.com^$cookie=APIDTS
 ||yahoo.com^$cookie=GUC
 ||yahoo.net/pixel*.gif
