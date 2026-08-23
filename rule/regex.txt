@@ -1,4 +1,4 @@
-# Update time: 2026-08-23 09:00:24
+# Update time: 2026-08-23 20:28:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -213,6 +213,7 @@ advertisers.js|
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
+||ysdm*.ys137.com.cn^
 ||lt*.tritondigital.com^
 ||api-*.hismarttv.com^
 ||eflbundles.*.com.tr^
@@ -442,6 +443,7 @@ advertisers.js|
 ||ads*-normal*.zijieapi.com^
 ||xy-*pcdn.msstatic.com^
 ||ac*.faxingchina.com^
+||use-trk*.bluevoox.com^
 ||log*.aliyuncs.com^
 ||geoloc*.geovisite.ovh^
 ||sam*.baby-kingdom.com^
@@ -535,17 +537,13 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
-||rgfftupf.
 ||adservice.google.
-||counter*.stat.ovh^
 |load.sst.
-||ads.livetv*.me^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
-||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
 ||partner.superbahisaffiliates*.com^
@@ -645,7 +643,6 @@ analytics-*.aasaam.com
 ||121.204.246.*.gif
 ||button.blogs.yandex.
 ||buzzer.xhamster*
-||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||rum*.a.trbcdn.net^
 ||analytics-api.dvdfab.
@@ -686,7 +683,6 @@ analytics-*.aasaam.com
 ||rehs.*.hu^
 ||cdn*.swaxis.com^
 ||srmdata-*.com^
-||use-trk*.bluevoox.com^
 ||adimg*.search.naver.net^
 ||log*.zijieapi.com^
 ||icq-window.
@@ -746,10 +742,14 @@ rgmechanicsgames.com*VPN.exe
 ||ad-host-backup-*.aliyuncs.com^
 ||fapnado.*.php|
 ||itechpost.com*adbk
+||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
+||counter*.stat.ovh^
 ||158.247.208.
+||ads.livetv*.me^
 ||142.91.159.
 |167.206.10.148^
 ||23.109.87.
+||fxhpaoxqyajvmdg.
 Banner468x60
