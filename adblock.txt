@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-24 09:12:24(GMT+8) 
-! Total count: 386099
+! ! Version: 2026-08-24 20:47:04(GMT+8) 
+! Total count: 386126
  
 ###ADtip
 ###Ad_windows
@@ -1295,6 +1295,7 @@
 ##a[href*=".com?s="]
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".gaimin.gg/cn"]
+##a[href*=".holesg.xyz"]
 ##a[href*=".hongguotuiguang."]
 ##a[href*=".jmtybc.com"]
 ##a[href*=".labsda.com"] > img[src^="/game/20"]
@@ -2134,7 +2135,7 @@ $cookie=yotpo_pixel
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $csp=script-src 'self' * 'unsafe-inline',domain=156xsbb.com|ltbook.net|shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
-$csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
+$csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|sswwxs.com|akexs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
@@ -3173,7 +3174,7 @@ $websocket,domain=wap.yushuwu.cloud
 /Web_JS_Stats.
 /Web_JS_Stats.js
 /[a-z0-9]+\.[a-z0-9]+\//$denyallow=cidetxt.cc,domain=cidetxt.cc,subdocument,script
-/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
+/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 /\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{25,}$/$script,~third-party,domain=gu-global.com|uniqlo.com
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xmlhttprequest,~third-party
 /\/-[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+\/[A-z0-9]+$/$domain=calvinklein.*,xmlhttprequest,script
@@ -4897,6 +4898,7 @@ $websocket,domain=wap.yushuwu.cloud
 /ibeat.min.js
 /icf-analytics.js
 /id?d_visid_
+/identity/token/verify?browser_id=
 /if/services/tdg$domain=foerde-sparkasse.de|sparkasse-dachau.de|sparkasse-hochfranken.de|sparkasse-mittelfranken-sued.de
 /if/services/tdg?hs=
 /ifengRotatorAd.js
@@ -5851,6 +5853,7 @@ $websocket,domain=wap.yushuwu.cloud
 /pixel_identifier.js
 /pixel_iframe.
 /pixel_iframe.php
+/pixel_taboola_events.js
 /pixel_track.
 /pixel_tracking.
 /pixel_tracking.js
@@ -6252,6 +6255,7 @@ $websocket,domain=wap.yushuwu.cloud
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
 /sensorsdata.min.js
+/sentinel-events-tracker.
 /sentry-browser.min.js
 /sentry-browser.tracing.es5.min.js
 /sentry-logger.js
@@ -7291,6 +7295,7 @@ $websocket,domain=wap.yushuwu.cloud
 /wscdn/*$subdocument
 /wstat.pl
 /wstats.php?
+/wt-connect-pixel/carts/init?
 /wt?p=
 /wt_capi.js
 /wtbase.js
@@ -214137,7 +214142,6 @@ fuckadblock.sitexw.fr#@#.pub_300x250
 fudge.jp##.ratio-wrapper
 fugle-mailgun.fugle.tw$image
 fujieace.com##.single-goods
-fuliba.net##.article-topbanner
 fuliba.net,fuliba2023.net###focusslide
 fuliba2021.net,ypojie.com##.orbui-post-footer
 fuliba2022.net###focusslide
@@ -235939,6 +235943,7 @@ zzzyk.com###Tinfo
 ||5kjpa028wo.com^
 ||5kmp7.top^
 ||5kmqy60r7.com^
+||5knltyfcfy.com^
 ||5lf5cujc5.com^
 ||5lfgdju.com^
 ||5lu8.com^$popup,third-party
@@ -236159,6 +236164,7 @@ zzzyk.com###Tinfo
 ||6pm.com/onload.cgi?
 ||6pm.com/track.cgi?
 ||6q77vsjez1.com^
+||6ql83wy90f.com^
 ||6quspne.com^
 ||6s0zo8jzbb.com^
 ||6s78n1rj4r.com^
@@ -242486,6 +242492,7 @@ zzzyk.com###Tinfo
 ||adm24.de/hp_counter/$third-party
 ||admaimai.com/inc/adv
 ||admantx.com^$third-party
+||admaster.cc^$third-party
 ||admaster.com.cn^$third-party
 ||admatrix.jp^$third-party
 ||admaxium.com^
@@ -245577,6 +245584,7 @@ zzzyk.com###Tinfo
 ||analytics.gerstacker-weinkellerei.de^
 ||analytics.gesslimited.com^
 ||analytics.gestore.com^
+||analytics.getlimy.ai^
 ||analytics.getshogun.com^
 ||analytics.getshogun.com^$third-party
 ||analytics.getsnworks.com^
@@ -246421,6 +246429,7 @@ zzzyk.com###Tinfo
 ||analytics.unilogcorp.com^
 ||analytics.unive.nl^
 ||analytics.unsw.edu.au^
+||analytics.upress.io^
 ||analytics.upworthy.com^
 ||analytics.urban-vpn.com^
 ||analytics.urbanapothecarylondon.com^
@@ -251911,6 +251920,7 @@ zzzyk.com###Tinfo
 ||bccnsoft.com/aac/
 ||bcd.esprit.de^
 ||bcdllh.esprit.co.uk^
+||bcdn-16c9d93d.bankofscotland.co.uk^
 ||bcdwku.eg.ru^
 ||bceapp.com/jj/1716mid.js
 ||bcebos.com/24x360x528.gif
@@ -257248,6 +257258,7 @@ zzzyk.com###Tinfo
 ||check.lowealpine.com^
 ||check.tadapi.info^
 ||check.tep.test.ajo.adobe.com^
+||check2.bankofscotland.co.uk^
 ||check2.lloydsbank.co.uk^
 ||check24.*/assets/funnel-tracking.min.js
 ||check24.*/files/give_png.php
@@ -269767,6 +269778,7 @@ zzzyk.com###Tinfo
 ||dmclick.cn^$third-party
 ||dmcnyf.nevzatonay.com^
 ||dmcrg.tartecosmetics.com^
+||dmdcstsyv3.com^
 ||dmdgdu.atmosphera.com^
 ||dmdi.pl^$third-party
 ||dmdtb.georgiaboot.com^
@@ -296052,6 +296064,7 @@ zzzyk.com###Tinfo
 ||k5app.byjus.com^
 ||k5ggua.xyz^
 ||k5qdqwgjit.com^
+||k5s3263xhu.com^
 ||k5w06v2yzh.com^
 ||k69wes8q8.com^
 ||k6d.falang.net^
@@ -296199,6 +296212,7 @@ zzzyk.com###Tinfo
 ||kashdevfix.net.mydays.de^
 ||kasiklz.cc^
 ||kaspersky-labs.com/cld_track?
+||kaspersky.com/assets/logSender.
 ||kataribe.kataribecms.com^
 ||kataweb.it^
 ||katelin.top^
@@ -298132,6 +298146,7 @@ zzzyk.com###Tinfo
 ||leafpilot.com^
 ||leaity.dlm1947.com^
 ||leak.welnes.online^
+||leakgallery.com/api/lg/
 ||leanplum.com^$third-party
 ||leaplunchroom.com^
 ||leapquick.com^
@@ -320203,6 +320218,7 @@ zzzyk.com###Tinfo
 ||p.sfx.ms/is/invis.gif
 ||p.skimresources.com^
 ||p.smartertravel.com^
+||p.softmedia.cz^
 ||p.spotidownloader.com^
 ||p.statp.com^
 ||p.tencentmind.com^
@@ -323314,6 +323330,7 @@ zzzyk.com###Tinfo
 ||pps.rokt.com/v1/timings/events
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
+||ppsn1dzi3h.com^
 ||ppssav.formal-message.com^
 ||ppstatic.pl^*/track.js
 ||ppt.powermedbd.com^
@@ -323355,6 +323372,7 @@ zzzyk.com###Tinfo
 ||pqn7.cheque-dejeuner.fr^
 ||pqoge.theinteriordesigninstitute.com^
 ||pqomnfbg.com^
+||pqpauhtkbh.icu^
 ||pqrede.fiatprofessional.com^
 ||pqrms.belkdev.com^
 ||pqrnxj.alonashechter.com^
@@ -324500,6 +324518,7 @@ zzzyk.com###Tinfo
 ||pvino9yhp3.com^
 ||pvjep.edsflyshop.com^
 ||pvjjg.plouise.co.uk^
+||pvjuzdikhrbblo.com^
 ||pvkhr.necessaire.com^
 ||pvlbcw.glamira.ro^
 ||pvmax.net^$third-party
@@ -324834,6 +324853,7 @@ zzzyk.com###Tinfo
 ||qczbv.henryrose.com^
 ||qczcoy.tirendo.fr^
 ||qczcxe.cn^
+||qczg1nsnvo.com^
 ||qczgr.keyless-city.com^
 ||qd.x4399.com^
 ||qd38xgoin9.com^
@@ -331020,6 +331040,7 @@ zzzyk.com###Tinfo
 ||sdk.conscent.in^$third-party
 ||sdk.e.qq.com^
 ||sdk.fra-*.braze.eu^
+||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.mrf.io^
 ||sdk.nsureapi.com/sdk.js
@@ -339085,6 +339106,7 @@ zzzyk.com###Tinfo
 ||shrekis.life^$all
 ||shrewsburyshow.com^
 ||shrillspoon.com^
+||shrinetheme.com^$third-party
 ||shrinktheweb.com^$third-party
 ||shroughtened.com^$third-party
 ||shrtfly.vip/js/tag.js
@@ -362073,6 +362095,7 @@ zzzyk.com###Tinfo
 ||streetmetrics.io^$third-party
 ||streetsblog.org/api/session|
 ||streetsort.com^
+||strema.top/ping/?
 ||stretchsister.com^
 ||stretchsneeze.com^
 ||stretchsquirrel.com^
@@ -367203,6 +367226,7 @@ zzzyk.com###Tinfo
 ||time.aktion-mensch.de^
 ||time.is/img/nod.png
 ||time.metimespain.com^
+||time1.me^$third-party
 ||time4shopping.com.ua/api/api.php/stat
 ||timeclock.mytoolr.com^
 ||timecn.cn/image/alipay.jpg
@@ -370910,6 +370934,7 @@ zzzyk.com###Tinfo
 ||track.weflatables.com^
 ||track.weltura.com^
 ||track.weposters.com^
+||track.wesell.co.il^
 ||track.westore24.com^
 ||track.whitecarwash.store^
 ||track.wildblue.com^
@@ -374998,6 +375023,7 @@ zzzyk.com###Tinfo
 ||u4.unit4.com^
 ||u40pdqw.com^
 ||u46.pnc.com^
+||u47.pnc.com^
 ||u4h8saw19.com^
 ||u4jlr6f6n2.com^
 ||u4q3l5ksmw.com^
@@ -375687,6 +375713,7 @@ zzzyk.com###Tinfo
 ||umommy.cyou^
 ||ump.sf-express.com/monitor/*/report|
 ||umqigvethe.com^
+||umrd62a7zy.com^
 ||umrvmb.net.anwalt.de^
 ||ums.ro.loccitane.com^
 ||umschool.net/_jts/api/s/track
