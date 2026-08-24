@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-23 20:36:57(GMT+8) 
-! Total count: 386098
+! ! Version: 2026-08-24 09:12:24(GMT+8) 
+! Total count: 386099
  
 ###ADtip
 ###Ad_windows
@@ -743,6 +743,7 @@
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
+##.pg-body > div[class^="gg_"]
 ##.pggb > .ng-star-inserted
 ##.pggc > .ng-star-inserted
 ##.pggd > .ng-star-inserted
@@ -15050,7 +15051,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||lsi.com^*/google-analytics.js
 @@||lumload.com/pop.js$script
 @@||luoxiadushu.com^$generichide
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||m.ddyueshu.cc/*common
 @@||m.happymh.com^$cookie=/^_ga_/
 @@||m.v.fwmrm.net/p/release/latest-JS/adm/prd/AdManager.js$domain=revision3.com
@@ -247218,6 +247218,7 @@ zzzyk.com###Tinfo
 ||api.bulldrop.com.br^
 ||api.bunjang.co.kr/api/log/
 ||api.bunzlaucastle.com^
+||api.bus-location.1507t.xyz/3.0/ping
 ||api.businessfluency.com.br^
 ||api.bygrazycanecas.com.br^
 ||api.bytebrew.io^
@@ -251526,7 +251527,6 @@ zzzyk.com###Tinfo
 ||baidu.com/event/img/zwdzjs.jpg
 ||baidu.com/fanyiapp/image/wise_banner_
 ||baidu.com/feproxy/ad/list?
-||baidu.com/forum/pic/item/0bd162d9f2d3572cef1c4acdcc13632762d0c322.
 ||baidu.com/game/asset/common/performance.
 ||baidu.com/gamebox?
 ||baidu.com/h.js?
@@ -252274,6 +252274,8 @@ zzzyk.com###Tinfo
 ||bee.tc.easebar.com^
 ||beefcommercialcase.e.epiqnotification.com^
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
+||beehiiv.com/nectar_analytics
+||beehiiv.com/page_view
 ||beeline.beeline-tire.co.jp^
 ||beelinecolor.com^
 ||beemray.com^$third-party
@@ -256898,6 +256900,7 @@ zzzyk.com###Tinfo
 ||cdtal.getbugmd.com^
 ||cdtm.cdiscount.com^
 ||cduxqw.afrika-safari.dk^
+||cdvnogrvt.com^
 ||cdvsd9.com^
 ||cdwlxi.cadremploi.fr^
 ||cdxyb.cn^$third-party
@@ -306441,7 +306444,6 @@ zzzyk.com###Tinfo
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
 ||lwadm.com^
-||lwadm.com^$third-party
 ||lwashh.hessischer-jobanzeiger.de^
 ||lwbo.cn^
 ||lwdla7fjns.com^
@@ -367011,7 +367013,6 @@ zzzyk.com###Tinfo
 ||thj.astrakhan.ru^
 ||thj.jagerhof.net^
 ||thj36m3dm.com^
-||thjfcs.cn/hc237/uploads/default/other/2025-12-10/81a0f876800ea81616864d841f102ef4.
 ||thjhaj.zooart.com.pl^
 ||thk.kidshubs.online^
 ||thlbs.littleway.com^
