@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-25 09:11:14(GMT+8) 
-! Total count: 386135
+! ! Version: 2026-08-25 20:43:40(GMT+8) 
+! Total count: 386161
  
 ###ADtip
 ###Ad_windows
@@ -3575,6 +3575,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/Video/GetAdsData?
 /api/Video/GetAdsDataList?
 /api/aaaac/list
+/api/ad-track$ping
 /api/ad/*
 /api/adplogger/*
 /api/ads-bff-client/*
@@ -3604,6 +3605,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/log-visit
 /api/metrics/collect
 /api/metrics/event
+/api/notify-track$ping
 /api/pageactivity
 /api/pageview/*$ping
 /api/pageview?
@@ -7241,6 +7243,7 @@ $websocket,domain=wap.yushuwu.cloud
 /wp-content/plugins/pageviews/pageviews.min.js
 /wp-content/plugins/pb-ga-google-analytics/*$domain=~wordpress.org
 /wp-content/plugins/pixelyoursite/*
+/wp-content/plugins/plausible-analytics/*
 /wp-content/plugins/pmc-plugins/pmc-harmony-companion/build/ga.js$domain=wwd.com|sportico.com
 /wp-content/plugins/pmc-plugins/pmc-social-share-bar/build/tracking.js$domain=billboard.com|deadline.com
 /wp-content/plugins/s2f-referral-tracking/*
@@ -217325,7 +217328,6 @@ laprovence.com#%#//scriptlet("set-constant", "xt_click", "noopFunc")
 larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript', 'noopFunc')
 larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFunc')
 las.ac.cn###img
-lasisa.net,president.jp##.recommend
 lastminute.com.au/api/uisprime/track
 latam.underarmour.com$image
 launchpad-email.swapcard.com$image
@@ -219325,6 +219327,7 @@ livemint.com#%#//scriptlet('set-constant', 'dapTracker.track', 'noopFunc')
 lkong.com##.lkong-ads
 lkvod.me##.ec-ad-img
 llss.bz###secondary img:not(.avatar)
+lmaga.jp,lasisa.net,president.jp##.recommend
 lmail.mecp.com$image
 lmail.proformation.fr$image
 lmail.thelanguageunschool.com$image
@@ -225706,7 +225709,9 @@ pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping.mg.apexpay.org$image
 ping0.cc###adgright
+ping0.cc###adhright
 ping0.cc##.xbeles
+ping0.cc##.xceles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
@@ -235225,6 +235230,7 @@ zzzyk.com###Tinfo
 ||2lj9n8sz0w.com^
 ||2lpwji3xr.com^
 ||2m.ma/tracking/
+||2nbg86d2x.com^
 ||2nl6sgd9c.com^
 ||2no.co^$third-party
 ||2nvd5j7iv0.com^
@@ -235491,6 +235497,7 @@ zzzyk.com###Tinfo
 ||3qx0pnhyzi.com^
 ||3qxsa.cc/js/news2.js
 ||3rdspacetech.com^
+||3rs337ci4.com^
 ||3rsppty.cn^
 ||3s7m2ss7g.com^
 ||3s8rz1nq6yw.nightowl.app^
@@ -236657,6 +236664,7 @@ zzzyk.com###Tinfo
 ||9duw.com/pic/
 ||9e0917xf7x.com^
 ||9ep0z3su1e.com^
+||9eys3zjja.com^
 ||9ez.me/embd.php?type=
 ||9f0usaep8c.com^
 ||9fcoh811c.com^
@@ -244288,6 +244296,7 @@ zzzyk.com###Tinfo
 ||alibabapizza.openapp.link^
 ||alicat.actonservice.com^
 ||aliccy.theminiforest.com^
+||alicdn.com/AWSC/WebUMID/
 ||alicdn.com/AWSC/et/
 ||alicdn.com/UnionCps/tktrace/cps.js
 ||alicdn.com/ad-product/
@@ -250171,6 +250180,7 @@ zzzyk.com###Tinfo
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/local-data.js
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/nano-ppc-media-tracking-YnuuQ.js
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/referral-insights.js
+||assets.aliexpress-media.com/g/awsc/webumid/
 ||assets.aliexpress-media.com/g/lzd_sec/epssw/*/epssw.js
 ||assets.apollo.io/micro/website-tracker/
 ||assets.apotekfordeg.no^
@@ -256446,7 +256456,7 @@ zzzyk.com###Tinfo
 ||cdn.aimtell.com^$third-party
 ||cdn.almamedia.tech/esm/geo-client/
 ||cdn.amplitude.com/engagement-browser/
-||cdn.amplitude.com/libs/analytics-browser-*-min.js
+||cdn.amplitude.com/libs/analytics-browser-*min.js
 ||cdn.amplitude.com/libs/plugin-session-replay-browser-$third-party
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.ampproject.org/*/analytics-vendors/metrika.json
@@ -256471,6 +256481,7 @@ zzzyk.com###Tinfo
 ||cdn.branch.io^$app=app.extra.android|com.spotify.music
 ||cdn.branch.io^$script
 ||cdn.brevo.com/js/sdk-loader.js
+||cdn.brownbrothers.io/api/impression
 ||cdn.builder.io/api/v1/pixel
 ||cdn.buscaveicular.com^
 ||cdn.byjema.dk^
@@ -256658,6 +256669,7 @@ zzzyk.com###Tinfo
 ||cdn.permutive.app/*-web.js$script,redirect=noopjs,domain=theglobeandmail.com
 ||cdn.piazzasquareitaliano.com^
 ||cdn.ping0.cc/images/dx/*.gif$~third-party
+||cdn.ping0.cc/images/ex/*.gif
 ||cdn.pitaya.dk^
 ||cdn.pmweb.com.br/df/tag.js
 ||cdn.polarbyte.com^
@@ -275030,7 +275042,9 @@ zzzyk.com###Tinfo
 ||exbujk.glamood.com^
 ||exc.ns.nl^
 ||excelhome.net/js/banner-
+||excess-ga.duolingo.com^
 ||excess.duolingo.com/batch
+||excess.duolingo.com^
 ||exch.adaptable.nl^
 ||exch.bolderman.nl^
 ||exch.de-duurzame-jongens.nl^
@@ -278172,6 +278186,7 @@ zzzyk.com###Tinfo
 ||g-years.com/tb/
 ||g.163.com/*&affiliate=
 ||g.3lian.com^
+||g.alicdn.com/AWSC/fireyejs/
 ||g.alicdn.com/alilog/s/*/plugin/aplus_spmact.js
 ||g.aline.co^
 ||g.analytics.versa-ai.com^
@@ -278301,6 +278316,7 @@ zzzyk.com###Tinfo
 ||g.yccdn.com^
 ||g.youshishop.com^
 ||g.zecplus.de^
+||g0e7184ro.com^
 ||g1.pptair.com^
 ||g1.tagtic.cn^
 ||g1.taijuba.com^
@@ -289592,6 +289608,7 @@ zzzyk.com###Tinfo
 ||hqdoor.com/Web/
 ||hqdvc.onia.com^
 ||hqegsa.villagehouse.jp^
+||hqeiwwnkce.icu^
 ||hqfhspz.com^
 ||hqfthz.betterlifeuae.com^
 ||hqgearb.icu^
@@ -291994,6 +292011,7 @@ zzzyk.com###Tinfo
 ||inews.co.uk/rta2/
 ||inews.name/top.php
 ||inf.miui.com^
+||infamouscomer.com^
 ||infamousstream.com^
 ||infcnw.footway.cz^
 ||inferclick.com^$third-party
@@ -318035,6 +318053,7 @@ zzzyk.com###Tinfo
 ||nyctrl32.com^$third-party
 ||nycwfz.kigili.com^
 ||nyetae.eyeclinic-tokyo.jp^
+||nyfmjnegeupjxu.com^
 ||nyfpt.cuddleandkind.com^
 ||nyhed.danskespil.dk^
 ||nyhzvh.dickhannahhonda.com^
@@ -319490,6 +319509,7 @@ zzzyk.com###Tinfo
 ||oppo.com/api/country
 ||opportunity.businessbroker.net^
 ||opportunityfund.actonservice.com^
+||opposite33.com^
 ||opposite36.top^
 ||oppuz.com^
 ||opqrs.ltliang.com^
@@ -323011,6 +323031,7 @@ zzzyk.com###Tinfo
 ||pnkas.kiki.world^
 ||pnlhnx.xyz^
 ||pnlwakao.santegidio.org^
+||pnlx1ofua.com^
 ||pnnjhokq.bateel.com^
 ||pnnpan.cv-library.co.uk^
 ||pnovfl.karaca.com^
@@ -326124,6 +326145,10 @@ zzzyk.com###Tinfo
 ||rapidzebra.io^
 ||rapndh.icu^
 ||rapsmnz.cyou^
+||raptorsupplies.*/js/analytics.js
+||raptorsupplies.*/js/ga4-events.js
+||raptorsupplies.*/js/posthog.js
+||raptorsupplies.*/js/visitor_id.js
 ||raqwjl.dienthoaigiakho.vn^
 ||rarbt.cc/js/index960_
 ||rarejob.com^$cookie=guest_id_ads
@@ -367006,6 +367031,7 @@ zzzyk.com###Tinfo
 ||thetruth.com/pd.js
 ||thetruthaboutcars.com/api/slots
 ||theurbanlist.com/assets/dist/autotrack.*.js
+||theverge.com/SendEventData
 ||thewavebeats.com^
 ||theweeklydonut.org^
 ||thewhizproducts.com^$third-party
