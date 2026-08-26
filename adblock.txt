@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-25 20:43:40(GMT+8) 
-! Total count: 386161
+! ! Version: 2026-08-26 09:13:16(GMT+8) 
+! Total count: 386172
  
 ###ADtip
 ###Ad_windows
@@ -4900,7 +4900,6 @@ $websocket,domain=wap.yushuwu.cloud
 /ibeat.min.js
 /icf-analytics.js
 /id?d_visid_
-/identity/token/verify?browser_id=
 /if/services/tdg$domain=foerde-sparkasse.de|sparkasse-dachau.de|sparkasse-hochfranken.de|sparkasse-mittelfranken-sued.de
 /if/services/tdg?hs=
 /ifengRotatorAd.js
@@ -225708,9 +225707,7 @@ pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping.mg.apexpay.org$image
-ping0.cc###adgright
 ping0.cc###adhright
-ping0.cc##.xbeles
 ping0.cc##.xceles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
 pinggu.org##.banner2015
@@ -235476,6 +235473,7 @@ zzzyk.com###Tinfo
 ||3k8.com/d/js/m/thea
 ||3kans.*/biquge_m/js/tools.js
 ||3l0zszdzjhpw.www.comicleaks.com^
+||3lbqpzrlmz.com^
 ||3li5a.elisacavaletti.it^
 ||3llzzztmz.com^
 ||3lxk4afsb.com^
@@ -236095,6 +236093,7 @@ zzzyk.com###Tinfo
 ||682a5845.b-cdn.net^
 ||68710266.com^
 ||68b1hx8ej.com^
+||68pzwbugo.com^
 ||68td4yete.com^
 ||68tkaiaji.com^
 ||69-74.net.jumia.sn^
@@ -249947,6 +249946,7 @@ zzzyk.com###Tinfo
 ||art.carte-gr.total.fr^
 ||art.rollinart.at^
 ||art2wave.actonservice.com^
+||artbranch.net^
 ||arte.tv/log-player/
 ||artefact.is^$third-party
 ||artemis-cdn.ocdn.eu^
@@ -249964,6 +249964,7 @@ zzzyk.com###Tinfo
 ||articulture.org/_t/
 ||artisan.actonservice.com^
 ||artistchristinacarmel.ericksonbuilt.com^
+||artistgrid.cx/ineedthis.js
 ||arts-cloud.net^
 ||arttrk.com/pixel/
 ||aruba.it/servlet/counterserver?
@@ -250745,6 +250746,7 @@ zzzyk.com###Tinfo
 ||auto.ru/-/ajax/$~xmlhttprequest
 ||auto.ru/cookiesync/
 ||autoaffiliatenetwork.com^$third-party
+||autoappearancetraining.com^
 ||autoaudience.com^$third-party
 ||autoblog.com/.api/admiral
 ||autofan.com.cn/UploadFiles/images/bAdImg.jpg
@@ -252222,7 +252224,7 @@ zzzyk.com###Tinfo
 ||beacon.www.theguardian.com^
 ||beacon.ztgame.com^
 ||beaconcdn.qq.com^
-||beaconimages.netflix.net^$image
+||beaconimages.netflix.net^
 ||beacons*.gvt3.com^
 ||beacons-prod.fubo.tv^
 ||beacons.ads.fubo.tv^
@@ -252476,6 +252478,7 @@ zzzyk.com###Tinfo
 ||bewsgxy.solidandstriped.com^
 ||beyolp.pebmed.com.br^
 ||beyond.bluewolf.com^
+||beyondgoodness.com^
 ||beyondmeasure.rigoltech.com^
 ||beyondsecurity.com^$third-party
 ||beyondwickedmapping.org^
@@ -253353,6 +253356,7 @@ zzzyk.com###Tinfo
 ||blue.unitedbyblue.com^
 ||bluebusiness.actonservice.com^
 ||bluecava.com^$third-party
+||bluecollarmuse.com^
 ||blueconic.net^$third-party
 ||bluecore-email.branch.rocks^
 ||bluecore.com^$third-party
@@ -269736,7 +269740,6 @@ zzzyk.com###Tinfo
 ||dm-target.fishersci.com^
 ||dm-target.thermofisher.com^
 ||dm-us-dr.net.mydays.de^
-||dm.17xuexiba.com^
 ||dm.21hubei.com^
 ||dm.51okc.com^
 ||dm.66qw.net^
@@ -274420,6 +274423,7 @@ zzzyk.com###Tinfo
 ||eusdbk.philosophyofficial.com^
 ||eusuperior.metodoeusuperior.com.br^
 ||eutme.livewellandfully.com^
+||eutrnfnm.com^
 ||eutzh.bokksu.com^
 ||euuh.cn^
 ||euvdp.maxbp.com^
@@ -288416,6 +288420,7 @@ zzzyk.com###Tinfo
 ||hdzupx.bonprix-wa.be^
 ||he2d.com^$third-party
 ||he3tf77ow.com^
+||he4j6lz6d.com^
 ||head4.net/ad_
 ||headshot.monster^$all
 ||headydegree.com^
@@ -298094,6 +298099,7 @@ zzzyk.com###Tinfo
 ||ldxeyz.openmedical.co.kr^
 ||ldxinb.xyz^
 ||ldxpmz.people.com^
+||ldyqwzfmd.com^
 ||ldzhg.biglifemarketing.com^
 ||le.com/op/
 ||le4le.com^
@@ -305196,6 +305202,7 @@ zzzyk.com###Tinfo
 ||loans.rategenius.com^
 ||loansales.cbre.com^
 ||lobhn.jacksonandperkins.com^
+||lobhvxlikxbjju.com^
 ||lobup.whoiselijah.uk^
 ||loc.kr^$third-party
 ||local-shares.ri.la^
@@ -309915,6 +309922,7 @@ zzzyk.com###Tinfo
 ||meanwellaustralia.actonservice.com^
 ||meapk.com^
 ||meaqcj.cn^
+||meas.join-stories.com^
 ||meas.plantizia.sk^
 ||measlymiddle.com^
 ||measure.adem.london^
@@ -310241,6 +310249,7 @@ zzzyk.com###Tinfo
 ||mediav.com$third-party
 ||mediav.com^$third-party
 ||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
+||mediawatch.kr/weblog/gtracker.php
 ||mediaweaver.jp^$third-party
 ||medibot.delling.care/api/counts/
 ||medical.response.midmark.com^
@@ -346353,6 +346362,7 @@ zzzyk.com###Tinfo
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||src.freshmarketer.in^
 ||src.fwusercontent.com/mas|
+||src.fwusercontent.com^
 ||src.secmailtrackr.com^
 ||src.vector.com^
 ||srcap.4patriots.com^
@@ -382483,6 +382493,7 @@ zzzyk.com###Tinfo
 ||x6img.com^$domain=picturedata.org
 ||x6m3p5.musiqa.pl^
 ||x6u6kw4sg.com^
+||x7qhjjryf1.com^
 ||x7weiubb2f.com^
 ||x8.cho-chin.com^
 ||x822.mrt.com^
