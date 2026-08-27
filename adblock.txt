@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-08-27 15:27:53(GMT+8) 
-! Total count: 386207
+! ! Version: 2026-08-28 05:49:24(GMT+8) 
+! Total count: 386214
  
 ###ADtip
 ###Ad_windows
@@ -15300,6 +15300,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||nationwide.co.uk/_/js/webAnalytics.js
 @@||nationwide.com/myaccount/includes/images/x.gif$~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
+@@||navacom.info/count.php?$~third-party
 @@||naver.net/wcslog.js$domain=fragpunk.com|m.tv.naver.com
 @@||nbcudigitaladops.com/hosted/pubads.js$script,domain=nbc.com
 @@||nbcume.sc.omtrdc.net/id?d_visid_ver=$domain=nbcdfw.com,important
@@ -17449,7 +17450,7 @@ akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,syracuse.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,sporcle.com,syracuse.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -244936,6 +244937,7 @@ zzzyk.com###Tinfo
 ||an.yandex.ru/count/
 ||an.yandex.ru^
 ||an.yesnetwork.com^
+||an9ynwsct.com^
 ||ana*.inews24.com^
 ||ana.3751chat.com^
 ||ana.bandi.so^
@@ -253005,6 +253007,7 @@ zzzyk.com###Tinfo
 ||birthdaybelief.com^
 ||bis.org/metrics/web.gif?
 ||bis8j.com^
+||biscuitbox.net^
 ||biscuits.tlmq.fr^
 ||bisko.mall.tv^
 ||bismetrics.experian.com^
@@ -288985,6 +288988,7 @@ zzzyk.com###Tinfo
 ||histats.com^$third-party
 ||histock.tw/ad/
 ||historicalbeam.com^
+||history.com/editorial/vendor/adobe/
 ||historyfiesta.com^
 ||historytrade.com^
 ||hit-360.com^$third-party
@@ -299792,7 +299796,7 @@ zzzyk.com###Tinfo
 ||live2support.com^*/js_lstrk.
 ||live800.com^$third-party
 ||liveany.com/images/8d8d.gif
-||liveball.sx/albert
+||liveball.*/albert
 ||liveblog.pro/api/analytics/hit
 ||livechatinc.com^*/control.cgi?
 ||livecounter.dk^$third-party
@@ -313820,6 +313824,7 @@ zzzyk.com###Tinfo
 ||milk.yesky.com.cn^
 ||milkenfr.com^
 ||mill-all.actonservice.com^
+||millhouses.com^
 ||milligazete.com.tr/stats^
 ||millioncounter.com^$third-party
 ||millswell.com^
@@ -313910,6 +313915,7 @@ zzzyk.com###Tinfo
 ||misst.mibiota.de^
 ||missvent.com^
 ||missyuan.com/sy/
+||mistertees.net^
 ||mistervillas.com^
 ||misto.zp.ua/img/reiting_$third-party
 ||mistral.ai/api/trpc/event.sendEventToDatalake?
@@ -316346,6 +316352,7 @@ zzzyk.com###Tinfo
 ||neolit.cn^
 ||neon-lab.com/neonbctracker.js
 ||neoncsr21.net.anwalt.de^
+||neonsites.com^
 ||neos.lasentradas.com.ec^
 ||neos.masterads.pro^
 ||neos.wibbaybo.com^
@@ -327744,6 +327751,7 @@ zzzyk.com###Tinfo
 ||rma.homedepot.com^
 ||rmbehm.junjewelry.com^
 ||rmc-cx.api.rakuten.co.jp/*/web/events|
+||rmc-cx.api.rakuten.co.jp/v3/web/events
 ||rmcje.remedymeds.com^
 ||rmdvca.belvilla.de^
 ||rmfah.guudies.co^
@@ -367095,6 +367103,7 @@ zzzyk.com###Tinfo
 ||think.ing.com/ajax/ajax_cookie_consent$~third-party,xmlhttprequest
 ||think.lavidahomes.com.au^
 ||think.phdinc.com^
+||thinkingdata.cn^
 ||thinkitten.com^
 ||thinkitwice.com^
 ||thinkmd.cn^
@@ -381666,7 +381675,6 @@ zzzyk.com###Tinfo
 ||www.hey.lt^$third-party
 ||www.hims1nice.com^
 ||www.hiss3lark.com^
-||www.history.com/editorial/vendor/
 ||www.hiweha.com^
 ||www.hlgglm.com^
 ||www.hook6vein.com^
@@ -384256,7 +384264,6 @@ zzzyk.com###Tinfo
 ||youdao.com/tl?
 ||youdao.com/www/banner.html
 ||youdo.com^$cookie=/^_utm_/
-||youdo.com^$cookie=/id/
 ||youfap.me/Webservices/jsParseLinks.aspx$script,third-party
 ||youfap.me/visitScript/$script,third-party
 ||youivr.com/image/*-960x80
