@@ -1,4 +1,4 @@
-# Update time: 2026-08-29 05:39:40
+# Update time: 2026-08-29 13:17:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -197,7 +197,6 @@ advertisers.js|
 ||tracker*.qcloud.com^
 ||adwords*.*^
 ||us.*.qwadro.com^
-||iad-*.braze.com^
 ||tnc16-*.byteoversea.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
@@ -214,6 +213,7 @@ advertisers.js|
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
+||ysdm*.ys137.com.cn^
 ||lt*.tritondigital.com^
 ||api-*.hismarttv.com^
 ||eflbundles.*.com.tr^
@@ -396,6 +396,7 @@ advertisers.js|
 ||browser-intake-*-datadoghq.com^
 ||get*bannerads-6egeg2u34q-du.a.run.app^
 ||collector-*.px-cdn.net^
+||ulog*.gifshow.com^
 ||adapi*.boomplaymusic.com^
 ||ads*.zijieapi.com^
 ||host*.polaroid.com^
@@ -449,6 +450,7 @@ advertisers.js|
 ||fra-*.braze.eu^
 ||mssdk*.capcutapi.com^
 ||t*.zcvh.net^
+||ulog*.kwai-pro.com^
 ||res*.pinpai8.cn^
 ||zcchyw*.xyz^
 ||cdn-*.gravityfield.ai^
@@ -483,6 +485,7 @@ advertisers.js|
 ||fp-*it*.fengkongcloud.com^
 ||aj3*.bid^
 ||host*.rvshare.com^
+||ulog*.kwaipros.com^
 ||log*-*.tiktokv.com^
 ||zbc6hye*.xyz^
 ||logs-*.rebxgame.com^
@@ -505,6 +508,8 @@ advertisers.js|
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
 ||aan.amazon.*^
+||ya*.dwstatic.com^
+||iad-*.braze.com^
 ||track-*.hungrypanda.co^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
@@ -531,17 +536,13 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
-||rgfftupf.
 ||adservice.google.
-||counter*.stat.ovh^
 |load.sst.
-||ads.livetv*.me^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
-||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
 ||partner.superbahisaffiliates*.com^
@@ -592,7 +593,6 @@ analytics-*.aasaam.com
 ||weblogger-wss.cool*cloud.com^
 ||track.zalando.
 ||seller-log-collector.shopee.
-||advert*.livesportmedia.eu^
 ||subnewss*.net^
 ||t.delfi.
 ||hostingcloud.*.wasm^
@@ -618,14 +618,12 @@ analytics-*.aasaam.com
 |piwik.
 ||letssex.
 ||production-adserver-*.amazonaws.com^
-||ad-host-backup-*.aliyuncs.com^
 ||cl*.k5a.io^
 ||analytics.ahrefs.
 ||s*.adduplex.com^
 ||util-*.simply-hentai.com^
 ||adserver1.
 ||ad*.mellesleg.hu^
-||rtb-*.anysex.com^
 ||countly-
 ||countly.
 ||backstory.ebay.
@@ -642,7 +640,6 @@ analytics-*.aasaam.com
 ||121.204.246.*.gif
 ||button.blogs.yandex.
 ||buzzer.xhamster*
-||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||rum*.a.trbcdn.net^
 ||analytics-api.dvdfab.
@@ -660,11 +657,9 @@ analytics-*.aasaam.com
 ||www.fuze-sea*.xyz^
 ||metrics*.fitanalytics.com^
 ||edgetrksvc.ebay.
-||ulog*.gifshow.com^
 ||eclog*-*.cafe24.com^
 ||s*.skencituer.com^
 ||underclick.
-||advertising.civitai.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
 ||cnt.hd21.
@@ -692,7 +687,6 @@ analytics-*.aasaam.com
 ||st-n.ads*-adnow.com^
 ||logws*.ati-host.net^
 ||cnt.winporn.
-||ulog*.kwai-pro.com^
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
 ||matomo-demo-*.amazonaws.com^
@@ -707,13 +701,11 @@ analytics-*.aasaam.com
 ||analytics.vgtimes.
 ||cnt.proporn.
 ||popuptraf.
-||ulog*.kwaipros.com^
 ||events-*.op.hicloud.com^
 ||vst.videolink.
 |load.gtm.
 ||stats*.videonow.ru^
 ||pixel.archive.
-||reachableads-av.*.amazonaws.com^
 ||ad*.thisisgame.com^
 ||q*-publick.club^
 ||iad-*.appboy.com^
@@ -723,7 +715,6 @@ analytics-*.aasaam.com
 |a.klaviyo.com^
 ||ad.*.doubleclick.net^
 ||snowplow-collector-*.amazonaws.com^
-||ya*.dwstatic.com^
 ||ms*.applvn.com^
 ||thegreatesthits.
 ||sgtm.wimdu.
@@ -741,15 +732,24 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
+||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
-||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
-||158.247.208.
 ||23.109.82.
+||ad-host-backup-*.aliyuncs.com^
+||fapnado.*.php|
+||itechpost.com*adbk
+||rgfftupf.
+@@||cdn*.porn300.com^
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||158.247.208.
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
 ||142.91.159.
 |167.206.10.148^
-||fapnado.*.php|
+||rtb-*.anysex.com^
 ||23.109.87.
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
+||fxhpaoxqyajvmdg.
+||advertising.civitai.
 Banner468x60
