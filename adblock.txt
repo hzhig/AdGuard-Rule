@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-01 02:48:27(GMT+8) 
-! Total count: 386294
+! ! Version: 2026-09-01 11:43:49(GMT+8) 
+! Total count: 386310
  
 ###ADtip
 ###Ad_windows
@@ -236762,6 +236762,8 @@ zzzyk.com###Tinfo
 ||a*.pr-cy.ru/stat/
 ||a*.smlog.co.kr^
 ||a-api.skz.dev^
+||a-bly.com^$cookie=AMP_
+||a-bly.com^$cookie=device-id
 ||a-calc.de^$third-party
 ||a-cast.jp^$third-party
 ||a-cdn.anthropic.com/analytics.js/*/analytics.min.js
@@ -247066,6 +247068,8 @@ zzzyk.com###Tinfo
 ||api.36dfsa.com^
 ||api.4lapy.ru/api/v*/events/
 ||api.5starclinicltd.com^
+||api.a-bly.com/api/*/ad/events/
+||api.a-bly.com/api/*/retail_ad/display-event
 ||api.a-kasse-guiden.dk^
 ||api.aagigastronomia.com.br^
 ||api.abcsinsights.com^
@@ -254387,6 +254391,7 @@ zzzyk.com###Tinfo
 ||btloader.com/tag?$redirect=noopjs,domain=voici.fr
 ||btloader.com^
 ||btm.breakthroughmaths.co.uk^
+||btm9uso7t.com^
 ||btmao.cc/Public/yd/
 ||btmean.cardosystems.com^
 ||btmessage.com^$third-party
@@ -256880,6 +256885,7 @@ zzzyk.com###Tinfo
 ||cdndm5.com/*/default/js/ad_
 ||cdndm5.com^*/ad_360_
 ||cdnen.rt.com/static/js/libs/counters.js
+||cdnet.nasmob.com^
 ||cdnhorizon.nnmtools.com^
 ||cdnhst.xyz^
 ||cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.1.0/fingerprint2.js$script,redirect=fingerprintjs2,domain=picoworkers.com,important
@@ -287621,6 +287627,9 @@ zzzyk.com###Tinfo
 ||guardedschool.com^
 ||guardian-app.hotdoc.com.au^
 ||guardiancu.actonservice.com^
+||guazimanhua.com/assets/ad/
+||guazimanhua.com/assets/metrics/
+||guazimanhua.com/assets/reader/mobile*-ad.js
 ||gubagoo.com/modules/tracking/
 ||gubagoo.io/c/$image
 ||gubgonx.cn^
@@ -288009,6 +288018,7 @@ zzzyk.com###Tinfo
 ||hackhome.com/js/zt.js
 ||hackhw.com/ckjs/
 ||hackp.com/im/
+||hacksaw37.com^
 ||hacksplaining.com/track
 ||hacx60.com^
 ||haddock.jeffreyknox.dev^
@@ -294461,7 +294471,6 @@ zzzyk.com###Tinfo
 ||iwoihuemn.com^
 ||iwpkhm.re-store.ru^
 ||iwpneu.eneba.com^
-||iws2.io.naver.com^
 ||iwstats.com^$third-party
 ||iwtawq.priscaj.com^
 ||iwwqqy.motorsweden.se^
@@ -316373,6 +316382,7 @@ zzzyk.com###Tinfo
 ||neghes.fun^
 ||nehalist.io^
 ||nehcj.tryprodenta.com^
+||nehpjdjqbafnvm.com^
 ||neighborlywatch.com^
 ||neighbourly.co.nz/event-tracking
 ||neihhou.com^
@@ -319711,6 +319721,7 @@ zzzyk.com###Tinfo
 ||oqvodgp36.com^
 ||oqyiapj.cn^
 ||or.ornobd.com^
+||or6p0f4i8.com^
 ||ora.tv/j/ora_evttracking.js
 ||oracle-netsuite-com-796203850.p04.elqsandbox.com^
 ||oracle.allbirds.be^
@@ -323399,6 +323410,7 @@ zzzyk.com###Tinfo
 ||potatoinvention.com^
 ||potensic.com/npublic/libs/widget/sensors/
 ||potentialanalyse.aec-disc.de^
+||potentmagic.com^
 ||potixulert.c-stickers.fr^
 ||potsdamer-stadtplan.com/t.gif
 ||povtbi.automovilesalhambra.es^
@@ -323945,6 +323957,7 @@ zzzyk.com###Tinfo
 ||processusmetier.ricoh.fr^
 ||processusmetiers.ricoh.fr^
 ||proclivitysystems.com^$third-party
+||procollecting.com^
 ||procroanalytics.com^
 ||procurement.cipscomms.org^
 ||prod-analytics.royal.drmgms.com^
@@ -330021,6 +330034,7 @@ zzzyk.com###Tinfo
 ||sadbmetrics.xlsemanal.com^
 ||sadbmetrics.xn--futuroenespaol-1nb.es^
 ||sadbmetrics.zendalibros.com^
+||saddlebag32.com^
 ||sadjh.fhiheat.com^
 ||sadloaf.com^
 ||sadnm.savagerace.com^
@@ -359847,6 +359861,7 @@ zzzyk.com###Tinfo
 ||static.crunchyroll.com/analytics/
 ||static.danawa.com/globaljs/static/Insight_WebAnalytics_
 ||static.danawa.com/globaljs/static/bdl/dsac.min.js
+||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
 ||static.danawa.com/globaljs/static/logger_Insight_WebAnalytics.js
 ||static.danawa.com/globaljs/static/logger_Insight_WebAnalytics_mobile.js
 ||static.danawa.com/globaljs/static/logger_trackEvent.js
@@ -360022,7 +360037,6 @@ zzzyk.com###Tinfo
 ||statistics.aldi-international.com/consent/collect
 ||statistics.aldi-international.com/ppms.js
 ||statistics.bergland.de^
-||statistics.crowdynews.com^
 ||statistics.csob.cz^
 ||statistics.daktilo.com^
 ||statistics.darkreader.app^
@@ -375476,6 +375490,7 @@ zzzyk.com###Tinfo
 ||udzsgk.myclassico.com^
 ||udzucw.haggar.com^
 ||ue.17173cdn.com/a/www/index/*/js/seed.js
+||ue.a-bly.com^
 ||ue.flipboard.com^
 ||ue.kicker.de^
 ||ue8im.com^
@@ -382445,6 +382460,7 @@ zzzyk.com###Tinfo
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
 ||wx.uc.downcdn.top^
+||wx33a.com^
 ||wx6hczwhh.com^
 ||wxaaqr.plusdental.de^
 ||wxbaal.ecosa.com.hk^
