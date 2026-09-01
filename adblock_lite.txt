@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-01 11:43:49(GMT+8) 
-! Total count: 32768
+! ! Version: 2026-09-02 00:06:37(GMT+8) 
+! Total count: 32778
  
 ###ADtip
 ###Ad_windows
@@ -25,6 +25,7 @@
 ###\31 x1_container.float-banner-footer
 ###__ads_dp
 ###__long_gg_container
+###__nuxt > div > .footer
 ###aafoot.top_box
 ###aafoot[class^="top_box"]
 ###aaheadtop
@@ -655,6 +656,8 @@
 ##.jtAms_container > .count_a
 ##.ka-flo
 ##.kjk-flo
+##.kkb-href
+##.kkm-href
 ##.ksads
 ##.kuandu > .bottommob
 ##.leftadv
@@ -17361,6 +17364,7 @@ zzzyk.com###Tinfo
 ||6k2fehacp.com^
 ||6knlhnjfv.com^
 ||6kpudsordv.com^
+||6lcb0f6wt.com^
 ||6likosy.com^$domain=pronpic.org
 ||6lpm5zq6t3.com^
 ||6mdf9teiz.com^
@@ -17513,6 +17517,7 @@ zzzyk.com###Tinfo
 ||7na721c64.com^
 ||7nb71ub2xi.com^
 ||7p5ruxflv0.com^
+||7pe17z68y.com^
 ||7q2701vx8e.com^
 ||7qkm33t55.com^
 ||7qo2met.com^
@@ -17844,6 +17849,7 @@ zzzyk.com###Tinfo
 ||9tata.com/js/pbanner.js
 ||9tata.com/js/topxia.js
 ||9tata.com/js/www.js
+||9tlfy3rrh.com^
 ||9tour.cn/x2/images/czmf.jpg
 ||9txnu9rlmd.com^
 ||9v7sbm9zc.com^
@@ -19422,6 +19428,7 @@ zzzyk.com###Tinfo
 ||bjcathay.com/s?z=
 ||bjfsk.xyz^
 ||bjhockey.org/public/pc/video/test.mp4
+||bjj02sf4c.com^
 ||bjk08210ip.com^
 ||bjk08211ip.com^
 ||bjk08220ip.com^
@@ -24697,6 +24704,7 @@ zzzyk.com###Tinfo
 ||jzjxmj.com^
 ||jzxpxj.xyz^
 ||k06kldksi3.com^
+||k0b9nwt6d.com^
 ||k0jw6qzyh.com^
 ||k0tdrkbhx.com^
 ||k0winsnua2.com^
@@ -25101,6 +25109,7 @@ zzzyk.com###Tinfo
 ||l6906qxga.com^
 ||l6h17ybxe.com^
 ||l80ays.com^
+||l8opsdgim.com^
 ||l9moubljmc.com^
 ||l9qxrmda6.com^
 ||laawmmy.cn^
@@ -26643,7 +26652,6 @@ zzzyk.com###Tinfo
 ||nohcff.xyz^
 ||nongjitong.com/adm/
 ||norma-external-collect.meizu.com^
-||norse.mingxiaow.com^
 ||northcookie.xyz^
 ||notes-analytics-events.apple.com^
 ||noticiasurgente.in/embed/p2/Controller/DesktopViewControladorMicki.js$script,domain=megatorrentshd.com
@@ -31235,6 +31243,7 @@ zzzyk.com###Tinfo
 ||xcar.com.cn/bbs/adfocus.js
 ||xcar.com.cn/dsp/ad
 ||xccadc.com^
+||xcdacc.com^
 ||xcf-bd-js.chuimg.com^
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/
@@ -31629,6 +31638,7 @@ zzzyk.com###Tinfo
 ||xvideo.cc/etology2.js
 ||xvideo.cc/im4.js
 ||xvideo.cc/wefong2.js
+||xwafyzovqu.icu^
 ||xwbspx.xyz^
 ||xwcm.net/caches/ahm.
 ||xwdsp.com^
