@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-02 00:06:37(GMT+8) 
-! Total count: 32778
+! ! Version: 2026-09-02 11:02:33(GMT+8) 
+! Total count: 32787
  
 ###ADtip
 ###Ad_windows
@@ -12886,6 +12886,8 @@ pcstore.com.tw##.priority_ad
 pcstore.com.tw##div[class^="ad388zone"]
 pcworks.cn##.md-show
 pcworks.cn##.xintheme-ad
+peachring.com#%#//scriptlet('prevent-navigation', '/popunder')
+peachring.com#%#//scriptlet('remove-class', 'hv-pending', 'html')
 pebx.pl#@#.adsbygoogle
 peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/attachment/portal/"]
 pencurimovie.cc###simplemodal-container
@@ -16875,6 +16877,7 @@ zzzyk.com###Tinfo
 ||3t769up6.com^
 ||3v7c7y.online^
 ||3vnofjidlv.com^
+||3vvuu0z8ui.com^
 ||3wk.cc/images/*.gif
 ||3wzq2yxde.com^
 ||3x1ry6we9.com^
@@ -21383,6 +21386,7 @@ zzzyk.com###Tinfo
 ||dykeep.com^
 ||dykshao.cn/image/$third-party
 ||dymmt.com/skin/mzitu/js/foot.
+||dynamo57.com^
 ||dyo.gs/Webservices/jsParseLinks.aspx$script,third-party
 ||dyo.gs/visitScript/$script,third-party
 ||dytt.com/oj.js
@@ -21800,6 +21804,7 @@ zzzyk.com###Tinfo
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
 ||eyzerannl.com^
+||ez2q38b1ik.com^
 ||ezcl19vy10.com^
 ||ezd6n7n4m7.com^
 ||ezlgszdb.icu^
@@ -25263,6 +25268,7 @@ zzzyk.com###Tinfo
 ||lgygy.cn^
 ||lh168.net^*/attachment/portal/
 ||lh1dki82.com^
+||lhdkvvfmydrvhs.com^
 ||lhdlbp.xyz^
 ||lhgwcvw.cn^
 ||lhgzfet8n.com^
@@ -25457,6 +25463,7 @@ zzzyk.com###Tinfo
 ||localau.vip/plugin/pause.php
 ||localau.vip/plugin/show.php
 ||localau.vip/tccenter/ad/
+||locknut29.com^
 ||lodipq3zb.com^
 ||lofter.com/blogPhotoAd?
 ||lofter.com/mailEntry.do?blogad
@@ -25989,6 +25996,7 @@ zzzyk.com###Tinfo
 ||mhukzoikt.com^
 ||mhysbwo.xyz^
 ||mi.gdt.qq.com^
+||mi1pbnrk8d.com^
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
 ||miaoshangmanhua.com/template/pc/skin01/images/250_250.
@@ -27207,6 +27215,7 @@ zzzyk.com###Tinfo
 ||pdxdxl.xyz^
 ||pdxubxc.cn^
 ||pdzzjz.icu^
+||peachring.com/new-page/js/human-verify.js$script
 ||pealefe.com^
 ||pebfvv.icu^
 ||peculiar93.top^
