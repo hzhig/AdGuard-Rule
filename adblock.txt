@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-02 11:02:33(GMT+8) 
-! Total count: 386343
+! ! Version: 2026-09-03 00:00:32(GMT+8) 
+! Total count: 386369
  
 ###ADtip
 ###Ad_windows
@@ -25,7 +25,7 @@
 ###\31 x1_container.float-banner-footer
 ###__ads_dp
 ###__long_gg_container
-###__nuxt > div > .footer
+###__nuxt > div > .footer > .floatWindow + div:not([class]):not([id])
 ###aafoot.top_box
 ###aafoot[class^="top_box"]
 ###aaheadtop
@@ -864,6 +864,7 @@
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
 ##.video-player > .gg-bg-cover
+##.videoPlayContainer > div#video-play + div[data-nosnippet]
 ##.video_details > .banner
 ##.vodads
 ##.vp-project-home > .ads-container
@@ -1561,6 +1562,7 @@
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##html.wap [style='left: 40%;']
+##html[lang="zh-cn"] > body  > header.Mobile-Header + main > div[id][class]
 ##iframe.ad-frame
 ##iframe[src*=".xxmh"][src*="?u="]
 ##img#GGADIMG
@@ -2759,6 +2761,7 @@ $websocket,domain=wap.yushuwu.cloud
 .ru/ads/
 .ru/stat/?c=$domain=ucoz.net
 .s-pt.jp/mail/info/*/img/_.gif
+.samsung.net/mail/*/status/update?$image
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/$image
 .sendemail.gate.io/o/$image
@@ -4957,6 +4960,7 @@ $websocket,domain=wap.yushuwu.cloud
 /imp_cnt.gif?
 /imp_img.php?
 /impb?b=
+/impr-trck?
 /impr.gif?
 /impresion/zona/*
 /impress.php?
@@ -5960,6 +5964,7 @@ $websocket,domain=wap.yushuwu.cloud
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
+/prgr-trk?
 /prime-email-metrics/*$image
 /printpixel.js
 /printtracker.js
@@ -11527,7 +11532,6 @@ $websocket,domain=wap.yushuwu.cloud
 91porna.com,evgpopxb.cc##.dx-banner-item
 91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com###playerJsvLayer.jsv-layer
-91porny.com###video-play + div[data-nosnippet]
 91porny.com##.alert
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
@@ -12575,6 +12579,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||api.cxense.com/public/widget/data?json=$domain=journaldequebec.com
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=milenio.com
+@@||api.cxense.com/public/widget/data?json=$domain=nikkansports.com
 @@||api.cxense.com/public/widget/data?json=$domain=onetz.de
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
 @@||api.cxense.com/public/widget/data?json=$domain=s.response.jp
@@ -12951,6 +12956,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.cxense.com/cx.cce.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.cce.js$domain=lopinion.fr
 @@||cdn.cxense.com/cx.cce.js$domain=milenio.com
+@@||cdn.cxense.com/cx.cce.js$domain=nikkansports.com
 @@||cdn.cxense.com/cx.cce.js$domain=president.jp
 @@||cdn.cxense.com/cx.cce.js$domain=tvnet.lv
 @@||cdn.cxense.com/cx.cce.js$domain=wsj.com
@@ -13359,7 +13365,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||custhelp.com/owda/*/Tealeaf.js$domain=custhelp.com
 @@||custojusto.pt/smarttag.js
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cxense.com/cx.cce.js$domain=tarzanweb.jp
 @@||cxense.com/cx.cce.js$domain=tn.com.ar
 @@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
@@ -13371,7 +13377,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cxense.com/cx.js$script,domain=tv-tokyo.co.jp
 @@||cxense.com/document/search?
 @@||cxense.com/persisted/execute$domain=nippon.com
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cxense.com^$domain=ikea.com
 @@||cxense.com^$domain=thelocal.fr
 @@||cxpublic.com/ToyoKeizai.js$domain=str.toyokeizai.net
@@ -14137,7 +14143,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|wps.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|gamelog.apexlegends-leaksnews.com|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|wps.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
@@ -14147,6 +14153,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtag/js$domain=dholic.co.jp
 @@||googletagmanager.com/gtag/js$domain=dizzylab.net
 @@||googletagmanager.com/gtag/js$domain=duplichecker.com
+@@||googletagmanager.com/gtag/js$domain=gamelog.apexlegends-leaksnews.com
 @@||googletagmanager.com/gtag/js$domain=go.epageview.com
 @@||googletagmanager.com/gtag/js$domain=hancomdocs.com
 @@||googletagmanager.com/gtag/js$domain=hitta.se
@@ -15865,6 +15872,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||redirect.appmetrica.yandex.com^
 @@||redirect.appmetrica.yandex.net^
 @@||regapi.37.com/api/p_register.php?login_account=
+@@||regatta.com/gtg/gtm.js$~third-party
 @@||registro.pse.com.co/PSENF/assets/js/fingerprint.min.js$script,domain=registro.pse.com.co
 @@||relevant-digital.com^$script,domain=20min.ch
 @@||remodelista.com/media/js/libs/ga_social_tracking.js
@@ -16261,7 +16269,9 @@ $websocket,domain=wap.yushuwu.cloud
 @@||sssbozh.com^$generichide
 @@||sstats.bitdefender.com^$~third-party
 @@||sstats.omahasteaks.com/b/ss/
+@@||st-*.dynamicyield.com/spa/json?sec=$domain=platekompaniet.no
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
+@@||st-*.dynamicyield.com/st?sec=$domain=platekompaniet.no
 @@||st-eu.dynamicyield.com/st$domain=amorelie.de
 @@||st-eu.dynamicyield.com/st?sec=$domain=adlibris.com
 @@||st-eu.dynamicyield.com/st?sec=$domain=gigasport.at|gigasport.de|gigasport.ch
@@ -17480,7 +17490,7 @@ alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alientube.co###adblockContainer
 aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'OfflineAudioContext', 'undefined')
-aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'navigator.bluetooth', 'undefined')! url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'navigator.bluetooth', 'undefined')
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alipay.com###J-cooperant-banner
@@ -17629,7 +17639,7 @@ apkmirror.com##script:contains(canRunAds = false)
 apkmirror.com#@#.adsbygoogle
 apkpure.*#%#//scriptlet('set-constant', '$$.analytics', 'emptyObj')
 apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
-apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
+apkpure.com#%#//scriptlet('remove-node-text', 'script', '/__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
 apowersoft.cn##.activity-poster
@@ -17798,7 +17808,7 @@ atyun.com###r_banner > ul > li > a[href^="http"]:not([href*="atyun."])
 atyun.com##.coupletbox
 audio.avadacom.com$image
 audiobb.com##.sidebar > #custom_html-4
-augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
+augsburger-allgemeine.de##div[id^="cx_"]
 aura.cn##.foot-xcx
 aura.cn##.left-zc
 aura.cn##.suspension
@@ -217142,6 +217152,8 @@ kaka12345.cc###main
 kalvin.cn##.fell_advertisement_box
 kanaloco.jp##.tab_wrap:has(> #recomm_tab1)
 kanav.ad##div[class^="img-ad"]
+kanju.ai##.movie-player-info-ad-grid
+kanju.ai##.movie-player-info-ad-heading
 kankan.com###adv_box
 kankan.com###modal-adv
 kankan.com##.tuiguang_position
@@ -221748,6 +221760,7 @@ member.neofinancial.com#%#//scriptlet('set-constant', '__fpjs_p_l_b', 'emptyObj'
 member.neofinancial.com#%#//scriptlet('set-constant', '__fpjs_p_l_b.load', 'noopFunc')
 memes.tw##.nice-box
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
+mensjournal.com#%#//scriptlet('ubo-json-edit', '..props.children.*[?.key=="admiral-script"]')
 mercedesclub.cz#@#.reklama
 meritgiftcards.shopmygiftcards.com$image
 mesddl.cc###cboxContent
@@ -234654,6 +234667,7 @@ zzzyk.com###Tinfo
 ||11959579.fun.joyrun.com^
 ||119xiazai.com^$subdocument
 ||11b6n4ty2x3.taxliencode.com^
+||11fkkw8h3i.com^
 ||11img.com/ad/
 ||11jianzhan.com^
 ||11kkzz.com/se/wf/
@@ -236519,6 +236533,7 @@ zzzyk.com###Tinfo
 ||8p814q01np.com^
 ||8pbiddjtp.com^
 ||8pjqjxmr.com^
+||8poz7uwoho.com^
 ||8proe3xx6.com^
 ||8qfqhat9d.com^
 ||8rht5welv5.com^
@@ -247017,6 +247032,7 @@ zzzyk.com###Tinfo
 ||api-analytics.prod.birdapp.com^
 ||api-analytics.rozetka.com.ua^
 ||api-cf.affirm.com/api/v*/session/touch_track
+||api-common.tinkoff.ru/front-logs/
 ||api-developer.sephora.com/v1/sot/evt?$ping
 ||api-developer.sephora.com/v1/sot/evtTopic?$ping
 ||api-esp.piano.io/onsite/recdata/id/
@@ -248423,6 +248439,7 @@ zzzyk.com###Tinfo
 ||apk.tw/static/js/showpic.js
 ||apkonline.ru^$third-party
 ||apkpure.com/api/v1/get-withdraw-count
+||apkpure.com/static-2/assets/js/prebid
 ||apkpure.com/static/script/device-*-min.js
 ||apkpure.com^$cookie=_qimei
 ||apl.roskomsvoboda.org/js/script.js
@@ -258171,6 +258188,7 @@ zzzyk.com###Tinfo
 ||clientlog.music.163.com^
 ||clientlog.perfectworldgames.com^
 ||clientlog.pwsdk.com^
+||clientlog.wanmei.com^
 ||clientlog3.music.163.com^
 ||clientlogdep.music.163.com^
 ||clientlogger.marketplace.aws.a2z.com^
@@ -293954,7 +293972,8 @@ zzzyk.com###Tinfo
 ||ipcc.vnpt.com.vn^
 ||ipcd-ts.optimizate.com^
 ||ipcfgw.pieces.com^
-||ipcheck.blogsys.jp^
+||ipcheck.blogsys.jp^$redirect=noopjs,script! url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+||ipcheck.blogsys.jp^$script,redirect=noopjs
 ||ipclt.pleasershoes.com^
 ||ipcount.net^$third-party
 ||ipcounter.de^$third-party
@@ -295330,6 +295349,7 @@ zzzyk.com###Tinfo
 ||jnros.fresh.com^
 ||jnsol.sokolovelaw.com^
 ||jnsoxa.fcmm.kr^
+||jnt.welt.de^
 ||jntmwrm.com^
 ||jnunn.alppouch.com^
 ||jnvfm.blackmagic.com^
@@ -296896,6 +296916,8 @@ zzzyk.com###Tinfo
 ||kl.klasselotteriet.dk^
 ||kl.yditweb.cn^
 ||kl91ccp.com^
+||klad.klerk.ru/a/click?page-url=
+||klad.klerk.ru/a/view?page-url=
 ||klandmart.com/K-Landmart_0011.jpg
 ||klangoo.com^$third-party
 ||klarinsights.net^
@@ -298769,6 +298791,7 @@ zzzyk.com###Tinfo
 ||lighthouse.edoinc.com^
 ||lighthouselabs.eu^$image
 ||lightminer.co^$third-party
+||lightning.cnn.com/analytics/
 ||lightning.ncaa.com/launch/$script
 ||lightstep.medium.systems^
 ||lightstep.medium.systems^*/reports
@@ -305980,6 +306003,7 @@ zzzyk.com###Tinfo
 ||loveshang.com/api.php?mod=ad&adid=custom_
 ||low-ya.com/duplicate-ga-cookie
 ||lowadec.cn^
+||lowendtalk.com/settings/analyticstick.json
 ||lowercases.com^
 ||lowermybills.actonsoftware.com^
 ||lowerthewatts.net^
@@ -316056,6 +316080,7 @@ zzzyk.com###Tinfo
 ||n730.timesunion.com^
 ||n74s9.com^$third-party
 ||n7fyrdeen.com^
+||n7hnij4fah.com^
 ||n818.timesherald.com^
 ||n8bpikx1mt.com^
 ||n8g1kvtmrf.com^
@@ -325926,6 +325951,7 @@ zzzyk.com###Tinfo
 ||qwpcoi.uaf.com.hk^
 ||qwrnkpow.com^
 ||qwsbegovo.top^
+||qwt9oyg741.com^
 ||qwtvtf.smiggle.co.nz^
 ||qwuylnl.com^
 ||qwwyf.extraholidays.com^
@@ -327023,6 +327049,7 @@ zzzyk.com###Tinfo
 ||rent.trs-rentelco.com^
 ||rental.skinnerudlejning.dk^
 ||rentinfinity.com^
+||rentinfrared.com^
 ||renting.aldautomotive.es^
 ||rentiyishu.org/*.js
 ||rentpenny.com^
@@ -359890,7 +359917,6 @@ zzzyk.com###Tinfo
 ||static.crunchyroll.com/analytics/
 ||static.danawa.com/globaljs/static/Insight_WebAnalytics_
 ||static.danawa.com/globaljs/static/bdl/dsac.min.js
-||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
 ||static.danawa.com/globaljs/static/logger_Insight_WebAnalytics.js
 ||static.danawa.com/globaljs/static/logger_Insight_WebAnalytics_mobile.js
 ||static.danawa.com/globaljs/static/logger_trackEvent.js

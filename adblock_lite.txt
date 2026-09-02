@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-02 11:02:33(GMT+8) 
-! Total count: 32787
+! ! Version: 2026-09-03 00:00:32(GMT+8) 
+! Total count: 32794
  
 ###ADtip
 ###Ad_windows
@@ -25,7 +25,7 @@
 ###\31 x1_container.float-banner-footer
 ###__ads_dp
 ###__long_gg_container
-###__nuxt > div > .footer
+###__nuxt > div > .footer > .floatWindow + div:not([class]):not([id])
 ###aafoot.top_box
 ###aafoot[class^="top_box"]
 ###aaheadtop
@@ -857,6 +857,7 @@
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
 ##.video-player > .gg-bg-cover
+##.videoPlayContainer > div#video-play + div[data-nosnippet]
 ##.video_details > .banner
 ##.vodads
 ##.vp-project-home > .ads-container
@@ -1547,6 +1548,7 @@
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##html.wap [style='left: 40%;']
+##html[lang="zh-cn"] > body  > header.Mobile-Header + main > div[id][class]
 ##iframe.ad-frame
 ##iframe[src*=".xxmh"][src*="?u="]
 ##img#GGADIMG
@@ -4203,7 +4205,6 @@ $websocket,domain=wap.yushuwu.cloud
 91porna.com,evgpopxb.cc##.dx-banner-item
 91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com###playerJsvLayer.jsv-layer
-91porny.com###video-play + div[data-nosnippet]
 91porny.com##.alert
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
@@ -11172,6 +11173,8 @@ kaitao.cn##a[href*="/a.php?id="]
 kaka12345.cc###main
 kalvin.cn##.fell_advertisement_box
 kanav.ad##div[class^="img-ad"]
+kanju.ai##.movie-player-info-ad-grid
+kanju.ai##.movie-player-info-ad-heading
 kankan.com###adv_box
 kankan.com###modal-adv
 kankan.com##.tuiguang_position
@@ -16243,6 +16246,7 @@ zzzyk.com###Tinfo
 ||116xs.com/js/backbone.js
 ||1188.com^$third-party
 ||119xiazai.com^$subdocument
+||11fkkw8h3i.com^
 ||11img.com/ad/
 ||11jianzhan.com^
 ||11kkzz.com/se/wf/
@@ -17653,6 +17657,7 @@ zzzyk.com###Tinfo
 ||8p814q01np.com^
 ||8pbiddjtp.com^
 ||8pjqjxmr.com^
+||8poz7uwoho.com^
 ||8proe3xx6.com^
 ||8qfqhat9d.com^
 ||8rht5welv5.com^
@@ -26389,6 +26394,7 @@ zzzyk.com###Tinfo
 ||n6pwo7whs2.com^
 ||n7181.com^
 ||n7fyrdeen.com^
+||n7hnij4fah.com^
 ||n8bpikx1mt.com^
 ||n8g1kvtmrf.com^
 ||n906n29tm.com^
@@ -27989,6 +27995,7 @@ zzzyk.com###Tinfo
 ||qwnzzp50x.com^
 ||qwrnkpow.com^
 ||qwsbegovo.top^
+||qwt9oyg741.com^
 ||qwuylnl.com^
 ||qxakzox.cn^
 ||qxaz2xcw.com^
