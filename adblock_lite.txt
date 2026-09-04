@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-04 11:04:01(GMT+8) 
-! Total count: 32786
+! ! Version: 2026-09-04 23:48:36(GMT+8) 
+! Total count: 32790
  
 ###ADtip
 ###Ad_windows
@@ -600,7 +600,6 @@
 ##.gpt_ads_box
 ##.gpt_ads_title
 ##.gr_slide_car_inner
-##.grid > .m0auto > div > .grid + div:not([class]):not([id])
 ##.guanggaoBox
 ##.guding312
 ##.guruin-ads
@@ -664,7 +663,6 @@
 ##.lol_ad
 ##.look_more_a[onclick^="open_app"]
 ##.lyzm-prevent
-##.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
 ##.m1938-container
 ##.m_hot_rec_box_base[id^="right"]
 ##.m_kxbtm_ad
@@ -1402,6 +1400,9 @@
 ##body > div[style=" max-width:990px; margin:0 auto;"] > a[target="_blank"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > embed[id][src*="://"][src$="="]
+##body > noscript + #root > div > div > .grid + div[role] + div
+##body > noscript + #root > div > div > .grid + div[role] + div + div
+##body > noscript + #root > div > div > .grid > .m0auto > div > div:last-child
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 ##body#nr_body #appss
 ##body#nr_body [onclick='goAppHtml();']
@@ -9114,6 +9115,7 @@ forum.hkgolden.com#?#body > div[class^="jss"]:has(> div[class][style^="transform
 forum.pac-rom.com#@#.banner_ads
 forum.thgtr.com##.block_uyari
 forumdz.com###breadcrumb + center > [color="red"] > b
+forums.digitalspy.com#@#body .has-ad
 forums.openpli.org###content > [style="text-align:center;"] > DIV[style="margin 0 auto;display:inline-block;width:728px; height:84px; border:1px solid #000000; text-align:center; font-family:century gothic, arial, helvetica, sans serif;padding:4px;font-weight:bold;"]
 forusex.com##a[href^="http://redheartnext.com"] > img
 fossbytes.com#@##adsense
@@ -16110,6 +16112,7 @@ zzzyk.com###Tinfo
 ||0vllsf2g2.com^
 ||0wk6gdkg8r.com^
 ||0wpfe0duo.com^
+||0x79jjyph7.com^
 ||0xr7ii3df.com^
 ||0xzxwnkqdu.com^
 ||0yfqg4qm0.com^
@@ -18856,6 +18859,7 @@ zzzyk.com###Tinfo
 ||avjj26.com/api/?d=pc&c=advert&
 ||avple.video/asset/bann.js
 ||avpr.cn^
+||avqb7vrufi.com^
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
@@ -29259,8 +29263,6 @@ zzzyk.com###Tinfo
 ||syzjxz2018.cn^
 ||sz2xlvu6jq.com^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
-||szaction.cc/public/*/assets/js/custom/tt.
-||szaction.cc/public/*/plugins/
 ||szafvjdd.icu^
 ||szbnb3wmaj.com^
 ||szdaqi88.com^
@@ -31184,6 +31186,7 @@ zzzyk.com###Tinfo
 ||wy7btl038.com^
 ||wydk6zdk2.com^
 ||wyfjagda.top^
+||wylct1tjdf.com^
 ||wyplmjufd.live^
 ||wyq3rum.icu^
 ||wyqaafplm.live^
@@ -31222,6 +31225,7 @@ zzzyk.com###Tinfo
 ||x5hnj21.com^
 ||x6d93mku0.com^
 ||x6img.com^$domain=picturedata.org
+||x6kd8l204b.com^
 ||x6u6kw4sg.com^
 ||x7qhjjryf1.com^
 ||x7weiubb2f.com^
