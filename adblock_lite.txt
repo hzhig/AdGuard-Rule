@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-03 23:50:17(GMT+8) 
-! Total count: 32781
+! ! Version: 2026-09-04 11:04:01(GMT+8) 
+! Total count: 32786
  
 ###ADtip
 ###Ad_windows
@@ -1380,6 +1380,7 @@
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
+##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 ##body > .app + #htmlContenthtml
 ##body > .dbfh
 ##body > .zdhf
@@ -20484,6 +20485,7 @@ zzzyk.com###Tinfo
 ||cpvx.cn^
 ||cpxzyul.com^
 ||cq2f5kn85c.top^
+||cq5nsp7kya.com^
 ||cqbuchouhua.com^
 ||cqoqpcc.icu^
 ||cqtlimi.cn^
@@ -23254,6 +23256,7 @@ zzzyk.com###Tinfo
 ||hjjwxb.icu^
 ||hjkhxfh.360doc.cn^
 ||hjkiguy.com^
+||hjlra23r7r.com^
 ||hjpqt.cn^
 ||hjtedf.xyz^
 ||hk-pub.com/forum/images/2009/gifbanner
@@ -26220,6 +26223,7 @@ zzzyk.com###Tinfo
 ||mttpsy6666.cc^
 ||mu6m1.com^
 ||muchenzhongguo.com^
+||mudguard68.com^
 ||mudroom.aquadisco.xyz^
 ||muhnbc.cn^
 ||mujkdna.xyz^
@@ -27140,6 +27144,7 @@ zzzyk.com###Tinfo
 ||patriotic66.top^
 ||pavdiibdvr.com^
 ||pavwrr.icu^
+||pavxtxikkjrdfy.com^
 ||payoneok.com^
 ||paywall.folha.uol.com.br^$domain=folha.uol.com.br
 ||pb.shuxigua.com^

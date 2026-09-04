@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-03 23:50:17(GMT+8) 
-! Total count: 386375
+! ! Version: 2026-09-04 11:04:01(GMT+8) 
+! Total count: 386384
  
 ###ADtip
 ###Ad_windows
@@ -1393,6 +1393,7 @@
 ##amp-embed[type="taboola"]
 ##body .has-ad
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
+##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 ##body > .app + #htmlContenthtml
 ##body > .dbfh
 ##body > .zdhf
@@ -259225,7 +259226,6 @@ zzzyk.com###Tinfo
 ||collector.megaxh.com^
 ||collector.moderntv.eu^
 ||collector.net-logger.com^
-||collector.orf.at^
 ||collector.pi.spectrum.net^
 ||collector.plarium.com^
 ||collector.pmc.com^
@@ -260710,6 +260710,7 @@ zzzyk.com###Tinfo
 ||cpzylv.jetcost.co.za^
 ||cq.hq1.influitive.com^
 ||cq2f5kn85c.top^
+||cq5nsp7kya.com^
 ||cqaipi.cristaiscadoro.com^
 ||cqbbpf.geewiz.co.za^
 ||cqbkhv.anacapri.com.br^
@@ -289192,6 +289193,7 @@ zzzyk.com###Tinfo
 ||hjjwxb.icu^
 ||hjkhxfh.360doc.cn^
 ||hjkiguy.com^
+||hjlra23r7r.com^
 ||hjnzt.skechers.com^
 ||hjpqt.cn^
 ||hjprq.larroude.com^
@@ -315393,6 +315395,7 @@ zzzyk.com###Tinfo
 ||mud4.destinia.com.eg^
 ||muddledaftermath.com^
 ||muddledmemory.com^
+||mudguard68.com^
 ||mudroom.aquadisco.xyz^
 ||muehldorf.patientenformular.info^
 ||mueoh.besynchro.com^
@@ -321517,6 +321520,7 @@ zzzyk.com###Tinfo
 ||pavlov-prod.healthline.com/api/metrics|
 ||pavoboxapp.com^
 ||pavwrr.icu^
+||pavxtxikkjrdfy.com^
 ||pawe.knecht-kellerbau.de^
 ||pawsnug.com^
 ||pawsplus.actonservice.com^
@@ -327992,6 +327996,7 @@ zzzyk.com###Tinfo
 ||robotsrefinery.com^
 ||rochelle.wantsext.me^
 ||rockagainst.com^
+||rockcarving.com^
 ||rocket.bubble.dk^
 ||rocket.ivi.ru/event
 ||rocket.ivi.ru/playback/event
@@ -328621,6 +328626,7 @@ zzzyk.com###Tinfo
 ||rubicon.wellsfargo.com^
 ||rubiconredirect.com^$third-party
 ||rubolite.ems-dental.com^
+||rubouthunger.com^
 ||rubrafoz.com^
 ||rubyswinehouse.com^
 ||rucksack85.top^
@@ -330147,6 +330153,7 @@ zzzyk.com###Tinfo
 ||saffronrefuge.com^
 ||safs.lilac.pk^
 ||sageanalyst.net^$third-party
+||sagetrack.net^
 ||sagetrc.com^$third-party
 ||sagor.aloha-jewelry.co^
 ||sagor.healthyeatsbd.com^
@@ -330551,6 +330558,7 @@ zzzyk.com###Tinfo
 ||sanders.sanderswellnesslayton.com^
 ||sandstrophies.com^
 ||sandypocket.com^
+||sandytaco.com^
 ||sange20221226.xyz^
 ||sangkf.otto.sk^
 ||sanity-dataplane.rudderstack.com^$third-party
@@ -331065,6 +331073,7 @@ zzzyk.com###Tinfo
 ||screechingstocking.com^
 ||screechingstove.com^
 ||screen13.com^$image
+||screenphotos.com^
 ||screenrant.com/strpixel.png
 ||screensaversplanet.com/js/analytics.js
 ||screenshare.pics^$all
