@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-04 23:48:36(GMT+8) 
-! Total count: 386403
+! ! Version: 2026-09-05 11:05:53(GMT+8) 
+! Total count: 386414
  
 ###ADtip
 ###Ad_windows
@@ -12553,6 +12553,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||api.cxense.com/public/widget/data?json=$domain=euractiv.com
 @@||api.cxense.com/public/widget/data?json=$domain=hochi.news
 @@||api.cxense.com/public/widget/data?json=$domain=i-voce.jp
+@@||api.cxense.com/public/widget/data?json=$domain=j-cast.com
 @@||api.cxense.com/public/widget/data?json=$domain=journaldemontreal.com
 @@||api.cxense.com/public/widget/data?json=$domain=journaldequebec.com
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
@@ -12931,6 +12932,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.cxense.com/cx.cce.js$domain=euractiv.com
 @@||cdn.cxense.com/cx.cce.js$domain=hochi.news
 @@||cdn.cxense.com/cx.cce.js$domain=i-voce.jp
+@@||cdn.cxense.com/cx.cce.js$domain=j-cast.com
 @@||cdn.cxense.com/cx.cce.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.cce.js$domain=lopinion.fr
 @@||cdn.cxense.com/cx.cce.js$domain=milenio.com
@@ -12954,6 +12956,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.cxense.com/cx.js$domain=hochi.news
 @@||cdn.cxense.com/cx.js$domain=i-voce.jp
 @@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
+@@||cdn.cxense.com/cx.js$domain=j-cast.com
 @@||cdn.cxense.com/cx.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
 @@||cdn.cxense.com/cx.js$domain=lopinion.fr
@@ -271407,6 +271410,7 @@ zzzyk.com###Tinfo
 ||e90m7tos2.com^
 ||e9377f.com^$redirect=noopmp3-0.1s,domain=eastday.com
 ||e993.wlky.com^
+||e9zrvermi.com^
 ||ea-mct-live.com/revsdk.kes.KinesisEvent/
 ||ea.armandthiery.fr^
 ||ea.assuronline.com^
@@ -296064,6 +296068,7 @@ zzzyk.com###Tinfo
 ||jxcn.cn/assets/images/downWeatherApp.png
 ||jxcn.cn/js/hotpic_
 ||jxcrnwc.xyz^
+||jxdbvmmau.com^
 ||jxdown.com/statics/js/all.js
 ||jxdown.com^$third-party
 ||jxdptu.jouete-online.com^
@@ -317806,6 +317811,7 @@ zzzyk.com###Tinfo
 ||nqozgp.botland.com.pl^
 ||nqqwth.pirktukas.lt^
 ||nqrgfw.maletia.com^
+||nqrsdhemqmfdry.com^
 ||nqsdpq.funiturs.com^
 ||nqsm.medicus.ca^
 ||nqumc.webinopoly.com^
@@ -345400,6 +345406,7 @@ zzzyk.com###Tinfo
 ||solicitor44.com^
 ||solicitud.pacifico.com.pe^
 ||solidcams.com/api/metrics
+||solidfiles.net^
 ||solidscape.actonservice.com^
 ||solidsub.com^
 ||solitaire47.com^
@@ -346252,6 +346259,7 @@ zzzyk.com###Tinfo
 ||speedcurve.com^$third-party
 ||speederproshop-ss.checkoutera.com^
 ||speedhq.net^$third-party
+||speedmethod.com^
 ||speednetwork14.com^
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
@@ -359604,6 +359612,7 @@ zzzyk.com###Tinfo
 ||startrekk.flaconi.pl^
 ||startrekk.flaconi.se^
 ||starttui.xyz^
+||starwinmedia.com^
 ||starzplay.com/resources/js/analytics.js
 ||stas.outbrain.com^
 ||staserv.csp.hugomattos.com^
@@ -361775,6 +361784,7 @@ zzzyk.com###Tinfo
 ||steampowered.com^$removeparam=snr
 ||steamprices.com/analytics^
 ||steel.newmill.com^
+||steelcasket.com^
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||steelhousemedia.com^$third-party
 ||steelmaiden.com^
@@ -372757,6 +372767,7 @@ zzzyk.com###Tinfo
 ||tracking.vismaspcs.se^
 ||tracking.vitalant.org^
 ||tracking.vitori.de^
+||tracking.vivareal.com.br^
 ||tracking.vivay.be^
 ||tracking.vodafone.co.uk^
 ||tracking.vodafone.com^
