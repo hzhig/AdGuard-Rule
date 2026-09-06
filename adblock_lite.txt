@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-06 11:05:45(GMT+8) 
-! Total count: 32804
+! ! Version: 2026-09-06 22:58:27(GMT+8) 
+! Total count: 32810
  
 ###ADtip
 ###Ad_windows
@@ -4905,6 +4905,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||ccm*.res.meizu.com/fileserver/operation/ad/img/*.png
 @@||cdn-msp*.18comic*.*^
 @@||cdn-msp*.18comic.*^
+@@||cdn.bootcdn.net/ajax/libs/$domain=aoi.hugemaker.com.cn
 @@||cdn.bootcdn.net^$script,domain=38kanshu.net
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=share1223.com
@@ -4920,6 +4921,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||cdn.sssam.com/static/js/*.js
+@@||cdn.staticfile.org^$domain=aoi.hugemaker.com.cn
 @@||cdn.staticfile.org^$domain=lakyworld.com|biquge77.net|yzbg.net|alexij.net|hshfm.com|biqiuge5.org|49gtk.cc|20me.net|fbqg.cc|xianguke.net|tellgillian.com|m-ia.net|cleavagecoverup.com|memduh.net|56xiaoshuo.net|yourbiquge.com|00ksw.com|147xiaoshuo.com|bxwx.live|lzbao.net
 @@||cdn.staticfile.org^$script,domain=movieffm.net
 @@||cdn.theguardian.tv/ad/*.m3u8$domain=theguardian.com
@@ -12913,8 +12915,9 @@ pincong.rocks##.aw-mod > a[target="_blank"]
 pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
+ping0.cc###adjright
+ping0.cc##.xeeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
-ping0.cc#?#div:has(>a>.tipbd)
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -16856,6 +16859,7 @@ zzzyk.com###Tinfo
 ||3s7m2ss7g.com^
 ||3sd6w6oga9.com^
 ||3sqvexc60y.com^
+||3t4j5adg9x.com^
 ||3t769up6.com^
 ||3v7c7y.online^
 ||3vnofjidlv.com^
@@ -21448,6 +21452,7 @@ zzzyk.com###Tinfo
 ||ea3w.com/pv.js
 ||ea5s00h6oo.com^
 ||eabids.com^
+||ead2qybt9e.com^
 ||eafyfsuh.net/Webservices/jsParseLinks.aspx$script,third-party
 ||eafyfsuh.net/visitScript/$script,third-party
 ||eagb.cn^
@@ -24660,6 +24665,7 @@ zzzyk.com###Tinfo
 ||jweoe.xyz^
 ||jwf8lxo7b.com^
 ||jwt18trhq.com^
+||jwxggyivum.icu^
 ||jwxwvjsoadjlze.com^
 ||jwylcrb.cn^
 ||jxad.jx163.com^
@@ -27343,7 +27349,7 @@ zzzyk.com###Tinfo
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
 ||pincers55.com^
-||ping0.cc/images/fx/*.gif
+||ping0.cc/images/gx/*.gif
 ||pinggu.org/api/bbsgg.
 ||pinglun11223.xyz^
 ||pingma.qq.com^
