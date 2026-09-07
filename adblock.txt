@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-07 11:03:23(GMT+8) 
-! Total count: 386445
+! ! Version: 2026-09-08 01:18:06(GMT+8) 
+! Total count: 386449
  
 ###ADtip
 ###Ad_windows
@@ -1350,6 +1350,7 @@
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href^="/ad.html?url="]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
+##a[href^="/api/hop/"] > img[src*=".xyz/m/"]
 ##a[href^="/api/jump/"] > img[src*=".xyz/m/"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ##a[href^="/dasp.php?a="]
@@ -2350,6 +2351,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cc/js/dj2*.js
 .cf/gif/impression?
 .cfd/$script,third-party,domain=twkan.com
+.cineflix.st/api/script.js|
 .cloud/ads/
 .cloudfront.net/br?tid=
 .club/ads/
@@ -3237,7 +3239,6 @@ $websocket,domain=wap.yushuwu.cloud
 /_i?type=event&
 /_lib/ga.js
 /_mzblank.gif?
-/_next/static/chunks/00zo5_naxp4vi.
 /_nostra/batch
 /_nostra/identity/*
 /_owa.gif?
@@ -12987,6 +12988,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.intellimize.co/snippet/$script,domain=talkspace.com
 @@||cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js$script
 @@||cdn.jsdelivr.net/npm/@thumbmarkjs/$domain=dienynas.tamo.lt
+@@||cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.umd.js$domain=archive.is
 @@||cdn.jsdelivr.net/npm/fingerprintjs2$domain=wannadep.com
 @@||cdn.jsdelivr.net^$script,domain=movieffm.net
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
@@ -13354,10 +13356,10 @@ $websocket,domain=wap.yushuwu.cloud
 @@||custhelp.com/owda/*/Tealeaf.js$domain=custhelp.com
 @@||custojusto.pt/smarttag.js
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|harpersbazaar.com|hochi.news|inquirer.com|j-cast.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cxense.com/cx.cce.js$domain=tarzanweb.jp
 @@||cxense.com/cx.cce.js$domain=tn.com.ar
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|harpersbazaar.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 @@||cxense.com/cx.js$domain=mainichi.jp
 @@||cxense.com/cx.js$domain=nlab.itmedia.co.jp
 @@||cxense.com/cx.js$domain=shueisha.co.jp
@@ -13366,7 +13368,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cxense.com/cx.js$script,domain=tv-tokyo.co.jp
 @@||cxense.com/document/search?
 @@||cxense.com/persisted/execute$domain=nippon.com
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|harpersbazaar.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cxense.com^$domain=ikea.com
 @@||cxense.com^$domain=thelocal.fr
 @@||cxpublic.com/ToyoKeizai.js$domain=str.toyokeizai.net
@@ -228134,6 +228136,7 @@ teledeporteonline.pw##[id^="total"]
 telegraph.co.uk##.more-stories
 telepolis.pl##DIV[style="width:750px; height:200px; background-color:black; color:white; text-align: center; font: bold 30px Helvetica, Arial, sans-serif;"]
 telex.hu#%#//scriptlet('set-constant', 'pp_gemius_hit', 'noopFunc')
+tellows.jp/ping.php?p=
 temail.22bet.com$image
 temail.realreviews.io$image
 template/m1938pc/ads/*.js
@@ -233735,6 +233738,7 @@ xiazaizhijia.com###public_right_mid_ad
 xiazaizhijia.com##.down_list
 xiebruce.top###ai_widget-2
 xiebruce.top#%#//scriptlet("prevent-addEventListener", "", "showRemoveAdBlocker")
+xifanacg.com##.head-more-a ~ .swiper-slide
 ximalaya.com##.change-logo.S_q,.packet-container._PC,.less-tips._PC *
 ximalaya.com##.dl-pc
 xineurope.com###qmenu_menu + .wp
@@ -234496,6 +234500,7 @@ zzzyk.com###Tinfo
 ||0qxfxqif0.com^
 ||0rvv7l6k7g.com^
 ||0s1wclct6.com^
+||0s5qb3rfz.com^
 ||0sbm.consobaby.co.uk^
 ||0sg1gx04is.com^
 ||0srhzn032t.kempfkuechen.de^
@@ -234663,7 +234668,6 @@ zzzyk.com###Tinfo
 ||11img.com/ad/
 ||11jianzhan.com^
 ||11kkzz.com/se/wf/
-||11nux.com^$third-party
 ||11rhol0ni.com^
 ||11st.co.kr/js/*/RakeData.js
 ||11st.co.kr/js/*/reviewLog.js
@@ -235032,7 +235036,6 @@ zzzyk.com###Tinfo
 ||2008mm.com^*.js
 ||2008xxx.com:888
 ||20091222.com^
-||200summit.com^$third-party
 ||2016.bkill.net^
 ||2018x.*/guang/
 ||202.102.26.253:8182/files/7/lhzs1k.jpg
@@ -235042,7 +235045,6 @@ zzzyk.com###Tinfo
 ||2026.dailytrendsbd.com^
 ||202xs.com^
 ||2048hd1.com/js/tc.js
-||204st.us^$third-party
 ||205.209.138.102^
 ||206solutions.com^$third-party
 ||208622.top^
@@ -235382,7 +235384,6 @@ zzzyk.com###Tinfo
 ||360i.com^$third-party
 ||360kan.com/special/
 ||360kan.com/v1/block?blockid=544&
-||360tag.com^$third-party
 ||360tag.net^$third-party
 ||365dmp.com^$third-party
 ||365xuet.com/assets/web/js/main.jsr_
@@ -235990,6 +235991,7 @@ zzzyk.com###Tinfo
 ||5mn041cdz.com^
 ||5nj.com/js/cnzz22.js
 ||5nj.com/js/cnzz33.js
+||5ntq14y5y.com^
 ||5odd5zsn.xyz^
 ||5oovx2t8rl04.thebarrecollective.co^
 ||5p35xkp1p.com^
@@ -236251,6 +236253,7 @@ zzzyk.com###Tinfo
 ||73336zubo25326.com^
 ||73vzmvg2bi.com^
 ||74.55.82.102^$third-party
+||743w3z7pv.com^
 ||75.125.41.29:8080/
 ||757d.pandasuite.io^
 ||75b9dfiyb.com^
@@ -236287,7 +236290,6 @@ zzzyk.com###Tinfo
 ||77ds.vip/js/shichuang.js
 ||77nnv9.xyz^
 ||77qwq.com^
-||77tracking.com^$third-party
 ||77v6jk9itk.com^
 ||77wye93uy1.com^
 ||77zdmt8yq.com^
@@ -236313,7 +236315,6 @@ zzzyk.com###Tinfo
 ||7asx1bxaw.com^
 ||7bet.sevenbets.com.br^
 ||7bfst8xxtc.com^
-||7bpeople.com^$third-party
 ||7c2vd9kr4pt.assugrin.ch^
 ||7c96k2gysn.com^
 ||7caidai.xyz^
@@ -237887,6 +237888,7 @@ zzzyk.com###Tinfo
 ||a2.americasavingsexperts.com^
 ||a2.avomeen.com^
 ||a2.borgentech.com^
+||a2.cineflix.st^
 ||a2.slotxbros.com^
 ||a2.xinhuanet.com^
 ||a20022.actonservice.com^
@@ -241361,7 +241363,6 @@ zzzyk.com###Tinfo
 ||abclegal.actonservice.com^
 ||abcompteur.com^$third-party
 ||abcotvs.net^*/fban_
-||abcstats.com^$third-party
 ||abczxw.com/skin/bbb/pc/js/bd.js
 ||abdelrhman.gherasstore.com^
 ||abdluv.xyz^
@@ -241683,7 +241684,6 @@ zzzyk.com###Tinfo
 ||accenture.epoise.com^
 ||accenturetest.epoise.com^
 ||acceptcards.americanexpress.co.uk^
-||access-analyze.org^$third-party
 ||access.acspubs.org^
 ||access.hikaritv.net^
 ||access.ipro.net^
@@ -241743,7 +241743,6 @@ zzzyk.com###Tinfo
 ||acendas.actonservice.com^
 ||acesse.tc.com.br^
 ||acesso.imobiliariarspicarras.com.br^
-||acetrk.com^$third-party
 ||acexedge.com^$third-party
 ||acfoin.deppoavantaj.com^
 ||acfth.broadwayinchicago.com^
@@ -242017,7 +242016,6 @@ zzzyk.com###Tinfo
 ||acwifi.net/wp-content/uploads/2019/11/20191119.jpg
 ||acwifi.net/wp-content/uploads/2022/08/0825-750.png
 ||acxajt.jimmykey.com^
-||acxiom-online.com^$third-party
 ||acxiomapac.com^$third-party
 ||aczoh.myhealth-lifestyle.com^
 ||ad*.ettoday.net^
@@ -261172,7 +261170,6 @@ zzzyk.com###Tinfo
 ||csvtu.bmolending.com^
 ||csygxdym.com^
 ||csymrm.24mx.fr^
-||csyqts.tmon.co.kr^
 ||csyys0731.com^
 ||cszpra.com^*.gif
 ||ct-dev.taskhuman.com^
@@ -268186,7 +268183,6 @@ zzzyk.com###Tinfo
 ||dc2.credit-suisse.com^
 ||dc5koxhfh.com^
 ||dc8na2hxrj29i.cloudfront.net^
-||dc8xl0ndzn2cb.cloudfront.net^
 ||dcard.tw/v1/events
 ||dcb.dannyclosetboutique.com.br^
 ||dcbpm.suning.cn^
@@ -275288,6 +275284,8 @@ zzzyk.com###Tinfo
 ||experience.premiereshows.com^
 ||experience.rochesterregional.org^
 ||experience.rsm.com.au^
+||experience.tripster.ru^$cookie=device_id
+||experience.tripster.ru^$cookie=gb_uid
 ||experience2013.elliemae.com^
 ||experienceplatform.avaya.com^
 ||experiences.cibc.com^
@@ -278956,6 +278954,7 @@ zzzyk.com###Tinfo
 ||gcwubi.happypancake.se^
 ||gcxiyx.inspireuplift.com^
 ||gczudi.iddental.co.kr^
+||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd-stats.jpush.cn^
 ||gd.189.cn*/push/$popup
 ||gd.189.cn/ad/$popup,third-party
@@ -288670,6 +288669,7 @@ zzzyk.com###Tinfo
 ||hejprege.musclehouse.fi^
 ||hekhnn.turnkeyvr.com^
 ||hekr.gloriaskincare.de^
+||heky0uxng.com^
 ||helal.heelshoes.co.uk^
 ||helens.actonservice.com^
 ||helfen.famev.de^
@@ -294703,6 +294703,7 @@ zzzyk.com###Tinfo
 ||jandan.net^*/moyu.png
 ||jandm.maitea.de^
 ||jangomail.com^*?UID$third-party
+||janitorai.com/jstats/
 ||jannat.hayaofmuslimah.com^
 ||jansatta.com/api/capture/ua
 ||janwzsqi.icu^
@@ -296209,6 +296210,7 @@ zzzyk.com###Tinfo
 ||k.voyageursdumonde.fr^
 ||k030.koco.com^
 ||k06kldksi3.com^
+||k08tn5uk9.com^
 ||k0b9nwt6d.com^
 ||k0jw6qzyh.com^
 ||k0tdrkbhx.com^
@@ -305768,7 +305770,6 @@ zzzyk.com###Tinfo
 ||logger-*.vty.dailymotion.com/dm/
 ||logger-test.mno.link^
 ||logger.applovefrom.com^
-||logger.bzu.kr^
 ||logger.cloudmobi.net^
 ||logger.co.kr^$third-party
 ||logger.eigene.io^
@@ -320127,6 +320128,8 @@ zzzyk.com###Tinfo
 ||otr.kaspersky.se^
 ||otrack.workday.com^
 ||otracks.workday.com^
+||otrium.*/measure/
+||otrium.*/static/newrelic.js
 ||otrnww.pipingrock.com^
 ||otsuka-shokai.co.jp/_rtbcn/rt_track.js
 ||otsxfr.fabletics.co.uk^
@@ -324497,7 +324500,6 @@ zzzyk.com###Tinfo
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
 ||publisher-event.unityads.unity3d.com^
 ||publisher-services.amazon.dev/v1/recordVendorsLoaded
-||publishflow.com^$third-party
 ||publytics.net^$third-party
 ||pubperf.com^$third-party
 ||pubplus.com^$third-party
@@ -327971,6 +327973,7 @@ zzzyk.com###Tinfo
 ||rmxhti.zpacks.com^
 ||rmzbfum.cn^
 ||rmztc.bostonscally.com^
+||rn221.xyz^*.gif
 ||rn30y7u7h.com^
 ||rnasaj.labelandthread.com^
 ||rnd.de^$cookie=__vads
@@ -327979,7 +327982,6 @@ zzzyk.com###Tinfo
 ||rndmlk8asw.com^
 ||rnengage.com^$third-party
 ||rnet.plus^$third-party
-||rnffgv.wemakeprice.com^
 ||rnfytdve.batteribyen.dk^
 ||rnfytdve.batterionline.no^
 ||rnfytdve.batterionline.se^
@@ -332176,7 +332178,6 @@ zzzyk.com###Tinfo
 ||selphiu.com^
 ||selvi.viessmann.com.tr^
 ||sem.tkc-biyou.jp^
-||semanticverses.com^$third-party
 ||semantiqo.com^$third-party
 ||semasio.net^$third-party
 ||sematext.com^$third-party
@@ -345375,6 +345376,7 @@ zzzyk.com###Tinfo
 ||sogoucdn.com/translate/ssr/static/img/banner-
 ||sogtm.academy.org.il^
 ||sogtm.colman.ac.il^
+||sogu.tripster.ru^
 ||sohan.sodaibari.com^
 ||sohiuc.sheego.de^
 ||sohu.com.cn/ppp/bms/bms.popup.
@@ -366715,6 +366717,7 @@ zzzyk.com###Tinfo
 ||tellapart.com^$third-party
 ||telldt.israelbiblicalstudies.com^
 ||tellerreport.com/react/pixel
+||tellows.jp/ping.php
 ||tellystick-ss.checkoutera.com^
 ||telphiruq.com^
 ||telsmith.actonservice.com^
@@ -372895,7 +372898,6 @@ zzzyk.com###Tinfo
 ||trackingeloqua.tec.mx^
 ||trackinginternal.hcltech.com^
 ||trackinginternal.ti.com^
-||trackinglabs.com^$third-party
 ||trackinglibrary.prodperfect.com^
 ||trackinglrus.wolterskluwer.com^
 ||trackingmms.accenture.com^
@@ -383899,6 +383901,7 @@ zzzyk.com###Tinfo
 ||yak.juicydevils.gr^
 ||yakhaknog.com^
 ||yalingba.com/ggtxjs/
+||yalispor.com.tr/u966/
 ||yamanoha.com^$third-party
 ||yamlgv.cinziarocca.com^
 ||yan007.com/js/sss/ad.js
@@ -385694,6 +385697,7 @@ zzzyk.com###Tinfo
 ||zieyeq.intent24.fr^
 ||ziffdavisb2b.com^*/tracker.js
 ||zifyeldq.top^
+||zig1te84n.com^
 ||zigpdx.ltbjeans.com^
 ||zigq.cn^
 ||zigzagcabin.com^
