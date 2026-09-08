@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-08 11:13:07(GMT+8) 
-! Total count: 386453
+! ! Version: 2026-09-09 00:02:21(GMT+8) 
+! Total count: 386475
  
 ###ADtip
 ###Ad_windows
@@ -508,6 +508,7 @@
 ##.comiis_guanggao_tit
 ##.common-topad
 ##.common_ad
+##.component-advertises
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
 ##.con_section > .da
 ##.conch-ads-box
@@ -12640,6 +12641,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||assets.giocdn.com/2.1/gio.js$domain=saicmg.com
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
 @@||assets.yasno.live/packs/assets/analytics-events-$script,~third-party
+@@||assetsconfigcdn.org/v1/initialize?k=$domain=bloomberg.com
 @@||astatic.ccmbg.com/fc/js/prebid?v=$domain=journaldunet.com
 @@||astyle.alicdn.com/??
 @@||at.vodafone.de/rest/$domain=vodafone.de
@@ -12988,7 +12990,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.intellimize.co/snippet/$script,domain=talkspace.com
 @@||cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js$script
 @@||cdn.jsdelivr.net/npm/@thumbmarkjs/$domain=dienynas.tamo.lt
-@@||cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.umd.js$domain=archive.is
+@@||cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.$domain=archive.is|archive.today|archive.ph
 @@||cdn.jsdelivr.net/npm/fingerprintjs2$domain=wannadep.com
 @@||cdn.jsdelivr.net^$script,domain=movieffm.net
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
@@ -17135,6 +17137,7 @@ adbuck.cc###col_publi
 adbug.cn#@#.google_ads
 addons.mozilla.org#%#//scriptlet('href-sanitizer', 'a[href^="https://prod.outgoing.prod.webservices.mozgcp.net/"]:not([title]')
 addons.mozilla.org#%#//scriptlet('href-sanitizer', 'a[href^="https://prod.outgoing.prod.webservices.mozgcp.net/"][title]', '[title]')
+adersaytech.com##.adersay-ad
 adfs.avadacom.com$image
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
@@ -215414,6 +215417,7 @@ haoxxoo.com##.nrad2
 happymh.com##[src="https://c.nationaltcm.com/ad/tm1111dd.png"]
 happymh.com##a[href*=".taobao.com"]
 harmony.click.s11.sfmc-osl.com$image
+harpersbazaar.com##div[aria-labelledby="recirc-heading"]
 hasppartnerpicker-files.happycustomer.io$image
 hax.co.id#@#.ad-box
 hax.co.id#@#.ad-wrapper
@@ -222767,6 +222771,7 @@ mzh.moegirl.org.cn#?#.n-button__content:contains(在App内打开)
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
 n11.com#%#//scriptlet('prevent-addEventListener', 'click', 'ownerDocument', 'elements', 'a.product-card[href]')
+na2ka4.blog.fc2.com###inner2 > div.section2:has(> div.ninja-recommend-block)
 naekranie.pl###niceMessage
 naifei.im##.tg_w
 naifei.im##div[class^="wp-none"]
@@ -228136,7 +228141,6 @@ teledeporteonline.pw##[id^="total"]
 telegraph.co.uk##.more-stories
 telepolis.pl##DIV[style="width:750px; height:200px; background-color:black; color:white; text-align: center; font: bold 30px Helvetica, Arial, sans-serif;"]
 telex.hu#%#//scriptlet('set-constant', 'pp_gemius_hit', 'noopFunc')
-tellows.jp/ping.php?p=
 temail.22bet.com$image
 temail.realreviews.io$image
 template/m1938pc/ads/*.js
@@ -236095,6 +236099,7 @@ zzzyk.com###Tinfo
 ||66.228.52.30^$third-party
 ||66.fmx.cn/js/
 ||663008888.com^
+||664095r19h.com^
 ||6651tp.com^
 ||666579.xyz^
 ||6669667.com^
@@ -236595,6 +236600,7 @@ zzzyk.com###Tinfo
 ||91mjw.com/hy-66-90.php
 ||91p20.space/fans/
 ||91p20.space^
+||91pz9so28w.com^
 ||91rb.com/fc/$image
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
@@ -254746,6 +254752,8 @@ zzzyk.com###Tinfo
 ||bvz5.destinia.com.tr^
 ||bw66.cn/template/default_pc/bbs/
 ||bwapi.bikerumor.com^
+||bwapi.irunfar.com/event/
+||bwapi.irunfar.com/log/
 ||bwau1s2fm.com^
 ||bwb101.goo.ne.jp^
 ||bwbwye.klarstein.hu^
@@ -270852,7 +270860,7 @@ zzzyk.com###Tinfo
 ||dukea.alice.camera^
 ||dukho.store.thehistorylist.com^
 ||dukwznn0x.com^
-||dulo.tv/api/ping
+||dulo.*/api/ping
 ||dumbingofage.com/?feed-stats-post-id=
 ||dumfpn.bremer-jobanzeiger.de^
 ||dumjz.wearswoody.com^
@@ -296569,6 +296577,7 @@ zzzyk.com###Tinfo
 ||kej.kejsar.se^
 ||kejiwanjia.com/wp-content/uploads/*/1040x100.
 ||kejreecs.twin.so^
+||kejyrcp923.com^
 ||kekenet.com/Images/*/tom640X40.gif
 ||kekenet.com/images/*/akasuo
 ||kekenet.com/images/*/app
@@ -298188,6 +298197,7 @@ zzzyk.com###Tinfo
 ||lccfjszp.cn^
 ||lcd.aivote.com^
 ||lcdebten1.verdantpathfinder.com^
+||lcdeo8scm4.com^
 ||lcdsyj.daily.co.jp^
 ||lcefua.timberland.ru^
 ||lcfpeb.sarouty.ma^
@@ -298676,6 +298686,7 @@ zzzyk.com###Tinfo
 ||lh.bigcrunch.com^
 ||lh168.net^*/attachment/portal/
 ||lh1dki82.com^
+||lh6s24tadl.com^
 ||lhaekpba.dagsmejan.de^
 ||lhaqtn.lyst.ca^
 ||lhasalimited.actonservice.com^
@@ -318397,6 +318408,7 @@ zzzyk.com###Tinfo
 ||o8.hyatt.com^
 ||o8agbq0qwm.com^
 ||o8u3n4q7fe.com^
+||o9gvxuj9t6.com^
 ||o9qdqbu6nu.com^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
 ||oa-panther.data.aliyun.com^$third-party
@@ -319968,6 +319980,7 @@ zzzyk.com###Tinfo
 ||orpggb.esprit.at^
 ||orqhz.alexandrebirman.com^
 ||orqmimfug.in^
+||orsdls.di.runestone.samsung.com^
 ||orsds.ziavia.com^
 ||orsmfg.notino.de^
 ||ortkrq.damyller.com.br^
@@ -324661,6 +324674,7 @@ zzzyk.com###Tinfo
 ||puntodebreak.com/themes/sami/js/optimized/add_event_analytics_clic_mdba.js
 ||puntosadoc.comunicaciones.puntosadoc.com^
 ||punyplant.com^
+||pup8b209b2.com^
 ||puppetcorp.com^
 ||puppiesart.com^
 ||pupudy.com/images/wxrj.gif
@@ -328449,6 +328463,7 @@ zzzyk.com###Tinfo
 ||rta.redhomestore.com^
 ||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
+||rta2.newscientist.com^
 ||rta2.newzit.com^
 ||rta4z4ncsl.com^
 ||rtactivate.com^
@@ -328475,6 +328490,7 @@ zzzyk.com###Tinfo
 ||rtc.dymatrix.cloud^
 ||rtc.hibuwebsites.com/feature/metrics
 ||rtc.multiscreensite.com^
+||rtdjpmi.com^
 ||rtds.progressive.com^
 ||rte.fuoo1.top^
 ||rtegbv.jmclaughlin.com^
@@ -339080,6 +339096,7 @@ zzzyk.com###Tinfo
 ||shbear.com^*/ad/
 ||shbtjz.directours.com^
 ||shdid.me^
+||shealth-analytics-api.samsunghealth.com^
 ||sheargovernor.com^
 ||sheba.dhakapharmachy.com^
 ||sheego.de/ar/$third-party
@@ -360576,6 +360593,7 @@ zzzyk.com###Tinfo
 ||stats.drypers.com.ph^
 ||stats.dt-esthetique.ch^
 ||stats.duetcode.io^
+||stats.dulo.
 ||stats.dupress.com^
 ||stats.dwermke.com^
 ||stats.earlygame.com^
@@ -362828,6 +362846,7 @@ zzzyk.com###Tinfo
 ||suning.com/getCpcDatas?
 ||sunios.de^$third-party
 ||sunlightmetrics.b-cdn.net^
+||sunnylettings.com^
 ||suno.com/9i3s/
 ||sunofbeaches.com/ast/assistant/ad-item/
 ||sunofbeaches.com/shop/recommend/
@@ -362950,6 +362969,7 @@ zzzyk.com###Tinfo
 ||surveywall-api.survata.com^$third-party
 ||surveywriter.com^$third-party
 ||survicate.com^$third-party
+||sushivolant.com^
 ||sustainability.ricoh.ch^
 ||sustainability.ricoh.co.za^
 ||sustainable.optum.com^
@@ -366721,6 +366741,7 @@ zzzyk.com###Tinfo
 ||telldt.israelbiblicalstudies.com^
 ||tellerreport.com/react/pixel
 ||tellows.jp/ping.php
+||tellows.jp/ping.php?p=
 ||tellystick-ss.checkoutera.com^
 ||telphiruq.com^
 ||telsmith.actonservice.com^
@@ -376358,6 +376379,7 @@ zzzyk.com###Tinfo
 ||urcaq.eberjey.com^
 ||urdam.hillcrestmemorialgarden.com^
 ||urdap.forever21.com^
+||ureca.samsungapps.com^
 ||urehgr.halekulani.com^
 ||ureoaw.netthandelen.no^
 ||ureruadebis.papawash.com^
