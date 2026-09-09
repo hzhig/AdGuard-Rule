@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-09 11:15:13(GMT+8) 
-! Total count: 386483
+! ! Version: 2026-09-09 23:58:21(GMT+8) 
+! Total count: 386497
  
 ###ADtip
 ###Ad_windows
@@ -13416,7 +13416,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||data.service.paypal.com^
 @@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 @@||datadoghq-browser-agent.com/datadog-logs.js$domain=linktr.ee
-@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
+@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com|wirecutterstore.nytimes.com
 @@||datadoghq-browser-agent.com^$script,domain=hungryroot.com
 @@||datadome.garena.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=auth.garena.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
@@ -13701,6 +13701,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
 @@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
 @@||fdj.fr/oad/js/xiti/xtcore.js
+@@||featureassets.org/v1/initialize?k=$domain=bloomberg.com
 @@||feedback.userreport.com/*/*.csb.app$domain=csb.app
 @@||feilusw.com/search.html$genericblock,generichide
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=examinerlive.co.uk
@@ -222966,6 +222967,8 @@ newsmth.net###ban_ner
 newsmth.net##.Smthtwenty_float
 newsmth.net##.b-content > #sogou_banner:nth-child(3)
 newsmth.net##.ns-ad
+newsnow.com#%#//scriptlet('set-session-storage-item', 'nfPageCount', '$remove$')
+newsnow.com#%#//scriptlet('set-session-storage-item', 'pageCount', '$remove$')
 newsweekjapan.jp##.taboola-below-article-thumbnails-desktop-2-wrap
 newtalk.tw###_popIn_recommend
 newtalk.tw##.ad-half
@@ -235613,6 +235616,7 @@ zzzyk.com###Tinfo
 ||4399.com/plugins/tj/event?
 ||4399sj.com^*/mask-ad
 ||4399stat.5054399.com^
+||43gu7zzn0.com^
 ||43y3q8h5mz.com^
 ||44.228.85.26^
 ||440012.xyz/js/wapm.js
@@ -251225,6 +251229,7 @@ zzzyk.com###Tinfo
 ||axp.yourcentralvalley.com^
 ||axp.yourerie.com^
 ||axpjcp.tennis-point.co.uk^
+||axq9j15p0.com^
 ||axutongxue.*/js/yes.
 ||axutongxue.com/js/uuiiio.js
 ||axutongxue.net/js/ik474n.js
@@ -258471,6 +258476,7 @@ zzzyk.com###Tinfo
 ||clouds.stapepeople.com^
 ||cloudtracer101.com^$third-party
 ||cloudwp.io^
+||cloudx.io^
 ||cloudzilla.ai/ingest/
 ||clover.luckycharmgold.com^
 ||cloverkeys.com^
@@ -279040,6 +279046,7 @@ zzzyk.com###Tinfo
 ||gear.clevany.com^
 ||gear.echovisuals.com^
 ||gearbubbles.com^
+||geav5man0.com^
 ||gebav.urbanbarn.com^
 ||gebjrr.ironstudios.com.br^
 ||gecfnc.foresight.jp^
@@ -300229,6 +300236,7 @@ zzzyk.com###Tinfo
 ||lnaevr.fun^
 ||lnd.com.cn/sys/real_calc.js
 ||lndata.com^$third-party
+||lndrsapi.com^
 ||lnezkw.iturbo.fr^
 ||lnfmhl.icu^
 ||lnfqk.showerenvy.com^
@@ -316977,6 +316985,9 @@ zzzyk.com###Tinfo
 ||newsletters.nationalgeographic.com^$image,third-party
 ||newsmax.com/js/analytics.js
 ||newsnationnow.com/yZuPxxW0/init.js
+||newsnow.com^$cookie=nn_sid
+||newsnow.com^$cookie=nn_uid
+||newsnow.com^$cookie=nnusrst
 ||newsource-cdn-static.ns.cnn.com/prd/analytics/1.0.1/cnnvan-omniture.min.js
 ||newspage.xilu.com/model/visitlog.js
 ||newspicks.com/logs/
@@ -322867,6 +322878,7 @@ zzzyk.com###Tinfo
 ||pla.atlasos.net/api/event
 ||pla.fwdcdn.com^
 ||pla.pearlinsurance.com^
+||pla.uqload.vc^
 ||pla.wigglepixel.nl^
 ||placeframe.com^
 ||placemypixel.com^$third-party
@@ -368012,6 +368024,7 @@ zzzyk.com###Tinfo
 ||tlprlf.xyz^
 ||tlq8ufqddj.com^
 ||tlqugk.fashionette.se^
+||tlre4aso7.com^
 ||tlrtd.cymbiotika.com^
 ||tls.coachlykke.dk^
 ||tls.thelibrarystore.com^
@@ -383284,6 +383297,7 @@ zzzyk.com###Tinfo
 ||xlvqhx.xyz^
 ||xlvvy4msxr.coolinastore.com^
 ||xlwtd.knownnutrition.co.uk^
+||xlx2ddw4f.com^
 ||xman.asia^
 ||xmangoculture.com^
 ||xmawwbz.icu^
