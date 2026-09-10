@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-10 11:14:53(GMT+8) 
-! Total count: 386512
+! ! Version: 2026-09-10 23:52:57(GMT+8) 
+! Total count: 386525
  
 ###ADtip
 ###Ad_windows
@@ -2227,6 +2227,7 @@ $websocket,domain=wap.yushuwu.cloud
 &tag_exp=*&e=gtm.
 &ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
 &xhtml?$script,third-party
+*$cookie=/^__ddg/,domain=premierzal.ru|gipfel.ru
 *$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=biqege.com,domain=biqege.com,script,xmlhttprequest
 *$denyallow=efuxs.com,domain=efuxs.com,script,subdocument,xmlhttprequest
@@ -3199,7 +3200,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/www\.xiguashuwu\.com\/[a-z]{15,20}\/[a-z]{15,20}\.js\?v=/$script,domain=xiguashuwu.com
 /^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
 /^https?:\/\/(?!assets|script|static)(?:[0-9a-z]{10,13}|[0-9a-z]{6})\.[0-9A-Za-z.\-_]+\/(?=[0-9a-z+\/\-]*[A-Z])[0-9A-Za-z+\/\-]{80,106}$/$match-case,script,~third-party
-/^https?:\/\/(android\.com\.pl|biznesenter\.pl)\/[a-z0-9]{1,4}\/$/$script,~third-party,domain=android.com.pl|biznesenter.pl
+/^https?:\/\/(android\.com\.pl|biznesenter\.pl|invezz\.com)\/[a-z0-9]{1,4}\/$/$script,~third-party,domain=android.com.pl|biznesenter.pl|invezz.com
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
 /^https?:\/\/kan\.znds\.com\/public\/home\/images\/[0-9]+-[0-9]+\.gif\?v=/$domain=kan.znds.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
@@ -18782,7 +18783,6 @@ campaign.auspost.com.au$image
 campusfrance.org#%#//scriptlet('set-constant', 'pa', 'emptyObj')
 campusfrance.org#%#//scriptlet('set-constant', 'pa.sendEvent', 'noopFunc')
 canadiantire.ca#%#//scriptlet('set-local-storage-item', 'signifydSessionIdInfo', '$remove$')
-candytm.pl,biznesenter.pl#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/gtm\.start|dataLayer/')
 cangjige.net##.wp[style="height:36px;padding-top:15px;"]
 cangku.moe##.slider
 canhasbitcoin.com###adblock-message
@@ -216401,6 +216401,7 @@ intranet2.click.s11.sfmc-osl.com$image
 investing.com##div[class*="adBlock"]
 investing.com##div[class*="overlay_overlay"]
 investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
+invezz.com,candytm.pl,biznesenter.pl#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/gtm\.start|dataLayer/')
 inwestycje.pl###show-message
 ioemail.sumoquote.com$image
 ip.cn##.well > p > a
@@ -226736,6 +226737,8 @@ rollout1.click.s11.sfmc-osl.com$image
 romulation.net##DIV[style="background-color: #CC4444; color: #fff; padding:10px;"]
 romzhijia.net##.ggposition
 romzj.com##.sectionThree
+roomie.jp##.r-article ~ .r-section:has(> div[id^="logly-lift-"])
+roomie.jp##.r-sidesection[data-google-interstitial]
 roomie.tw##div[id^="outer_Post"]
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > div[id^="ts_ad_native"])
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > ins)
@@ -243042,6 +243045,7 @@ zzzyk.com###Tinfo
 ||advertising.yahoo.com^
 ||advertising.yandex.ru^
 ||advertpay-vip-ssl.xunlei.com^
+||adverts.ie/5g8u/
 ||advgo.net/hits/
 ||advgo.net/mushroom/
 ||advice-ads.s3.amazonaws.com^
@@ -247879,6 +247883,8 @@ zzzyk.com###Tinfo
 ||api.mhred.com.br^
 ||api.michellemanfroi.com.br^
 ||api.mimarbaby.com^
+||api.mindbox.ru/*/customer/track-visit?
+||api.mindbox.ru/*/js/operations/async?*&trackerName
 ||api.mindbox.ru/scripts/*/tracker.js
 ||api.minhabibliaeuvouler.com.br^
 ||api.minhaclinicalucrativa.com.br^
@@ -269611,6 +269617,7 @@ zzzyk.com###Tinfo
 ||distributiontomatoes.com^
 ||distributors.balluff.com^
 ||disturbedquiet.com^
+||disutgh7q0ncc.cloudfront.net^
 ||dit.whatsapp.net.iberostar.com^
 ||dit.whatsapp.net^
 ||ditorialproce.biz^
@@ -274964,6 +274971,7 @@ zzzyk.com###Tinfo
 ||events.pickrr.com^
 ||events.plumbv.com^
 ||events.plus.yandex.net^
+||events.plutus.ninja^
 ||events.popinfo.jp^
 ||events.practo.com^
 ||events.prd.api.discomax.com^
@@ -279837,6 +279845,7 @@ zzzyk.com###Tinfo
 ||giocdn.com^$third-party
 ||giojhm.finya.de^
 ||giosg.com^*/public/trace/
+||gipfel.ru^$cookie=UniqAnalyticsId
 ||giphy.com/*/xhr/api/*/collector
 ||giphy.com^$removeparam=ref
 ||gipva.tiffany.com^
@@ -296284,6 +296293,7 @@ zzzyk.com###Tinfo
 ||ka.rotageek.com^
 ||kaacsi.belvilla.nl^
 ||kaan.kakao.com^
+||kab201k0xs.com^
 ||kabbo.kabbocollectionbd.com^
 ||kabokc.webuy.com^
 ||kaboodle49.com^
@@ -298527,6 +298537,7 @@ zzzyk.com###Tinfo
 ||leo.play.tv^
 ||leo.tridge.com^
 ||leo1.leon-de-bruxelles.fr^
+||leolist.cc/static/min/js/modules/bam-impressions-
 ||leopard.davidlindahlphoto.com^
 ||leopard.joytotheworld.info^
 ||leopard.laszlo.cloud^
@@ -311777,6 +311788,7 @@ zzzyk.com###Tinfo
 ||metrics.dunkindonuts.com^
 ||metrics.e-abbott.com^
 ||metrics.e-wie-einfach.de^
+||metrics.earlygame.com^
 ||metrics.earrieta.dev^
 ||metrics.eascanada.com^
 ||metrics.eastcentral.aaa.com^
@@ -320555,6 +320567,7 @@ zzzyk.com###Tinfo
 ||p3-be-pack-sign.pglstatp-toutiao.com^
 ||p30rank.ir^$third-party
 ||p3tq.pandasuite.io^
+||p43c4oysmb.com^
 ||p4dc8ve6i.com^
 ||p4p.sina.com.cn^
 ||p52q.cn^
@@ -323794,7 +323807,6 @@ zzzyk.com###Tinfo
 ||prelude69.com^
 ||premierbuyer.edm.globalsources.com^
 ||premiercio.actonservice.com^
-||premierzal.ru^$cookie=/^__ddg/
 ||premiumapp.byjus.com^
 ||premiumimpression.com^$third-party
 ||prems.thewatchdog.io^
@@ -327292,6 +327304,7 @@ zzzyk.com###Tinfo
 ||requestmetrics.com^$third-party
 ||requirejs.cn/ts.png
 ||requisite57.com^
+||rer4.com^
 ||rerjk.bugmd.com^
 ||rertrc.abc-mart.net^
 ||res*.pinpai8.cn^
