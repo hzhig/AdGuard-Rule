@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-10 23:52:57(GMT+8) 
-! Total count: 386525
+! ! Version: 2026-09-11 11:10:27(GMT+8) 
+! Total count: 386537
  
 ###ADtip
 ###Ad_windows
@@ -1269,6 +1269,7 @@
 ##a[href$=".xyz:8443"]
 ##a[href$="/hjdt9.com"]
 ##a[href$="/xha77.com"]
+##a[href*=".1699ai.top"]
 ##a[href*=".6666ai.top"]
 ##a[href*=".bright.cn/?utm_"]
 ##a[href*=".cc:"] > img[src]
@@ -15769,6 +15770,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||ps3-infos.fr/adsense/openads/ads/ads.js$script
 @@||pttplay.com/js/momo/adsbygoogle.js
+@@||pub-static.fotor.com/static/web/lib/sensors/sensorsdata.min.js
 @@||pub.alimama.com/common/adzone/
 @@||pub.network^$script,domain=creaders.net
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
@@ -215850,6 +215852,7 @@ hr.mecindo.dk$image
 hr.tulipfashion.se$image
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
+hsex.tv###Austin + a
 html-js.com##.ad-blank
 html-js.com##.module[style="padding:0;"]
 html-js.com##a[style^="margin-top:20px;"]
@@ -234493,6 +234496,7 @@ zzzyk.com###Tinfo
 ||0ihw4ipvm5.com^
 ||0jghm60qg.com^
 ||0kkbb.com/js/i.js
+||0kl9n3q2b.com^
 ||0kplffrs42.com^
 ||0krdn3.com^
 ||0l34c7sqy.com^
@@ -244000,6 +244004,7 @@ zzzyk.com###Tinfo
 ||ajfkwwpo.xyz^
 ||ajfmm.dibsbeauty.com^
 ||ajgkdt.eazy.de^
+||ajhwwlye.com^
 ||ajiag.bullybunches.com^
 ||ajigzt.lampenwelt.de^
 ||ajinomoto.co.jp/shared_file/js/header_log.js
@@ -252375,6 +252380,7 @@ zzzyk.com###Tinfo
 ||become.songche.net^
 ||becomemummy.com^
 ||bed.bedkingdom.co.uk^
+||beddingdownbaby.com^
 ||beddn.gundrymd.com^
 ||bedmz.mercimamanboutique.com^
 ||bedrapiona.com^
@@ -252933,6 +252939,7 @@ zzzyk.com###Tinfo
 ||bigmining.com^$third-party
 ||bigmir.net^$third-party
 ||bignutty.xyz^$third-party
+||bigpicframing.com^
 ||bigreal.org^$third-party
 ||bigsauron.ru^$third-party
 ||bigstats.net^$third-party
@@ -252945,6 +252952,7 @@ zzzyk.com###Tinfo
 ||bigworldfashion.com^
 ||bihaipack.com^
 ||bijkep.hotelesestelar.com^
+||bijouxbee.com^
 ||bike.turbobd.com^
 ||bikeexerciser.com^
 ||bikemag.com/.api/admiral
@@ -253064,6 +253072,7 @@ zzzyk.com###Tinfo
 ||biophysicsgroup.actonservice.com^
 ||biosolutions.tv/audience-proxy/
 ||biot.byads.co^
+||biotechnologysciences.com^
 ||bipog.perfectwhitetee.com^
 ||biqgg.com/w.js?v=
 ||biqiuge5.org/mo.
@@ -323512,6 +323521,7 @@ zzzyk.com###Tinfo
 ||portalrwd.bm5.pl/Ajax/GetIloscWyswietlen.aspx
 ||portalrwd.bm5.pl/Stat/statystyki.aspx
 ||portfold.com^$third-party
+||porthole58.top^
 ||portovelho26.ondec.com.br^
 ||porzo.com/js/analytics
 ||pos.baidu.com^
@@ -323596,6 +323606,7 @@ zzzyk.com###Tinfo
 ||ppcsw.capellisport.com^
 ||ppdb.pl^$third-party
 ||ppdovk.home24.ch^
+||ppdzrzm5z7.com^
 ||ppedp.cn^
 ||ppftj.freshcleantees.com^
 ||ppgcmv.yamamotoyama.co.jp^
@@ -327800,6 +327811,7 @@ zzzyk.com###Tinfo
 ||ride.playkinetix.nl^
 ||rideblackbird.com^
 ||ridestore.com^$cookie=/^google-analytics_v4__/
+||ridfvncgizfjlq.com^
 ||ridge.com/cdn/shopifycloud/media-analytics/
 ||ridgemerino.com/api/collect
 ||ridibooks.com$cookie=/^AMP/
