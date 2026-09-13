@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-12 23:02:37(GMT+8) 
-! Total count: 386570
+! ! Version: 2026-09-13 11:20:57(GMT+8) 
+! Total count: 386587
  
 ###ADtip
 ###Ad_windows
@@ -13442,6 +13442,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
+@@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
 @@||dd.subito.it.first-party-js.datadome.co^$script,xmlhttprequest,domain=areariservata.subito.it
 @@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
@@ -18919,9 +18920,7 @@ chaos2ch.com###sub div.plugin-memo:last-child
 chapaofan.com##a[href^="http"]:not([href*=".chapaofan."]) > img[src*=".sinaimg."]
 charlestownwyllie.oaklawnnonantum.com^
 chartesia-api.happycustomer.io$image
-chat.deepseek.com##.ds-modal-overlay
 chat.deepseek.com#?#.ds-dropdown-menu-option:has-text(下载手机应用)
-chat.deepseek.com#?#.ds-theme.ds-modal-wrapper:contains(AdGuard)
 chat.deepseek.com#?#button:has(span:contains(下载应用))
 chazidian.com###worldcup_float
 chazidian.com##.ggin
@@ -236785,6 +236784,7 @@ zzzyk.com###Tinfo
 ||9rkh7nbaj.com^
 ||9soefyenw.com^
 ||9swovqnp52.com^
+||9t9r2tkr9.com^
 ||9tata.com/js/Rand.js
 ||9tata.com/js/pbanner.js
 ||9tata.com/js/topxia.js
@@ -245360,6 +245360,7 @@ zzzyk.com###Tinfo
 ||analytics.bestreviews.com^
 ||analytics.betterplaces.nl^
 ||analytics.bgr.com^
+||analytics.bhaskarsaikia.in^
 ||analytics.bi.encuentra24.com^
 ||analytics.biezen.nl^
 ||analytics.bigdata.samsung.com^
@@ -247708,6 +247709,7 @@ zzzyk.com###Tinfo
 ||api.imperiodostecidosonline.com.br^
 ||api.impresa.pt/trackercookie
 ||api.impulsionaonline.com^
+||api.inboxburn.com/api/events
 ||api.indoorcyclingbygabyfit.com^
 ||api.infusis.com.br^
 ||api.injectableshub.com^
@@ -251875,6 +251877,7 @@ zzzyk.com###Tinfo
 ||bartdta.sleepinggiant.com.au^
 ||bas.boshi.tv^
 ||basaru.net.ru/js/coin32.js
+||base.imdada.cn/rum/spa.js
 ||base.vrielingassuradeuren.nl^
 ||baseboosters.com^
 ||baseendpoint.stern.de/wrapper/metrics
@@ -255137,6 +255140,7 @@ zzzyk.com###Tinfo
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
 ||c114.com.cn^*/js/ad_load-new.js
+||c166fuy29o.com^
 ||c1d8i3p6.com^
 ||c1exchange.com^$third-party
 ||c1hit.zerkalo.io^
@@ -255224,6 +255228,7 @@ zzzyk.com###Tinfo
 ||cachead.com^*.js
 ||caclick.baidu.com^
 ||cactus.jd.com/behavior_report
+||cactus.jd.com^
 ||cactus.joybuy.com^
 ||cactusglobal.io^$third-party
 ||cactusmedia.com^$third-party
@@ -259382,6 +259387,7 @@ zzzyk.com###Tinfo
 ||combo.honimix.com^
 ||combrand.v1.edgekey.net.easyjet.com^
 ||comcast.net/measurements/
+||comdirect.de/cp/log/
 ||comedy34.com^
 ||comefromchina.com/images/128bestbuy
 ||comeon.com/tracking.php
@@ -276213,6 +276219,7 @@ zzzyk.com###Tinfo
 ||fdyqre.pormadeonline.com.br^
 ||fe-go.letv.com^
 ||fe.futuroscope.com^
+||fe.imdada.cn/meridian/unify.min.js
 ||fe4c0422j.com^
 ||fea-cfd.simutechgroup.com^
 ||fearfulfish.com^
@@ -279831,6 +279838,7 @@ zzzyk.com###Tinfo
 ||gianthypes.com^
 ||giantsvessel.com^
 ||giaoji.com/Runtime/Js/
+||gias.jd.com/js/pc-tk.js
 ||gias.jd.com/js/td.js
 ||giaumusnsj.com^
 ||gibbon.711.st^
@@ -288822,6 +288830,7 @@ zzzyk.com###Tinfo
 ||heredomain.stape.dev^
 ||hermes-api.net.mydays.de^
 ||hermes.allo-media.net^
+||hermes.jd.com^
 ||hero.easy-tlush.co.il^
 ||hero.shakedmetal.co.il^
 ||hero.shapero.com^
@@ -305557,6 +305566,7 @@ zzzyk.com###Tinfo
 ||log-bridge-mobile.kr.karrotmarket.com^
 ||log-collector.shopee.
 ||log-gateway.zoom.us^
+||log-h5.imdada.cn^
 ||log-hl.snssdk.com^
 ||log-ird.outbrain.com^
 ||log-lb.skyperfectv.co.jp^
@@ -310736,6 +310746,7 @@ zzzyk.com###Tinfo
 ||mercury.books.com.tw^
 ||mercury.coupang.com^
 ||mercury.jd.com/log.gif
+||mercury.jd.com^
 ||mercuryace.com^
 ||meremark.com^
 ||mereni.boutiq.cz^
@@ -328255,6 +328266,7 @@ zzzyk.com###Tinfo
 ||rover.powerpeptides.com^
 ||rover.powerpeptides.us^
 ||rovz7ekw3r.com^
+||rowlock05.com^
 ||rowsrm.atasunoptik.com.tr^
 ||roxtec.actonservice.com^
 ||royalcams.com/tools/track.php?
@@ -345438,6 +345450,7 @@ zzzyk.com###Tinfo
 ||sofire.terabox.app^
 ||sofire.terabox.com^
 ||soflopxl.com^$third-party
+||sofoot.com/home/stats
 ||soft.bitesoftco.com^
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
@@ -367999,6 +368012,7 @@ zzzyk.com###Tinfo
 ||tk.yourhelpconnect.com^
 ||tk.zenpark.com^
 ||tk11rxjhvm.com^
+||tk71mu9u7.com^
 ||tka.tiki.vn/pixel/
 ||tkb.taximarc-knokke.be^
 ||tkccn.madhappy.com^
@@ -376115,6 +376129,7 @@ zzzyk.com###Tinfo
 ||umerf.fernerblick.at^
 ||umerf.reisprinzen.de^
 ||umguf.samialert.com^
+||umhjh9rwe.com^
 ||umhyck.belvilla.com^
 ||umi.cloudful.de^
 ||umiaob.kireibiz.jp^
@@ -376460,6 +376475,7 @@ zzzyk.com###Tinfo
 ||ur.b.inhaabit.com^
 ||ur.trackingjourney.com^
 ||uralweb.ru^$third-party
+||uranus.jd.com^
 ||uraseszincy.com^
 ||urbanairship.com^
 ||urbanlaurel.com^
@@ -378759,6 +378775,7 @@ zzzyk.com###Tinfo
 ||votistics.com^$third-party
 ||vought.removeads.workers.dev^
 ||vouzpu.tokyolife.co.jp^
+||vovvrpueuffrjw.com^
 ||vowellm4.com^
 ||vox.com/SendEventData
 ||vox.com/blaize/datalayer
@@ -381091,7 +381108,7 @@ zzzyk.com###Tinfo
 ||wl-pixel.index.digital^
 ||wl.bl.frequentvalues.com.au^
 ||wl.gl^$third-party
-||wl.jd.com^$third-party
+||wl.jd.com^
 ||wl.uqwjdhgv.top^
 ||wl.writeless.ai^
 ||wl.yna.co.kr^
