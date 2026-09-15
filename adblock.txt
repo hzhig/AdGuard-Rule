@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-15 11:33:27(GMT+8) 
-! Total count: 386644
+! ! Version: 2026-09-16 00:20:05(GMT+8) 
+! Total count: 386661
  
 ###ADtip
 ###Ad_windows
@@ -2761,6 +2761,7 @@ $websocket,domain=wap.yushuwu.cloud
 .shop:*/bid?url=
 .simplicitycrm.com/rd/
 .site:20443/*.js^$script,third-party
+.skadsdkless.appsflyersdk.com^
 .skimlinks.js
 .smartrmail.co/o/$image
 .smtp.net/o/$image
@@ -3629,6 +3630,8 @@ $websocket,domain=wap.yushuwu.cloud
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api/videos/*/embed/heartbeat|$xmlhttprequest
+/api/videos/*/embed/view|$xmlhttprequest
 /api/web/v1/tracker$ping
 /api_adlog.php?
 /api_ip_info.php
@@ -11698,7 +11701,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://email.*/o/$image
 ://emailtracking.$image
 ://fallback.*/collector
-://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?id=GTM-
 ://gtm.*.js?st=
 ://gtrack.*.com/dye?
@@ -222945,6 +222948,7 @@ news.pchome.com.tw##div[style="width:300px;height:450px"]
 news.pchome.com.tw##div[style="width:300px;height:600px"]
 news.pchome.com.tw##div[style="width:687px;height:145px"]
 news.pchome.com.tw##div[style="width:970px;height:250px"]
+news.qq.com###article-promotion
 news.qq.com###content-right div[class][style*='background-image: url("https://inews.gtimg.com/newsapp_bt/']:has(img[alt^="QQ"])
 news.qq.com###focus-bar
 news.qq.com##.download-banner-wrap
@@ -222953,6 +222957,7 @@ news.qq.com##.godown.qqcom_fb-item
 news.qq.com##.qqcom-modal-mask
 news.qq.com##.slider-list.swiper-horizontal.swiper-initialized.swiper
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
+news.qq.com##div[dt-params="e_type=download_banner"]
 news.qq.com##div[id="download-btn-wrapid"]
 news.qq.com#?##content-right div[class]:has(> h1:contains(热门应用))
 news.qq.com#?#.item-back:has(.ruyi-icon-phone-regular):upward(div)
@@ -234757,6 +234762,7 @@ zzzyk.com###Tinfo
 ||1328f.com/js/jquery.js
 ||1339.cf/yuzrmji.js$script,domain=imgnova.xyz
 ||1342a.com/js/jquery.js
+||136ckqmwc.com^
 ||1378a.xyz^
 ||1379a.xyz^
 ||1381a.xyz^
@@ -247850,6 +247856,7 @@ zzzyk.com###Tinfo
 ||api.lp.thaianepalaro.com^
 ||api.lp.vetcarehospitalveterinario.com.br^
 ||api.lps.vaportec.com.br^
+||api.lrt.lt/pagd/sirens
 ||api.luciovanderlinde.com.br^
 ||api.lumeramadrid.es^
 ||api.lumidashboard.com.br^
@@ -274163,6 +274170,7 @@ zzzyk.com###Tinfo
 ||esogk.frannegolde.com^
 ||esomniture.com^$third-party
 ||esoterictools.com^
+||esotvjhho.com^
 ||esozdcn.icu^
 ||esp.deliciasrentables.com^
 ||espaniapizza.openapp.link^
@@ -276785,6 +276793,7 @@ zzzyk.com###Tinfo
 ||firstbank.fmservice.com^
 ||firstendpoint.com^
 ||firstgb.simplysensitivitychecks.com^
+||firsthoughtstudios.com^
 ||firstpac.actonservice.com^
 ||firstparty.accountable.de^
 ||firstparty.accountable.eu^
@@ -278681,6 +278690,7 @@ zzzyk.com###Tinfo
 ||gaconnector.com^$third-party
 ||gacraft.jp/publish/token.html
 ||gadasource.storage.googleapis.com/ivc.js
+||gadata.motorpresse.de^
 ||gaddet.com/*/event-tracking.js
 ||gadgetboy.net^
 ||gadgets360.com/analytics.js
@@ -292204,6 +292214,7 @@ zzzyk.com###Tinfo
 ||independent.co.uk/_build/prebid_
 ||independent.co.uk/iframe/native-cookiesync-frames.html
 ||independent.co.uk^$cookie=/^esi-/
+||index.hr/api/stats/
 ||index.ru^$third-party
 ||indexstats.com^$third-party
 ||indextools.com^$third-party
@@ -296099,6 +296110,7 @@ zzzyk.com###Tinfo
 ||justconfig.com^
 ||justdial.com/jd-trkr
 ||justfordocs.com^
+||justice.maybeoneday.ch^
 ||justicejudo.com^
 ||justid.io^
 ||justjoin.it^$cookie=userUid
@@ -317366,6 +317378,7 @@ zzzyk.com###Tinfo
 ||nikkei.*/SC/
 ||nikkei.*/SC2/
 ||nikkei.com/.resources/tracking/
+||nikkei.com^$cookie=atlasId
 ||nikkei.com^$removeparam=adid
 ||nikkei.com^$removeparam=i_cid
 ||nikkei.com^$removeparam=n_cid
@@ -318921,6 +318934,7 @@ zzzyk.com###Tinfo
 ||oiwnrl.theory.co.jp^
 ||oix.com^$third-party
 ||oj.brothercloud.com^
+||oj1boygkz.com^
 ||oj2c0dkk4.com^
 ||oj2q8.montecarlosbm.book-secure.com^
 ||oj95rctd5.com^
@@ -319350,6 +319364,7 @@ zzzyk.com###Tinfo
 ||ompol.vitrazza.com^
 ||ompx.shopbop.com^
 ||ompxs.shopbop.com^
+||omr.com/reviews/gtm-
 ||oms.1053rock.ca^
 ||oms.1061chez.ca^
 ||oms.1067rock.ca^
@@ -324889,6 +324904,7 @@ zzzyk.com###Tinfo
 ||pv.zhiding.cn^
 ||pv4b.com^$popup
 ||pv7ezc6as.com^
+||pv848vdcv.com^
 ||pv966.us/js/tw.js
 ||pvaal.freezbone.com^
 ||pvajlmhjjq.xyz^
@@ -326021,6 +326037,7 @@ zzzyk.com###Tinfo
 ||quicklyedit.com^
 ||quickmeme.com/tracker/
 ||quickpcfixer.click^
+||quicktattoo.com^
 ||quicktrick.net^
 ||quiddity.goguardian.com^
 ||quidel.actonservice.com^
@@ -345461,7 +345478,6 @@ zzzyk.com###Tinfo
 ||socialsend.net^
 ||socialtrack.co^$third-party
 ||socialxup.com/api/sale-accounts
-||socialxup.com/api/track
 ||sociaplus.com^$third-party
 ||society.discoverylandco.com^
 ||socital.com^*/socital.js
@@ -384645,6 +384661,7 @@ zzzyk.com###Tinfo
 ||ynudoo.shoeby.nl^
 ||ynumto.targetdeal.ro^
 ||ynvnf.laura-james.co.uk^
+||ynwibbkll.com^
 ||ynwqna.mayblue.co.kr^
 ||ynzhby.com^
 ||ynztzh.com^$third-party
