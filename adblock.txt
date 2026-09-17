@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-17 11:35:11(GMT+8) 
-! Total count: 386236
+! ! Version: 2026-09-18 00:18:24(GMT+8) 
+! Total count: 386243
  
 ###ADtip
 ###Ad_windows
@@ -2177,6 +2177,7 @@ $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|zzzzz688.com
 $websocket,domain=wap.yushuwu.cloud
+$xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|intercelestial.com|lnbz.la|clksz.com
 %2Fevent.gif%3F
 %2Fo.gif&
 %2Fopen.aspx%3F
@@ -213484,7 +213485,6 @@ faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visito
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.landingTime', '$remove$')
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.pagesViewed', '$remove$')
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.trafficSource', '$remove$')
-fcenxe*.top/$script,xmlhttprequest,third-party
 fcw45.com##.bottom-adv
 fcw45.com##div[id^="layui-layer"]
 fdc.com.cn##.yifangbanner
@@ -217140,6 +217140,7 @@ kaoyan.com##.floatQrcode
 kaoyan1v1.com###showAD
 kari.com#%#//scriptlet('set-local-storage-item', 'device_id', '$remove$')
 kari.com#%#//scriptlet('set-local-storage-item', 'rees46_device_id', '$remove$')
+karofilm.ru,cinemastar.ru#%#//scriptlet('set-local-storage-item', 'device_uuid', '$remove$')
 kartell.com#%#//scriptlet('prevent-element-src-loading', 'script', 'vivocha.js')
 kartkingdom.verwin.com$image
 kat.ph,kickass.to,katproxy.com,proxykat.me##.partner1Button
@@ -227479,9 +227480,9 @@ soft98.ir##.shad
 soft98.ir##.shad2
 softblog.tw#@#.dshare
 softpedia.com#@#.ad
-sogi.com.tw##div[class="row my-2 ad-slot-970"]
-sogi.com.tw#?##main > div.container:has(> div#ad)
-sogi.com.tw#?#.editable > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
+sogi.com.tw###main > div.container:has(> div#ad)
+sogi.com.tw##.ad-slot-970
+sogi.com.tw##.editable > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
 sogou.com###PZL
 sogou.com###PZR
 sogou.com###appNewsBtn
@@ -235286,6 +235287,7 @@ zzzyk.com###Tinfo
 ||2xx63f0bfy.com^
 ||2y2lttjs.hair^
 ||2yjw.com/statics/js/jquery.min.
+||2ypqjxnzo.com^
 ||2yqcaqbfnv.nextgen.shareablee.com^
 ||2ytoxb1r7.com^
 ||2zjftxgl5s.com^
@@ -236609,6 +236611,7 @@ zzzyk.com###Tinfo
 ||9544702.kazooby.com^
 ||9553.com/otherhtml/
 ||95590.org/v1.
+||95d684gnf.com^
 ||95k62nnvnh.com^
 ||95ktftpt6.com^
 ||95nedowamy-metrics.bancobmg.com.br^
@@ -243636,7 +243639,6 @@ zzzyk.com###Tinfo
 ||agorahtag.tech^$third-party
 ||agossuoeach.com^
 ||agrak.mojo.shop^
-||agrau.aii.sh^
 ||agreeablearch.com^
 ||agreeabletouch.com^
 ||agreeabletouch.com^$third-party
@@ -246628,6 +246630,7 @@ zzzyk.com###Tinfo
 ||analyticsehnwe.servicebus.windows.net^
 ||analyticsengine.s3.amazonaws.com^
 ||analyticshipaa.cloud.coveo.com^
+||analyticsindiamag.com/~api/analytics|
 ||analyticsip.net^$third-party
 ||analyticsmumbai.abbeyroadinstitute.in^
 ||analyticsnarc.ro.ing.net^
@@ -254241,6 +254244,7 @@ zzzyk.com###Tinfo
 ||browser-fp.production.linktr.ee^
 ||browser-intake-*-datadoghq.com^
 ||browser-intake-datadoghq.com^
+||browser-intake-datadoghq.eu^
 ||browser-intake-datadoghq.eu^$third-party
 ||browser-statistik.de^$third-party
 ||browser-update.org^$third-party
@@ -276116,6 +276120,7 @@ zzzyk.com###Tinfo
 ||fe-go.letv.com^
 ||fe.futuroscope.com^
 ||fe.imdada.cn/meridian/unify.min.js
+||fe7xxmtg3.com^
 ||fea-cfd.simutechgroup.com^
 ||fearfulfish.com^
 ||fearfulmint.com^
@@ -293640,7 +293645,6 @@ zzzyk.com###Tinfo
 ||interactive-circle.jp^$third-party
 ||interakt.ru^$third-party
 ||interaktiv-net.de^$third-party
-||intercelestial.com/*/api/v1/event|
 ||interceptum.com^$third-party
 ||intercom.io/messenger/web/page_view_events
 ||intercomcdn.com/intercom*.js$domain=unblocked.la
@@ -294544,6 +294548,7 @@ zzzyk.com###Tinfo
 ||j1.piaobing.com^
 ||j12eaw9xs.com^
 ||j178.wmur.com^
+||j17xor750.com^
 ||j198.registercitizen.com^
 ||j1bla75rck.com^
 ||j1s956aee8.com^
@@ -305764,7 +305769,6 @@ zzzyk.com###Tinfo
 ||logs.animaapp.com^
 ||logs.appsource.microsoft.com^
 ||logs.betterstack.com^
-||logs.browser-intake-datadoghq.eu^
 ||logs.chatboost-cv.algoage.co.jp^
 ||logs.classdojo.com^
 ||logs.collector.*.cloud.solarwinds.com^
@@ -315334,6 +315338,7 @@ zzzyk.com###Tinfo
 ||mud4.destinia.com.eg^
 ||muddledaftermath.com^
 ||muddledmemory.com^
+||muddlingthroughcode.com^
 ||mudguard68.com^
 ||mudroom.aquadisco.xyz^
 ||muehldorf.patientenformular.info^
@@ -319960,6 +319965,7 @@ zzzyk.com###Tinfo
 ||otioqs.srcasino.es^
 ||otisxx.sullyn.com^
 ||otkhyc.bueromarkt-ag.de^
+||otl.minefun.io^
 ||otlhn.fentybeauty.com^
 ||otlp-http-production.shopifysvc.com/v1/logs|
 ||otlp-http-production.shopifysvc.com/v1/metrics|
@@ -320649,7 +320655,6 @@ zzzyk.com###Tinfo
 ||paginegialle.it/cgi-bin/jimpres.cgi?
 ||paginegialle.it/engagement.js
 ||pagoda56.com^$third-party
-||pahe.plus/*/api/v1/event|
 ||pahkjm.subtypestore.com^
 ||pahtag.tech^$third-party
 ||pahtgq.tech^$third-party
@@ -329171,6 +329176,7 @@ zzzyk.com###Tinfo
 ||s.ofertren.com^
 ||s.officialnanosparkle.com^
 ||s.olyc.nl^
+||s.omsolution.net/omStatApi/
 ||s.opensend.com^
 ||s.orangeville.com^
 ||s.orgatex.com^
@@ -385195,6 +385201,7 @@ zzzyk.com###Tinfo
 ||zdqihl.andre.fr^
 ||zdqlel.restplatzboerse.at^
 ||zdqx.com/statics/v1/images/gif/
+||zdr6wn2f5.com^
 ||zdrg.besafe.com^
 ||zdrg.voksi.com^
 ||zdrnv.yummicandles.ca^
