@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-18 11:20:49(GMT+8) 
-! Total count: 32462
+! ! Version: 2026-09-18 23:53:28(GMT+8) 
+! Total count: 32473
  
 ###ADtip
 ###Ad_windows
@@ -597,6 +597,7 @@
 ##.hbp > .wp_banner
 ##.heg > .div-list
 ##.heg > .partner-list
+##.hg-ssp-slot
 ##.hidden-text + .ad-container
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
@@ -9995,6 +9996,9 @@ huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
 huavod.cc,huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live###hr-notice-box
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.slide-nav-list a[target="_blank"]:not(a[href^="/"])
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.swiper-wrapper > div.swiper-slide:has(a[target="_blank"]:not(a[href^="/"]))
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.weixin
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##body > div[class^="hr-t-"]
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##div[id^="anti-adblock-"]
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('abort-current-inline-script', 'MutationObserver', 'isAdblocked')
@@ -14349,6 +14353,7 @@ tieba.baidu.com##.client_ad_topBanner
 tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
 tieba.baidu.com##.client_ad_topBanner_all
 tieba.baidu.com##.comment-box
+tieba.baidu.com##.download-app-link
 tieba.baidu.com##.father-cut-daoliu-normal-box
 tieba.baidu.com##.father-cut-recommend-normal-box
 tieba.baidu.com##.feed-cut
@@ -14368,6 +14373,7 @@ tieba.baidu.com##.open-app-guide
 tieba.baidu.com##.open-style
 tieba.baidu.com##.operate-btn
 tieba.baidu.com##.operation-chat.wake-app
+tieba.baidu.com##.popover__reference-wrapper
 tieba.baidu.com##.post-cut-guide
 tieba.baidu.com##.post-page-entry-btn
 tieba.baidu.com##.post_client_down
@@ -16600,6 +16606,7 @@ zzzyk.com###Tinfo
 ||2hiu.com^$third-party
 ||2hlcovn7n.com^
 ||2i0lliongn.com^
+||2i93en16s9.com^
 ||2j9banjbst.com^
 ||2jdr5wuyzf.com^
 ||2jse6.icu^
@@ -16682,6 +16689,7 @@ zzzyk.com###Tinfo
 ||33img.com^$domain=18board.com|18p2p.com
 ||33kw1wc58.top^
 ||33mp2fbrns.com^
+||33o5sjd1ao.com^
 ||33shu.net/js/game
 ||3400.org^
 ||34dcvgw197.com^
@@ -16818,6 +16826,7 @@ zzzyk.com###Tinfo
 ||3qtdjf4830.com^
 ||3qx0pnhyzi.com^
 ||3qxsa.cc/js/news2.js
+||3rc04o1rmy.com^
 ||3rs337ci4.com^
 ||3rsppty.cn^
 ||3s7m2ss7g.com^
@@ -27383,6 +27392,7 @@ zzzyk.com###Tinfo
 ||pypwxvo.cn^
 ||pyramid48.com^
 ||pyrfpb.icu^
+||pytm26vg9v.com^
 ||pz0d6zc6n.com^
 ||pzjizsyf.icu^
 ||pzkkot4kn.com^
@@ -30555,6 +30565,7 @@ zzzyk.com###Tinfo
 ||wgoeisdnlk.com^
 ||wgwt5p8.com^
 ||wh2mu9uj5f.com^
+||wh4fd7x7or.com^
 ||whackyvidz.com/Webservices/jsParseLinks.aspx$script,third-party
 ||whackyvidz.com/visitScript/$script,third-party
 ||whazrm9wa.com^
