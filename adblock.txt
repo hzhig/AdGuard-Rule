@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-19 11:17:07(GMT+8) 
-! Total count: 386281
+! ! Version: 2026-09-19 23:25:04(GMT+8) 
+! Total count: 386304
  
 ###ADtip
 ###Ad_windows
@@ -247920,6 +247920,7 @@ zzzyk.com###Tinfo
 ||api.nvidia.partners/telemetry/
 ||api.nxtnbrasil.com.br^
 ||api.oacertocritico.com.br^
+||api.oaistatsig.com/v1/sdk_exception^$xmlhttprequest,domain=chatgpt.com
 ||api.obentopet.com.br^
 ||api.ocarinhadogoogle.com.br^
 ||api.odontologiasinfronteras.com^
@@ -248463,6 +248464,7 @@ zzzyk.com###Tinfo
 ||apm-log-upload-os.hoyoverse.com^
 ||apm-native.redbascket.com^
 ||apm-native.xiaohongshu.com^
+||apm-rum.inf.miui.com^
 ||apm-track.xiaohongshu.com^
 ||apm.infoldgames.com/v1/log/sendtlog
 ||apm.qwant.com^
@@ -257308,7 +257310,9 @@ zzzyk.com###Tinfo
 ||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
 ||chatgpt.com/backend-api/beacons/
+||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||chatgpt.com/backend-api/sentinel/ping
 ||chatgpt.com/ces/*/b|$xmlhttprequest
 ||chatgpt.com/ces/statsc/
@@ -257320,6 +257324,8 @@ zzzyk.com###Tinfo
 ||chatgpt.com/ces/v1/t
 ||chatgpt.com/ces/v1/t$xmlhttprequest,redirect=noopjson
 ||chatgpt.com/ces/v1/telemetry/
+||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
+||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||chatgpt4.gymmembersnow.co^
 ||chatroll.com/t.gif
 ||chaturbate.com/api/adblocker/
@@ -262961,6 +262967,7 @@ zzzyk.com###Tinfo
 ||danpy3riac.com^
 ||danstr.fun^
 ||danv01ao0kdr2.cloudfront.net^
+||dap-cn.c.hihonor.com/dap/jssdk.js
 ||dap.amsterdam.nl^
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||dap.dmm.co.jp/imp?
@@ -269897,6 +269904,7 @@ zzzyk.com###Tinfo
 ||dmpcdn.el-mundo.net^
 ||dmpcloud.net^$third-party
 ||dmpcounter.com^$third-party
+||dmplog.qq.com^
 ||dmpmetrics.rcsmetrics.it^
 ||dmpprof.com^$third-party
 ||dmpxs.com^
@@ -276782,6 +276790,7 @@ zzzyk.com###Tinfo
 ||fjvmj.dilettoso.com^
 ||fjxadi.maxi-pieces-50.fr^
 ||fjzimaoqu.cn^$third-party
+||fk0hwmdoh.com^
 ||fk8k4t55e.com^
 ||fkakp.ekster.com^
 ||fkdaik.lightinthebox.com^
@@ -305798,6 +305807,7 @@ zzzyk.com###Tinfo
 ||logs.dradis.netflix.com^
 ||logs.dynamicauth.com^
 ||logs.gaana.com^
+||logs.game.qq.com^
 ||logs.getfiddler.com^
 ||logs.gshopper.com^
 ||logs.hotstar.com^
@@ -306936,6 +306946,7 @@ zzzyk.com###Tinfo
 ||m1.homeofgolf.com^
 ||m1.jintang114.org^
 ||m1.kuanff.com^
+||m1.lefile.cn/le_sdk/le-shop-track-sdk.js
 ||m1.nn670.com^
 ||m1.stadiumgoods.com^
 ||m1.tourtalbot.org^
@@ -313810,6 +313821,7 @@ zzzyk.com###Tinfo
 ||mialbj6.com^$third-party
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
+||miao.baidu.com/abdr?
 ||miao.baidu.com/abdr?$image
 ||miaoshangmanhua.com/template/pc/skin01/images/250_250.
 ||miaoshu6.com/static/js/read.
@@ -318942,6 +318954,9 @@ zzzyk.com###Tinfo
 ||omgpm.com^$third-party
 ||omgthink.com^
 ||omguk.com^$third-party
+||omgup.didiglobal.com^
+||omgup.xiaojukeji.com^
+||omgup1.xiaojukeji.com^
 ||omhoa.com^
 ||omieuz.razer.ru^
 ||omiki.com^$third-party
@@ -327332,6 +327347,7 @@ zzzyk.com###Tinfo
 ||retail-client-events-service.internal.salsify.com/events
 ||retail-client-events-service.internal.salsify.com^
 ||retail-test.oci.veikkaus.fi^
+||retail.hihonor.com/survey/base/analysis/
 ||retailads.net^$third-party
 ||retailleaders.rila.org^
 ||retailrocket.ru/content/javascript/tracking.js
@@ -339769,6 +339785,7 @@ zzzyk.com###Tinfo
 ||sjryno.fullyloadedchew.com^
 ||sjrzq.oilperfumery.com^
 ||sjsmartcontent.org^$third-party
+||sjujmxg6d.com^
 ||sjv.io^$third-party
 ||sjyhead.icu^
 ||sjyskm.litres.ru^
@@ -355973,6 +355990,7 @@ zzzyk.com###Tinfo
 ||st-fly.b-cdn.net^
 ||st-nlyss.plala.or.jp^
 ||st-nlyss1.plala.or.jp^
+||st-sentinel.vivo.com.cn^
 ||st-wzb.clarin.com/weizenbock/amazon/min.js
 ||st.7figureofferformula.com^
 ||st.aformuladaloja.com.br^
@@ -362050,6 +362068,7 @@ zzzyk.com###Tinfo
 ||stpanalyzis.fernandonunes.co^
 ||stpbraurora.unycosmos.com^
 ||stpbt.softminkyblankets.com^
+||stpc.vivo.com.cn^
 ||stpcadoro.unycosmos.com^
 ||stpcbiblia.cacoelhopersonalizados.com.br^
 ||stpcld.academiadeautomacoes.com.br^
@@ -367680,6 +367699,7 @@ zzzyk.com###Tinfo
 ||tk.cadeaux.com^
 ||tk.conforama.fr^
 ||tk.criandosemcrise.com.br^
+||tk.d.mi.com^
 ||tk.dietbon.fr^
 ||tk.domitys.fr^
 ||tk.dossier.co^
@@ -370649,6 +370669,7 @@ zzzyk.com###Tinfo
 ||track.learningwiththedetailist.com^
 ||track.lemmatechnologies.com^
 ||track.lendcapital.com.br^
+||track.lenovo.com.cn^
 ||track.leregoledelmanzo.com^
 ||track.lesmills.com^
 ||track.leticiazarowny.com.br^
@@ -380495,6 +380516,7 @@ zzzyk.com###Tinfo
 ||wgflkd.gpasplus.com^
 ||wggiud.giordanovini.it^
 ||wghkr.icelinkwatch.com^
+||wgkga5oh0.com^
 ||wgno.com/CvbtpUrj/init.js
 ||wgnrrd.culturekings.com^
 ||wgoeisdnlk.com^
@@ -382452,6 +382474,7 @@ zzzyk.com###Tinfo
 ||wwwmetricssl.visitflorida.com^
 ||wwwstat.rz.uni-leipzig.de^
 ||wwxufo.com^
+||wwyoqaf3g.com^
 ||wwzdid.adzuna.de^
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
