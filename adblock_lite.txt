@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-22 11:28:10(GMT+8) 
-! Total count: 32511
+! ! Version: 2026-09-23 00:20:29(GMT+8) 
+! Total count: 32510
  
 ###ADtip
 ###Ad_windows
@@ -581,7 +581,6 @@
 ##.gggpost-above
 ##.ggpost-below
 ##.ggtop
-##.ggw
 ##.global_video_bottom_dbtc
 ##.google-ad2_fixed
 ##.google_adsense2
@@ -637,8 +636,6 @@
 ##.jsv > .mobile-adv
 ##.jsv-layer > .image > a[href^="http"]
 ##.jtAms_container > .count_a
-##.kkb-href
-##.kkm-href
 ##.ksads
 ##.kuandu > .bottommob
 ##.leftadv
@@ -804,7 +801,6 @@
 ##.tjtagmanager[data-ad_id]
 ##.tmall_ad_container
 ##.tmall_bg15
-##.tooltip > #tp
 ##.top-gg
 ##.top-read-ad
 ##.topSponsor
@@ -1358,8 +1354,8 @@
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 ##body .has-ad
-##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
-##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
+##body > #__nuxt:first-child > div > .container > div[data-topmenu] + div + div[data-pg-wrap]
+##body > #__nuxt:first-child ~ div[data-tag] > div > div > button[aria-label] + div[class]
 ##body > .app + #htmlContenthtml
 ##body > .dbfh
 ##body > .zdhf
@@ -1978,7 +1974,6 @@ $websocket,domain=wap.yushuwu.cloud
 /527ldy.oss-
 /5555vipqipai.oss-
 /58pic/index.php?m=adManageSystem&
-/5ixcmbwj/js/ad.js
 /640_120_javhd.jpg
 /69tang6_*/html/abc/image/*
 /7755com-*00x*.gif
@@ -4221,6 +4216,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://*btbtt.*/view/image/QT_
 ://*mp4*/js/wcount.js$~third-party
 ://8ox.cn/$third-party
+://ads-img2026.
 ://api.*.com/sh/*.js$script,third-party
 ://btt*/Runtime/js/psData.
 ://dmhy.gate.*/*.*?$image
@@ -15330,13 +15326,7 @@ xbgame.net#@#.google-ads
 xbiquwx.la##.box_con > div[style="margin:10px auto;width: 930px;height: 250px;"]
 xblian.com##img[alt*="广告"]
 xboxforum.pl##.noticeContainer:not(.hidden)
-xc6b.com###leftbottbox
-xc6b.com###rightbottbox
-xc6b.com###sidebar > .box-b img
-xc6b.com##.activity-box
-xc6b.com##.chao_ggw
-xc6b.com##.navbar + .clearfix
-xc6b.com##a[href="http://61.160.236.52"]
+xc6b.com##.cHeadImg
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
@@ -16245,6 +16235,7 @@ zzzyk.com###Tinfo
 ||129esrd5q5.com^
 ||12img.com/ad/
 ||12ypksztq.com^
+||12yr3wkwi5.com^
 ||131458.com/union/
 ||131r3lknzg.com^
 ||1328f.com/js/jquery.js
@@ -17801,6 +17792,7 @@ zzzyk.com###Tinfo
 ||9ma1sr1tb1.com^
 ||9mdg9cu59.com^
 ||9miwo.com^
+||9nwplq7y2o.com^
 ||9nzrfglryy.com^
 ||9obmf866d.com^
 ||9odes.ltd^
@@ -20339,6 +20331,8 @@ zzzyk.com###Tinfo
 ||com052bin.com^
 ||comedy34.com^
 ||comefromchina.com/images/128bestbuy
+||comicbox.xyz/getAdsData
+||comicbox.xyz/static/js/ad-manager.
 ||comm100.cn/livechatserver/chatbutton.*&res=
 ||commdata.v.qq.com^
 ||commondata.oss-cn-hangzhou.aliyuncs.com^
@@ -22898,6 +22892,7 @@ zzzyk.com###Tinfo
 ||hao123union.baidu.com^$third-party
 ||hao5.net/images/*0-
 ||hao6v.com/d/
+||haobax.com/ad
 ||haochi123.com/J_Box/Inc_
 ||haofs.com/haofs/ggapi.asp
 ||haogushi88.cc/static/simple/yue
@@ -24659,6 +24654,7 @@ zzzyk.com###Tinfo
 ||kasgnh7xwl.com^
 ||kasiklz.cc^
 ||katelin.top^
+||kavxx.com^
 ||kawf.cn^
 ||kayege.org/js/
 ||kazigua.top^
@@ -25308,6 +25304,7 @@ zzzyk.com###Tinfo
 ||lmtruueagl.com^
 ||lmx7.com^
 ||lmxxxz.com^
+||ln3v4pjf1h.com^
 ||lnaevr.fun^
 ||lnd.com.cn/sys/real_calc.js
 ||lnfmhl.icu^
@@ -26539,6 +26536,7 @@ zzzyk.com###Tinfo
 ||nwbuhr.icu^
 ||nweon.com/wp-content/repo/ad/
 ||nwera.xyz^
+||nwhdrmll9l.com^
 ||nwholf.icu^
 ||nwq7zxf6jt.com^
 ||nws5ay4cr2.com^
@@ -26890,6 +26888,7 @@ zzzyk.com###Tinfo
 ||p4dc8ve6i.com^
 ||p4p.sina.com.cn^
 ||p52q.cn^
+||p5doaulee2.com^
 ||p5si0mu8u7.com^
 ||p66jed4iv.com^
 ||p6q6qpze3f.com^

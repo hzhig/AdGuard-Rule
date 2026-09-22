@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-22 11:28:10(GMT+8) 
-! Total count: 386380
+! ! Version: 2026-09-23 00:20:29(GMT+8) 
+! Total count: 386384
  
 ###ADtip
 ###Ad_windows
@@ -586,7 +586,6 @@
 ##.gggpost-above
 ##.ggpost-below
 ##.ggtop
-##.ggw
 ##.global_video_bottom_dbtc
 ##.google-ad2_fixed
 ##.google_adsense2
@@ -642,8 +641,6 @@
 ##.jsv > .mobile-adv
 ##.jsv-layer > .image > a[href^="http"]
 ##.jtAms_container > .count_a
-##.kkb-href
-##.kkm-href
 ##.ksads
 ##.kuandu > .bottommob
 ##.leftadv
@@ -811,7 +808,6 @@
 ##.tjtagmanager[data-ad_id]
 ##.tmall_ad_container
 ##.tmall_bg15
-##.tooltip > #tp
 ##.top-gg
 ##.top-read-ad
 ##.topSponsor
@@ -1371,8 +1367,8 @@
 ##a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 ##amp-embed[type="taboola"]
 ##body .has-ad
-##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
-##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
+##body > #__nuxt:first-child > div > .container > div[data-topmenu] + div + div[data-pg-wrap]
+##body > #__nuxt:first-child ~ div[data-tag] > div > div > button[aria-label] + div[class]
 ##body > .app + #htmlContenthtml
 ##body > .dbfh
 ##body > .zdhf
@@ -2917,7 +2913,6 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|intercelestial.
 /527ldy.oss-
 /5555vipqipai.oss-
 /58pic/index.php?m=adManageSystem&
-/5ixcmbwj/js/ad.js
 /640_120_javhd.jpg
 /69tang6_*/html/abc/image/*
 /7755com-*00x*.gif
@@ -3809,6 +3804,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|intercelestial.
 /bluekai.js
 /bluekai.min.js
 /blxn_*_*_*?*$third-party
+/bmo.mercari.jp/?s=$image
 /bmqp6001-
 /bmqp6002-
 /bom/analytics/*
@@ -7728,7 +7724,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|intercelestial.
 10jqka.com.cn,18183.com,actoys.net,beijing-air.com,bio1000.com,foodmate.net,gter.net,hepuwang.com,jjwxc.net,ncdiy.com,qingdaonews.com,tgbus.com##.ad1
 10jqka.com.cn,faxingw.cn,gdmm.com#@#.ad_1
 10jqka.com.cn,hepan.com##.onead
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11005.sock-qa1.marketingcloudqaops.com$image
 11018.sock-qa1.marketingcloudqaops.com$image
 11055.connector-qa1.marketingcloudqaapis.com$image
@@ -11627,6 +11623,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|intercelestial.
 ://a.klaviyo.com^
 ://a02342.
 ://a869.$~image
+://ads-img2026.
 ://analytics-beacon.
 ://analytics-cdn.
 ://analytics.*/collect
@@ -17439,7 +17436,7 @@ akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylive.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,masslive.com,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,silive.com,sporcle.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylive.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,masslive.com,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,silive.com,sporcle.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -23965,6 +23962,7 @@ com-com-i-sub-demo-p-pro-bhyktzus.email.rycofilters.com$image
 com.tw###space > a[target="_blank"] > img[width="160"]
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
 com:8891/c.php?s=*$third-party
+comed.com#%#//scriptlet('set-constant', 'setupGoogleAnalytics', 'noopFunc')
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 comic.qq.com###fixed_right > div
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com,zhanzhangb.com##a[href*=".jd.com"]
@@ -233667,13 +233665,7 @@ xbgame.net#@#.google-ads
 xbiquwx.la##.box_con > div[style="margin:10px auto;width: 930px;height: 250px;"]
 xblian.com##img[alt*="广告"]
 xboxforum.pl##.noticeContainer:not(.hidden)
-xc6b.com###leftbottbox
-xc6b.com###rightbottbox
-xc6b.com###sidebar > .box-b img
-xc6b.com##.activity-box
-xc6b.com##.chao_ggw
-xc6b.com##.navbar + .clearfix
-xc6b.com##a[href="http://61.160.236.52"]
+xc6b.com##.cHeadImg
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
@@ -234739,6 +234731,7 @@ zzzyk.com###Tinfo
 ||12build.actonservice.com^
 ||12img.com/ad/
 ||12ypksztq.com^
+||12yr3wkwi5.com^
 ||131458.com/union/
 ||131r3lknzg.com^
 ||1328f.com/js/jquery.js
@@ -236758,6 +236751,7 @@ zzzyk.com###Tinfo
 ||9mdg9cu59.com^
 ||9miwo.com^
 ||9nl.eu^$third-party
+||9nwplq7y2o.com^
 ||9nzrfglryy.com^
 ||9obmf866d.com^
 ||9odes.ltd^
@@ -259363,6 +259357,8 @@ zzzyk.com###Tinfo
 ||comfy.ua/api/auth/v*/gtm/
 ||comic-rocket.com/metrics.js
 ||comic.naver.com/ad/flex/stats.nhn
+||comicbox.xyz/getAdsData
+||comicbox.xyz/static/js/ad-manager.
 ||comitiumanalytics.com^$third-party
 ||comm.toro.com^
 ||comm100.cn/livechatserver/chatbutton.*&res=
@@ -274540,6 +274536,7 @@ zzzyk.com###Tinfo
 ||eurotax-si.autovistagroup.com^
 ||eurotax-sk.autovistagroup.com^
 ||eurotaxsrbija-si.autovistagroup.com^
+||eurozpravy.cz/js/matomo-events.js
 ||eusdbk.philosophyofficial.com^
 ||eusuperior.metodoeusuperior.com.br^
 ||eutme.livewellandfully.com^
@@ -277224,6 +277221,7 @@ zzzyk.com###Tinfo
 ||foot.wiki^$all
 ||footballmedal.com^
 ||footballmedia.com/tracking/
+||footmercato.net/lib/prebid$script
 ||footprint.frizznflame.com^
 ||footprintdns.com^$third-party
 ||footprintlive.com^$third-party
@@ -288192,6 +288190,7 @@ zzzyk.com###Tinfo
 ||hao123union.baidu.com^$third-party
 ||hao5.net/images/*0-
 ||hao6v.com/d/
+||haobax.com/ad
 ||haochi123.com/J_Box/Inc_
 ||haoexw.buysellonline.jp^
 ||haofs.com/haofs/ggapi.asp
@@ -296381,6 +296380,7 @@ zzzyk.com###Tinfo
 ||kaufland.de/uts/events/
 ||kauvqr.schulteherenmode.nl^
 ||kavijaseuranta.fi^$third-party
+||kavxx.com^
 ||kawf.cn^
 ||kawqwgpq.onzezorg.be^
 ||kawzyk.greant.co.kr^
@@ -300187,6 +300187,7 @@ zzzyk.com###Tinfo
 ||lmzyh.adanola.com^
 ||ln.ameba.jp^
 ||ln.loudnoise.nl^
+||ln3v4pjf1h.com^
 ||lnaevr.fun^
 ||lnd.com.cn/sys/real_calc.js
 ||lndata.com^$third-party
@@ -318118,6 +318119,7 @@ zzzyk.com###Tinfo
 ||nwera.xyz^
 ||nwfkjx.gadventures.com^
 ||nwgo.tylertech.com^
+||nwhdrmll9l.com^
 ||nwholf.icu^
 ||nwinfo.marshmma.com^
 ||nwkcdv.pandapiac.hu^
@@ -320476,6 +320478,7 @@ zzzyk.com###Tinfo
 ||p52q.cn^
 ||p543.inquirer.com^
 ||p593.seattlepi.com^
+||p5doaulee2.com^
 ||p5mcwdbu.ginzo-buy.jp^
 ||p5si0mu8u7.com^
 ||p644.thereporter.com^
@@ -361962,6 +361965,7 @@ zzzyk.com###Tinfo
 ||stopify.co^$all
 ||stopstomach.com^
 ||storage.eko.com/efu/ekoanalytics/
+||storage.googleapis.com/*/js/comscore.js
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/builder-preview/iframe/pixel.js
 ||storage.googleapis.com/cdn2.guard.io/webflow/tracking-grd.js
