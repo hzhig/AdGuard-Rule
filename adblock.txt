@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-23 00:20:29(GMT+8) 
-! Total count: 386384
+! ! Version: 2026-09-23 11:29:03(GMT+8) 
+! Total count: 386401
  
 ###ADtip
 ###Ad_windows
@@ -1705,6 +1705,8 @@ $cookie=__gpi
 $cookie=__igaw__adid
 $cookie=__kla_id
 $cookie=__kla_session
+$cookie=__oailb,domain=chatgpt.com|openai.com
+$cookie=__obref
 $cookie=__pulseEnvironmentId
 $cookie=__pvi
 $cookie=__qca
@@ -4692,6 +4694,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|intercelestial.
 /global_tracking.js
 /gmu-download.oss-
 /gmu-download.oss-$image,redirect-rule=1x1-transparent.gif,domain=voflix.vip
+/go.email.fly.io/e/o/*$image
 /go.news.fly.io/e/o/*$image
 /goAnalytics.js
 /google-analyticator/*$script
@@ -260581,6 +260584,7 @@ zzzyk.com###Tinfo
 ||countit.ch^$third-party
 ||countly-
 ||countly.
+||countly.mail.163.com^
 ||countnow.de^$third-party
 ||counto.de^$third-party
 ||countok.de^$third-party
@@ -261158,6 +261162,7 @@ zzzyk.com###Tinfo
 ||cst.chalkys.com^
 ||cst.docciatime.it^
 ||cst.maracarol.it^
+||cstaticdun.126.net^
 ||cstats.sankakucomplex.com^
 ||cstm.baidu.com^
 ||cstream.wi-fi.ru/csc-event$domain=wi-fi.ru
@@ -262963,6 +262968,7 @@ zzzyk.com###Tinfo
 ||dampdock.com^
 ||damselfly.vegenook.com^
 ||dan-ball.jp/*/img.gif$image,redirect=1x1-transparent.gif,domain=dan-ball.jp,important
+||dan4irc1i.com^
 ||danatrak.com^
 ||danawa.com/logger/
 ||danawa.com^$cookie=/_INSIGHT_CK_/
@@ -291092,6 +291098,7 @@ zzzyk.com###Tinfo
 ||im-x.jd.com^
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 ||im.cbsileads.com^$third-party
+||im.np-payment-gateway.com/bff/atone/event/tracking
 ||im0st6rwn.com^
 ||im25r8olb.com^
 ||im286.net/286/
@@ -313903,6 +313910,7 @@ zzzyk.com###Tinfo
 ||microsoft.com/library/svy/broker.js
 ||microsoft.eventionapp.com^
 ||microware.actonservice.com^
+||microwave97.com^
 ||micstatic.com/common/js/business/global/sensors_track.js$script,domain=made-in-china.com
 ||midas-i.com^$third-party
 ||midas.chase.com^
@@ -327125,6 +327133,7 @@ zzzyk.com###Tinfo
 ||repian.com/a/
 ||repixel.co^$third-party
 ||replaceroute.com^
+||replantable.com^
 ||replay.reviews.io^
 ||replayapp.io/collect/
 ||replaybird.com^$third-party
@@ -328288,6 +328297,7 @@ zzzyk.com###Tinfo
 ||rsra.cdn-fileserver.com^
 ||rsras-ph.cdn-fileserver.com^
 ||rsras.cdn-fileserver.com^
+||rsrldrnubehntu.com^
 ||rsrnht.sediadaufficio.it^
 ||rss-loader.com/track/
 ||rssaa.shinemirrors.com.au^
@@ -339495,6 +339505,7 @@ zzzyk.com###Tinfo
 ||silentjackal.com^
 ||silentsingle.com^
 ||siliconslow.com^
+||siliconuser.com^
 ||silimbompom.com^$third-party
 ||silkworm.boxmood.be^
 ||silkworm.margrietprinssen.nl^
@@ -340167,6 +340178,7 @@ zzzyk.com###Tinfo
 ||smart62.lplnow.com^
 ||smart98.lplnow.com^
 ||smartbrokerplus.de/_ingenious-script.js
+||smartbuildnow.com^
 ||smartcallback.ru^
 ||smartcam.adt-worldwide.com^
 ||smartcard.apps.coloros.com^
@@ -346307,6 +346319,7 @@ zzzyk.com###Tinfo
 ||spiffymachine.com^
 ||spigte.shopee.tw^
 ||spike.email-disney.cjm.adobe.com^
+||spin.bergfreunde.*/wt?$image
 ||spindl.link/events
 ||spindl.link^
 ||spinmedia.com/clarity.min.js
@@ -359872,6 +359885,7 @@ zzzyk.com###Tinfo
 ||stat.ws.126.net^
 ||stat.xgo.com.cn^
 ||stat.y.qq.com^
+||stat.youpin.mi.com^
 ||stat.yunfan.com^
 ||stat.zol.com.cn^
 ||stat1.clickfraud.ru^
@@ -360313,6 +360327,7 @@ zzzyk.com###Tinfo
 ||stats.bertwagner.com^
 ||stats.bestasciitable.com^
 ||stats.bestservers.co^
+||stats.betternet.de^
 ||stats.bever.nl^
 ||stats.beyond-grace.co.uk^
 ||stats.beyondthesprawl.com^
@@ -361962,6 +361977,7 @@ zzzyk.com###Tinfo
 ||stonepole.com^
 ||stonetumble.com^
 ||stopadblock.org/adblocker-deaktivieren$subdocument
+||stopcast.net^
 ||stopify.co^$all
 ||stopstomach.com^
 ||storage.eko.com/efu/ekoanalytics/
@@ -368366,6 +368382,7 @@ zzzyk.com###Tinfo
 ||tongji.90dao.com^$ping
 ||tongji.duote.com^
 ||tongji.mafengwo.cn^
+||tongji.meizu.com^
 ||tongji.techweb.com.cn^
 ||tongji.trafficmanager.net/?
 ||tongji.xinmin.cn^
