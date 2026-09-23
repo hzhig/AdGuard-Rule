@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-23 11:29:03(GMT+8) 
-! Total count: 386401
+! ! Version: 2026-09-24 00:10:36(GMT+8) 
+! Total count: 386414
  
 ###ADtip
 ###Ad_windows
@@ -14115,7 +14115,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|intercelestial.
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|gamelog.apexlegends-leaksnews.com|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|wps.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|farmaciabolli1833.it|game.anymanager.io|gamelog.apexlegends-leaksnews.com|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|msm-wroclaw.pl|nihontsushin.com|o2.co.uk|oko.sh|oxylabs.io|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|proxyorb.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|wps.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
@@ -17627,6 +17627,7 @@ app.mellstroy.website$image
 app.midiavip.com$image
 app.n26.com#@#.bl > .gg
 app.petersonscandies.com$image
+app.socios.com#%#//scriptlet('set-local-storage-item', 'deviceId', '$remove$')
 app.spectacularacademy.com$image
 app.tirelocator.ca#%#//scriptlet("set-constant", "googleAnalyticsEnhancedTrackEvent", "noopFunc")
 app.tirelocator.ca#%#//scriptlet("set-constant", "googleAnalyticsEnhancedTrackPageview", "noopFunc")
@@ -235989,6 +235990,7 @@ zzzyk.com###Tinfo
 ||5ips.net/love/
 ||5j45n3f6r.com^
 ||5jgwflo4y935b8udrp.www.pmn-nerez.cz^
+||5jj6zcxpo.com^
 ||5k1cyldc9.com^
 ||5kjpa028wo.com^
 ||5kmp7.top^
@@ -246358,6 +246360,7 @@ zzzyk.com###Tinfo
 ||analytics.spark.co.nz^
 ||analytics.spearly.com^
 ||analytics.sportera.fans^
+||analytics.sportigio.com^
 ||analytics.sports.ru^
 ||analytics.sposadeste.com^
 ||analytics.spun.com.br^
@@ -252333,6 +252336,7 @@ zzzyk.com###Tinfo
 ||beam.mjhlifesciences.com^
 ||beam.remp.impresa.pt^
 ||beam.remp.nv.ua^
+||beam.telegram.hr^
 ||beam.telex.hu^
 ||beamanalytics.b-cdn.net^
 ||beampulse.com^$third-party
@@ -255364,6 +255368,7 @@ zzzyk.com###Tinfo
 ||campaign.shl.com^
 ||campaign.ssab.com^
 ||campaign.tandemdiabetes.com^
+||campaign.telegram.hr^
 ||campaign.viessmann-cold.com^
 ||campaigncog.com^$third-party
 ||campaigninfo.motorolasolutions.com^
@@ -270904,6 +270909,7 @@ zzzyk.com###Tinfo
 ||duthc.drshumardworkshop.com^
 ||dutils.com^
 ||duu8lzqdm8tsz.cloudfront.net^
+||duvkog4eyegl0.cloudfront.net^
 ||duvm2tveip.com^
 ||duxingangtiaoban.com^
 ||duyewnf.icu^
@@ -289947,6 +289953,7 @@ zzzyk.com###Tinfo
 ||huakai2025.com/color.js
 ||huananxs.top/static/jp/js/ad
 ||huancaicp.com/?pid=$popup
+||huangguo.me/static/js/linePromo.
 ||huanjugu.com/dm
 ||huanle97.com^
 ||huanqiu.com/resource/js/base
@@ -327500,6 +327507,7 @@ zzzyk.com###Tinfo
 ||revotas.com^$third-party
 ||revprotect.com^$third-party
 ||revuyt.misako.com^
+||rewardangels.com^
 ||rewards-my.greateasternlife.com^
 ||rewards-sg.greateasternlife.com^
 ||rewards.parago.com^
@@ -350560,6 +350568,7 @@ zzzyk.com###Tinfo
 ||ssl.appliedclinicaltrialsonline.com^
 ||ssl.brandlicensing.eu^
 ||ssl.cbinet.com^
+||ssl.ceneo.pl/ct/
 ||ssl.citgo.com^
 ||ssl.directferries.com/secure/ws/adtracking.asmx/
 ||ssl.findpharma.com^
@@ -364070,6 +364079,7 @@ zzzyk.com###Tinfo
 ||t.fiteg2.com^
 ||t.fitpolostore.com^
 ||t.flexiwork.se^
+||t.flickr.com^
 ||t.flix360.com^
 ||t.foapom.com^
 ||t.fordidahocenter.com^
@@ -371444,6 +371454,7 @@ zzzyk.com###Tinfo
 ||tracker.stileo.it^
 ||tracker.str-nrg.com^
 ||tracker.swedish.org^
+||tracker.telegram.hr^
 ||tracker.thinkermail.com^
 ||tracker.thinkermail.com^$third-party
 ||tracker.thinkindot.com^
@@ -373157,6 +373168,7 @@ zzzyk.com###Tinfo
 ||training.hager.co.uk^
 ||training.indigobusiness.co.uk^
 ||training.thunderhead.com^
+||trainingreality.com^
 ||traka8.crypto-mall.org^
 ||traker.fundacoessemcomplicacoes.com.br^
 ||traker.karenrosebusiness.com.br^
@@ -386060,6 +386072,7 @@ zzzyk.com###Tinfo
 ||zrgbh6bm.icu^
 ||zrgnoey.icu^
 ||zrgwgd.sake100.com^
+||zri2wv8u1.com^
 ||zrjllb.zeb.be^
 ||zrjr81na94.com^
 ||zrjvg.splits59.com^
