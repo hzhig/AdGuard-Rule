@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-25 00:33:40(GMT+8) 
-! Total count: 386438
+! ! Version: 2026-09-25 11:36:14(GMT+8) 
+! Total count: 386451
  
 ###ADtip
 ###Ad_windows
@@ -12763,6 +12763,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.c
 @@||book.com.tw/image/getImage?
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bookoffonline.co.jp/files/tracking/ac/clicktag.js$~third-party
+@@||bookshop.org/astro-assets/google-analytics.*.js$domain=bookshop.org
 @@||bookwalker.com.tw/images/p_img/pc_ad*.png$~third-party
 @@||bootcss.com^$script,domain=kan-tv.com
 @@||bose.tt.omtrdc.net/*/bose/mbox/json?$domain=bose.fr
@@ -12956,6 +12957,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.c
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
 @@||cdn.dimml.io/static/*.js$domain=consumentenbond.nl
 @@||cdn.dynamicyield.com^$domain=dafiti.com.co
+@@||cdn.engagement.coremedia.cloud^$domain=flytap.com
 @@||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$script,domain=homedepot.ca
 @@||cdn.facil-iti.app/tags/faciliti-tag.min.js$script,domain=apec.fr|kyoto.travel
 @@||cdn.georiot.com/snippet.js$domain=techadvisor.co.uk
@@ -250607,7 +250609,6 @@ zzzyk.com###Tinfo
 ||atlanticlabequipment.actonservice.com^
 ||atlas.rambler.ru/metrics
 ||atlas1.krone.at^
-||atlassian.com/gateway/api/*/batch
 ||atlastravel.actonservice.com^
 ||atlasworldusa.actonservice.com^
 ||atlihk.dukeanddexter.com^
@@ -259507,6 +259508,7 @@ zzzyk.com###Tinfo
 ||comparis.ch/comparis/Tracking/
 ||compass.mhc.net^
 ||compass.munsonhealthcare.org^
+||compass12.top^
 ||compendiumblog.com/sp.js
 ||competitoor.com/analytics/
 ||compilework.com^
@@ -290929,6 +290931,7 @@ zzzyk.com###Tinfo
 ||ih336.com^*a.js
 ||iha.com.tr/track.php^
 ||ihaau.growthbomb.com^
+||ihbkqdj55.com^
 ||ihbov.cycologygear.eu^
 ||ihbrba.parkerthatch.com^
 ||ihc.cellmarque.com^
@@ -297423,6 +297426,7 @@ zzzyk.com###Tinfo
 ||ktdlsb.com^
 ||ktgpgoa.top^
 ||ktgth.sokolovelaw.com^
+||ktgyslaux8.com^
 ||ktgzmn.lcdwandhalter.de^
 ||kthjuw.lyst.com.au^
 ||kthul22k2z.com^
@@ -320499,6 +320503,7 @@ zzzyk.com###Tinfo
 ||p2xe0.ekukka.fi^
 ||p3-be-pack-sign.pglstatp-toutiao.com^
 ||p30rank.ir^$third-party
+||p3ter.fr/modules/statistics/
 ||p3tq.pandasuite.io^
 ||p43c4oysmb.com^
 ||p4dc8ve6i.com^
@@ -327713,6 +327718,7 @@ zzzyk.com###Tinfo
 ||riarx.shokherborka.com^
 ||riastats.com^$third-party
 ||riaway.com/statics/idea.jpg
+||rib0nsgx6.com^
 ||ribbf.511tactical.com^
 ||ric.arrive-im-herzogpark.de^
 ||ric.riedel-immobilien.de^
@@ -345425,6 +345431,7 @@ zzzyk.com###Tinfo
 ||solaron.top^
 ||solarrecharge.net^
 ||solarwinds.com/ra-$script
+||soldoutstubs.com^
 ||sole.bkosmetik.com^
 ||sole.pretto.fr^
 ||sole.riverwalkdental.com.au^
@@ -361733,6 +361740,7 @@ zzzyk.com###Tinfo
 ||status-un.trafficmanager.net^
 ||status.acutx.org^
 ||status.langnite.pl^
+||status.tbank-online.com/front/log/
 ||statuscake.com^$third-party
 ||statusinside.com^
 ||statuspage.io/embed/frame
@@ -362835,6 +362843,7 @@ zzzyk.com###Tinfo
 ||suning.com/getCpcDatas?
 ||sunios.de^$third-party
 ||sunlightmetrics.b-cdn.net^
+||sunlong.net^
 ||sunnylettings.com^
 ||suno.com/9i3s/
 ||sunofbeaches.com/ast/assistant/ad-item/
@@ -377345,6 +377354,7 @@ zzzyk.com###Tinfo
 ||uzghm.hufworldwide.com^
 ||uzhobt.wholesalemarine.com^
 ||uzhpky.j-lounge.jp^
+||uzhrtuyij.com^
 ||uzhrup.decoweb.com^
 ||uzipbs.weltbild.ch^
 ||uzjfuc.millesima.de^
@@ -378445,6 +378455,7 @@ zzzyk.com###Tinfo
 ||vlion.cn^$third-party
 ||vlive.tv/logging
 ||vljfo.lanimal.co^
+||vljyztqsnkhvra.com^
 ||vllsuv.skatedeluxe.com^
 ||vlmczg.primrose-awnings.co.uk^
 ||vlmmbr.4graph.it^
@@ -380274,6 +380285,7 @@ zzzyk.com###Tinfo
 ||websitesdude.com^
 ||websitewelcome.com^$third-party
 ||websolutions.it/statistiche/
+||webspa.net^
 ||webspectator.com^$third-party
 ||webspires.net^
 ||webstat.4music.com^
@@ -380460,6 +380472,7 @@ zzzyk.com###Tinfo
 ||weeb.weebystitches.com^
 ||weedmaps.com/pixel?
 ||weekand.com/413gkwMT/init.js
+||weeklycurrents.com^
 ||weem.weemco.com^
 ||wefk2dgegr.com^
 ||wefoidnknsl.net^
