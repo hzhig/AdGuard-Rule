@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-25 11:36:14(GMT+8) 
-! Total count: 32537
+! ! Version: 2026-09-26 00:37:22(GMT+8) 
+! Total count: 32542
  
 ###ADtip
 ###Ad_windows
@@ -1597,7 +1597,7 @@ $script,third-party,denyallow=unpkg.zhihu.com,domain=52niuyan.cc
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
-$script,third-party,domain=xunleisou.info|xunleisou.life|xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.cc
+$script,third-party,domain=xunleisou.info|xunleisou.life|xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|mvffm.net|xiaoheimi.cc
 $script,third-party,websocket,domain=52codes.net
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -4869,7 +4869,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.chatytvgratis.me/ads/ads.php?$domain=cineplanet21.com
 @@||cdn.chatytvgratis.me/ads/ads2.php?$domain=cineplanet21.com
 @@||cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js$script
-@@||cdn.jsdelivr.net^$script,domain=movieffm.net
+@@||cdn.jsdelivr.net^$script,domain=mvffm.net
 @@||cdn.needrom.com/advert3.js$script
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.oriel.io/ads/$xmlhttprequest,domain=gogi.in
@@ -4879,7 +4879,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.sssam.com/static/js/*.js
 @@||cdn.staticfile.org^$domain=aoi.hugemaker.com.cn
 @@||cdn.staticfile.org^$domain=lakyworld.com|biquge77.net|yzbg.net|alexij.net|hshfm.com|biqiuge5.org|49gtk.cc|20me.net|fbqg.cc|xianguke.net|tellgillian.com|m-ia.net|cleavagecoverup.com|memduh.net|56xiaoshuo.net|yourbiquge.com|00ksw.com|147xiaoshuo.com|bxwx.live|lzbao.net
-@@||cdn.staticfile.org^$script,domain=movieffm.net
+@@||cdn.staticfile.org^$script,domain=mvffm.net
 @@||cdn.theguardian.tv/ad/*.m3u8$domain=theguardian.com
 @@||cdn3.iplex.pl/iplex3/static/js/ads.js$script
 @@||cdnads.com^$image,subdocument,domain=bitzfree.com
@@ -16036,6 +16036,7 @@ zzzyk.com###Tinfo
 ||0aokpbwui.com^
 ||0b6rvr210q.com^
 ||0bb8jytek.com^
+||0bhl1k9hi.com^
 ||0c484j022z.com^
 ||0d1oo8jp69.com^
 ||0dy3evz6x.com^
@@ -16766,6 +16767,7 @@ zzzyk.com###Tinfo
 ||3boys2girls.com^$subdocument
 ||3cbxqifhd.com^
 ||3czol.com/ad/
+||3d2uemn8c.com^
 ||3dle4u60y7.com^
 ||3dmax8.com/atu4/
 ||3dmax8.com/jiaoche
@@ -21202,6 +21204,7 @@ zzzyk.com###Tinfo
 ||dshapv.xyz^
 ||dshsnxfcjwdhpe.com^
 ||dslenggui.com^
+||dsm3y3tl4.com^
 ||dsp.ali213.net^
 ||dsp.lenovo.com.cn^*&clientType=api|
 ||dsqzk.cn^
@@ -21742,6 +21745,7 @@ zzzyk.com###Tinfo
 ||f17hdccbws.com^
 ||f1jonnzc8.com^
 ||f1tfmxzg.icu^
+||f1x12og38.com^
 ||f20hgvkx7r.com^
 ||f20r1b13iw.com^
 ||f23jjd8.xyz^
@@ -22275,6 +22279,7 @@ zzzyk.com###Tinfo
 ||gchk5bcnaz.com^
 ||gcjg3ry7m.com^
 ||gcqciiqk.com^
+||gcvns12jp.com^
 ||gcw*.2liang.cn^
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd.189.cn*/push/$popup
@@ -23487,7 +23492,6 @@ zzzyk.com###Tinfo
 ||i12het785.com^
 ||i14laze0.xyz^
 ||i16vlgqdhh.com^
-||i1fqn4bnkh37ywbx.cfd^
 ||i2fxsez4f0.com^
 ||i2t1zp6t2v.com^
 ||i2ye9dnle.com^
@@ -29794,6 +29798,7 @@ zzzyk.com###Tinfo
 ||u7s546.com^
 ||u7u9.com^$third-party
 ||u7ugo0jr3.com^
+||u8jlui323.com^
 ||u8rnuky6e.com^
 ||u90p9zk9r7.com^
 ||uaa.com/js/dxj.
