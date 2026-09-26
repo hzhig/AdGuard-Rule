@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-26 11:41:55(GMT+8) 
-! Total count: 386469
+! ! Version: 2026-09-26 23:51:20(GMT+8) 
+! Total count: 386477
  
 ###ADtip
 ###Ad_windows
@@ -16300,7 +16300,6 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.c
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.cloudflareinsights.com^$domain=quasarzone.com,script
 @@||static.criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
-@@||static.criteo.net/js/ld/publishertag.prebid.js$domain=powerwatch.jp
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||static.filmon.com/ad/affiliateimages/banner-250x350.png
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
@@ -226833,6 +226832,7 @@ rwvtest.hippinopages.com$image
 rychlost.cz###cpcbsd9z1
 s.m2pub.com###adk2_img
 s.response.jp##.aside-box-relation-arti
+s.response.jp##.vsi-pickup-list
 s.sbnation.com$image
 s5sender.usertesting.com$image
 s7vuvj55c5ruzkxm.cloud.s11.sfmc-osl.com$image
@@ -235561,6 +235561,7 @@ zzzyk.com###Tinfo
 ||3t769up6.com^
 ||3tand.werkenbijneptunus.eu^
 ||3v7c7y.online^
+||3vkgutjorg.com^
 ||3vvuu0z8ui.com^
 ||3wk.cc/images/*.gif
 ||3wn3w3skxpym.round.t3.gg^
@@ -236493,6 +236494,7 @@ zzzyk.com###Tinfo
 ||888bb666cc.com^
 ||888lianmeng.com^
 ||888xx222kk.com^
+||8896bhfg6l.com^
 ||88eg.cn^
 ||88la.la/ack?s=
 ||88la.la/bid?url=
@@ -236547,6 +236549,7 @@ zzzyk.com###Tinfo
 ||8lmggang9.com^
 ||8maple.ru/dzcm$redirect=1x1-transparent.gif,domain=8maple.ru
 ||8mhcc.top^
+||8n2iu6djx6.com^
 ||8o5v23yip.com^
 ||8oghu1wcau.com^
 ||8p14q886v2.com^
@@ -265098,6 +265101,7 @@ zzzyk.com###Tinfo
 ||data-stream.level.agency^
 ||data-track*.yingxiong.com^
 ||data-us.hilo.com^
+||data-www-weaver.wanted.co.kr^
 ||data.07eins.com^
 ||data.123drogisterij.nl^
 ||data.130combinacoes.com^
@@ -316139,6 +316143,7 @@ zzzyk.com###Tinfo
 ||n74s9.com^$third-party
 ||n7fyrdeen.com^
 ||n7hnij4fah.com^
+||n7xy4mz7pw.com^
 ||n818.timesherald.com^
 ||n8bpikx1mt.com^
 ||n8g1kvtmrf.com^
@@ -328201,6 +328206,7 @@ zzzyk.com###Tinfo
 ||rpfkgf.volksfreund.de^
 ||rpfqvl.donnerwetter.de^
 ||rpfqvl.lokalwetter.de^
+||rpgi979tlb.com^
 ||rphwjxzekcbzxu.com^
 ||rpiher.web-camp.io^
 ||rpjjpm.site^
@@ -378133,6 +378139,7 @@ zzzyk.com###Tinfo
 ||vight.disputebeast.com^
 ||viglink.com/api/ping$third-party
 ||vigyn4gpx.com^
+||vihiei5ek3.com^
 ||vihppjk.cn^
 ||vihtori-analytics.fi^$third-party
 ||vijnhyru.xyz^
@@ -383981,6 +383988,7 @@ zzzyk.com###Tinfo
 ||yangliu.ink^
 ||yangpinwang.com/wp-content/uploads/*E5%B9%BF%E5%91%8A.
 ||yangshengzu.cn^
+||yanolja.com^$cookie=nol_device_id
 ||yansk.ru/counter/
 ||yantuchina.com/Upload/Ad/
 ||yanu.qiniudn.com/*x60.
