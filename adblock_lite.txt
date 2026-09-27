@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-09-27 11:50:50(GMT+8) 
-! Total count: 32558
+! ! Version: 2026-09-28 00:27:36(GMT+8) 
+! Total count: 32567
  
 ###ADtip
 ###Ad_windows
@@ -1712,6 +1712,10 @@ $websocket,domain=wap.yushuwu.cloud
 .com/gg/*?x=$script,third-party
 .com/hm/*?*=*$third-party
 .com/images/102.js
+.com/img/bnnr1_
+.com/img/bnr1_*.gif
+.com/img/bnr2_*.gif
+.com/img/bnr3_*.gif
 .com/java/shang1.js
 .com/java/xia1.js
 .com/java/youxia.js
@@ -1721,8 +1725,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/js/ad_
 .com/js/alls_foot.js
 .com/js/alls_top.js
-.com/js/bnnr_
-.com/js/bnr_
 .com/js/ddd.js
 .com/js/discor_list.js
 .com/js/g.js
@@ -2461,7 +2463,6 @@ $websocket,domain=wap.yushuwu.cloud
 /js/htmlka.js
 /js/htmlkb.js
 /js/htmlkc.js
-/js/huath_2.js
 /js/index_adfloat.js
 /js/j*s*r*u*n*n*e*r.js$~third-party
 /js/js4.js
@@ -2470,7 +2471,6 @@ $websocket,domain=wap.yushuwu.cloud
 /js/layer1.js$domain=99re.com
 /js/lmdas.js
 /js/mangoIndexBanner.js
-/js/mmdaohang_2.js
 /js/mob/cpc_bottom.js
 /js/mts.js
 /js/mts66.js
@@ -2492,7 +2492,6 @@ $websocket,domain=wap.yushuwu.cloud
 /js/wahha/*
 /js/wlfloat.js
 /js/xiaxuanfu.js
-/js/yueyupp_3.js
 /js/yzgg.js
 /js_php/ajsf.php?id=$third-party
 /jsadv/*
@@ -16526,6 +16525,7 @@ zzzyk.com###Tinfo
 ||23bei.com/static/plugins/layer/layer.
 ||23cox7hu4.com^
 ||23dhj4q.com^
+||23dx6xe42.com^
 ||23img.com^*/qomnyi.
 ||23jgiy.com^
 ||23qb.com/ak
@@ -17353,6 +17353,7 @@ zzzyk.com###Tinfo
 ||6pctuhriw.com^
 ||6play.fr/assets/js/vendors-3600848c1f.js$script
 ||6q77vsjez1.com^
+||6qcvth5fb.com^
 ||6ql83wy90f.com^
 ||6quspne.com^
 ||6s0zo8jzbb.com^
@@ -24126,6 +24127,8 @@ zzzyk.com###Tinfo
 ||javhd.com/sb/
 ||javhoo.net/pop/pop.jpg
 ||javhub.net/img/r18_banner1.jpg
+||javlibrary.com/img/bnr*.gif
+||javlibrary.com/js/b3nr*.js
 ||javporn.best/asset/default/player/plugins/vast-*.js
 ||javso.com/popjs/popred.js$script
 ||jayhou.top^
@@ -24949,6 +24952,7 @@ zzzyk.com###Tinfo
 ||kwcmrfb.cn^
 ||kwdgudw.cn^
 ||kwflvcdn.000dn.com^*.flv
+||kwgvshdzl.com^
 ||kwn91x0jke.top^
 ||kwo-0115.cc^
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
@@ -26716,6 +26720,7 @@ zzzyk.com###Tinfo
 ||ojg8sflgl.com^
 ||ojh9bc9puh.com^
 ||ojn1zxz0ni.com^
+||ojobjjol7.com^
 ||ojrgbc6kfz.com^
 ||ok-11-cai.cc^
 ||ok3o5s3xi.com^
@@ -26857,6 +26862,7 @@ zzzyk.com###Tinfo
 ||overcoat55.top^
 ||overflow33.com^
 ||overture34.top^
+||ovgadhtcyvak.in^
 ||ovnrmvg.cn^
 ||oweeiyw.icu^
 ||owiurjngsd.com^
@@ -27463,6 +27469,7 @@ zzzyk.com###Tinfo
 ||q1yv4669q6.com^
 ||q27sz.com^
 ||q29k22vpu.com^
+||q2f3fw9st.com^
 ||q2fwgl4q8.com^
 ||q2tqrsh02.com^
 ||q4173l5op.com^
@@ -30112,6 +30119,7 @@ zzzyk.com###Tinfo
 ||v2.gdt.qq.com^
 ||v2.uyan.cc^
 ||v2bo21e4k.com^
+||v2e5kim4o.com^
 ||v2ex.com/pro/emitter
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v3pnvck24.com^
@@ -31434,6 +31442,7 @@ zzzyk.com###Tinfo
 ||xvideo.cc/im4.js
 ||xvideo.cc/wefong2.js
 ||xvndpbjwhhvnfu.com^
+||xwafoccqlr.icu^
 ||xwafyzovqu.icu^
 ||xwbspx.xyz^
 ||xwcm.net/caches/ahm.
