@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-29 03:17:04(GMT+8) 
-! Total count: 386515
+! ! Version: 2026-09-29 12:25:03(GMT+8) 
+! Total count: 386521
  
 ###ADtip
 ###Ad_windows
@@ -2419,10 +2419,6 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.c
 .com/hm/*?*=*$third-party
 .com/i.gif?
 .com/images/102.js
-.com/img/bnnr1_
-.com/img/bnr1_*.gif
-.com/img/bnr2_*.gif
-.com/img/bnr3_*.gif
 .com/java/shang1.js
 .com/java/xia1.js
 .com/java/youxia.js
@@ -2432,6 +2428,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.c
 .com/js/ad_
 .com/js/alls_foot.js
 .com/js/alls_top.js
+.com/js/b3nr_
 .com/js/ddd.js
 .com/js/discor_list.js
 .com/js/g.js
@@ -235257,6 +235254,7 @@ zzzyk.com###Tinfo
 ||2gvnr9sx9.com^
 ||2hiu.com^$third-party
 ||2hlcovn7n.com^
+||2hqxy07fw.com^
 ||2i0lliongn.com^
 ||2i93en16s9.com^
 ||2ip.*/member_photo/$domain=~2ip.com|~2ip.ru
@@ -251772,6 +251770,7 @@ zzzyk.com###Tinfo
 ||baldeagle.e-ma.re^
 ||balkog.withmoment.co.kr^
 ||ballantine.actonservice.com^
+||ballast85.top^
 ||ballive.*/addm/
 ||balloonbelieve.com^
 ||ballr.jamesoro.com^
@@ -254491,6 +254490,7 @@ zzzyk.com###Tinfo
 ||btrepg.bochumer-jobanzeiger.de^
 ||bts-la.ucweb.com^
 ||btschool.net/images/*/HDYGR
+||btsel5g.com^
 ||btstats.benakt.com^
 ||btstats.devtribu.fr^
 ||btsvad8.com^
@@ -290223,6 +290223,7 @@ zzzyk.com###Tinfo
 ||hwbusters.com^$cookie=advanced_ads_visitor
 ||hwcias.medpets.be^
 ||hwckw.matissefootwear.com^
+||hweianpqxl.icu^
 ||hweiopvvxd.icu^
 ||hwfoct.icu^
 ||hwgzp5.com^
@@ -295679,6 +295680,7 @@ zzzyk.com###Tinfo
 ||jqmft.pyramidcollection.com^
 ||jqmlfp.us-mattress.com^
 ||jqmr7zssmd.com^
+||jqopurafw.com^
 ||jqosn.lignosus.com^
 ||jqpsi.evinature.com^
 ||jqrlt.groomie.club^
@@ -300076,6 +300078,7 @@ zzzyk.com###Tinfo
 ||lk.vectoranalytics.ru^$third-party
 ||lk.vrstories.com^
 ||lk0v8teerw.com^
+||lk54dfg87.com^
 ||lkancklanklcav.com^
 ||lkcxde.miliboo.de^
 ||lkdao.junehomes.com^
@@ -306506,6 +306509,7 @@ zzzyk.com###Tinfo
 ||ltcnetwork.mhainc.com^
 ||ltdcef.mclanee.co.kr^
 ||ltdczq.myhome.nifty.com^
+||ltdzz.com^
 ||ltecrf.dhgate.com^
 ||ltgdo.fishmonkeygloves.com^
 ||lthbdc.become.co.jp^
@@ -329840,6 +329844,7 @@ zzzyk.com###Tinfo
 ||s5.charliehebdo.fr^
 ||s615419487.sc.origins.en25.com^
 ||s65m.win^
+||s6cfki4v4.com^
 ||s6ctxsmoaj.com^
 ||s6in.cc^
 ||s6ujh3ynv.com^
@@ -378476,6 +378481,7 @@ zzzyk.com###Tinfo
 ||vkcdnservice.com^$third-party
 ||vkctxy.yves-rocher.fi^
 ||vkdvow.livingmotif.com^
+||vkdytplocrhlhm.com^
 ||vkebfg.mymoons.co^
 ||vkeqoidm.com^
 ||vkgfvg.sanitairwinkel.be^
