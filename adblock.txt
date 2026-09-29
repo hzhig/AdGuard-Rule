@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-29 12:25:03(GMT+8) 
-! Total count: 386521
+! ! Version: 2026-09-30 01:41:39(GMT+8) 
+! Total count: 386532
  
 ###ADtip
 ###Ad_windows
@@ -2178,7 +2178,6 @@ $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|zzzzz688.com
 $websocket,domain=wap.yushuwu.cloud
-$xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.com
 %2Fevent.gif%3F
 %2Fo.gif&
 %2Fopen.aspx%3F
@@ -3161,6 +3160,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.c
 /^https:\/\/[a-z0-9-]{3,12}\.[a-z0-9]+\.com\/([A-Za-z0-9.]+)(?:\/([A-Za-z0-9.]+))?\.\d{4}\.(doc|docx|html|jpeg|jpg|js|json|odf|pdf|png|ppt|psd|rtf|shtml|sxml|txt|wedp|wps|xml|xps)\?\d{13}$/$third-party,match-case
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/[a-z]{1,3}\/\d+\?is_not=/$all
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/bug\?i=\d+$/
+/^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z]+\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]$/$~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.com
 /^https:\/\/anon1.gt\d{6}.com/
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/([a-z]|-|_){4,22}@latest\/dist\/script\.min\.js$/$domain=mlbpark.donga.com
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,third-party
@@ -7725,7 +7725,7 @@ $xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|lnbz.la|clksz.c
 10jqka.com.cn,18183.com,actoys.net,beijing-air.com,bio1000.com,foodmate.net,gter.net,hepuwang.com,jjwxc.net,ncdiy.com,qingdaonews.com,tgbus.com##.ad1
 10jqka.com.cn,faxingw.cn,gdmm.com#@#.ad_1
 10jqka.com.cn,hepan.com##.onead
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,aol.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,aol.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,mlive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11005.sock-qa1.marketingcloudqaops.com$image
 11018.sock-qa1.marketingcloudqaops.com$image
 11055.connector-qa1.marketingcloudqaapis.com$image
@@ -233450,8 +233450,6 @@ wps.com#%#//scriptlet('set-constant', '__hasReportedAffiliatePageview', 'true')
 wpworld.pl,windowsowo.pl#@##adBanner
 ws://*/api/wss/GetNotReadCount$third-party
 wss://*.*.top/$third-party
-wss://*.com:29*/$third-party
-wss://*.com:800*/$third-party,domain=~survev.io
 wss://*.top/|
 wss://*.xyz:*?e=$third-party
 wss://*.xyz:*?x=$third-party
@@ -236012,6 +236010,7 @@ zzzyk.com###Tinfo
 ||5mgrgsc.cn^
 ||5mm.zxfw5.cn^
 ||5mn041cdz.com^
+||5n131lck8.com^
 ||5nj.com/js/cnzz22.js
 ||5nj.com/js/cnzz33.js
 ||5ntq14y5y.com^
@@ -236777,6 +236776,7 @@ zzzyk.com###Tinfo
 ||9pbeoey9j.com^
 ||9pyn42z6d.com^
 ||9pzoz6taf.com^
+||9qvpcta0t.com^
 ||9r0v0go0el.com^
 ||9rkh7nbaj.com^
 ||9s3g5vd8or.com^
@@ -251023,6 +251023,7 @@ zzzyk.com###Tinfo
 ||avqymy.you.gr^
 ||avrqa.estellabartlett.com^
 ||avs.adpinfo.com^
+||avscan.cc/analytics/
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
@@ -251128,6 +251129,7 @@ zzzyk.com###Tinfo
 ||axkwyf.edinos.pl^
 ||axljfv.therosebay.co.kr^
 ||axnskz.power-stones.jp^
+||axonsite.com^
 ||axoqjt.gommadiretto.it^
 ||axoqvl.daf-shoes.com^
 ||axp.2822news.com^
@@ -260508,7 +260510,6 @@ zzzyk.com###Tinfo
 ||counter-growthbook.minute-ly.com^
 ||counter-kostenlos.info^$third-party
 ||counter-kostenlos.net^$third-party
-||counter-mdpr.freetls.fastly.net^
 ||counter-treff.de^$third-party
 ||counter-zaehler.de^$third-party
 ||counter.1gb.ru^
@@ -278710,6 +278711,7 @@ zzzyk.com###Tinfo
 ||gameanalytics.com^$third-party
 ||gamebounty.world/api/logVisit
 ||gamecps.com^$third-party
+||gamedaily.com/.api/admiral
 ||gamedistribution.com/collect?
 ||gamedistribution.com/event?
 ||gamedock.io/gamemonkey-web-tracker/
@@ -290321,6 +290323,7 @@ zzzyk.com###Tinfo
 ||hypercounter.com^$third-party
 ||hyperdisk.actonservice.com^
 ||hyperdx.io^$third-party
+||hyperfrost.net^
 ||hyperlegend.com^
 ||hypestat.com^$third-party
 ||hypnoticwound.com^
@@ -294102,6 +294105,7 @@ zzzyk.com###Tinfo
 ||ipokabu.net/js/analytics.js
 ||iporn.world/attachment/ad/
 ||iportal.ru/static/mediadash/tracker.iife.min.js
+||ippen.space/api/metrics
 ||ippen.space/idat
 ||ipqc5ejfe.icu^
 ||ipqualityscore.com/api/$third-party
@@ -295826,6 +295830,7 @@ zzzyk.com###Tinfo
 ||js1.dadiniu.cn^
 ||js1.haoge500.com^
 ||js154azzn.com^
+||js1lw9n6w.com^
 ||js22f.net^
 ||js3w.alladale.com^
 ||js6.efyt6.com^
@@ -307558,6 +307563,7 @@ zzzyk.com###Tinfo
 ||mapp.jysk.nl^
 ||mapp.peacocks.co.uk^
 ||mapp.yesstyle.com^
+||mapple.fun/api/ui/sync/track
 ||mapquest.com/logger
 ||maps.googleapis.com/*/stats.js
 ||mapsmnx.cyou^
@@ -326050,6 +326056,7 @@ zzzyk.com###Tinfo
 ||qxakzox.cn^
 ||qxauwo.sportisimo.ro^
 ||qxaz2xcw.com^
+||qxbpi331k.com^
 ||qxdjfb.astoreo.cz^
 ||qxerzu.dona-d.com^
 ||qxgfdq.maiutazas.hu^
@@ -326498,6 +326505,7 @@ zzzyk.com###Tinfo
 ||rbosr.lull.com^
 ||rbptt.com^
 ||rbrbr88p.cn^
+||rbru3ubey.com^
 ||rbrzcu.green-acres.gr^
 ||rbsodzgoy.xyz^
 ||rbtwsd.fitnessfood.com^
@@ -329851,6 +329859,7 @@ zzzyk.com###Tinfo
 ||s72h7io4o.com^
 ||s73cloud.com/metrics/
 ||s762.pressenterprise.com^
+||s7jkxkm72.com^
 ||s7tu.com/images/*.gif
 ||s7ven.com^$third-party
 ||s7xrlzfa.top^
@@ -371961,6 +371970,7 @@ zzzyk.com###Tinfo
 ||tracking.dominanteladies.de^
 ||tracking.donnemagazine.it^$script
 ||tracking.doyoulovesalt.com^
+||tracking.dpmlol.com^
 ||tracking.dpstampede.com^
 ||tracking.dr-10.com^
 ||tracking.dr-8.com^
@@ -376628,6 +376638,7 @@ zzzyk.com###Tinfo
 ||users.rentbabe.com^
 ||users.videasy.*/api/track
 ||users.videasy.to/api/track
+||users.vidy.st^$third-party
 ||usersegment.wpdigital.net^
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
