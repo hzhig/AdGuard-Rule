@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-30 12:08:37(GMT+8) 
-! Total count: 386539
+! ! Version: 2026-10-01 01:39:09(GMT+8) 
+! Total count: 386550
  
 ###ADtip
 ###Ad_windows
@@ -2204,7 +2204,7 @@ $websocket,domain=wap.yushuwu.cloud
 &tag_exp=*&e=gtm.
 &ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
 &xhtml?$script,third-party
-*$cookie=/^__ddg/,domain=premierzal.ru|gipfel.ru
+*$cookie=/^__ddg/,domain=premierzal.ru|gipfel.ru|karofilm.ru
 *$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 *$denyallow=biqege.com,domain=biqege.com,script,xmlhttprequest
 *$denyallow=efuxs.com,domain=efuxs.com,script,subdocument,xmlhttprequest
@@ -7725,7 +7725,7 @@ $websocket,domain=wap.yushuwu.cloud
 10jqka.com.cn,18183.com,actoys.net,beijing-air.com,bio1000.com,foodmate.net,gter.net,hepuwang.com,jjwxc.net,ncdiy.com,qingdaonews.com,tgbus.com##.ad1
 10jqka.com.cn,faxingw.cn,gdmm.com#@#.ad_1
 10jqka.com.cn,hepan.com##.onead
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,aol.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,mlive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,aol.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,komonews.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,mlive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11005.sock-qa1.marketingcloudqaops.com$image
 11018.sock-qa1.marketingcloudqaops.com$image
 11055.connector-qa1.marketingcloudqaapis.com$image
@@ -214566,6 +214566,7 @@ github.com##a[href^="https://cloud.tencent.com/redirect."] > img
 github.com##a[href^="https://openwrite.cn/"]
 gkstk.com##.layui-layer-shade
 gkstk.com,ufanw.com##.layui-layer
+glam.jp##.yarpp-related
 glaptestalid3.click.s11.sfmc-osl.com$image
 glbellbalid3.click.s11.sfmc-osl.com$image
 glconsultingalid3.click.s11.sfmc-osl.com$image
@@ -229140,6 +229141,7 @@ toy-people.com##.good72890
 toy-people.com##.rightAd_300250
 toy-people.com##.rightAd_3002502
 toy-people.com##.right_bottom_bb
+toyokeizai.net##.--recommend
 tptoon.com##span[style^="position:fixed; bottom:30vh;"]
 tr.email.donjr.com$image
 tr.email.schoolism.com$image
@@ -234989,6 +234991,7 @@ zzzyk.com###Tinfo
 ||1nrlydgrr.com^
 ||1o0g85u7k1.com^
 ||1o1nuqbjea.com^
+||1o23ptd0sv.com^
 ||1p-data.com^$third-party
 ||1p3293dngsv.dodofacile.fr^
 ||1password.co.jp/js/analytics.bundle.
@@ -272317,6 +272320,7 @@ zzzyk.com###Tinfo
 ||edrone.me/trace?
 ||edrone.me^$third-party
 ||edsawa.simplynursery.com^
+||edshowpigs.com^
 ||edssnet.changchunets.com^
 ||edt02.net^$third-party
 ||edtp.de^$third-party
@@ -296306,6 +296310,7 @@ zzzyk.com###Tinfo
 ||k99.cc^$third-party
 ||k9egtgh8v.com^
 ||k9w4m.xyz^
+||k9x1d1uuj0.com^
 ||k9zxbudgix.com^
 ||ka.ilius.net^
 ||ka.kaltepro.de^
@@ -296325,6 +296330,7 @@ zzzyk.com###Tinfo
 ||kaefwe.faol.it^
 ||kaf.kaffebrus.com^
 ||kaffeeschwarz.paarzeit.de^
+||kagane.to/nao.js
 ||kagdf.com^
 ||kaggle.com/api/i/diagnostics.MetricsService
 ||kaghyg.alpina-water.co.jp^
@@ -316252,6 +316258,7 @@ zzzyk.com###Tinfo
 ||nanostats.nanopress.it^
 ||nanrenfuli.*/zb_users/upload/
 ||nanthealth.actonservice.com^
+||nao.kagane.to^
 ||naoforge.net.jumia.com.ng^
 ||nappyattack.com^
 ||nappyneck.com^
@@ -320586,6 +320593,7 @@ zzzyk.com###Tinfo
 ||p7cloud.net^
 ||p7d3miyh2q.com^
 ||p7h1silo3f.app.cainthus.com^
+||p7w3bmhmns.com^
 ||p8u.hinet.net^
 ||p99c3kwxg.com^
 ||pa-cd.com^$third-party
@@ -331175,6 +331183,7 @@ zzzyk.com###Tinfo
 ||scout.bergfreunde.nl^
 ||scout.bergfreunde.no^
 ||scout.bergfreunde.se^
+||scout.data.funkedigital.de^
 ||scout.salesloft.com/r?tid=
 ||scout.us2.salesloft.com^$image
 ||scoutanalytics.net^$third-party
@@ -367267,6 +367276,7 @@ zzzyk.com###Tinfo
 ||thebell.io/o4e1/
 ||thebestlinks.com^$third-party
 ||thebestpaints.com^
+||thebicyclehut.com^
 ||thebigvan.com^
 ||theblock.co/api/analytics
 ||thebookseller.com/AfoSiteAnalysis/
@@ -375294,6 +375304,7 @@ zzzyk.com###Tinfo
 ||tyanqg.backmarket.es^
 ||tyawwj.cn^
 ||tybfxw.puma.com^
+||tychy24.net/wp-json/iawp/search
 ||tycollectproxy.tiyalive.com^
 ||tycys.wayfarersd.com^
 ||tydouke.com^
