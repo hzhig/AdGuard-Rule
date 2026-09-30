@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-09-30 01:41:39(GMT+8) 
-! Total count: 386532
+! ! Version: 2026-09-30 12:08:37(GMT+8) 
+! Total count: 386539
  
 ###ADtip
 ###Ad_windows
@@ -227573,6 +227573,7 @@ sohu.com##IFRAME[frameborder='0']
 sohu.com##IFRAME[width='325'][frameborder='0']
 sohu.com##[data-spm-content='ad']
 sohu.com##[data-spm^='ad-']
+sohu.com##a[data-url*=".mediav.com"]
 sohu.com##a[href*="_Click_Flow_recommend_"]
 sohu.com##a[href^="https://m.sohu.com/promotion?"]
 sohu.com##div[data-spm-content="promotion"]
@@ -251947,6 +251948,7 @@ zzzyk.com###Tinfo
 ||bazaarvoice.com/sid.gif
 ||bazaarvoice.com^*/magpie.js
 ||bazlny.homepal.it^
+||baztfhhqiuvttm.com^
 ||baztrack.com^$third-party
 ||bazu.cc/api/baidu_tui.php
 ||bb.4barber.pl^
@@ -278769,6 +278771,7 @@ zzzyk.com###Tinfo
 ||gandb.emma.fr^
 ||gangjuw.com/style/lmjs/
 ||gangplank39.com^
+||gangway97.com^
 ||ganimg.com/images/*.gif
 ||ganimgs.com/images/*.gif
 ||ganji.com/content.php
@@ -289932,6 +289935,7 @@ zzzyk.com###Tinfo
 ||hswxsatk7x.com^
 ||hsyfcenter.com^
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
+||ht55hm12n2.com^
 ||ht9s1j1bf.com^
 ||htakr.cos.com^
 ||htaoei.herbchambershondaofseekonk.com^
@@ -316232,7 +316236,6 @@ zzzyk.com###Tinfo
 ||nala.headuplabs.com^
 ||nalook.com^$third-party
 ||namcah.alipearlhair.com^
-||namethatporn.com/assets/imgs/1x1.gif
 ||nametraff.com^$third-party
 ||namnak.com/act/stats.json
 ||namnak.com/ga.js
@@ -318413,6 +318416,7 @@ zzzyk.com###Tinfo
 ||o0rnzwzst5.com^
 ||o1.jyjyj.cn^
 ||o11y-proxy-otel-frontend.meli.com^
+||o17kbwlq9p.com^
 ||o1fhfeu6qa.com^
 ||o1lvz.poopy.co^
 ||o1ych4jb.com^
@@ -328903,6 +328907,7 @@ zzzyk.com###Tinfo
 ||rwfkzw.wuerth.it^
 ||rwhdta.bigsizeclub.co.kr^
 ||rwhneg.breaking-news.jp^
+||rwhyrlb8r2.com^
 ||rwilwcovop.icu^
 ||rwjfbjhktsftpe.com^
 ||rwk2s6ypyqu5h81.kvest.ee^
@@ -362791,6 +362796,7 @@ zzzyk.com###Tinfo
 ||subtraction59.com^
 ||subx.alpinawein.de^
 ||suc.aliqrashop.com^
+||succeedscene.com^$domain=theguardian.com
 ||success.act-on.com^
 ||success.azzure-it.com^
 ||success.benico.com^
@@ -385006,6 +385012,7 @@ zzzyk.com###Tinfo
 ||ywt.vakantieparkennederland.nl^
 ||ywtd.xyz^
 ||ywums.compensation.help^
+||ywxc.net^
 ||ywxi.net^$third-party,domain=~trustedsite.com
 ||ywxkuh.street-moto-piece.fr^
 ||ywzmvh.trovaprezzi.it^
