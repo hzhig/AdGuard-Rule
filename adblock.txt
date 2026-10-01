@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-01 01:39:09(GMT+8) 
-! Total count: 386550
+! ! Version: 2026-10-01 12:20:35(GMT+8) 
+! Total count: 386549
  
 ###ADtip
 ###Ad_windows
@@ -898,7 +898,6 @@
 ##A[href*='youqu.buzz']
 ##A[href*='zbkrv.com']
 ##A[href="http://goo.gl/jQ9bcz"]
-##A[href="javascript:;"][onclick^="lksdjfrefruise"]
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
 ##A[href='/iwagbwfiwehaeyh/']
@@ -932,7 +931,6 @@
 ##A[href^='https://www.pcjx365.com']
 ##A[href^='https://yongle008.com']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
-##A[onclick^="diensfeifwejwdsfwemio"]
 ##A[rel='nofollow noopener'][href*='/game/xr/?attributionId=']
 ##A[rel='nofollow'][href='/play/player-2-1.php']
 ##A[rel='nofollow'][href='/play/tv.php']
@@ -1284,7 +1282,6 @@
 ##a[href*="/ads/adscenter."]
 ##a[href*="/auth/register?code="] > img
 ##a[href*="/d27.tv"]
-##a[href*="/entry/register"][href*="i_code"]
 ##a[href*="/h91.tv"]
 ##a[href*="/kt169.com"]
 ##a[href*="/l1y9.com"]
@@ -1314,8 +1311,6 @@
 ##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="xchina.click/prepare."]
 ##a[href*='html?channelCode'] > IMG[src*='.gif'][width='100%']
-##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
-##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
 ##a[href="/iwagbwfiwehaeyh"]
@@ -1364,7 +1359,6 @@
 ##a[target="_blank"] > img.king
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
-##a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 ##amp-embed[type="taboola"]
 ##body .has-ad
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
@@ -1428,8 +1422,6 @@
 ##button[onclick*=".xacg.info/"]
 ##center > [href^='https://docs.qq.com/doc'][target='_blank']
 ##center > a > IMG[alt$='到期']
-##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
-##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > div.hengfu
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##div#__addc0ddhc0iib1
@@ -1498,7 +1490,6 @@
 ##div[class*='bookid_ads']
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
-##div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
 ##div[class^="ps_"][value="20"]
 ##div[data-testid="prism-taboola"]
 ##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
@@ -1552,7 +1543,6 @@
 ##img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
 ##img[src*=".jd.com"][style="width:100%;height:70px;"]
 ##img[src*=".meituan.net"][style="width:100%;height:70px;"]
-##img[src*=".meiyida.tv/"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
@@ -3389,6 +3379,7 @@ $websocket,domain=wap.yushuwu.cloud
 /alljs/allwzwhead.js
 /alog.min.js
 /alog.mobile.min.js
+/alog/dp.min.js
 /amazon_linker.min.js
 /amp-access/cta/*
 /amp-access/cta?
@@ -4306,7 +4297,6 @@ $websocket,domain=wap.yushuwu.cloud
 /e.customeriomail.com/e/o/*$image
 /e.gif?
 /e/*^ip=$domain=heygen.com
-/e/ecmsshop/zhuanpan/js/*
 /e_stat?g_id=
 /eatms.js
 /ecanalytics.js
@@ -4775,8 +4765,6 @@ $websocket,domain=wap.yushuwu.cloud
 /h/k.php?u=*&l=*&v=$third-party
 /haijiao3/*/popup.
 /hao123_api/api/cpc/*
-/haojio/images/KF-ZL.jpg
-/haojio/js/scoll_bg.js
 /hawk.js
 /hawkeye.js
 /hawklinks.js
@@ -8583,9 +8571,9 @@ $websocket,domain=wap.yushuwu.cloud
 163.com##a[href^="http://popme.163.com/"]
 163.com##span[class^="gg"]
 163.com#@#.s-btns
-163.com,55188.com,csai.cn,miercn.com##div[class^="gg"]
 163.com,bilibili.com,longzhu.com##a[href*=".admaster."]
 163.com,changsha.cn,jrj.com.cn,neotv.com.cn,sina.cn,sina.com.cn##.topad
+163.com,csai.cn,miercn.com##div[class^="gg"]
 163.com,jishujd.com##.index_top_ad
 163.com,zybang.com##.top-banner
 163.com,~love.163.com##a[href^="http://love.163.com/"]
@@ -10749,7 +10737,7 @@ $websocket,domain=wap.yushuwu.cloud
 51.ca##.a-list-carousel-d-box
 51.ca##.top-a-container
 51.com###game_advlayer
-51.com,55188.com##.couplet
+51.com##.couplet
 51.la##.da-item
 5101.connector-qa1.marketingcloudqaapis.com$image
 5101.sock-qa1.marketingcloudqaops.com$image
@@ -10948,12 +10936,9 @@ $websocket,domain=wap.yushuwu.cloud
 5496.sock-qa1.marketingcloudqaops.com$image
 54new.com###imgshow
 54new.com##img[width="1280"][height="100"]
-55188.com###center-pic
-55188.com###top-pic
-55188.com##.ggdistich
-55188.com##.wz_text
-55188.com##a[href*="/gg-link."]
-55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
+55188.com###bbslist
+55188.com###recommended-by-admin
+55188.com##.page-aside
 5521.connector-qa1.marketingcloudqaapis.com$image
 5524.sock-qa1.marketingcloudqaops.com$image
 5555op.com,router.houzi-blog.top##.img
@@ -217250,7 +217235,6 @@ kostool.cn#?#div:has(> h1:contains(推广))
 koyi.pub#%#//scriptlet("set-constant", "fuzqingAdPlus", "emptyObj")
 koyi.pub#@#.main_ad
 koyso.com,wavse.com#@#.google-ad
-kpd122.com,ssp28.pw##.index-owl-carousel
 kpw6.com###daojs
 kpzpw.com##.header-pic
 kpzpw.com##.littlebanner
@@ -244391,15 +244375,12 @@ zzzyk.com###Tinfo
 ||alicdn.com/img/ibank/*_!!2210231227621-0-cib.
 ||alicdn.com/img/ibank/*_!!2212029770429-
 ||alicdn.com/img/ibank/*_!!3820217494-0-cib.
-||alicdn.com/img/ibank/*_!!4231779133-0-cib.
 ||alicdn.com/img/ibank/*_1082732848.
 ||alicdn.com/img/ibank/*_1085845541.
-||alicdn.com/img/ibank/*_1095372465.
 ||alicdn.com/img/ibank/*_1165462224.
 ||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1409595492.
 ||alicdn.com/img/ibank/*_1533190909.
-||alicdn.com/img/ibank/*_1545027917.
 ||alicdn.com/img/ibank/*_1591187313.
 ||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||alicdn.com/img/ibank/*_1776866723.
@@ -244411,7 +244392,6 @@ zzzyk.com###Tinfo
 ||alicdn.com/img/ibank/*_2021817714.
 ||alicdn.com/img/ibank/*_2114606112.
 ||alicdn.com/img/ibank/*_255861743.
-||alicdn.com/img/ibank/*_256401016.
 ||alicdn.com/img/ibank/*_330044705.
 ||alicdn.com/img/ibank/*_368737028.
 ||alicdn.com/img/ibank/*_392352300.
@@ -248298,6 +248278,7 @@ zzzyk.com###Tinfo
 ||api.userstyles.org/tic/stats
 ||api.useshuris.com.br^
 ||api.usestoryteller.com/api/app/activity/recordActivity?
+||api.useunloq.com/event_management/
 ||api.usevess.com.br^
 ||api.usevoe.com.br^
 ||api.vagadeempregosp.com.br^
@@ -250269,6 +250250,7 @@ zzzyk.com###Tinfo
 ||aspku.com/z/
 ||aspservice.jp^$third-party
 ||aspwg.cn^
+||asrxwyud2.com^
 ||asserts.avple.tv/file/avple-asserts/ad.js
 ||asset*.coupangcdn.com/customjs/coupang-web-log/*/web-log.umd.min.js$domain=login.coupang.com
 ||asset*.coupangcdn.com/customjs/mycoupang/fingerprint2/
@@ -254337,6 +254319,7 @@ zzzyk.com###Tinfo
 ||browsermine.com^$third-party
 ||browserpusher.com^$third-party
 ||browserscan.net/dist/adspower_zh.
+||browsertdidticket.m.qq.com^
 ||browsing.doamore.com^
 ||brpayless.eccocar.com^
 ||brpdu.lovefitnessapparel.com^
@@ -256939,6 +256922,7 @@ zzzyk.com###Tinfo
 ||cdn.xpozer.com^
 ||cdn.yottaa.com/rapid.security.min.*.js$script,redirect=noopjs,domain=northerntool.com
 ||cdn.yunliunet.com^
+||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn.zx-adnet.com^$third-party
 ||cdn0.sxhjty.cn^
@@ -261008,6 +260992,7 @@ zzzyk.com###Tinfo
 ||crsspxl.com^$third-party
 ||crta.and.co.uk^
 ||crta.dailymail.co.uk^
+||crta.dailymail.com^
 ||crta.metro.co.uk^
 ||crtx.info^$third-party
 ||cruhliip.com^
@@ -261846,7 +261831,6 @@ zzzyk.com###Tinfo
 ||cyberghostvpn.com^$cookie=visitor_date
 ||cyberghostvpn.com^$cookie=visitor_type
 ||cybernews.com/clientfpid/
-||cybernews.com/fxq4/
 ||cyberpedia.su/count.php
 ||cyclamen46.com^
 ||cycling.voicycling.com.br^
@@ -262968,6 +262952,7 @@ zzzyk.com###Tinfo
 ||dailymail.co.uk^$cookie=latest-article-count
 ||dailymail.co.uk^$cookie=mol.ads.visits
 ||dailymail.co.uk^$cookie=mol.ads.visitsExpire
+||dailymail.com/zephr/features
 ||dailymotion.com/gravity/report
 ||dailymotion.com/logger/
 ||dailymotion.com/logger/*?session_id=
@@ -275037,6 +275022,7 @@ zzzyk.com###Tinfo
 ||events.s4long.com^
 ||events.santander.co.uk^
 ||events.sd-nbb.de^
+||events.searchtap.net^
 ||events.sevenfiguresecrets.com^
 ||events.shareably.net^
 ||events.shirrts.com^
@@ -275882,6 +275868,7 @@ zzzyk.com###Tinfo
 ||faris.stape.monster^
 ||farm-cn.plista.com^
 ||farmergoldfish.com^
+||faro-collector-*.grafana-ops.net^
 ||faro-collector-prod-*.grafana.net^
 ||faro-sportybet.sportydog.net/collect|$xmlhttprequest,redirect=noopjson
 ||faro.civitai.
@@ -278881,6 +278868,7 @@ zzzyk.com###Tinfo
 ||gateway1.ashleyshaw.ca^
 ||gather.donga.com^
 ||gatherer.m.qq.com/event/
+||gatherer.m.qq.com^
 ||gator.volces.com^
 ||gatorleads.co.uk^$third-party
 ||gatsbytrack.beeing.it^
@@ -280003,6 +279991,7 @@ zzzyk.com###Tinfo
 ||gkupv.theconsumerdigest.org^
 ||gkuresx.com^
 ||gkvjmx3xf.com^
+||gkx.gokwik.co^
 ||gkxaay.tontarellishop.com^
 ||gkxeea.ssamitbeauty.com^
 ||gkxkvp.tumi.co.jp^
@@ -280273,7 +280262,6 @@ zzzyk.com###Tinfo
 ||gnrnws.cn^
 ||gnsdp.toms.com^
 ||gnshwf.room-park.ru^
-||gnsnpaw.com^
 ||gnuavcpc.woods.se^
 ||gnwiwc.store.lapine.co.jp^
 ||gnzcmh.sangishop.jp^
@@ -281549,6 +281537,7 @@ zzzyk.com###Tinfo
 ||gp.oddo-bhf.com^
 ||gp.zaiyunli.cn^
 ||gp123.cc/20*ad/
+||gp2mi428s.com^
 ||gpacgt.nerdaocubo.com.br^
 ||gpaqa.marymaxim.ca^
 ||gpcjz.kotomi.com.au^
@@ -305692,6 +305681,7 @@ zzzyk.com###Tinfo
 ||log.mtime.cn^
 ||log.music.baidu.com^
 ||log.musical.ly^
+||log.news.baidu.com^
 ||log.newsvine.com^
 ||log.nordot.jp^
 ||log.nordot.jp^$~script
@@ -318056,6 +318046,7 @@ zzzyk.com###Tinfo
 ||nsteq.queensland.com^
 ||nsthczdba1.com^
 ||nstltp.icu^
+||nstool.netease.com/info.js
 ||nstp.notesik.com.br^
 ||nstracking.com^$third-party
 ||nsul.cn^
@@ -320499,6 +320490,7 @@ zzzyk.com###Tinfo
 ||p.raasnet.com^$third-party
 ||p.redipiufitness.it^
 ||p.ryanhalliday.com^
+||p.sa7eer.com^
 ||p.sadoc.com.br^
 ||p.sfx.ms/is/invis.gif
 ||p.skimresources.com^
@@ -321858,6 +321850,7 @@ zzzyk.com###Tinfo
 ||pdmsmrt.chevrolet.com^
 ||pdmsmrt.gmc.com^
 ||pdmsmrt.gmccanada.ca^
+||pdp.gokwik.co/cart-get-tokens.html
 ||pdrerzug.com^
 ||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/$image,redirect=2x2-transparent.png,important
 ||pdrtcgfx.cn^
@@ -324702,6 +324695,7 @@ zzzyk.com###Tinfo
 ||pulseinsights.com^$third-party
 ||pulselog.com^$third-party
 ||pulsemaps.com^$third-party
+||pulsepoint.ideal.house^
 ||puluk.drinkmagicdose.com^
 ||puma.com^$popup,domain=hupu.com
 ||puma.islingtonmecc.org.uk^
@@ -360195,6 +360189,7 @@ zzzyk.com###Tinfo
 ||static.winefields.com.br^
 ||static.wjxcdn.com^
 ||static.ws.126.net/f2e/products/analysis/
+||static.ws.126.net/utf8/3g/util/antanalysis.min.js$domain=163.com
 ||static.xshuyaya.com/m/d.js
 ||static.yandex.net/browser-updater/stripe/script.js
 ||static.yarnies.com^
@@ -367157,6 +367152,7 @@ zzzyk.com###Tinfo
 ||tftkzr.happy-size.at^
 ||tftran.shop^
 ||tfttbd.xyz^
+||tftwrvvavlpjjq.com^
 ||tfugvz.latamy.pl^
 ||tfunqc.domonet.jp^
 ||tfuodg.memolife.de^
@@ -367475,6 +367471,7 @@ zzzyk.com###Tinfo
 ||threechurch.com^
 ||threedy.ai/api/event/
 ||threetruck.com^
+||thresher30.com^
 ||thriftbooks.com/scripts/sp.js
 ||thriftyguru.com^
 ||thrillasoft.com^
@@ -370538,6 +370535,7 @@ zzzyk.com###Tinfo
 ||track.conesulacademy.com^
 ||track.connectwise.com^
 ||track.contently.com^
+||track.convertfox.com^
 ||track.cordial.io^
 ||track.cornerstonebuildingbrands.com^
 ||track.cosplayware.com^
@@ -373254,6 +373252,7 @@ zzzyk.com###Tinfo
 ||trafficsyncpro.com^
 ||trafic.ro^$third-party
 ||trafico.prensaiberica.es^
+||trafik.koopit.ist^
 ||trafikkfondet.no^$third-party
 ||trafit.com^$third-party
 ||trafix.ro^$third-party
@@ -377767,6 +377766,7 @@ zzzyk.com###Tinfo
 ||vebed.tennibot.com^
 ||vecer.com/js/remp.js
 ||vechtsportonline.nl/static/*/tracking.js
+||vecteezy.com/dmpu/
 ||vector.co/pixel.js
 ||vectorshirt.com^
 ||vedomosti.ru/boom?
@@ -386544,7 +386544,6 @@ zzzyk.com###Tinfo
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
 ~leynwell.top##body > [style^="display: block; width: 100%; height:"]:empty
 ~leynwell.top##body > [style^="display: block; width: 100%; height:"]:empty ~ :not(div)[style^="display: block; z-index: "]
-~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
