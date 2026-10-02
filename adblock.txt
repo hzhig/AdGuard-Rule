@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-02 12:13:30(GMT+8) 
-! Total count: 386577
+! ! Version: 2026-10-03 01:31:02(GMT+8) 
+! Total count: 386596
  
 ###ADtip
 ###Ad_windows
@@ -2863,6 +2863,7 @@ $websocket,domain=wap.yushuwu.cloud
 /.*/$permissions=private-state-token-redemption=(),document
 /.*/$permissions=run-ad-auction=(),document
 /.bootscripts/analytics.min.js
+/.events-handler/*$domain=imore.com|coachweb.com
 /.netlify/scripts/rum
 /.rum/@adobe/helix-
 /.webscale/rum?
@@ -7081,6 +7082,7 @@ $websocket,domain=wap.yushuwu.cloud
 /visscore.tag.min.js
 /vissense.js
 /visualrevenue.js
+/vite/assets/Viafoura/Core/Events.*.js$domain=imore.com|coachweb.com
 /vj1/*$third-party
 /vj2/*$third-party
 /vj3/*$third-party
@@ -15721,6 +15723,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pp.lp4.io/app^$domain=berliner-zeitung.de
 @@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*sports.pp
 @@||pracuj.pl^$cookie=gptrackCookie
+@@||priem.menu^$cookie=_ga
 @@||privacy.vakmedianet.nl/*ref=$removeparam
 @@||privatbank.ua/content/*/fp2.min.js$~third-party
 @@||privateinsta.com/javascript/rqrkrm.js$script
@@ -16331,6 +16334,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||stcaimcu.com/data/attachment/common/cf/stc_logo_
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
+@@||stenger-bike.de/theme/*/js/storefront/google-analytics.plugin.*.js$domain=stenger-bike.de
 @@||stippleit.com/stipple.js$domain=photos.toofab.com
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||sto520.com^$generichide
@@ -219406,6 +219410,7 @@ luogu.com.cn##.side > div:not(.l-card):has(> span > svg.fa-rectangle-ad)
 luogu.me##.propaganda
 luoqiuzw.com##DIV[id^="a-loading-"]
 lupanda.tw##.blogimove-inline-css-0
+lupanda.tw##div[style="min-width: 300px; min-height:400px;"]
 lusongsong.com###main > center
 luyixian.cn##.side
 lvmama.com###centerDialog
@@ -223395,6 +223400,7 @@ opticsky.cn###head > .tac
 opticsky.cn##.p83_gridC > .cc
 orangenews.hk##img[advid]
 orderport.peltzers.com$image
+oregonlive.com,reuters.com#%#//scriptlet('ubo-aost', 'admiral', '.js?')
 orsoon.com###new-actentry
 orzice.com###jinzhu_top
 orzice.com##.ad-guanggao
@@ -226600,7 +226606,6 @@ reuters.com###taboola-recirc
 reuters.com##.RTVSyndicatedPlayer
 reuters.com#%#(()=>{window.analytics=[],analytics.user=function(){return this},analytics.track=function(){},analytics.anonymousId=function(){},analytics.push=function(){[...arguments].forEach((n=>{if("function"==typeof n)try{n()}catch(n){console.debug(n)}Array.isArray(n)&&[...n].forEach((n=>{if("function"==typeof n)try{n()}catch(n){console.debug(n)}}))}))};})();
 reuters.com#%#//scriptlet('set-local-storage-item', 'ajs_anonymous_id', 'null')
-reuters.com#%#//scriptlet('ubo-aost', 'admiral', '.js?')
 reuters.com#@#.adsbox
 reverso.net#%#//scriptlet('set-constant', 'rumjs.business.setManualConsent', 'noopFunc')
 revistaoeste.com##.content-aside__taboola
@@ -233677,6 +233682,7 @@ xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
 xealth.froedtert.com$image
+xfastest.com###xfastestWide385
 xfastest.com##.vw-header-ads-wrapper
 xfastest.com##iframe[src*="//ads.xfastest.com/"]
 xfree.com$cookie=anonymous
@@ -235910,6 +235916,7 @@ zzzyk.com###Tinfo
 ||58.com/show/ads?
 ||580bk.com/ceshi/
 ||581b.pandasuite.io^
+||588677.xyz^
 ||5888.tv/Js/topBanner.js
 ||5888.tv/User_Ad/
 ||58avgo.*/AirADPic/
@@ -236039,6 +236046,7 @@ zzzyk.com###Tinfo
 ||5wzew9jht.com^
 ||5xdmw.com/tb.jpg
 ||5xdz5pz072.com^
+||5xg31saxfv.com^
 ||5xvtbbvb6.com^
 ||5xxvm.celebratevitamins.at^
 ||5xxvm.celebratevitamins.bg^
@@ -242003,7 +242011,7 @@ zzzyk.com###Tinfo
 ||actuallysnake.com^
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
-||acustomizedgift.com^$domain=masslive.com|oregonlive.com|silive.com
+||acustomizedgift.com^$domain=masslive.com|silive.com
 ||acv.au-hikari-kddi.com^
 ||acv.auhikari-norikae.com^
 ||acv.aun-air-wifi.com^
@@ -255167,6 +255175,7 @@ zzzyk.com###Tinfo
 ||c4tracking01.com^$third-party
 ||c4tw.net^$third-party
 ||c5krw17gn0.com^
+||c5mj81yuuo.com^
 ||c5mwwyqfvi.com^
 ||c6.friok.com^
 ||c6.paypal.com^$image
@@ -258871,6 +258880,8 @@ zzzyk.com###Tinfo
 ||co4scosu6.com^
 ||co8386c3.eulerian.io^
 ||co932.coloradopolitics.com^
+||coachweb.com/vite/assets/JwPlayer/Shared/Analytics.*.js
+||coachweb.com/vite/assets/JwPlayer/Shared/TrackingEvents.*.js
 ||coalkitchen.com^
 ||coastersim.com^
 ||coatfood.com^
@@ -274595,6 +274606,7 @@ zzzyk.com###Tinfo
 ||euvdp.maxbp.com^
 ||euvhrz.naturestore.co.kr^
 ||eux-stape.weclapp.com^
+||eux6eonqhd.com^
 ||euzjz.modlily.com^
 ||ev.alpha7prost.com^
 ||ev.api.bdg.com^
@@ -275170,6 +275182,7 @@ zzzyk.com###Tinfo
 ||evzhzu.edreams.com.ar^
 ||evzwyj.jubiler.pl^
 ||ew.mittwald.de^
+||ew0ctzt3vd.com^
 ||ew1.reg.bigdata.ssp.samsung.com^
 ||ew3.io^
 ||ewaline.su/stats.js
@@ -292027,6 +292040,8 @@ zzzyk.com###Tinfo
 ||imobie.com/js/analytics.js
 ||imonomy.com^$third-party
 ||imooc.com/open/courselistrandjs
+||imore.com/vite/assets/Newsletter/NewsletterAnalytics.*.js
+||imore.com/vite/assets/analyticHandlers-*.js
 ||imovel.alliancyimobiliaria.com.br^
 ||imp-*.jampp.com^
 ||imp.ad-plus.cn^
@@ -307216,6 +307231,7 @@ zzzyk.com###Tinfo
 ||macfans.org/vip/
 ||macg.co/modules/statistics/statistics.php
 ||machieved.com^$third-party
+||machineryline.ua/*/save-event/
 ||mackaytracking.newyorklifeinvestments.com^
 ||mackaytracking.nylim.com^
 ||mackerel.passiveincome.io^
@@ -320391,6 +320407,7 @@ zzzyk.com###Tinfo
 ||oylyaz.mrkoll.se^
 ||oyotii.sportokay.com^
 ||oyoxyc.josefsteiner.at^
+||oysdzwzivk.com^
 ||oyssqe.easyvoyage.com^
 ||oyszek.weddingnews.jp^
 ||oyvjff.bakerross.ie^
@@ -326247,6 +326264,7 @@ zzzyk.com###Tinfo
 ||r2r.utas.edu.au^
 ||r3.mail.ru/k?fver=
 ||r3.mail.ru/k?sign=
+||r30vhf31sv.com^
 ||r36ku.site^
 ||r3nvrr4uzh.com^
 ||r3sub.com/images/aaa^
@@ -331094,6 +331112,7 @@ zzzyk.com###Tinfo
 ||schnee.skiamade.com^
 ||scholar.google.com^$ping
 ||scholarloop.com^
+||scholarsark.com^
 ||school.novakidschool.com/api/*/metrics
 ||schoolpaws.com^
 ||schottenland.de/na/ajax.php?ax=HiT&
