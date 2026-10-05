@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-05 12:14:15(GMT+8) 
-! Total count: 386634
+! ! Version: 2026-10-06 04:20:07(GMT+8) 
+! Total count: 386658
  
 ###ADtip
 ###Ad_windows
@@ -2908,7 +2908,6 @@ $websocket,domain=wap.yushuwu.cloud
 /58pic/index.php?m=adManageSystem&
 /640_120_javhd.jpg
 /69tang6_*/html/abc/image/*
-/7755com-*00x*.gif
 /789syy/*
 /80sad/*
 /8drama_yahoo/*
@@ -10449,7 +10448,6 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com##div[style^="width:274px;height:368px"]
 3dmgame.com#$#body > div.content { margin-top: 0 !important; }
 3dmgame.com#%#//scriptlet('abort-on-property-write', 'adStart')
-3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
 3dnews.ru##a[href^="http://metrika.yandex.ru/"]
 3g.163.com##.big_boom
 3g.163.com##.bottom.widget-slider-article.widget-slider
@@ -13176,6 +13174,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cmoney.tw/finance/js/googleanalytics.js
 @@||cmoney.tw/follow/js/google_analytics.js
 @@||cmoney.tw/vt/js/google_analytics.js
+@@||cmp.optimizely.com/assets/$image,domain=roadscholar.org
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
 @@||cnbeta.com.tw^$generichide
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
@@ -14316,6 +14315,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=merrell.com|wolverine.com|catfootwear.com|chacos.com|hytest.com|saucony.com
 @@||googletagmanager.com/gtm.js$domain=militaria.pl
 @@||googletagmanager.com/gtm.js$domain=miltonkeynes.co.uk
+@@||googletagmanager.com/gtm.js$domain=mizuhobank.co.jp
 @@||googletagmanager.com/gtm.js$domain=moniteurautomobile.be
 @@||googletagmanager.com/gtm.js$domain=muscleandfitness.com
 @@||googletagmanager.com/gtm.js$domain=mz.de
@@ -14323,6 +14323,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=napishem.ru
 @@||googletagmanager.com/gtm.js$domain=nespresso.com
 @@||googletagmanager.com/gtm.js$domain=nestleprofessional.com.tr
+@@||googletagmanager.com/gtm.js$domain=news-postseven.com
 @@||googletagmanager.com/gtm.js$domain=news.tvb.com
 @@||googletagmanager.com/gtm.js$domain=newsarama.com
 @@||googletagmanager.com/gtm.js$domain=nihontsushin.com
@@ -14430,6 +14431,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=ucicinemas.pt
 @@||googletagmanager.com/gtm.js$domain=ucpa-vacances.com
 @@||googletagmanager.com/gtm.js$domain=unbiased.co.uk
+@@||googletagmanager.com/gtm.js$domain=unicef.or.jp
 @@||googletagmanager.com/gtm.js$domain=unity3d.com
 @@||googletagmanager.com/gtm.js$domain=upc.pl
 @@||googletagmanager.com/gtm.js$domain=upwork.com
@@ -214581,6 +214583,11 @@ gloaulasd3.click.s11.sfmc-osl.com$image
 gloausealid3.click.s11.sfmc-osl.com$image
 gloauthorizationalid3.click.s11.sfmc-osl.com$image
 glob2026lid3.click.s11.sfmc-osl.com$image
+global.hk01.com##.cmp-article-detail > .flex:has(> .lazyload-wrapper > div:is(.js-ad-slot, [data-id="lazyload-placeholder"]))
+global.hk01.com##.fixed[aria-labelledby="hot-news-dialog-title"] .items-stretch > .shrink-0:has(> .sticky > .flex > .lazyload-wrapper > .js-ad-slot)
+global.hk01.com##.hidden[class*="col-span-4"] > div[class^="min-h-250px w-full"]:has(> .flex > .lazyload-wrapper > .js-ad-slot)
+global.hk01.com##div[class*="_.js-ad-slot]"]
+global.hk01.com#$#div[class^="placeholder-ad-"] { min-height: 0 !important; }
 global413.click.s11.sfmc-osl.com$image
 globaladmin-ui3.click.s11.sfmc-osl.com$image
 globalauto3.click.s11.sfmc-osl.com$image
@@ -216319,6 +216326,7 @@ imooc.com##.redrain-bg-shade
 imydl.com###enhancedtextwidget-5
 imydl.com##a[href*=".wuluoyun.com/aff/"]
 imydl.com##div[id*="banner"]
+incident.io,ricardocuisine.com,thegentlemansjournal.com,thekrazycouponlady.com,flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 indianexpress.com#%#//scriptlet('set-local-storage-item', 'ev_did', '$remove$')
 indianexpress.com#%#//scriptlet('set-local-storage-item', 'ev_sid', '$remove$')
 indiatimes.com#@#div[id^="div-gpt-ad"]
@@ -226624,7 +226632,6 @@ rgrp.nypa.gov$image
 rgrp.partners.basf-catalystsmetals.com$image
 ria.ru##.antiblock
 riaway.com##.info_message_container
-ricardocuisine.com,thegentlemansjournal.com,thekrazycouponlady.com,flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 ridgemerino.com#%#//scriptlet('set-local-storage-item', 'kl-uid', '$remove$')
 right.com.cn###hd > div.wp > div.hdc > h2 img.boardlogo
 right.com.cn##.wp > .a_t:has(> table > tbody > tr > td > .adsbygoogle)
@@ -233012,7 +233019,10 @@ view.zero-markets.com$image
 view.zogsports.com$image
 view.zoko-marketing.co.il$image
 view.zwilling-news.com$image
+vikacg.com##.arco-carousel
+vikacg.com##.contents:has(> a[class="w-full"][href^="http"][target="_blank"] > img[src*="/assets/moonlight/"])
 vikacg.com##a[href^="https://acg01.com/]"]
+vikacg.com#%#//scriptlet('json-prune', 'data.item data.ads')
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
 ville-ideale.com###antyp
@@ -236167,6 +236177,7 @@ zzzyk.com###Tinfo
 ||6acupxubky.com^
 ||6aontlsdf.com^
 ||6aoodbdx94.com^
+||6aqqzbehy.com^
 ||6avz.com^$script,third-party
 ||6b8emvi3ya.com^
 ||6b9wbbjf5s.com^
@@ -247363,6 +247374,7 @@ zzzyk.com###Tinfo
 ||api.cavalcanticampos.adv.br^
 ||api.cazamba.com^$third-party
 ||api.cazehn.com.br^
+||api.cdnlivetv.tv/p2p-stats
 ||api.cenariomag.com^
 ||api.centerimportsoficial.com.br^
 ||api.centralcorretoronline.com.br^
@@ -248517,10 +248529,12 @@ zzzyk.com###Tinfo
 ||apm.qwant.com^
 ||apm.relationshipone.com^
 ||apm.tnet.nl^
+||apm.volccdn.com^
 ||apm.yahoo.co.jp^
 ||apmcx60sm5.com^
 ||apmplus.ap-southeast-1.volces.com^
 ||apmplus.volces.com/monitor_web/
+||apmplus.volces.com^
 ||apnews.com/blaize/datalayer
 ||apnews.com/newrelic/newrelic.browser.prod.js
 ||apohk.moventashop.com^
@@ -271307,7 +271321,6 @@ zzzyk.com###Tinfo
 ||dytuj6zs26.com^
 ||dyucvk.jardincouvert.com^
 ||dywpcs.avenida.com.br^
-||dyxs39.com/statics/js/jquery.
 ||dyxz*.com/static/gdw.js
 ||dyxz*.com/static/jquery.js?
 ||dyzmpx.speedway.fr^
@@ -275173,6 +275186,7 @@ zzzyk.com###Tinfo
 ||evs.data.ciceksepeti.com^
 ||evs.icy-lake.kickstarter.com^
 ||evs.segment.complex.com^
+||evs.segwww.incident.io^
 ||evs.sgmt.loom.com^
 ||evs.sgmt.loom.com^$script
 ||evss.evinyolu.net^
@@ -292197,6 +292211,7 @@ zzzyk.com###Tinfo
 ||independent.co.uk/_build/prebid_
 ||independent.co.uk/iframe/native-cookiesync-frames.html
 ||independent.co.uk^$cookie=/^esi-/
+||independentaustralia.net/_js/realtrack.js
 ||index.hr/api/stats/
 ||index.ru^$third-party
 ||indexstats.com^$third-party
@@ -298683,6 +298698,7 @@ zzzyk.com###Tinfo
 ||lf.lelefeminine.com^
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js
 ||lf2cgxz0b.com^
+||lf3-data.volccdn.com/obj/data-static/log-sdk/
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lfahl.balsamhill.com^
 ||lfapbe.quiksilver.co.jp^
@@ -298716,6 +298732,7 @@ zzzyk.com###Tinfo
 ||lfuzec.bglen.net^
 ||lfvjt.banded.com^
 ||lfxdqs.mamasandpapas.ae^
+||lfxm6qdn0.com^
 ||lfyqsi.erborian.com^
 ||lfzk2cp.icu^
 ||lfzlb.levasleep.com^
@@ -314238,6 +314255,8 @@ zzzyk.com###Tinfo
 ||mixxuo.sportys.gr^
 ||miyushu.com^
 ||mize.scompler.com^
+||mizuhobank.co.jp/bk-common/pc/js/rt_track_event.js
+||mizuhobank.co.jp/common/js/rt_track.js
 ||mj-snowplow-static-js.s3.amazonaws.com^
 ||mj23.eulerian.com^
 ||mj2fdb4kdq.com^
@@ -316932,6 +316951,7 @@ zzzyk.com###Tinfo
 ||news-app-events.apple.com^
 ||news-events.apple.com^
 ||news-info.gcgfinancial.com^
+||news-postseven.com/wp-content/common/visitdata.js
 ||news-sports-events.apple.com^
 ||news.99k.tw/open/open*.php
 ||news.aeromarkltd.co.uk^
@@ -320585,6 +320605,7 @@ zzzyk.com###Tinfo
 ||p030.courant.com^
 ||p04.sc.origins.en25.com^
 ||p06.sc.origins.en25.com^
+||p0h1nfzc2.com^
 ||p0pn18sxvh.com^
 ||p0y.cn^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
@@ -325220,6 +325241,7 @@ zzzyk.com###Tinfo
 ||qczg1nsnvo.com^
 ||qczgr.keyless-city.com^
 ||qd.x4399.com^
+||qd32n9lpq.com^
 ||qd38xgoin9.com^
 ||qdaily.com/mount_details/pc/
 ||qdczx66.com^
@@ -366777,6 +366799,7 @@ zzzyk.com###Tinfo
 ||teigwaren.silikonbackform.com^
 ||teijgy.herveleger.com^
 ||teipd.onlinecyclinggear.com^
+||tek3shnfk.com^
 ||teknolojituru.com/api/tracking
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare*.js
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
@@ -378462,6 +378485,7 @@ zzzyk.com###Tinfo
 ||vistanet.it/*/wp-content/plugins/vistanet-plugins/js/category_event.js
 ||vistanet.it^*/category_event.js
 ||visual.ly/track.php?
+||visualcommservices.com^
 ||visualdna.com^$third-party
 ||visualrevenue.com^$domain=autobild.de|spiegel.de
 ||visualrevenue.com^$third-party

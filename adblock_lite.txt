@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-10-05 12:14:15(GMT+8) 
-! Total count: 32629
+! ! Version: 2026-10-06 04:20:07(GMT+8) 
+! Total count: 32639
  
 ###ADtip
 ###Ad_windows
@@ -1967,7 +1967,6 @@ $websocket,domain=wap.yushuwu.cloud
 /58pic/index.php?m=adManageSystem&
 /640_120_javhd.jpg
 /69tang6_*/html/abc/image/*
-/7755com-*00x*.gif
 /789syy/*
 /80sad/*
 /8drama_yahoo/*
@@ -3617,7 +3616,6 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com##div[style^="width:274px;height:368px"]
 3dmgame.com#$#body > div.content { margin-top: 0 !important; }
 3dmgame.com#%#//scriptlet('abort-on-property-write', 'adStart')
-3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
 3g.163.com##.big_boom
 3g.163.com##.bottom.widget-slider-article.widget-slider
 3g.163.com##.comment_bot
@@ -9362,6 +9360,11 @@ github.com##a[href^="https://cloud.tencent.com/redirect."] > img
 github.com##a[href^="https://openwrite.cn/"]
 gkstk.com##.layui-layer-shade
 gkstk.com,ufanw.com##.layui-layer
+global.hk01.com##.cmp-article-detail > .flex:has(> .lazyload-wrapper > div:is(.js-ad-slot, [data-id="lazyload-placeholder"]))
+global.hk01.com##.fixed[aria-labelledby="hot-news-dialog-title"] .items-stretch > .shrink-0:has(> .sticky > .flex > .lazyload-wrapper > .js-ad-slot)
+global.hk01.com##.hidden[class*="col-span-4"] > div[class^="min-h-250px w-full"]:has(> .flex > .lazyload-wrapper > .js-ad-slot)
+global.hk01.com##div[class*="_.js-ad-slot]"]
+global.hk01.com#$#div[class^="placeholder-ad-"] { min-height: 0 !important; }
 globes.co.il###chromeWindow
 globes.co.il###grayLayer
 gmgard.com,hggard.com###blog > div[style="overflow:hidden"]
@@ -14849,7 +14852,10 @@ view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="slider-top-bar_newSliderWrapper"]
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
+vikacg.com##.arco-carousel
+vikacg.com##.contents:has(> a[class="w-full"][href^="http"][target="_blank"] > img[src*="/assets/moonlight/"])
 vikacg.com##a[href^="https://acg01.com/]"]
+vikacg.com#%#//scriptlet('json-prune', 'data.item data.ads')
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
 ville-ideale.com###antyp
@@ -17293,6 +17299,7 @@ zzzyk.com###Tinfo
 ||6acupxubky.com^
 ||6aontlsdf.com^
 ||6aoodbdx94.com^
+||6aqqzbehy.com^
 ||6avz.com^$script,third-party
 ||6b8emvi3ya.com^
 ||6b9wbbjf5s.com^
@@ -21332,7 +21339,6 @@ zzzyk.com###Tinfo
 ||dytt8.net/jsd
 ||dytt8899.com/js/tj.js
 ||dytuj6zs26.com^
-||dyxs39.com/statics/js/jquery.
 ||dyxz*.com/static/gdw.js
 ||dyxz*.com/static/jquery.js?
 ||dyzyhj.com/Jk/
@@ -25158,6 +25164,7 @@ zzzyk.com###Tinfo
 ||lfjtiuy.cn^
 ||lflmdm.com^
 ||lftw3i7d5.com^
+||lfxm6qdn0.com^
 ||lfzk2cp.icu^
 ||lg0lh2qfj4.com^
 ||lgaekait.com^
@@ -26933,6 +26940,7 @@ zzzyk.com###Tinfo
 ||p.wktfkj.com^$third-party
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
+||p0h1nfzc2.com^
 ||p0pn18sxvh.com^
 ||p0y.cn^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
@@ -27548,6 +27556,7 @@ zzzyk.com###Tinfo
 ||qczcxe.cn^
 ||qczg1nsnvo.com^
 ||qd.x4399.com^
+||qd32n9lpq.com^
 ||qd38xgoin9.com^
 ||qdaily.com/mount_details/pc/
 ||qdczx66.com^
@@ -29273,6 +29282,7 @@ zzzyk.com###Tinfo
 ||techspecndt.com^
 ||techug.com/aatb/
 ||teddync.net^
+||tek3shnfk.com^
 ||tekproxy.com/$popup,domain=turkdown.com
 ||telecome.cn^
 ||telphiruq.com^
