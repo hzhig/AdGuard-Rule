@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-05 00:29:01(GMT+8) 
-! Total count: 386628
+! ! Version: 2026-10-05 12:14:15(GMT+8) 
+! Total count: 386634
  
 ###ADtip
 ###Ad_windows
@@ -1362,9 +1362,9 @@
 ##amp-embed[type="taboola"]
 ##body .has-ad
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
-##body > #__nuxt:first-child > div > .container > div[data-topmenu] + div + div[data-pg-wrap]
+##body > #__nuxt:first-child > div > .container > div[class^="pg-"] > div[style*="important"]
 ##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
-##body > #__nuxt:first-child ~ div[data-tag] > div > div > button[aria-label] + div[class]
+##body > #__nuxt:first-child ~ div[class] > div > div > button[aria-label] + div[class]
 ##body > .app + #htmlContenthtml
 ##body > .dbfh
 ##body > .zdhf
@@ -235297,6 +235297,7 @@ zzzyk.com###Tinfo
 ||2u3v4w5x6y.com^
 ||2vcb9onxjm.com^
 ||2vqgtxw.cn^
+||2wg8pp90e.com^
 ||2wgolxk.com^
 ||2wqs6d2gp.com^
 ||2xclick.ru^$third-party
@@ -236538,6 +236539,7 @@ zzzyk.com###Tinfo
 ||8h6oiw0uo.com^
 ||8h6whvlpnz.com^
 ||8h7j79qxm.com^
+||8hvq8jskh.com^
 ||8hx7k0211.com^
 ||8iav2fuiy.com^
 ||8inhjmd.usefathom.com^
@@ -245691,7 +245693,6 @@ zzzyk.com###Tinfo
 ||analytics.gnetworks.xyz^
 ||analytics.gokwik.co^
 ||analytics.gokwik.co^$third-party
-||analytics.google.com/g/collect?
 ||analytics.google.com^
 ||analytics.google.com^$domain=analytics.google.com
 ||analytics.google.com^$third-party
@@ -252421,6 +252422,7 @@ zzzyk.com###Tinfo
 ||bedrapiona.com^
 ||bedrop.marketing-tech.io^
 ||bedsberry.com^
+||bedwlzqwkxpzfc.com^
 ||bee.andreawhitmer.com^
 ||bee.jbkmobiledj.com^
 ||bee.shelveholidays.co.uk^
@@ -268853,7 +268855,6 @@ zzzyk.com###Tinfo
 ||dev.msadvocate.net^
 ||dev.nobackpainprotocol.com^
 ||dev.onepiecemerchandise.com^
-||dev.ozon.ru/p-api/tracker/
 ||dev.pacebeer.com^
 ||dev.pancernik.eu^
 ||dev.peanut.pt^
@@ -269633,6 +269634,7 @@ zzzyk.com###Tinfo
 ||discuss.com.hk^*_prod.html
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||disentangle56.top^
+||dishwasher46.com^
 ||dismantlepenantiterrorist.com^
 ||disney.net.mydays.de^
 ||dispatcher.upmc.uc.cn^
@@ -294181,6 +294183,8 @@ zzzyk.com###Tinfo
 ||ipv4-c006-mid001-telmex-isp.1.oca.nflxvideo.net.iberostar.com^
 ||ipv4-c024-mia006-ix.1.oca.nflxvideo.net.iberostar.com^
 ||ipv4-cs.intsig.net.iberostar.com^
+||ipv4.art/claim
+||ipv4.games/claim
 ||ipv6monitoring.eu^$third-party
 ||ipvhf.swingsetmall.com^
 ||ipyjxs.chowsangsang.com^
@@ -324844,7 +324848,6 @@ zzzyk.com###Tinfo
 ||pv.kuaizhan.com^
 ||pv.kuaizhan.com^$third-party
 ||pv.ltn.com.tw/RI_Server?a=
-||pv.ltn.com.tw/impression?
 ||pv.ltn.com.tw^
 ||pv.partenaires-verisure.fr^
 ||pv.quw1234.icu^
@@ -325403,6 +325406,7 @@ zzzyk.com###Tinfo
 ||qiji1.jdwx.info^
 ||qijpaih.cn^
 ||qilanxiaozhu.*/data/attachment/portal/
+||qim0lvk6m.com^
 ||qimcqs.hometogo.dk^
 ||qimiaomh.com/muban/m/static/js/common.js
 ||qimiaomh.com/muban/m/static/js/hhh.js
@@ -356378,6 +356382,7 @@ zzzyk.com###Tinfo
 ||st.primopiano.com^
 ||st.prindo.at^
 ||st.prindo.de^
+||st.putler.com^
 ||st.q-alshefa.com^
 ||st.rahm.de^
 ||st.rapidium.com.br^
@@ -368661,6 +368666,7 @@ zzzyk.com###Tinfo
 ||topofblogs.com^$third-party
 ||topofthehill.brynje.no^
 ||topolino.it^*/omniture.php?
+||topratedwaterfilter.com^
 ||topsecretapp.net^
 ||topsem.com^$third-party
 ||topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/trans_pixel.gif
