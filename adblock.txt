@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-06 04:20:07(GMT+8) 
-! Total count: 386658
+! ! Version: 2026-10-06 13:02:29(GMT+8) 
+! Total count: 386664
  
 ###ADtip
 ###Ad_windows
@@ -14584,6 +14584,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
 @@||heatmap.it^$domain=heatmap.me
 @@||heavenly-blue.net^$elemhide
+@@||heimdall.hearstapps.com/voltron$third-party,xmlhttprequest,domain=caranddriver.com
 @@||helix.videotron.com/js/api/fingerprint.js$domain=helix.videotron.com
 @@||helix.videotron.com/js/api/fingerprint.js$~third-party
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
@@ -236265,6 +236266,7 @@ zzzyk.com###Tinfo
 ||6w4ix4bxz1.com^
 ||6x59axt21.com^
 ||6xu7at70ok.com^
+||6y10di5jko.com^
 ||6yfcuuw.com^
 ||6ynyejkv0j1s.app.tapmyback.com^
 ||6zc7gvmavf.com^
@@ -279050,6 +279052,7 @@ zzzyk.com###Tinfo
 ||gcprivacy.com^
 ||gcpsmapi.vodafone.com/submit-events
 ||gcqciiqk.com^
+||gcqgmgq.com^
 ||gcr.nextafter.io^
 ||gcrlyd.career-adv.jp^
 ||gcsfe.emmausapparel.com^
@@ -367668,6 +367671,7 @@ zzzyk.com###Tinfo
 ||tigershark.vandevliet.me^
 ||tigfvdr.com^
 ||tightpowder.com^
+||tightrope23.com^
 ||tiglck.technopolis.bg^
 ||tiglon.beyondco.de^
 ||tiglon.davidroessli.com^
@@ -381165,6 +381169,7 @@ zzzyk.com###Tinfo
 ||wkctj.baidu.com^
 ||wkd.red-mag.ro^
 ||wkdcv.teriyakimadness.com^
+||wkduza2x10.com^
 ||wkffb.247blinds.co.uk^
 ||wkgrle.thelobsterguy.com^
 ||wkhpee.unitedrentals.com^
@@ -385896,6 +385901,7 @@ zzzyk.com###Tinfo
 ||zhy333.com^$third-party
 ||zhyeqw.mercury.ru^
 ||zhzdz.shopiammi.com^
+||zhzrvjmyqvdhrc.com^
 ||zhzxqa.madeleine-mode.ch^
 ||zhzyw.com/js/InsertJS.js
 ||zi-scripts.com/zi-tag.js
