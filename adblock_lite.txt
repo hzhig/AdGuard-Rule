@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-10-07 01:58:27(GMT+8) 
-! Total count: 32651
+! ! Version: 2026-10-07 12:29:33(GMT+8) 
+! Total count: 32644
  
 ###ADtip
 ###Ad_windows
@@ -2857,7 +2857,7 @@ $websocket,domain=wap.yushuwu.cloud
 04stream.com##[id^="closediv"]
 04stream.com##[id^="otclosediv"]
 0594.com##div[id^="PCMSAD_"]
-0594.com,164580.com,2234.cn,appinn.com,appledaily.com.tw,china.com,chinamedevice.cn,cnodejs.org,danyang.com,doyouhike.net,e3zy.com,haokan5.com,hc360.com,helloavgirls.com,hkjunkcall.com,meiyouad.com,moe48.com,qq.com,sina.com,sogou.com,tongren.gov.cn,uc123.com,up01.cc,wokao.co,yeeyi.com##.ads
+0594.com,164580.com,2234.cn,appinn.com,appledaily.com.tw,china.com,chinamedevice.cn,cnodejs.org,danyang.com,doyouhike.net,e3zy.com,haokan5.com,hc360.com,helloavgirls.com,hkjunkcall.com,meiyouad.com,moe48.com,qq.com,sina.com,sogou.com,tongren.gov.cn,uc123.com,up01.cc,yeeyi.com##.ads
 0597kk.com###cool_fixed
 0597kk.com###kk_content1_left_ad1
 0597kk.com###kk_head_ad
@@ -3848,7 +3848,7 @@ $websocket,domain=wap.yushuwu.cloud
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
-52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52niuyan.cc##.top_fixed
 52niuyan.cc##a[onclick][rel][style*="toutiaoimg.com"]
@@ -6162,7 +6162,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||yellowbridge.com^$elemhide
 @@||yesiget.i234.me^$generichide
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
-@@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||yimg.jp/combo?*/ad/
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
@@ -6478,6 +6477,7 @@ apkpure.net,apkpure.com##DIV.js-ad-slot
 apowersoft.cn##.activity-poster
 app.n26.com#@#.bl > .gg
 appchina.com###yyh-bottom
+appinn.com###media_image-2
 appinn.com###ranshownow
 appinn.com###sidebar > .widget:first-child
 appinn.com###sidebar > .widget_block > a
@@ -6485,7 +6485,6 @@ appinn.com###sidebar a[rel*="sponsored"]
 appinn.com##.ads-m
 appinn.com##a[href*=".houdeyun.cn"]
 appinn.com#?#.featured-section > .test:has(>.post-img>a[href^="http"]:not([href*="appinn."]))
-appinn.com,hexieshe.cn###media_image-2
 appki.com.pl#@##adsense
 apple.com.cn##.adv-wrapper
 apple.com.cn#$##ac-globalnav { top: 0 !important; }
@@ -9331,6 +9330,7 @@ ggcj.com##.dbxf
 ggdoc.com.cn#@#.addiv
 ggjav.com###ads_6
 ggjav.com,porn87.com#%#//scriptlet('abort-current-inline-script', '$', 'popunder')
+gh-proxy.com##section.z-10 > div.w-full:has(> a[rel*="sponsored"])
 ghxi.com###respond + div
 ghxi.com##.ad_single_12
 ghxi.com##.entry-content > div[style^="position:"]
@@ -9784,13 +9784,6 @@ hentenaar.com#@#.adsbygoogle
 hepan.com##.fivead
 hepuwang.com##.n5_dbhfad > .wapper
 hepuwang.com##a[href^="http://ad."]
-hexieshe.cn###custom_html-2
-hexieshe.cn###media_image-3
-hexieshe.cn##a[href^="http://zd.zhiketong.cn/"]
-hexieshe.com,hexieshe.xyz,xxshe.info##.entry-header + p + p[style="text-align: center;"]
-hexieshe.com,hexieshe.xyz,xxshe.info##.entry-title > p
-hexieshe.com,hexieshe.xyz,xxshe.info##.mh-sidebar img
-hexieshe.com,hexieshe.xyz,xxshe.info,xxshe.xyz##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
 hexun.com###bottom_extension
 hexun.com###hexunCouplet01
 hexun.com###newsPopWin
@@ -9901,7 +9894,6 @@ houdao.com###header-ban
 houdao.com##a[style^="background:url"]
 house.qq.com###yf
 house.qq.com##.bm
-house.yahoo.com.tw##.content_r > .rbox:first-child
 house365.com###AD-coup-left
 house365.com###ft-login
 house365.com###marryD
@@ -13504,7 +13496,7 @@ segmentfault.com#?##question-wrap > .row > .col-xl-auto:has(> #first-ad:first-ch
 senao.com.tw#@#.ad-wrap
 senfun.net##.player-recommend
 senmanga.com##P[class="no"]
-seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
+seqing.world,singlove.com,whichav.com,whichav.net##.qq
 serengeseba.com##.content > li > a[href^="http"]
 server-setting.info#@#.adsbygoogle
 serverhd.eu###countDown
@@ -15665,8 +15657,6 @@ youziks.com#%#//scriptlet('prevent-setTimeout', 'ecjkox.com')
 yp868.com##iframe[src="/js/loading.html"]
 ypojie.com#?#.excerpt:has(>.focus[href^="http"]:not([href*="ypojie"]))
 ys168.com##div[style="position: fixed; width: 200px; top: 330px; right: 20px; font-size: 9pt; text-align: left;"]
-ysgc.fun,ysgc.tv##.myui-panel_bd > div > a[target="_blank"]
-ysgc.fun,ysgc.tv##.swiper-slide > a[target="_blank"]
 ysxs8.vip##.ysxs8_w960_1
 ytbbs.com###dd1
 ytbbs.com##.ftop_ad_2016
@@ -16038,6 +16028,7 @@ zzzyk.com###Tinfo
 ||0hasprzzu.com^
 ||0hqq3dnjf.com^
 ||0hr4wyjfv3.com^
+||0i2nax2di.com^
 ||0iem8mw1lx.com^
 ||0ihw4ipvm5.com^
 ||0jghm60qg.com^
@@ -23370,6 +23361,7 @@ zzzyk.com###Tinfo
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 ||ht55hm12n2.com^
 ||ht9s1j1bf.com^
+||htazjxk.com^
 ||hthelulyq.com^
 ||hthivr.xyz^
 ||htienlu.top^
@@ -23666,6 +23658,7 @@ zzzyk.com###Tinfo
 ||ifewo.xyz^
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
 ||ifkdy.com/ifkdy/weixin/isFollowMe
+||ifnb6hfem.com^
 ||ifooday.cn/index.php?m=poster&
 ||ifsdg.xyz^
 ||ifunmac.com/wp-content/uploads/*/alipay-
@@ -25748,7 +25741,6 @@ zzzyk.com###Tinfo
 ||market.178.com^
 ||market.21cn.com^
 ||market.duowan.com^
-||masadora.net/kakusan-
 ||mascara21.top^
 ||masdk.3g.qq.com^
 ||masockq.com^
@@ -29626,6 +29618,7 @@ zzzyk.com###Tinfo
 ||trafficstars.com$third-party
 ||trammel46.top^
 ||trammel74.top^
+||trampoline12.com^
 ||trapezium69.top^
 ||travel44.top^
 ||trc.taboola.com^
@@ -30814,7 +30807,6 @@ zzzyk.com###Tinfo
 ||wof.matchkj.com^
 ||wogukcd.xyz^
 ||wohewodejxp.top^
-||wokao.co/qq/qq.js
 ||wonderhsjnsd.com^
 ||woonkruthf.com^
 ||woozooo.com/img/*.js
@@ -31538,6 +31530,7 @@ zzzyk.com###Tinfo
 ||xxdm.in/js/union/
 ||xxdongfa.com^
 ||xxffo.com^*_slett.php
+||xxfjhbiuwyphdi.com^
 ||xxfphsg.cn^
 ||xxgslt.com^
 ||xxhfuaek.icu^
