@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-08 02:28:22(GMT+8) 
-! Total count: 386668
+! ! Version: 2026-10-08 12:40:32(GMT+8) 
+! Total count: 386674
  
 ###ADtip
 ###Ad_windows
@@ -200,6 +200,7 @@
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
+###main > .nv-ad
 ###mainbody:nth-child(5) > .mylist
 ###menu + #topBox
 ###menu + script + #topBox
@@ -2090,7 +2091,7 @@ $cookie=yoc_visxuid,domain=wp.pl
 $cookie=yotpo_pixel
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
-$csp=script-src 'self' * 'unsafe-inline',domain=156xsbb.com|ltbook.net|shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
+$csp=script-src 'self' * 'unsafe-inline',domain=156xsbb.com|ltbook.net|shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|xingksw.com|enbusw.com|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|sswwxs.com|akexs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
@@ -15994,6 +15995,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
+@@||sdk-analytics-web.cloud.itau.com.br/index.js$script,domain=meu.userede.com.br
 @@||sdk.mrf.io/statics/marfeel-sdk.js$domain=mundodeportivo.com
 @@||sdk.mrf.io/statics/marfeel-sdk.js$script,domain=autoplus.fr|computerhoy.20minutos.es|mundodeportivo.com
 @@||se.com/_uce_/immutable/chunks/google-analytics.$script
@@ -214530,11 +214532,6 @@ giga.chat#%#//scriptlet('set-local-storage-item', '/DEVICE_ID/', '$remove$')
 gio.com.au#%#//scriptlet('set-constant', 'webAnalytics', 'emptyObj')
 gio.com.au#%#//scriptlet('set-constant', 'webAnalytics.publish', 'noopFunc')
 giovanniterlingen.com#@#.text_ads
-girlsoncam.net##.x-slots-banner-only
-girlsoncam.net##.x-slots-hero-after
-girlsoncam.net,japonfilmleri.com,minaeast.net###playerdavLayer
-girlsoncam.net,japonfilmleri.com,minaeast.net##.da
-girlsoncam.net,japonfilmleri.com,minaeast.net##div[style^="position: fixed;"]
 girlstory.kr#@#.adsbygoogle
 girlstyle.com,thecatcity.com,urbanlifehk.com##.desktop-sidebar__block--ad
 girlstyle.com,thecatcity.com,urbanlifehk.com##.pl-main-article__ad-block
@@ -220641,6 +220638,7 @@ m.bimmer24.de$image
 m.biqiugege8.com#%#//scriptlet("set-constant", "lists", "undefined")
 m.biquge12345.com,69shumi.com,biquge543.com,beqg.cc,biquge321.com#%#//scriptlet('prevent-addEventListener', 'touchend', 'window.location.href')
 m.brailleskateboarding.happycustomer.io$image
+m.bunjang.co.kr#%#//scriptlet('href-sanitizer', 'a[href^="/products/"]', '?imp_id', 'removeParam')
 m.card-gorilla.com,pindirectshop.com,dongbanmall.com#%#//scriptlet("set-constant", "kakaoPixel", "undefined")
 m.chinaso.com##.chinaso_weixin
 m.chinaso.com##.wrap-layout > .wrap-toolbar
@@ -257789,6 +257787,7 @@ zzzyk.com###Tinfo
 ||citiintl.122.2o7.net/b/ss/citiintlemeapolandprod$image,redirect=1x1-transparent.gif,domain=citibankonline.pl
 ||citiservi.es/adstrack?
 ||citiservi.es^
+||citizensactive.com^
 ||citizensclimate.actonservice.com^
 ||citizenship.quantresear.ch^
 ||citizensvoice.com/logger/p.gif
@@ -262818,6 +262817,7 @@ zzzyk.com###Tinfo
 ||daawx.cn^
 ||dabai28.com/img/*.gif
 ||dabaoku.com^$object,script,subdocument
+||dabetlewtbdppi.com^
 ||dabin69.com/data/attachment/portal/
 ||dable.io^$third-party
 ||dabu.askmediagroup.com^
@@ -294787,6 +294787,7 @@ zzzyk.com###Tinfo
 ||jaimbai2b1.com^
 ||jakid.xyz^
 ||jakisity.top^
+||jakoscobslugi.pl/js/jo-analytics.js
 ||jal.co.jp/common_rn/img/rtam.gif
 ||jal.co.jp/common_rn/js/rtam.js
 ||jalapenos.jopasteleria.cl^
@@ -298620,6 +298621,7 @@ zzzyk.com###Tinfo
 ||leopon.jmk.wtf^
 ||leopon.luckycasts.com^
 ||leopon.originalmineral.com^
+||leotard54.com^
 ||leparisien.fr/espace-securise/shield/read-article/*?fingerprint=
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js
@@ -322751,6 +322753,7 @@ zzzyk.com###Tinfo
 ||pixel.wp.pl^$important
 ||pixel.yabidos.com^
 ||pixel.yola.com^
+||pixel2.realclever.com^
 ||pixel6.wp.pl^
 ||pixelapi-*.cs.mysamba.tv^
 ||pixelapi.mariafloratelie.com^
@@ -378039,6 +378042,7 @@ zzzyk.com###Tinfo
 ||vfpkraveam.com^
 ||vfqdp.trywellbe.hr^
 ||vfqggw.backmarket.co.uk^
+||vfqhky3tos.com^
 ||vfqhvr.hearing-aid-advice.com^
 ||vfrdewsdg.xyz^
 ||vfsdgjrr.xyz^
@@ -379319,6 +379323,7 @@ zzzyk.com###Tinfo
 ||w3xue.com/js/pro541.js
 ||w4.air-worldwide.com^
 ||w41.i7x3.fun^
+||w4b52osbr5.com^
 ||w4h5ae.ru^
 ||w4m.rs/tracker.js
 ||w4nw434j7n.com^
@@ -379425,6 +379430,7 @@ zzzyk.com###Tinfo
 ||w88.videos.parksmedia.disney.go.com^
 ||w88.wireless.go.com^
 ||w890.denvergazette.com^
+||w8n97pkzn6.com^
 ||w97nv5ibv4.com^
 ||w982.middletownpress.com^
 ||w9cvyte89.com^
