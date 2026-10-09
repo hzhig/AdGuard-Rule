@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-09 02:27:38(GMT+8) 
-! Total count: 386640
+! ! Version: 2026-10-09 12:43:43(GMT+8) 
+! Total count: 386653
  
 ###ADtip
 ###Ad_windows
@@ -7278,6 +7278,7 @@ $websocket,domain=wap.yushuwu.cloud
 /wxhfm.html?cid=
 /wysistat.js
 /x.gif?
+/x0k461/e6c1b/xc9
 /x_track.php?
 /xdy_yyo.php
 /xgemius.js
@@ -12809,6 +12810,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
 @@||canadiantire.tt.omtrdc.net/rest/$domain=marks.com|partycity.ca|sportchek.ca|lequipeur.com|canadiantire.ca
 @@||canarytokens.com/nest/$domain=canarytokens.com
+@@||canliradyodinle.fm/live/fm/gtag.min.js$~third-party
 @@||captcha.qq.com^*&refer=http
 @@||captcha.qq.com^*?*=*=*=$subdocument
 @@||captcha.su.baidu.com^
@@ -227791,7 +227793,6 @@ stockstar.com##.much_ad
 stockstar.com##.siteAd_l
 stockstar.com##.siteAd_r
 stockstar.com##.ss-ad-icon2
-stoneip.info###text-57
 store.immobilienscout24.de$image
 store.line.me#%#//scriptlet('remove-class', 'async-hide', 'html')
 storeemail.ag1projects.com$image
@@ -246460,6 +246461,7 @@ zzzyk.com###Tinfo
 ||analytics.truckingauthority.com^
 ||analytics.trust.page^
 ||analytics.trutv.com^
+||analytics.tsoftapps.com^
 ||analytics.tufos.com.br^
 ||analytics.turbotheorie.nl^
 ||analytics.turk.pro^
@@ -252239,6 +252241,7 @@ zzzyk.com###Tinfo
 ||bdx.playnext.cn^
 ||bdxbtv.icu^
 ||bdxoxo.libraccio.it^
+||bdxwfvlszerxbi.com^
 ||bdzcck.stadiumgoods.com^
 ||be-go.experian.com^
 ||be.contact.alphabet.com^
@@ -273469,6 +273472,7 @@ zzzyk.com###Tinfo
 ||emptyescort.com^
 ||emrdnt.sumaity.com^
 ||emrld.cc^$script
+||emrld.ltd/collect
 ||emrldtp.com/collect
 ||ems-a8net-tracking.easy-myshop.jp^
 ||ems.youku.com/event?
@@ -278928,6 +278932,7 @@ zzzyk.com###Tinfo
 ||gb.umavidaextraordinaria.com.br^
 ||gb0143odqh.com^
 ||gb3scpejq.com^
+||gb742ld0c.com^
 ||gba.kwm.com^
 ||gbcnvip15.com^
 ||gbdke.schwankgrills.com^
@@ -280005,7 +280010,8 @@ zzzyk.com###Tinfo
 ||gkupv.theconsumerdigest.org^
 ||gkuresx.com^
 ||gkvjmx3xf.com^
-||gkx.gokwik.co^
+||gkx.gokwik.co/gke/
+||gkx.gokwik.co/kp/api/v1/fp/
 ||gkxaay.tontarellishop.com^
 ||gkxeea.ssamitbeauty.com^
 ||gkxkvp.tumi.co.jp^
@@ -296022,6 +296028,7 @@ zzzyk.com###Tinfo
 ||juejin.cn/content_api/v1/advert/query_adverts?
 ||juemd.parikart.com^
 ||jufhxk.audienhearing.com^
+||juggler36.com^
 ||jugjjr.vonmaehlen.com^
 ||jugrebfi.g-heat.de^
 ||jugvl.transformationprotein.com^
@@ -307193,6 +307200,7 @@ zzzyk.com###Tinfo
 ||ma.da.daftra.com^
 ||ma.dogheroes.it^
 ||ma.fountasandpinnell.com^
+||ma.gamersnexus.net^
 ||ma.globalhma.com^
 ||ma.heatmanage.com^
 ||ma.heinemann.com^
@@ -314536,6 +314544,7 @@ zzzyk.com###Tinfo
 ||mmulsx.comet.it^
 ||mmwlwm.autoscout24.pl^
 ||mmz3.beinsports.com^
+||mn-tz.com/adv_out.js
 ||mn-tz.com^
 ||mn.answersnotexcuses.com^
 ||mn.doorsfixedfast.com^
@@ -331453,6 +331462,7 @@ zzzyk.com###Tinfo
 ||sdk.e.qq.com^
 ||sdk.fra-*.braze.eu^
 ||sdk.getlimy.ai/p/limy-analytics.min.js
+||sdk.mdznconnect.com/data-collector/
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.mrf.io^
 ||sdk.nsureapi.com/sdk.js
@@ -361806,6 +361816,7 @@ zzzyk.com###Tinfo
 ||stats.zone-telechargement.
 ||stats.zoogletools.net^
 ||stats.zotabox.com^
+||stats.zruvix.com^
 ||stats1.wpmudev.com^
 ||stats2.*.fdnames.com^
 ||stats2.agilecrm.com^$third-party
@@ -366737,7 +366748,6 @@ zzzyk.com###Tinfo
 ||techpump.com^
 ||techraptor.net/sites/default/files/google_analytics/gtag.js
 ||techrepublic.com/api/ado/
-||techritual.com/wp-content/uploads/*/HDcource_
 ||techservice.response.midmark.com^
 ||techservices.trapptechnology.com^
 ||techsolutions.com.tw/analytics.js
@@ -367395,6 +367405,7 @@ zzzyk.com###Tinfo
 ||thehill.com/6zcfGH4h/init.js
 ||thehour.com/413gkwMT/init.js
 ||theindex.moe/api/ip-info$redirect=noopjson
+||theinfatuation.com/api/logger
 ||theinformation.com/ahoy/events
 ||thejavalane.com^
 ||thejc.com/js/analytics-article.js
@@ -368758,6 +368769,7 @@ zzzyk.com###Tinfo
 ||toyotacf.net.mydays.de^
 ||toysbasics.com^
 ||toytakeover.com^
+||tp-em.cc^
 ||tp-em.com/collect
 ||tp-link.com^*/addHits.html
 ||tp.ackermann.ch^
@@ -378773,6 +378785,7 @@ zzzyk.com###Tinfo
 ||voicepins.com^
 ||voicewinds.com^
 ||void.nicopr.fr/rec$method=POST
+||voidemail.org/js/track.js
 ||voidgoo.com^
 ||voiply.actonservice.com^
 ||voipytecnologia.net.mydays.de^
