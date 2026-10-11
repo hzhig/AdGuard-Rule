@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-11 12:12:05(GMT+8) 
-! Total count: 396920
+! ! Version: 2026-10-12 01:22:33(GMT+8) 
+! Total count: 396936
  
 ###ADtip
 ###Ad_windows
@@ -13247,6 +13247,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||dcinside.com$cookie=_ga
 @@||dd.auspost.com.au/tags.js$script,~third-party
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.goflink.com.first-party-js.datadome.co^$domain=goflink.com
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
@@ -231094,6 +231095,7 @@ mrtzcmp3.net###hstp_interstitial
 ms3434.com$image
 mscbsc.com##.bao1
 mscw-guidebook.com##.plaza-ad-wrap
+mscw-guidebook.com##.qiyou-ad
 mse.360.cn##a[id^="banner"]
 msg.mg.ticketsmanager.ch$image
 msg.mg.totaalvers.nl$image
@@ -242902,6 +242904,7 @@ zzzyk.com###Tinfo
 ||1024down.com/images/*.gif
 ||1024mzs.pw^$popup,third-party
 ||1024tera.com/api/analytics?
+||1024txt.com/js/
 ||1024wanzhai.$popup,third-party
 ||1025default.cadriamarketing.com^
 ||10298198.arch.sofi.org^
@@ -243580,6 +243583,7 @@ zzzyk.com###Tinfo
 ||2u3v4w5x6y.com^
 ||2vcb9onxjm.com^
 ||2vqgtxw.cn^
+||2w7urj3f2.com^
 ||2wg8pp90e.com^
 ||2wgolxk.com^
 ||2wqs6d2gp.com^
@@ -260431,6 +260435,8 @@ zzzyk.com###Tinfo
 ||bcjhlhuhq.icu^
 ||bckue.boobiesuperfoods.com^
 ||bclicks.lyst.com^
+||bcmbmedbqx.icu^
+||bcmbmedbqx.top^
 ||bcob.charlotte.edu^
 ||bcob.uncc.edu^
 ||bcomniture.focus.de^
@@ -267319,6 +267325,7 @@ zzzyk.com###Tinfo
 ||coccoc.com/log?
 ||cochin.net.anwalt.de^
 ||cocjl.statefortyeight.com^
+||cockatielcafe.com^
 ||cockpitdcbaima.carte-gr.total.fr^
 ||cockroach.head4work.com.au^
 ||cocloud.site^
@@ -269481,6 +269488,7 @@ zzzyk.com###Tinfo
 ||crossengage.io^
 ||crosset.onward.co.jp/ajax/getExternalServiceWebTrackingTags
 ||crosspixel.net^$third-party
+||crossseasent.com^
 ||crosswalkmail.com^$third-party
 ||crow.centresustains.com^
 ||crow.claudiakeil.de^
@@ -328093,6 +328101,7 @@ zzzyk.com###Tinfo
 ||odysee.com/api/v1/metric/
 ||odysee.com/log/
 ||odysee.com/reports/
+||odzfjvbsd.com^
 ||oe-static.de^*/wws.js
 ||oe8mnxdtoi.com^
 ||oe9s24wy9.com^
@@ -331161,6 +331170,7 @@ zzzyk.com###Tinfo
 ||pbd.yahoo.com/data/analytics
 ||pbd.yahoo.com/data/logs/benji
 ||pbecrm.aquanet.ru^
+||pbeldhnbk.com^
 ||pbepj.gkelite.com^
 ||pbfas.technopriest.tv^
 ||pbgrd.com^$third-party
@@ -331371,7 +331381,9 @@ zzzyk.com###Tinfo
 ||peach-analytics.vercel.app^
 ||peach-static.ebu.io/pipe-*.min.js
 ||peachjohn.co.jp/StaffContent/assets/js/staffstart-analytics.js
+||peachring.com/new-page/js/human-verify.
 ||peachring.com/new-page/js/human-verify.js$script
+||peachring.com/popunder$popup
 ||peacocktv.com/*/tracking/
 ||peafowl.prod.fyi^
 ||peahn.modlily.com^
@@ -335018,6 +335030,7 @@ zzzyk.com###Tinfo
 ||qkbwam.innisfree.com^
 ||qkdrsi4et.com^
 ||qkdzt.gimmebeauty.com^
+||qkfywghv.com^
 ||qkg7yplpfo.com^
 ||qkhhjm.autoscout24.nl^
 ||qkinm.be-clinical.com^
@@ -374961,6 +374974,7 @@ zzzyk.com###Tinfo
 ||t2bot.ru/inc/adsCount.php
 ||t2bot.ru/nod32key/adblock-c.php
 ||t2eui.thomson.co.uk^
+||t2f3pqd40.com^
 ||t2q0gv7zjg.com^
 ||t2zfyxjj.icu^
 ||t3.cdnpure.com^
@@ -389316,6 +389330,7 @@ zzzyk.com###Tinfo
 ||vvrbtw.martinexshop.com^
 ||vvrjm.drench.co.uk^
 ||vvrlh.naturens-medicin.se^
+||vvs0eu66z.com^
 ||vvshh.bolodrinks.com^
 ||vvszccbu.rhinox-group.com^
 ||vvszccbu.rhinox-group.us^
@@ -389989,6 +390004,7 @@ zzzyk.com###Tinfo
 ||wctr.westermann-lettershop.de^
 ||wctsub.hostingcheck24.de^
 ||wctsub.start24.nl^
+||wcu79k85a.com^
 ||wcv68kw.com^
 ||wcyjcl.goodyear.com^
 ||wczhk.tymobeauty.com^
