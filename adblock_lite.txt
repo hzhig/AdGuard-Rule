@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-10-12 12:30:03(GMT+8) 
-! Total count: 32085
+! ! Version: 2026-10-13 04:56:28(GMT+8) 
+! Total count: 32107
  
 ###ADtip
 ###Ad_windows
@@ -341,6 +341,7 @@
 ##.aab-post
 ##.aasd-text
 ##.aasdwa
+##.acg-adv-show
 ##.ad-above-footer
 ##.ad-below-adjacent-post
 ##.ad-below-header-menu
@@ -725,6 +726,7 @@
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-m-overlay
 ##.popup + .shortcuts-mobile-overlay
+##.popup-banner-ad
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
@@ -788,6 +790,7 @@
 ##.toy52apparel_ALL
 ##.tp_advertising
 ##.trad3
+##.ttgg
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.txp_ad_center
@@ -1752,6 +1755,7 @@ $websocket,domain=wap.yushuwu.cloud
 .icu/biyys*.js$third-party
 .icu/pssbk?$third-party
 .in/js/ads/
+.in^$domain=wnacg.com|wn001.cfd|wn002.cfd|wnacg.ru
 .info/ad.js
 .info/ad/
 .info/js/ads/
@@ -3890,16 +3894,16 @@ $websocket,domain=wap.yushuwu.cloud
 91hs.top,hsex.men##.col-xs-12 > a[target="_blank"]
 91porn.com##.preroll-blocker
 91porn.com#@#.vjs-preroll
+91porna.com##.ad-dialog
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
 91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
+91porna.com##.dx-banner-item
 91porna.com##.h-full.swiper
+91porna.com##.modal-backdrop
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
-91porna.com,evgpopxb.cc##.ad-dialog
-91porna.com,evgpopxb.cc##.dx-banner-item
-91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com###playerJsvLayer.jsv-layer
 91porny.com##.alert
 91porny.com##.container-fluid.p-0[class*="mb-"]
@@ -6028,6 +6032,8 @@ acfun.cn##a[href^="https://click.dsp.com/"]
 acg.d1dm.top##.module-adslist + a[target="_blank"] + i.gg-icon
 acg.d1dm.top##.module-adslist + a[target="_blank"] > img
 acg17.com##.yhq
+acgcbk55.vip#?#.ajax-post:has(a[href*="/tag/%e5%b9%bf%e5%91%8a"])
+acgcbk55.vip#?#.post:has(a[title*="广告"])
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 acgfta.com##a[href^="https://ifift.com/"]
 acgking.com,dbtmn.com##.asst
@@ -9035,6 +9041,7 @@ gebi1.com###fwin_dialog
 gebi1.com###fwin_dialog_cover
 gebi1.com##.offical-account
 gelbooru.com##.noticeError
+gemini.google.com##.ng-star-inserted.mat-badge-hidden.mat-badge-small.mat-badge-after.mat-badge-above.mat-badge-overlap.mat-unthemed.mat-tonal-button.mat-badge.mat-mdc-button-base.mdc-button
 general-fil.es###sponsored
 generation-nt.com##P[style="margin:10px 18px 0;border:3px solid red;padding:10px;line-height:1.4em;font-size:14px;color:#333;"]
 generatorlinkpremium.com##.secondsky
@@ -14490,7 +14497,9 @@ view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com##.arco-carousel
 vikacg.com##.contents:has(> a[class="w-full"][href^="http"][target="_blank"] > img[src*="/assets/moonlight/"])
+vikacg.com##a[href^="http"] > img[src*="/assets/moonlight/"]
 vikacg.com##a[href^="https://acg01.com/]"]
+vikacg.com##div[role="link"] > img[src*="/assets/moonlight/"]
 vikacg.com#%#//scriptlet('json-prune', 'data.item data.ads')
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
@@ -15304,6 +15313,7 @@ ytbbs.com###dd1
 ytbbs.com##.ftop_ad_2016
 yuanbao.tencent.com##.agent-dialogue__content-qrcode
 yuanbao.tencent.com##.agent-dialogue__tool
+yuanbao.tencent.com##.download_hint__wrap
 yuanbao.tencent.com##.icon-yb-downapp
 yuanbao.tencent.com##div[class^="index_pc_download"]
 yuanbao.tencent.com#?#div.input-guide-v2-item:contains(下载)
@@ -16236,6 +16246,7 @@ zzzyk.com###Tinfo
 ||2lcdjyf37f.com^
 ||2lj9n8sz0w.com^
 ||2lpwji3xr.com^
+||2mlt7jkbob.com^
 ||2nbg86d2x.com^
 ||2nl6sgd9c.com^
 ||2nvd5j7iv0.com^
@@ -16977,6 +16988,7 @@ zzzyk.com###Tinfo
 ||6park.com^$subdocument,badfilter
 ||6pctuhriw.com^
 ||6play.fr/assets/js/vendors-3600848c1f.js$script
+||6px1vsaq0h.com^
 ||6q77vsjez1.com^
 ||6qcvth5fb.com^
 ||6ql83wy90f.com^
@@ -17308,6 +17320,7 @@ zzzyk.com###Tinfo
 ||91mjw.com/hy-66-90.php
 ||91p20.space/fans/
 ||91p20.space^
+||91porna.com/static/web/js/ad-sdk-
 ||91pz9so28w.com^
 ||91rb.com/fc/$image
 ||91rb.net/fc/
@@ -19004,6 +19017,7 @@ zzzyk.com###Tinfo
 ||bmptbyb.com^
 ||bmyrihf.icu^
 ||bmzzojmzu.com^
+||bn067lnkrb.com^
 ||bnbklsss.homes^
 ||bncqucpia.com^
 ||bnds3.site^
@@ -20051,6 +20065,7 @@ zzzyk.com###Tinfo
 ||cslbahf.top^
 ||cslpf.cn^
 ||csnsqykc0.com^
+||csom844jkc.com^
 ||cspb1.5w5w.com^
 ||css.juqingba.cn^
 ||css.mangabz.com/*/mangabz/js/mobile/newyb.js
@@ -20609,6 +20624,7 @@ zzzyk.com###Tinfo
 ||dmdcstsyv3.com^
 ||dmeia.xyz^
 ||dmfjeu.xyz^
+||dmlenpksrndflu.com^
 ||dmm.aizhan.com^
 ||dmr.cnhoney.com^
 ||dms.fx678.com^
@@ -22863,6 +22879,7 @@ zzzyk.com###Tinfo
 ||hrhojxbkc2.com^
 ||hriy.cn^
 ||hrjg.com.cn^$third-party
+||hrmwxu.com^
 ||hrngmf.com^
 ||hrro55g56.com^
 ||hrxphjcj.icu^
@@ -23470,6 +23487,7 @@ zzzyk.com###Tinfo
 ||iqshw.com/d/js/m/thea
 ||ir3f1x3aet.com^
 ||iremnazae.com^
+||irgo28nc8b.com^
 ||irp37bmmt.com^
 ||irq0ql8or.com^
 ||irr7idq6i.com^
@@ -24151,6 +24169,7 @@ zzzyk.com###Tinfo
 ||k366.com/images/smxs^
 ||k3vgy6hf7.com^
 ||k42kw.top^
+||k56y7oxb3x.com^
 ||k5705bn39u.com^
 ||k5ggua.xyz^
 ||k5qdqwgjit.com^
@@ -27675,6 +27694,7 @@ zzzyk.com###Tinfo
 ||rstqbtoqrxbvpk.com^
 ||rsvqlz.cn^
 ||rszkhn.xyz^
+||rt36a6gqfk.com^
 ||rt5x78mhcq.com^
 ||rta4z4ncsl.com^
 ||rtb.julang.taobao.com^
@@ -27793,6 +27813,7 @@ zzzyk.com###Tinfo
 ||s1.wesiedu.com^
 ||s11.cn^$third-party
 ||s11henoe9i.com^
+||s17uqjk39o.com^
 ||s1gr2198h.com^
 ||s2dcm.com^
 ||s2dln6sdu.com^
@@ -29715,6 +29736,7 @@ zzzyk.com###Tinfo
 ||vencerocasino.com/$popup
 ||venetrigni.com^
 ||venienceilo.fun^
+||ventriloquist46.com^
 ||veq8qbwjh.com^
 ||veqekuph.com^
 ||verboten84.top^
