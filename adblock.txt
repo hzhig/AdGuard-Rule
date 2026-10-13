@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-10-13 13:37:07(GMT+8) 
-! Total count: 408640
+! ! Version: 2026-10-14 02:54:33(GMT+8) 
+! Total count: 408654
  
 ###ADtip
 ###Ad_windows
@@ -41,6 +41,7 @@
 ###ad1[onclick="window.open(this.url)"]
 ###adBody07
 ###adDisabledBtn
+###adFloat
 ###adLeftFloat
 ###adRightFloat
 ###adUrl
@@ -213,7 +214,6 @@
 ###my_dp_a
 ###my_gd_a
 ###nav + .slider-spons
-###nav-home > .coment-bottom
 ###navcontainer + .moneyarea
 ###netease_mail_footer
 ###news_top_advert
@@ -228,8 +228,6 @@
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
 ###player-bottom-ads
-###playerAdvLayer
-###playerJsvLayer.jsv-layer
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
@@ -412,7 +410,6 @@
 ##.adsoho
 ##.adv-6park
 ##.adv-couplets
-##.adv-g1
 ##.advInfoElem
 ##.advert-short
 ##.advertise
@@ -469,7 +466,6 @@
 ##.bottomd > .closebox2
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 ##.broadcastMe[style="width: 1200px;"]
-##.btn.btn-success.text-white[href*=".com:"]
 ##.bus_adsbox
 ##.callApp_fl_btn[onclick^="open_app"]
 ##.cari-ads
@@ -535,7 +531,6 @@
 ##.fed-part-case > .ads-img
 ##.feed-item[data-ad]
 ##.ff-ads
-##.fixed-bottom.jsv.jsv-g1
 ##.flex-row > #propagandaLeft
 ##.flex-row > #propagandaRight
 ##.float-adv-left-bottom
@@ -625,8 +620,6 @@
 ##.jq_mediav_ad_report
 ##.jqrp_infoflow_ad
 ##.js-cui-pt-item[data-qhb]
-##.jsv > .mobile-adv
-##.jsv-layer > .image > a[href^="http"]
 ##.jtAms_container > .count_a
 ##.ksads
 ##.leftadv
@@ -1480,9 +1473,6 @@
 ##div[style^="line-height"][style*="http"][style$="fixed;"]
 ##div[style^="position"][onclick^="window.open"]
 ##div[style^="position:fixed; bottom:"][style$="vw;background: #000;opacity:0.01;"]
-##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
-##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
-##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##html.wap [style='left: 40%;']
 ##html[lang="zh-cn"] > body  > header.Mobile-Header + main > div[id][class]
 ##iframe.ad-frame
@@ -4612,7 +4602,6 @@ $websocket,domain=wap.yushuwu.cloud
 /ggpic/*
 /ggtp/*
 /ggvip/*.js
-/gh/91porny/*
 /ghost-stats.min.js
 /gigyaGAIntegration.js
 /gingeranalytics.min.js
@@ -4707,6 +4696,7 @@ $websocket,domain=wap.yushuwu.cloud
 /h.gif?
 /h/k.php?u=*&l=*&v=$third-party
 /haijiao3/*/popup.
+/hao123/card/fill
 /hao123_api/api/cpc/*
 /hawk.js
 /hawkeye.js
@@ -4883,7 +4873,6 @@ $websocket,domain=wap.yushuwu.cloud
 /index.php/Statistics/ads_show?
 /index.php/analytics/cookieAnalytics|$xmlhttprequest
 /index.track?
-/indexpc.html?agent=$popup,third-party
 /indextools.js
 /ingest/*ip=*&ver=
 /init?*&fallbackUserId=
@@ -11497,17 +11486,15 @@ $websocket,domain=wap.yushuwu.cloud
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
 91porny.com###playerJsvLayer.jsv-layer
 91porny.com##.alert
-91porny.com##.container-fluid.p-0[class*="mb-"]
-91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.com##div[data-nosnippet]:has(div.row a[href][rel^="noopener"])
 91porny.com#$##warningModal { display: none !important; }
 91porny.com#$#.modal-backdrop { display: none !important; }
 91porny.com#$#body.modal-open { overflow: auto !important; }
-91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(.video-elem>a[rel="noopener nofollow"])
-91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(>div>style)
-91porny.com,91porn.fans,91porny.org#?#.colVideoList:has(>.video-elem>.display[href^="http"])
+91porny.com,91porn.fans,91porny.org,jiuse704.com,jiuse705.com,xn--sjqr38j.com#?##main > div[class][id]:has(.video-elem>a[rel="noopener nofollow"])
+91porny.com,91porn.fans,91porny.org,jiuse704.com,jiuse705.com,xn--sjqr38j.com#?##main > div[class][id]:has(>div>style)
+91porny.com,91porn.fans,91porny.org,jiuse704.com,jiuse705.com,xn--sjqr38j.com#?#.colVideoList:has(>.video-elem>.display[href^="http"])
 91porny.com/api/getPos?jspath=/
 91rb99.com##.top
 91wenmi.com###xiezuo
@@ -14120,6 +14107,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googleoptimize.com/optimize.js$domain=inquirer.com
 @@||googleoptimize.com/optimize.js$domain=tehnomanija.rs
 @@||googleoptimize.com/optimize.js?$domain=eventim.de
+@@||googletagmanager.com/gtag/$domain=nove.tv
 @@||googletagmanager.com/gtag/$domain=oo.ai
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
@@ -14354,6 +14342,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=nordvpn.com
 @@||googletagmanager.com/gtm.js$domain=northantstelegraph.co.uk
 @@||googletagmanager.com/gtm.js$domain=northwell.edu
+@@||googletagmanager.com/gtm.js$domain=nove.tv
 @@||googletagmanager.com/gtm.js$domain=nowtv.com.tr
 @@||googletagmanager.com/gtm.js$domain=nrj-play.fr
 @@||googletagmanager.com/gtm.js$domain=nunnbush.com
@@ -18970,6 +18959,7 @@ chexun.com##.ad794
 chexun.com##.attr-outside-ad
 chexun.com##a[attr-outside-ad]
 chicagoreader.com#@#.ad-above-footer
+chigua.com##.recommend-layer
 chigua69.com##.video-list > div.video-item:has(> a[adv_id])
 china.cn###pic_banner
 china.cn##.bottom_recommend_box
@@ -234065,7 +234055,6 @@ ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
 ifooday.cn##.myzs
 ifoodie.tw##.ad-right-column-desktop
 ifoodie.tw,avtb01.com,beauty321.com,aotu43.com,csdn.net##.ads
-ifoodie.tw,pansci.asia##.ad-container
 ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
 igo.cn###NewigoBox
@@ -241336,9 +241325,18 @@ newsnow.com#%#//scriptlet('set-session-storage-item', 'pageCount', '$remove$')
 newsweekjapan.jp##.taboola-below-article-thumbnails-desktop-2-wrap
 newtalk.tw###_popIn_recommend
 newtalk.tw##.ad-half
+newtalk.tw##.app-idle-ad-overlay
+newtalk.tw##.article-end-popin
 newtalk.tw##.dable_response
 newtalk.tw##.extend_ad
+newtalk.tw##.gam-slot
+newtalk.tw##.gliaplayer-slot
+newtalk.tw##.grid > div[class^="h-"]:has(> div[id^="compass-fit-"])
+newtalk.tw##.news-article-body__ad-slot
+newtalk.tw##aside div.relative:has(> div.gam-slot)
+newtalk.tw##div[class^="min-h-"]:has(> div.gam-slot)
 newtalk.tw##div[id^="ATS_"]
+newtalk.tw,ifoodie.tw,pansci.asia##.ad-container
 newtalk.tw,phbzj.com##.ad-container
 newton.by#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 newton.by#%#//scriptlet('set-constant', 'yaCounter22339861.reachGoal', 'noopFunc')
@@ -245334,6 +245332,7 @@ rsvpify.sevensevensix.com$image
 rsvpify.skirball.org$image
 rsvpify.solve.mit.edu$image
 rtl.fr#@##bottomAd
+rtvi.com#%#//scriptlet('set-local-storage-item', 'viewer-id', '$remove$')
 ruanjianxia.com###gaosu_downloads
 ruanyifeng.com###cre
 ruanyifeng.com###gd1
@@ -252770,6 +252769,7 @@ zzzyk.com###Tinfo
 ||04cmm.com:8888/js
 ||04stream.tv/sda/
 ||0512s.com^$third-party
+||051ss3usg.com^
 ||056opui.com^
 ||0573fang.com/ads/
 ||0575bbs.com/js/float.js
@@ -253534,7 +253534,6 @@ zzzyk.com###Tinfo
 ||26sgmin39.de^
 ||26yj3wme9q.com^
 ||277txt.com/da/*.js
-||27gh.cc^$popup,third-party
 ||27ocdto914.com^
 ||28.com/count.js
 ||28.com/countnew.js
@@ -264017,6 +264016,7 @@ zzzyk.com###Tinfo
 ||analytics.ferguson.com^
 ||analytics.ferrero.com^
 ||analytics.ff.avast.com^
+||analytics.fibwatch.com^
 ||analytics.fieldbee.com^
 ||analytics.fiquipedia.es^
 ||analytics.firespring.com^
@@ -269576,6 +269576,7 @@ zzzyk.com###Tinfo
 ||awmonitor.com^
 ||awogtl.1stopbedrooms.com^
 ||awowwo.forever21.com^
+||awp8r0f7q.com^
 ||awq9r1rnlu03tlhsszc1.minos.shop^
 ||awrgkd.1000farmacie.it^
 ||aws-analytics.nmg.com.hk^
@@ -278109,6 +278110,7 @@ zzzyk.com###Tinfo
 ||commercial.equifax.com^
 ||commercial.inform.equifax.com^
 ||commet.intker.com^
+||commitlogs.com^
 ||common-api.rozetka.*/collect/
 ||common.doosanmagazine.com/js/eLogs.js$domain=allurekorea.com
 ||common.doosanmagazine.com/reciveLogs.php
@@ -281057,6 +281059,7 @@ zzzyk.com###Tinfo
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js$script,redirect=googletagservices-gpt,domain=line.me
 ||d.line-scdn.net/n/line_tag/$domain=full-count.jp
+||d.linker-network.me/viewable|
 ||d.littledinosaurs.co.nz^
 ||d.liveoptimum.co^
 ||d.livoyn.pl^
@@ -290119,6 +290122,7 @@ zzzyk.com###Tinfo
 ||dudyrv.packlinq.nl^
 ||duelf.xstanceinsoles.com^
 ||duer.ca/cdn/shopifycloud/media-analytics/
+||duetcode.com^
 ||dufbut.wtennis.com.br^
 ||dufile.com/jsa/
 ||dugout.co/das2.js
@@ -314781,6 +314785,7 @@ zzzyk.com###Tinfo
 ||jgnsrz.bannerbuzz.com.au^
 ||jgnxty.revivalrugs.com^
 ||jgo1pcbx9.com^
+||jgp0ohuv2.com^
 ||jgpo1zqhj.com^
 ||jgr.legendebikes.com^
 ||jgsajfggv.xyz^
@@ -315374,6 +315379,7 @@ zzzyk.com###Tinfo
 ||jpyts.japademy.com^
 ||jpzbjh.icu^
 ||jpzerutbe.gbt-shop.ch^
+||jq5ls14m0.com^
 ||jq82da.stieglitz.nl^
 ||jqbhtv.icu^
 ||jqcfi.cloudninehair.de^
@@ -318446,7 +318452,7 @@ zzzyk.com###Tinfo
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js
 ||lf2cgxz0b.com^
 ||lf3-data.volccdn.com/obj/data-static/log-sdk/
-||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/*/collect-rangers-$redirect=noopjs,domain=kimi.com
+||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/*/collect-rangers-$script,redirect=noopjs,domain=kimi.com|kimi.ai
 ||lf5.lefestif.ca^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lfahl.balsamhill.com^
@@ -318493,7 +318499,6 @@ zzzyk.com###Tinfo
 ||lgbdxo.azazie.com^
 ||lgcns.goldenplanet.co.kr^
 ||lgdpf.roark.com^
-||lge.co.kr/lg5-common/js/common/googleHeader.js
 ||lgecokr.api.useinsider.com^
 ||lgecqrb.com^
 ||lgforbes.akamaized.net/rtblog.php?
@@ -327313,6 +327318,7 @@ zzzyk.com###Tinfo
 ||ma.uslawns.com^
 ||ma.zoho.eu^
 ||ma1.meishij.net^
+||ma9gqw1l4.com^
 ||maaiuh.tomorrowland.co.jp^
 ||maas-*.phunware.com^
 ||mab-mob2.websearchapp.com^
@@ -343213,6 +343219,7 @@ zzzyk.com###Tinfo
 ||pixfs.net/module/fullPage/dist/ad-full-page-enter-fly.
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||pixfuture.com^$third-party
+||pixhost.to/m7v2q9/
 ||pixiedust.buzzfeed.com^
 ||piximedia.com^$third-party
 ||pixiv.net^$cookie=first_visit_datetime
@@ -346682,6 +346689,7 @@ zzzyk.com###Tinfo
 ||qy0.ru/data/game/
 ||qy0.ru/data/t/*.gif
 ||qy1.ru/data/game/
+||qy4l27p9f.com^
 ||qyatej.bocage.fr^
 ||qybjkr.mlynoliwski.pl^
 ||qydpr.naternalvitamins.com.au^
@@ -349369,6 +349377,7 @@ zzzyk.com###Tinfo
 ||rtumdhdk.xyz^
 ||rtumwzp.icu^
 ||rtvfg.piifox.com^
+||rtvi.com^$cookie=install_id
 ||rtvision.actonservice.com^
 ||rtwvcb.kissmyketo.com^
 ||rtxfpe.trtltravel.com^
@@ -393704,6 +393713,7 @@ zzzyk.com###Tinfo
 ||tracking.brevant.com^
 ||tracking.brgeneral.org^
 ||tracking.brice.fr^
+||tracking.broadpeak.io^
 ||tracking.bt-blue.com^
 ||tracking.bugece.co^
 ||tracking.buhl.de^
@@ -396921,6 +396931,7 @@ zzzyk.com###Tinfo
 ||turbotargeting.io^
 ||turbovpn.com/api/mms/analytics/v1/events|
 ||turcailnt.com^
+||turizmguncel.com/api/track|
 ||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
 ||turkey.tella.tv^
 ||turkiyegazetesi.com.tr/item/hit?
@@ -399692,6 +399703,7 @@ zzzyk.com###Tinfo
 ||vdo3c.org^
 ||vdoing.com^$third-party
 ||vdolytics.vdo-shop.com^
+||vdrama.fans/js/vd-analytics.js
 ||vdrebz.kathmandu.com.au^
 ||vdrfes.site^
 ||vdrfga.deagoshop.ru^
@@ -402973,6 +402985,7 @@ zzzyk.com###Tinfo
 ||windbeetle.com^
 ||windflamesky.com^
 ||windows.net/732d.js
+||windowspro.de/stats/
 ||windowspro.de/stats/mto.js
 ||windowszj.net/d/js/list/click
 ||windsurf-telemetry.codeium.com^
@@ -404922,6 +404935,7 @@ zzzyk.com###Tinfo
 ||x6kd8l204b.com^
 ||x6m3p5.musiqa.pl^
 ||x7.adr.ia.br^
+||x70wk5e54.com^
 ||x7qhjjryf1.com^
 ||x7weiubb2f.com^
 ||x8.cho-chin.com^
